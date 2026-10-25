@@ -1,0 +1,47 @@
+{
+  "id": "1972_sees_acq",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "$25 million whole-company purchase through Blue Chip; exact percentage of available cash unknown",
+  "first_action_date": null,
+  "disclosure_date": null,
+  "reason_class": null,
+  "opportunity_template": [
+    "B1",
+    "B4"
+  ],
+  "catalyst_role": "R3",
+  "decider": "Buffett",
+  "size_basis": "cash",
+  "drivers": [
+    {
+      "driver": "The brand provided durable competitive advantage and pricing power rather than merely cheap physical assets.",
+      "source": "https://www.berkshirehathaway.com/letters/2014ltr.pdf (2015-02-27; hindsight explanation)",
+      "quote": "a broad and durable competitive advantage that gave it significant pricing power"
+    },
+    {
+      "driver": "Earnings of about $2 million on $8 million tangible assets demonstrated economic goodwill.",
+      "source": "https://www.berkshirehathaway.com/letters/1983.html (1984-03-14; hindsight explanation)",
+      "quote": null
+    },
+    {
+      "driver": "Growth in earnings required relatively little incremental operating capital.",
+      "source": "https://www.berkshirehathaway.com/letters/2007ltr.pdf (2008-02-29; hindsight explanation)",
+      "quote": null
+    },
+    {
+      "driver": "Paying for quality was justified even though the price exceeded Buffett's old tangible-asset anchor.",
+      "source": "https://www.berkshirehathaway.com/letters/2014ltr.pdf (2015-02-27; hindsight explanation)",
+      "quote": "My misguided caution could have scuttled a terrific purchase."
+    }
+  ],
+  "entry_valuation_stated": "Approximately 6x reconstructed pretax earning power and >3x tangible operating capital; entry-period rounding is not exact audited trailing data.",
+  "outcome_note": "Long-term cash generator; later letters describe large cumulative distributions with little incremental capital. Hindsight economics are not a January forecast.",
+  "sources": [
+    "https://www.berkshirehathaway.com/letters/2014ltr.pdf (2015-02-27; hindsight explanation)",
+    "https://www.berkshirehathaway.com/letters/1983.html (1984-03-14; hindsight explanation)",
+    "https://www.berkshirehathaway.com/letters/2007ltr.pdf (2008-02-29; hindsight explanation)",
+    "Historical seller-information reconstruction; Berkshire annual-letter acquisition-history and economic-goodwill accounts (underlying pre-purchase figures only; reporting-period uncertainty retained)"
+  ],
+  "pack_quality_notes": "January 3 exact signing/settlement unverified. Original seller financials and Blue Chip cash unavailable. Rounded entry figures have reporting-period uncertainty; deliberately exclude full-year 1972 table. Book references and original deal agreement missing."
+}

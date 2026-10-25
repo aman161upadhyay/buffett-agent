@@ -1,0 +1,48 @@
+{
+ "trade_id": "2011_ibm_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Enterprise IT departments have sticky supplier relationships verified through Berkshire subsidiaries → By weaving its services, middleware, and systems into the fabric of its customers' businesses, the company creates a sticky, long-term relationship that is difficult for any competitor to break",
+   "Capital allocation respected continuing owners → By reducing the share count from 1,556 million to 1,288 million over the past four years, they have effectively increased the ownership stake of remaining shareholders without relying on external financing"
+  ],
+  "missed": [
+   "Management laid out a roadmap and delivered on it.",
+   "Business earnings and repurchases were preferable to near-zero cash or low-yield bonds."
+  ],
+  "extra_agent_drivers": [
+   "The company maintains exceptional economics with a 66.8% return on equity and robust net income growth."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company maintains exceptional economics with a 66.8% return on equity",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "reducing the share count from 1,556 million to 1,288 million between 2006 and 2010",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 15,
+  "cited": 13,
+  "share": 0.87
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "By weaving its services, middleware, and systems into the fabric of its customers' businesses, the company creates a sticky, long-term relationship that is difficult for any competitor to break [D01].",
+ "grader_notes": "The agent correctly identified the 'sticky' relationships and capital allocation/repurchases as key drivers. However, the agent's sizing (5%) differs from Buffett's high-conviction $10B+ purchase, and it missed the explicit comparison of earnings yield to bond yields and the qualitative assessment of the management roadmap mentioned in the answer key.",
+ "run": "2011_ibm_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

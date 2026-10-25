@@ -1,0 +1,54 @@
+{
+ "trade_id": "ctl_2022_meta_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned per parent 13F history in the tested window; no public comment explaining this nonpurchase.",
+   "No Facebook or Meta position in the 2010–Q2 2026 parent 13F census.",
+   "Economic and valuation objections are analyst-reconstructable discipline tests, not authenticated issuer-specific Buffett statements."
+  ],
+  "extra_agent_drivers": [
+   "deteriorating core franchise economics",
+   "deteriorating pricing power",
+   "speculative metaverse spending concerns",
+   "high capital expenditure uncertainty"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Meta is facing an 18% decline in average ad prices",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "operating margins have contracted sharply to 20%",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "planned capital expenditure of $34-39 billion",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 7,
+  "share": 0.5
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We do not need to hit home runs on every pitch, and in the case of Meta, we find it far more prudent to remain on the sidelines [D01, D08].",
+ "grader_notes": "The agent reached the correct decision (PASS) but failed the reasoning test completely. It constructed a detailed analyst-style fundamental bear thesis, whereas the actual Buffett 'rationale' is strictly limited to the absence of the stock in the 13F filings and the lack of any authenticated public refusal or specific investment commentary. The agent treated reconstructed analyst data as Buffett's own reasoning.",
+ "run": "ctl_2022_meta_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

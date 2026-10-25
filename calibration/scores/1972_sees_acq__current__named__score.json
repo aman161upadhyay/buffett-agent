@@ -1,0 +1,58 @@
+{
+ "trade_id": "1972_sees_acq",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "The brand provided durable competitive advantage and pricing power rather than merely cheap physical assets. → While the market frets over labor and occupancy expenses, it overlooks the powerful pricing power inherent in the See's name, which allows the business to pass inflationary costs through to its loyal customer base [D01], [D05].",
+   "Earnings of about $2 million on $8 million tangible assets demonstrated economic goodwill. → The economics of the business are exceptional, requiring only $7–8m in net tangible operating capital to generate substantial earnings [D02].",
+   "Growth in earnings required relatively little incremental operating capital. → We anticipate a strong long-term return on our investment, supported by the business's ability to compound value with minimal additional capital [D02]."
+  ],
+  "missed": [
+   "Paying for quality was justified even though the price exceeded Buffett's old tangible-asset anchor."
+  ],
+  "extra_agent_drivers": [
+   "Comparison to long-term bond yield of 5.94%."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The whole company is available for $25m, offering a pre-tax earnings yield of 16% against a long bond yield of 5.94%.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "See's possesses a durable consumer franchise with high pricing power, allowing the business to pass on inflationary costs to customers.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business consistently generates a 25–29% return on tangible capital with minimal capital requirements.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market misunderstands See's as a regional commodity, failing to value the strength of its brand and its ability to compound capital.",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 14,
+  "share": 1
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "While the market frets over labor and occupancy expenses, it overlooks the powerful pricing power inherent in the See's name, which allows the business to pass inflationary costs through to its loyal customer base [D01], [D05].",
+ "grader_notes": "The agent correctly identified the core economic drivers of See's Candies, specifically the pricing power and the efficiency of capital usage. It matched Buffett's qualitative assessment of the business model. It did not explicitly frame the deal as an overcoming of a 'tangible-asset anchor' mindset, which was the final driver in the key.",
+ "run": "1972_sees_acq__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

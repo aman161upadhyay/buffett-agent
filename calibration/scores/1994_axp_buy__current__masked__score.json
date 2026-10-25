@@ -1,0 +1,49 @@
+{
+ "trade_id": "1994_axp_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Berkshire enlarged a familiar franchise investment rather than repeating the original salad-oil trade.",
+   "Long experience with the company and products helped evaluate business quality.",
+   "Common ownership offered continuing business participation distinct from the preferred's contractual economics."
+  ],
+  "extra_agent_drivers": [
+   "Insufficient margin of safety at current valuation",
+   "Company is in the midst of a turnaround from being an unfocused conglomerate",
+   "Capital better deployed elsewhere",
+   "Overall business burdened by organizational complexity"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The travel-related services segment maintains a 23.8% return on equity",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company values at $26.50",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 6,
+  "share": 0.55
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We will continue to watch the execution of the turnaround, but we pass on initiating a new position at this price [D04, D08].",
+ "grader_notes": "The agent correctly identified the company as a strong franchise, matching Buffett's sentiment on business quality. However, it failed to recognize the opportunity as an enlargement of an existing familiar franchise, instead focusing on short-term valuation and turnaround execution risks, which led to a 'PASS' decision instead of the actual 'BUY'.",
+ "run": "1994_axp_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

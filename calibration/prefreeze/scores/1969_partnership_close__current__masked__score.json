@@ -1,0 +1,53 @@
+{
+ "trade_id": "1969_partnership_close",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Quantitative opportunities had largely disappeared at the capital scale now required. → At our current scale, we require ideas that can move the needle—meaning commitments of approximately $3 million or more.",
+   "Buffett would not play an unfamiliar speculative game merely to preserve his record. → We have moved from a period of finding abundant, undervalued securities to one where the market is dominated by speculative, performance-oriented participants.",
+   "The attempt to reduce effort without stopping had failed. → Attempting to force investments in this climate would likely require abandoning our core competence or accepting substandard returns."
+  ],
+  "missed": [
+   "He refused to grope for luck with partners' money."
+  ],
+  "extra_agent_drivers": [
+   "The spread between equity earnings yields and bond yields is negative, indicating equities are unattractive."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "market increasingly dominated by performance-oriented and speculative methods",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The Partnership face a scarcity of suitable individual investment opportunities at scale",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Broad-market earnings yield (5.75%) is lower than the US 10-year Treasury yield (6.56%)",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 7,
+  "share": 0.88
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Consequently, the most prudent path for our partners is to return capital rather than persist with a strategy that has lost its footing [D05], [D08].",
+ "grader_notes": "The agent correctly identified the decision to liquidate and mirrored Buffett's core rationale regarding the scarcity of opportunities at scale and the unwillingness to engage in a speculative game. While the agent added a macro yield-spread argument not explicitly listed as a primary driver in the answer key, the key drivers were substantially represented.",
+ "run": "1969_partnership_close__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "SELL_DOWN",
+ "agent_decision": "SELL_DOWN",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

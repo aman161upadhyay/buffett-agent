@@ -1,0 +1,53 @@
+{
+ "trade_id": "2008_buy_american_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Fear created attractive long-term prices for sound American businesses. → We are currently observing a period of intense market fear where the price of assets has disconnected from their long-term ability to generate distributable cash."
+  ],
+  "missed": [
+   "A bad near-term economy does not identify the market's turning point.",
+   "Cash equivalents protect nominal balances but risk purchasing power over time."
+  ],
+  "extra_agent_drivers": [
+   "The spread between normalized earnings yields and long-term interest rates has widened to a level that historically offers a significant margin of safety.",
+   "Berkshire's mandate remains focused on ownership of businesses with durable competitive advantages, which are now available at valuations providing a high margin of safety."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The spread between normalized earnings yields and long-term interest rates has widened.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Record VIX levels.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Berkshire's mandate remains focused on ownership of businesses with durable competitive advantages.",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 6,
+  "cited": 1,
+  "share": 0.17
+ },
+ "state": "PARTIAL",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We are currently observing a period of intense market fear where the price of assets has disconnected from their long-term ability to generate distributable cash.",
+ "grader_notes": "The agent correctly matched the investment direction but focused heavily on quantitative valuation metrics and earnings yields, which were not cited as primary drivers by Buffett in the provided source. While the agent correctly identified the role of market fear, it failed to capture Buffett's specific rationale regarding the risk to purchasing power of cash or the irrelevance of near-term economic conditions to market timing. The agent also incorrectly framed the action as a Berkshire-wide corporate mandate rather than the personal account action specified in the key.",
+ "run": "2008_buy_american_stance__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY_BROADLY",
+ "agent_decision": "BUY_BROADLY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

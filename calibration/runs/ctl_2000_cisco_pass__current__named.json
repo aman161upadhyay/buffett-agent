@@ -1,0 +1,265 @@
+{
+ "pack": "ctl_2000_cisco_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2000-03-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Cisco Systems supplies routers and switches essential for routing Internet traffic and corporate data [D01]. It operates as a commercially established infrastructure provider, utilizing an installed network, channel relationships, and broad product line to maintain compatibility and drive repeat purchases [D01].",
+   "products_customers_and_why_they_buy": [
+    "Routers and switches sold to enterprise, service-provider, and smaller-business customers [D01, D03].",
+    "Customers purchase based on product performance, compatibility, reliability, and support; existing administrators and software familiarity encourage hardware replacement and repeat purchases [D01, D06]."
+   ],
+   "economics": [
+    "Margins: not in pack.",
+    "Return on equity/tangible capital: not in pack.",
+    "Capital intensity: business must keep engineering or acquiring the next product family; high recurring R&D and acquisition activity [D05, D06].",
+    "Owner-earnings inputs: GAAP net income was $825 million for Q2 FY2000; pro-forma income of $906 million excludes purchased in-process R&D, acquisition costs, goodwill, and intangible amortization [D01, D03].",
+    "Pricing history: not in pack."
+   ],
+   "earnings_record": [
+    "Fiscal Q2 revenue of $4.35 billion (up 53%); six-month revenue $8.26 billion (up 52%) [D01, D03].",
+    "Q2 GAAP net income of $825 million ($0.23/share) vs $282 million ($0.08/share) in prior year [D01, D03].",
+    "Comparability is complicated by seven recent acquisitions and pooling of interests accounting [D01, D03]."
+   ],
+   "competitive_position": [
+    "Rank/Share: dominant supplier of routers and switches [D01, D03].",
+    "Moat: installed network, trained administrators, and channel relationships provide compatibility advantages [D01, D06].",
+    "Peers: Lucent, Nortel, Juniper [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Debt/Cash/Leverage: not in pack.",
+    "Float: not in pack.",
+    "Refinancing needs: not in pack."
+   ],
+   "management_and_capital_allocation": [
+    "CEO tenure and record: not in pack.",
+    "Candour: not in pack.",
+    "Buybacks/dividends/acquisitions: company aggressively uses acquisitions to fill product gaps; announced two-for-one stock split [D01, D03].",
+    "Insider ownership: not in pack.",
+    "Incentives: not in pack."
+   ],
+   "price_and_valuation": [
+    "Price: Approximately $131.69 per share (split-adjusted basis) as of 2000-03-01 [D04].",
+    "Market cap: Approximately $450.54 billion [D04].",
+    "P/E: Approximately 143.1× (GAAP annualized) or 131.7× (pro-forma annualized) [D04].",
+    "P/B: not in pack.",
+    "Earnings yield vs long bond: not in pack.",
+    "Drawdown: 52-week range approximately $47.00–$139.00 [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "Pack does not provide a verified entry earnings yield or maintenance capex to calculate owner earnings; quarterly mechanical annualization is used as a benchmark [D02, D04, D05]."
+   },
+   "what_the_market_is_worried_about": [
+    "Rapid technological change requiring constant R&D or acquisitions [D05].",
+    "Demand for bandwidth may not ensure stable vendor profit share [D05].",
+    "Accounting complexity from pooling restatements and R&D exclusions [D05].",
+    "Risk of competitive compression or capital-spending slowdown [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2000-02-08: Reported Q2 earnings and announced two-for-one stock split [D07].",
+    "2000-02-22: Split record date [D07]."
+   ],
+   "berkshire_context": [
+    "1998 annual report lists $37.49 billion market value of common stocks [D08].",
+    "Portfolio includes Coca-Cola, American Express, and Gillette [D08].",
+    "New investments must compete with existing portfolio opportunities and preserve liquidity for whole-business purchases [D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Company-wide debt levels, maintenance capex requirements, normalized owner earnings, and current balance sheet cash/liquidity position."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business faces rapid technological change and requires constant R&D or acquisitions to maintain its product line, making long-term stability difficult to predict [D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While the company has an installed network and channel relationships that encourage repeat purchases, the industry structure and competitive compression risks remain significant [D01, D05, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "UNSURE",
+     "evidence": "While growth is high, comparability is complicated by frequent acquisitions and pooling of interests accounting, making the core performance record difficult to isolate [D01, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "The fact sheet does not provide information on ROE or debt levels [D01, D03, D06]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is capital-intensive, requiring heavy, recurring R&D and acquisition activity to stay competitive [D05, D06]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management relies heavily on acquisitions to fill product gaps, and the pack lacks specific data on candor or capital allocation discipline [D01, D03, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market cap of approximately $450.54 billion, the company is large enough to impact Berkshire's portfolio [D04]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "At a P/E of over 130x, the current price is not supported by a sufficient pre-tax earnings yield relative to long bond benchmarks [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 3,
+   "n_unsure": 4,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a capital-intensive technology company in a rapidly changing field where the long-term competitive position is difficult to forecast."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is currently pricing Cisco based on extreme growth expectations, ignoring the high capital intensity and technological obsolescence risks inherent in the industry [D05, D06]. We see no margin of safety at a P/E over 130x, and the aggressive use of acquisitions to maintain product relevance makes it impossible to determine the underlying economics or owner earnings [D01, D03, D04].",
+   "evidence": [
+    "P/E ratio is approximately 143.1x GAAP annualized [D04]",
+    "Business requires constant R&D or acquisitions to remain competitive [D05, D06]",
+    "Accounting for earnings is complicated by pooling of interests and frequent acquisitions [D01, D03]"
+   ],
+   "market_narrative_we_disagree_with": "The market assumes that dominant share in internet infrastructure today guarantees long-term, stable, and high-margin earnings despite the need for relentless R&D and acquisition-led growth [D01, D05].",
+   "what_must_be_true": [
+    "The company must prove it can transition from an acquisition-dependent growth model to a self-sustaining franchise with durable margins.",
+    "The technological landscape must stabilize enough to allow for a predictable multi-decade earnings stream.",
+    "The price must reach a level that provides a meaningful margin of safety relative to normalized owner earnings."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "not in pack; pro-forma earnings are $0.23/share per quarter [D01, D03]",
+   "initial_pretax_yield_pct": 0.7,
+   "intrinsic_value_range": {
+    "low": "not estimable",
+    "high": "not estimable",
+    "key_assumptions": [
+     "High technological obsolescence risk [D05, D06]",
+     "Capital-intensive acquisition-led growth [D01, D05]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "price is extreme relative to any conservative earnings estimate; no margin of safety [D04, D05]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "T-bills or existing holdings; Cisco fails to meet the criteria for a durable business with predictable owner earnings [D08]",
+   "downside_case": "Permanent loss of capital if technological leadership shifts or if acquisition-led accounting masks a lack of true economic profitability [D05, D06]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Maintenance capex is unknown",
+    "Normalization of earnings is impossible due to acquisition activity",
+    "Long bond yield not provided in pack"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Long-term business compounding of owner earnings [D08]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in the 1980-1999/2000 era, Berkshire operates as a permanent investor seeking businesses that compound value over time, rather than seeking control or short-term arbitrage [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Technological obsolescence due to rapid industry innovation [D05]",
+    "Failure of the acquisition-led growth strategy to translate into sustained owner earnings [D05, D06]",
+    "Competitive compression from rivals like Lucent, Nortel, or Juniper [D06]"
+   ],
+   "berkshire_constraints": "New investments must compete with existing opportunities like Coca-Cola, American Express, and Gillette, while preserving liquidity for whole-business purchases [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed in existing high-conviction holdings or held in cash given the extreme P/E and lack of margin of safety [D04, D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "Cisco falls outside the circle of competence for a business with predictable long-term economics given its reliance on constant R&D and acquisitions.",
+   "biggest_risk_in_one_sentence": "The company requires relentless capital reinvestment to maintain a competitive position in a volatile industry, making a permanent loss of capital highly likely at current valuations."
+  }
+ },
+ "final": {
+  "as_of_date": "2000-03-01",
+  "company": "Cisco Systems",
+  "ticker": "CSCO",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not estimable",
+   "initial_pretax_yield_pct": 0.7,
+   "intrinsic_value_range": "not estimable",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital due to technological obsolescence and inability to normalize earnings."
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at an extreme valuation with a P/E ratio of over 130x, offering an initial pre-tax yield of less than 1% against market benchmarks [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The business model is highly capital-intensive, requiring relentless R&D and acquisition activity to remain competitive, which precludes the stable, predictable owner earnings we seek [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The accounting for earnings is obscured by frequent acquisitions and pooling of interests, making it impossible to determine the true underlying economic profitability [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Rapid industry innovation creates a high risk of technological obsolescence, placing the company outside our circle of competence for long-term investments [D05, D06].",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Technological obsolescence due to rapid industry innovation [D05]",
+   "Failure of the acquisition-led growth strategy to translate into sustained owner earnings [D05, D06]",
+   "Competitive compression from rivals like Lucent, Nortel, or Juniper [D06]"
+  ],
+  "what_would_change_our_mind": "Evidence that the company can transition from an acquisition-dependent growth model to a self-sustaining franchise with predictable, durable margins, combined with a valuation that provides a significant margin of safety.",
+  "memo": "Cisco Systems acts as a primary provider of routers and switches for internet infrastructure [D01]. While the company maintains a dominant market share and benefits from an installed base of users, we find the long-term economics difficult to evaluate [D01, D05].\n\nThe business is capital-intensive and requires constant R&D and frequent acquisitions to survive [D05, D06]. Unlike the franchises we prefer, which generate significant owner earnings with little incremental capital, Cisco's growth is heavily tied to constant reinvestment and complex accounting practices [D01, D03].\n\nManagement has been aggressive in using acquisitions to fill product gaps, a strategy that clouds our ability to assess true, long-term capital allocation discipline [D01, D05]. We have no data to suggest this will create durable value for shareholders over the next few decades [D05].\n\nAt a P/E ratio of over 130x, the company is priced for perfection, offering a pre-tax yield far below what we require [D04]. Paying this price for a business in an industry defined by rapid technological change invites the very real risk of a permanent loss of capital [D04, D05].\n\nWe prefer to hold cash rather than deploy it into businesses where we cannot forecast the earnings stream with high confidence [D08]. Cisco does not fit our criteria for a wonderful business at a fair price, and we will continue to look elsewhere for opportunities [D08].",
+  "uncited_claims": []
+ }
+}

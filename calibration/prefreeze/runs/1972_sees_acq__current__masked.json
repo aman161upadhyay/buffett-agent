@@ -1,0 +1,237 @@
+{
+ "pack": "1972_sees_acq",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "1972-01-03",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a West Coast producer and retailer of boxed chocolates with a strong California reputation [D01]. It operates over 150 shops and offers more than 60 candy varieties [D03].",
+   "products_customers_and_why_they_buy": [
+    "Boxed chocolates purchased for consumption and gifting [D01, D02, D03, D05, D06, D07, D08, D09]; reliability of quality and an established local name are important for gift-giving [D01, D02, D03, D05, D06, D07, D08, D09]"
+   ],
+   "economics": [
+    "Margins: Pretax earnings approximately $4–4.2 million on roughly $29–30 million in sales (13–14.5% pretax margin) [D02, D03, D06, D09]; returns on tangible capital: approximately 25–29% after-tax [D02]; capital intensity: involves inventory, shop staffing, and maintaining product freshness [D01, D02, D03, D05, D06, D07, D08, D09]"
+   ],
+   "earnings_record": [
+    "FY1971 revenue was just over $28 million [D02, D03, D06]; pre-purchase annual earning scale estimated at approximately $4–4.2 million pretax and $2 million after-tax [D02, D03, D09]"
+   ],
+   "competitive_position": [
+    "Strong California reputation [D01]; operates over 150 shops [D03, D06]; industry is fragmented with few candy makers exceeding $50 million in annual sales [D06]; moat evidence includes durable customer relationships and established local name, though regional recognition may not transfer [D01, D02, D03, D05, D06, D07, D08, D09]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Net tangible operating capital estimated at $7–8 million [D02, D03, D09]; full balance sheet and debt/leverage figures not available [D02, D03, D09]"
+   ],
+   "management_and_capital_allocation": [
+    "Current management is the operating manager to evaluate for continuity [D01]; candor and specific incentive details not in pack"
+   ],
+   "price_and_valuation": [
+    "Proposed price: $25 million [D04, D07, D09]; P/E: approximately 12.5x [D04]; price/pretax earnings: 6.0–6.25x [D04, D09]; price/tangible operating capital: 3.1–3.6x [D04, D09]; earnings yield: ~8% [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Premium over tangible assets may not be justified [D05]; ingredient, wage, and occupancy cost inflation may absorb price increases [D05]; expansion outside California may be costly [D05]; seasonal nature creates financing and inventory challenges [D05]"
+   ],
+   "deal_terms_if_any": [
+    "Negotiated purchase price of $25 million [D04, D07, D09]"
+   ],
+   "recent_events": [
+    "Negotiations and evaluation ongoing as of 1972-01-03 [D07]"
+   ],
+   "berkshire_context": [
+    "Contemplated buyer is the Company, a separately capitalized company associated with Buffett and Munger [D08]; Munger's role in evaluating quality is part of context [D08]; exact cash position and existing Berkshire portfolio weight not in pack [D08]"
+   ],
+   "document_conflicts": [
+    "None identified; variations in figures are due to rounded, reconstructed estimates rather than conflicting sources"
+   ],
+   "missing_data": [
+    "Audited fiscal year statements, exact debt and cash balances, detailed share count, dividends, and full-year earnings record"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The business sells boxed chocolates, a simple, non-technological product with enduring consumer demand for gifting [D01, D02, D03]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "It possesses a strong regional reputation in California and loyal customer relationships which act as a local moat [D01, D03, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "The company demonstrates a stable earnings scale of $4-4.2 million pretax on $29-30 million in sales [D02, D03, D06, D09]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The business achieves excellent returns on tangible capital of approximately 25-29% after-tax [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "It generates high returns on relatively low tangible operating capital of $7-8 million [D02, D03, D09]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "The current operating manager is being evaluated, but specific evidence of candor and capital allocation mentality is not provided in the pack [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "The size is not explicitly benchmarked against Berkshire's 1972 portfolio requirements, necessitating a deputy-style classification [D08]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The business is available at 6.0-6.25x pretax earnings, which significantly exceeds a 10% earnings yield hurdle [D04, D09]."
+    }
+   },
+   "conflicts_resolved": [
+    "Variations in revenue/earnings figures are noted as rounded estimates rather than conflicts [D02, D03, D06, D09]"
+   ],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": true,
+   "one_line_business_quality_verdict": "a regional consumer franchise with high returns on capital and a strong brand niche"
+  },
+  "gate2": {
+   "templates": [
+    "B1"
+   ],
+   "why_available": "The market views this as a regional business facing inflationary pressures on ingredients and wages, leading to skepticism regarding its ability to maintain margins [D05]. We disagree, as the company's strong local brand and reliable reputation for gifting provide a durable competitive advantage that allows it to pass on costs and sustain high returns on capital [D01, D05, D06]. The value will be realized through the compounding of its high-return cash generation over time [D02].",
+   "evidence": [
+    "Regional consumer franchise with strong brand niche and over 150 locations [D01, D03, D06]",
+    "Excellent returns on tangible capital of 25–29% after-tax [D02]",
+    "Available at an attractive 6.0–6.25x pretax earnings multiple [D04, D09]"
+   ],
+   "market_narrative_we_disagree_with": "The market is concerned that the premium over tangible assets is unjustified due to potential margin compression from inflation and the difficulty of expanding beyond the California market [D05].",
+   "what_must_be_true": [
+    "The regional brand preference remains resilient to inflationary cost pressures",
+    "Operating management can maintain the current level of profitability and efficiency",
+    "Capital intensity remains low, allowing for high reinvestment returns"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "Not applicable; evaluating whole business [D04, D09]",
+   "initial_pretax_yield_pct": 16,
+   "intrinsic_value_range": {
+    "low": "$25 million",
+    "high": "$30 million",
+    "key_assumptions": [
+     "Pretax earnings of $4.1 million [D02, D09]",
+     "Maintenance capital requirements estimated at parity with D&A [D02]",
+     "Sustainability of 25-29% ROIC [D02]"
+    ],
+    "discount_rate_used": "6% (assumed long-term government bond rate proxy [D09])"
+   },
+   "price_vs_value": "100% of low-end value; provides margin of safety via low 6x pretax multiple [D04, D09]",
+   "expected_return_pct": {
+    "base": 15,
+    "bear": 8,
+    "bull": 20
+   },
+   "alternatives": "T-bills / existing holdings; business provides higher immediate earnings yield (16% pretax) than current bond yields [D04, D09]",
+   "downside_case": "Margin compression from inflation resulting in lower returns on capital; unlikely to result in permanent loss given the brand's local dominance and low capital intensity [D02, D05]",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Long-term government bond rate assumed at 6% per prevailing 1972 context [D09]",
+    "Maintenance capital spending assumed to equal D&A due to lack of detailed capex records [D02]"
+   ]
+  },
+  "gate4": {
+   "role": "R3",
+   "role_description": "Buy 80-100% of the business to own a productive asset, leaving established management in place while directing surplus cash flow to Omaha for redeployment [D01, D07, D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "The business compounds internally through high returns on tangible capital [D02], with excess cash flow remitted to the parent company for superior capital allocation [D08]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the early 1970s, our strategy is to acquire wonderful businesses with durable competitive advantages and strong management at fair prices to serve as permanent homes for our capital [D01, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Inflationary pressures on ingredients and wages permanently compress margins below 10%",
+    "The brand fails to command local loyalty, resulting in loss of pricing power against generic competitors",
+    "Management fails to maintain efficient shop operations or product quality standards",
+    "Expansion attempts outside the core California market dilute returns on capital"
+   ],
+   "berkshire_constraints": "The acquisition price of $25 million must be evaluated against available cash balances and the ability to maintain our financial strength [D08].",
+   "size_pct_nav": {
+    "initial": 100,
+    "target": 100,
+    "max": 100,
+    "basis": "whole company"
+   },
+   "opportunity_cost": "Capital could be deployed into existing holdings or short-term T-bills; however, this acquisition provides a 16% pretax earnings yield on tangible capital, superior to passive alternatives [D04, D09].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "As a whole-company acquisition of a consumer franchise at a reasonable price, this falls squarely within my direct remit.",
+   "biggest_risk_in_one_sentence": "The primary risk is that structural inflation in labor and raw materials may permanently erode the company's margins if consumer resistance prevents necessary price increases [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "1972-01-03",
+  "company": "the Company (XXX)",
+  "ticker": "N/A",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 100,
+  "size_basis": "whole company",
+  "opportunity_template": [
+   "B1"
+  ],
+  "catalyst_role": "R3",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "$4.1 million pretax",
+   "initial_pretax_yield_pct": 16,
+   "intrinsic_value_range": "$25 million - $30 million",
+   "expected_return_pct": 15,
+   "downside_case": "Margin compression from inflation resulting in lower returns on capital, though buffered by brand strength."
+  },
+  "drivers": [
+   {
+    "driver": "A strong regional consumer franchise with over 150 locations and a durable reputation for quality in gifting [D01, D03, D06].",
+    "citations": [
+     "D01",
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Excellent returns on tangible capital of 25-29% after-tax with low capital intensity [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "Compelling acquisition price of 6.0-6.25x pretax earnings, providing a 16% pretax earnings yield [D04, D09].",
+    "citations": [
+     "D04",
+     "D09"
+    ]
+   },
+   {
+    "driver": "A steady historical earning power of $4-4.2 million pretax, which provides a significant margin of safety [D02, D03, D09].",
+    "citations": [
+     "D02",
+     "D03",
+     "D09"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Inflationary pressures on ingredients and wages permanently compress margins below 10%",
+   "The brand fails to command local loyalty, resulting in loss of pricing power against generic competitors",
+   "Management fails to maintain efficient shop operations or product quality standards",
+   "Expansion attempts outside the core California market dilute returns on capital"
+  ],
+  "what_would_change_our_mind": "Evidence that structural inflation in raw materials and labor cannot be offset by price increases, leading to a permanent decline in the company's high returns on capital.",
+  "memo": "We have reached an agreement to acquire this regional leader in boxed chocolates, a business that fits our criteria for a wonderful company at a fair price [D01, D07]. The company operates over 150 shops and has built a resilient brand name through a consistent focus on quality, which is the primary driver for its loyal gifting customer base [D01, D03, D06].\n\nEconomically, the business is a standout, generating pretax earnings of approximately $4-4.2 million on a stable sales base of $29-30 million [D02, D03, D09]. The returns on tangible capital are exceptional, ranging between 25% and 29% after-tax, while maintaining a very light capital-intensive footprint [D02].\n\nWe expect to keep existing operating management in place to maintain the operational standards that have fostered this success [D01, D07]. Our role will be to provide a home for the business and redeploy the surplus cash flow it generates to other high-return opportunities within our broader group [D08].\n\nMr. Market currently undervalues this business due to concerns about inflationary pressures on ingredients and wages, and the difficulty of expanding beyond its home state [D05]. We believe the brand's pricing power and the company's established reputation are more than sufficient to absorb these pressures [D01, D06].\n\nAt a purchase price of $25 million, we are acquiring the business at roughly 6x pretax earnings, which represents a 16% initial pretax earnings yield [D04, D09]. This compares favorably to current bond yields and provides a comfortable margin of safety against our intrinsic value estimate of $25-30 million [D04, D09].\n\nLike a well-tended garden, the business requires little further capital to maintain its yield, allowing us to harvest the cash flow for other needs [D02, D08]. We do not anticipate permanent loss of capital, provided management maintains the product quality that defines the brand's local dominance [D02, D05].",
+  "uncited_claims": []
+ }
+}

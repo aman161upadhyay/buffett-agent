@@ -1,0 +1,28 @@
+{
+  "id": "2025_bac_trim_q3",
+  "company": "Bank of America",
+  "ticker": "BAC",
+  "aliases": [
+    "Bank of America",
+    "BAC",
+    "Bank of America Corporation",
+    "Bank America",
+    "BofA",
+    "Merrill",
+    "Merrill Lynch",
+    "Brian Moynihan",
+    "CashPro",
+    "BA360",
+    "70858",
+    "060505104",
+    "bankofamerica",
+    "bac-"
+  ],
+  "as_of_date": "2025-06-30",
+  "mode": "existing",
+  "era": "E",
+  "first_action_window": "2025-Q3; exact execution day unknown",
+  "fund_aum_usd_bn": 347.7,
+  "decider": "unknown",
+  "notes": "SEALED hold-out. Dates are public-information cutoffs, not asserted private decision days. The original stock-picker rationale is unknown where not expressly sourced in the sealed key; the docs do not invent attribution. Financial inputs retain period/basis; illustrative annualization is not consensus. Exact entry costs and tax lots are unknown. Independent dated peer multiples, full maintenance-capital splits and many consensus estimates were not recovered; opposing scenarios are analyst synthesis grounded in dated issuer disclosures. Late attribution and all outcome evidence are confined to the sealed answer key. fund_aum_usd_bn is March cash/cash-equivalent/Treasury liquidity ($347.7bn), not equity AUM; avoids treating confidential later amendments as public."
+}

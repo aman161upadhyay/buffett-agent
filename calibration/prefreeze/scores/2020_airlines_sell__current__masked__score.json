@@ -1,0 +1,49 @@
+{
+ "trade_id": "2020_airlines_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "The industry facts changed, invalidating his previous assessment. → The world has changed in a way that makes that thesis irrelevant",
+   "Passenger demand and the amount of future fleet capacity became uncertain. → The pandemic-induced collapse in travel demand has created a situation where the future of these businesses is now unknowable",
+   "New financing would leave existing owners with weaker economics even if carriers survived. → While these airlines may receive government assistance, such aid does not protect the common shareholder from the dilution or the fundamental loss of earning power we are witnessing"
+  ],
+  "missed": [],
+  "extra_agent_drivers": []
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The world has changed in a way that makes that thesis irrelevant",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The pandemic-induced collapse in travel demand has created a situation where the future of these businesses is now unknowable",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "While these airlines may receive government assistance, such aid does not protect the common shareholder from the dilution or the fundamental loss of earning power we are witnessing",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 8,
+  "share": 1
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "The world has changed in a way that makes that thesis irrelevant [D01], [D07].",
+ "grader_notes": "The agent perfectly captured the three core drivers articulated by Buffett regarding the shift in industry economics, demand uncertainty, and the potential for shareholder dilution via rescue financing. The reasoning is internally consistent with Buffett's stated rationale for the exit.",
+ "run": "2020_airlines_sell__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "SELL",
+ "agent_decision": "SELL",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

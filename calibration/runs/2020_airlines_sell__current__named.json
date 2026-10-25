@@ -1,0 +1,57 @@
+{
+ "pack": "2020_airlines_sell",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2020-04-02",
+ "stages": {},
+ "final": {
+  "as_of_date": "2020-04-02",
+  "company": "American, Delta, United, Southwest",
+  "ticker": "AAL / DAL / UAL / LUV",
+  "decision": "SELL",
+  "reason_class": "S1",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Industry consolidation and disciplined capacity: broken [D01], [D06]",
+   "Durable competitive advantage and pricing power: broken due to travel demand collapse [D01], [D05]",
+   "Future earning power: unknowable [D01], [D05]"
+  ],
+  "price_vs_value_now": "Market price is irrelevant; the business model has faced a fundamental change in economics [D01], [D05]",
+  "after_tax_hurdle": "The permanent impairment of the investment thesis outweighs the tax cost of selling [D05], [D07]",
+  "drivers": [
+   {
+    "driver": "The airline industry's fundamental economics have undergone a catastrophic shift where future demand is no longer knowable [D01].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The interruption of travel demand has turned once-durable competitive advantages into liabilities due to high fixed costs [D01], [D08].",
+    "citations": [
+     "D01",
+     "D08"
+    ]
+   },
+   {
+    "driver": "Government assistance, while potentially necessary, carries restrictions and risks of dilution that fundamentally alter the position of common equity holders [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "We refuse to anchor on original purchase costs or wait for a recovery that is speculative rather than based on durable business prospects [D07].",
+    "citations": [
+     "D07"
+    ]
+   }
+  ],
+  "memo": "When we originally invested in these four airlines, the thesis was built upon the industry’s newfound discipline and the durability of their franchises [D01], [D07]. The world has since changed in a way that makes the future of the airline industry effectively unknowable [D01]. While these companies have dedicated management and airport access, the collapse in demand has exposed the inherent vulnerability of a business with massive fixed costs and perishable capacity [D01], [D08].\n\nWe do not seek to gamble on whether or when travel will return to pre-pandemic levels; our mandate is to invest in businesses with clear, enduring advantages [D01], [D10]. The current environment, combined with the complexities of government aid and the potential for substantial dilution, means the original economic rationale for our stake no longer exists [D03], [D05]. We must distinguish between a temporary price dip and a fundamental impairment of the business's earning power [D05].\n\nIt is a rule of ours to exit promptly when the facts change, rather than waiting for a recovery or anchoring on our historical cost [D07]. We have no interest in holding assets where the prospective economics are shrouded in uncertainty, especially when the path to profitability requires assuming a return to a landscape that may no longer exist [D05], [D08]. We would rather redeploy our capital into opportunities with more predictable and durable advantages, ensuring the protection of Berkshire's capital and reputation [D01], [D08].",
+  "uncited_claims": [
+   "The decision to sell is based on the provided evidence that the airline industry's competitive landscape has been fundamentally altered by the pandemic."
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+Title: A book discount without a known control price
+Source: https://s27.q4cdn.com/448041563/files/doc_earnings/2026/q1/earnings-result/TMHC-1Q26-Earnings-Release_Final.pdf
+Date: 2026-05-29
+
+The latest independently recovered pre-cutoff price anchor in the April release is the company's own first-quarter repurchases at approximately $61 per share. Against $64 book value per share that is about 0.95 times book. An independently dated May 29 market-close price is not recovered from a source published by that cutoff, so this pack does not import an unaffected price from a subsequent deal announcement. Current price is not available in contemporaneous sources recovered here. [1]
+
+Reported quarterly EPS of $1.01 multiplied by four gives $4.04; adjusted $1.12 gives $4.48. Those figures are seasonal mechanical run rates, not full-year guidance or consensus. A potential whole-business valuation additionally requires debt, cash, obligations, a known price and a clear distinction between equity value and enterprise value. No actual bid or acquisition multiple is assumed. Book inventory can be worth less in a downturn; a discount to accounting book is not a liquidation guarantee. The underwriting gap is material and explicitly retained.
+
+Evidence ledger from April 22: first-quarter total revenue was $1.387092 billion, home closings revenue $1.311421 billion and net income $98.625 million. Reported diluted EPS was $1.01, adjusted $1.12. There were 2,268 closings at $578,000 average price and 2,914 net orders at $603,000. Backlog was 3,465 homes worth $2.3 billion. Home closings gross margin was 20.0%, adjusted 20.6%, versus 24.0% and 24.8% a year earlier. The company owned/controlled 75,626 lots, 51% off balance sheet, and invested $503 million in land/development. Liquidity was approximately $1.6 billion including $653 million cash; net homebuilding debt/capital was 20.5%. Book value per share was $64. The company repurchased about 2.5 million shares for $150 million at roughly $61 per share. [1]
+
+Valuation discipline: the calculations in this document are analyst arithmetic, not management targets or a Berkshire underwriting model. Earnings multiples, book multiples and cash-flow yields answer different questions and are not interchangeable. A low multiple offers no protection if normalized earning power has been overstated. Conversely, growth has value only after the incremental capital required to obtain it. No verified contemporary consensus forecast or complete historical multiple distribution is supplied; an exact intrinsic value should therefore not be reverse-engineered from a subsequent transaction.
+
+Sources and publication dates:
+[1] https://s27.q4cdn.com/448041563/files/doc_earnings/2026/q1/earnings-result/TMHC-1Q26-Earnings-Release_Final.pdf (published 2026-04-22)

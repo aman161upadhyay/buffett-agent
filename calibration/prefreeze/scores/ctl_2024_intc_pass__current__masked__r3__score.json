@@ -1,0 +1,62 @@
+{
+ "trade_id": "ctl_2024_intc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned in the tested 2024 window per parent 13F history",
+   "Berkshire DID own Intel in 2011–Q1 2012",
+   "Economic and valuation objections are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "Negative GAAP operating margins",
+   "Structural competitive challenges vs Nvidia/AMD",
+   "High capital intensity vs cash flow",
+   "Lack of consistent earnings and suspended dividends"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business is currently failing to maintain margins, reporting a GAAP operating margin of negative 15.3% [D01].",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company faces structural competitive challenges against rivals like Nvidia and AMD [D01], [D06].",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Net capex guidance of $11-13 billion [D01].",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Suspension of dividends [D01], [D05].",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "GAAP net loss of $1.6 billion for the second quarter [D01].",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 9,
+  "share": 0.9
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We prefer to put this into our 'too hard' pile, as we see no reason to risk Berkshire's capital on an unproven transformation when other, more certain alternatives exist [D01], [D08].",
+ "grader_notes": "The agent reached the correct decision ('PASS') but provided entirely different reasoning than the answer key. While the answer key relies on the historical absence of the stock in 2024 filings and the role of the decision as a control/verification, the agent performed a fundamental analysis of Intel's current business and competitive position, which the key explicitly warns against treating as authenticated Buffett reasons.",
+ "run": "ctl_2024_intc_pass__current__masked__r3",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

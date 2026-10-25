@@ -1,0 +1,54 @@
+{
+ "trade_id": "ctl_2020_ba_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Berkshire's $128 billion cash position offers superior liquidity and optionality compared to deploying capital into a distressed business [D08] → Given the $128 billion in cash we currently hold, we have the luxury of waiting for opportunities that offer more certainty and less risk of permanent capital loss [D08]."
+  ],
+  "missed": [
+   "Buffett said Berkshire had not acted because nothing was sufficiently attractive",
+   "No Boeing in Berkshire parent 13F census"
+  ],
+  "extra_agent_drivers": [
+   "Business fails 10% pre-tax earnings yield threshold",
+   "No edge in predicting 737 MAX recertification or pandemic impact",
+   "Balance sheet under stress"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company reported a $636 million net loss and negative free cash flow of $4.280 billion.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company has a backlog of $463 billion.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Berkshire holds $128 billion in cash.",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 3,
+  "share": 0.25
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Given the $128 billion in cash we currently hold, we have the luxury of waiting for opportunities that offer more certainty and less risk of permanent capital loss [D08].",
+ "grader_notes": "The agent correctly matched the 'PASS' decision and correctly identified the cash-opportunity-cost logic used by Buffett. However, the agent relied heavily on fundamental analysis and valuation metrics (earnings yield, balance sheet stress) that Buffett did not explicitly cite as the reason for his non-investment, leading to lower driver overlap.",
+ "run": "ctl_2020_ba_pass__current__masked__r2",
+ "state_llm": "PARTIAL",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

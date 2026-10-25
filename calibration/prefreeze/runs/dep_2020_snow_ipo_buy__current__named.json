@@ -1,0 +1,265 @@
+{
+ "pack": "dep_2020_snow_ipo_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2020-09-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Snowflake provides a platform that separates cloud-data storage and compute, enabling enterprises to consolidate, query and share governed data [D01]. It operates on infrastructure provided by large cloud vendors rather than requiring customers to maintain on-premise hardware [D01].",
+   "products_customers_and_why_they_buy": [
+    "Cloud-based data storage and compute platform sold to enterprises [D01].",
+    "Customers buy for easier scaling, cross-organization data sharing and data migration/workflow integration, which can increase switching costs [D01, D03]."
+   ],
+   "economics": [
+    "Consumption-based revenue model [D01, D03].",
+    "Material net losses: $348.5 million for the last fiscal year and $171.3 million for the six months ended July 31 [D01, D02].",
+    "Capital intensity: Infrastructure expense is a real cost; the business does not own the infrastructure but rents it from cloud providers [D05, D06].",
+    "Pricing history: Not in pack."
+   ],
+   "earnings_record": [
+    "Fiscal-year revenue of $264.7 million vs $96.7 million (prior period) [D01, D02].",
+    "Six months ended July 31 revenue: $242.0 million vs $104.0 million (prior period) [D01, D02].",
+    "Loss-making history with no consistent record of profitability [D01, D05]."
+   ],
+   "competitive_position": [
+    "Peers include Amazon Redshift, Google BigQuery, and Microsoft offerings [D06].",
+    "Moat evidence: Data migration and workflow integration may raise switching costs [D01, D03].",
+    "The company relies on infrastructure providers that can also compete [D05, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "IPO-related cash: Approximately $735.045 million combined illustrative cash from primary allocation and secondary block [D02, D04].",
+    "No public-market debt/leverage details provided [D02, D04].",
+    "Highly dependent on ongoing capital for operating costs [D05, D06]."
+   ],
+   "management_and_capital_allocation": [
+    "Dual-class structure: Class B shares have ten votes per share; Class A has one [D01, D03].",
+    "Capital allocation record: Not in pack.",
+    "Insider ownership/incentives: Not in pack."
+   ],
+   "price_and_valuation": [
+    "IPO price: $120 per share [D02, D04].",
+    "Earnings yield: Not applicable; loss-making [D02, D04].",
+    "Market cap: Not in pack.",
+    "Valuation vs. long bond: Not in pack."
+   ],
+   "what_the_market_is_worried_about": [
+    "Unprofitable with a short public history [D05].",
+    "Reliance on cloud providers that may also be competitors [D05, D06].",
+    "Potential for customers to optimize workloads, reduce consumption, or switch to rivals [D05].",
+    "Dual-class structure and stock-based compensation diluting minority owners [D05]."
+   ],
+   "deal_terms_if_any": [
+    "IPO price: $120 per share [D02, D07].",
+    "Private placement of $250 million [D02, D07].",
+    "Secondary block of 4,042,043 shares [D02, D07]."
+   ],
+   "recent_events": [
+    "August 24: Public registration [D07].",
+    "September 14: Amended filing revising offering parameters [D07].",
+    "September 15: IPO priced at $120 [D02, D07]."
+   ],
+   "berkshire_context": [
+    "Cash: Approximately $146.6 billion as of June 2020 [D08].",
+    "Existing stake: None [D08].",
+    "Proposed sizing: Should be evaluated within the mandate of Buffett's deputies (Combs/Weschler) for a sub-$1 billion software allocation [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Full balance sheet details, specific maintenance capex figures, long-term debt levels, and comprehensive management compensation/ownership stakes."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The company operates in a rapidly evolving cloud technology sector with significant competition from dominant incumbents, making its long-term competitive position difficult to predict [D05, D06]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While migration and integration may create switching costs, the company competes directly with the infrastructure providers it relies upon, creating a precarious moat [D01, D03, D05, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company has a history of material net losses and no consistent record of profitability [D01, D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company is currently loss-making and is highly dependent on ongoing capital for operating costs [D01, D05, D06]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "Infrastructure expense is a significant, recurring cost, and the business does not own its infrastructure, making it capital-intensive without the protection of regulated returns [D05, D06]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "A dual-class share structure with superior voting rights for insiders presents concerns regarding the alignment of management with minority shareholders [D01, D03, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "The position is suggested as a potential 'deputy' investment rather than a core Berkshire acquisition [D08]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "The business has no earnings, failing the 10% pre-tax owner-earnings yield screen [D02, D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 0,
+   "n_fail": 5,
+   "n_unsure": 3,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": true,
+   "one_line_business_quality_verdict": "a loss-making technology company in a highly competitive cloud environment with high capital intensity and no earnings record."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The company is a loss-making entity in a highly competitive cloud sector with no established record of profitability or owner earnings [D01, D05]. It relies on infrastructure providers that are also its direct competitors, and its capital-intensive nature without the safety of regulated returns puts it outside our circle of competence [D05, D06].",
+   "evidence": [
+    "Material net losses of $348.5 million in the last fiscal year [D01]",
+    "Capital-intensive business model without ownership of infrastructure [D05, D06]",
+    "Direct competition from cloud infrastructure giants [D06]"
+   ],
+   "market_narrative_we_disagree_with": "The market may be pricing the company based on rapid revenue growth, but this ignores the lack of a durable competitive advantage and the precarious nature of the business model [D01, D05, D06].",
+   "what_must_be_true": [
+    "The business achieves consistent and sustainable profitability",
+    "It develops a moat that is independent of its cloud infrastructure providers",
+    "Management demonstrates alignment with minority shareholders despite the dual-class structure"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "Not applicable; loss-making [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "Not calculable",
+    "high": "Not calculable",
+    "key_assumptions": [
+     "Business must achieve consistent profitability [D01]",
+     "Moat must be proven independent of cloud infrastructure providers [D05, D06]"
+    ],
+    "discount_rate_used": "Not applicable"
+   },
+   "price_vs_value": "N/A; business does not meet core profitability requirements [D01, D05]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Existing holdings or Berkshire buyback are superior as they provide known, durable earnings and established margins of safety [D08]",
+   "downside_case": "Permanent loss of capital due to lack of profitability, high competition, and dependency on infrastructure providers [D05, D06]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "No data provided for maintenance capex or long-term normalized earnings power",
+    "Market cap at IPO is assumed to be significantly high relative to fundamental earnings"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Permanent passive holder—we do not seek to control or influence the operations of businesses, relying instead on the compounding of value through rational capital allocation and the inherent strength of the underlying enterprise [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realised through the long-term compounding of owner earnings and the eventual recognition of the business's intrinsic value by the market, provided the company achieves sustained profitability and a durable moat [D01, D05]."
+   ],
+   "decider": "deputy",
+   "why_this_role_fits_the_era": "As this is a technology-sector idea suggested for a sub-$1 billion allocation, it falls outside of my circle of competence and is properly delegated to deputies who have the mandate to manage smaller, higher-risk positions in fields I do not personally oversee [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Pricing power eroded by dominant cloud infrastructure competitors",
+    "Failure to reach sustainable profitability as consumption-based revenue growth stalls",
+    "Management prioritizes insider control via dual-class structure over minority interests",
+    "Escalating infrastructure costs disproportionately consuming gross margins"
+   ],
+   "berkshire_constraints": "Must maintain cash floor above $30B; deputy positions limited to $1-3B portfolio footprint [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better allocated to core businesses with predictable earnings and durable moats or to repurchasing Berkshire shares [D08].",
+   "leverage": "none",
+   "decider": "deputy",
+   "decider_reason": "The business operates in a technology sector outside of Buffett's circle of competence, and the proposed size is below the threshold for a primary Buffett-led acquisition [D08].",
+   "biggest_risk_in_one_sentence": "The company relies on infrastructure providers that are also its direct competitors, creating a dependency that threatens long-term pricing power and profitability [D05, D06]."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-09-15",
+  "company": "Snowflake",
+  "ticker": "SNOW",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "deputy",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Not applicable; loss-making",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Not calculable",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital due to lack of profitability and intense competition"
+  },
+  "drivers": [
+   {
+    "driver": "The business lacks a consistent record of profitability and reports material net losses [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The company relies on cloud infrastructure providers that are also its direct competitors, creating a precarious competitive position [D05, D06].",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The capital-intensive nature of the business, combined with a lack of ownable infrastructure, fails our requirement for durable, high-return economics [D05, D06].",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The dual-class share structure raises concerns regarding the alignment of management with minority shareholders [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The business does not meet our requirement for a 10% pre-tax owner earnings yield, as it is currently loss-making [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Pricing power eroded by dominant cloud infrastructure competitors",
+   "Failure to reach sustainable profitability as consumption-based revenue growth stalls",
+   "Management prioritizes insider control via dual-class structure over minority interests",
+   "Escalating infrastructure costs disproportionately consuming gross margins"
+  ],
+  "what_would_change_our_mind": "Evidence of consistent, sustainable profitability independent of primary infrastructure partners, alongside a demonstrated ability to maintain margins despite direct competition.",
+  "memo": "Snowflake operates a cloud-based platform for data storage and compute [D01]. While the business model attempts to facilitate data sharing and integration for enterprise clients, the company itself does not own the underlying infrastructure, instead renting capacity from cloud providers that are also its most formidable competitors [D05, D06].\n\nWe look for businesses with durable competitive advantages and a history of consistent earnings [D05]. Snowflake reports material net losses, including a loss of $348.5 million in the last fiscal year, and lacks a record of profitability [D01, D02]. Furthermore, its reliance on competitors to provide the very platform upon which it operates creates a dependency that we find difficult to evaluate with certainty [D05, D06].\n\nManagement has implemented a dual-class share structure, which provides insiders with superior voting rights [D01, D03]. We prefer to invest alongside managers who treat all shareholders as true partners, and this structure clouds our view of long-term alignment [D01, D03].\n\nAt an IPO price of $120 per share, the valuation is disconnected from any fundamental owner earnings, as none exist [D02, D04]. We prefer to put our capital into businesses that generate predictable, high returns on invested capital rather than speculating on future growth in a highly competitive and capital-intensive sector [D05, D06]. Consequently, we have placed this opportunity in our \"too hard\" pile and will pass on the offering [D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

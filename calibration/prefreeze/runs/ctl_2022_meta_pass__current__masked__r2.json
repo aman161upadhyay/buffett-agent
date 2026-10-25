@@ -1,0 +1,235 @@
+{
+ "pack": "ctl_2022_meta_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2022-11-04",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The company operates global social and messaging networks monetized primarily through advertising [D01]. It also maintains a loss-making virtual/augmented-reality hardware and software operation [D06].",
+   "products_customers_and_why_they_buy": [
+    "Social and messaging networks providing repeated attention from billions of users [D01], allowing advertisers to match specific audiences [D01]."
+   ],
+   "economics": [
+    "Operating margin fell from 36% to 20% in the third quarter of 2022 [D01]. High capital expenditure is required for infrastructure and new platforms, with management projecting $32–33 billion for full-year 2022 and $34–39 billion for 2023 [D01]. Pricing history shows an 18% decline in average price per ad in the third quarter of 2022 [D01]."
+   ],
+   "earnings_record": [
+    "Third-quarter 2022 revenue was $27.714 billion, down 4% [D01]. Operating income was $5.664 billion, down 46%; net income was $4.395 billion, down 52% [D01]. Diluted EPS was $1.64, down 49% [D01]."
+   ],
+   "competitive_position": [
+    "The Company has 2.96 billion monthly active users [D01]. Competitors include Alphabet, Snap, and TikTok [D06]. Network effects exist, but formats are rapidly changing with low user switching costs [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Cash and marketable securities totaled $41.78 billion [D01]. Long-term debt is $9.92 billion [D01]. The company has significant forward capital expenditure and expense commitments [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Buybacks consumed $6.55 billion in the quarter [D01]. Management is projecting significant increases in headcount and expenses [D01]. Founder-controlled [D08]."
+   ],
+   "price_and_valuation": [
+    "November 4, 2022, closing price was $90.79 [D02]. Trailing reported EPS is approximately $10.46, implying a multiple of roughly 8.68x; annualizing the latest quarter gives $6.56, or 13.84x [D02]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Rising costs (19%) and headcount (28%) amid declining profits [D05].",
+    "Increasing losses from the virtual/augmented-reality division [D05].",
+    "Weakness in ad pricing due to competitive and targeting changes [D05].",
+    "High planned capital expenditures and expenses [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2022-10-26: Publication of third-quarter 2022 results [D01]."
+   ],
+   "berkshire_context": [
+    "Berkshire cash and Treasury bills were approximately $105.4 billion as of mid-2022 [D08]. The company is not an existing position [D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Normalized owner earnings, maintenance-capex breakdown, and independent long-term earnings forecasts."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "Rapid technological change and competitive pressure from platforms like TikTok make the long-term business outlook highly uncertain [D06]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "Average price per ad declined 18% in the third quarter of 2022, demonstrating a lack of pricing power amidst intense competition [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "Third-quarter 2022 revenue fell 4%, while operating income and net income declined 46% and 52% respectively [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong cash position of $41.78 billion against only $9.92 billion in long-term debt [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business requires massive, increasing capital expenditures, projected at $34–39 billion for 2023, without a regulated monopoly safety net [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "FAIL",
+     "evidence": "Management is prioritizing massive spending on a loss-making virtual/augmented-reality division despite declining core profitability and negative market signals [D01][D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market capitalization consistent with its earnings scale, this business is large enough to move the needle for Berkshire [D01][D02]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The P/E ratio based on annualized quarterly earnings is approximately 13.84x, which suggests a potentially attractive initial earnings yield [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 5,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a deteriorating advertising business suffering from a lack of pricing power and excessive capital requirements for speculative ventures"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is currently reacting to a fundamental deterioration in the company's core advertising business and a significant increase in capital allocation toward speculative ventures that lack a clear competitive advantage [D01][D05]. We see no reason to believe these are merely temporary clouds; instead, the business exhibits a loss of pricing power and an institutional imperative to prioritize high-risk capital expenditures over maintaining steady owner earnings [D01][D06].",
+   "evidence": [
+    "Average price per ad declined 18% in the third quarter of 2022 [D01].",
+    "Operating income fell 46% and net income fell 52% in the third quarter of 2022 [D01].",
+    "Management is aggressively increasing capital expenditures and expenses despite declining core profitability [D01][D05].",
+    "Rapid technological change and competitive pressure from TikTok have compromised the long-term outlook of the business [D06]."
+   ],
+   "market_narrative_we_disagree_with": "The market may view the current low P/E ratio as a value play, but this fails to account for the erosion of the company's economic moat and the ongoing destruction of value through speculative investments [D01][D02].",
+   "what_must_be_true": [
+    "The core advertising business must demonstrate a return to sustainable, double-digit growth in owner earnings.",
+    "Management must show the ability to exercise capital discipline by curbing investments in loss-making segments.",
+    "The company must prove its social network franchise remains immune to switching costs and competitive pressures from emerging platforms."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "1.64 per quarter [D01]; estimated 6.56 annual [D02]. Maintenance capex is not disclosed separately from the massive $32-39B total infrastructure spend [D01].",
+   "initial_pretax_yield_pct": 7.2,
+   "intrinsic_value_range": {
+    "low": "not calculable",
+    "high": "not calculable",
+    "key_assumptions": [
+     "Maintenance capex assumed to be at least 50% of depreciation to account for infrastructure and rapid technological obsolescence [D01][D06].",
+     "Normalization of ad pricing and cost discipline [D01][D05]."
+    ],
+    "discount_rate_used": "4.2% long-term government bond rate assumed as proxy for 30-year yield"
+   },
+   "price_vs_value": "valuation highly uncertain given deteriorating margins and heavy speculative spend; cannot determine margin of safety.",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": -50,
+    "bull": 5
+   },
+   "alternatives": "Berkshire cash and Treasury bills yielding significantly more than the current 7.2% pretax yield with zero risk of the capital destruction evident in the company's metaverse strategy [D01][D08].",
+   "downside_case": "Permanent loss of capital due to institutional imperative to fund speculative ventures at the expense of core profitability [D01].",
+   "valuation_verdict": "FULL",
+   "flagged_assumptions": [
+    "Normalization of owner earnings is impossible without a clear breakdown of maintenance versus growth capex in the VR/AR division [D01].",
+    "Long-term bond rate assumed at 4.2% based on late-2022 market context."
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are permanent, passive holders of marketable securities when we find businesses with durable competitive advantages and predictable returns on capital [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "The company must return to sustainable growth in owner earnings through capital discipline and a defensible competitive moat [D01][D06]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in the modern era, our edge is patience and permanent capital, which we only deploy when intrinsic value can be determined with a sufficient margin of safety [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Pricing power lost to competitors as evidenced by declining average price per ad [D01]",
+    "Institutional imperative to fund speculative metaverse ventures at the expense of core profitability [D01]",
+    "Escalating capital expenditure requirements that lack a clear path to regulated-monopoly-like returns [D01]"
+   ],
+   "berkshire_constraints": "Cash position of $41.78 billion [D01] is secondary to our own cash floor of $30B [D08]; we must avoid founder-controlled entities if management lacks owner-oriented capital discipline [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Berkshire cash and Treasury bills, which offer superior risk-adjusted returns and preserve capital compared to this deteriorating advertising franchise [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business has failed our fundamental criteria regarding moat durability and capital allocation, placing it firmly in the 'too hard' or 'avoid' pile.",
+   "biggest_risk_in_one_sentence": "The company's core advertising franchise is suffering from structural competitive decline while management aggressively directs capital toward speculative, loss-making ventures."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-11-04",
+  "company": "the Company (XXX)",
+  "ticker": "META",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "era_a_bargain": false,
+  "negotiated_terms": false,
+  "valuation": {
+   "owner_earnings": "estimated 6.56 annual",
+   "initial_pretax_yield_pct": 7.2,
+   "intrinsic_value_range": "not calculable",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital due to institutional imperative to fund speculative ventures at the expense of core profitability"
+  },
+  "drivers": [
+   {
+    "driver": "The core advertising business exhibits a lack of pricing power, evidenced by an 18% decline in the average price per ad in the third quarter of 2022.",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Management is demonstrating a concerning institutional imperative by prioritizing aggressive, high-risk spending on a loss-making virtual reality division despite deteriorating core results.",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The business faces structural threats from rapid technological change and intense competitive pressure from platforms like TikTok.",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "Escalating capital expenditure requirements, projected to reach $34–39 billion in 2023, lack the protection of a regulated monopoly safety net.",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Pricing power lost to competitors as evidenced by declining average price per ad [D01]",
+   "Institutional imperative to fund speculative metaverse ventures at the expense of core profitability [D01]",
+   "Escalating capital expenditure requirements that lack a clear path to regulated-monopoly-like returns [D01]"
+  ],
+  "what_would_change_our_mind": "Evidence of a return to sustainable, double-digit growth in owner earnings, coupled with strict capital discipline and a demonstrable stabilization of the core advertising franchise's competitive position.",
+  "memo": "We have looked at this business and placed it firmly in the 'too hard' pile. While the company maintains a large user base, the core advertising franchise is currently suffering from a structural decline in pricing power, as shown by an 18% drop in average price per ad during the most recent quarter [D01]. We simply do not see a durable competitive advantage that justifies the current level of uncertainty regarding its long-term economics [D06].\n\nBeyond the competitive pressures, we are troubled by the current capital allocation strategy. Management is choosing to direct massive amounts of capital toward speculative virtual and augmented-reality ventures that are currently loss-making, even as core profitability contracts [D01][D05]. We prefer to invest in businesses where management acts like owners, focusing on the long-term preservation of capital rather than funding speculative projects that lack a clear path to profitability [D08].\n\nOur standard for investment requires an understandable business with consistent, predictable returns on capital and a clear margin of safety [D08]. Here, the rising capital intensity and the inability to distinguish between maintenance and speculative expenditure make it impossible for us to determine intrinsic value with any confidence [D01][D03]. When a business requires tens of billions in annual capital expenditures without the protection of a regulated moat, the risk of permanent loss of capital becomes unacceptably high [D01][D06].\n\nWe have no need to reach for returns in situations we do not understand, especially when we can hold cash and Treasury bills that provide a superior, risk-free alternative [D08]. We will continue to wait for a wonderful business at a fair price, rather than attempting to catch a falling knife in an evolving and increasingly uncertain advertising market [D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

@@ -1,0 +1,49 @@
+{
+ "trade_id": "2011_bac_pref",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Buffett believed the underlying bank remained large and attractive. → The bank possesses an unmatched No. 1 US deposit share that serves as a durable, low-cost funding base that will endure long after legacy mortgage issues are resolved [D01, D09].",
+   "Preferred income and ten-year equity optionality made the structure attractive. → We secure terms providing a high-yield, dividend-protected preferred position with warrants, effectively leveraging our capital to solve the bank's temporary liquidity and confidence crisis [D01, D03, D09]."
+  ],
+  "missed": [
+   "He trusted Moynihan's rebuilding effort."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value — the bank trades at 0.55x tangible book value against a nationwide No. 1 deposit franchise, offering a substantial margin of safety",
+   "Management's credible commitment to avoid common equity dilution"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The bank trades at 0.55x tangible book value",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The bank possesses an unmatched No. 1 US deposit share",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 7,
+  "share": 0.54
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are taking a preferred position that provides us with high-yield income and upside through warrants [D01, D09].",
+ "grader_notes": "The agent identifies the core investment thesis correctly, matching the Buffett drivers for business quality and the preference for preferred stock/warrants. However, the agent's internal logic failed: it correctly identified a BUY decision but then enforced a hard-fail to PASS, resulting in a directional mismatch. The reasoning is closest to Buffett's in identifying the utility of the franchise and the structure, but diverges by emphasizing 'margin of safety' valuation metrics not explicitly highlighted by Buffett in the key.",
+ "run": "2011_bac_pref__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true,
+ "enforced_hard_fail": true
+}

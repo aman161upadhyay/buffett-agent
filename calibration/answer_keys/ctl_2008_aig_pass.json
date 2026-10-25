@@ -1,0 +1,49 @@
+{
+  "id": "ctl_2008_aig_pass",
+  "actual_decision": "PASS",
+  "conviction": "high",
+  "size_pct_nav": 0,
+  "first_action_date": "2008-09-12 to 2008-09-15",
+  "disclosure_date": "2009-09-15",
+  "reason_class": null,
+  "opportunity_template": [
+    "B3",
+    "B4"
+  ],
+  "catalyst_role": "R2",
+  "decider": "Buffett",
+  "decider_identity": "Buffett",
+  "size_basis": "cash",
+  "drivers": [
+    {
+      "driver": "Buffett considered but could not undertake roughly $25B for the property/casualty unit on the crisis weekend.",
+      "source": "https://www.cnbc.com/2009/09/15/warren-buffett-to-cnbc-no-regrets-from-crisis-weekend-one-year-ago.html (2009-09-15 retrospective)",
+      "quote": "Unfortunately, I can't do this deal. And don't waste your time with me, so go someplace else.",
+      "evidence_type": "direct_refusal_retrospective"
+    },
+    {
+      "driver": "He distinguished desirable operating businesses from financial-products obligations management did not adequately understand.",
+      "source": "https://www.cnbc.com/2008/09/24/cnbc-interview-transcript-video-part-2-warren-buffett-explains-his-5b-goldman-investment.html (2008-09-24 retrospective)",
+      "quote": "I don't think anybody knew what they needed to know, including the management.",
+      "evidence_type": "stated_reason_retrospective"
+    },
+    {
+      "driver": "The pressure and depth of the funding hole prevented a workable transaction despite interest in selected units.",
+      "source": "https://www.cnbc.com/2008/09/24/cnbc-interview-transcript-video-part-2-warren-buffett-explains-his-5b-goldman-investment.html (2008-09-24 retrospective)",
+      "quote": "the pressures were such, and the hole was deep enough, that they simply couldn't get it worked out",
+      "evidence_type": "stated_reason_retrospective"
+    }
+  ],
+  "entry_valuation_stated": "No issuer-specific investor-stated intrinsic value or entry multiple recovered; pack valuation is analyst reconstruction.",
+  "outcome_note": "Direct September-weekend approach and refusal verified in Buffett's September 15, 2009 CNBC interview. This controls the proposed 2008 rescue/asset transaction, not lifetime nonownership: Berkshire later bought AIG assets, including the 2013 specialty-insurance business. This is a direction/discipline test, not a return forecast. Nonholding evidence is scoped to the parent discretionary portfolio and the tested window; quarterly 13Fs cannot prove absence of every intraperiod trade, nonreportable instrument, subsidiary client holding or personal investment.",
+  "sources": [
+    "https://www.cnbc.com/2009/09/15/warren-buffett-to-cnbc-no-regrets-from-crisis-weekend-one-year-ago.html",
+    "https://www.sec.gov/Archives/edgar/data/5272/000095012308008953/y64849exv99w1.htm",
+    "https://www.cnbc.com/2008/09/24/cnbc-interview-transcript-video-part-2-warren-buffett-explains-his-5b-goldman-investment.html",
+    "buffett-agent/compendium/all_positions_index.md",
+    "buffett-agent/compendium/filings_2010_2026.md"
+  ],
+  "pack_quality_notes": "Exact stock close and executable private deal terms unavailable. Refusal preceded the requested desk date; private call is not inserted into docs. The roughly $25B unit-price recollection is key-only. Silent controls do not have three authentic stated reasons; the three slots distinguish action, ownership verification and grading boundary rather than fabricate quotes. Deputy keys use user-requested decider='deputy'; meta retains the allowed named/unknown identity. PASS label is nonpurchase/refusal evidence, not proof a presented bull thesis was publicly evaluated.",
+  "verification_window": "Direct September-weekend approach and refusal verified in Buffett's September 15, 2009 CNBC interview. This controls the proposed 2008 rescue/asset transaction, not lifetime nonownership: Berkshire later bought AIG assets, including the 2013 specialty-insurance business.",
+  "control_quality_grade": "B"
+}

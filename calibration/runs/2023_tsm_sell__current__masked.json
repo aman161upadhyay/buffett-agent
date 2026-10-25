@@ -1,0 +1,54 @@
+{
+ "pack": "2023_tsm_sell",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2023-02-14",
+ "stages": {},
+ "final": {
+  "as_of_date": "2023-02-14",
+  "company": "Taiwan Semiconductor Manufacturing Company",
+  "ticker": "TSM",
+  "decision": "TRIM",
+  "reason_class": "S3",
+  "conviction": "medium",
+  "decider": "deputy",
+  "thesis_at_purchase_vs_now": [
+   "Manufacturing expertise and scale: intact [D01]",
+   "Geographic concentration risk: intact / identified as primary tail risk [D01, D05]",
+   "Earnings growth: weakening demand noted in Q4 2022/Q1 2023 [D03]"
+  ],
+  "price_vs_value_now": "14.9x trailing P/E at $97.96 [D04]; value remains high but burdened by unavoidable geographic risk [D05]",
+  "after_tax_hurdle": "21% federal tax rate on gains; geopolitical risk justifies exiting a portion of the stake even at current valuations [D04, D05]",
+  "drivers": [
+   {
+    "driver": "The business operates with extreme geographic concentration of its most critical assets in Taiwan, creating a binary risk outside management control [D01, D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "A current holder must weigh the high quality of the foundry franchise against the unquantifiable risk of interruption to its core production [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Recent results indicate a cooling demand environment and inventory adjustments, moving away from the peak-margin performance of 2022 [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "We choose to hold a smaller, less risky position in light of these non-economic variables, prioritizing the protection of capital over potential upside [D05, D08].",
+    "citations": [
+     "D05",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "the Company is a business of immense technical capability and scale, earning impressive returns on capital [D01, D02]. Charlie and I have long admired companies that possess a durable competitive advantage and pricing power, and this foundry clearly fits that description in its operating results [D01]. However, even a wonderful business becomes a questionable holding if the geographic concentration of its assets exposes the company—and its shareholders—to a potential catastrophic interruption [D01, D05].\n\nWhile the foundry manufacturing process provides a significant moat, that moat does not protect the assets from geopolitical events outside the reach of even the most able management [D01, D05]. We have seen 2022 produce record financial performance, but we must look forward, not backward [D02, D03]. With management noting weaker demand and necessary inventory adjustments in the coming period, the cyclical nature of this industry is becoming more apparent [D03].\n\nWe do not care to be in the business of measuring geopolitical probabilities [D05]. When an investment carries a risk that could lead to the permanent loss of the capital deployed—or indeed the entire asset base—the intelligent course is to limit our exposure [D05]. We are therefore trimming our position to a level that balances our respect for the business's current economics against the reality of its location [D05, D08]. Any gains realized will be subject to the 21% federal tax, a cost we accept to sleep better with our remaining investment [S3].",
+  "uncited_claims": []
+ }
+}

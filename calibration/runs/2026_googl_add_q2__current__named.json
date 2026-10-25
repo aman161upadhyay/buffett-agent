@@ -1,0 +1,54 @@
+{
+ "pack": "2026_googl_add_q2",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2026-03-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2026-03-31",
+  "company": "Alphabet (GOOGL)",
+  "ticker": "GOOGL",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Durable search franchise: intact; revenue grew 17% in Q4 [D03].",
+   "Cloud growth engine: strengthened; 48% revenue growth with improved operating income [D03].",
+   "Capital intensity: changing; management expects massive $175-$185 billion in 2026 capex [D01, D03]."
+  ],
+  "price_vs_value_now": "26.6x 2025 earnings; while fully priced, the underlying earning power of Services and Cloud remains robust [D03, D04].",
+  "after_tax_hurdle": "Selling would incur a 21% federal tax hit; as the business remains a wonderful franchise with strong momentum, we see no reason to pay the tax just because Mr. Market is enthusiastic [D03, D04].",
+  "drivers": [
+   {
+    "driver": "The core search advertising business continues to produce strong growth and cash flow [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Cloud segment performance has accelerated significantly, validating its role as a major second engine [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Alphabet maintains a massive cash and marketable securities cushion of $126.8 billion [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "The $175-$185 billion capital budget requires careful monitoring to ensure returns on invested capital remain attractive [D03, D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "Alphabet remains a wonderful business. In our view, the core search franchise continues to exhibit a durable moat, evidenced by an 18% consolidated revenue growth rate in the fourth quarter of 2025 [D03]. Perhaps more importantly, the Cloud segment has transitioned from a promising project to a significant contributor, with operating income jumping to $5.3 billion in the quarter alone [D03].\n\nWe are mindful of the significant capital expenditure plan of $175-$185 billion for 2026 [D01]. While this reflects an intense infrastructure commitment, our long-term focus remains on the durable earning power of the enterprise rather than short-term fluctuations in capital allocation [D01, D05]. A business earning such high returns on capital, even with rising physical asset requirements, is not something we sell simply because the market price has reached a certain level [D03, D04].\n\nWe do not look to flip stocks; we look to hold businesses. Given the 21% federal tax rate on realized gains, selling a productive, cash-generating franchise like Alphabet is a high hurdle that has not been cleared [D04]. We will continue to monitor management's ability to navigate the evolving antitrust and competitive landscape, but for now, we are comfortable holding our position [D05].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "trade_id": "2013_heinz_acq",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Heinz was an enduring branded-food business suited to long ownership. → Heinz is a quintessential example of a business we love: a global consumer franchise with iconic brands that consumers reach for repeatedly [D01].",
+   "The 3G partnership paired operating expertise with Berkshire capital. → We are impressed by the potential to enhance these already strong economics through the disciplined operational focus that 3G Capital brings to the table [D09].",
+   "The preferred supplied a 9% contractual yield alongside common ownership. → By providing $8bn in preferred stock with a 9% cumulative dividend, we secure a return that far exceeds the 2.05% yield available on long-term government bonds [D04], [D09]."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Our position as a preferred shareholder provides us with seniority and a protected income stream while retaining upside participation via warrants [D09]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Heinz maintains a dominant 60% share of the US ketchup market",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The preferred stock offers a 9% cumulative dividend yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are committing $12bn to this transaction",
+    "citation": "D09",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 12,
+  "share": 0.92
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "By providing $8bn in preferred stock with a 9% cumulative dividend, we secure a return that far exceeds the 2.05% yield available on long-term government bonds [D04], [D09].",
+ "grader_notes": "The agent correctly identified all three primary drivers cited in Buffett's post-hoc 2013 letter: brand durability, the value of the 3G partnership, and the 9% preferred yield. The reasoning is nearly identical to Buffett's description of the deal. No leakage detected; information utilized was available in the provided documents.",
+ "run": "2013_heinz_acq__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

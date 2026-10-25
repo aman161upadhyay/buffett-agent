@@ -1,0 +1,14 @@
+Title: Revenue and net interest income recover
+Source: https://d1io3yog0oux5.cloudfront.net/_70c8fb58fd3bea7a80c281a02cf2c22d/bankofamerica/db/806/10171/earnings_release/The+Press+Release_1Q25_ADA.pdf
+Date: 2025-06-30
+
+April results show revenue of $27.4 billion and net interest income of $14.4 billion. Fully tax-equivalent figures are higher and should not be mixed silently with GAAP comparisons. Sales and trading revenue reached $5.7 billion including net debit valuation adjustment; equities revenue was a record $2.2 billion. Wealth reported $24 billion AUM flows in the quarter. These businesses help produce fees even when loan growth is modest. [1]
+
+The bank returned $6.5 billion to common shareholders, including $4.5 billion repurchases. Book value rose to $36.39 per common share. Management describes capital and liquidity as strong; the analyst must still consider what happens to provisions, deposit costs and securities values under less favorable conditions. There is no second-quarter earnings release in this June information set. First-quarter improvement should therefore be used as an observed bridge from the original franchise thesis, not as evidence of a completed interest-rate or credit cycle. The summary does not identify any outside investor's current trading instructions. [1]
+
+Evidence ledger from the April 15 release: first-quarter net income was $7.4 billion, versus $6.7 billion a year earlier; diluted EPS was $0.90, versus $0.76. Revenue net of interest expense was $27.4 billion, or $27.5 billion fully tax equivalent. Net interest income was $14.4 billion, or $14.6 billion FTE, up 3%. Noninterest expense was $17.8 billion and credit provision $1.5 billion; net charge-offs of $1.5 billion were flat versus both comparison quarters. Ending deposits were approximately $2 trillion. Standardized CET1 was 11.8%, backed by $201 billion common equity tier 1 capital. Book value per common share was $36.39. Capital returned totaled $6.5 billion, comprising $2.0 billion common dividends and $4.5 billion repurchases. [1]
+
+Interpretation: the issuer's latest released quarter is the information boundary, not the quarter containing this assessment date. Forward guidance is management's expectation, not a realized result. Growth percentages must be matched to the stated comparison period and accounting basis. Where adjusted measures differ from GAAP, both are retained rather than mixing the favorable numerator from one with the denominator from the other. A favorable quarter does not settle the durability question; the operational causes and cash conversion still require scrutiny.
+
+Sources and publication dates:
+[1] https://d1io3yog0oux5.cloudfront.net/_70c8fb58fd3bea7a80c281a02cf2c22d/bankofamerica/db/806/10171/earnings_release/The+Press+Release_1Q25_ADA.pdf (published 2025-04-15)

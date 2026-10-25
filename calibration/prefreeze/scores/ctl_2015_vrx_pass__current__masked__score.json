@@ -1,0 +1,52 @@
+{
+ "trade_id": "ctl_2015_vrx_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "No ownership in the window",
+   "No Valeant/VRX/Bausch predecessor position in the parent 2010–Q2 2026 13F census",
+   "Economic and valuation objections are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "Reliance on debt-funded acquisitions",
+   "Capital requirements/non-wonderful compounder status",
+   "Aggressive non-GAAP accounting",
+   "Opportunity cost of cash"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Berkshire currently holds $63.27 billion in cash",
+    "citation": "D08",
+    "verdict": "supported"
+   },
+   {
+    "claim": "business model relies on a constant stream of debt-funded acquisitions",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "focus on aggressive non-GAAP accounting",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 6,
+  "share": 0.67
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Charlie and I prefer to hold our $63.27 billion in cash until we find a wonderful business at a fair price [D08].",
+ "grader_notes": "The agent correctly reached the PASS decision but failed to mirror Buffett's actual reasoning, which was strictly rooted in the fact that Berkshire did not own the position and had not publicly analyzed or issued a statement on it at that time. The agent instead performed an analyst-style fundamental critique of the company, which the answer key explicitly notes should not receive reasoning-overlap credit as these are not authenticated Buffett drivers.",
+ "run": "ctl_2015_vrx_pass__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

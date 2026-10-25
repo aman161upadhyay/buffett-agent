@@ -1,0 +1,53 @@
+{
+ "trade_id": "2007_petrochina_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "The market value reached the comparative appraisal of other giant oil companies. → Today, the situation has changed. Our evaluation of the business and the current oil price suggests that the market value has caught up with our estimate of intrinsic value [D05]."
+  ],
+  "missed": [
+   "Higher oil prices and reserve development raised intrinsic value since purchase.",
+   "The sale was price-driven, not a Sudan divestment decision."
+  ],
+  "extra_agent_drivers": [
+   "Sensitivity of profitability to commodity cycles.",
+   "Capital redeployment opportunity cost."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The stock trades at approximately 14.53x earnings and 3.50x book value [D04]",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Realizing the substantial gain requires paying a 35% federal tax rate [D08]",
+    "citation": "D08",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Current earnings are capitalized at levels that do not provide a sufficient margin of safety [D04], [D05]",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 8,
+  "share": 0.73
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Today, the situation has changed.",
+ "grader_notes": "The agent correctly identified the decision to sell and the core reasoning that the market price had converged with intrinsic value, matching Buffett's primary driver. It failed to capture the secondary drivers regarding oil price/reserve development and the specific clarification regarding Sudan. The agent provided cogent supplemental financial reasoning that aligns with Buffett's typical capital allocation framework, though these were not explicit drivers listed in the post-mortem.",
+ "run": "2007_petrochina_sell__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "SELL",
+ "agent_decision": "SELL",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

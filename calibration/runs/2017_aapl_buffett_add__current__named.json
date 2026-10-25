@@ -1,0 +1,55 @@
+{
+ "pack": "2017_aapl_buffett_add",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2017-01-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2017-01-31",
+  "company": "Apple Inc.",
+  "ticker": "AAPL",
+  "decision": "ADD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Consumer ecosystem moat: intact [D01]",
+   "Earnings power: strengthened by record quarterly results [D03]",
+   "Capital allocation: rational buyback execution reported [D02]"
+  ],
+  "price_vs_value_now": "The stock trades at approximately 14.5x trailing earnings, which remains attractive for a business with this quality [D04].",
+  "after_tax_hurdle": "Not applicable as the decision is to ADD; tax costs are only relevant to sales [S3].",
+  "drivers": [
+   {
+    "driver": "The business exhibits durable consumer franchise characteristics with persistent retention and ecosystem lock-in [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Recent financial performance shows record quarterly revenue, validating the continued demand for the company's products [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The valuation, at roughly 14-15x earnings, remains reasonable for a wonderful business with significant excess cash [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The position is still small relative to Berkshire's total capital, allowing for significant accumulation of a high-quality asset [D08].",
+    "citations": [
+     "D08"
+    ]
+   }
+  ],
+  "memo": "Apple's latest results demonstrate that the company continues to enjoy a formidable consumer franchise. The integration of hardware, software, and services creates meaningful friction for users, effectively serving as a moat that encourages retention and repeat purchases [D01]. With record revenue of $78.4 billion reported for the recent holiday quarter, the business has proven that it can generate significant cash despite skeptics who point to potential product cycle saturation [D03, D05].\n\nAt a trailing price-to-earnings multiple of roughly 14.5x, we are paying a fair price for a wonderful business [D04]. While we always maintain a margin of safety, the company's demonstrated ability to manage capital, including meaningful share repurchases, aligns with our preference for rational, owner-oriented management [D02]. We do not concern ourselves with short-term quarterly fluctuations; rather, we look for businesses that will be more valuable in five or ten years, and Apple fits this criteria well.\n\nAs this position was initially established by a deputy, it remains relatively small within our broader portfolio [D07, D08]. Building a significant position in a business we understand—and one that earns high returns on capital—is a logical step when the price does not reflect the full long-term potential of the franchise. We will continue to evaluate the opportunity cost of these funds against other potential acquisitions, but for now, the addition of shares is warranted [D06, D08].",
+  "uncited_claims": [
+   "The decision follows the logic that for a high-quality business still in the accumulation phase, a price rise alone is not a deterrent to adding to the position."
+  ]
+ }
+}

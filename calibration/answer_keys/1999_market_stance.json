@@ -1,0 +1,45 @@
+{
+  "id": "1999_market_stance",
+  "actual_decision": "HOLD_CASH",
+  "conviction": "high",
+  "size_pct_nav": "Incremental-capital stance, not a documented full-market liquidation or exact cash target",
+  "first_action_date": null,
+  "disclosure_date": "1999-11-22",
+  "reason_class": null,
+  "opportunity_template": [
+    "B8"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "Starting valuations, interest rates and profits constrained aggregate returns far below popular expectations.",
+      "source": "https://www.berkshirehathaway.com/1999ar/FortuneMagazine.pdf (1999-11-22; contemporary)",
+      "quote": null
+    },
+    {
+      "driver": "Technological transformation did not automatically produce attractive shareholder economics.",
+      "source": "https://www.berkshirehathaway.com/1999ar/FortuneMagazine.pdf (1999-11-22; contemporary)",
+      "quote": null
+    },
+    {
+      "driver": "High prices and uncertainty about winners supported withholding new equity capital rather than predicting the next market move.",
+      "source": "https://www.berkshirehathaway.com/letters/1999.html (2000-03-01; hindsight explanation)",
+      "quote": null
+    },
+    {
+      "driver": "Existing sound franchises were not automatically sold because the aggregate market was expensive.",
+      "source": "https://www.berkshirehathaway.com/letters/1999.html (2000-03-01; hindsight explanation)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Fortune data ~29.6x 1998 reported profits on March 15 market value; article's conditional aggregate-return case ~6% nominal / ~4% real.",
+  "outcome_note": "HOLD_CASH label means withholding unattractive incremental equity capital, not proof of a large November cash purchase or a Nasdaq short. 1999 letter is post-cutoff corroboration, dated 2000-03-01.",
+  "sources": [
+    "https://www.berkshirehathaway.com/1999ar/FortuneMagazine.pdf (1999-11-22; contemporary)",
+    "https://www.berkshirehathaway.com/letters/1999.html (2000-03-01; hindsight explanation)",
+    "Fortune, November 22, 1999, historical figures and arithmetic only; investor verdict and recommendations withheld; https://www.berkshirehathaway.com/1999ar/FortuneMagazine.pdf ; prior Berkshire annual report; fund reference https://www.berkshirehathaway.com/letters/1998htm.html"
+  ],
+  "pack_quality_notes": "Market-stance mapping is interpretive: Fortune is a return-expectations essay, not a transaction order. Prior year-end $37.265 billion equities and >$15 billion cash equivalents recovered from March 1 letter; November freely deployable cash remains unknown. Current-year annual letter stays key-only."
+}

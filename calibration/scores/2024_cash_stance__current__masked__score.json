@@ -1,0 +1,49 @@
+{
+ "trade_id": "2024_cash_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Capital should wait for a sufficiently attractive and adequately sized business opportunity → We refuse to force purchases simply to reduce our headline cash balance when prices offer an inadequate margin of safety",
+   "Own shares should only be repurchased below conservatively determined intrinsic value → repurchase own shares only if priced below intrinsic value"
+  ],
+  "missed": [
+   "Financial independence and insurance liquidity take precedence over forced deployment."
+  ],
+  "extra_agent_drivers": [
+   "Equity earnings yields remain uncompetitive relative to short-term risk-free rates and long bonds.",
+   "Market valuations are elevated with a trailing P/E of approximately 28.45x.",
+   "Berkshire's massive scale limits the pool of opportunities that can meaningfully move the needle."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Berkshire's massive scale limits the pool of opportunities that can meaningfully move the needle",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "S&P 500 trading at approximately 28.45x trailing earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 2,
+  "share": 0.29
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We refuse to force purchases simply to reduce our headline cash balance when prices offer an inadequate margin of safety.",
+ "grader_notes": "The agent correctly identified the decision and captured the core of Buffett's wait-for-value policy. It correctly noted that the cash stance is a consequence of opportunity set rather than a market prediction. Farthest from Buffett's reasoning was the heavy emphasis on quantitative yield spread comparisons, which the agent prioritized over the stated policy of simple patience and financial independence.",
+ "run": "2024_cash_stance__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "HOLD_CASH",
+ "agent_decision": "HOLD_CASH",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

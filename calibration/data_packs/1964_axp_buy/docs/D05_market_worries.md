@@ -1,0 +1,15 @@
+Title: American Express — Contemporaneous problem and adverse case
+Source: Reconstructed from American Express scandal histories; Lowenstein, Buffett: The Making of an American Capitalist, American Express episode (chapter numbering not recovered); Buffett Partnership letter, January 18, 1964; New York Times, January 6, 1964, https://www.nytimes.com/1964/01/06/archives/american-express-reports-gain-of-25c-a-share-irn-63-earnings.html
+Date: 1964-02-20
+
+## Cutoff evidence — reconstructed
+
+The strongest adverse argument is that this is not merely a subsidiary bookkeeping loss: customers buy trust, and the parent may have to support obligations beyond an easily measured legal minimum. Shareholder liability and the parent-versus-subsidiary boundary require legal verification. A wave of cheque redemptions or reduced merchant acceptance could combine liquidity needs with a decline in earnings. Historical price declines do not cap the loss. No final settlement amount is treated as known. A sceptic can reasonably demand both a legal-liability range and independent evidence that payment users are not abandoning the brand before relying on the income statement.
+
+## Economic reading of the supplied facts
+
+Industry economics: travel payments combine service charges with funds held between receipt and settlement. Customer confidence and merchant acceptance matter because the product is a promise to pay, not just a piece of paper or plastic. More activity can expand fee income and balances, but neither is free capital if redemption, settlement or credit obligations grow with it. Competitive pressure can appear in merchant charges, cardholder benefits and the cost of funding. A loss in a separate activity must be assessed both as a direct financial claim and as a possible threat to trust in the continuing payments service. This is an economic interpretation of the business described in the cited sources, not a quantified forecast.
+
+Adverse-case interpretation: a falling quotation is not itself evidence that a problem is temporary. The economically important loss is an impairment of future cash generation or a financing obligation that existing owners cannot meet. A patient investor can endure a lower stock price, but patience does not repair a destroyed franchise.
+
+The risks described here should be tested before assuming a return to ordinary margins. A capable manager may improve execution without being able to change the industry's economics. A security senior to common stock can still be junior to creditors and can still suffer interruption of its payments. Likewise, apparent balance-sheet strength may depend on estimates whose errors emerge only slowly. No probability is assigned to a disaster without evidence. These concerns are an analyst's reconstruction of the adverse argument from the identified business conditions, not an invented quotation from a named contemporary critic. Original bearish research, where unavailable, is explicitly not represented as recovered.

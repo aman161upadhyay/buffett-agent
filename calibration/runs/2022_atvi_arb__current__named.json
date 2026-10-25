@@ -1,0 +1,239 @@
+{
+ "pack": "2022_atvi_arb",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2022-02-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Activision Blizzard develops and publishes interactive entertainment content across console, PC, and mobile platforms [D01]. The company's assets include major gaming franchises, though the primary investment proposition at this date is a cash-acquisition arbitrage by Microsoft [D01].",
+   "products_customers_and_why_they_buy": [
+    "Major gaming franchises sold to consumers across console, PC, and mobile [D01]; repeat-purchase evidence is not explicitly provided in the pack beyond the existence of major franchises [D01, D10]."
+   ],
+   "economics": [
+    "Operating margins of 37.0% in 2021 [D02]; ROE of 15.3% in 2021 [D02]; capital-light model with FCF conversion of 26.5% of revenue in 2021 [D02]; software amortization is a significant non-cash expense [D02]."
+   ],
+   "earnings_record": [
+    "Revenue grew from $7.017bn (2017) to $8.803bn (2021); GAAP operating margins fluctuated from 18.7% to 37.0% over the same period; diluted EPS grew from $0.36 to $3.44 [D02]."
+   ],
+   "competitive_position": [
+    "Major player in gaming with significant franchises [D01]; peers include Electronic Arts and Take-Two Interactive [D04]; competitive strength is tied to franchise popularity rather than a quantified low-cost position [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Net cash position: $10.42bn cash vs $3.61bn debt as of 2021 [D02]; tangible book value of $7.35bn after significant goodwill [D02]."
+   ],
+   "management_and_capital_allocation": [
+    "Not in pack; dividend history shows consistent growth from $0.30 in 2017 to $0.47 in 2021 [D02]."
+   ],
+   "price_and_valuation": [
+    "Price: $81.50 [D04]; market cap: ~$63.49bn [D04]; P/E: 23.7x [D04]; Price/tangible book: 8.64x [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 4.22,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 3.68,
+    "dividend_yield": 0.58,
+    "long_bond_yield": 2.05,
+    "basis": "Earnings yield: FY2021 EPS $3.44 [D04]; FCF yield: FY2021 FCF $2.334bn [D04]; dividend yield: $0.47 DPS [D04]; long bond: 10-year US Treasury [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Regulatory blockage or material delay of the Microsoft acquisition [D05]; workplace-conduct controversy and management scrutiny [D03]; potential for the target to trade at an impaired valuation if the deal fails [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Cash acquisition by Microsoft at $95 per share [D02, D04]; expected completion in Microsoft's fiscal year ending June 2023 [D03]."
+   ],
+   "recent_events": [
+    "Definitive merger agreement announced January 18, 2022 [D03]; Q4 2021 results released February 3, 2022 [D02]; Berkshire 13F filing disclosure of ~15m shares on February 14, 2022 [D07]."
+   ],
+   "berkshire_context": [
+    "Existing position of ~15 million shares acquired prior to the merger announcement [D07]; Berkshire cash baseline of ~$144.1bn as of 2020-end [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Detailed owner earnings normalization (maintenance capex vs. growth capex); 2021 annual report; updated Berkshire cash balance for 2021; authenticated bearish price targets; verifiable 2022-02-15 closing price."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The company develops and publishes interactive entertainment content across multiple platforms [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The company holds major gaming franchises that serve as a significant competitive strength [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Revenue and diluted EPS have demonstrated growth from 2017 to 2021 [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong net cash position with $10.42bn in cash against $3.61bn in debt [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "The business operates a capital-light model with FCF conversion of 26.5% of revenue [D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management and capital allocation details are not in pack, and the company faces scrutiny regarding workplace conduct [D03]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of approximately $63.49bn, the company is large enough to move the needle for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The primary investment proposition is an arbitrage opportunity based on a definitive cash-acquisition agreement [D01, D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 7,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": true,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a cash-acquisition arbitrage opportunity regarding the Microsoft merger"
+  },
+  "gate2": {
+   "templates": [
+    "B5"
+   ],
+   "why_available": "The market is discounting Activision Blizzard stock below the $95 cash-acquisition price due to fears of regulatory intervention or deal failure [D03, D05]. We believe the definitive agreement provides a clear path to value, as the spread represents a return for waiting that exceeds the risk of a deal collapse, provided the transaction closes as expected [D01, D03].",
+   "evidence": [
+    "Definitive merger agreement for $95 per share in cash [D02, D04]",
+    "Market price of $81.50 creates a spread relative to the acquisition price [D04]",
+    "Expected completion window is by June 2023 [D03]"
+   ],
+   "market_narrative_we_disagree_with": "The market believes that regulatory scrutiny or workplace-conduct issues possess a high enough probability of blocking the deal to warrant a significant discount to the agreed-upon cash price [D03, D05].",
+   "what_must_be_true": [
+    "Microsoft remains committed to the acquisition at the agreed terms",
+    "Regulatory authorities do not legally block the transaction",
+    "No material adverse change occurs that would permit a termination of the merger agreement"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "arbitrage",
+   "owner_earnings_per_share": "Not applicable for arbitrage strategy [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "$81.50 (current market price) [D04]",
+    "high": "$95.00 (deal consideration) [D02, D04]",
+    "key_assumptions": [
+     "Microsoft closes transaction at $95/share [D02, D03]",
+     "No material adverse change occurs [D05]"
+    ],
+    "discount_rate_used": "Not applicable; return based on spread to cash deal price"
+   },
+   "price_vs_value": "Price is ~86% of the $95 acquisition price, offering an arbitrage spread [D04].",
+   "expected_return_pct": {
+    "base": 16.5,
+    "bear": -14.2,
+    "bull": 16.5
+   },
+   "alternatives": "Cash or T-bills are inferior given the spread on a definitive cash deal; Berkshire buybacks are an alternative if price is below intrinsic value [D08].",
+   "downside_case": "Deal fails and stock potentially drops to pre-announcement levels; if thesis on intrinsic value at $81.50 is wrong, loss could be permanent [D05].",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Assumes regulatory approval is probable based on deal structure [D03]",
+    "Assumes no material adverse change to Activision's business [D05]"
+   ]
+  },
+  "gate4": {
+   "role": "R5",
+   "role_description": "We are engaging in merger arbitrage, relying on a definitive cash-acquisition agreement between Microsoft and Activision Blizzard [D01, D03].",
+   "horizon": "until close",
+   "value_realisation_path": [
+    "The spread between the current market price and the $95 cash consideration is realized upon the successful completion of the merger by June 2023 [D03, D04]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "Since 1980, arbitrage has been a consistent, opportunistic tool for Berkshire to deploy capital when a deal offers a clear spread beyond risk-free rates, effectively acting as a high-yield substitute for cash [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Regulatory authorities formally block the acquisition",
+    "Microsoft invokes a material adverse change clause to terminate the agreement",
+    "Material deterioration in the underlying business performance that triggers a deal break"
+   ],
+   "berkshire_constraints": "Maintaining total cash above $30B floor; managing regulatory disclosure requirements for stake accumulation [D08].",
+   "size_pct_nav": {
+    "initial": 1.5,
+    "target": 3,
+    "max": 5,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Allocating capital to T-bills or repurchasing Berkshire shares if the current price provides a superior risk-adjusted return relative to the merger spread [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is an arbitrage opportunity involving a large-cap company where the decision relies on evaluating the probability of a definitive merger agreement closing rather than a fundamental long-term equity pick.",
+   "biggest_risk_in_one_sentence": "The primary risk is a regulatory intervention that prevents the merger from closing, causing the market price of the stock to revert to a significantly lower standalone valuation."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-02-15",
+  "company": "Activision Blizzard",
+  "ticker": "ATVI",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 3,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B5"
+  ],
+  "catalyst_role": "R5",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "N/A (Arbitrage)",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "$81.50 - $95.00",
+   "expected_return_pct": 16.5,
+   "downside_case": "Deal break resulting in reversion to standalone market valuation"
+  },
+  "drivers": [
+   {
+    "driver": "The stock trades at $81.50 against a definitive $95.00 cash-acquisition price, offering a spread that functions as a high-yield substitute for cash [D02, D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The gap between the market price and the merger consideration provides an attractive return for waiting, provided the deal clears regulatory hurdles [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Activision maintains a strong financial position, with $10.42bn in cash against $3.61bn in debt, providing a safety cushion should the transaction face unforeseen complications [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "The transaction is a simple cash-for-stock exchange, eliminating the uncertainty of valuing fluctuating acquirer-stock currency [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Regulatory authorities formally block the acquisition",
+   "Microsoft invokes a material adverse change clause",
+   "Material deterioration in the underlying business performance"
+  ],
+  "what_would_change_our_mind": "Evidence that regulatory authorities have reached a final decision to block the transaction or that Microsoft has identified a material adverse change sufficient to terminate the merger agreement.",
+  "memo": "Activision Blizzard is a significant publisher of interactive entertainment, holding major gaming franchises that have built a substantial presence across console, PC, and mobile platforms [D01]. We understand this business through its established market position and its consistent history of revenue growth over the past several years [D01, D02].\n\nWhile the company has faced scrutiny regarding its internal culture, it maintains a capital-light business model with strong operating margins and a healthy net cash position of $10.42bn [D02, D03]. Its ability to generate free cash flow, which reached 26.5% of revenue in 2021, underscores the economic strength inherent in its intellectual property [D02].\n\nWe are currently participating in a definitive merger agreement where Microsoft has agreed to acquire all outstanding shares of Activision for $95 in cash [D02, D03]. The market is currently pricing the stock at $81.50, reflecting a discount driven by skepticism regarding regulatory approval [D03, D04].\n\nWe view this as a straightforward arbitrage opportunity that serves as an attractive alternative to holding short-term cash instruments [D08]. If the transaction closes as expected by June 2023, the spread offers an attractive return for our capital [D03, D04].\n\nOur investment is sized at 3% of our equity portfolio, reflecting our confidence in the deal structure while remaining mindful of potential regulatory risks [D05, D08]. We will exit the position upon the successful completion of the merger, which would represent the realization of the value gap we currently observe [D03, D04].",
+  "uncited_claims": []
+ }
+}

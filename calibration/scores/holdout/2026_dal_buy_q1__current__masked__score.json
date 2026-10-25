@@ -1,0 +1,45 @@
+{
+ "trade_id": "2026_dal_buy_q1",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Price vs value — the market price of $69.40 results in an 11.57 P/E ratio, but we view this as a commodity-like business where earnings are not durably repeatable.",
+   "The airline industry is highly capital-intensive, carrying high fixed costs for assets with daily expiring inventory, which creates an unacceptable risk of permanent capital loss.",
+   "The company carries significant debt and finance-lease obligations of $14.9 billion to $15.6 billion, which is excessive given the industry's susceptibility to demand shocks.",
+   "We have previously concluded that airline competitive advantages are fragile, leading us to exit the sector entirely during the 2020 pandemic."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company carries significant debt and finance-lease obligations of $14.9 billion to $15.6 billion.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We have previously concluded that airline competitive advantages are fragile, leading us to exit the sector entirely during the 2020 pandemic.",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We have looked at the Company and determined that it does not meet our standards for a wonderful business [D01, D08].",
+ "grader_notes": "The agent provided a PASS recommendation, which directly contradicts the BUY action found in the 13F filings. Because there is no stated investor rationale in the answer key for this trade, the reasoning is not scorable; the agent's attempt to derive a thesis based on historical sector views was inherently misaligned with the actual trade outcome.",
+ "run": "2026_dal_buy_q1__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

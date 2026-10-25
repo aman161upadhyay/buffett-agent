@@ -1,0 +1,253 @@
+{
+ "pack": "2011_ibm_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2011-03-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company provides enterprise information technology solutions, including services, middleware, systems, maintenance, and financing [D01]. Its business model centers on long-term relationships with large organizations involving critical installed systems and ongoing operational support [D01].",
+   "products_customers_and_why_they_buy": [
+    "Products: enterprise IT services, middleware, systems, maintenance, and financing [D01].",
+    "Customers: large organizations [D01].",
+    "Why they buy: reliance on integrated systems creates high switching frictions, including retraining, migration, and execution risks [D01]."
+   ],
+   "economics": [
+    "Margins: 2010 pretax margin of 19.7% [D141].",
+    "Return on equity: 66.8% (2010), noted as influenced by share repurchases [D02].",
+    "Capital intensity: Gross property investment of $4.185bn against $19.549bn operating cash flow in 2010 [D02].",
+    "Owner-earnings inputs: Requires adjustment for research expenditure, acquisitions, pension contributions, and stock compensation [D01, D02]."
+   ],
+   "earnings_record": [
+    "2006-2010 EPS trend: $6.10, $7.15, $8.89, $10.01, $11.52 [D02].",
+    "Revenue: $91.4bn (2006) to $99.9bn (2010) [D02].",
+    "Cyclicality: Revenue dipped in 2009 ($95.8bn) before recovering in 2010 [D02]."
+   ],
+   "competitive_position": [
+    "Rank/Share: Not in pack.",
+    "Moat evidence: Customer switching costs arising from integrated enterprise architecture and long-term service contracts [D01].",
+    "Peers: Hewlett-Packard, Oracle, Accenture [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Total debt: $28.624bn [D02, D04].",
+    "Cash: $11.651bn [D04].",
+    "Net debt: $16.973bn [D04].",
+    "Leverage: Total equity $23.172bn [D02, D04]."
+   ],
+   "management_and_capital_allocation": [
+    "CEO: Not in pack.",
+    "Capital allocation: Active use of share repurchases; increasing dividends; focus on multiyear roadmap [D02, D03].",
+    "Candour/Incentives: Not in pack."
+   ],
+   "price_and_valuation": [
+    "Price: $163.07 [D04].",
+    "Market cap: ~$200.25bn [D04].",
+    "P/E: 14.16x [D04].",
+    "P/B: 8.64x [D04].",
+    "Earnings yield: 7.06% [D04].",
+    "Comparison: S&P 500 trailing P/E 16.04x; 10-year Treasury 3.47% [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Customer captivity is vulnerable to changes in enterprise architecture [D05].",
+    "Revenue growth reliance on share buybacks rather than organic improvement [D05].",
+    "Complexity in financials due to financing activities, pension assumptions, and outsourcing execution [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2011-01-18: Q4 2010 results and 2011 earnings guidance released [D03]."
+   ],
+   "berkshire_context": [
+    "Cash: ~$38.2bn (corporate-wide, year-end 2010) [D08].",
+    "Float: $65.832bn (year-end 2010) [D08].",
+    "Existing stake: not in pack."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "CEO identity, detailed breakdown of maintenance vs. growth capex, exact pension liabilities, and current Berkshire position stake."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The company provides critical enterprise information technology solutions with long-term relationships and high switching frictions [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "Customer reliance on deeply integrated enterprise architecture creates significant switching costs and operational dependency [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "EPS has grown consistently from $6.10 in 2006 to $11.52 in 2010 despite a minor revenue dip in 2009 [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company maintains a very high ROE of 66.8% and, while it carries debt, it is a service-oriented business where debt is managed alongside significant operating cash flow [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "The business generates high operating cash flow of $19.549bn against relatively modest property investments, indicating it grows without excessive capital requirements [D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "CEO identity and specific management incentives/candor are not in the pack, though capital allocation shows active use of share repurchases [D02, D03]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market cap of approximately $200.25bn, this business is large enough to be meaningful for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The earnings yield of 7.06% is significantly higher than the 1.5x threshold of the 3.47% long bond yield (approx 5.2%) [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 7,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a highly entrenched enterprise technology franchise with significant switching costs and strong cash generation."
+  },
+  "gate2": {
+   "templates": [
+    "B1"
+   ],
+   "why_available": "The market fears that the company's reliance on share repurchases masks slower organic growth and that shifts in enterprise architecture could erode long-standing customer captivity [D05]. We view these as temporary anxieties that overlook the company's deeply entrenched switching costs and the enduring demand for its critical IT systems, allowing us to acquire a wonderful business at a fair earnings yield of 7.06% [D01, D04].",
+   "evidence": [
+    "Consistent EPS growth from $6.10 to $11.52 between 2006 and 2010 [D02]",
+    "High switching costs due to integrated enterprise architecture [D01]",
+    "Earnings yield of 7.06% provides an attractive margin relative to the 3.47% long bond yield [D04]"
+   ],
+   "market_narrative_we_disagree_with": "The belief that customer captivity is highly vulnerable to architectural shifts and that revenue growth is primarily driven by mechanical buybacks rather than franchise strength [D05].",
+   "what_must_be_true": [
+    "Customer switching costs remain high enough to maintain long-term service contracts",
+    "The business model continues to generate strong operating cash flow relative to capital investment",
+    "Management maintains disciplined capital allocation to protect long-term intrinsic value"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "$11.52 (2010 reported EPS used as proxy, adjusted for high cash flow generation) [D02]",
+   "initial_pretax_yield_pct": 7.06,
+   "intrinsic_value_range": {
+    "low": "$165.00",
+    "high": "$200.00",
+    "key_assumptions": [
+     "High switching costs preserve customer base [D01]",
+     "Operational cash flow continues to dwarf property investment needs [D02]"
+    ],
+    "discount_rate_used": "3.47% long bond rate [D04]"
+   },
+   "price_vs_value": "Price of $163.07 is ~99% of low-end value; marginal margin of safety.",
+   "expected_return_pct": {
+    "base": 8,
+    "bear": 4,
+    "bull": 12
+   },
+   "alternatives": "Existing holdings or short-term treasuries; current yield is better than bonds but does not offer the wide margin of safety required for a major new position [D04].",
+   "downside_case": "If architectural shifts erode competitive advantage, the high multiple on tangible book could contract significantly, resulting in a permanent impairment of value.",
+   "valuation_verdict": "FAIR",
+   "flagged_assumptions": [
+    "Owner earnings approximated by 2010 EPS due to lack of detailed maintenance capex breakdown [D02].",
+    "Assumed steady-state growth of 5-7% for DCF range."
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital (default for marketable securities after 1980) [D01, D02, D04]",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Earnings growth and consistent share repurchases [D02, D03]",
+    "Sustainable compounding of intrinsic value through durable competitive advantage [D01]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For a large-scale enterprise technology franchise, we prefer the R0 approach as it allows the business to compound cash flows over time without the need for operational interference, consistent with our post-1980 strategy for marketable securities [D01, D04]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Architectural shifts in enterprise IT render existing customer infrastructure obsolete",
+    "Pricing power lost to competitors or cloud-based alternatives",
+    "Return on capital meaningfully declines due to failed capital allocation or shrinking margins",
+    "Management fails to address structural revenue stagnation"
+   ],
+   "berkshire_constraints": "Must maintain corporate cash floor of $30B [D08]. Position size must allow for quiet accumulation given daily volume. Must avoid triggering regulatory reporting thresholds unexpectedly.",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Higher yielding alternatives or repurchasing Berkshire stock if the intrinsic value discount widens beyond current marginal levels [D04].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business is a well-understood, large-scale enterprise technology franchise with durable competitive advantages consistent with Berkshire's historical investment patterns.",
+   "biggest_risk_in_one_sentence": "The potential for structural technological obsolescence to erode the moat that currently protects the company's enterprise customer base [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2011-03-31",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "$11.52 per share (2010)",
+   "initial_pretax_yield_pct": 7.06,
+   "intrinsic_value_range": "$165.00 - $200.00",
+   "expected_return_pct": 8,
+   "downside_case": "Permanent impairment if architectural shifts erode customer base and competitive advantage."
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the shares sell at $163.07, providing an initial earnings yield of 7.06% against 3.47% long bonds [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The company possesses a formidable moat derived from deep integration into enterprise architecture, which creates significant switching costs and operational dependency for customers [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The business exhibits excellent economics, evidenced by a 66.8% ROE and high operating cash flow of $19.549bn that dwarfs required property investments [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "Consistent earnings growth, with EPS increasing from $6.10 in 2006 to $11.52 in 2010, demonstrates the enduring franchise strength [D02].",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Architectural shifts in enterprise IT render existing customer infrastructure obsolete",
+   "Pricing power lost to competitors or cloud-based alternatives",
+   "Return on capital meaningfully declines due to failed capital allocation or shrinking margins",
+   "Management fails to address structural revenue stagnation"
+  ],
+  "what_would_change_our_mind": "A fundamental shift in the technology landscape that allows competitors to bypass our high switching costs, or evidence that the earnings growth is purely mechanical and failing to translate into long-term owner earnings.",
+  "memo": "The Company provides critical enterprise technology solutions including middleware, systems, and ongoing support services [D01]. We understand this business because it is built upon essential relationships with large organizations that rely on deeply integrated, long-term architecture [D01].\n\nThis is a wonderful business with an enduring moat. High switching costs—arising from the risks of migration, retraining, and operational disruption—ensure that customers stay with our services [D01]. Economically, the company is exceptional, generating $19.549bn in operating cash flow against relatively modest property investments [D02].\n\nManagement has shown a clear preference for returning capital to owners through consistent share repurchases [D02, D03]. While we have not met the current team, their record of growing EPS from $6.10 to $11.52 over the last five years indicates a disciplined approach to managing the capital-light nature of this franchise [D02].\n\nMr. Market currently worries that the company's reliance on buybacks masks slow organic growth and that architectural changes may erode customer captivity [D05]. We believe these fears are overblown and ignore the reality that core enterprise systems are sticky by design [D01, D05].\n\nAt $163.07, the business trades at an earnings yield of 7.06%, which is attractive compared to the 3.47% yield on long-term Treasuries [D04]. Given our intrinsic value range of $165 to $200 per share, we are buying a wonderful business at a fair price [D04].\n\nWe are initiating a position today with an eye toward a 5% allocation in our equity portfolio. Our primary risk remains structural technological obsolescence, which we will monitor closely, though we expect the high switching costs to afford us a sufficient margin of safety [D04, D05].",
+  "uncited_claims": []
+ }
+}

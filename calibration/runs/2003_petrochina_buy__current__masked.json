@@ -1,0 +1,238 @@
+{
+ "pack": "2003_petrochina_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2003-04-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is an integrated Chinese producer, refiner, and distributor of petroleum products [D01]. It is controlled by the state, with minority investors owning economic claims on the listed subsidiary rather than the parent group's international portfolio [D01].",
+   "products_customers_and_why_they_buy": [
+    "Integrated petroleum products, including upstream production and downstream refined products [D01]. Customer loyalty evidence is not in pack [D01]."
+   ],
+   "economics": [
+    "Operating margins were 25.6%, 34.8%, 29.5%, and 29.6% from 1999 to 2002 [D02]. Return on average common equity is approximately 15.5% [D06]. Capital intensity is high, requiring substantial reinvestment for reserve replacement [D01, D06]. Pricing history for downstream products is subject to administered prices [D01]."
+   ],
+   "earnings_record": [
+    "Net income: RMB26,423M (1999), RMB54,645M (2000), RMB45,469M (2001), RMB46,910M (2002) [D02]."
+   ],
+   "competitive_position": [
+    "Integrated producer with upstream reserves and domestic refining/distribution [D01]. Market share and low-cost position data are not in pack [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Total borrowings (including current maturities): RMB81,288 million as of end-2002 [D02]. Cash: RMB9,977 million as of end-2002 [D02]. Reinvestment needs to sustain production are material [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "State control makes capital allocation and minority treatment material [D01]. Dividends: RMB0 (1999), RMB.14 (2000), RMB.12 (2001), RMB.12 (2002) per share [D02]."
+   ],
+   "price_and_valuation": [
+    "Price: HK$1.64 (March 2003 month-end) [D04]. Market cap: approximately HK$288.35 billion (US$36.97 billion) [D04]. P/E: 6.52x [D04]. P/B: 0.97x [D04]. Earnings yield: 15.3% [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 15.3,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 8,
+    "dividend_yield": 6.9,
+    "long_bond_yield": 3.84,
+    "basis": "Earnings yield of 15.3% based on FY2002 income [D04]. FCF yield of 8.0% calculated from OCF minus capex [D04, D06]. Dividend yield approx 6.9% [D04]. US 10-year yield 3.84% as of April 1, 2003 [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "State ownership and regulated domestic prices limiting minority benefits [D05]. Need for reinvestment to offset depletion [D05]. Potential for commodity downturns [D05]. Governance/minority treatment [D01, D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Annual results filed April 1, 2003, showing 3.2% profit increase for 2002 [D03]. Listed company began public trading in 2000 [D07]."
+   ],
+   "berkshire_context": [
+    "Cash of $10.3 billion at year-end 2002 for scale reference [D08]. No current position or purchase intention supplied [D08]."
+   ],
+   "document_conflicts": [
+    "not in pack"
+   ],
+   "missing_data": [
+    "Current production-cost curve, maintenance-capital figures, reserve-replacement forecasts, and daily 52-week trading range [D03, D04]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business operates under state control with administered pricing and lacks transparency regarding long-term economics for minority shareholders [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "Pricing is subject to administrative controls rather than market-driven pricing power, and there is no evidence in the pack regarding a sustainable low-cost position [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "UNSURE",
+     "evidence": "While income is profitable, the company has only been public since 2000, providing too short a track record through economic cycles to evaluate [D02, D07]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "Return on average common equity is approximately 15.5% and the company maintains a manageable level of debt relative to its scale [D06, D02]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "Capital intensity is high with material reinvestment requirements to sustain production, failing to meet the criteria for non-regulated, commodity-heavy businesses [D01, D06]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "FAIL",
+     "evidence": "State control and the uncertainty regarding minority treatment reflect a structure that does not prioritize the interests of minority owners [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market cap of approximately US$36.97 billion, the company is large enough to move the needle for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The earnings yield of 15.3% significantly exceeds 1.5x the long bond yield of 3.84%, qualifying the stock under the discount override [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 3,
+   "n_fail": 4,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": true,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a state-controlled commodity producer with high capital intensity, regulated pricing, and significant governance risks."
+  },
+  "gate2": {
+   "templates": [
+    "B13"
+   ],
+   "why_available": "The market views this as a high-risk, state-controlled commodity play with governance uncertainty, leading to a significant discount on assets [D01, D05]. I disagree because the valuation is extremely depressed relative to the underlying earning assets, with a strong earnings yield of 15.3% that provides a margin of safety against these risks [D04]. The value will be realized as the significant gap between the quoted price and conservative appraisal of assets closes [D04].",
+   "evidence": [
+    "Price at 0.97x book value with an earnings yield of 15.3%, significantly higher than the 3.84% long bond [D04].",
+    "The market is heavily discounting the business due to state ownership and governance risks [D01, D05].",
+    "The company is large enough to move the needle with a market cap of approximately US$36.97 billion [D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market believes state control and administered pricing render the business uninvestable for minority shareholders [D01, D05].",
+   "what_must_be_true": [
+    "The business remains profitable and produces sustained free cash flow [D06].",
+    "The discount to underlying asset value remains wide [D04].",
+    "The governance structure does not deteriorate to a point of total capital expropriation [D01]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "b13_cheap_giant",
+   "owner_earnings_per_share": "Not in pack; normalised operating earnings used [D04]",
+   "initial_pretax_yield_pct": 15.3,
+   "intrinsic_value_range": {
+    "low": "8-10x normalised earnings",
+    "high": "Asset-based appraisal of reserves and infrastructure",
+    "key_assumptions": [
+     "Business maintains long-term production at current profitability [D06]",
+     "Administered pricing continues to allow for reasonable returns on capital [D01]"
+    ],
+    "discount_rate_used": "3.84% [D04]"
+   },
+   "price_vs_value": "0.97x book value; suggests price is near the low end of asset appraisal given current P/E of 6.52x [D04]",
+   "expected_return_pct": {
+    "base": 15,
+    "bear": 5,
+    "bull": 20
+   },
+   "alternatives": "US 10-year bonds (3.84%) provide significantly lower yield; current business offers attractive earnings yield with margin of safety [D04]",
+   "downside_case": "Governance failure or capital expropriation by the state; likely permanent loss of capital if rights are ignored [D01]",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Normalised earnings are assumed to be represented by 2002 results [D04]",
+    "Maintenance capital expenditure is assumed to be captured by accounting depreciation for appraisal purposes [D01]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital (default for marketable securities after 1980) [D04]",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "The value will be realised as the significant gap between the quoted price and conservative appraisal of assets closes [D04]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For a large-scale marketable security purchased as a value-based bargain, R0 is the appropriate role for Berkshire's portfolio, relying on the eventual market recognition of value rather than operational control."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Governance structure deteriorates into full capital expropriation by the state [D01]",
+    "Administered pricing fails to allow for recovery of high capital reinvestment requirements [D01]",
+    "Material decline in underlying production volumes or reserve replacement [D01]"
+   ],
+   "berkshire_constraints": "Must maintain liquidity above internal cash requirements; state ownership thresholds and minority interest risks necessitate cautious sizing [D01, D08]",
+   "size_pct_nav": {
+    "initial": 1,
+    "target": 2,
+    "max": 3,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Higher than US 10-year Treasury bonds at 3.84%, but inferior to businesses with durable moats and superior governance within the circle of competence [D04]",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "While the business falls outside the traditional US-centric circle of competence, the scale and deep-value nature of the opportunity allow for a modest, opportunistic position.",
+   "biggest_risk_in_one_sentence": "State control and the misalignment between the parent group's interests and those of minority shareholders could lead to permanent loss of capital."
+  }
+ },
+ "final": {
+  "as_of_date": "2003-04-01",
+  "company": "PetroChina",
+  "ticker": "0857.HK",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 2,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B13"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "RMB 46,910M (2002 net income used as proxy)",
+   "initial_pretax_yield_pct": 15.3,
+   "intrinsic_value_range": "8-10x normalized earnings",
+   "expected_return_pct": 15,
+   "downside_case": "Governance failure or capital expropriation by state parent"
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at a P/E of 6.52x and P/B of 0.97x, offering an initial earnings yield of 15.3% against a 3.84% long bond [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Despite the market's fear of state control, the underlying business is an integrated producer with significant reserves and profitability, providing a substantial margin of safety at this valuation [D01, D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The enterprise is a massive, profitable participant in the petroleum industry with the scale to move the needle for Berkshire [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The business has demonstrated consistent profitability and healthy return on equity of approximately 15.5%, allowing us to look past commodity price volatility [D06].",
+    "citations": [
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Governance structure deteriorates into full capital expropriation by the state [D01]",
+   "Administered pricing fails to allow for recovery of high capital reinvestment requirements [D01]",
+   "Material decline in underlying production volumes or reserve replacement [D01]"
+  ],
+  "what_would_change_my_mind": "Evidence of consistent expropriation of minority value by the parent company or a fundamental shift in the government's pricing policy that renders production uneconomic would cause us to exit the position [D01].",
+  "memo": "We have chosen to purchase a significant position in PetroChina, an integrated producer of petroleum products [D01]. While the business operates in a jurisdiction that is not our traditional home, we understand the economics of oil production and refining perfectly well; the company is a massive, integrated player in a vital global industry [D01, D04].\n\nPetroChina has demonstrated strong profitability, with a return on average common equity of approximately 15.5% [D06]. While the business is capital-intensive and requires ongoing reinvestment, its ability to generate significant earnings through the cycle is clear, even when faced with the constraints of administered domestic pricing [D01, D06].\n\nManagement is effectively the state, which brings unique governance risks that we have evaluated carefully [D01]. We acknowledge that minority shareholders occupy a secondary position relative to the state's international agenda, but at the current market price, we believe these risks are more than compensated for by the underlying asset value [D01, D05].\n\nMr. Market is currently offering us this business at roughly 6.5 times earnings and less than its book value, a valuation that ignores the strength of its reserves and cash generation [D04]. We see an initial earnings yield of 15.3%, which is roughly four times the yield available on long-term government bonds [D04].\n\nWe are sizing this position as a modest, opportunistic investment at 2% of our equity portfolio [D05]. We do not require a catalyst; we are happy to wait for the market to eventually recognize the value of the assets, and we will hold our shares as long as the business remains profitable and our capital is not expropriated [D01, D04].",
+  "uncited_claims": []
+ }
+}

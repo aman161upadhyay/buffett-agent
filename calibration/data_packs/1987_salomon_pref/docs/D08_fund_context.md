@@ -1,0 +1,15 @@
+Title: Salomon Inc. — Investor's capital and constraints
+Source: Proposed September financing terms reconstructed from transaction account; period report https://www.nytimes.com/1987/09/28/business/salomon-to-sell-12-to-buffett.html used only for preceding-day terms, not later market reaction; fund reference https://www.berkshirehathaway.com/letters/1986.html
+Date: 1987-09-27
+
+## Cutoff evidence — reconstructed
+
+Berkshire's 1986 annual letter reports $1.874033 billion total common-stock market value and $655.364 million cost at the preceding year-end, excluding specified subsidiary minorities. Capital Cities/ABC, GEICO and Washington Post dominate the table. About $700 million of tax-exempt bonds were purchased during 1986, so capital alternatives extend beyond common stocks. The stock portfolio value is not September cash. A $700 million preferred commitment is material relative to that stale equity reference, but it should be sized against current liquidity and obligations rather than an invented same-day NAV. No target allocation is supplied, and the proposed dealer financing remains distinct from Berkshire's existing franchises.
+
+## Economic reading of the supplied facts
+
+Industry economics: a securities dealer finances inventory and counterparty exposures as well as providing advice, underwriting and distribution. Earnings can be large while requiring substantial financing and exposing the enterprise to abrupt changes in liquidity. A reputation for reliability is part of the franchise because clients and lenders can move their business quickly. Published book equity is not the same as immediately realizable cash if markets become disorderly. A preferred investment can offer a defined dividend and priority over common equity, but it does not eliminate the dealer's obligations to its creditors. Conversion gives participation in better operating results while leaving the holder exposed to the issuing company's solvency. These security distinctions matter more than a generic common-stock earnings multiple.
+
+Capital-allocation interpretation: a portfolio allocation must fit the legal entity that supplies the money. An insurance subsidiary's invested assets are not all cash available for an acquisition. Premiums collected before claims are paid provide investment funds but also create obligations. Consolidated equity, publicly traded holdings, cash and insurance float are different denominators.
+
+No target weight follows mechanically from the fund-size reference. Available cash at this exact cutoff, where unrecovered, remains unknown rather than being equated with the reference figure. Existing concentrated holdings create opportunity costs; selling them may incur tax and surrender durable earning power. A commitment involving stock also transfers a continuing fraction of the buyer's future economics. The investor has no obligation to purchase simply to remain fully invested. Conversely, waiting has a cost when a sound business is offered below conservative value. This context describes available choices and constraints without specifying an allocation or revealing a decision.

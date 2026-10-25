@@ -1,0 +1,57 @@
+{
+ "trade_id": "ctl_2012_fb_ipo_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett declines new offerings because a well-informed seller chooses the timing and price; neither he nor Munger underwrote Facebook at its IPO valuation.",
+   "Buffett and Munger publicly said they would not buy the Facebook IPO at the May 5 meeting; contemporaneous May 6 coverage quotes the policy.",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements."
+  ],
+  "extra_agent_drivers": [
+   "Implied earnings yield is below 10% target.",
+   "Rapidly evolving sector with execution risk.",
+   "Dual-class voting structure disenfranchises minority shareholders.",
+   "Continuous infrastructure investment requirements."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The implied earnings yield of 0.96% is far below our 10% target, failing to provide a margin of safety [D02].",
+    "citation": "D02",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The business operates in a rapidly evolving sector with significant execution risk [D05].",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The dual-class voting structure disenfranchises minority shareholders [D05].",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Continuous infrastructure investment requirements conflict with our preference [D02].",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 9,
+  "share": 0.75
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Charlie and I have reviewed the offering, but we find this business outside our circle of competence.",
+ "grader_notes": "The agent correctly reached the PASS decision but failed to cite the specific institutional policy against buying IPOs, which was the primary driver for Buffett. Instead, the agent constructed a standard value-investing thesis based on earnings yields and business quality, which the answer key explicitly identifies as analyst-reconstructable tests rather than Buffett's stated rationale.",
+ "run": "ctl_2012_fb_ipo_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

@@ -1,0 +1,63 @@
+{
+ "pack": "1979_market_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "hedge",
+ "as_of_date": "1979-08-06",
+ "stages": {},
+ "final": {
+  "as_of_date": "1979-08-06",
+  "trailing_earnings_yield_pct": 13.83,
+  "normalised_earnings_yield_pct": 13.83,
+  "normalisation_basis": "trailing (no distortion)",
+  "long_bond_yield_pct": 8.91,
+  "spread_points": "4.92",
+  "drawdown_from_high_pct": 0,
+  "panic_indicators": [
+   "private pension net funds allocated to equities 9% (1978-Q1 1979) [D03], [D06]"
+  ],
+  "rule_decision": "BUY_BROADLY",
+  "decision": "BUY_BROADLY",
+  "override_reason": null,
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "earnings yield (13.83%) exceeds long treasury yield (8.91%) by 4.92 percentage points [D04], [D06]",
+  "valuation_level": "S&P 500 trading at 7.23x trailing earnings [D03]; Dow trading at ~0.894x book value [D02], [D04]",
+  "ideas_that_qualify": [
+   "diversified package of established American businesses [D01]",
+   "financial and service businesses [D06]"
+  ],
+  "berkshire_action": "invest liquid funds into equities as fast as possible, focusing on businesses with durable franchises and pricing power",
+  "drivers": [
+   {
+    "driver": "The spread between equity earnings yields and bond yields is exceptionally wide at 4.92 points, providing a massive margin of safety [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Market prices relative to book value (0.89x) and earnings (7.23x) are historically depressed [D02], [D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Institutional sentiment is characterized by extreme pessimism and neglect, with pension equity allocations falling to 9% [D03], [D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Established, high-quality franchises offer superior long-term returns compared to fixed-income alternatives in an inflationary environment [D01], [D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   }
+  ],
+  "memo": "Charlie and I have always found that the best time to be greedy is when Mr. Market is suffering from a bout of profound melancholy. Right now, the indicators are clear: we are seeing a 'death of equities' mentality that mirrors the conditions of 1974 [D03], [D06]. With a trailing earnings yield of 13.83% stacked against a ten-year Treasury yield of 8.91%, the math dictates a simple course of action: we buy [D03], [D04].\n\nWhile critics point to inflation and the replacement cost of assets as reasons to stay on the sidelines, we prefer to look at the underlying business economics [D05]. We are buying claims on cash flows, not index points. When we can acquire a diversified group of businesses at a discount to book value, we are buying a margin of safety that bonds—with their fixed coupons and susceptibility to purchasing-power erosion—simply cannot match [D02], [D04]. We do not need a catalyst; we need only to deploy our capital into wonderful businesses that can maintain their competitive position regardless of the near-term economic weather [D01], [D04].",
+  "uncited_claims": []
+ }
+}

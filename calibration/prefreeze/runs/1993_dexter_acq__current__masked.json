@@ -1,0 +1,231 @@
+{
+ "pack": "1993_dexter_acq",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "1993-09-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a manufacturer of popular-priced men's and women's footwear that integrates manufacturing with distribution and retail outlets [D01]. It operates plants in Maine and Puerto Rico and is intended to continue operations with incumbent management [D01, D07].",
+   "products_customers_and_why_they_buy": [
+    "Popular-priced men's and women's shoes, work shoes, and boots sold to consumers [D01, D06]. Competitive appeal relies on brand, quality, and delivery speed, though these must be tested against consumer alternatives and import competition [D01, D05]."
+   ],
+   "economics": [
+    "Industry requires management of design, sourcing, inventory across styles/sizes, and distribution [D01, D02]. Profitability depends on sustaining returns after capital requirements; efficient operations are vulnerable to lower-cost imports [D01, D02, D05]."
+   ],
+   "earnings_record": [
+    "Not in pack; no audited income/cash-flow/balance-sheet series recovered for 1988–1992 [D02, D03]."
+   ],
+   "competitive_position": [
+    "Operates in an import-exposed industry; domestic production efficiency is the primary defense [D01, D05]. It is considered well-run, but industry economics may limit potential moats [D03, D05]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Not in pack; audited data regarding debt, cash, working-capital needs, and maintenance capex not recovered [D02, D03]."
+   ],
+   "management_and_capital_allocation": [
+    "Incumbent management to be retained post-acquisition [D01, D07]. Berkshire's centralized capital allocation applies to the enterprise [D08]."
+   ],
+   "price_and_valuation": [
+    "Proposed transaction value of approximately $420 million in Berkshire stock (25,221 shares) [D02, D04]. P/E, P/B, and FCF yield are not measurable without seller accounts [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Managerial excellence may not create a moat against lower-cost imports [D05]; domestic manufacturing faces structural cost disadvantages [D05]; fashion/inventory risks may impair working capital [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Approximately $420 million payable in 25,221 Berkshire shares [D02, D09]; contingent upon federal antitrust clearance [D07]."
+   ],
+   "recent_events": [
+    "Proposed acquisition announced September 30, 1993 [D03, D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire has a pre-existing footwear operating base [D01, D08]; the deal uses Berkshire equity rather than cash [D08]."
+   ],
+   "document_conflicts": [
+    "None identified; however, documents note that the $250 million revenue figure is a coarse historical scale check from a state profile rather than an audited FY1992 result [D02, D04]."
+   ],
+   "missing_data": [
+    "Audited 1988–1992 financials, interim 1993 results, specific maintenance capex, working-capital requirements, and precise debt/cash positions."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The footwear industry is subject to significant fashion and inventory risks that make long-term predictability difficult [D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "The business operates in an import-exposed industry where domestic production faces structural cost disadvantages and limited potential for a moat [D01, D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "UNSURE",
+     "evidence": "No audited income or cash-flow statements are available in the pack for 1988–1992 [D02, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "Audited data regarding debt and capital structure is not available in the pack [D02, D03]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business requires significant management of design, sourcing, and inventory across many styles and sizes, and lacks a low-cost commodity producer advantage [D01, D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Management is considered well-run and is intended to be retained post-acquisition [D03, D07]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "A $420 million acquisition is large enough to be considered a meaningful addition to Berkshire's footwear operations [D02, D08]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "Earnings and valuation metrics are not measurable without audited seller accounts [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 3,
+   "n_unsure": 3,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a capital-intensive footwear manufacturer exposed to import competition with no clear moat"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no reason to expect a bargain, as the business lacks a durable competitive advantage and operates in a commodity-like, import-exposed industry [D01, D05]. Without audited financial records or clarity on capital requirements, it is impossible to determine if the proposed acquisition price represents a margin of safety or a wonderful business at a fair price [D02, D04].",
+   "evidence": [
+    "Industry lacks a moat against lower-cost imports [D01, D05].",
+    "Audited financials and debt structure are missing from the pack [D02, D03].",
+    "Footwear involves significant fashion and inventory risks that complicate long-term predictability [D05]."
+   ],
+   "market_narrative_we_disagree_with": "The assumption that managerial excellence alone can overcome the structural cost disadvantages and commodity nature of the domestic footwear industry [D05].",
+   "what_must_be_true": [
+    "Audited proof of consistent, high-margin earnings that are not dependent on fashion cycles.",
+    "Evidence of a sustainable cost advantage that protects against import competition.",
+    "A purchase price that provides a clear margin of safety based on verified owner earnings."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack [D02, D03]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "no audited financials provided [D02]",
+     "no maintenance capex or working capital data [D03]"
+    ],
+    "discount_rate_used": "long bond rate not in pack"
+   },
+   "price_vs_value": "valuation impossible due to missing data",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / T-bills / existing holdings / Berkshire buyback — superior to acquiring a business with unknown economics and no clear moat [D01, D05]",
+   "downside_case": "permanent loss of capital due to inability to assess business sustainability against import competition [D05]",
+   "valuation_verdict": "PASS",
+   "flagged_assumptions": [
+    "Audited income statements, balance sheets, and cash flow data are entirely missing [D02, D03]",
+    "Maintenance capex and working capital requirements are unknown [D03]",
+    "Long bond rate for 1993-09-30 is not provided in pack"
+   ]
+  },
+  "gate4": {
+   "role": "R3",
+   "role_description": "We prefer to buy businesses in their entirety, leaving existing management in place to run the operations while Berkshire oversees capital allocation [D01, D07, D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realised through the long-term compounding of owner earnings, with excess cash deployed by Berkshire into other attractive opportunities [D08]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 1980-1999 era, Berkshire actively sought to acquire private businesses at scale to keep as permanent additions to the group, provided they meet our strict quality criteria [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Pricing power lost to lower-cost foreign imports [D01, D05]",
+    "Inventory obsolescence due to fashion cycle volatility [D05]",
+    "Capital requirements exceed returns on investment due to industry commodity nature [D01, D05]"
+   ],
+   "berkshire_constraints": "The acquisition requires issuing 25,221 Berkshire shares, diluting existing shareholders for a business with unverified economics [D02, D04].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio | partnership | cash"
+   },
+   "opportunity_cost": "Capital and management focus are better directed toward existing high-moat franchises or retained as cash for superior future opportunities [D01, D05, D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The decision involves a large-scale acquisition of a private company and requires an assessment of its long-term competitive position and intrinsic value.",
+   "biggest_risk_in_one_sentence": "We risk permanent loss of capital by acquiring a capital-intensive manufacturing business in a commodity-like industry that lacks a durable competitive advantage against low-cost imports [D01, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "1993-09-30",
+  "company": "the Company (XXX)",
+  "ticker": "N/A",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R3",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "permanent loss of capital due to inability to assess business sustainability against import competition [D05]"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — $420 million valuation cannot be reconciled with underlying economics as audited financials are not in pack [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The business operates in an import-exposed industry that lacks a durable competitive advantage [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Footwear manufacturing carries significant inventory and fashion risks that hinder long-term predictability [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "The transaction requires dilution of existing shareholders for an unverified asset [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Pricing power lost to lower-cost foreign imports [D01, D05]",
+   "Inventory obsolescence due to fashion cycle volatility [D05]",
+   "Capital requirements exceed returns on investment due to industry commodity nature [D01, D05]"
+  ],
+  "what_would_change_our_mind": "Evidence of a sustainable cost advantage, audited financials demonstrating consistent returns on capital, and a clear margin of safety.",
+  "memo": "Charlie and I have reviewed the proposed acquisition of the Company, a manufacturer of popular-priced footwear [D01]. While the business is well-run and operates within our existing footwear infrastructure, we require a high degree of certainty regarding a business's long-term economics before deploying Berkshire capital [D01, D07, D08].\n\nWe look for businesses with a durable competitive advantage that protects them from external pressures [D01, D05]. This industry is intensely competitive and remains highly vulnerable to lower-cost imports, which effectively caps the pricing power of domestic manufacturers [D01, D05]. Without a clear moat, it is difficult to ensure consistent, long-term returns on capital [D05].\n\nFurthermore, we have no audited financial record for the years 1988–1992, nor any visibility into the maintenance capital expenditures or working capital requirements of the operation [D02, D03]. We never risk Berkshire's capital on an unverified business model where we cannot reliably estimate future owner earnings [D05].\n\nAt a purchase price of approximately $420 million payable in Berkshire shares, we see no clear margin of safety [D02, D04]. In the absence of verifiable data and a protected market position, we would rather hold cash or look for other opportunities that meet our stringent criteria [D01, D05]. We prefer to pass and preserve our reputation and capital for a more certain investment [D05, D08].",
+  "uncited_claims": []
+ }
+}

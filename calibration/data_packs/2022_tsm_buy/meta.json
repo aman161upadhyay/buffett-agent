@@ -1,0 +1,26 @@
+{
+  "id": "2022_tsm_buy",
+  "company": "Taiwan Semiconductor Manufacturing Company",
+  "ticker": "TSM / 2330.TW",
+  "aliases": [
+    "Taiwan Semiconductor Manufacturing Company",
+    "TSM / 2330.TW",
+    "Taiwan Semiconductor Manufacturing",
+    "Taiwan Semiconductor",
+    "TSMC",
+    "TSM",
+    "2330",
+    "2330.TW",
+    "TPE:2330",
+    "WaferTech",
+    "Japan Advanced Semiconductor Manufacturing",
+    "JASM"
+  ],
+  "as_of_date": "2022-11-14",
+  "mode": "new",
+  "era": "D",
+  "first_action_window": "Q3 2022; November 14 is disclosure-date replay anchor",
+  "fund_aum_usd_bn": 146.7,
+  "decider": "Buffett",
+  "notes": "No authenticated own-words entry drivers; reasoning must not be graded as if moat/cheapness were publicly stated by Buffett. Actual ownership supports BUY only. November cutoff is after quarter of purchase; historical close is date-filtered retrospective data. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated."
+}

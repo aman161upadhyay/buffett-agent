@@ -1,0 +1,49 @@
+{
+ "trade_id": "2025_googl_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett framed long-lived high returns on capital as the central investing attraction when explaining Alphabet.",
+   "He limited relative enthusiasm: several existing holdings ranked ahead of Alphabet.",
+   "He distinguished the former software economics from the very large new AI capital commitments."
+  ],
+  "extra_agent_drivers": [
+   "Low free cash flow yield",
+   "Binary AI uncertainty",
+   "High capital spending requirements",
+   "Regulatory scrutiny"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The free cash flow yield of 2.27% is insufficient relative to our requirement of an earnings yield significantly higher than the long bond [D04].",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Annual capital spending is scaling to approximately $85 billion [D01, D03].",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 2,
+  "share": 0.22
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We see a free cash flow yield of 2.27%, which fails to compensate us for the risks mentioned above [D04].",
+ "grader_notes": "The agent reached the opposite investment conclusion compared to the actual Berkshire decision, resulting in a MISS for direction and state. The agent's reasoning focused on specific contemporaneous financial and regulatory risks, whereas the limited retrospective comments from Buffett focused on high-level capital return characteristics and internal relative ranking. There is no overlap in the specific drivers cited.",
+ "run": "2025_googl_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

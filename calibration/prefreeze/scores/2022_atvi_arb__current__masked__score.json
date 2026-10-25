@@ -1,0 +1,49 @@
+{
+ "trade_id": "2022_atvi_arb",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "The spread to the $95 cash consideration created a workout opportunity. → We have established a position in this publisher of gaming franchises because of the substantial gap between the current market price and the price offered in a definitive cash acquisition"
+  ],
+  "missed": [
+   "Buffett personally made the arbitrage decision, distinct from the deputy's pre-bid purchase.",
+   "Completion probability, including government intervention, had to justify the downside risk."
+  ],
+  "extra_agent_drivers": [
+   "The business possesses a durable moat through major, long-standing gaming franchises.",
+   "The Company maintains a strong financial position with cash against debt.",
+   "The transaction represents a classic, non-operating capital allocation opportunity."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The stock trades at $81.50 against a $95.00 cash acquisition price.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The Company maintains a strong financial position with $10.42bn in cash against $3.61bn in debt.",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 6,
+  "share": 0.55
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have established a position in this publisher of gaming franchises because of the substantial gap between the current market price and the price offered in a definitive cash acquisition [D01, D03].",
+ "grader_notes": "The agent correctly identified the arbitrage nature of the trade but provided a medium-conviction rating compared to Buffett's high-conviction, large-scale deployment. The reasoning was farthest from Buffett by focusing on fundamental business quality (moats, balance sheet) rather than strictly on the probability-weighted arbitrage spread and the personal oversight of the decision-maker.",
+ "run": "2022_atvi_arb__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

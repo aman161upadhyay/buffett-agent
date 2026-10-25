@@ -1,0 +1,52 @@
+{
+ "trade_id": "1972_sees_acq",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 4,
+  "matched": [
+   "The brand provided durable competitive advantage and pricing power rather than merely cheap physical assets. → We believe this perspective ignores the strength of the brand and the pricing power that permits the business to pass cost increases to its customers",
+   "Earnings of about $2 million on $8 million tangible assets demonstrated economic goodwill. → With annual pretax earnings of approximately $4m on sales of $29–30m, the business requires only $7–8m in net tangible operating capital",
+   "Growth in earnings required relatively little incremental operating capital. → the business requires only $7–8m in net tangible operating capital, providing a highly cash-generative engine for the partnership",
+   "Paying for quality was justified even though the price exceeded Buffett's old tangible-asset anchor. → At a $25m purchase price, we are paying roughly 6 times pretax earnings... We value this enterprise between $35m and $45m, providing a significant margin of safety"
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Yield comparison to long-term bonds"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The whole company sells for $25m, representing a pretax earnings yield of 16.5% against a long bond yield of 5.94% [D04].",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business possesses a durable regional brand moat and pricing power in California, evidenced by high customer loyalty [D01, D06].",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "annual pretax earnings of approximately $4m on sales of $29–30m",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 9,
+  "share": 0.69
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We believe this perspective ignores the strength of the brand and the pricing power that permits the business to pass cost increases to its customers [D05, D06].",
+ "grader_notes": "The agent correctly identified the key economic drivers Buffett later emphasized: durable brand/pricing power, high returns on tangible capital, and the cash-generative nature of the business. Reasoning is well-aligned with the core tenets of the See's acquisition as understood by the Buffett investment philosophy.",
+ "run": "1972_sees_acq__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

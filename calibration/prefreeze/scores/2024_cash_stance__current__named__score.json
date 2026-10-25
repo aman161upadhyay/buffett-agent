@@ -1,0 +1,51 @@
+{
+ "trade_id": "2024_cash_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Capital should wait for a sufficiently attractive and adequately sized business opportunity. → The lack of scalable, wonderful businesses at prices offering a sufficient margin of safety limits deployment.",
+   "Financial independence and insurance liquidity take precedence over forced deployment. → Large cash and bill holdings preserve liquidity for future opportunistic investment without forecasting a market decline.",
+   "Own shares should only be repurchased below conservatively determined intrinsic value. → Maintain high liquidity in short-term instruments, continue disciplined capital preservation, and restrict repurchases to levels below intrinsic value."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Equity earnings yields remain structurally unattractive compared to nominal risk-free Treasury yields."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "10-year Treasury yielding 4.37%",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "S&P 500 earnings yield at roughly 3.51%",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "lack of scalable, wonderful businesses at prices offering a sufficient margin of safety",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 3,
+  "share": 0.38
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We feel no institutional imperative to force a purchase simply because our cash balance has grown; indeed, we would rather wait years for a high-conviction idea than risk permanent loss of capital on mediocre assets at excessive valuations [D04, D05].",
+ "grader_notes": "The agent correctly identified the 'HOLD_CASH' stance and aligned its reasoning with Buffett's core principles of liquidity preservation and patience for attractive opportunities. While the agent included additional macro-economic comparisons (earnings yields vs. treasury yields) not explicitly present in the answer key's driver set, the core reasoning for the decision remains grounded in the provided policy-based drivers.",
+ "run": "2024_cash_stance__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "HOLD_CASH",
+ "agent_decision": "HOLD_CASH",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

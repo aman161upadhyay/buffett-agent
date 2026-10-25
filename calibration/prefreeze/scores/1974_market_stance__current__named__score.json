@@ -1,0 +1,59 @@
+{
+ "trade_id": "1974_market_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Ordinary recession and profit fears did not invalidate the available values at these prices. → We are ignoring the general talk of depression and the noise surrounding oil supply.",
+   "Purchase understandable businesses at low prices against net worth or going-concern value, with good management and resilience. → Instead, we are looking for simple, understandable franchises—be it a utility, a newspaper, or a retailer—that possess pricing power and the ability to survive hard times."
+  ],
+  "missed": [
+   "There were still many bargains even after the sharp rebound.",
+   "Patience and independent appraisal matter more than institutional pressure to act."
+  ],
+  "extra_agent_drivers": [
+   "The spread between equity earnings yields and bond yields is a highly attractive 5.22 percentage points",
+   "The market has declined over 41% from the January 1973 high, creating significant margin of safety for patient investors"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "simple businesses such as a water utility, a newspaper or a major retailer",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "fears of depression",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market earnings yield of 13.02% significantly exceeds the 7.80% yield on 10-year Treasuries",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The S&P 500 is trading at a trailing P/E of 7.68x",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 4,
+  "share": 0.5
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are not in the business of predicting the next move in the Dow; we are in the business of buying dollar bills for 50 cents.",
+ "grader_notes": "The agent correctly identifies the 'buy' decision and aligns with Buffett's focus on buying understandable businesses regardless of recession fears. The reasoning is farthest from the key because it relies heavily on specific yield spreads and market drawdown metrics, whereas Buffett's contemporary rationale was centered on the qualitative appraisal of business value versus price.",
+ "run": "1974_market_stance__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY_BROADLY",
+ "agent_decision": "BUY_BROADLY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,229 @@
+{
+ "pack": "ctl_2008_aig_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2008-09-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company owns international property/casualty and life-insurance franchises, retirement products, and financial-service operations [D01]. It operates with a consolidated asset base of $1.050 trillion [D01].",
+   "products_customers_and_why_they_buy": [
+    "Insurance and retirement products sold to customers, with value residing in distribution relationships, licensing, and policy renewals [D01]"
+   ],
+   "economics": [
+    "Not in pack; owner-earnings inputs such as maintenance capex and specific pricing history are not provided [D02]"
+   ],
+   "earnings_record": [
+    "Second-quarter net loss of $5.36 billion compared to $4.28 billion profit a year earlier [D01]. Six-month net loss of $13.16 billion [D01]. Adjusted quarterly net loss of $1.32 billion [D01]."
+   ],
+   "competitive_position": [
+    "Insurers with valuable franchises [D01]. Competitive position is obscured by opaque financial guarantees and credit-default-swap portfolios [D01, D05]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "June 30 shareholders' equity $78.09 billion; book value $29.04 per share [D01]. $20 billion capital raise in May [D01]. Ultimate cash required in a collateral stress is not bounded by these figures [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Management's August review promises to examine every business, reduce risk, protect capital, and consider all options [D01]."
+   ],
+   "price_and_valuation": [
+    "Common-stock price not in pack [D02]. Earnings-based multiples are not meaningful against reported losses [D02]. June book value $29.04 is stale [D02]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Liquidity calls on an interconnected guarantee book [D05]. Large derivative marks and realized investment losses [D05]. Legal/regulatory limits on upstreaming assets [D05]. Uncertainty regarding ultimate collateral stress requirements [D01]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "May: $20 billion capital raise [D07]. August 6: Q2 results and business-review plans released [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire cash at Dec 2007 was $44.329 billion; equity securities $74.999 billion; insurance float $58.698 billion [D08]."
+   ],
+   "document_conflicts": [
+    "not in pack"
+   ],
+   "missing_data": [
+    "Sustainable underwriting earnings, maintenance capex, precise current market price, and the ultimate cash required in a collateral stress scenario."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business's competitive position is obscured by opaque financial guarantees and credit-default-swap portfolios [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "The business faces significant uncertainty and risk from an interconnected guarantee book, preventing an assessment of a durable moat [D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company reported a $13.16 billion net loss for the first six months of the year [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company required a $20 billion capital raise in May and carries significant risk regarding ultimate cash requirements in a stress scenario [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The requirement for massive capital raises during stress and the opaque nature of its obligations do not fit the criteria for a reliable regulated utility or low-cost producer [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management is currently reviewing the business to reduce risk and protect capital, but past performance is obscured by current losses and risk portfolios [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a consolidated asset base of $1.050 trillion, the business is of significant scale [D01]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "Earnings-based multiples are not meaningful against reported losses and the company is currently not generating positive earnings [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 6,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a complex and opaque financial institution with massive unrecognized risks and recent severe losses."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is currently reacting to extreme uncertainty regarding the company's interconnected guarantee book and potential liquidity demands from derivatives [D05]. Because the ultimate cash requirements in a stress scenario are unbounded and opaque, it is impossible to evaluate the business's intrinsic value or safety [D01].",
+   "evidence": [
+    "Six-month net loss of $13.16 billion [D01]",
+    "Uncertainty regarding ultimate collateral stress requirements [D01]",
+    "Competitive position obscured by opaque financial guarantees and credit-default-swap portfolios [D01, D05]"
+   ],
+   "market_narrative_we_disagree_with": "The market is pricing in a potential liquidity crisis due to the opaque nature of the derivative portfolio and guarantee book [D05]. We do not 'disagree' because the company fails our fundamental tests of understandability and capital predictability [D01].",
+   "what_must_be_true": [
+    "The business must provide full transparency into its derivative and guarantee exposures",
+    "Management must define the maximum possible cash outflow under stress scenarios",
+    "The business must demonstrate a return to sustainable underwriting profitability"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "market_stance",
+   "owner_earnings_per_share": "not in pack [D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "incalculable",
+    "high": "incalculable",
+    "key_assumptions": [
+     "Ultimate cash requirements in a stress scenario are unbounded and opaque [D01]",
+     "Competitive position obscured by financial guarantees and credit-default-swap portfolios [D01, D05]"
+    ],
+    "discount_rate_used": "not applicable"
+   },
+   "price_vs_value": "incalculable",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "T-bills or cash equivalents; preserving capital is superior to entering a situation with unbounded liquidity risk [D01]",
+   "downside_case": "Risk of permanent loss of capital due to opaque derivative and guarantee exposures which may exceed existing equity [D01]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Intrinsic value cannot be determined due to lack of transparency [D01]",
+    "Current market price not in pack [D02]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "R0 permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital (default for marketable securities after 1980) [D01]",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "the investment is rejected due to lack of transparency regarding risks; no value realisation path exists for an opaque business [D01]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities, our default approach is to buy businesses we understand as a long-term owner; however, this business falls into our 'too hard' pile due to its opacity [D01, D05]"
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Opaque financial guarantees and credit-default-swap portfolios prevent understanding of intrinsic value [D01, D05]",
+    "Unbounded and unknown potential collateral stress requirements [D01]",
+    "Persistent and severe operating losses exceeding $13 billion in six months [D01]"
+   ],
+   "berkshire_constraints": "Must maintain substantial cash liquidity above the $30 billion threshold and avoid investments that risk permanent loss of capital or reputation [D01, D08]",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Preserving capital in T-bills or cash equivalents is superior to assuming unbounded liquidity risk [D01]",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business falls into the 'too hard' category due to its opacity and financial complexity, which precludes a Buffett-style investment [D01, D05].",
+   "biggest_risk_in_one_sentence": "The risk of permanent loss of capital is extreme because the company's opaque derivative and guarantee exposures could exceed its existing equity under a stress scenario [D01]."
+  }
+ },
+ "final": {
+  "as_of_date": "2008-09-15",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "incalculable",
+   "expected_return_pct": 0,
+   "downside_case": "Risk of permanent loss of capital exceeding existing equity [D01]."
+  },
+  "drivers": [
+   {
+    "driver": "The business operates with opaque financial guarantees and credit-default-swap portfolios that obscure its competitive position [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "We cannot determine intrinsic value due to unbounded and unknown potential collateral stress requirements [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The company reported severe financial distress with a $13.16 billion net loss in the first six months of the year [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Preserving capital in T-bills or cash is superior to assuming the extreme risks inherent in this institution [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Opaque financial guarantees and credit-default-swap portfolios prevent understanding of intrinsic value [D01, D05]",
+   "Unbounded and unknown potential collateral stress requirements [D01]",
+   "Persistent and severe operating losses exceeding $13 billion in six months [D01]"
+  ],
+  "what_would_change_our_mind": "Full transparency into all derivative and guarantee exposures, a defined maximum cash outflow under stress, and a return to sustainable underwriting profitability [D01].",
+  "memo": "Charlie and I have reviewed the business and have decided to pass. While the company holds insurance and retirement franchises of significant scale, the business's true economic position is obscured by opaque financial guarantees and credit-default-swap portfolios [D01, D05].\n\nWe cannot assess the moat or the economics when the ultimate cash requirements in a stress scenario are unbounded [D01]. The company reported a $13.16 billion net loss for the first six months of the year, a figure that highlights the severe instability within their current risk portfolios [D01].\n\nManagement has promised to review every business, but as owners, we require a clear view of the underlying assets and liabilities before committing capital [D01]. We have no interest in guessing the potential for permanent loss when the collateral requirements remain unknown [D01].\n\nIntrinsic value is incalculable in this environment [D03]. We prefer to hold cash and T-bills, waiting for opportunities that we can actually understand, rather than risking Berkshire's capital and reputation on a situation that belongs firmly in our \"too hard\" pile [D01, D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

@@ -1,0 +1,42 @@
+{
+ "trade_id": "ctl_2008_lehman_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett required executives to commit meaningful new cash on the same terms; Fuld's reluctance was an immediate negative.",
+   "Fuld's complaints about short sellers suggested a failure to recognize management's own problems.",
+   "Review of the 10-K raised asset and risk concerns; a $100M Japan problem learned after March 28 reinforced refusal, and must not be scored as cutoff-date pack evidence."
+  ],
+  "extra_agent_drivers": [
+   "The business relies on volatile trading flows and is subject to systemic liquidity risks that make long-term outcomes unpredictable.",
+   "The company's reliance on heavy leverage and capital-intensive assets creates significant potential for permanent loss of capital in a crisis.",
+   "Earnings have deteriorated sharply, with quarterly net income down 57% and fixed income revenue falling 88%.",
+   "The intrinsic value is indeterminate because we cannot verify the carrying value of assets in an industry-wide liquidation."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Earnings have deteriorated sharply, with quarterly net income down 57% and fixed income revenue falling 88%",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 12,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Consequently, we have placed this opportunity in our \"too hard\" pile and will look elsewhere for value [D01].",
+ "grader_notes": "The agent reached the correct PASS decision but failed to identify any of the specific, management-focused reasons Buffett provided in his retrospective account. The agent focused on generic macroeconomic and fundamental analysis rather than the firm-specific governance and management failures (Fuld's behavior, commitment of personal cash) that drove Buffett's actual refusal.",
+ "run": "ctl_2008_lehman_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

@@ -1,0 +1,59 @@
+{
+ "trade_id": "1988_ko_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "The product's extraordinary consumer appeal supported a worldwide franchise. → This company operates a global beverage concentrate franchise with a massive, hard-to-replicate distribution network and a brand that is consumed over 524 million times every day",
+   "Outstanding businesses with outstanding management warranted long ownership. → It is the combination of this management and the inherent strength of the franchise that gives us confidence in the long-term compounding of our investment"
+  ],
+  "missed": [
+   "Goizueta and Keough refocused policies and energized overseas sales.",
+   "Marketing and finance worked together to maximize growth and rewards to owners."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value",
+   "Superior economics characterized by high returns on average equity"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "return on average equity of 27.2% in 1987",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "net income grow steadily from $559 million in 1983 to $916 million in 1987",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "management has shown great discipline since 1981",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "initial pre-tax yield of 9.2%",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 17,
+  "cited": 11,
+  "share": 0.65
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Our intent is to be a permanent, passive holder of this business [D01, D06].",
+ "grader_notes": "The agent correctly identified the investment direction and key pillars of the brand and management. It struggled to capture the specific reasoning drivers cited by Buffett, specifically the importance of the Goizueta/Keough management team and the mesh of marketing/finance, instead substituting its own quantitative valuation analysis.",
+ "run": "1988_ko_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

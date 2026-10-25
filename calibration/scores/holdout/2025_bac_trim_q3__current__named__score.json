@@ -1,0 +1,50 @@
+{
+ "trade_id": "2025_bac_trim_q3",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The business continues to demonstrate solid earnings power with a stable deposit franchise and diversified revenue streams.",
+   "Management maintains capital sufficiency and continues to return significant capital to shareholders through dividends and repurchases.",
+   "The position is no longer at the 10% regulatory reporting threshold, removing that specific pressure to trim.",
+   "We do not sell wonderful, well-managed businesses simply because the market price has moved higher."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Broad customer franchise: intact",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "13.14x earnings and 1.30x book value",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Significant capital gains tax liability on a long-held position",
+    "citation": "D08",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 6,
+  "share": 0.55
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We will continue to monitor the bank's operational performance and capital allocation, but for now, we HOLD.",
+ "grader_notes": "The agent correctly identified the company but arrived at a HOLD decision while the actual decision was to TRIM. Per the answer key, there are no stated drivers for this trade, making the agent's extensive thesis-based reasoning extraneous and not aligned with Buffett's verified process.",
+ "run": "2025_bac_trim_q3__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "TRIM",
+ "agent_decision": "HOLD",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

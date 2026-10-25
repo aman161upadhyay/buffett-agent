@@ -1,0 +1,242 @@
+{
+ "pack": "1972_sees_acq",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "1972-01-03",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "See's is a West Coast producer and retailer of boxed chocolates with a strong California reputation [D01]. The business model relies on dependable product quality, a gifting association, and maintaining store operations, with profitability dependent on price realization over ingredient, labor, and occupancy costs [D01].",
+   "products_customers_and_why_they_buy": [
+    "Boxed chocolates sold for consumption and as gifts [D01], [D02]. Customers value dependable quality and an established local name [D01]. Evidence of repeat-purchase and loyalty is suggested by the established regional reputation [D01]."
+   ],
+   "economics": [
+    "Margins: Pretax margin estimated at 13–14.5% [D02].",
+    "Return on tangible capital: Approximately 25–29% after-tax [D02].",
+    "Capital intensity: Retailer must carry inventory, staff shops, and maintain product freshness [D01].",
+    "Owner-earnings inputs: D&A and maintenance capex not provided; figures are reconstructed nominal dollars [D02]."
+   ],
+   "earnings_record": [
+    "FY1971 revenue was just over $28m [D02], [D03]. Pre-purchase annual scale estimated at $29–30m revenue, $4–4.2m pretax earnings, and ~$2m net income [D02]. Cyclicality is noted via holiday demand concentration [D01]."
+   ],
+   "competitive_position": [
+    "Over 150 shops [D03]. Regional California reputation [D01]. Moat evidence includes durable customer relationships and gifting association [D01]. Peers are boxed-chocolate makers and alternative gift providers; few industry companies exceed $50m in sales [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Net tangible operating capital estimated at $7–8m [D02]. Debt, cash, and leverage ratios not provided [D02]."
+   ],
+   "management_and_capital_allocation": [
+    "Chuck Huggins identified as the operating manager to evaluate for continuity [D01]. Other details regarding tenure, record, and incentives are not in pack."
+   ],
+   "price_and_valuation": [
+    "Proposed price: $25m [D04]. P/E: ~12.5x [D04]. Price/Pretax Earnings: ~6.0–6.25x [D04]. Price/Tangible Capital: ~3.1–3.6x [D04]. Earnings yield: ~8% [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 8,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 5.94,
+    "basis": "Earnings yield calculated from ~$2m net income on $25m price [D04]. Long bond yield from FRED DGS10 as of 1972-01-03 [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Regional name may not justify premium over tangible assets [D05]. Ingredient inflation and wage/occupancy costs may absorb price increases [D05]. Potential for failed expansion outside California [D05]. Quality maintenance risks [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Proposed purchase price $25m [D04]. Management continuity is an input [D08]. Seller motive and specific contractual terms not in pack."
+   ],
+   "recent_events": [
+    "1972-01-03: Date of valuation and acquisition-decision boundary [D04], [D07]."
+   ],
+   "berkshire_context": [
+    "Buyer is Blue Chip Stamps, not Berkshire directly [D08]. Munger involved in business quality evaluation [D08]. No existing stake or portfolio weight provided; other data not in pack [D08]."
+   ],
+   "document_conflicts": [
+    "None reported."
+   ],
+   "missing_data": [
+    "Audited annual statements, store-by-store sales, exact cash/debt figures, maintenance capex, D&A, and full historical earnings records."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "See's has a long-standing reputation and a simple, repeatable business model centered on boxed chocolates as gifts [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The business benefits from a strong regional gifting association and brand loyalty that allows for price realization [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "The company shows consistent earnings power with annual revenue over $28m and demonstrated profitability [D02], [D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The business generates an impressive 25–29% return on tangible capital with minimal capital requirements [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "Despite carrying inventory and staff, the business requires only $7–8m in net tangible operating capital to generate substantial earnings [D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "While Chuck Huggins is identified as the operating manager, insufficient information regarding his specific tenure and incentives is in the pack [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "At a $25m valuation, this acquisition is well-suited for the scale of our current investment vehicle [D04], [D08]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The pre-tax earnings yield is approximately 16% ($4m earnings on $25m price), well above the ~1.5x threshold for the 5.94% long bond yield [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 7,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a wonderful consumer franchise with high returns on capital and strong pricing power in the boxed chocolate market"
+  },
+  "gate2": {
+   "templates": [
+    "B1"
+   ],
+   "why_available": "The market views See's primarily as a regional commodity business, focusing on the volatility of ingredient costs and the risks of expansion beyond its California base [D05]. We see a wonderful consumer franchise with high returns on capital that possesses the pricing power to pass on inflation to loyal customers, allowing the intrinsic value to compound far beyond its tangible assets [D01], [D02].",
+   "evidence": [
+    "Regional California reputation and established gifting association create a durable moat [D01]",
+    "Consistent revenue over $28m with 25-29% return on tangible capital [D02]",
+    "Pre-tax earnings yield of ~16% on a $25m price represents a superior valuation relative to the long bond [D04]"
+   ],
+   "market_narrative_we_disagree_with": "The market fears that regional name recognition does not justify a premium over tangible assets and that rising labor and occupancy costs will erode margins [D05].",
+   "what_must_be_true": [
+    "The brand retains its strong regional gifting association",
+    "Pricing power remains sufficient to offset potential increases in ingredient and labor costs",
+    "Management can maintain product quality and operational discipline"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "Not applicable; purchase of entire company for $25m [D04]",
+   "initial_pretax_yield_pct": 16,
+   "intrinsic_value_range": {
+    "low": "$25m",
+    "high": "$30m+",
+    "key_assumptions": [
+     "Brand retains regional gifting association [D01]",
+     "Pricing power offsets inflationary pressures [D01]",
+     "Maintenance capex is minimal relative to earnings [D02]"
+    ],
+    "discount_rate_used": "5.94% long bond yield [D04]"
+   },
+   "price_vs_value": "Price is 100% of the conservative low-end valuation; margin of safety exists through brand-driven pricing power [D01]",
+   "expected_return_pct": {
+    "base": 15,
+    "bear": 8,
+    "bull": 20
+   },
+   "alternatives": "Long bonds at 5.94% yield inferior returns compared to See's 16% pre-tax yield on a wonderful business [D04].",
+   "downside_case": "Poor execution in expansion or loss of brand loyalty; downside is limited by tangible asset backing of $7-8m [D02].",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Owner earnings assumed to approximate $4m pre-tax earnings due to minimal maintenance capex requirement for retail shop model [D02]",
+    "Long-term bond rate as of 1972-01-03 used for discount base [D04]"
+   ]
+  },
+  "gate4": {
+   "role": "R3",
+   "role_description": "We intend to acquire the entire business to provide a permanent home where we can leave existing management in place, allowing the business to focus on its long-term competitive advantage while remitting excess cash to Omaha [D01], [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value will be realised through the compounding of See's intrinsic value, supported by its strong regional gifting association and pricing power [D01], [D02]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In this era, we look for private businesses to keep, and See's provides a durable consumer franchise that we can own outright and manage through our capital allocation process [D01], [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "pricing power fails to offset rising ingredient or labor costs",
+    "expansion outside California degrades brand prestige or profitability",
+    "management loses focus on quality and operational discipline"
+   ],
+   "berkshire_constraints": "The acquisition is made via Blue Chip Stamps, preserving Berkshire's liquidity and avoiding direct regulatory concentration issues [D08].",
+   "size_pct_nav": {
+    "initial": 100,
+    "target": 100,
+    "max": 100,
+    "basis": "whole company purchase"
+   },
+   "opportunity_cost": "Long bonds at 5.94% yield significantly less than the 16% pre-tax earnings yield offered by See's [D04].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a whole-company acquisition of a durable consumer franchise, falling squarely within my circle of competence.",
+   "biggest_risk_in_one_sentence": "The primary risk is that inflation in input costs and labor outpaces our ability to raise prices, thereby eroding the franchise's margins."
+  }
+ },
+ "final": {
+  "as_of_date": "1972-01-03",
+  "company": "See's Candies",
+  "ticker": "n/a",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 100,
+  "size_basis": "whole company purchase",
+  "opportunity_template": [
+   "B1"
+  ],
+  "catalyst_role": "R3",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "$4m pre-tax",
+   "initial_pretax_yield_pct": 16,
+   "intrinsic_value_range": "$25m - $30m+",
+   "expected_return_pct": 15,
+   "downside_case": "Limited by $7-8m in tangible assets"
+  },
+  "drivers": [
+   {
+    "driver": "The whole company is available for $25m, offering a pre-tax earnings yield of 16% against a long bond yield of 5.94% [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "See's possesses a durable consumer franchise with high pricing power, allowing the business to pass on inflationary costs to customers [D01].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The business consistently generates a 25–29% return on tangible capital with minimal capital requirements [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "The market misunderstands See's as a regional commodity, failing to value the strength of its brand and its ability to compound capital [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "pricing power fails to offset rising ingredient or labor costs",
+   "expansion outside California degrades brand prestige or profitability",
+   "management loses focus on quality and operational discipline"
+  ],
+  "what_would_change_our_mind": "Evidence that See's can no longer maintain its regional gifting association or that input cost inflation structurally outpaces our ability to raise retail prices.",
+  "memo": "See's Candies is a wonderful West Coast producer and retailer of boxed chocolates that we have long admired for its dependable quality and strong regional gifting association [D01]. We understand the business model well: it relies on maintaining product freshness and store operations, with success tied to the brand's ability to command a premium price [D01].\n\nThe economics of the business are exceptional, requiring only $7–8m in net tangible operating capital to generate substantial earnings [D02]. Historically, the company has delivered returns on tangible capital in the 25–29% range, far exceeding the capital intensity typical of retail operations [D02].\n\nWe intend to leave existing management, including Chuck Huggins, in place to oversee the daily operations, as we trust their commitment to the quality that has built this brand [D01], [D08]. We are buying this business to be a permanent home for its excess cash, allowing it to continue its consistent performance without interference [D01], [D08].\n\nThe market has mispriced this business by viewing it as a vulnerable regional commodity subject to ingredient cost volatility [D05]. While the market frets over labor and occupancy expenses, it overlooks the powerful pricing power inherent in the See's name, which allows the business to pass inflationary costs through to its loyal customer base [D01], [D05].\n\nAt a purchase price of $25m, we are acquiring a business with roughly $4m in annual pre-tax earnings, providing an initial earnings yield of 16% [D04]. This compares most favorably to the 5.94% yield available on long-term bonds [D04]. We anticipate a strong long-term return on our investment, supported by the business's ability to compound value with minimal additional capital [D02].\n\nThe primary risk remains that ingredient or labor costs could outpace our pricing power, or that expansion efforts might dilute the brand [D05]. However, the downside is protected by the company's tangible asset base, and we are confident that the business will continue to be a staple in the communities it serves [D02].",
+  "uncited_claims": []
+ }
+}

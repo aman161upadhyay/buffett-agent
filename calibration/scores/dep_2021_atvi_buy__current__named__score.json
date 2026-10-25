@@ -1,0 +1,59 @@
+{
+ "trade_id": "dep_2021_atvi_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "BUY by an unnamed deputy, not Buffett and not merger arbitrage.",
+   "Buffett's signed February 17, 2022 clarification: one of two independent investment managers bought about 85% in October, completed in November, average cost about $77.",
+   "Buffett explicitly said the investment manager operated independently of him and Berkshire had no prior knowledge of Microsoft's proposal."
+  ],
+  "extra_agent_drivers": [
+   "The business model relies on a continuous creative pipeline that fails our test for a self-maintaining, durable moat.",
+   "Serious and unquantified workplace and management allegations create unacceptable reputational and operational risks.",
+   "Software production is capital-intensive, requiring constant reinvestment in intellectual property.",
+   "The lack of reliable data regarding maintenance capital expenditures and long-term normalized earnings prevents a meaningful calculation of owner earnings."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business model relies on a continuous creative pipeline that fails our test for a self-maintaining, durable moat.",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Serious and unquantified workplace and management allegations create unacceptable reputational and operational risks.",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Software production is capital-intensive, requiring constant reinvestment in intellectual property.",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The lack of reliable data regarding maintenance capital expenditures and long-term normalized earnings prevents a meaningful calculation of owner earnings.",
+    "citation": "D02",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 6,
+  "share": 0.67
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We have examined Activision Blizzard and concluded that it does not meet the criteria we require for a permanent investment [D01].",
+ "grader_notes": "The agent missed the trade entirely, recommending a PASS based on fundamental analysis rather than identifying the deputy-led purchase reported by Berkshire. The agent failed to recognize the decider as a deputy, incorrectly attributing the decision-making process to the firm's general investment criteria.",
+ "run": "dep_2021_atvi_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,49 @@
+{
+  "id": "dep_2021_atvi_buy",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav": "Approximately $0.959B October tranche = 0.327% of $293.4B June 2021 equity portfolio; approximate because Buffett gave 85% and ~$77. Full 14.658M-share cost ~$1.129B, not <=$1B. December $975M is market value, not cost.",
+  "first_action_date": "2021-10 (85%); completed 2021-11",
+  "disclosure_date": "2022-02-17",
+  "reason_class": null,
+  "opportunity_template": [
+    "B10",
+    "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "deputy",
+  "decider_identity": "unknown",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "BUY by an unnamed deputy, not Buffett and not merger arbitrage. Berkshire owned 14,658,121 shares by year-end. At approximately $77 average cost, full cost was about $1.129B; October's approximately 85% was about $959M, meeting the requested <=$1B opening-control scope.",
+      "source": "https://berkshirehathaway.com/activisionltr.pdf (2022-02-17; later evidence where after cutoff)",
+      "quote": null,
+      "evidence_type": "documented_action_or_comment"
+    },
+    {
+      "driver": "Buffett's signed February 17, 2022 clarification: one of two independent investment managers bought about 85% in October, completed in November, average cost about $77; no prior knowledge of Microsoft's January proposal. Exact deputy not named.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1067983/000095012322002973/0000950123-22-002973.txt",
+      "quote": null,
+      "evidence_type": "ownership_or_refusal_verification"
+    },
+    {
+      "driver": "Buffett explicitly said the investment manager operated independently of him and Berkshire had no prior knowledge of Microsoft's proposal; the October purchase is not merger arbitrage.",
+      "source": "https://berkshirehathaway.com/activisionltr.pdf (2022-02-17 retrospective clarification)",
+      "quote": "the purchases were made by one of the two investment managers who operate independently of me at Berkshire",
+      "evidence_type": "stated_attribution"
+    }
+  ],
+  "entry_valuation_stated": "No issuer-specific investor-stated intrinsic value or entry multiple recovered; pack valuation is analyst reconstruction.",
+  "outcome_note": "Buffett's signed February 17, 2022 clarification: one of two independent investment managers bought about 85% in October, completed in November, average cost about $77; no prior knowledge of Microsoft's January proposal. Exact deputy not named. This is a direction/discipline test, not a return forecast. Nonholding evidence is scoped to the parent discretionary portfolio and the tested window; quarterly 13Fs cannot prove absence of every intraperiod trade, nonreportable instrument, subsidiary client holding or personal investment.",
+  "sources": [
+    "https://berkshirehathaway.com/activisionltr.pdf",
+    "https://www.sec.gov/Archives/edgar/data/1067983/000095012322002973/0000950123-22-002973.txt",
+    "https://www.sec.gov/Archives/edgar/data/718877/000110465921099493/tm2123710d1_ex99-1.htm",
+    "buffett-agent/compendium/all_positions_index.md",
+    "buffett-agent/compendium/filings_2010_2026.md"
+  ],
+  "pack_quality_notes": "October close unavailable. Individual deputy identity and own-words security-selection rationale are undisclosed; only attribution/timing/cost are graded as stated evidence. Full cost exceeded $1B; <=$1B refers to approximate October initial tranche, not the $975M December market value. Silent controls do not have three authentic stated reasons; the three slots distinguish action, ownership verification and grading boundary rather than fabricate quotes. Deputy keys use user-requested decider='deputy'; meta retains the allowed named/unknown identity. Positive control: grade BUY and deputy attribution/sizing; do not grade speculative stock-selection reasons as stated.",
+  "verification_window": "Buffett's signed February 17, 2022 clarification: one of two independent investment managers bought about 85% in October, completed in November, average cost about $77; no prior knowledge of Microsoft's January proposal. Exact deputy not named.",
+  "control_quality_grade": "B"
+}

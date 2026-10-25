@@ -1,0 +1,62 @@
+{
+ "trade_id": "2023_tsm_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Geopolitical location risk outweighed admiration for the business. → While the Company is undoubtedly a leader in semiconductor manufacturing with difficult-to-replicate expertise, the reality of its geographic concentration presents a risk that simply does not fit our criteria for a permanent holding [D01, D05].",
+   "The company was well managed; the reassessment was not a condemnation of its operations. → We are selling our stake not because the company's operating performance has faltered, but because the risk profile is inconsistent with our standards for capital preservation [D05].",
+   "Buffett preferred other places to allocate capital. → We have plenty of other ways to employ Berkshire's capital where we can be far more confident in the durability of the assets and our ability to retain them for the long haul [D08]."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Foundry manufacturing requires continuous, heavy capital investment which limits owner earnings even when margins appear high [D01, D02].",
+   "The company's future demand and utilization are subject to cyclical fluctuations and inventory adjustments, introducing further uncertainty [D03]."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "While the Company is undoubtedly a leader in semiconductor manufacturing with difficult-to-replicate expertise",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the reality of its geographic concentration presents a risk that simply does not fit our criteria for a permanent holding",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We have plenty of other ways to employ Berkshire's capital where we can be far more confident",
+    "citation": "D08",
+    "verdict": "supported"
+   },
+   {
+    "claim": "ADR trades at approximately 14.9x trailing earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "company's future demand and utilization are subject to cyclical fluctuations",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 4,
+  "share": 0.57
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are selling our stake not because the company's operating performance has faltered, but because the risk profile is inconsistent with our standards for capital preservation [D05].",
+ "grader_notes": "The agent correctly identified all three drivers used by Buffett, specifically focusing on the geographic risk and the preference for alternative capital allocation. The agent also included extra drivers related to capital intensity and cyclicality that were not cited by Buffett as reasons for the sale. The reasoning is otherwise highly disciplined and aligned with the actual divestment logic.",
+ "run": "2023_tsm_sell__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "SELL",
+ "agent_decision": "SELL",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

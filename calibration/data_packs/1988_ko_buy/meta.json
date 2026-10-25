@@ -1,0 +1,27 @@
+{
+  "id": "1988_ko_buy",
+  "company": "The Coca-Cola Company",
+  "ticker": "KO",
+  "aliases": [
+    "The Coca-Cola Company",
+    "KO",
+    "Coca-Cola",
+    "Coca Cola",
+    "Coke",
+    "Diet Coke",
+    "Coca-Cola Classic",
+    "Roberto Goizueta",
+    "Don Keough",
+    "Donald Keough",
+    "Fanta",
+    "Sprite",
+    "Minute Maid"
+  ],
+  "as_of_date": "1988-09-30",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "Summer 1988 first buying; requested September cutoff follows initial ownership.",
+  "fund_aum_usd_bn": 1.874033,
+  "decider": "Buffett",
+  "notes": "Historical reconstruction: doc Date is effective information cutoff, not archival publication date. Only pre-cutoff business conditions are reconstructed; later investor explanations/outcomes appear in key only. Stale but verified December 31, 1986 common-stock portfolio market value from the 1986 annual letter; not September 1988 cash or NAV. Grade C: current financial and price table not independently recovered. Summer 1988 first buying predates September 30; new mode retained as requested with thesis-replay warning. Do not grade a precise multiple or guaranteed growth as necessary."
+}

@@ -1,0 +1,54 @@
+{
+ "trade_id": "ctl_2015_vrx_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "No ownership in the window",
+   "No Valeant/VRX/Bausch predecessor position in the parent 2010–Q2 2026 13F census",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements"
+  ],
+  "extra_agent_drivers": [
+   "Price vs value — the company trades at 24.4x management-adjusted earnings",
+   "The company relies on a debt-funded acquisition model",
+   "Management emphasizes adjusted metrics that mask true economic costs",
+   "The business lacks the durable, self-funding competitive advantage"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at 24.4x management-adjusted earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company relies on a debt-funded acquisition model",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business lacks the durable, self-funding competitive advantage",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We put this idea in the 'too hard' pile.",
+ "grader_notes": "The agent correctly identified the PASS decision, but failed to ground its reasoning in the non-ownership/verification evidence defined in the key, instead creating a detailed analyst valuation report. The agent's reasoning was entirely external to the specific Buffett constraints provided in the answer key, which focused on ownership status and the absence of authenticated March 2 issuer-specific criticism.",
+ "run": "ctl_2015_vrx_pass__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,42 @@
+{
+ "trade_id": "2007_petrochina_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "The market value reached the comparative appraisal of other giant oil companies. → The stock trades at approximately 14.53x P/E with a 3.11% dividend yield, which represents a full valuation relative to integrated oil peers [D04], [D06]."
+  ],
+  "missed": [
+   "Higher oil prices and reserve development raised intrinsic value since purchase.",
+   "The sale was price-driven, not a Sudan divestment decision."
+  ],
+  "extra_agent_drivers": [
+   "Operating cash flow net of capital expenditures has fallen, signaling increased capital intensity and lower owner earnings."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The stock trades at approximately 14.53x P/E with a 3.11% dividend yield",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 10,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "That gap has now closed; the market value has caught up with our appraisal of intrinsic value [D04].",
+ "grader_notes": "The agent correctly identified the primary driver that the market price had caught up to intrinsic value. However, the agent failed to capture Buffett's specific observation regarding the role of higher oil prices and reserve development in that valuation increase, nor did it explicitly address the nature of the sale being price-driven rather than related to political/social divestment pressures. The agent focused heavily on internal operational metrics like capital expenditure efficiency, which were not cited as primary drivers in Buffett's retrospective explanation.",
+ "run": "2007_petrochina_sell__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "SELL",
+ "agent_decision": "SELL",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

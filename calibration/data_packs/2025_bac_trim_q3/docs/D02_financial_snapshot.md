@@ -1,0 +1,14 @@
+Title: Capital ratios rather than industrial free-cash-flow shortcuts
+Source: https://d1io3yog0oux5.cloudfront.net/_70c8fb58fd3bea7a80c281a02cf2c22d/bankofamerica/db/806/10171/earnings_release/The+Press+Release_1Q25_ADA.pdf
+Date: 2025-06-30
+
+The release shows a profitable bank with common equity tier 1 capital of $201 billion and an 11.8% standardized ratio. Those figures measure regulatory capacity, not cash freely available for an equity investor to withdraw. Deposits are liabilities, not enterprise-value debt to add mechanically to an industrial-company multiple. The right assessment distinguishes required capital, reserves, liquid assets and the earning power of the customer franchise. [1]
+
+EPS improved to $0.90 from $0.76, with net income growing less rapidly because the share count also changed. Noninterest expense rose 3%, so growth in revenue was not costless. Credit provisions of $1.5 billion exceeded the year-earlier $1.3 billion, while net charge-offs were flat at approximately $1.5 billion. A quarter of stable charge-offs is useful but cannot certify an entire loan book through a recession. Full duration, deposit-beta and loan-vintage stress schedules are not reproduced here; do not manufacture a precise stressed tangible-book value from these summary metrics. [1]
+
+Evidence ledger from the April 15 release: first-quarter net income was $7.4 billion, versus $6.7 billion a year earlier; diluted EPS was $0.90, versus $0.76. Revenue net of interest expense was $27.4 billion, or $27.5 billion fully tax equivalent. Net interest income was $14.4 billion, or $14.6 billion FTE, up 3%. Noninterest expense was $17.8 billion and credit provision $1.5 billion; net charge-offs of $1.5 billion were flat versus both comparison quarters. Ending deposits were approximately $2 trillion. Standardized CET1 was 11.8%, backed by $201 billion common equity tier 1 capital. Book value per common share was $36.39. Capital returned totaled $6.5 billion, comprising $2.0 billion common dividends and $4.5 billion repurchases. [1]
+
+Accounting discipline: all dollar amounts in this document retain the period and basis given in the evidence ledger. Revenue is not owner earnings; neither adjusted profit nor operating cash flow alone measures distributable cash. Maintenance investment, working capital, compensation dilution and financing claims must be considered separately. A quarter is not a full economic cycle. Where a stand-alone balance sheet, maintenance-capital split or historical consensus series is absent, it is unavailable rather than assumed to be zero or inferred from a later filing.
+
+Sources and publication dates:
+[1] https://d1io3yog0oux5.cloudfront.net/_70c8fb58fd3bea7a80c281a02cf2c22d/bankofamerica/db/806/10171/earnings_release/The+Press+Release_1Q25_ADA.pdf (published 2025-04-15)

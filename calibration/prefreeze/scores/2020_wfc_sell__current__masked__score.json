@@ -1,0 +1,47 @@
+{
+ "trade_id": "2020_wfc_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 2,
+  "matched": [
+   "Buffett criticized the incentive system and delayed response to misconduct → The sales-practices scandal and the subsequent years of governance failures demonstrate that the institution lost its way, and restoring trust is a long, expensive, and uncertain process"
+  ],
+  "missed": [
+   "The failure to address known problems was more serious than the first error."
+  ],
+  "extra_agent_drivers": [
+   "Persistent regulatory asset caps and ongoing remediation costs structurally constrain future earnings",
+   "The original thesis of a sound, disciplined banking franchise is no longer supported by observable customer or operating outcomes"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The sales-practices scandal and the subsequent years of governance failures demonstrate that the institution lost its way",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The regulatory asset restriction imposed in 2018 is a binding constraint on our ability to grow our capital effectively",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 2,
+  "share": 0.2
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "The sales-practices scandal and the subsequent years of governance failures demonstrate that the institution lost its way, and restoring trust is a long, expensive, and uncertain process.",
+ "grader_notes": "The agent correctly matched the sell decision and identified the fundamental breakdown in the business culture as a primary driver. However, the agent included extra drivers related to regulatory capital constraints and earnings performance that were not explicitly stated as Buffett's rationale in the provided answer key. Reasoning was closest on the cultural/governance assessment and farthest regarding the specific emphasis on the failure to address known problems as the primary catalyst.",
+ "run": "2020_wfc_sell__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "SELL",
+ "agent_decision": "SELL",
+ "key_driver_count": 2,
+ "reasoning_scorable": false
+}

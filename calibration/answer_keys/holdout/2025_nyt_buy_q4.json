@@ -1,0 +1,49 @@
+{
+  "id": "2025_nyt_buy_q4",
+  "actual_decision": "BUY",
+  "conviction": "low",
+  "conviction_basis": "Classification inferred from observed size/action; private conviction not observable.",
+  "size_pct_nav": "0.1283% of Q4 13F equities: 5,065,744 shares marked $351,663,948 / $274,160,086,701; cost and first-day weight unknown.",
+  "first_action_date": "2025-Q4; exact first execution unknown",
+  "disclosure_date": "2026-02-17",
+  "reason_class": null,
+  "reason_class_status": "Unknown/unassigned; not inferred from price movement or generic prior comments.",
+  "opportunity_template": [
+    "B1"
+  ],
+  "opportunity_template_basis": "Analyst classification of case economics, not a verified manager label.",
+  "catalyst_role": "R0",
+  "decider": "unknown",
+  "size_basis": "equity portfolio",
+  "drivers": [],
+  "entry_valuation_stated": "No investor-stated multiple or cost. $69.42 December mark implied by filing is not an entry price; pack uses September $57.40 observation.",
+  "outcome_note": "Q4 first appearance; Q1 2026 grows to 15,146,535 shares and Q2 to 15,700,000. Later size is not proof of initial rationale or realized return.",
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525282901/0001193125-25-282901.txt",
+      "date": "2025-11-14"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054580/0001193125-26-054580.txt",
+      "date": "2026-02-17"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526226661/0001193125-26-226661.txt",
+      "date": "2026-05-15"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/0001193125-26-352200.txt",
+      "date": "2026-08-14"
+    }
+  ],
+  "pack_quality_notes": "No security-specific stated investor rationale or stock-picker attribution was verified. drivers=[] is intentional: a 13F proves a reported holding/share-count change, not a thesis. Do not invent 3-6 motives, assign S1/S3, or count plausible analyst inferences as own-words evidence. Direction/size replay only; reasoning overlap is NOT SCORABLE. The current generic grader treats n=0 as a vacuous match, so these cases must be excluded from reasoning-match percentages or manually labeled direction-only. Exact entry date, consensus series and independent opposing valuation unavailable; peer and churn discussion is explicitly qualitative.",
+  "quality_grade": "C",
+  "reasoning_scoring": "NOT SCORABLE: no stated drivers; direction-only",
+  "as_of_date": "2025-09-30",
+  "actual_action_window": "2025-Q4; exact execution day unknown",
+  "inferred_drivers_not_ground_truth": [
+    "Analyst hypothesis: direct-paying digital brand and bundle habit create recurring revenue.",
+    "Analyst hypothesis: growing subscriber count plus ARPU supports operating leverage.",
+    "Analyst hypothesis: a small starter holding fits delegated-scale capital; this does not identify a deputy."
+  ]
+}

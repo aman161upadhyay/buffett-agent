@@ -1,0 +1,49 @@
+{
+ "pack": "2026_googl_add_q2",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2026-03-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2026-03-31",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "decider": "deputy",
+  "thesis_at_purchase_vs_now": [
+   "Durable distribution franchise: intact [D01]",
+   "Profitable Cloud engine: strengthened [D03]",
+   "Capital intensity: increased [D01, D05]"
+  ],
+  "price_vs_value_now": "26.6x 2025 EPS, reflecting a significant premium that is acceptable for a business with persistent earning power [D04]",
+  "after_tax_hurdle": "Selling would incur a 21% federal tax liability; given the enduring nature of the franchise, the long-term compounding potential outweighs current capital gains [D08]",
+  "drivers": [
+   {
+    "driver": "The core advertising and Cloud businesses continue to deliver strong revenue and operating profit growth [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "While capital expenditures have risen to $175-$185 billion, the company maintains high cash generation to fund these necessary investments [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "Regulatory and antitrust challenges persist, but do not yet impair the fundamental economic viability of the franchise [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "memo": "We regard this investment as a durable franchise that continues to demonstrate significant earning power. The growth in the Cloud segment and the resiliency of the advertising engine underscore the strength of the business model [D01, D03]. While we are cognizant of the substantial capital expenditure requirements projected for 2026, we view these investments as a necessary commitment to defend and extend the company's competitive position [D01, D05].\n\nMr. Market has priced the shares at approximately 26.6 times 2025 earnings, which is a full price but one we are comfortable paying for a wonderful business that retains its moat [D04]. We do not sell high-quality, growing businesses simply because the market is enthusiastic, particularly when the company maintains such substantial cash and marketable securities liquidity [D02, D08].\n\nAntitrust remedies have introduced constraints, but they do not lead us to conclude that the competitive advantage is broken [D05]. We prefer to remain patient owners of a business with a proven ability to adapt and generate significant cash flow over the long term. We will continue to monitor the incremental returns on the massive capital outlays planned for the coming years [D02, D03].",
+  "uncited_claims": []
+ }
+}

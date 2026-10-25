@@ -1,0 +1,30 @@
+{
+  "id": "2025_unh_buy",
+  "company": "UnitedHealth Group",
+  "ticker": "UNH",
+  "aliases": [
+    "UnitedHealth Group",
+    "UNH",
+    "UnitedHealth Group Incorporated",
+    "UnitedHealth",
+    "UnitedHealthcare",
+    "Optum",
+    "Optum Health",
+    "Optum Rx",
+    "Optum Insight",
+    "Change Healthcare",
+    "Andrew Witty",
+    "Stephen Hemsley",
+    "Stephen J. Hemsley",
+    "731766",
+    "91324P102",
+    "unh-"
+  ],
+  "as_of_date": "2025-06-30",
+  "mode": "new",
+  "era": "E",
+  "first_action_window": "2025-Q2; exact execution day unknown",
+  "fund_aum_usd_bn": 347.7,
+  "decider": "unknown",
+  "notes": "SEALED hold-out. Dates are public-information cutoffs, not asserted private decision days. The original stock-picker rationale is unknown where not expressly sourced in the sealed key; the docs do not invent attribution. Financial inputs retain period/basis; illustrative annualization is not consensus. Exact entry costs and tax lots are unknown. Independent dated peer multiples, full maintenance-capital splits and many consensus estimates were not recovered; opposing scenarios are analyst synthesis grounded in dated issuer disclosures. Quarter-end reconstruction: trading can have preceded the cutoff within that quarter; not a causal pre-first-trade replay. Late attribution and all outcome evidence are confined to the sealed answer key. fund_aum_usd_bn is March cash/cash-equivalent/Treasury liquidity ($347.7bn), not equity AUM; avoids treating confidential later amendments as public."
+}

@@ -1,0 +1,232 @@
+{
+ "pack": "2019_oxy_pref",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2019-04-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Occidental Petroleum Corporation is an oil and gas producer with interests in chemicals and midstream operations [D01]. The company is currently engaged in a proposal to acquire Anadarko, which would increase its resource and operating exposure along with its financing requirements [D01].",
+   "products_customers_and_why_they_buy": [
+    "Oil, gas, and chemical products sold to industrial and market customers; specific repeat-purchase or loyalty evidence is not in pack [D01, D08]"
+   ],
+   "economics": [
+    "Margins vary by segment (upstream, refining, chemical) [D01, D06]. FY2018 Net margin reported as 23.2% [D06]. Capital intensity is high; 2018 capex was $4.975bn against $7.669bn in continuing operating cash flow [D02]. D&A for 2016-2018 ranged between $3.9bn and $4.3bn [D02]. Pricing depends on commodity realizations [D01, D02]."
+   ],
+   "earnings_record": [
+    "Net income/EPS: 2014 ($616m/$0.79), 2015 (-$7,829m/-$10.23), 2016 (-$574m/-$0.75), 2017 ($1,311m/$1.70), 2018 ($4,131m/$5.39) [D02]. Figures are noted as impacted by impairments and asset sales [D02, D03]."
+   ],
+   "competitive_position": [
+    "Large-scale producer; peer comparisons include Chevron, Exxon Mobil, and ConocoPhillips [D06]. Moat evidence is not in pack; the business is commodity-price dependent [D01, D05, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Standalone FY2018: Long-term debt $10.201bn, cash $3.033bn, net debt $7.168bn [D04]. Capital needs are increasing due to the proposed Anadarko acquisition [D01, D06]."
+   ],
+   "management_and_capital_allocation": [
+    "Management record is mixed; impairments and asset sales influenced earnings [D02]. Dividends per share: 2014 ($2.88) to 2018 ($3.10) [D02]. Insider ownership/incentives: not in pack [D01]."
+   ],
+   "price_and_valuation": [
+    "Common stock: $58.88 (April 2019) [D04]. Market cap approx. $44.87bn [D04]. FY2018 P/E 10.92x; earnings yield 9.15% [D04]. Preferred financing terms: 8% coupon, $10bn principal [D02, D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Aggressive acquisition-related leverage [D05, D09]. Cyclical commodity price risk [D05, D09]. Ability to deliver claimed synergies and execute asset sales [D05]. Preferred security is junior to debt and does not guarantee liquidity [D05]."
+   ],
+   "deal_terms_if_any": [
+    "$10bn preferred principal at 8% cash coupon [D02, D04]. Warrants for 80m common shares at $62.50 strike (additional $5bn cost) [D02, D04]. Cumulative perpetual preferred; issuer redemption after 10 years at 105% [D04]."
+   ],
+   "recent_events": [
+    "2019-02-12: Q4 2018 results released [D03]. 2019-04-30: Financing term sheet for acquisition-contingent preferred securities published [D01, D07, D09]."
+   ],
+   "berkshire_context": [
+    "Berkshire cash/Treasury bills approx $112bn (year-end 2018) [D08]. Existing stake/tax basis: not in pack [D08]. Origination: not in pack [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Pro-forma balance sheet/leverage ratio for the combined entity; specific maintenance capex vs expansion capex; direct customer-retention evidence."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "As a commodity producer, the business lacks the durable consumer franchise or pricing power to predict results over 10-20 years [D01, D06]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "The company produces commodities where pricing is dependent on market fluctuations rather than a sustainable competitive advantage [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "Earnings have been highly inconsistent, featuring significant losses in 2015 and 2016 [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The business carries significant debt, which is expected to increase substantially due to the proposed acquisition [D01, D04]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is highly capital-intensive, requiring billions in annual capex to maintain operations [D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "The management record is mixed, heavily impacted by asset sales and impairments, and details on insider ownership are missing from the pack [D02, D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market cap of approximately $44.87bn, the company is large enough to move the needle for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The preferred security provides an 8% coupon with an equity kicker via warrants, offering an attractive return relative to the current risk profile [D02, D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 5,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": true,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "the terms, not the business, carry the investment; this is a commodity producer with high capital requirements and inconsistent historical earnings"
+  },
+  "gate2": {
+   "templates": [
+    "B3"
+   ],
+   "why_available": "The market is concerned that the aggressive debt load required for the Anadarko acquisition increases execution risk and financial vulnerability [D05, D09]. We are not buying the underlying commodity business for its own sake, but rather providing essential liquidity that grants us an 8% coupon and an equity kicker via warrants at a price that compensates for the risk [D02, D04]. The value is realized through the contractual cash yield and the potential for long-term upside if the company successfully integrates the assets [D02, D04].",
+   "evidence": [
+    "Preferred financing provides an 8% coupon and warrants for 80m shares at $62.50 [D02, D04].",
+    "Market concerns focus on acquisition-related leverage and commodity price cyclicality [D05, D09].",
+    "Berkshire has $112bn in cash available to deploy for such negotiated terms [D08]."
+   ],
+   "market_narrative_we_disagree_with": "The market believes the acquisition leverage and commodity price volatility make the company's financial position too precarious to support the capital structure [D05, D09].",
+   "what_must_be_true": [
+    "The 8% coupon is paid reliably regardless of short-term commodity price fluctuations.",
+    "The acquisition of Anadarko does not result in an unrecoverable impairment of the capital base.",
+    "Management maintains sufficient liquidity to satisfy all debt obligations, keeping the preferred securities secure."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "negotiated_terms",
+   "owner_earnings_per_share": "Not applicable for negotiated preferred [D02, D04]",
+   "initial_pretax_yield_pct": 8,
+   "intrinsic_value_range": {
+    "low": "100% of par ($10bn)",
+    "high": "100% of par + value of 80m warrants at strike $62.50 [D04]",
+    "key_assumptions": [
+     "Coupon is paid in full [D02]",
+     "No permanent impairment of Occidental capital base [D05, D09]"
+    ],
+    "discount_rate_used": "long bond rate not provided, assumed 8% yield exceeds hurdle [D02, D04]"
+   },
+   "price_vs_value": "Price 100% of par; high margin of safety due to senior claim relative to common equity and 8% yield [D04]",
+   "expected_return_pct": {
+    "base": 8,
+    "bear": 0,
+    "bull": 12
+   },
+   "alternatives": "T-bills / existing holdings / Berkshire buyback — Negotiated deal offers equity kicker not available in T-bills while using excess cash [D08]",
+   "downside_case": "Occidental defaults on preferred dividend; not permanent loss provided asset base remains intact [D05, D09]",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Long-term government bond rate not in pack; used 8% yield as threshold proxy",
+    "Assumption that common stock will reach strike price for warrant value realization"
+   ]
+  },
+  "gate4": {
+   "role": "R2",
+   "role_description": "Berkshire serves as a financier providing capital with specific, negotiated terms including a preferred 8% coupon and warrants to participate in future equity upside, acting as a provider of essential liquidity in a complex, large-scale transaction [D02, D04].",
+   "horizon": "until conversion",
+   "value_realisation_path": [
+    "Receipt of regular cash dividend payments [D02, D04]",
+    "Potential exercise of warrants if common stock price exceeds $62.50 [D04]",
+    "Redemption of preferred shares by the issuer after 10 years at 105% [D04]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "Consistent with the 2000-2015 and current era strategy of using Berkshire's cash pile to provide capital-intensive financing with attractive coupons and warrants during periods of corporate transition or stress [D02, D04, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Commodity price collapse below Occidental's breakeven cost of production",
+    "Inability to integrate Anadarko assets and realize claimed synergies",
+    "Failure to divest non-core assets to manage debt load",
+    "Dividend suspension on preferred shares due to financial distress"
+   ],
+   "berkshire_constraints": "Must maintain substantial liquidity to cover commitments; $112bn cash available [D08]. Investment does not exceed institutional ownership thresholds [D08].",
+   "size_pct_nav": {
+    "initial": 10,
+    "target": 10,
+    "max": 10,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "T-bills or higher-quality, lower-leverage corporate opportunities that do not rely on commodity price support.",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a large-scale, negotiated preferred financing transaction providing essential liquidity, characteristic of Buffett's direct involvement.",
+   "biggest_risk_in_one_sentence": "The investment faces permanent loss if the aggressive debt load incurred for the Anadarko acquisition leads to a default on the preferred dividend or a long-term impairment of the capital base."
+  }
+ },
+ "final": {
+  "as_of_date": "2019-04-30",
+  "company": "Occidental Petroleum Corporation",
+  "ticker": "OXY",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 10,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B3"
+  ],
+  "catalyst_role": "R2",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Not applicable for negotiated preferred",
+   "initial_pretax_yield_pct": 8,
+   "intrinsic_value_range": "100% of par plus optionality of 80m warrants at $62.50 strike",
+   "expected_return_pct": 8,
+   "downside_case": "Dividend suspension or long-term impairment of the capital base"
+  },
+  "drivers": [
+   {
+    "driver": "The preferred shares offer an 8% cash coupon against a market where alternatives provide significantly lower returns, providing a compelling initial yield [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "We are providing essential liquidity for a large-scale transaction, securing terms that prioritize our capital while retaining equity upside through warrants [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The inclusion of warrants for 80 million shares at a $62.50 strike price offers meaningful participation in any future recovery or success of the combined entity [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Berkshire's substantial cash position of approximately $112 billion allows us to act as a partner of choice when others are constrained by leverage concerns [D08].",
+    "citations": [
+     "D08"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Commodity price collapse below production breakeven",
+   "Failure to integrate Anadarko assets",
+   "Dividend suspension on preferred shares"
+  ],
+  "what_would_change_our_mind": "Evidence that the debt load acquired for the Anadarko deal is structurally unmanageable or that the preferred dividend is not secure, indicating a permanent loss of capital.",
+  "memo": "Occidental is a major producer of oil and gas with a footprint that will expand significantly through its proposed acquisition of Anadarko [D01]. While we generally avoid commodity-based businesses due to their lack of a durable consumer franchise, our investment here is structured as a financing deal rather than a purchase of the underlying business [D01, D05].\n\nWe are committing $10 billion in preferred equity that carries an 8% cash coupon [D02, D04]. This arrangement provides us with a senior claim relative to common equity and a fixed return that is attractive in the current interest rate environment [D04].\n\nBeyond the 8% yield, we have received warrants to purchase 80 million shares of Occidental common stock at an exercise price of $62.50 [D02, D04]. These warrants provide us with equity participation, offering a potential kicker should the company successfully navigate the integration and market volatility [D04, D05].\n\nThe market is currently wary of the leverage Occidental is taking on to complete this acquisition [D05, D09]. We view this concern as the very reason the terms are available to us, allowing Berkshire to serve as a provider of essential liquidity where others are hesitant [D02, D04].\n\nWe anticipate a base expected return of 8% from the cash dividend, with the upside potential from the warrants [D02, D04]. Our primary risk is that the company's debt burden becomes too heavy, risking the payment of our dividend or the long-term value of the enterprise [D05, D09].\n\nThis position is sized at 10% of our equity portfolio, reflecting our conviction in the contractual terms [D05]. We will monitor the company's ability to divest assets and manage its balance sheet, as these factors are critical to maintaining the security of our investment [D05, D09].",
+  "uncited_claims": []
+ }
+}

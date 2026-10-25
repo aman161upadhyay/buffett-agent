@@ -1,0 +1,53 @@
+{
+ "trade_id": "1969_partnership_close",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Quantitative opportunities had largely disappeared at the capital scale now required. → The effort required to source meaningful ideas—those needing a $3 million commitment—has become disproportionate to the prospective returns",
+   "Buffett would not play an unfamiliar speculative game merely to preserve his record. → In this climate, we refuse to adopt fashionable, speculative methods that lie outside our circle of competence merely to remain fully invested",
+   "He refused to grope for luck with partners' money. → We will not risk the Partnership's capital or reputation when the available opportunities do not meet our stringent standards"
+  ],
+  "missed": [
+   "The attempt to reduce effort without stopping had failed."
+  ],
+  "extra_agent_drivers": [
+   "Earnings yield vs long-bond yield comparison"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The earnings yield of equities is below the yield on risk-free long-term government bonds",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Shortage of individual businesses that meet the Partnership's strict quantitative criteria at the required $3 million scale",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The manager has expressed dissatisfaction with the effort and competitive environment required",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 6,
+  "share": 0.86
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Consequently, we prefer to let cash build and consider the orderly distribution of capital to partners rather than force investments into subpar situations.",
+ "grader_notes": "The agent correctly identifies the decision to wind down/distribute capital but frames the reasoning through a macro-yield comparison (Earnings Yield vs Bond Yield) which was not a primary driver for Buffett's 1969 liquidation decision, which was centered on scale-capacity and behavioral integrity. The agent captures the qualitative and scale-based drivers well, but misses the explicit personal reasoning that the business model of attempting to 'slow down' had structurally failed.",
+ "run": "1969_partnership_close__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "SELL_DOWN",
+ "agent_decision": "HOLD_CASH",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

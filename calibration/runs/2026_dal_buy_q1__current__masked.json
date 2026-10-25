@@ -1,0 +1,208 @@
+{
+ "pack": "2026_dal_buy_q1",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2025-12-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company operates a global airline network that provides passenger travel services and maintains corporate travel and loyalty relationships [D01]. The business model involves high fixed costs for assets like aircraft and maintenance, with passenger travel described as a repeat service where inventory expires daily [D01].",
+   "products_customers_and_why_they_buy": [
+    "Passenger air travel, with a focus on premium cabins and corporate travel; loyalty business supported by partners like American Express [D01]"
+   ],
+   "economics": [
+    "Not capital light; requires ongoing investment in aircraft, engines, and maintenance [D01].",
+    "September-quarter 2025 operating income $1.684 billion; net income $1.417 billion [D01, D02, D03].",
+    "Refinery activity included in GAAP sales complicates the revenue denominator [D01, D06]."
+   ],
+   "earnings_record": [
+    "September-quarter 2025 diluted EPS was $2.17 (GAAP) and $1.71 (adjusted) [D01, D02].",
+    "Management guidance for full-year 2025 adjusted EPS is approximately $6 [D01, D03, D07]."
+   ],
+   "competitive_position": [
+    "Operates a global network with barriers to replication on specific routes, though the Company notes individual routes remain contestable [D01, D06].",
+    "Differentiated customer relationship asserted by the issuer; loyalty and premium growth cited as 9% in the September quarter [D01, D03]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Debt and finance-lease obligations of $14.9 billion; adjusted net debt of $15.6 billion [D01, D02].",
+    "Liquidity of $6.9 billion, including $3.1 billion in undrawn revolvers [D01, D05].",
+    "Gross capital spending in the September quarter was approximately $1.1 billion [D01, D02]."
+   ],
+   "management_and_capital_allocation": [
+    "Not in pack regarding specific CEO tenure or detailed capital allocation policy (buybacks/dividends) beyond management guidance on EPS and free cash flow [D01, D02]."
+   ],
+   "price_and_valuation": [
+    "Price as of 2025-12-31 was $69.40 [D04, D07].",
+    "P/E ratio based on $6 adjusted EPS guidance is approximately 11.57 [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "No normalized or owner earnings yield provided; full-year 2025 free cash flow guidance is $3.5-$4.0 billion [D01, D02]."
+   },
+   "what_the_market_is_worried_about": [
+    "Recession risk, fuel-price volatility, and operational disruptions [D05].",
+    "High operating leverage and reliance on continued loyalty/partner engagement [D05].",
+    "Risk of liquidity strain during demand interruptions [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "September-quarter 2025 results released 2025-10-09 [D01, D07].",
+    "Common share price closed at $69.40 on 2025-12-31 [D04, D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds no position in the Company [D08].",
+    "Berkshire sold all airline holdings in 2020 due to the pandemic [D08].",
+    "Berkshire reported $176 billion in insurance float as of September 2025 [D08]."
+   ],
+   "document_conflicts": [
+    "D01/D02/D03 report $14.9 billion debt and $15.6 billion adjusted net debt, noting they cannot be used interchangeably [D01, D02]."
+   ],
+   "missing_data": [
+    "Independent owner-earnings reconstruction, normalized long-term earnings series, peer-multiple consensus, and historical price-to-book data."
+   ]
+  },
+  "gate1": {
+   "_raw": "{\n  \"criteria\": {\n    \"understandable\": {\n      \"score\": \"FAIL\",\n      \"evidence\": \"The airline industry is historically susceptible to rapid changes in demand, fuel-price volatility, and operational disruptions [D05].\",\n    },\n    \"durable_moat_and_pricing_power\": {\n      \"score\": \"FAIL\",\n      \"evidence\": \"The airline business involves high fixed costs for assets with daily expiring inventory, and individual routes remain contestable despite network barriers [D01, D06].\",\n    },\n    \"consistent_earnings_record\": {\n      \"score\": \"UNSURE\",\n      \"evidence\": \"The pack provides only recent quarterly and 2025 guidance figures, lacking the long-term earnings history required to judge consistency [D01, D02, D07].\",\n    },\n    \"high_roe_little_debt\": {\n      \"score\": \"FAIL\",\n      \"evidence\": \"The company carries significant debt and finance-lease obligations of $14.9 billion, which is high given the capital-intensive nature of the business [D01, D02].\",\n    },\n    \"capital_intensity\": {\n      \"score\": \"FAIL\",\n      \"evidence\": \"The business is not capital light and requires ongoing, substantial investment in aircraft and maintenance [D01].\",\n    },\n    \"able_honest_owner_minded_management\": {\n      \"score\": \"UNSURE\",\n      \"evidence\": \"Information regarding specific management tenure and capital allocation policy is not in pack [D01, D02].\",\n    },\n    \"size_moves_the_needle\": {\n      \"score\": \"PASS\",\n      \"evidence\": \"Given the market capitalization implied by share price and earnings, it is of sufficient scale to be considered [D04, D07].\",\n    },\n    \"price_screen\": {\n      \"score\": \"UNSURE\",\n      \"evidence\": \"A normalized owner earnings yield is not in pack, and the long bond yield is missing, preventing calculation against the Buffett standard [D01, D02].\",\n    }\n  },\n  \"conflicts_resolved\": [\n    \"D01/D02/D03 report $14.9 billion debt vs $15.6 billion adjusted net debt; I rely on the company's adjusted net debt figure of $15.6 billion as the more accurate reflection of the leverage burden [D01, D02].\"\n  ],\n  \"n_pass\": 1,\n  \"n_fail\": 4,\n  \"n_unsure\": 3,\n  \"hard_fail\": true,\n  \"era_a_bargain\": false,\n  \"negotiated_terms\": false,\n  \"discount_override\": false,\n  \"arbitrage_case\": false,\n  \"deputy_idea\": false,\n  \"one_line_business_quality_verdict\": \"a highly capital-intensive airline with high fixed costs and a lack of durable competitive advantage.\"\n}"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no reason to expect a bargain because the airline industry's poor economic characteristics and high cyclicality do not change regardless of the market price [D01, D05]. We have previously observed that airline competitive advantages are fragile, and we maintain our stance that this sector does not meet our requirements for a wonderful business [D01, D08].",
+   "evidence": [
+    "The airline industry remains susceptible to fuel-price volatility and operational disruptions [D05].",
+    "High fixed costs and daily expiring inventory characterize this business [D01].",
+    "Berkshire previously sold all airline holdings when facts changed during the pandemic, confirming our view on the industry's risk [D08]."
+   ],
+   "market_narrative_we_disagree_with": "The market may be pricing the company at an 11.57 P/E based on 2025 guidance, suggesting potential value [D04], but we view this as a commodity-like business where earnings are not durably repeatable [D01].",
+   "what_must_be_true": [
+    "The airline industry would need to demonstrate a structural change toward long-term disciplined capacity and durable moats.",
+    "The business would need to consistently generate high returns on capital without the need for constant, massive reinvestment."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "airline industry lacks a durable moat [D01]",
+     "capital intensive business requiring constant reinvestment [D01]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "not in pack",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / T-bills / existing holdings / Berkshire buyback are better due to the airline industry's poor economic characteristics [D01, D08]",
+   "downside_case": "permanent loss of capital due to industry cyclicality and high fixed costs [D01, D05]",
+   "valuation_verdict": "PASS",
+   "flagged_assumptions": [
+    "normalized owner earnings cannot be reliably calculated from the provided data due to high capital intensity and lack of historical consistency"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital (default for marketable securities after 1980) [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "the business compounding and rational capital allocation [D08]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For the period 2016 onwards, Berkshire operates as a permanent investor in consumer franchises or other businesses that meet our strict criteria, though we reject this specific investment due to the industry's poor economics [D01, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "pricing power lost to industry-wide commoditization [D01]",
+    "regulator or competitive forces cap returns below cost of capital [D01]",
+    "significant fuel-price volatility or demand shock causing liquidity strain [D05]",
+    "management pursues growth through capital-intensive reinvestment rather than shareholder returns [D01]"
+   ],
+   "berkshire_constraints": "Berkshire maintains a massive cash floor (well above $30B) and prioritizes reputation and capital preservation; airline industry exposure carries unacceptable risk of permanent loss [D05, D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed into existing wonderful businesses, repurchasing Berkshire shares, or remaining in cash given the airline sector's poor economics [D01, D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The airline industry is outside our circle of competence for durable, high-quality businesses, and we have previously exited the sector entirely [D01, D08].",
+   "biggest_risk_in_one_sentence": "The business model is inherently tied to a capital-intensive, cyclical industry that lacks a sustainable competitive advantage and is prone to permanent loss of capital during disruptions [D01, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-12-31",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "permanent loss of capital due to industry-wide cyclicality and high fixed costs [D01, D05]"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the market price of $69.40 results in an 11.57 P/E ratio, but we view this as a commodity-like business where earnings are not durably repeatable [D01, D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The airline industry is highly capital-intensive, carrying high fixed costs for assets with daily expiring inventory, which creates an unacceptable risk of permanent capital loss [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The company carries significant debt and finance-lease obligations of $14.9 billion to $15.6 billion, which is excessive given the industry's susceptibility to demand shocks [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "We have previously concluded that airline competitive advantages are fragile, leading us to exit the sector entirely during the 2020 pandemic [D08].",
+    "citations": [
+     "D08"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "pricing power lost to industry-wide commoditization [D01]",
+   "regulator or competitive forces cap returns below cost of capital [D01]",
+   "significant fuel-price volatility or demand shock causing liquidity strain [D05]",
+   "management pursues growth through capital-intensive reinvestment rather than shareholder returns [D01]"
+  ],
+  "what_would_change_our_mind": "The airline industry would need to demonstrate a structural, long-term shift toward disciplined capacity management and the development of durable moats that provide consistent returns on capital without constant, massive reinvestment.",
+  "memo": "We have looked at the Company and determined that it does not meet our standards for a wonderful business [D01, D08]. The airline industry is inherently capital-intensive, requiring constant, heavy reinvestment in aircraft and maintenance, which prevents the consistent generation of high returns on capital [D01]. \n\nWhile the market may look at an 11.57 P/E ratio based on current guidance and perceive value, we see a business model burdened by high fixed costs and daily expiring inventory [D01, D04]. Individual routes remain contestable, and we have long maintained that the industry's competitive advantages are fragile at best [D01, D06].\n\nOur experience during the 2020 pandemic confirmed our view that the sector is uniquely vulnerable to shocks, leading to our full exit at that time [D08]. With $15.6 billion in adjusted net debt, the company faces significant leverage risks should fuel prices spike or demand evaporate [D01, D02, D05].\n\nCharlie and I prefer to put our capital into businesses with predictable, durable earnings [D08]. Because this company operates in a cyclical commodity-like environment without a clear moat, we would rather hold our cash than commit to this industry [D01, D08].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "trade_id": "ctl_2000_cisco_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Outside Buffett's demonstrated technology circle and no demonstrated margin of safety",
+   "No Cisco in the parent 13F-era holdings window around 2000",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "The company trades at a P/E ratio exceeding 130x, which provides no margin of safety for the investor.",
+   "The business relies on constant, heavy reinvestment in R&D and acquisitions to remain relevant.",
+   "The company lacks a sufficient multi-cycle history of stable returns.",
+   "Accounting complexities, including pooling restatements and adjustments for in-process R&D, obscure the true economic performance."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at a P/E ratio exceeding 130x",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 4,
+  "share": 0.36
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Charlie and I have looked at the Company and decided it does not belong in our portfolio.",
+ "grader_notes": "The agent correctly identified the 'PASS' decision but failed to mirror Buffett's actual reasoning. Instead of citing Buffett's stated position—that the company fell outside his demonstrated technology circle and was absent from Berkshire's portfolio—the agent invented a comprehensive fundamental analysis of Cisco. This contradicts the provided answer key, which explicitly warns that analyst-reconstructable discipline tests should not be credited as authentic Buffett reasoning.",
+ "run": "ctl_2000_cisco_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

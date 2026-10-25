@@ -1,0 +1,15 @@
+Title: US equity market — Contemporaneous problem and adverse case
+Source: Fortune, November 22, 1999, historical figures and arithmetic only; investor verdict and recommendations withheld; https://www.berkshirehathaway.com/1999ar/FortuneMagazine.pdf ; prior Berkshire annual report; fund reference https://www.berkshirehathaway.com/letters/1998htm.html
+Date: 1999-11-22
+
+## Cutoff evidence — reconstructed
+
+The bullish counterargument is substantial: technological change may raise productivity, corporate profitability may remain high and interest rates could decline further. The article notes that a move in government rates from roughly 6% to 3% could greatly increase present values, all else equal. Investors might also identify individual winners even if aggregate returns are modest. The adverse counterpart is that profitability cannot indefinitely outgrow the economy and market prices can already discount remarkable business success. Neither argument provides a dated near-term trading forecast. Original named rebuttal research is unrecovered; these competing assumptions come from the public valuation discussion rather than subsequent market performance.
+
+## Economic reading of the supplied facts
+
+Portfolio economics: aggregate stock ownership is a claim on business earnings, not a claim on the path of a market index. Dividends distribute part of those earnings; retained earnings add value only if employed productively. Interest rates affect the present value of both equities and bonds. An investor who sells one financial asset must still decide what to hold instead. Cash avoids duration and business risk but is exposed to inflation and the opportunity cost of missed investments. Market averages can obscure large differences among individual businesses. Comparing aggregate prices with book value or profits is a valuation exercise, not a mechanism for forecasting next month's quotation. The financial comparisons below are conditional on earnings durability and the stated measurement dates.
+
+Adverse-case interpretation: a falling quotation is not itself evidence that a problem is temporary. The economically important loss is an impairment of future cash generation or a financing obligation that existing owners cannot meet. A patient investor can endure a lower stock price, but patience does not repair a destroyed franchise.
+
+The risks described here should be tested before assuming a return to ordinary margins. A capable manager may improve execution without being able to change the industry's economics. A security senior to common stock can still be junior to creditors and can still suffer interruption of its payments. Likewise, apparent balance-sheet strength may depend on estimates whose errors emerge only slowly. No probability is assigned to a disaster without evidence. These concerns are an analyst's reconstruction of the adverse argument from the identified business conditions, not an invented quotation from a named contemporary critic. Original bearish research, where unavailable, is explicitly not represented as recovered.

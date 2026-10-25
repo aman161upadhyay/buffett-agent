@@ -1,0 +1,51 @@
+{
+  "id": "ctl_2000_cisco_pass",
+  "actual_decision": "PASS",
+  "conviction": "high",
+  "size_pct_nav": 0,
+  "first_action_date": null,
+  "disclosure_date": "2000-03-11",
+  "reason_class": null,
+  "opportunity_template": [
+    "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "decider_identity": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "Outside Buffett's demonstrated technology circle and no demonstrated margin of safety; no Cisco-specific entry-day public refusal located. Grade pass discipline, not an invented Cisco forecast.",
+      "source": "https://www.berkshirehathaway.com/letters/1999htm.html (2000-03-11; later evidence where after cutoff)",
+      "quote": null,
+      "evidence_type": "documented_action_or_comment"
+    },
+    {
+      "driver": "No Cisco in the parent 13F-era holdings window around 2000; Buffett's no-technology stance is independently stated, not an issuer-specific negotiated rejection. 2010\u2013Q2 2026 all-positions census likewise contains no Cisco. Reportable-quarter absence cannot exclude an undisclosed intraperiod round trip.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1067983/000095015000000439/0000950150-00-000439.txt",
+      "quote": null,
+      "evidence_type": "ownership_or_refusal_verification"
+    },
+    {
+      "driver": "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements; do not award reasoning-overlap credit for treating them as quotations.",
+      "source": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2000/m02/cisco-systems-reports-second-quarter-earnings-and-two-for-one-stock-split.html (2000-02-08)",
+      "quote": null,
+      "evidence_type": "grading_boundary_not_stated_reason"
+    }
+  ],
+  "entry_valuation_stated": "No issuer-specific investor-stated intrinsic value or entry multiple recovered; pack valuation is analyst reconstruction.",
+  "outcome_note": "No Cisco in the parent 13F-era holdings window around 2000; Buffett's no-technology stance is independently stated, not an issuer-specific negotiated rejection. 2010\u2013Q2 2026 all-positions census likewise contains no Cisco. Reportable-quarter absence cannot exclude an undisclosed intraperiod round trip. This is a direction/discipline test, not a return forecast. Nonholding evidence is scoped to the parent discretionary portfolio and the tested window; quarterly 13Fs cannot prove absence of every intraperiod trade, nonreportable instrument, subsidiary client holding or personal investment.",
+  "sources": [
+    "https://www.berkshirehathaway.com/letters/1999htm.html",
+    "https://www.sec.gov/Archives/edgar/data/1067983/000095015000000439/0000950150-00-000439.txt",
+    "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2000/m02/cisco-systems-reports-second-quarter-earnings-and-two-for-one-stock-split.html",
+    "buffett-agent/compendium/all_positions_index.md",
+    "buffett-agent/compendium/filings_2010_2026.md",
+    "https://www.sec.gov/Archives/edgar/data/1067983/000095015000000753/0000950150-00-000753.txt",
+    "https://www.sec.gov/Archives/edgar/data/1067983/000095015000000937/0000950150-00-000937.txt",
+    "https://www.sec.gov/Archives/edgar/data/1067983/000109581101000836/0001095811-01-000836.txt"
+  ],
+  "pack_quality_notes": "Exact March 1/February 29 price unavailable; no invented bubble-peak multiple. 1999 annual letter is retrospective key evidence only. Original Q1 2000 report and all three recovered confidential-treatment supplements were checked; Cisco absent. Silent controls do not have three authentic stated reasons; the three slots distinguish action, ownership verification and grading boundary rather than fabricate quotes. Deputy keys use user-requested decider='deputy'; meta retains the allowed named/unknown identity. PASS label is nonpurchase/refusal evidence, not proof a presented bull thesis was publicly evaluated.",
+  "verification_window": "No Cisco in the parent 13F-era holdings window around 2000; Buffett's no-technology stance is independently stated, not an issuer-specific negotiated rejection. 2010\u2013Q2 2026 all-positions census likewise contains no Cisco. Reportable-quarter absence cannot exclude an undisclosed intraperiod round trip.",
+  "control_quality_grade": "B"
+}

@@ -1,0 +1,261 @@
+{
+ "pack": "2008_gs_pref",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2008-09-23",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a global investment-banking, institutional trading, investing and asset-management franchise [D01]. It relies on relationships, execution capability, financial capital, and essential market confidence and funding access [D01].",
+   "products_customers_and_why_they_buy": [
+    "Investment-banking, institutional trading, and asset-management services [D01].",
+    "Target customers are institutional; no specific evidence of loyalty or repeat-purchase mechanisms is provided beyond the general existence of a franchise [D01]."
+   ],
+   "economics": [
+    "Pretax margins: 27.8% (2003), 32.5% (2004), 32.8% (2005), 38.7% (2006), 38.3% (2007) [D02].",
+    "Return on tangible equity is noted as a key analytical metric, though specific consolidated figures are not provided [D02, D03].",
+    "Capital intensity: High; assets are supported by wholesale funding and require significant capital [D01, D03].",
+    "Pricing history: Not in pack."
+   ],
+   "earnings_record": [
+    "Net earnings: $3,005M (2003), $4,553M (2004), $5,626M (2005), $9,537M (2006), $11,599M (2007) [D02].",
+    "Recent performance: Q3 2008 net earnings were $845M compared to $2,854M in Q3 2007, a 70.4% decline [D03].",
+    "Investment-banking revenue for Q3 2008 was $1.29B, down 40% from the prior-year period [D02]."
+   ],
+   "competitive_position": [
+    "A global investment-banking and trading franchise [D01].",
+    "Moat evidence: The company is a prestigious franchise, but its reliance on market confidence and leverage presents risks that may outweigh franchise advantages during funding runs [D01, D05].",
+    "Peers: Morgan Stanley, JPMorgan Chase, Bank of America [D04, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Unsecured long-term borrowing: $176.37B as of the latest release [D03].",
+    "Tangible common equity: $37.28B [D03].",
+    "Liquidity: Global core excess liquidity averaged $102.33B in Q3 2008 [D03].",
+    "The business is not a deposit-funded retail utility and remains exposed to funding runs and counterparty risks [D01, D03]."
+   ],
+   "management_and_capital_allocation": [
+    "Management record: Not in pack (rules explicitly state not to infer honesty or capability from famous names or corporate history) [D01].",
+    "Capital allocation: The company is seeking capital injection via a $5B preferred financing package [D04, D09]."
+   ],
+   "price_and_valuation": [
+    "Price: $125.05 per share (Sept 23, 2008) [D04].",
+    "Price/Tangible Book: 1.44x [D04].",
+    "Earnings yield: 19.78% based on historical 2007 EPS; not representative of current crisis earnings [D04].",
+    "Financing terms: $5B perpetual preferred (10% coupon) plus 5-year warrants at $115 strike [D04, D09]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Funding runs, counterparty losses, and collateral calls [D05].",
+    "Illiquid asset marks impairing capital [D05].",
+    "Leverage and liquidity exhaustion [D05].",
+    "Severe earnings pressure [D02, D03]."
+   ],
+   "deal_terms_if_any": [
+    "$5 billion perpetual preferred stock with 10% annual coupon [D04, D09].",
+    "Callable by issuer at 110% of principal [D04, D09].",
+    "Warrants to buy $5 billion common at $115 strike, 5-year term (~43.478 million shares) [D04, D09]."
+   ],
+   "recent_events": [
+    "Sept 16, 2008: Q3 operating release showing significant earnings decline [D03].",
+    "Sept 21, 2008: Federal Reserve approved bank-holding-company status [D01, D03].",
+    "Sept 23, 2008: Proposed financing terms [D03, D04]."
+   ],
+   "berkshire_context": [
+    "Berkshire had approximately $44.3B in cash at year-end 2007 [D08].",
+    "Existing portfolio includes Coca-Cola, American Express, and Wells Fargo [D08].",
+    "The proposed $5B investment would consume ~11.3% of the 2007 year-end cash baseline [D08]."
+   ],
+   "document_conflicts": [
+    "None identified."
+   ],
+   "missing_data": [
+    "Normalized owner earnings (post-crisis estimate).",
+    "Maintenance capex requirements.",
+    "Detailed counterparty risk exposure data.",
+    "Authenticated fair-value allocation between the preferred instrument and the warrants."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The company's reliance on wholesale funding and constant market confidence makes its long-term viability highly unpredictable during financial stress [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While considered a prestigious franchise, the reliance on leverage and the risk of funding runs suggest the moat is not durable in the face of counterparty and liquidity concerns [D01, D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "Earnings have seen a massive 70.4% decline in Q3 2008 compared to the prior year, demonstrating significant cyclical volatility [D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company operates with $176.37B in unsecured long-term debt against only $37.28B in tangible common equity, representing high leverage [D03]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is highly capital-intensive, requires significant wholesale funding, and lacks the characteristics of a stable, deposit-funded utility [D01, D03]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "No evidence is provided in the pack regarding management's long-term record or character [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "A $5B investment is large enough to be meaningful for Berkshire [D04, D08]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The 10% coupon on the preferred provides a satisfactory return in the context of the current financial environment [D04, D09]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 4,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": true,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "the terms, not the business, carry the investment in this volatile, high-leverage financial institution"
+  },
+  "gate2": {
+   "templates": [
+    "B3"
+   ],
+   "why_available": "The market is paralyzed by fears of funding runs and liquidity exhaustion due to the financial crisis, causing capital providers to retreat [D05]. We provide necessary capital under stringent, negotiated terms that prioritize our protection while the company stabilizes under its new status as a bank holding company [D01, D04]. The value is realized through the high, contractual preferred coupon and the upside potential of the warrants [D04, D09].",
+   "evidence": [
+    "Proposed $5B perpetual preferred investment carries a 10% coupon [D04, D09]",
+    "Warrants provided at $115 strike offer significant upside if the franchise survives [D04, D09]",
+    "Company recently converted to a bank holding company, theoretically improving access to liquidity [D01, D03]"
+   ],
+   "market_narrative_we_disagree_with": "The market believes the company's reliance on wholesale funding makes it fundamentally unviable in the current environment of counterparty and liquidity concerns [D01, D05].",
+   "what_must_be_true": [
+    "The institution remains solvent and avoids a catastrophic run on its funding [D01, D05]",
+    "The 10% coupon is paid reliably as a senior obligation [D04, D09]",
+    "The transition to a bank holding company structure effectively mitigates the immediate liquidity crisis [D01, D03]",
+    "The warrants retain long-term value as the franchise stabilizes [D04, D09]"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "negotiated_terms",
+   "owner_earnings_per_share": "not in pack (normalized earnings impossible to project during liquidity crisis) [D03, D05]",
+   "initial_pretax_yield_pct": 10,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "The institution remains solvent [D01]",
+     "Bank holding company status provides sufficient liquidity access [D01, D03]",
+     "Preferred dividend is paid as a senior obligation [D04]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "price is market-determined common equity; our interest is the negotiated preferred terms providing 10% coupon plus warrants [D04]",
+   "expected_return_pct": {
+    "base": 10,
+    "bear": 0,
+    "bull": 20
+   },
+   "alternatives": "T-bills / existing holdings — T-bills offer safety, but this preferred provides a 10% yield with potential upside through warrants, justifying the deployment of cash [D04, D08]",
+   "downside_case": "If the institution fails, the preferred position is senior to common, but risk of permanent loss of capital exists if the company becomes insolvent [D01, D04]",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Normalization of earnings is impossible, relying on contractual 10% coupon yield instead"
+   ]
+  },
+  "gate4": {
+   "role": "R2",
+   "role_description": "Financier with terms — we provide necessary capital during a liquidity crisis in exchange for a 10% perpetual preferred coupon and warrants that provide upside potential if the franchise survives [D04, D09].",
+   "horizon": "until conversion or redemption",
+   "value_realisation_path": [
+    "Contractual 10% coupon provides immediate yield on invested capital [D04, D09].",
+    "Warrants allow participation in equity upside as the franchise stabilizes [D04, D09].",
+    "Issuer retains call option at 110% of principal [D04, D09]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000-2015 era, we act as a provider of capital to distressed but systemically important institutions in exchange for high-coupon preferreds and warrants, leveraging Berkshire's liquidity to secure terms that provide a margin of safety [D04, D09]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "The institution becomes insolvent and enters bankruptcy/receivership [D01, D05].",
+    "The institution fails to maintain sufficient liquidity to meet obligations, triggering a run [D01, D05].",
+    "Regulators or systemic circumstances prevent the payment of the preferred dividend [D04]."
+   ],
+   "berkshire_constraints": "Berkshire must maintain sufficient cash reserves for existing insurance obligations; this $5B investment represents a significant deployment of liquid assets [D08].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 5,
+    "max": 5,
+    "basis": "cash"
+   },
+   "opportunity_cost": "T-bills or cash held in reserve for other crisis-era opportunities; however, the 10% coupon and warrant upside offer superior risk-adjusted returns in the current market environment [D04, D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a large-scale negotiated preferred financing at the holding company level requiring capital allocation expertise.",
+   "biggest_risk_in_one_sentence": "The institution's reliance on wholesale funding may lead to a liquidity collapse that impairs the value of the investment before the franchise can stabilize."
+  }
+ },
+ "final": {
+  "as_of_date": "2008-09-23",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "size_basis": "cash",
+  "opportunity_template": [
+   "B3"
+  ],
+  "catalyst_role": "R2",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 10,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 10,
+   "downside_case": "Permanent loss of capital if the institution becomes insolvent and the preferred claim is wiped out [D01, D04]."
+  },
+  "drivers": [
+   {
+    "driver": "The investment provides an immediate 10% annual coupon on a $5 billion perpetual preferred stake, providing a superior yield against a backdrop of financial uncertainty [D04, D09].",
+    "citations": [
+     "D04",
+     "D09"
+    ]
+   },
+   {
+    "driver": "We receive 5-year warrants with a $115 strike price, offering significant upside potential if the franchise stabilizes following its conversion to a bank holding company [D01, D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The transition to bank holding company status provides necessary, government-backed access to liquidity, mitigating the immediate threat of funding runs [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "We provide capital on negotiated, senior terms that prioritize our protection while the market is paralyzed by liquidity concerns [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "The institution becomes insolvent and enters bankruptcy or receivership [D01, D05].",
+   "The institution fails to maintain sufficient liquidity to meet obligations, triggering a run [D01, D05].",
+   "Regulators or systemic circumstances prevent the payment of the preferred dividend [D04]."
+  ],
+  "what_would_change_our_mind": "Evidence that the bank holding company structure is insufficient to stem the outflow of capital or that counterparty losses exceed the company's ability to absorb them while maintaining solvency.",
+  "memo": "We are making a $5 billion investment in the Company, a global leader in investment banking and institutional trading [D01]. While the company's business model is capital-intensive and currently relies heavily on market confidence, its status as a prestigious franchise remains intact [D01, D03]. \n\nThe market is presently paralyzed by concerns regarding funding runs and liquidity exhaustion, causing capital to retreat from even the most essential institutions [D05]. We are stepping in to provide capital that is vital for stability, receiving in return a 10% perpetual preferred coupon and warrants with a $115 strike price [D04, D09]. \n\nThis investment is not a bet on the perfect health of the financial system, but rather an agreement on terms that compensate us well for the risk we are assuming [D04]. The 10% yield provides a margin of safety that is rarely available in such instruments, and the warrants offer us significant participation should the franchise recover its equilibrium [D04, D09]. \n\nThe Company's recent conversion to a bank holding company is a critical development, as it provides a structured path to liquidity that should mitigate the threat of a funding run [D01, D03]. We expect the senior nature of our preferred position to provide protection, though we recognize the inherent risks of a financial institution in this environment [D01, D04]. We have sized this at 5% of our cash reserves, a meaningful deployment that leaves Berkshire with ample strength to handle other opportunities [D08].",
+  "uncited_claims": []
+ }
+}

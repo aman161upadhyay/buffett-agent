@@ -1,0 +1,49 @@
+{
+ "trade_id": "ctl_2008_lehman_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett required executives to commit meaningful new cash on the same terms; Fuld's reluctance was an immediate negative.",
+   "Fuld's complaints about short sellers suggested a failure to recognize management's own problems.",
+   "Review of the 10-K raised asset and risk concerns; a $100M Japan problem learned after March 28 reinforced refusal, and must not be scored as cutoff-date pack evidence."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value / book valuation concerns",
+   "Lack of durable competitive advantage / unstable liquidity",
+   "Cyclical collapse in net income and revenue",
+   "Capital-intensive financial operations subject to liquidity shocks"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "the company trades at 0.98x book value",
+    "citation": "D02",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "net income falling 57% and fixed-income revenue collapsing 88% in the first quarter of 2008",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 9,
+  "share": 0.9
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have examined the Company and determined that it does not meet our standards for investment.",
+ "grader_notes": "The agent correctly reached a PASS decision, but its reasoning entirely missed the specific behavioral and management-focused drivers cited by Buffett (Fuld's reluctance, complaints about short sellers, and management's refusal to align capital interests). The agent provided a generic valuation and fundamental analysis not aligned with the specific reasons Buffett rejected the Lehman deal.",
+ "run": "ctl_2008_lehman_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

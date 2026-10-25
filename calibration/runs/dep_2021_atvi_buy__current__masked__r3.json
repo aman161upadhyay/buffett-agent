@@ -1,0 +1,261 @@
+{
+ "pack": "dep_2021_atvi_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2021-10-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a publisher of recurring entertainment franchises across consoles, personal computers, and mobile devices [D01]. It generates revenue through premium games, subscriptions, in-game content, and advertising [D01].",
+   "products_customers_and_why_they_buy": [
+    "Premium games, subscriptions, in-game content, and advertising [D01].",
+    "408 million monthly active users [D01, D03, D05].",
+    "Habitual engagement with recurring franchises [D01, D06]."
+   ],
+   "economics": [
+    "High operating margins, with GAAP margins at 42% and non-GAAP at 44% in the second quarter [D01, D03].",
+    "Predominantly digital revenue [D01, D03].",
+    "Requires continuing creative investment; intellectual property is not a self-maintaining royalty stream [D01, D06].",
+    "Trailing-twelve-month operating cash flow of $2.57 billion [D01, D03]."
+   ],
+   "earnings_record": [
+    "Second-quarter GAAP revenue was $2.296 billion versus $1.932 billion in the prior period; diluted EPS was $1.12 versus $0.75 [D01, D03].",
+    "Quarterly operating cash flow was $388 million versus $768 million [D01, D03]."
+   ],
+   "competitive_position": [
+    "Owns a portfolio of established franchises, including the Company and Warcraft [D01, D06].",
+    "Competes with Electronic Arts, Take-Two, and mobile publishers [D06].",
+    "Workplace controversy creates a cloud that could impact market sentiment and employee retention [D01, D05]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "No specific debt or cash figures provided beyond operating cash flow [D01, D03].",
+    "Not in pack: specific debt, cash, leverage, or refinancing needs."
+   ],
+   "management_and_capital_allocation": [
+    "Management acknowledged serious employment, compensation, and workplace allegations [D01, D05].",
+    "Management raised its outlook [D01, D03].",
+    "Not in pack: CEO tenure, record, or specific capital allocation policies."
+   ],
+   "price_and_valuation": [
+    "Not in pack: current price, market cap, P/E, or P/B.",
+    "Latest quarterly GAAP EPS annualizes to $4.48 [D02, D04, D05]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "not in pack"
+   },
+   "what_the_market_is_worried_about": [
+    "Serious workplace allegations and the need for policy/culture repair [D05].",
+    "Lower year-on-year net bookings despite GAAP revenue increases [D05].",
+    "Unpredictable franchise performance due to competition and free-to-play engagement models [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "June 30: Measurement date for latest results [D07].",
+    "July: Workplace allegations create public controversy [D07].",
+    "August 3: Results release acknowledging allegations and performance metrics [D01, D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire cash and equivalents approximately $144.1 billion as of June 2021 [D08].",
+    "Potential for deputy-scale investment [D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Current market price",
+    "Balance sheet (total debt, cash, equity)",
+    "Maintenance capex",
+    "Full 5-10 year earnings record"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business relies on constant creative investment and faces unpredictable performance due to competition and shifting engagement models, lacking the long-term predictability of a durable consumer franchise [D01, D06]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "Intellectual property here is not a self-maintaining royalty stream and requires heavy, constant reinvestment to remain relevant against competitors [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "UNSURE",
+     "evidence": "While recent quarters show growth, there is insufficient data to evaluate performance through economic cycles or confirm the durability of earnings [D01, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "Specific balance sheet data regarding debt, cash, and tangible capital is not in the pack [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business model requires significant ongoing investment in creative content, distinguishing it from businesses that grow without such capital [D01, D06]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "FAIL",
+     "evidence": "Management is currently embroiled in serious workplace, compensation, and culture allegations, raising concerns about corporate governance and personnel [D01, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "Market capitalization is not in the pack, so we cannot determine if it can move the needle [D01]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "No market price, earnings yield, or valuation data is available in the pack [D01, D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 0,
+   "n_fail": 3,
+   "n_unsure": 5,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a capital-intensive entertainment business subject to hit-driven volatility and significant management controversy"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no reason to believe this is a bargain. The business requires constant creative reinvestment rather than producing a self-maintaining royalty stream [D01, D06], and the management team is currently distracted by significant workplace and governance controversies [D01, D05]. Without clarity on intrinsic value or long-term durability, we stay in the 'too hard' pile.",
+   "evidence": [
+    "Requires continuing creative investment rather than being a self-maintaining royalty stream [D01, D06]",
+    "Management is currently embroiled in serious workplace, compensation, and culture allegations [D01, D05]",
+    "Earnings performance is subject to hit-driven volatility [D01, D05]"
+   ],
+   "market_narrative_we_disagree_with": "The market may be attempting to value the company based on current recurring revenue metrics without properly discounting the risks to the creative pipeline and the potential for long-term impairment due to unresolved governance issues [D01, D05].",
+   "what_must_be_true": [
+    "The business must prove it is not just a collection of hit-driven products but a durable consumer franchise.",
+    "Governance issues must be resolved without permanently damaging employee talent or brand reputation.",
+    "Capital requirements for future content must stabilize to allow for predictable owner earnings."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack [L1]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "not in pack"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "not in pack",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "not in pack",
+   "downside_case": "governance and cultural impairment may result in loss of key creative talent and long-term brand equity",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Current market price not in pack",
+    "Maintenance capex not in pack",
+    "Balance sheet data not in pack"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We prefer to be permanent passive holders, letting the business compound through rational capital allocation while we benefit from the durability of the enterprise; our edge is patience and the use of permanent capital [D01, D06, D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realized through the company's long-term business performance and earnings growth as a consumer franchise [D01, D06]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the modern era, Berkshire functions as a permanent owner of productive assets, holding marketable securities for the long term and seeking durable franchises that require little to no intervention from us [D06, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management fails to resolve deep-seated workplace and culture allegations, leading to an exodus of key creative talent [D01, D05].",
+    "The business model fails to transition from hit-driven volatility to predictable, durable earnings, failing to prove itself a consumer franchise [D01, D06].",
+    "Capital reinvestment requirements escalate, eroding the cash-generative nature of the business [D01, D06]."
+   ],
+   "berkshire_constraints": "Berkshire must maintain a cash floor of at least $30 billion [D08]. Investment must be consistent with reputation and the ability to accumulate without disrupting the market [D05].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed in high-certainty consumer franchises or repurchasing undervalued Berkshire stock [D08].",
+   "leverage": "none",
+   "decider": "deputy",
+   "decider_reason": "The business operates in a sector outside Buffett's core circle of competence and relies on hit-driven product cycles rather than a durable, predictable royalty-like stream.",
+   "biggest_risk_in_one_sentence": "The combination of severe management and cultural instability, coupled with a lack of proven long-term earnings durability, creates a high risk of permanent impairment."
+  }
+ },
+ "final": {
+  "as_of_date": "2021-10-31",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Governance and cultural impairment leading to loss of creative talent and long-term brand erosion [D01, D05]."
+  },
+  "drivers": [
+   {
+    "driver": "The company requires constant, significant creative reinvestment to remain relevant, lacking the durable, self-maintaining economics of a true consumer franchise [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Serious and ongoing workplace, compensation, and cultural allegations raise significant concerns regarding management's ability to steward the organization and retain essential talent [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Business performance is subject to hit-driven volatility, making long-term earnings predictability difficult to ascertain [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The lack of clear data on intrinsic value, maintenance capital requirements, and balance sheet strength prevents any margin-of-safety calculation [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management fails to resolve deep-seated workplace and culture allegations, leading to an exodus of key creative talent [D01, D05].",
+   "The business model fails to transition from hit-driven volatility to predictable, durable earnings, failing to prove itself a consumer franchise [D01, D06].",
+   "Capital reinvestment requirements escalate, eroding the cash-generative nature of the business [D01, D06]."
+  ],
+  "what_would_change_my_mind": "A demonstrated shift to a stable, royalty-like revenue model with recurring, predictable owner earnings, coupled with the resolution of all material governance and cultural controversies.",
+  "memo": "We have reviewed the business as a publisher of interactive entertainment, yet it fails to meet our standards for a durable investment [D01]. A business that we feel comfortable owning must demonstrate a predictable, self-maintaining moat; here, the necessity for constant creative reinvestment creates an unpredictable stream of earnings rather than a durable franchise [D01, D06].\n\nManagement is currently facing serious allegations regarding the workplace and corporate culture [D01, D05]. We require managers who act as honest, able stewards of the business, and the current instability introduces a risk of talent attrition that is entirely inconsistent with our long-term objectives [D01, D05].\n\nBeyond these qualitative failures, the absence of transparency regarding capital requirements and the volatility of hit-driven results make it impossible to ascertain a margin of safety [D01, D03, D05]. We prefer to put such opportunities in the 'too hard' pile, choosing to preserve our capital for businesses where the economics and management are beyond reproach [D01, D08].",
+  "uncited_claims": []
+ }
+}

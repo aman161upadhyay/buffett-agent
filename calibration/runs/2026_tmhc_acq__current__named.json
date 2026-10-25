@@ -1,0 +1,263 @@
+{
+ "pack": "2026_tmhc_acq",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2026-05-29",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Taylor Morrison develops communities and builds homes for entry-level, move-up, and resort-lifestyle buyers, while also providing mortgage and related financial services [D01]. The company operates a differentiated platform that utilizes both owned and off-balance-sheet land to manage capital intensity [D01].",
+   "products_customers_and_why_they_buy": [
+    "Homes for entry-level, move-up, and resort-lifestyle buyers [D01].",
+    "Esplanade brand addresses resort-lifestyle demand; Yardly provides rental-community exposure [D01].",
+    "Mortgage and related financial services [D01]."
+   ],
+   "economics": [
+    "Home closings gross margin was 20.0% (20.6% adjusted) in 1Q26, down from 24.0% (24.8% adjusted) a year earlier [D01, D02].",
+    "Capital intensive: $6.238563 billion in real estate inventory and $388.277 million in land deposits [D02].",
+    "Investing $503 million in land/development in a single quarter [D01].",
+    "51% of lot supply controlled off balance sheet to reduce capital intensity [D02]."
+   ],
+   "earnings_record": [
+    "1Q26 total revenue of $1.387092 billion and net income of $98.625 million [D01].",
+    "Reported diluted EPS of $1.01 and adjusted EPS of $1.12 for 1Q26 [D01].",
+    "Cyclicality noted: closings volume fell ~26% and home closings revenue fell 28% year-on-year in 1Q26 [D03]."
+   ],
+   "competitive_position": [
+    "75,626 owned/controlled lots [D01].",
+    "Relevant peers include D.R. Horton, Lennar, and NVR, though operational structures and land strategies differ [D06].",
+    "Differentiated through specific customer segments (e.g., Esplanade) and core submarket locations rather than uniform speculative building [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Net homebuilding debt/capital was 20.5% [D01].",
+    "Liquidity of approximately $1.6 billion, including $653 million cash [D01].",
+    "Book value per share is $64 [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Led by Sheryl Palmer [D01].",
+    "Repurchased approximately 2.5 million shares for $150 million at roughly $61 per share during 1Q26 [D01].",
+    "Management reaffirmed annual guidance of approximately 11,000 home closings and $2 billion land investment [D03]."
+   ],
+   "price_and_valuation": [
+    "Book value per share: $64 [D01].",
+    "Repurchase price (1Q26): ~$61 per share [D01].",
+    "P/B based on repurchase price: ~0.95x [D04].",
+    "Market price: not in pack."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "No full-year earnings, FCF, or dividend yields provided in pack; only quarterly snapshots [D01, D02, D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Interest-rate-sensitive demand [D05].",
+    "Potential for inventory impairment [D05].",
+    "Year-on-year declines in closings, orders, and margins [D05].",
+    "High capital commitments to land and inventory [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "April 22, 2026: 1Q26 earnings release [D01]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds no Taylor Morrison common stock as of the March 31, 2026, 13F filing [D08].",
+    "Berkshire has housing exposure through wholly owned Clayton Homes and other building-products operations [D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Current market price as of 2026-05-29",
+    "Normalized full-cycle owner-earnings series",
+    "Warranty-liability stress test",
+    "Complete historical consensus forecast"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "Residential homebuilding is a long-standing, slow-changing business model where the fundamental need for shelter remains constant [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "The homebuilding industry is highly competitive and cyclical, characterized by commodity-like product offerings where pricing power is limited by market conditions and interest rates [D01, D03, D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The business exhibits significant cyclicality, with recent data showing a 26% decline in volume and a 28% decline in revenue year-on-year [D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "While homebuilding debt/capital is reported at 20.5%, full-cycle return on capital data is not provided to assess long-term sustainability [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business requires significant capital for land and inventory, with over $6 billion currently tied up in real estate assets [D01, D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Management demonstrates an owner-minded approach through active share repurchases [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "The market capitalization is not provided, making it unclear if the business is large enough to move the needle for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "The current market price is not in the pack, preventing a calculation of the earnings yield against the long bond yield [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 3,
+   "n_unsure": 3,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a highly cyclical, capital-intensive homebuilder lacking a durable competitive advantage"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market correctly views the homebuilding industry as highly cyclical, capital-intensive, and lacking the durable competitive advantages required for a Berkshire-grade investment [D01, D03, D05]. There is no evidence of a mispriced wonderful business or a temporary cloud that masks a core, protected franchise; rather, the business inherently struggles to maintain consistent returns on capital across the cycle [D01, D03].",
+   "evidence": [
+    "Significant cyclicality evidenced by a 26% decline in volume and 28% decline in revenue year-on-year [D03].",
+    "Capital-intensive business model with over $6 billion in real estate inventory [D01, D02].",
+    "High competition and commodity-like product offerings limit pricing power [D01, D03, D05]."
+   ],
+   "market_narrative_we_disagree_with": "While the market may be pessimistic about interest-rate sensitivity and inventory risks, we find that the business itself lacks the defensive moat and consistent record of capital returns that would make it an attractive investment, regardless of the price [D01, D03, D05].",
+   "what_must_be_true": [
+    "The company would need to demonstrate a durable competitive advantage that persists through economic cycles.",
+    "The business would need to show consistent, high returns on capital with minimal cyclical earnings volatility.",
+    "The valuation would need to reflect a significant margin of safety based on normalized, through-cycle owner earnings."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "Not in pack; data insufficient to normalize cyclical earnings [D01, D03]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "not in pack",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Existing holdings or Berkshire buyback; homebuilding does not meet our return on capital standards [D01, D03].",
+   "downside_case": "Permanent loss of capital due to cyclicality and commodity-like nature of homebuilding [D01, D03].",
+   "valuation_verdict": "PASS",
+   "flagged_assumptions": [
+    "Current market price not in pack",
+    "Normalized earnings power not in pack"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Berkshire's standard approach for marketable securities is to act as a permanent, passive holder, relying on the underlying business's compounding and rational capital allocation [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Long-term earnings growth and dividends [D01]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the current era, Berkshire utilizes its permanent capital to hold high-quality consumer franchises or well-managed businesses indefinitely; however, as this business does not meet our criteria for a durable competitive advantage, we are not proceeding with an investment [D01, D03, D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Pricing power lost to competitors or macroeconomic shifts in interest rates",
+    "Capital allocation fails to generate consistent returns above the cost of capital throughout the cycle",
+    "Real estate inventory impairments exceed management's ability to maintain liquidity"
+   ],
+   "berkshire_constraints": "Must maintain $30B+ cash floor; we avoid industries that lack durable competitive advantages and consistent return profiles [D01].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed in our existing high-quality wholly owned subsidiaries like Clayton Homes or in share repurchases [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business fails to meet our qualitative criteria for a durable competitive advantage, making it a pass regardless of size.",
+   "biggest_risk_in_one_sentence": "The cyclical, capital-intensive nature of homebuilding makes it prone to permanent capital loss during industry downturns due to its lack of a sustainable economic moat [D01, D03]."
+  }
+ },
+ "final": {
+  "as_of_date": "2026-05-29",
+  "company": "Taylor Morrison Home Corporation",
+  "ticker": "TMHC",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital due to cyclicality and commodity-like nature of homebuilding"
+  },
+  "drivers": [
+   {
+    "driver": "The homebuilding industry lacks a durable competitive advantage, as products are commodity-like and pricing power is dictated by market conditions and interest rates [D01, D03, D05].",
+    "citations": [
+     "D01",
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The business is highly capital-intensive, requiring massive ongoing investment in land and inventory, which creates significant cyclicality and earnings volatility [D01, D02, D03].",
+    "citations": [
+     "D01",
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Operating results demonstrate significant cyclicality, with recent data showing a 26% decline in volume and a 28% decline in revenue year-on-year [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Capital is better deployed in our existing high-quality wholly owned subsidiaries, such as Clayton Homes, which operate with more favorable economic profiles [D08].",
+    "citations": [
+     "D08"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Pricing power lost to competitors or macroeconomic shifts in interest rates",
+   "Capital allocation fails to generate consistent returns above the cost of capital throughout the cycle",
+   "Real estate inventory impairments exceed management's ability to maintain liquidity"
+  ],
+  "what_would_change_our_mind": "Evidence of a permanent competitive advantage that allows the company to generate consistently high returns on capital regardless of the cyclical nature of the housing market.",
+  "memo": "Taylor Morrison is engaged in the development of communities and the construction of homes for entry-level, move-up, and resort-lifestyle buyers, while also providing mortgage services [D01]. While the company utilizes a differentiated platform to manage capital intensity, the fundamental nature of residential homebuilding is a slow-changing, highly competitive business where success is tied more to the broader economic environment than to any specific, durable moat [D01, D05].\n\nThe economics of the business are inherently difficult, characterized by significant capital requirements and vulnerability to cyclical swings [D01, D03]. As evidenced by a 26% decline in volume and a 28% decline in revenue in the most recent quarter, this volatility creates substantial challenges in maintaining the consistent, long-term returns on capital that we demand at Berkshire [D03].\n\nManagement has shown an owner-minded approach, recently repurchasing shares at roughly $61 per share [D01]. However, even with capable leadership, the commodity-like nature of the industry and the continuous requirement for capital—exemplified by $6 billion tied up in inventory—limit our interest [D01, D02].\n\nWe have no reason to believe the current price offers a margin of safety that compensates for the inherent risks of this cyclical, capital-intensive industry [D01, D03]. Berkshire's capital is better utilized in our own operations, such as Clayton Homes, where we have a deeper understanding and a more permanent economic advantage [D08].",
+  "uncited_claims": []
+ }
+}

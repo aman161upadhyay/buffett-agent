@@ -1,0 +1,230 @@
+{
+ "pack": "ctl_2000_cisco_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2000-03-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company supplies routers and switches that carry Internet traffic and corporate data [D01]. It operates as an established infrastructure provider, utilizing an installed network, channel relationships, and a broad product line to support repeat purchases [D01].",
+   "products_customers_and_why_they_buy": [
+    "Routers and switches sold to enterprise, service-provider, and smaller-business customers [D01]. Customers prioritize performance, compatibility, reliability, and support when standardizing networks [D06]."
+   ],
+   "economics": [
+    "Revenue grew 53% in the second quarter and 52% over the six-month period [D01]. Economics involve high levels of ongoing R&D and acquisitions to maintain product lines [D05]. Maintenance capex, owner-earnings inputs, and specific margins are not in pack [D02]."
+   ],
+   "earnings_record": [
+    "Fiscal second-quarter GAAP net income was $825 million ($0.23/share) compared to $282 million ($0.08/share) in the prior year [D01]. Six-month GAAP net income was $1.25 billion ($0.34/share) [D01]. Comparability is complicated by seven recent acquisitions and pooling accounting [D01]."
+   ],
+   "competitive_position": [
+    "Competitors include Lucent, Nortel, and Juniper [D06]. Moat evidence includes installed base, trained administrators, and compatibility advantages, though subject to technological substitution risks [D01, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Reported cash is mentioned but no specific figures for cash, debt, or leverage are provided [D02]. Acquisitions are used to fill product gaps [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Management describes increasing adoption of products by businesses and governments [D01]. Acquisitions are a primary capital allocation activity [D01]. Specific CEO tenure and incentive details are not in pack [D02]."
+   ],
+   "price_and_valuation": [
+    "Verified market price and P/E are not in pack [D02]. Second-quarter GAAP EPS of $0.23 annualizes to $0.92 per share pre-split; pro-forma EPS of $0.25 annualizes to $1.00 per share pre-split [D02]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Rapid technological change and the necessity of constant engineering/acquisitions [D05]. Potential for capital-spending slowdowns [D05]. Impact of pooling restatements and share issuance on per-share earnings [D05]. Possibility of losing market share to competitors [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "Two-for-one stock split announced February 8, 2000, with a February 22 record date and March 22 distribution [D01]."
+   ],
+   "berkshire_context": [
+    "Existing portfolio emphasizes consumer/financial franchises (e.g., Coca-Cola, American Express, Gillette); this opportunity would be assessed against existing capital and opportunity costs [D08]."
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Current market price, P/E ratio, detailed balance sheet (debt/cash), maintenance capital expenditure requirements, and normalized owner earnings."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business faces rapid technological change and requires constant engineering and acquisitions to maintain its product lines [D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While there is an installed base and compatibility advantage, the moat is subject to significant technological substitution risks [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "Earnings comparisons are complicated by seven recent acquisitions and the use of pooling accounting, making a consistent record difficult to verify [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "No specific figures for debt, leverage, or return on equity are provided in the pack [D02]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The company requires high levels of ongoing R&D and acquisitions to remain competitive [D05]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Specific details regarding management tenure and capital allocation rationale are not in the pack [D02]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "Market capitalization is not provided in the pack, leaving its ability to move the needle for Berkshire unknown [D02]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "The current market price is not in the pack, making it impossible to calculate an earnings yield [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 0,
+   "n_fail": 3,
+   "n_unsure": 5,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a technology-dependent company facing rapid change and requiring constant, costly innovation."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The business operates in a field of rapid technological change requiring constant R&D and acquisitions to remain relevant [D05]. We do not possess the specialized knowledge required to evaluate the durability of its competitive position in the face of such rapid innovation [D01, D05].",
+   "evidence": [
+    "Business requires constant engineering and acquisitions to maintain product lines [D05].",
+    "Moat is subject to significant technological substitution risks [D01, D06]."
+   ],
+   "market_narrative_we_disagree_with": "The market may believe that high growth rates justify the risks of technological obsolescence and the reliance on continuous acquisitions to maintain market share [D01, D05].",
+   "what_must_be_true": [
+    "The company's technology must remain central to infrastructure despite rapid change.",
+    "Acquisition-led growth must result in sustainable, genuine owner earnings rather than just accounting expansion.",
+    "The company must maintain a sustainable moat that protects against substitution by competitors."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "Not in pack; unable to calculate due to missing maintenance capex and normalized earnings [D02].",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "Cannot be determined",
+    "high": "Cannot be determined",
+    "key_assumptions": [
+     "Rapid technological change [D05]",
+     "Reliance on acquisitions for growth [D01]",
+     "Lack of transparency on owner earnings [D02]"
+    ],
+    "discount_rate_used": "Not applicable"
+   },
+   "price_vs_value": "Not applicable",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Existing consumer/financial franchises or T-bills; these represent businesses we can understand and value, unlike this opportunity [D08].",
+   "downside_case": "Permanent loss of capital is possible due to technological obsolescence or failure of acquisition-led strategy [D01, D05].",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Maintenance capital expenditure is estimated to be non-zero but exact figures are missing [D02].",
+    "Normalization of earnings is impossible due to pooling accounting and recent acquisitions [D01]."
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital (default for marketable securities after 1980) [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realised through long-term business compounding of owner earnings [D08]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in this era, our role is to act as a permanent owner of businesses we understand, holding them for the indefinite future rather than seeking near-term catalysts [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Loss of technological relevance due to rapid industry innovation [D05]",
+    "Failure of acquisition-led growth strategy to produce sustainable owner earnings [D01]",
+    "Significant loss of market share to primary competitors like Lucent, Nortel, or Juniper [D06]"
+   ],
+   "berkshire_constraints": "Must maintain adequate liquidity and avoid speculative investments outside of our circle of competence [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better allocated to established consumer or financial franchises with predictable earnings and durable moats [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business operates in a field of rapid technological change which falls outside my circle of competence.",
+   "biggest_risk_in_one_sentence": "The requirement for constant, costly innovation and acquisition to maintain product relevance creates a high risk of permanent capital loss."
+  }
+ },
+ "final": {
+  "as_of_date": "2000-03-01",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital due to rapid technological obsolescence."
+  },
+  "drivers": [
+   {
+    "driver": "The business requires constant, costly innovation and acquisitions to maintain its product lines, placing it outside our circle of competence [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Earnings are difficult to evaluate due to the extensive use of pooling accounting and multiple recent acquisitions [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The moat is susceptible to significant technological substitution risks from competitors like Lucent, Nortel, and Juniper [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "We lack the necessary data on maintenance capital expenditures and normalized earnings to determine intrinsic value [D02].",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Loss of technological relevance due to rapid industry innovation [D05]",
+   "Failure of acquisition-led growth strategy to produce sustainable owner earnings [D01]",
+   "Significant loss of market share to primary competitors like Lucent, Nortel, or Juniper [D06]"
+  ],
+  "what_would_change_our_mind": "A shift toward a stable, predictable business model with measurable owner earnings, where the competitive advantage is no longer dependent on constant R&D or external acquisitions.",
+  "memo": "We have spent time looking at this business, but it remains in our \"too hard\" pile. While the company occupies an important place in internet infrastructure, the rapid pace of technological change makes it impossible for us to determine if its competitive advantage will endure [D01, D05, D06].\n\nTrue investment success requires us to understand how a business will look ten or twenty years from now [D08]. In this case, the company must rely on constant engineering and a steady stream of acquisitions just to stay relevant [D01, D05]. This creates a high risk of permanent capital loss that we are not willing to accept [D05].\n\nFurthermore, the financial statements are obscured by the use of pooling accounting and frequent acquisitions, making it difficult to discern true owner earnings [D01]. Without a clear view of normalized earnings and maintenance capital needs, we cannot calculate a margin of safety [D02].\n\nWe prefer to allocate our capital to businesses with predictable, durable moats where we can be reasonably certain about the future [D08]. When the path is this uncertain, the only rational decision is to pass.",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

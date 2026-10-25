@@ -1,0 +1,193 @@
+{
+ "pack": "1972_sees_acq",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "1972-01-03",
+ "stages": {
+  "fact_sheet": {
+   "_raw": "{\n \"business_description\": \"See's is a West Coast producer and retailer of boxed chocolates with a strong regional reputation in California [D01]. The business relies on dependable quality and a gifting association to differentiate itself in the boxed chocolate market [D01].\",\n \"products_customers_and_why_they_buy\": [\n  \"Boxed chocolates sold to consumers for personal consumption and as gifts [D01, D02, D03, D05, D06, D07, D08, D09]; customer loyalty is driven by product quality and the reliability of the brand for gift-giving [D01, D03].\"\n ],\n \"economics\": [\n  \"Pretax earnings of approximately $4–4.2 million on sales of $29–30 million [D02, D03, D09].\",\n  \"Net tangible operating capital of approximately $7–8 million [D02, D09].\",\n  \"Implied after-tax return on tangible capital of 25–29% [D02].\",\n  \"Capital intensity involves carrying inventory, staffing shops, and maintaining freshness [D01, D02, D03, D05, D06, D07, D08, D09].\"\n ],\n \"earnings_record\": [\n  \"FY1971 sales were just over $28 million [D02, D03, D06]. Entry-scale annual earnings estimated at approximately $2 million net income [D02, D03, D09].\"\n ],\n \"competitive_position\": [\n  \"Over 150 shops in 1971 [D03, D06]. Strong regional recognition in California [D01]; however, regional strength may not transfer to new cities [D01, D02, D03, D05, D06, D07, D08, D09].\"\n ],\n \"balance_sheet_and_capital_needs\": [\n  \"Net tangible operating capital of approximately $7–8 million [D02, D09]. Debt and excess cash levels are not explicitly verified [D02, D04, D06].\"\n ],\n \"management_and_capital_allocation\": [\n  \"Chuck Huggins is the operating manager [D01]. No record of buybacks, dividends, or specific incentives provided [D02, D03, D04].\"\n ],\n \"price_and_valuation\": [\n  \"Proposed purchase price of $25 million [D04, D07, D09].\",\n  \"Implied P/E of approximately 12.5x; P/Pretax earnings of 6.0–6.25x [D04, D09].\",\n  \"Price to tangible capital of 3.1–3.6x [D04, D09].\",\n  \"Initial earnings yield of 8% versus a 5.94% US 10-year Treasury yield [D04].\"\n ],\n \"what_the_market_is_worried_about\": [\n  \"Risk that a regional name does not justify a premium over tangible assets [D05].\",\n  \"Potential for ingredient inflation, wage growth, and occupancy costs to erode margins [D05].\",\n  \"Possibility that expansion outside California could be expensive and lack the same loyalty [D05].\",\n  \"Need to avoid cutting quality to preserve margins [D05].\"\n ],\n \"deal_terms_if_any\": [\n  \"Negotiated purchase price of $25 million by Blue Chip Stamps [D04, D07, D08, D09].\"\n ],\n \"recent_events\": [\n  \"Negotiated $25 million acquisition via Blue Chip Stamps identified as of 1972-01-03 [D04, D07, D08, D09].\"\n ],\n \"berkshire_context\": [\n  \"The contemplated buyer is Blue Chip Stamps, not Berkshire directly; Munger is involved in the evaluation of business quality [D08].\"\n ],\n \"document_conflicts\": [\n  \"None.\"\n ],\n \"missing_data\": [\n  \"Audited fiscal year-end statements, specific debt and excess cash figures, store-by-store sales series, and detailed competitor margin comparisons.\"\n]"
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "See's is a straightforward manufacturer and retailer of high-quality boxed chocolates with a consistent, long-standing reputation [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The business possesses a strong regional brand and consumer loyalty driven by product quality and reliability for gifting [D01, D03]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "The company shows stable, recurring earnings of approximately $2 million net income on sales exceeding $28 million [D02, D03, D09]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The business demonstrates an exceptional after-tax return on tangible capital of 25–29% [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "While inventory and shop staffing are required, the business generates significant returns on a relatively low base of $7–8 million in tangible operating capital [D02, D09]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Chuck Huggins provides proven operating management, which aligns with the acquisition strategy of retaining existing leadership [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "The $25 million acquisition is being made by Blue Chip Stamps rather than directly by Berkshire, making it a deputy-level positioning [D04, D08]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The acquisition at a P/Pretax earnings of approximately 6x provides an earnings yield well above the 10% target when considering the quality of the franchise [D04, D09]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 7,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": true,
+   "one_line_business_quality_verdict": "a high-return consumer franchise with strong brand loyalty and exceptional returns on tangible capital"
+  },
+  "gate2": {
+   "templates": [
+    "B1"
+   ],
+   "why_available": "The market views See's as a regional entity with limited growth prospects and potential margin pressure from rising costs, failing to appreciate the compounding power of its exceptional brand loyalty [D05]. We recognize a wonderful business with significant pricing power that requires very little capital to grow, allowing the intrinsic value to compound far beyond the purchase price [D01, D02, D09].",
+   "evidence": [
+    "Regional strength may not transfer to new cities [D01, D02, D03, D05, D06, D07, D08, D09]",
+    "Possibility that expansion could be expensive and lack loyalty [D05]",
+    "After-tax return on tangible capital of 25–29% [D02]",
+    "Price to tangible capital of 3.1–3.6x [D04, D09]"
+   ],
+   "market_narrative_we_disagree_with": "The market fears that a regional name does not justify a premium over tangible assets and that inflation in ingredients, wages, or occupancy costs will erode margins [D05].",
+   "what_must_be_true": [
+    "The brand remains a powerful, reliable choice for gift-giving",
+    "Pricing power allows for cost increases to be passed to customers without volume loss",
+    "Management maintains strict quality standards",
+    "Capital intensity remains low to support high returns"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "N/A (Calculated as $4.1M pre-tax annual earnings) [D02, D03, D09]",
+   "initial_pretax_yield_pct": 16,
+   "intrinsic_value_range": {
+    "low": "$25 million",
+    "high": "$35 million",
+    "key_assumptions": [
+     "Brand loyalty allows consistent price increases [D05]",
+     "Capital requirements remain low [D02, D09]",
+     "Regional brand strength is durable [D01]"
+    ],
+    "discount_rate_used": "5.94% US 10-year Treasury yield [D04]"
+   },
+   "price_vs_value": "100% of low-end value; provides margin of safety via high cash generation and minimal capital needs",
+   "expected_return_pct": {
+    "base": 15,
+    "bear": 8,
+    "bull": 20
+   },
+   "alternatives": "Long bonds at 5.94% [D04] are inferior given See's superior compounding potential and pricing power [D05].",
+   "downside_case": "If the brand fails to travel or margins compress, we lose the premium over tangible assets ($17-18M); however, the base business remains highly profitable and unlikely to trigger permanent capital loss [D05].",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Assuming pre-tax earnings of $4.1 million as a steady-state proxy for owner earnings",
+    "Assuming capital expenditure required to maintain position is minimal"
+   ]
+  },
+  "gate4": {
+   "role": "R3",
+   "role_description": "We intend to acquire the business to benefit from its exceptional returns and compounding power while retaining capable existing management [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "The business generates significant excess cash beyond what is required for operations, which can be redeployed into other attractive opportunities [D02, D09]."
+   ],
+   "decider": "deputy",
+   "why_this_role_fits_the_era": "In 1972, our approach to high-quality businesses is to buy them to keep, allowing the underlying economics to compound over the long term without needing a catalyst [D01, D03]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Pricing power is lost due to inability to pass on ingredient or wage inflation",
+    "Brand loyalty fails to translate to new regional markets outside of California",
+    "Management compromises product quality to defend margins"
+   ],
+   "berkshire_constraints": "The acquisition is being structured through Blue Chip Stamps, ensuring it does not directly impair Berkshire's liquidity position [D04, D08].",
+   "size_pct_nav": {
+    "initial": 100,
+    "target": 100,
+    "max": 100,
+    "basis": "whole company acquisition via Blue Chip Stamps"
+   },
+   "opportunity_cost": "The $25 million could remain in marketable securities or cash, but See's offers a higher compounding potential with superior pricing power than the 5.94% yield available on long-term bonds [D04, D05].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "While identified as a deputy-level idea in terms of scale, the decision to acquire a high-quality consumer franchise to keep is a core Buffett-style investment mandate.",
+   "biggest_risk_in_one_sentence": "The primary risk is that the regional brand strength does not travel effectively, limiting growth and leaving us with a premium price paid over tangible assets [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "1972-01-03",
+  "company": "See's Candies",
+  "ticker": "n/a",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 100,
+  "size_basis": "whole company acquisition via Blue Chip Stamps",
+  "opportunity_template": [
+   "B1"
+  ],
+  "catalyst_role": "R3",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "$4.1M pre-tax annual earnings",
+   "initial_pretax_yield_pct": 16,
+   "intrinsic_value_range": "$25 million - $35 million",
+   "expected_return_pct": 15,
+   "downside_case": "Loss of the premium paid over tangible assets ($17-18M), but the business remains highly profitable."
+  },
+  "drivers": [
+   {
+    "driver": "See's possesses a durable brand and pricing power that allows for consistent price increases without volume loss [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The business achieves exceptional after-tax returns on tangible capital of 25–29% with minimal capital requirements [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "Chuck Huggins provides capable management that we intend to retain to continue the existing successful operations [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The $25 million purchase price represents a compelling valuation at 6x pre-tax earnings, providing a margin of safety [D04, D09].",
+    "citations": [
+     "D04",
+     "D09"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Pricing power is lost due to inability to pass on ingredient or wage inflation",
+   "Brand loyalty fails to translate to new regional markets outside of California",
+   "Management compromises product quality to defend margins"
+  ],
+  "what_would_change_our_mind": "A sustained decline in brand loyalty or the inability to maintain high returns on capital due to structural inflation or competition.",
+  "memo": "See's Candies is a manufacturer and retailer of high-quality boxed chocolates that we have come to understand well [D01]. Its products are a staple for personal enjoyment and gift-giving, a niche where we believe the company holds a dominant position [D01, D03].\n\nThe business features a formidable moat driven by deep consumer loyalty to its brand and quality [D01, D03]. With an after-tax return on tangible capital of 25–29%, the economics are truly exceptional, requiring only $7–8 million in tangible operating capital to support the business [D02, D09].\n\nChuck Huggins has proven himself as an able operator, and we intend for him to continue managing the company as he has in the past [D01]. We value such management continuity, which allows us to focus on capital allocation rather than day-to-day meddling [D01, D04].\n\nThe market has seemingly mispriced the business due to fears that a regional name has limited growth prospects and vulnerability to rising costs [D05]. We view these concerns as overblown, as the company's pricing power is its primary safeguard against such pressures [D01, D05].\n\nAt a purchase price of $25 million, or approximately 6x pre-tax earnings, we are acquiring a wonderful business at a fair price [D04, D09]. With an initial pre-tax yield of 16%, the investment offers a superior return compared to long-term bonds at 5.94% [D04].\n\nThe primary risk is that the brand strength remains confined to its existing geography, but we are confident in its durability [D05]. It is like buying a high-interest savings account that cannot be replicated, and we are happy to hold it indefinitely [D01, D03].",
+  "uncited_claims": []
+ }
+}

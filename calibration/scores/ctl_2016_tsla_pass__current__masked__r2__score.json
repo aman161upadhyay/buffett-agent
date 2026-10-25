@@ -1,0 +1,64 @@
+{
+ "trade_id": "ctl_2016_tsla_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned per parent 13F history",
+   "No Tesla row in parent 2010–Q2 2026 holdings census",
+   "Economic and valuation objections are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "Price vs value / No positive owner earnings",
+   "Capital-intensive industry / No GAAP profitability",
+   "Reliance on external debt",
+   "Intense competition / Lack of durable moat"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business is currently highly capital-intensive, requiring $1.5 billion in planned capital expenditures.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company has no consistent GAAP profit record and currently generates negative operating cash flow.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company operates in the premium electric vehicle, software, and energy-storage markets.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business faces intense competition from established luxury automakers like Mercedes-Benz, BMW, Audi, and Porsche.",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "A business must demonstrate a durable competitive advantage and pricing power.",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 14,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We generally put ideas that we cannot understand or that require constant external financing into the 'too hard' pile [D08].",
+ "grader_notes": "The agent correctly identifies the decision to PASS, but completely misses the actual drivers identified in the key, which are based on the historical absence of the stock in the Berkshire portfolio and the status of this case as a reconstructed discipline test rather than a public Buffett rejection. The agent instead provides a fundamental analyst's critique of the business. Because the agent did not cite any of the factual ownership/verification drivers, the reasoning overlap is zero.",
+ "run": "ctl_2016_tsla_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2008_gs_pref",
+  "company": "The Goldman Sachs Group",
+  "ticker": "GS",
+  "aliases": [
+    "The Goldman Sachs Group",
+    "GS",
+    "Goldman Sachs",
+    "Goldman",
+    "Goldman Sachs Bank USA",
+    "Goldman Sachs International",
+    "J. Aron",
+    "J Aron"
+  ],
+  "as_of_date": "2008-09-23",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "2008-09-23 agreement",
+  "fund_aum_usd_bn": 44.3,
+  "decider": "Buffett",
+  "notes": "Same-day terms are allowed, but acceptance and Buffett endorsement are removed from docs. Intraday availability not authenticated. Day-close and detailed stress liquidity not recovered. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated."
+}

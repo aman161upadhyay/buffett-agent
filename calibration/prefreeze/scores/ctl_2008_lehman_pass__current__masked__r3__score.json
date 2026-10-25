@@ -1,0 +1,47 @@
+{
+ "trade_id": "ctl_2008_lehman_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett required executives to commit meaningful new cash on the same terms; Fuld's reluctance was an immediate negative.",
+   "Fuld's complaints about short sellers suggested a failure to recognize management's own problems.",
+   "Review of the 10-K raised asset and risk concerns; a $100M Japan problem learned after March 28 reinforced refusal, and must not be scored as cutoff-date pack evidence."
+  ],
+  "extra_agent_drivers": [
+   "The business lacks a durable competitive advantage, relying instead on transient human capital and market relationships.",
+   "Earnings are intensely cyclical and unpredictable.",
+   "The firm's capital-intensive nature and reliance on liquidity make it vulnerable to systemic shocks.",
+   "The apparent discount to book value does not represent a margin of safety."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "fixed-income revenues plummeting 88% and net income falling 57% year-over-year",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Permanent impairment of capital due to liquidity shocks and erosion of book value",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have looked at this institution and concluded that it falls well outside our circle of competence.",
+ "grader_notes": "The agent correctly chose to PASS but entirely failed to capture the specific behavioral and management-focused drivers Buffett actually cited (Fuld's reluctance to co-invest and mismanagement of the short-seller issue). The agent instead relied on generic fundamental analysis of the firm's business model, missing the specific catalyst and management failure reasons documented in the answer key.",
+ "run": "ctl_2008_lehman_pass__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

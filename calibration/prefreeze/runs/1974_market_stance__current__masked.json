@@ -1,0 +1,56 @@
+{
+ "pack": "1974_market_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "1974-11-01",
+ "stages": {},
+ "final": {
+  "as_of_date": "1974-11-01",
+  "trailing_earnings_yield_pct": 13.02,
+  "normalised_earnings_yield_pct": 13.02,
+  "normalisation_basis": "trailing (no distortion)",
+  "long_bond_yield_pct": 7.8,
+  "spread_points": "5.22",
+  "drawdown_from_high_pct": 41.4,
+  "panic_indicators": [
+   "Forbes reports on fears of depression and interest in gold [D03]",
+   "Market decline of 41.4% from January 1973 high [D04]"
+  ],
+  "rule_decision": "BUY_BROADLY",
+  "decision": "BUY_BROADLY",
+  "override_reason": null,
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "The S&P 500 earnings yield of 13.02% significantly exceeds the 7.80% yield on the ten-year Treasury bond, a spread of +5.22 percentage points [D04].",
+  "valuation_level": "The market is trading at a trailing P/E of 7.68x, representing a substantial compression from the 18.30x observed in 1972 [D03], [D06].",
+  "ideas_that_qualify": [
+   "Simple businesses such as water utilities, newspapers, and major retailers [D01]",
+   "Businesses with durable customer relationships and low capital requirements [D01]"
+  ],
+  "berkshire_action": "Aggressively allocate capital to high-quality, understandable businesses that meet our investment criteria, utilizing existing cash and operating float.",
+  "drivers": [
+   {
+    "driver": "The spread between equity earnings yields and bond yields is exceptionally wide at +5.22 percentage points, favoring stocks [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "A severe market decline of over 41% has created significant valuation discounts for understandable businesses [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Pervasive market pessimism and fears of depression provide the necessary climate for acquiring wonderful businesses at fair prices [D03], [D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "Charlie and I view the current environment as an exceptional opportunity for the long-term investor. With the market decline exceeding 41% from the 1973 highs and the earnings yield on equities outstripping the long bond by over 5 percentage points, we are finding prices that offer a substantial margin of safety [D04]. The pessimism permeating the market—characterized by talk of depression and a flight to gold—has created a climate where Mr. Market is offering us wonderful businesses at prices far below their intrinsic value [D03], [D05].\n\nWe do not concern ourselves with forecasting the economy or timing the market bottom, as such exercises are futile [D01], [D07]. Instead, we focus on the durability of earning power. We are uninterested in complex businesses requiring technological foresight; rather, we are looking for simple, understandable franchises—such as newspapers or utilities—with pricing power and reliable returns on capital [D01]. We are moving to deploy our capital as rapidly as these opportunities permit, keeping our focus strictly on the underlying economics of the businesses we acquire rather than the path of the index [D01], [D07].",
+  "uncited_claims": []
+ }
+}

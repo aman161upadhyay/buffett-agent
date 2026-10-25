@@ -1,0 +1,57 @@
+{
+ "trade_id": "ctl_2020_ba_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Berkshire has $128 billion in cash offering superior risk-adjusted alternatives, and we have no need to bet on distressed assets outside our circle of competence [D08] → We prefer to wait for opportunities where the margin of safety is clear and the earnings power is certain; here, it is neither [D03], [D08]."
+  ],
+  "missed": [
+   "Buffett said Berkshire had not acted because nothing was sufficiently attractive; calls before Federal Reserve action did not offer appealing terms, and firms subsequently borrowed more cheaply in public markets.",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements; do not award reasoning-overlap credit for treating them as quotations."
+  ],
+  "extra_agent_drivers": [
+   "The business is experiencing severe operational distress and negative cash flow, failing our requirement for a consistent record of good returns on capital.",
+   "We cannot establish a margin of safety when owner earnings are negative and the debt level relative to cash creates a solvency risk.",
+   "Management's decision to continue dividend payments despite negative operating cash flow indicates poor capital allocation discipline."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company occupies a vital position in the global aerospace industry, acting as one of only two manufacturers capable of producing large commercial aircraft [D01].",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the business is currently in a state of severe operational and financial distress, evidenced by a swing to a GAAP loss and negative free cash flow of $4.28 billion [D01].",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "With $27.3 billion in debt against only $10.0 billion in cash, the company faces significant liquidity pressures [D01].",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "we hold $128 billion in cash and Treasury bills [D08].",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 10,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We prefer to wait for opportunities where the margin of safety is clear and the earnings power is certain; here, it is neither [D03], [D08].",
+ "grader_notes": "The agent reached the correct decision ('PASS') and correctly identified that Berkshire's high cash balance made the asset unattractive relative to the risk. However, the agent generated several proprietary fundamental analyses (operational distress, dividend policy, debt levels) that were not stated by Buffett as the drivers for his non-action on this specific equity, leading to a low reasoning overlap.",
+ "run": "ctl_2020_ba_pass__current__masked__r3",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

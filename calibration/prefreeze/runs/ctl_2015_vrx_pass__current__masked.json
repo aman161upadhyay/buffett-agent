@@ -1,0 +1,256 @@
+{
+ "pack": "ctl_2015_vrx_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2015-03-02",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The company owns branded pharmaceutical, dermatology and eye-care businesses and purchases additional products and distribution [D01]. It operates as a platform utilizing decentralized ownership of established brands combined with disciplined overhead and selective development spending [D01].",
+   "products_customers_and_why_they_buy": [
+    "Branded pharmaceutical, dermatology and eye-care products [D01]",
+    "Recognizable repeat-purchase consumer/medical franchise [D01]"
+   ],
+   "economics": [
+    "Margins not in pack",
+    "Return on equity / tangible capital not in pack",
+    "Capital intensity involves acquiring products and distribution, requiring ongoing maintenance and legal/regulatory compliance [D01, D06]",
+    "Owner-earnings inputs: GAAP operating cash flow was $816 million in Q4 2014, including a $287 million transaction gain; adjusted operating cash flow was $624 million [D01, D03]",
+    "Pricing history not in pack"
+   ],
+   "earnings_record": [
+    "Q4 2014 revenue $2.3 billion, up 10% year-over-year [D01, D03]",
+    "Management's cash EPS $2.58 in Q4 2014, up 20% year-over-year [D01, D03]",
+    "Reported same-store organic sales growth 16% in Q4 2014; the Company organic growth 11% for full year 2014 [D01, D03]"
+   ],
+   "competitive_position": [
+    "Owns established medicines and consumer-health brands with durable demand [D01]",
+    "Business model relies on acquisitions to replace internally developed assets [D05]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Acquisition-driven model depends on credit-market access [D05]",
+    "Debt levels not in pack",
+    "Cash balances not in pack",
+    "Significant acquisition-financing commitments noted [D01, D03]"
+   ],
+   "management_and_capital_allocation": [
+    "Management uses a decentralized ownership model focusing on cost reduction and selective development [D01]",
+    "Record of frequent acquisitions [D05]",
+    "Incentives and insider ownership not in pack"
+   ],
+   "price_and_valuation": [
+    "Price and market cap not in pack",
+    "P/E and P/B not in pack",
+    "Earnings yield not in pack",
+    "Drawdown from high not in pack"
+   ],
+   "what_the_market_is_worried_about": [
+    "Exclusion of amortization and integration costs from headline EPS [D05]",
+    "Reliance on acquisition-driven growth vs. internal development [D05]",
+    "Dependence on credit markets and potential for drugs to lose exclusivity [D05]",
+    "Inability to reconcile forward non-GAAP guidance [D05]"
+   ],
+   "deal_terms_if_any": [
+    "Contemplated transaction and financing mentioned, but specific terms (coupon, conversion, etc.) not in pack"
+   ],
+   "recent_events": [
+    "Feb 23, 2015: Presentation of Q4 2014 results and the Company acquisition proposal [D07]"
+   ],
+   "berkshire_context": [
+    "Berkshire has approximately $63.27 billion in cash and $117.47 billion in equity securities as of early 2015 [D08]",
+    "Idea origination not in pack"
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Exact entry multiple/share price [D02]",
+    "Normalization of owner earnings (maintenance capex split) [D02]",
+    "Debt/leverage ratios [D02]",
+    "Historical ROE and tangible capital figures [D02]"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The company maintains a recognizable repeat-purchase franchise in pharmaceutical, dermatology, and eye-care markets [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While the company owns established brands with durable demand, the reliance on an acquisition-driven model to replace internal development assets raises questions about the long-term sustainability of its moat [D01, D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "UNSURE",
+     "evidence": "While revenue and management-reported cash EPS showed growth in 2014, the reliance on acquisitions rather than consistent organic growth and the exclusion of integration costs from EPS make it difficult to assess long-term record [D01, D03, D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "Debt levels and ROE are not provided, and the business model depends heavily on credit-market access to finance acquisitions [D05]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is capital-intensive, requiring ongoing maintenance spending and legal/regulatory compliance, and lacks the characteristics of a stable regulated monopoly or low-cost producer [D01, D06]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management focuses on cost reduction and decentralized operations, but market concerns regarding aggressive non-GAAP accounting and the sustainability of the acquisition model prevent a clear judgment [D01, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "Market capitalization is not provided, making it impossible to determine if this opportunity is significant enough for Berkshire [D02]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "The share price, valuation, and owner-earnings yield are not in the pack [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 1,
+   "n_unsure": 6,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a capital-intensive business model overly reliant on debt-funded acquisitions to replace missing internal development."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no reason to expect a bargain, as the business model relies heavily on debt-funded acquisitions and aggressive non-GAAP accounting, which obscures true owner earnings [D05]. We prefer businesses with stable internal development rather than those dependent on persistent credit-market access to sustain their growth [D05].",
+   "evidence": [
+    "Reliance on acquisitions to replace internal development [D05]",
+    "Exclusion of amortization and integration costs from headline EPS [D05]",
+    "Dependence on credit markets for growth [D05]"
+   ],
+   "market_narrative_we_disagree_with": "The market may be viewing the 11-16% organic growth and management-adjusted cash EPS as evidence of a high-growth franchise, whereas we view the underlying capital-intensive, acquisition-driven model as a potential risk to long-term capital [D01, D03, D05].",
+   "what_must_be_true": [
+    "The ability to continue acquiring companies at prices that generate returns above the cost of capital",
+    "Sustainable long-term demand for existing products despite loss of exclusivity [D05]",
+    "Transparency in owner earnings that allows for a reliable margin of safety calculation"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack [D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "Earnings must be adjusted for heavy reliance on acquisitions and aggressive non-GAAP accounting [D05]",
+     "Maintenance capex required to sustain distribution and regulatory compliance [D01]"
+    ],
+    "discount_rate_used": "long bond rate not provided in pack"
+   },
+   "price_vs_value": "price and market cap not in pack [D02]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / T-bills / existing holdings / Berkshire buyback — Berkshire currently holds $63.27 billion in cash, which remains a superior alternative to this acquisition-dependent model [D08]",
+   "downside_case": "The business relies on credit-market access to sustain growth, posing a risk of permanent loss if financing becomes unavailable or if acquired assets fail to generate returns above the cost of capital [D05]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Price and market cap data missing [D02]",
+    "Maintenance capex for owner earnings calculation not provided [D02]",
+    "Long-term government bond rate not provided"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "R0 permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital (default for marketable securities after 1980) [D01]",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Compounding of owner earnings through the underlying franchise [D01]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in the post-1980 era, we act as permanent passive holders, relying on the business's own economic engine and the competence of its managers to compound value rather than seeking to control operations ourselves [D01]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent loss of access to credit markets required to fuel the acquisition-driven growth model [D05]",
+    "Failure of acquired assets to generate returns consistently exceeding the cost of capital [D05]",
+    "Regulatory or legal intervention that forces the capitalization of integration and amortization costs, collapsing reported earnings [D05]",
+    "Loss of exclusivity on key pharmaceutical products without successful replacement via acquisitions [D05]"
+   ],
+   "berkshire_constraints": "Berkshire must maintain a cash floor of at least $30 billion [D08]. Regulatory thresholds limit ownership stakes in certain sectors, and large positions must be accumulated without disrupting market liquidity [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Berkshire currently holds $63.27 billion in cash, which provides superior optionality and safety compared to this capital-intensive, debt-dependent acquisition model [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business model is fundamentally at odds with our preference for organic, durable franchises and lacks the transparency required for a long-term capital allocation decision.",
+   "biggest_risk_in_one_sentence": "The primary risk is the structural reliance on continuous, debt-funded acquisitions to mask a lack of internal product development, which leaves the company vulnerable to credit-market volatility."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-03-02",
+  "company": "the Company (XXX)",
+  "ticker": "N/A",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Reliance on continuous, debt-funded acquisitions to mask lack of internal development poses a risk of permanent capital loss if credit markets tighten [D05]."
+  },
+  "drivers": [
+   {
+    "driver": "The business model relies on a constant stream of debt-funded acquisitions to replace missing internal development, which is inconsistent with our preference for durable, organic franchises [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The company's heavy capital requirements for maintenance and regulatory compliance, combined with its acquisition-dependent model, preclude the stable economics of a business we would classify as a 'wonderful' compounder [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Management’s focus on aggressive non-GAAP accounting, specifically the exclusion of amortization and integration costs from earnings, obscures true owner earnings and prevents a reliable margin of safety calculation [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "Berkshire currently holds $63.27 billion in cash, which offers far greater optionality and safety than an investment in a capital-intensive entity dependent on persistent credit-market access [D08].",
+    "citations": [
+     "D08"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent loss of access to credit markets required to fuel the acquisition-driven growth model [D05]",
+   "Failure of acquired assets to generate returns consistently exceeding the cost of capital [D05]",
+   "Regulatory or legal intervention that forces the capitalization of integration and amortization costs, collapsing reported earnings [D05]",
+   "Loss of exclusivity on key pharmaceutical products without successful replacement via acquisitions [D05]"
+  ],
+  "what_would_change_our_mind": "A fundamental shift toward internal development that demonstrates sustainable, organic growth and a move away from aggressive accounting and excessive leverage.",
+  "memo": "We have looked at the Company and find it to be a business that rests on a treadmill of acquisitions rather than a durable, internally-generated moat [D01, D05]. While the company possesses some recognizable brands in health and eye care, the requirement to constantly purchase growth to replace fading internal assets leaves the enterprise vulnerable to credit-market volatility [D01, D05].\n\nTrue economic performance is masked by a reliance on non-GAAP metrics that exclude essential costs like amortization and integration [D05]. We prefer to own businesses where management builds value through organic compounding, not through the financial engineering of acquired earnings [D05].\n\nOur evaluation of the business economics is hampered by the capital-intensive nature of the operations and the lack of clarity regarding the long-term sustainability of its pricing power [D01, D06]. We cannot discern a sufficient margin of safety in a business model that is fundamentally tethered to the availability of cheap debt [D05].\n\nCharlie and I prefer to hold our $63.27 billion in cash until we find a wonderful business at a fair price [D08]. This opportunity does not meet our standard for either a stable moat or a transparent earnings record, and we have placed it firmly in the 'too hard' pile [D05].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

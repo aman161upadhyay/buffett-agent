@@ -1,0 +1,53 @@
+{
+ "trade_id": "ctl_2020_ba_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Buffett said Berkshire had not acted because nothing was sufficiently attractive → We prefer to own businesses that thrive in almost any economic climate, rather than those that require a perfect recovery to avoid bankruptcy or catastrophic dilution"
+  ],
+  "missed": [
+   "No Boeing in Berkshire parent 13F census",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "Severe liquidity crisis and negative free cash flow",
+   "Lack of consistent earnings record",
+   "Meaningless profit multiples",
+   "Superior alternatives for cash pile"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "company's financial results—swinging to a $636 million net loss",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "burdened by $27.3 billion in debt",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "$463 billion backlog",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 8,
+  "share": 0.73
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have $128 billion in cash and Treasury bills that can be put to work in ways that do not risk Berkshire's reputation or capital [D08].",
+ "grader_notes": "The agent correctly identified the PASS decision and the preference for cash over unattractive opportunities. However, the agent's reasoning relies heavily on analyst-driven fundamental analysis of Boeing's liquidity and earnings, whereas the Buffett-provided reasons were restricted to the lack of attractive opportunities at the market level and the factual non-holding of the stock.",
+ "run": "ctl_2020_ba_pass__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

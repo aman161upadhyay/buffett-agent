@@ -1,0 +1,231 @@
+{
+ "pack": "dep_2020_snow_ipo_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2020-09-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The company operates a cloud-based platform that decouples storage and compute, enabling enterprises to consolidate, query, and share governed data [D01]. It functions on infrastructure provided by major cloud vendors rather than on-premise hardware [D01].",
+   "products_customers_and_why_they_buy": [
+    "Cloud data storage and analytics platform sold to enterprise customers [D01]; evidence of loyalty includes a 158% net revenue retention rate at July 31 [D01]"
+   ],
+   "economics": [
+    "Revenue is consumption-based rather than fixed-subscription [D01]; 158% net revenue retention at July 31 [D01]; net loss of $348.5 million for fiscal year and $171.3 million for six months ended July 31 [D01]; high gross infrastructure costs due to reliance on third-party cloud vendors [D05]"
+   ],
+   "earnings_record": [
+    "Fiscal-year revenue of $264.7 million vs $96.7 million (up ~174%) [D01]; fiscal-year net loss of ~$348.5 million [D01]; six-month revenue $242.0 million vs $104.0 million (up ~133%) [D01]"
+   ],
+   "competitive_position": [
+    "Competes with Amazon Redshift, Google BigQuery, and Microsoft [D06]; moat evidence includes potential switching costs from data migration and workflow integration [D01]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Illustrative cash from IPO and private placements is ~$735.045 million [D02]; reliant on cloud providers for infrastructure [D05]; no consolidated debt figure provided in pack"
+   ],
+   "management_and_capital_allocation": [
+    "Dual-class share structure: Class B has ten votes per share, Class A has one [D01]; not in pack regarding CEO tenure, record, or specific incentive structures"
+   ],
+   "price_and_valuation": [
+    "Priced at $120 per share on September 15 [D02]; P/E and P/B not applicable due to net losses [D02]; no earnings yield available [D02]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Unprofitability and short financial history [D05]; reliance on competitors for infrastructure [D05]; potential for customers to optimize/reduce consumption or switch to rivals [D05]; risk that high stock-based compensation and dual-class shares dilute minority returns [D05]; premium IPO valuation leaving little margin for growth deceleration [D05]"
+   ],
+   "deal_terms_if_any": [
+    "IPO priced at $120 per share [D02]; $250 million private placement and 4,042,043-share secondary block [D02]"
+   ],
+   "recent_events": [
+    "August 24: Initial registration [D07]; September 8: Transaction agreements for private placements [D07]; September 15: IPO priced at $120 [D02]"
+   ],
+   "berkshire_context": [
+    "Berkshire holds ~$146.6 billion in cash/equivalents [D08]; proposed allocation would be a sub-$1 billion software investment [D08]"
+   ],
+   "document_conflicts": [
+    "None in pack"
+   ],
+   "missing_data": [
+    "Long-term earnings record, normalized maintenance capex, and consolidated debt figures"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business operates in a space of rapid technological change, relying on third-party cloud infrastructure where the competitive landscape includes major tech incumbents [D01][D06]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While high net revenue retention suggests potential switching costs, the company faces intense competition from platforms like Amazon Redshift and Google BigQuery, and lacks a proven long-term track record of pricing power [D01][D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company has significant, recurring net losses, reporting a $348.5 million loss for the fiscal year [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company is currently unprofitable, resulting in negative return on equity [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business model entails high gross infrastructure costs due to reliance on third-party cloud vendors, and it does not fit the criteria for a low-cost commodity producer or regulated utility [D05]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "There is a dual-class share structure that concentrates voting power, and the pack lacks sufficient information regarding management's long-term capital allocation record [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "At a sub-$1 billion investment scale, this would be a deputy position rather than one for Buffett himself [D08]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "The company has no positive earnings, making it impossible to meet a 10% pre-tax owner-earnings yield requirement [D01][D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 0,
+   "n_fail": 5,
+   "n_unsure": 3,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": true,
+   "one_line_business_quality_verdict": "a money-losing technology platform in a highly competitive, capital-intensive market."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The company is a money-losing technology platform operating in a highly competitive, capital-intensive market with no record of profitability or pricing power [D01][D05][D06]. The market price is driven by growth expectations rather than a margin of safety based on owner earnings, and we have no basis to evaluate the durability of its moat against major incumbents [D01][D05].",
+   "evidence": [
+    "Significant net losses of $348.5 million for the fiscal year [D01]",
+    "High gross infrastructure costs due to reliance on third-party cloud vendors [D05]",
+    "Competition from major tech incumbents like Amazon, Google, and Microsoft [D06]"
+   ],
+   "market_narrative_we_disagree_with": "The market appears to value the high growth rate and net revenue retention as proxies for a durable competitive advantage, ignoring the absence of current earnings, high capital intensity, and intense competition [D01][D05].",
+   "what_must_be_true": [
+    "The company must achieve sustained, significant profitability",
+    "The company must prove its platform is not a commodity vulnerable to pricing pressure from cloud providers",
+    "The competitive threat from major tech incumbents must be neutralized"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "Not applicable due to net loss of $348.5 million [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "Not calculable",
+    "high": "Not calculable",
+    "key_assumptions": [
+     "No history of profitability [D01]",
+     "High infrastructure costs reliant on third-party vendors [D05]",
+     "Intense competition from major tech incumbents [D06]"
+    ],
+    "discount_rate_used": "Not applicable"
+   },
+   "price_vs_value": "Price $120; value indeterminate due to lack of earnings and margin of safety [D02][D05]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Berkshire's $146.6 billion cash position offers superior safety and liquidity compared to an unproven, money-losing asset [D08]",
+   "downside_case": "Permanent loss of capital is a high risk given the absence of profitability and reliance on third-party infrastructure competitors [D01][D05][D06]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Normalized maintenance capex is unknown",
+    "Long-term earnings power cannot be estimated from the pack"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are long-term owners of businesses, not stock flippers. If we were to hold a position, our edge would be our patience and our willingness to hold through market cycles [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Business compounding and rational capital allocation over the long term [D08]"
+   ],
+   "decider": "deputy",
+   "why_this_role_fits_the_era": "For software and technology positions that do not meet the core criteria for my personal portfolio but may be evaluated by deputies, R0 is the standard approach to marketable securities in the post-1980 era [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Continued reliance on third-party cloud infrastructure prevents achievement of sustainable gross margins",
+    "Pricing power is eroded by commoditization from major cloud incumbents like Amazon, Google, and Microsoft",
+    "Failure to transition from substantial net losses to consistent, owner-earnable profitability",
+    "Management capital allocation priorities prove misaligned with minority shareholder interests under the dual-class structure"
+   ],
+   "berkshire_constraints": "Berkshire must maintain a significant cash floor, currently ~$146.6 billion, and prioritize investments that do not risk our reputation or permanent capital [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better preserved in our $146.6 billion cash position or allocated to businesses with durable moats and proven earnings power [D08].",
+   "leverage": "none",
+   "decider": "deputy",
+   "decider_reason": "The investment is in the software/technology sector and falls below the threshold for a Buffett-led decision, meaning it resides strictly in the deputy's sleeve.",
+   "biggest_risk_in_one_sentence": "The company is a money-losing, capital-intensive technology platform lacking a proven moat, which exposes us to the high risk of permanent capital loss."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-09-15",
+  "company": "the Company (XXX)",
+  "ticker": "N/A",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "deputy",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Not applicable due to net loss of $348.5 million [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Not calculable",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital"
+  },
+  "drivers": [
+   {
+    "driver": "The company lacks a record of profitability, reporting a $348.5 million net loss for the fiscal year [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The business is highly capital-intensive, relying on third-party cloud infrastructure that prevents the achievement of stable, proprietary margins [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "There is no evidence of a durable moat, as the firm faces intense competition from established technology incumbents like Amazon, Google, and Microsoft [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "The dual-class share structure concentrates control, and we have no visibility into management's long-term capital allocation record [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Continued reliance on third-party cloud infrastructure prevents achievement of sustainable gross margins",
+   "Pricing power is eroded by commoditization from major cloud incumbents like Amazon, Google, and Microsoft",
+   "Failure to transition from substantial net losses to consistent, owner-earnable profitability",
+   "Management capital allocation priorities prove misaligned with minority shareholder interests under the dual-class structure"
+  ],
+  "what_would_change_our_mind": "Evidence of sustained, significant profitability, proof that the platform is not a commodity vulnerable to pricing pressure from cloud providers, and neutralization of competitive threats from major tech incumbents.",
+  "memo": "We have reviewed the proposed investment in the Company and have decided to pass. In our search for businesses, we look for companies we can understand with durable competitive advantages and a long, consistent record of good returns on capital [D08]. This business, which operates in a fast-moving, capital-intensive technology sector, does not meet our requirements for a predictable, high-return enterprise [D01][D05].\n\nThe economics here are quite challenging. The company reported a net loss of $348.5 million for the fiscal year and relies on third-party infrastructure, which limits its ability to control costs and generate the consistent owner earnings we demand [D01][D05]. Without a clear path to profitability or a proven, sustainable moat, the risk of permanent capital loss remains far too high for our standards [D01][D05][D06].\n\nWhile the company has shown rapid revenue growth, this is a far cry from the predictable compounding we seek at a margin of safety [D01]. With intense competition from giants like Amazon, Google, and Microsoft, it is impossible for us to determine if the company can maintain its position, let alone build the type of pricing power that characterizes a wonderful business [D06].\n\nWe prefer to keep our cash, which currently exceeds $146 billion, in highly liquid, safe assets while waiting for opportunities that offer more certainty [D08]. Investing in an unproven, money-losing platform would not only fail to move the needle for Berkshire but would also contradict the discipline we have practiced for decades [D08]. We will continue to look for businesses that are simpler, more durable, and more reasonably priced.",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

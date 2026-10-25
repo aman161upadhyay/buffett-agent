@@ -1,0 +1,61 @@
+{
+ "pack": "1969_partnership_close",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "1969-05-29",
+ "stages": {},
+ "final": {
+  "as_of_date": "1969-05-29",
+  "trailing_earnings_yield_pct": 5.75,
+  "normalised_earnings_yield_pct": 5.75,
+  "normalisation_basis": "trailing (no distortion) [D04]",
+  "long_bond_yield_pct": 6.56,
+  "spread_points": "-0.81",
+  "drawdown_from_high_pct": 4.9,
+  "panic_indicators": [
+   "market increasingly dominated by performance-oriented and speculative methods [D01]"
+  ],
+  "rule_decision": "HOLD_CASH",
+  "decision": "SELL_DOWN",
+  "override_reason": "The Partnership face a scarcity of suitable individual investment opportunities at scale [D03], [D04], [D07], combined with the manager's explicit dissatisfaction with the effort required to manage existing complexities and workout disappointments [D03], [D07]. Given the negative spread against bonds [D04] and the exhaustion of the Partnership's traditional approach, winding down the pool is the rational course of action [D05].",
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "Broad-market earnings yield (5.75%) is lower than the US 10-year Treasury yield (6.56%) [D04].",
+  "valuation_level": "Prices are high relative to value; suitable bargains are scarce [D04], [D07].",
+  "ideas_that_qualify": [
+   "None identified at the required $3m scale [D03], [D04]."
+  ],
+  "berkshire_action": "Cease new commitments, manage current positions for exit, and return capital to partners [D05], [D07].",
+  "drivers": [
+   {
+    "driver": "The spread between equity earnings yields and bond yields is negative, indicating equities are unattractive [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "A chronic lack of individual investment ideas passing filters at the required $3 million scale [D03], [D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Increasingly speculative market conditions inconsistent with the Partnership's proven method [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Managerial fatigue and the inefficiency of continuing to manage capital under suboptimal conditions [D03], [D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   }
+  ],
+  "memo": "The environment has shifted significantly. We have moved from a period of finding abundant, undervalued securities to one where the market is dominated by speculative, performance-oriented participants [D01]. With the 10-year Treasury yielding 6.56% against an earnings yield of only 5.75% for the S&P 500, the arithmetic of common stocks currently offers no margin of safety for the risks involved [D04]. \n\nAt our current scale, we require ideas that can move the needle—meaning commitments of approximately $3 million or more [D03]. Such opportunities have become increasingly scarce, and our recent experience with workouts has been unsatisfactory [D03]. Attempting to force investments in this climate would likely require abandoning our core competence or accepting substandard returns [D05], [D07]. Consequently, the most prudent path for our partners is to return capital rather than persist with a strategy that has lost its footing [D05], [D08].",
+  "uncited_claims": []
+ }
+}

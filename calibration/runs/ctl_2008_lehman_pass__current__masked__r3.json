@@ -1,0 +1,188 @@
+{
+ "pack": "ctl_2008_lehman_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2008-03-28",
+ "stages": {
+  "fact_sheet": {
+   "_raw": "{\n \"business_description\": \"The franchise combines fixed-income intermediation, equity execution, underwriting, mergers advice, and asset management [D01]. Client relationships, distribution, and specialist trading personnel constitute the productive assets [D01].\",\n \"products_customers_and_why_they_buy\": [\n  \"Fixed-income and equity services, underwriting, advisory, and asset management [D01, D03].\",\n  \"Clients rely on distribution and specialist trading capabilities [D01].\"\n ],\n \"economics\": [\n  \"Pre-tax margin of 18.9% [D01, D03].\",\n  \"Quarterly ROE of 8.6%, down from 24.4% [D01, D03].\",\n  \"Compensation expense is 52.5% of net revenues [D01, D03].\",\n  \"Capital requirements: Significant reliance on holding-company and regulated-entity liquidity to manage market volatility [D01, D03].\"\n ],\n \"earnings_record\": [\n  \"Q1 net revenue of $3.5 billion (down 31%) and net income of $489 million (down 57%) [D01, D03].\",\n  \"Diluted EPS $0.81 vs $1.96 [D01, D03].\",\n  \"Negative mark-to-market adjustments of $1.8 billion [D01, D03].\"\n ],\n \"competitive_position\": [\n  \"Operates in competitive securities and advisory markets with peers including Goldman Sachs, Morgan Stanley, and Merrill Lynch [D06].\",\n  \"Current position challenged by credit market volatility and funding concerns [D01, D05].\"\n ],\n \"balance_sheet_and_capital_needs\": [\n  \"Reported common book value $39.45/share; total stockholders' equity $24.8 billion [D01, D03].\",\n  \"Holding-company liquidity of $34 billion; regulated entities hold $99 billion of unencumbered assets [D01, D03].\",\n  \"Highly sensitive to market liquidity and funding confidence [D05, D06].\"\n ],\n \"management_and_capital_allocation\": [\n  \"Not in pack.\"\n ],\n \"price_and_valuation\": [\n  \"Price: $38.71 (March 27 close) [D02, D04].\",\n  \"Market cap: $20.539 billion [D02, D04].\",\n  \"P/B: ~0.98x [D02, D04].\",\n  \"Mechanical P/E: 11.95x based on annualized Q1 EPS [D02, D04].\"\n ],\n \"yields_pct\": {\n  \"trailing_earnings_yield\": 0,\n  \"normalised_or_owner_earnings_yield\": 0,\n  \"free_cash_flow_yield\": 0,\n  \"dividend_yield\": 1.3,\n  \"long_bond_yield\": 0,\n  \"basis\": \"Dividend yield per [D02]; earnings yields not provided as per pack instructions to note uncertainty in financial institution owner-earnings [D02].\"\n },\n \"what_the_market_is_worried_about\": [\n  \"Liquidity shocks and loss of funding confidence [D05, D06].\",\n  \"Trading losses and mark-to-market adjustments on asset portfolios [D05].\",\n  \"Potential for additional losses to absorb common equity [D05].\"\n ],\n \"deal_terms_if_any\": [\n  \"Not in pack.\"\n ],\n \"recent_events\": [\n  \"March 18: Q1 results reported [D07].\",\n  \"March 28: Analyst upgrade released [D07].\"\n ],\n \"berkshire_context\": [\n  \"Berkshire cash/equivalents: $44.329 billion (as of 2007 YE) [D08].\",\n  \"Large existing financial exposures include American Express and Wells Fargo [D08].\"\n ],\n \"document_conflicts\": [\n  \"None.\"\n ],\n \"missing_data\": [\n  \"Normalized owner earnings, maintenance capex requirements, and long-term earnings track record.\"\n]"
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business is highly sensitive to market liquidity and funding confidence, making its future performance in 10-20 years highly unpredictable [D05, D06]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "The firm operates in highly competitive markets and is currently challenged by significant funding concerns and credit market volatility [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "Recent quarterly results show a 57% decline in net income and significant mark-to-market losses [D01, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "Quarterly ROE has plummeted to 8.6% from 24.4% and the business is currently hampered by funding instability [D01, D03, D05]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business has a significant reliance on liquidity to manage market volatility, characteristic of a capital-intensive financial firm prone to shocks [D01, D03]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management performance and capital allocation philosophy are not in the pack [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market cap of $20.539 billion, the company is large enough to move the needle for Berkshire [D02, D04]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "Normalized owner earnings are missing from the pack, making it impossible to calculate a reliable earnings yield [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 5,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a highly cyclical, capital-dependent financial services firm facing severe liquidity and funding instability."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no reason to expect a bargain here because the business lacks the durable competitive advantage and predictable earnings stream we require. The firm's heavy reliance on external funding and liquidity makes it inherently fragile and difficult to value, falling squarely into the 'too hard' pile rather than presenting a temporary, bridgeable cloud [D01, D05, D06].",
+   "evidence": [
+    "Business is highly sensitive to market liquidity and funding confidence [D05, D06].",
+    "Net income declined 57% in the most recent quarter [D01, D03].",
+    "Quarterly ROE plummeted to 8.6% from 24.4% [D01, D03]."
+   ],
+   "market_narrative_we_disagree_with": "The market may be viewing this as a cyclical recovery play given the price relative to book value, but we view the underlying fragility as a permanent risk to capital [D01, D05].",
+   "what_must_be_true": [
+    "The firm must be able to secure long-term, stable funding without eroding shareholder value.",
+    "The core franchise must prove resilient despite high sensitivity to market-wide volatility.",
+    "Earnings must demonstrate a normalized, consistent return on capital that is not dependent on speculative trading environments."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "Not in pack; earnings are volatile and dependent on market liquidity [D01, D03]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "N/A",
+    "high": "N/A",
+    "key_assumptions": [
+     "Business is too hard to value due to reliance on external funding and market confidence [D01, D05, D06]"
+    ],
+    "discount_rate_used": "Not applicable"
+   },
+   "price_vs_value": "Indeterminate; business falls into 'too hard' pile",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Hold cash [D08] or invest in businesses with predictable earnings and durable competitive advantages, which this firm lacks [D01, D05]",
+   "downside_case": "Permanent loss of capital due to reliance on fragile liquidity and funding [D01, D05]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Earnings are too volatile to normalize",
+    "Long-term bond rate not provided in pack"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are long-term owners of businesses, not stock flippers. Our edge is patience and the ability to hold through periods of market volatility without succumbing to the institutional imperative [D01, D06, D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Business compounding and rational capital allocation [D01, D08]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the current environment, we seek only those businesses that meet our rigorous standards for durability and predictability; for everything else, we hold cash [D01, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent loss of funding confidence resulting in a liquidity run",
+    "Further material mark-to-market losses eroding the common equity base",
+    "Inability to maintain profitable fixed-income and advisory spreads in a volatile credit environment"
+   ],
+   "berkshire_constraints": "Must maintain substantial cash above our floor to support insurance operations and avoid capital calls [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Cash held at 2-3% yield provides superior safety while we wait for high-quality, understandable franchises at fair prices [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business lacks the predictable, durable moat and clear owner earnings required for my circle of competence.",
+   "biggest_risk_in_one_sentence": "The firm's reliance on market-wide liquidity and funding confidence exposes it to the risk of total insolvency during periods of financial stress."
+  }
+ },
+ "final": {
+  "as_of_date": "2008-03-28",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Not in pack; earnings are volatile and dependent on market liquidity [D01, D03].",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Indeterminate; business falls into 'too hard' pile [D01, D05, D06].",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital due to reliance on fragile liquidity and funding [D01, D05]."
+  },
+  "drivers": [
+   {
+    "driver": "The business lacks the predictable, durable moat and clear owner earnings required for my circle of competence, making valuation indeterminate [D01, D03, D05].",
+    "citations": [
+     "D01",
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The firm is highly sensitive to market liquidity and funding confidence, exposing it to the risk of total insolvency during periods of financial stress [D01, D05, D06].",
+    "citations": [
+     "D01",
+     "D05",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Recent results show a 57% decline in net income and a significant reduction in return on equity, suggesting the firm is not a durable compounder [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent loss of funding confidence resulting in a liquidity run",
+   "Further material mark-to-market losses eroding the common equity base",
+   "Inability to maintain profitable fixed-income and advisory spreads in a volatile credit environment"
+  ],
+  "what_would_change_our_mind": "Clear evidence of a sustainable, non-cyclical franchise that can generate predictable owner earnings independent of market-wide liquidity and funding confidence.",
+  "memo": "Charlie and I have looked at this business, but it belongs firmly in the 'too hard' pile. While the company provides various financial services, its operations are highly sensitive to market liquidity and the confidence of those who fund its day-to-day activities [D01, D06]. We require businesses with durable competitive advantages and predictable economics, yet this firm has demonstrated extreme volatility, with net income falling 57% in the most recent quarter [D01, D03].\n\nFinancial institutions that rely on continuous access to credit markets to survive are prone to shocks that make long-term investment hazardous [D05, D06]. When an institution's survival depends on the fleeting sentiment of the market rather than an underlying moat, the risk of permanent loss of capital is too great [D01, D05]. We prefer to hold cash rather than risk our reputation and capital on businesses that do not offer a clear path to normalized owner earnings [D01, D08].",
+  "uncited_claims": []
+ }
+}

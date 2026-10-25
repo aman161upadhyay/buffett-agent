@@ -1,0 +1,54 @@
+{
+ "trade_id": "1974_market_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Purchase understandable businesses at low prices against net worth or going-concern value, with good management and resilience. → We are looking for simple, understandable franchises—such as newspapers or utilities—with pricing power and reliable returns on capital [D01].",
+   "Patience and independent appraisal matter more than institutional pressure to act. → We do not concern ourselves with forecasting the economy or timing the market bottom, as such exercises are futile [D01], [D07].",
+   "Ordinary recession and profit fears did not invalidate the available values at these prices. → The pessimism permeating the market—characterized by talk of depression and a flight to gold—has created a climate where Mr. Market is offering us wonderful businesses at prices far below their intrinsic value [D03], [D05]."
+  ],
+  "missed": [
+   "There were still many bargains even after the sharp rebound."
+  ],
+  "extra_agent_drivers": [
+   "The spread between equity earnings yields and bond yields is exceptionally wide at +5.22 percentage points, favoring stocks [D04].",
+   "A severe market decline of over 41% has created significant valuation discounts for understandable businesses [D04]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The S&P 500 earnings yield of 13.02% significantly exceeds the 7.80% yield on the ten-year Treasury bond, a spread of +5.22 percentage points [D04].",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market decline is 41.4% from January 1973 high [D04].",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Forbes reports on fears of depression and interest in gold [D03].",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 6,
+  "share": 0.67
+ },
+ "state": "MATCH",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We are moving to deploy our capital as rapidly as these opportunities permit, keeping our focus strictly on the underlying economics of the businesses we acquire rather than the path of the index [D01], [D07].",
+ "grader_notes": "The agent correctly matches the bullish market stance and captures the essence of Buffett's bottom-up, value-driven, and anti-forecasting philosophy. The reasoning is closest regarding the focus on simple, understandable businesses and rejection of market timing. It deviates by introducing explicit macro-spread analysis (earnings yield vs bond yield) which, while logically sound, was not a driver emphasized by Buffett in the provided source.",
+ "run": "1974_market_stance__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY_BROADLY",
+ "agent_decision": "BUY_BROADLY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

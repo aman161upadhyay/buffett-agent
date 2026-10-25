@@ -1,0 +1,46 @@
+{
+  "id": "2011_ibm_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "$10.7 billion by November 2011 for approximately 64 million shares; $10.9 billion year-end cost",
+  "first_action_date": null,
+  "disclosure_date": "2011-11-14",
+  "reason_class": null,
+  "opportunity_template": [
+    "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "Enterprise IT departments have sticky supplier relationships verified through Berkshire subsidiaries.",
+      "source": "https://www.cnbc.com/2011/11/14/cnbc-transcript-warren-buffett-explains-why-he-bought-107b-of-ibm-stock-part-5.html (2011-11-14; post-entry explanation)",
+      "quote": "the stickiness and a whole bunch of things"
+    },
+    {
+      "driver": "Management laid out a roadmap and delivered on it.",
+      "source": "https://www.cnbc.com/2011/11/14/cnbc-transcript-warren-buffett-explains-why-he-bought-107b-of-ibm-stock-part-5.html (2011-11-14; post-entry explanation)",
+      "quote": "They have laid out a road map"
+    },
+    {
+      "driver": "Capital allocation respected continuing owners.",
+      "source": "https://www.cnbc.com/2011/11/14/cnbc-transcript-warren-buffett-explains-why-he-bought-107b-of-ibm-stock-part-5.html (2011-11-14; post-entry explanation)",
+      "quote": "They treat their stock with reverence"
+    },
+    {
+      "driver": "Business earnings and repurchases were preferable to near-zero cash or low-yield bonds.",
+      "source": "https://www.cnbc.com/2011/11/14/cnbc-transcript-warren-buffett-explains-why-he-bought-107b-of-ibm-stock-part-5.html (2011-11-14; post-entry explanation)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Not publicly stated.",
+  "outcome_note": "Buffett reassessed competitive position and exited in 2017\u201318; hindsight, not pack evidence. No unsupported lifetime realized loss asserted.",
+  "sources": [
+    "https://www.cnbc.com/2011/11/14/cnbc-transcript-warren-buffett-explains-why-he-bought-107b-of-ibm-stock-part-5.html",
+    "https://www.ibm.com/investor/att/pdf/IBM_Annual_Report_2010.pdf",
+    "https://www.berkshirehathaway.com/letters/2010ltr.pdf"
+  ],
+  "pack_quality_notes": "ERROR CASE. Requested cutoff is after March buying started; new mode is counterfactual fresh underwriting. November explanation is key-only. Exact first execution, dated close and forward multiple unresolved. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated. Key source timing: 2011-11-14; post-entry explanation. Unknown first execution is null; see meta.first_action_window. Fewer than three authenticated drivers means reasoning is unscorable rather than completed with invented manager claims.",
+  "quality_grade": "B"
+}

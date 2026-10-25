@@ -1,0 +1,31 @@
+{
+  "id": "1999_tech_pass",
+  "company": "Microsoft Corporation",
+  "ticker": "MSFT",
+  "aliases": [
+    "Microsoft Corporation",
+    "MSFT",
+    "Microsoft",
+    "Windows",
+    "Windows 95",
+    "Windows 98",
+    "Windows NT",
+    "Office",
+    "Microsoft Office",
+    "Internet Explorer",
+    "IE",
+    "MS-DOS",
+    "MSN",
+    "WebTV",
+    "Bill Gates",
+    "William Gates",
+    "Steve Ballmer"
+  ],
+  "as_of_date": "1999-03-01",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "Late-May 1998 conversation published July 20; Berkshire nonpurchase window through March 1, 1999.",
+  "fund_aum_usd_bn": 37.265,
+  "decider": "Buffett",
+  "notes": "Historical reconstruction: doc Date is effective information cutoff, not archival publication date. Only pre-cutoff business conditions are reconstructed; later investor explanations/outcomes appear in key only. December 31, 1998 common-stock portfolio market value $37.265 billion, letter dated March 1, 1999, same-day cutoff; not cash. Pre-cutoff refusal verified in full dated transcript mirror of Fortune's 'The Bill & Warren Show', July 20, 1998 (original archive https://money.cnn.com/magazines/fortune/fortune_archive/1998/07/20/245683/). The same conversation mentions a personal 100-share tracking purchase, explicitly not Berkshire portfolio ownership. No complete historical 13F archive recovered; annual major-holdings evidence plus the refusal supports the window control, not an all-time exhaustive negative. B2 recovered March 1 as-traded close $151.75; current share-count and same-date peer reconciliation remain incomplete."
+}

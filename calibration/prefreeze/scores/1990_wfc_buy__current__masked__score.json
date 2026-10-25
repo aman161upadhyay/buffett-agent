@@ -1,0 +1,53 @@
+{
+ "trade_id": "1990_wfc_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Reichardt and Hazen were outstanding, cost-conscious bank managers. → Management prioritizes expense discipline and the maintenance of pre-provision earnings to absorb cyclical credit losses, an approach we strongly favor [D01].",
+   "A severe California loan-loss stress could be absorbed by earning power without assuming a favorable economy. → Despite market pessimism regarding California real estate, the bank's core deposit base and earnings resilience remain robust [D01, D03].",
+   "Less than five times after-tax earnings supplied a substantial valuation cushion. → The Company trades at less than 3x pretax earnings, providing a significant margin of safety against its historical earnings power [D04]."
+  ],
+  "missed": [
+   "Buffett wanted well-managed banks at fair prices, not poorly managed banks merely because they were cheap."
+  ],
+  "extra_agent_drivers": [
+   "The bank maintains a strong historical ROE above 20%, demonstrating superior efficiency in a competitive industry [D02]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company trades at less than 3x pretax earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management prioritizes expense discipline",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "historical return on equity consistently exceeding 20%",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 4,
+  "share": 0.36
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are currently able to acquire an interest in this business at less than 3x pretax earnings, a price that provides a comfortable margin of safety [D04].",
+ "grader_notes": "The agent correctly identified the key quantitative and qualitative drivers of the investment (valuation and management quality/earnings resilience). The reasoning was closest to Buffett's in its emphasis on pre-provision earnings capacity as a buffer against real estate cycles. It was farthest in adding an extra driver regarding ROE, which was not explicitly highlighted in the primary Buffett source used for the key.",
+ "run": "1990_wfc_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

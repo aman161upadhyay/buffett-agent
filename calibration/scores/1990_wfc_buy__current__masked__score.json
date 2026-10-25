@@ -1,0 +1,54 @@
+{
+ "trade_id": "1990_wfc_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Reichardt and Hazen were outstanding, cost-conscious bank managers. → Management has shown great character by prioritizing expense control over growth for its own sake, consistently managing the bank to ensure that capital remains protected [D01, D02].",
+   "A severe California loan-loss stress could be absorbed by earning power without assuming a favorable economy. → The bank has built a durable competitive advantage through rigorous expense discipline, which allows it to maintain profitability even when credit losses arise [D01, D02].",
+   "Less than five times after-tax earnings supplied a substantial valuation cushion. → The Company is currently available at less than 3x pre-tax earnings [D04], offering a compelling initial pre-tax earnings yield of approximately 33% against the 8.66% long bond yield [D04]."
+  ],
+  "missed": [
+   "Buffett wanted well-managed banks at fair prices, not poorly managed banks merely because they were cheap."
+  ],
+  "extra_agent_drivers": [
+   "The bank maintains a consistent record of high profitability, with returns on equity historically exceeding 20% and returns on assets above 1.25% [D02].",
+   "The current market price is depressed due to cyclical fears regarding California real estate and recession risks, which do not represent a structural failure of the underlying business [D05]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is currently available at less than 3x pre-tax earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The bank has built a durable competitive advantage through rigorous expense discipline, which allows it to maintain profitability even when credit losses arise",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The bank maintains a consistent record of high profitability, with returns on equity historically exceeding 20%",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 6,
+  "share": 0.46
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Mr. Market is currently gripped by fears of a recession and property-market volatility in California, leading him to offer us this business at less than 3x its pre-tax earnings [D04, D05].",
+ "grader_notes": "The agent correctly identified the investment's core thesis regarding valuation cushions and management's expense discipline. However, the agent's conviction was graded as partial due to the mismatch with the high-conviction sizing/nature of the actual Berkshire purchase and the omission of Buffett's qualitative filter regarding avoiding poorly managed banks.",
+ "run": "1990_wfc_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

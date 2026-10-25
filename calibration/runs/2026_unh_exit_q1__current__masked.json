@@ -1,0 +1,53 @@
+{
+ "pack": "2026_unh_exit_q1",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2025-12-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-12-31",
+  "company": "the Company (XXX)",
+  "ticker": "the Company",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Scale/Franchise: intact [D01]",
+   "Earnings trajectory: broken, currently undergoing operational repair [D01, D03]",
+   "Regulatory environment: worsened, formal DOJ investigation pending [D01, D05]"
+  ],
+  "price_vs_value_now": "20.3x adjusted EPS floor; intrinsic value remains difficult to quantify during operational reset [D04]",
+  "after_tax_hurdle": "21% federal tax cost requires a high certainty of permanent impairment or better alternative use, which is not currently evidenced [D01, D08]",
+  "drivers": [
+   {
+    "driver": "The company retains a substantial customer base and scale, maintaining the core franchise potential [D01]",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Management has provided a revised, lower earnings floor, indicating active operational management rather than drift [D01, D03]",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Ongoing formal Department of Justice investigations represent material uncertainty that warrants patience before concluding the thesis is permanently broken [D03, D05]",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "A 21% capital gains tax hit on a sale is not justified while the company continues to generate cash and pursue a repair strategy [D02, D08]",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "memo": "We evaluate our position in the Company at a time when its operating earnings have been cut in half, forcing a reset in our expectations [D02]. While the original thesis of a scaled franchise has been tested by margin pressure and formal Department of Justice investigations, we do not act hastily on such developments [D01, D05]. The company continues to generate meaningful operating cash flow, and management has proactively lowered their guidance floor to reflect the new reality [D02, D03]. \n\nWe do not sell wonderful businesses—or even merely adequate ones—simply because Mr. Market is worried or because the current earnings trajectory has dipped, provided the long-term competitive advantage remains plausible [D01]. The current valuation of approximately 20 times the revised adjusted EPS floor does not scream 'bargain', but neither does it suggest the business is broken beyond repair [D04]. We prefer to wait for more clarity on the regulatory front and the success of the company's operational changes before deciding to add or exit.\n\nFurthermore, the tax cost of disposing of this position is a significant hurdle that requires high conviction that the business's future is no longer attractive [D08]. We are not in the business of guessing the exact bottom of a cyclical or management-led downturn; we prefer to own companies that can endure such periods [D02]. We will continue to monitor the evidence as it emerges in future filings [D07].",
+  "uncited_claims": []
+ }
+}

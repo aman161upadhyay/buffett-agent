@@ -1,0 +1,255 @@
+{
+ "pack": "2008_cop_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2008-09-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "ConocoPhillips is an integrated oil major with upstream production, refining, marketing, and a significant investment in Lukoil [D01]. The company operates with significant commodity exposure in upstream realization, natural-gas prices, and downstream margins [D01].",
+   "products_customers_and_why_they_buy": [
+    "Integrated petroleum products; actual paying customers and repeat-purchase/loyalty evidence not in pack [D01]"
+   ],
+   "economics": [
+    "Earnings are influenced by realized prices, volumes, royalties, taxes, and exploration/development costs [D01, D02, D03].",
+    "Net margins: 4.5% (2003), 6.0% (2004), 7.5% (2005), 8.5% (2006), 6.3% (2007) [D02].",
+    "Capital intensity is high; upstream production requires extraction, transport, and replacement investment [D01, D02, D03]."
+   ],
+   "earnings_record": [
+    "Revenue: $104.2B (2003) to $187.4B (2007); Net income: $4.7B (2003) to $11.9B (2007) [D02].",
+    "EPS: $3.45 (2003) to $7.22 (2007); results are subject to commodity price cycles and impairments [D02, D03]."
+   ],
+   "competitive_position": [
+    "Integrated oil major with peers including Exxon Mobil, Chevron, and Royal Dutch Shell [D01, D06].",
+    "E&P production fell to 1.75 million BOE/day in Q2 2008 from 1.91 million in Q2 2007 [D03]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Long-term debt: $20.29B (2007); Q2 2008 debt is $21.9B with a debt/capital ratio of 19% [D02, D03].",
+    "Capital program in Q2 2008 was $3.6B against $5.4B OCF [D03]."
+   ],
+   "management_and_capital_allocation": [
+    "Returns capital via dividends and share repurchases ($2.5B repurchases in Q2 2008) [D03].",
+    "2006 acquisition limited organic-growth comparisons [D02]; management candor and insider ownership not in pack [D01]."
+   ],
+   "price_and_valuation": [
+    "Price: $73.25 (Sept 30, 2008) [D04].",
+    "P/E based on 2007 EPS is 10.15x; TTM P/E is 6.65x [D04].",
+    "TTM accounting earnings yield is 15.04% [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 15.04,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 2.24,
+    "long_bond_yield": 3.85,
+    "basis": "Trailing earnings yield derived from TTM EPS $11.02 / $73.25 [D04]. Dividend yield: FY2007 $1.64 / $73.25 [D04]. Long bond yield: US 10-year as of Sept 30, 2008 [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Peak profitability during record resource prices [D05].",
+    "Potential demand reduction from world recession [D05].",
+    "Reserve base sustainability and expensive acquisitions [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Q2 2008: Revenue $71.4B, Net income $5.439B [D03].",
+    "Q2 2008 OCF $5.4B, capital program $3.6B [D03]."
+   ],
+   "berkshire_context": [
+    "Historical 17.938 million share position at year-end 2006 [D07].",
+    "Berkshire cash baseline approximately $44.3B (2007); total float $58.7B [D08]."
+   ],
+   "document_conflicts": [
+    "FT Global 500 P/E and dividend yields for peers are March 2008 data, which differs from September 2008 context [D04, D06]."
+   ],
+   "missing_data": [
+    "Normalized owner earnings, maintenance capex requirements, and current specific reserve replacement economics [D01, D02, D04]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "As an integrated oil major, the core business model of exploration, production, and refining is stable and well-understood [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "The company operates as an integrated oil major in a commodity-driven industry where competitive differentiation and pricing power are limited [D01, D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "Earnings are heavily tied to volatile commodity price cycles and have faced recent production declines [D02, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company maintains a sound balance sheet with a debt-to-capital ratio of 19% as of Q2 2008 [D03]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "Capital intensity is high, requiring continuous, substantial investment for extraction, transport, and reserve replacement [D01, D03]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Information regarding management candor and insider ownership is not in the pack [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a large market presence and historical position held by Berkshire, this company is of sufficient scale [D07]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The trailing earnings yield of 15.04% is well above the 1.5x threshold for the 3.85% long bond yield [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "FT Global 500 data (March 2008) rejected in favor of September 2008 market data for currency of context [D04, D06]."
+   ],
+   "n_pass": 4,
+   "n_fail": 3,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a capital-intensive commodity producer highly exposed to cyclical price fluctuations without a durable competitive advantage"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is pricing the shares based on a trailing earnings yield of 15.04% reflecting cyclical peak profitability in oil markets [D03, D04]. Because the business lacks a durable competitive advantage and faces high capital intensity, the low earnings multiple is a reflection of commodity volatility rather than a temporary cloud or a mispriced franchise [D01, D05].",
+   "evidence": [
+    "Earnings are tied to volatile commodity price cycles [D02, D03].",
+    "Capital intensity is high, requiring continuous investment [D01, D03].",
+    "The company lacks a durable competitive advantage [D01, D05]."
+   ],
+   "market_narrative_we_disagree_with": "The market views ConocoPhillips as a stable, high-yielding investment based on historical earnings, whereas we see a commodity-linked business vulnerable to cyclical downturns [D04, D05].",
+   "what_must_be_true": [
+    "Commodity prices must remain stable or increase to sustain recent earnings levels.",
+    "Capital expenditure must effectively replace reserves without further degrading returns on capital.",
+    "The global economic outlook must not significantly dampen demand for integrated petroleum products."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "Not in pack; normalizing 2003-2007 earnings ($3.45 to $7.22) suggests ~$5.00/share [D02]",
+   "initial_pretax_yield_pct": 6.8,
+   "intrinsic_value_range": {
+    "low": "50.00",
+    "high": "70.00",
+    "key_assumptions": [
+     "Commodity cycles will mean-revert [D05]",
+     "Capital intensity remains high [D01, D03]",
+     "No durable moat [D01, D05]"
+    ],
+    "discount_rate_used": "3.85% [D04]"
+   },
+   "price_vs_value": "Price $73.25 is ~146% of low-end value; no margin of safety",
+   "expected_return_pct": {
+    "base": 5,
+    "bear": -20,
+    "bull": 8
+   },
+   "alternatives": "Existing holdings or cash; current oil price volatility makes intrinsic value highly uncertain compared to stable franchises [D05]",
+   "downside_case": "Permanent loss if commodity prices structurally decline and reserve replacement costs exceed cash generation",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Normalised earnings of $5.00/share estimated from 2003-2007 range [D02]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital (default for marketable securities after 1980) [D08]",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Market price appreciation driven by commodity cycle recovery and capital allocation [D05]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable equity positions in large-cap companies, Berkshire acts as a permanent, passive holder to allow the business to compound over time [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Structural decline in global demand for fossil fuels",
+    "Inability to replace reserves at costs that permit adequate returns on capital",
+    "Management pursues growth via value-destructive acquisitions outside of core competencies",
+    "Commodity price environment remains depressed for an extended period, impairing capital recovery"
+   ],
+   "berkshire_constraints": "Must maintain substantial liquidity to support insurance float and capital allocation opportunities [D08]; avoid over-concentration in volatile commodity sectors.",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better preserved in cash or deployed into more stable, non-cyclical franchises with durable competitive advantages.",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business is a capital-intensive commodity producer, which is inherently outside of the circle of competence for a permanent, durable investment.",
+   "biggest_risk_in_one_sentence": "The lack of a durable competitive advantage combined with high capital intensity makes the business highly susceptible to permanent loss of capital during commodity price cycle downturns."
+  }
+ },
+ "final": {
+  "as_of_date": "2008-09-30",
+  "company": "ConocoPhillips",
+  "ticker": "COP",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "~$5.00/share normalized",
+   "initial_pretax_yield_pct": 6.8,
+   "intrinsic_value_range": "$50.00-$70.00",
+   "expected_return_pct": 5,
+   "downside_case": "Permanent loss of capital if commodity prices structurally decline and reserve replacement costs exceed cash generation"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the shares trade at $73.25 against an appraised intrinsic value range of $50-$70, providing no margin of safety [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The business is a capital-intensive commodity producer lacking a durable competitive advantage or meaningful pricing power [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Earnings are highly volatile and tethered to commodity cycles rather than consistent, predictable owner earnings [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The high capital requirements to sustain production and replace reserves impede the ability to generate consistently high returns on capital [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Structural decline in global demand for fossil fuels",
+   "Inability to replace reserves at costs that permit adequate returns on capital",
+   "Management pursues growth via value-destructive acquisitions outside of core competencies",
+   "Commodity price environment remains depressed for an extended period, impairing capital recovery"
+  ],
+  "what_would_change_our_mind": "A significant and sustainable shift in the company's competitive position or a valuation that offers a substantial margin of safety relative to normalized owner earnings.",
+  "memo": "ConocoPhillips is an integrated oil major engaged in the exploration, production, and refining of petroleum products [D01]. While we understand the mechanics of the energy industry, the business model is inherently cyclical and subject to commodity price fluctuations that we cannot control [D01, D05].\n\nThe company lacks a durable competitive advantage, as its products are commodities where pricing power is elusive [D01, D05]. Success in this sector requires continuous, substantial capital expenditure to extract resources and replace reserves, which limits the consistency of returns on capital [D01, D03].\n\nManagement has returned capital to shareholders via dividends and repurchases, but the recent earnings record has been heavily influenced by volatile price cycles [D02, D03]. Without visibility into management's long-term capital allocation philosophy or candor regarding future organic growth, we remain cautious [D01, D02].\n\nThe market currently prices the shares at $73.25, which sits above our estimated intrinsic value range of $50 to $70 [D03, D04]. While the trailing earnings yield appears high at 15.04%, this reflects cyclical peak profitability rather than sustainable owner earnings [D04, D05]. We prefer to maintain our liquidity for opportunities that offer a clear margin of safety and the prospect of more predictable compounding [D08].",
+  "uncited_claims": []
+ }
+}

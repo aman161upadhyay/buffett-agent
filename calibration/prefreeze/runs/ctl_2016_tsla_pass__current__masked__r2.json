@@ -1,0 +1,231 @@
+{
+ "pack": "ctl_2016_tsla_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2016-02-11",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The business sells premium electric vehicles, software-enabled features and energy-storage products, while managing a vertically integrated sales, service and charging network [D01]. It targets luxury-sedan market share through customer enthusiasm for performance, technology, and style [D01].",
+   "products_customers_and_why_they_buy": [
+    "Premium electric vehicles, software-enabled features, and energy-storage products sold to global customers [D01]. Customers prioritize performance, technology, safety, and style over fuel savings alone [D01]."
+   ],
+   "economics": [
+    "Targeting gross margin near 30% [D02]. Fourth-quarter 'core operational cash flow' was $179 million, though GAAP operating cash flow was not positive [D02]. Significant capital intensity is required, with $1.5 billion in planned capital investment [D02]."
+   ],
+   "earnings_record": [
+    "The company has no consistent GAAP profit base [D02]. Fourth-quarter 2015 deliveries grew 76% year-on-year, and global orders grew over 35% [D02]."
+   ],
+   "competitive_position": [
+    "Competes with established luxury-sedan manufacturers like Mercedes-Benz, BMW, Audi, and Porsche [D06]. Moat evidence cited as unusual customer enthusiasm, direct distribution, and a vertically integrated charging/software system [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Asset-based credit commitments increased to $1 billion as of February 9, 2016 [D02]. Requires significant capital for 60–80% vehicle-sales growth and planned $1.5 billion capital investment [D02]."
+   ],
+   "management_and_capital_allocation": [
+    "Management targets 60–80% vehicle-sales growth and full-year non-GAAP profitability [D02]. Record of ambitious growth targets and operational scaling, with recent production limits due to quality concerns [D02]."
+   ],
+   "price_and_valuation": [
+    "Closing price on February 11, 2016, was $150.47 [D02]. A profitable historical EPS multiple is unavailable due to lack of a consistent GAAP profit base [D02]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Lack of consistent GAAP profits [D05]. Reclassification of leasing proceeds in 'core' cash measures [D05]. Large capital expenditure requirements of $1.5 billion [D05]. Quality-related production limits [D05]. Potential for luxury-brand appeal to struggle in a competitive mass market [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "February 9, 2016: Asset-based credit commitments increased to $1 billion [D07]. February 10, 2016: Shareholder update released [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire has no stake in this company [D08]. Berkshire owns an interest in BYD, but this is a separate company with different economics [D08]. Berkshire's 2014 year-end cash was $63.27 billion [D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Consistent GAAP profit history, maintenance capex figures, and Berkshire's internal valuation analysis."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business relies on rapid technological innovation and a business model that has not yet achieved consistent GAAP profitability, making its long-term competitive position unpredictable [D02], [D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "While the company enjoys customer enthusiasm, it faces intense competition from entrenched, high-quality luxury manufacturers like Mercedes-Benz, BMW, and Audi, and lacks a proven, sustainable moat [D01], [D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company lacks a consistent GAAP profit base, preventing an assessment of earnings power through cycles [D02], [D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company relies on significant debt, including $1 billion in credit commitments, and lacks the historical high returns on capital indicative of a stable, unlevered business [D02]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is highly capital-intensive, requiring $1.5 billion in planned capital investment to support growth, which does not fit our preference for low-capital-intensity or regulated-utility-style returns [D02], [D05]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "While management is ambitious, the reliance on non-GAAP cash flow measures and quality-related production limits raises concerns about operational execution and reporting transparency [D02], [D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "The company's size relative to Berkshire's capital base makes it a potential deputy-level position rather than one that would move the needle for the parent company [D02], [D08]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "There is no earnings yield to calculate as the company lacks a consistent GAAP profit base [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 0,
+   "n_fail": 6,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": true,
+   "one_line_business_quality_verdict": "a capital-intensive technology business with no proven earnings record or durable competitive advantage."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no reason to expect a bargain because the business lacks the fundamental characteristics Berkshire requires, specifically a proven GAAP profit base and a durable moat [D02], [D06]. The company is currently a high-risk, capital-intensive venture rather than an established franchise, falling firmly into the \"too hard\" pile [D02], [D05].",
+   "evidence": [
+    "The company lacks a consistent GAAP profit base [D02]",
+    "Business requires $1.5 billion in capital investment, conflicting with our preference for low-capital-intensity models [D02], [D05]",
+    "Intense competition from established luxury manufacturers remains a significant threat [D06]"
+   ],
+   "market_narrative_we_disagree_with": "The market's speculation on future growth and potential profitability relies on non-GAAP measures that do not provide the margin of safety we require for capital allocation [D02], [D05].",
+   "what_must_be_true": [
+    "The company must demonstrate consistent GAAP profitability over a full cycle",
+    "The company must achieve a durable competitive advantage against entrenched luxury manufacturers",
+    "The capital intensity of the business must decrease to ensure sustainable returns on capital"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "Not calculable: no consistent GAAP profit base [D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "Not calculable",
+    "high": "Not calculable",
+    "key_assumptions": [
+     "Lack of consistent GAAP profit base [D02]",
+     "High capital intensity requiring $1.5 billion investment [D02]"
+    ],
+    "discount_rate_used": "Not applicable"
+   },
+   "price_vs_value": "N/A: Price $150.47 [D02]; intrinsic value indeterminable due to speculative nature",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Existing holdings or holding cash ($63.27 billion as of 2014) [D08] are superior as they provide predictable owner earnings and reliable returns compared to this speculative, capital-intensive venture.",
+   "downside_case": "Significant risk of permanent capital loss due to the requirement for constant capital infusions and lack of a proven, profitable moat [D02], [D05].",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "No reliable GAAP earnings exist to compute owner earnings",
+    "Intrinsic value cannot be estimated for a non-profitable, high-growth entity"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital (default for marketable securities after 1980) [D01-D08]",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Compounding of owner earnings over an extended period [D03]"
+   ],
+   "decider": "deputy",
+   "why_this_role_fits_the_era": "For a company that is not a whole-business acquisition target and is being analyzed as a potential equity holding, the permanent passive role is the standard for marketable securities [D08]. A deputy would handle such a position given it does not currently move the needle for Berkshire [D02], [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Continued lack of GAAP profitability over a full economic cycle [D02], [D05]",
+    "Failure to achieve a durable competitive advantage against entrenched luxury manufacturers [D06]",
+    "Requirement for constant capital infusions exceeding internal cash generation [D02]",
+    "Management focuses on aggressive expansion at the expense of sustainable unit economics [D02]"
+   ],
+   "berkshire_constraints": "Maintain a cash floor of at least $30B [D08]; investment must not compromise Berkshire's reputation for prudent capital allocation [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better allocated to existing, proven businesses with predictable owner earnings or held in cash given the current speculative nature of this enterprise [D08].",
+   "leverage": "none",
+   "decider": "deputy",
+   "decider_reason": "The business operates in an area outside Buffett's circle of competence as of 2016 and lacks the financial history for a core Berkshire-level decision.",
+   "biggest_risk_in_one_sentence": "The company relies on perpetual capital intensity without a proven track record of GAAP profitability or a sustainable competitive moat."
+  }
+ },
+ "final": {
+  "as_of_date": "2016-02-11",
+  "company": "the Company (XXX)",
+  "ticker": "TSLA",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "deputy",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Not calculable: no consistent GAAP profit base [D02].",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Not calculable due to speculative nature and lack of earnings [D02], [D03].",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital due to constant capital requirements and lack of a proven, profitable moat [D02], [D05]."
+  },
+  "drivers": [
+   {
+    "driver": "The company lacks a consistent GAAP profit base, making long-term earnings power unpredictable [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "The business model is highly capital-intensive, requiring $1.5 billion in planned capital investment [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "It faces intense competition from entrenched, high-quality luxury manufacturers with established moats [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "Reliance on non-GAAP cash measures and aggressive growth targets creates excessive uncertainty regarding operational execution [D02], [D05].",
+    "citations": [
+     "D02",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Continued lack of GAAP profitability over a full economic cycle [D02], [D05]",
+   "Failure to achieve a durable competitive advantage against entrenched luxury manufacturers [D06]",
+   "Requirement for constant capital infusions exceeding internal cash generation [D02]",
+   "Management focuses on aggressive expansion at the expense of sustainable unit economics [D02]"
+  ],
+  "what_would_change_our_mind": "The company must demonstrate consistent GAAP profitability over a full economic cycle, successfully defend a durable competitive moat against established luxury incumbents, and achieve a model that no longer requires constant capital infusions [D02], [D05], [D06].",
+  "memo": "We have looked at the Company and have decided to pass. In our search for businesses, we look for those that have a durable competitive advantage, a long record of consistent returns on capital, and pricing power that allows them to thrive without constant, massive capital infusions [D02], [D05]. This business, while innovative in its target market, does not yet possess the track record of GAAP profitability that we require to assess intrinsic value [D02]. \n\nFurthermore, the capital intensity of the business is significant, requiring $1.5 billion in planned investment to fund its growth ambitions [D02]. We prefer businesses that generate more cash than they consume, rather than those that rely on continuous capital raises to sustain their operations [D02]. When we face a choice between a speculative venture that has yet to prove its unit economics and established, cash-generative franchises, we choose to hold our cash [D08].\n\nFinally, the competition in the luxury automotive sector remains fierce, with entrenched manufacturers like Mercedes-Benz, BMW, and Audi possessing their own strengths and customer bases [D06]. We cannot see why we should expect a bargain here when the fundamental requirements of a wonderful business—predictable earnings and a durable, time-tested moat—are absent [D02], [D05]. We prefer to stick to our circle of competence and wait for opportunities that offer a clear margin of safety [D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

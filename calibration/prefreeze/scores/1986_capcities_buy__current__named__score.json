@@ -1,0 +1,44 @@
+{
+ "trade_id": "1986_capcities_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Murphy and Burke supplied exceptional managerial ability and character. → The true engine here is the management of Tom Murphy and Dan Burke, who are as honest and owner-oriented as any we have encountered.",
+   "Excellent properties and people could justify a full price at meaningful scale. → We are paying $172.50 per share, a price we consider fair given the intrinsic value and the potential for these operators to compound capital over an indefinite horizon."
+  ],
+  "missed": [
+   "Berkshire could remain patient through initially unexciting ABC economics.",
+   "Voluntary voting and disposition restrictions gave the managers stable ownership rather than a threatening block."
+  ],
+  "extra_agent_drivers": [
+   "The business possesses a durable moat through elite local media franchises.",
+   "The acquisition of ABC transforms the entity's scale while keeping the core business understandable."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Capital Cities' standalone business operating margins of 28.5%.",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 13,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "The true engine here is the management of Tom Murphy and Dan Burke, who are as honest and owner-oriented as any we have encountered.",
+ "grader_notes": "The agent correctly identified the investment decision and the central role of Murphy and Burke. However, it failed to capture Buffett's specific strategic reasoning regarding the patient tolerance for unexciting ABC economics and the importance of the specific voting/disposition restrictions.",
+ "run": "1986_capcities_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

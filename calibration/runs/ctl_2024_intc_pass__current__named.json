@@ -1,0 +1,255 @@
+{
+ "pack": "ctl_2024_intc_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2024-08-02",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Intel designs processors and manufactures semiconductors, with an ambition to manufacture for outside customers as well [D01]. The company relies on its installed x86 software base, enterprise qualification processes and manufacturing expertise as core assets [D01].",
+   "products_customers_and_why_they_buy": [
+    "Processors and semiconductor products sold to customers; includes an installed x86 software base and enterprise qualification processes [D01]"
+   ],
+   "economics": [
+    "GAAP gross margin was 35.4% [D01]; non-GAAP gross margin was 38.7% [D01].",
+    "GAAP operating margin was negative 15.3%; adjusted operating margin was 0.2% [D01].",
+    "Capital intensity is significant, with gross capex guidance of $25–27 billion for the year and net capital spending of $11–13 billion [D01]."
+   ],
+   "earnings_record": [
+    "Second-quarter revenue was $12.8 billion, down 1% [D01].",
+    "GAAP net loss attributable to Intel was $1.6 billion and EPS negative $0.38; non-GAAP EPS was positive $0.02 [D01].",
+    "Next-quarter guidance: revenue of $12.5–13.5 billion, GAAP EPS negative $0.24, and adjusted EPS negative $0.03 [D01]."
+   ],
+   "competitive_position": [
+    "Market position includes significant manufacturing infrastructure and design capabilities, but the company is in a turnaround process rather than holding a guaranteed return on its capital base [D01].",
+    "Competitors include TSMC (foundry), AMD and Nvidia (fabless designers) [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Management proposes lower expenses, tighter capex, and a dividend suspension starting in the fourth quarter to protect liquidity [D01].",
+    "Announced more than $10 billion of operating and capital spending reductions against prior plans [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Management is implementing a cost-reduction plan including headcount reductions exceeding 15% [D01].",
+    "Dividend suspension begins in the fourth quarter to prioritize liquidity [D01]."
+   ],
+   "price_and_valuation": [
+    "August 2 close was $21.48, down approximately 26% in one session [D02].",
+    "Trailing P/E is not meaningful due to reported loss [D02]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "No normalized earnings or FCF yield provided in pack; current earnings are negative [D02]."
+   },
+   "what_the_market_is_worried_about": [
+    "Company is losing money despite substantial scale [D05].",
+    "0.2% adjusted operating margin offers little cushion [D05].",
+    "Dividend suspension indicates cash liquidity concerns [D05].",
+    "High capital spending required to regain competitiveness may be undermined by cost-cutting [D05].",
+    "Technical obsolescence and low factory utilization risks [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "August 1: Intel publishes Q2 results, loss-making guidance, cost-reduction plan, and dividend suspension [D07].",
+    "August 2: Stock price declines approximately 26% [D02]."
+   ],
+   "berkshire_context": [
+    "Berkshire cash and equivalents were approximately $189 billion as of the first-quarter report [D08].",
+    "Berkshire previously owned Intel in a separate earlier episode [D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Contemporaneous normalized owner-earnings estimate, maintenance capex figures, and long-term historical ROE/revenue record."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business faces rapid technological change and intense competition from specialized rivals, and is currently undergoing a turnaround rather than operating as a predictable consumer franchise [D01], [D06]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "The company lacks a durable moat as evidenced by its inability to maintain profitability and the need for a major turnaround [D01], [D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company is currently loss-making, with GAAP net loss of $1.6 billion in Q2 and negative earnings guidance [D01], [D07]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company is reporting GAAP losses and is suspending its dividend to manage liquidity, indicating poor return on capital and financial strain [D01], [D05]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "Intel is highly capital-intensive with $25-27 billion in gross capex guidance, yet it lacks the regulated returns or low-cost commodity position required to justify such spend [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "While management is taking drastic actions to address the crisis, the necessity of these measures reflects past missteps, and it is too early to judge the success of this turnaround [D01], [D07]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The company's scale is sufficiently large to impact Berkshire's portfolio [D05]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "The company has no positive owner earnings or dividend yield, failing to meet the required earnings yield threshold [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 6,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a capital-intensive technology business in a difficult turnaround with no current earnings and significant competitive pressure"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "Intel is currently undergoing a painful turnaround necessitated by structural competitive challenges and declining profitability [D01]. The market is reacting to significant losses, the suspension of dividends, and the uncertainty inherent in a massive capital-intensive restructuring plan [D01], [D07].",
+   "evidence": [
+    "GAAP operating margin is negative 15.3% [D01].",
+    "Management is implementing headcount reductions exceeding 15% and suspending dividends [D01].",
+    "The company faces intense competition from established rivals like TSMC, AMD, and Nvidia [D06]."
+   ],
+   "market_narrative_we_disagree_with": "The market views this as a distressed asset in a high-stakes, uncertain recovery scenario [D05]. We do not disagree, as the business fails our core quality and predictability thresholds [D01].",
+   "what_must_be_true": [
+    "The company must prove it can return to sustained positive owner earnings.",
+    "The massive capital expenditure program must yield a competitive manufacturing advantage.",
+    "Management must successfully navigate the turnaround without further eroding the company's financial position."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not estimable",
+    "high": "not estimable",
+    "key_assumptions": [
+     "no normalized owner earnings currently [D02]",
+     "dividend suspended [D01]",
+     "negative GAAP EPS [D01]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "n/a",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Berkshire cash and equivalents of $189 billion [D08] remain in T-bills earning significantly more than the current negative return of this business [D08].",
+   "downside_case": "Permanent loss of capital is possible given the turnaround risks, negative operating margins, and high capital intensity [D01], [D05].",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Lack of normalized owner earnings prevents calculation of yield or intrinsic value",
+    "Company is currently in a turnaround phase which violates our core preference for predictability"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Berkshire's edge is patience and the ability to hold permanent capital in businesses that compound over time; we act as permanent, passive holders of marketable securities [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realized through the business compounding and rational capital allocation [D08]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in the current era, we act as permanent owners who do not seek to manage or control, but rather rely on the underlying business's ability to create value over the long term [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "failure to reach sustained positive owner earnings [D01]",
+    "erosion of financial position despite massive capital expenditure [D01]",
+    "permanent loss of competitive manufacturing advantage to rivals like TSMC [D06]"
+   ],
+   "berkshire_constraints": "Cash floor of $30B [D08]; avoidance of permanent loss of capital [Instructions Rule 4].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Berkshire's $189 billion in cash and T-bills, which offers a risk-free return superior to this loss-making business [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a failing turnaround candidate that does not meet the criteria for a durable franchise or predictable owner earnings, placing it firmly in the 'too hard' pile.",
+   "biggest_risk_in_one_sentence": "The company is a capital-intensive business in a difficult turnaround that may fail to achieve sustained profitability, resulting in a permanent loss of capital."
+  }
+ },
+ "final": {
+  "as_of_date": "2024-08-02",
+  "company": "Intel Corporation",
+  "ticker": "INTC",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "era_a_bargain": false,
+  "negotiated_terms": false,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not estimable",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital"
+  },
+  "drivers": [
+   {
+    "driver": "The company currently has no positive owner earnings or dividend yield [D01], [D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "Intel is a capital-intensive business in a difficult turnaround, violating our requirement for a durable and predictable economic moat [D01], [D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "We have no edge in forecasting the success of the company's complex restructuring or its ability to regain manufacturing parity [D01], [D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Berkshire's $189 billion in cash and T-bills provides a superior, risk-free alternative to investing in a loss-making enterprise [D08].",
+    "citations": [
+     "D08"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "failure to reach sustained positive owner earnings [D01]",
+   "erosion of financial position despite massive capital expenditure [D01]",
+   "permanent loss of competitive manufacturing advantage to rivals like TSMC [D06]"
+  ],
+  "what_would_change_our_mind": "Evidence of a return to sustained, predictable owner earnings and the successful completion of the capital-intensive turnaround without further erosion of the company's financial base.",
+  "memo": "We have looked at Intel, a business that designs and manufactures semiconductors, but we find it to be squarely in our 'too hard' pile [D01]. The company is currently undergoing a painful turnaround necessitated by structural competitive challenges and a lack of pricing power in a rapidly evolving technological landscape [D01], [D06].\n\nThe business lacks the durable moat and consistent record of high returns on capital that we look for [D01], [D05]. It is currently loss-making, with a GAAP net loss of $1.6 billion in the second quarter, and management has suspended the dividend to manage liquidity [D01], [D07].\n\nIntel remains highly capital-intensive, with gross capex guidance of $25-27 billion, yet it has not demonstrated the regulated returns or low-cost commodity position that would justify such spending [D01]. We see no reason to commit capital to a situation where the path to sustained profitability is so uncertain [D01], [D05].\n\nAt this time, we prefer to hold our $189 billion in cash and T-bills, which offers us a certain return while we wait for opportunities that meet our stringent criteria [D08]. We do not participate in turnarounds or speculative bets on manufacturing breakthroughs; we require a wonderful business at a fair price, and Intel currently offers neither [D01], [D05].",
+  "uncited_claims": []
+ }
+}

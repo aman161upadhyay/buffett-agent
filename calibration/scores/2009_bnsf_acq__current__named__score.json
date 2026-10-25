@@ -1,0 +1,54 @@
+{
+ "trade_id": "2009_bnsf_acq",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "The bet concerned the long-term US economy rather than next-quarter freight. → We view this acquisition as an all-in wager on the economic future of the United States [D01]."
+  ],
+  "missed": [
+   "Efficient rail infrastructure is necessary for US prosperity.",
+   "Buffett trusted Matt Rose and the operating team."
+  ],
+  "extra_agent_drivers": [
+   "Market cap valuation and earnings yield relative to bonds.",
+   "The competitive moat of the rail network.",
+   "Oligopolistic industry pricing power."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "BNSF operates a massive, irreplaceable western US rail network protected by rights of way that are nearly impossible to replicate.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "As a vital, capital-intensive infrastructure business, BNSF serves as an all-in wager on the economic future of the United States.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company sells for a market capitalization of $25.89 billion, representing a trailing earnings yield of 6.9%.",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 16,
+  "cited": 11,
+  "share": 0.69
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We view this acquisition as an all-in wager on the economic future of the United States [D01].",
+ "grader_notes": "The agent correctly identified the 'all-in wager' theme central to Buffett's acquisition. However, the agent's reasoning was heavily weighted toward quantitative valuation (earnings yield vs bonds) and competitive moats, whereas Buffett's provided drivers emphasized infrastructure necessity and trust in the management team (Matt Rose). The agent also erroneously cited D12, which is not present in the provided pack.",
+ "run": "2009_bnsf_acq__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

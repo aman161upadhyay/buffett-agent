@@ -1,0 +1,27 @@
+{
+  "id": "1999_market_stance",
+  "company": "US equity market",
+  "ticker": "n/a",
+  "aliases": [
+    "US equity market",
+    "US equities",
+    "Dow",
+    "DJIA",
+    "Dow Jones Industrial Average",
+    "Fortune 500",
+    "FORTUNE 500",
+    "America Inc.",
+    "Paine Webber",
+    "Gallup",
+    "Berkshire Hathaway",
+    "Nasdaq",
+    "S&P 500"
+  ],
+  "as_of_date": "1999-11-22",
+  "mode": "hedge",
+  "era": "B",
+  "first_action_window": "November 22, 1999 Fortune publication; incremental-capital stance, no index trade claimed.",
+  "fund_aum_usd_bn": 37.265,
+  "decider": "Buffett",
+  "notes": "Historical reconstruction: doc Date is effective information cutoff, not archival publication date. Only pre-cutoff business conditions are reconstructed; later investor explanations/outcomes appear in key only. December 31, 1998 common-stock market value from March 1, 1999 letter; stale November reference, not freely deployable cash. Market-stance mapping is interpretive: Fortune is a return-expectations essay, not a transaction order. Prior year-end $37.265 billion equities and >$15 billion cash equivalents recovered from March 1 letter; November freely deployable cash remains unknown. Current-year annual letter stays key-only."
+}

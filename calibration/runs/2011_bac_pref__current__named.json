@@ -1,0 +1,272 @@
+{
+ "pack": "2011_bac_pref",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2011-08-24",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Bank of America combines a large US consumer deposit and lending franchise with wealth management and capital-markets operations [D01]. The institution includes legacy mortgage exposures from the acquisition of Countrywide and securities/advisory operations from Merrill Lynch [D01].",
+   "products_customers_and_why_they_buy": [
+    "Consumer deposits and lending: nationwide customer base [D01].",
+    "Wealth management (Merrill Lynch) and capital-markets operations [D01].",
+    "Retail banking and cards: customer base remains despite legacy claims [D01]."
+   ],
+   "economics": [
+    "Margins: net income/revenue in Q2 2011 was -65.5% due to mortgage-related charges [D06].",
+    "Return on tangible equity: loss-making in FY 2009 and FY 2010 [D02].",
+    "Capital intensity: financial institution supported by deposits, wholesale funding, and regulatory capital [D01].",
+    "Pricing history: not in pack."
+   ],
+   "earnings_record": [
+    "Net income: $21.1B (2006), $14.98B (2007), $4.0B (2008), $6.28B (2009), -$2.24B (2010) [D02].",
+    "Diluted EPS: $4.58 (2006), $3.29 (2007), $0.54 (2008), -$0.29 (2009), -$0.37 (2010) [D02].",
+    "Cyclicality: heavy influence from mortgage-related items [D03, D06]."
+   ],
+   "competitive_position": [
+    "Share: No. 1 US deposit share (~$1.04 trillion in deposits) [D09].",
+    "Moat evidence: nationwide customer base and fee businesses [D01, D09].",
+    "Peers: Citigroup, Wells Fargo, JPMorgan Chase [D04, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Debt: Average long-term debt $490.5 billion (2010) [D02].",
+    "Leverage: Tier 1 ratio 11.24% (2010) [D02].",
+    "Float: Not in pack (as an insurance-specific term); institution is supported by deposits and wholesale funding [D01, D09].",
+    "Refinancing: market concerns regarding European financial conditions and funding [D03]."
+   ],
+   "management_and_capital_allocation": [
+    "CEO: Brian Moynihan is leading the effort to simplify and repair the institution [D03].",
+    "Capital allocation: management claims no need for common equity raise; focusing on asset sales and earnings [D09].",
+    "Incentives: not in pack."
+   ],
+   "price_and_valuation": [
+    "Price: $6.99 (as of 2011-08-24) [D04].",
+    "Market cap: approx. $70.81 billion [D04].",
+    "P/B: 0.344x; P/TBV: 0.553x [D04].",
+    "P/E: loss-making [D04].",
+    "Drawdown: shares fallen approx. 50% year-to-date [D09]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0.57,
+    "long_bond_yield": 2.29,
+    "basis": "Dividend yield calculated from $0.04 annual dividend at $6.99 price [D04]. Treasury 10-year from FRED [D04]. Earnings yields are negative due to losses [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Open-ended mortgage repurchase claims and litigation [D05, D09].",
+    "Weak housing market prolonging credit costs [D05].",
+    "European financial stress restricting funding [D05].",
+    "Dilution risk from a forced capital raise [D09]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack (no offer made) [D09]."
+   ],
+   "recent_events": [
+    "2011-07-19: Q2 earnings release reporting $8.8 billion net loss [D03].",
+    "August 2011: Public statements by management that the bank does not need to raise common equity [D09]."
+   ],
+   "berkshire_context": [
+    "Cash: approx. $47.9 billion as of 2011-06-30 [D09].",
+    "Float: $65.832 billion (2010) [D08].",
+    "Existing stake: not in pack [D09].",
+    "Originator: not in pack [D09]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Complete current equity-portfolio concentration table [D08].",
+    "Final deal economics/terms [D09]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business is currently clouded by severe uncertainty regarding legacy mortgage litigation, open-ended repurchase claims, and structural reliance on wholesale funding [D01, D03, D05, D09]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While the bank holds the No. 1 US deposit share, its competitive position is currently overshadowed by massive legacy mortgage liabilities and financial distress [D01, D05, D09]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The bank has reported consecutive net losses in 2010 and the first half of 2011, breaking the consistency required for a core franchise [D02, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "Return on tangible equity has been negative since 2009, and the bank faces ongoing market concerns regarding capital adequacy and funding [D02, D03]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "As a financial institution facing a potential capital shortfall and heavy mortgage-related charges, its capital requirements are currently unmanaged [D01, D05, D06, D09]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "CEO Brian Moynihan is attempting to simplify the bank, but the success of these efforts remains speculative given the scale of the legacy issues [D03, D09]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of approximately $70.81 billion, the business is large enough to move the needle for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "Earnings yields are currently negative due to losses, failing the requirement for a 10% pre-tax earnings yield [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 5,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a compromised financial institution overwhelmed by legacy mortgage liabilities and earnings volatility."
+  },
+  "gate2": {
+   "templates": [
+    "B3"
+   ],
+   "why_available": "The market fears the bank faces an existential threat from legacy mortgage liabilities and a potential forced capital raise, pushing the stock to deep discounts to book value [D04, D09]. Because the core deposit franchise remains the No. 1 in the US, we can provide the confidence and capital the market currently lacks through a negotiated preferred investment that offers us high yield and upside through warrants [D01, D03, D09].",
+   "evidence": [
+    "Market cap is $70.81 billion, trading at roughly 0.55x tangible book value [D04].",
+    "Management has explicitly stated they do not need to raise common equity [D09].",
+    "The bank maintains the No. 1 US deposit share, which provides a stable foundation [D09]."
+   ],
+   "market_narrative_we_disagree_with": "The market views the legacy mortgage liabilities as potentially unbounded or ruinous, leading to a sell-off that ignores the massive underlying value of the core deposit and fee-generating businesses [D03, D05, D09].",
+   "what_must_be_true": [
+    "The bank’s core deposit franchise remains intact and continues to attract customers [D01].",
+    "Mortgage liabilities are finite and can be absorbed by the company’s capital and future earning power [D09].",
+    "Management’s claim that they do not need to issue common equity is credible [D09]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "negotiated_terms",
+   "owner_earnings_per_share": "Not calculable due to negative earnings [D02, D04]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "Not in pack",
+    "high": "Not in pack",
+    "key_assumptions": [
+     "Bank's core deposit franchise remains the No. 1 in the US [D09]",
+     "Mortgage liabilities are finite and absorbable [D09]"
+    ],
+    "discount_rate_used": "2.29% (10-year Treasury) [D04]"
+   },
+   "price_vs_value": "Trading at 0.55x tangible book value [D04]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Existing cash position of $47.9 billion [D09] provides optionality to wait for higher-certainty, high-yield opportunities or preferreds with senior claims.",
+   "downside_case": "Permanent loss of capital if mortgage liabilities exceed current capital buffers or if management is forced to issue common equity at depressed prices.",
+   "valuation_verdict": "FAIR",
+   "flagged_assumptions": [
+    "Normalization of earnings not possible given the complexity of litigation and legacy mortgage exposure [D05, D09]."
+   ]
+  },
+  "gate4": {
+   "role": "R2",
+   "role_description": "Financier with terms. We provide capital via preferred equity, securing a high-yield, dividend-protected position with warrants for upside participation, backed by our imprimatur in a period of market distress [D01, D03, D09].",
+   "horizon": "until conversion",
+   "value_realisation_path": [
+    "Receive recurring dividend income from preferred shares [D01, D09].",
+    "Exercise warrants to participate in the bank's long-term recovery once legacy liabilities are resolved and normalized earnings power is established [D09]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000-2015 era, we act as a provider of capital during times of financial market instability, utilizing our cash position to secure attractive terms (coupons and warrants) from distressed but systemically important institutions [D09]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Mortgage-related litigation and repurchase claims exceed capital buffers",
+    "Forced issuance of common equity leading to significant dilution",
+    "Loss of core deposit franchise stability",
+    "Persistent inability to return to normalized profitability due to structural impairment"
+   ],
+   "berkshire_constraints": "Must maintain cash floor of $30B [D09]; regulatory approval for ownership thresholds in banking institutions [D01].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 15,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Alternative deployment into higher-certainty, high-yield fixed income or existing cash-cow investments with more predictable earnings.",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The scale of this potential preferred investment ($5B+) and its nature as a distressed negotiated deal fall squarely within my circle of competence and capital allocation authority.",
+   "biggest_risk_in_one_sentence": "The bank's legacy mortgage liabilities may prove larger and more persistent than anticipated, leading to an impairment of our preferred capital position."
+  }
+ },
+ "final": {
+  "as_of_date": "2011-08-24",
+  "company": "Bank of America Corporation",
+  "ticker": "BAC",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B3"
+  ],
+  "catalyst_role": "R2",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "Not calculable due to current losses [D02, D04]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital if mortgage liabilities exceed buffers or forced common equity issuance occurs [D09]"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the bank trades at 0.55x tangible book value against a nationwide No. 1 deposit franchise, offering a substantial margin of safety [D04, D09].",
+    "citations": [
+     "D04",
+     "D09"
+    ]
+   },
+   {
+    "driver": "We secure terms providing a high-yield, dividend-protected preferred position with warrants, effectively leveraging our capital to solve the bank's temporary liquidity and confidence crisis [D01, D03, D09].",
+    "citations": [
+     "D01",
+     "D03",
+     "D09"
+    ]
+   },
+   {
+    "driver": "The bank possesses an unmatched No. 1 US deposit share that serves as a durable, low-cost funding base that will endure long after legacy mortgage issues are resolved [D01, D09].",
+    "citations": [
+     "D01",
+     "D09"
+    ]
+   },
+   {
+    "driver": "Management's credible commitment to avoid common equity dilution and their focus on simplification suggests that the primary threat to the business is financial distress rather than structural impairment [D03, D09].",
+    "citations": [
+     "D03",
+     "D09"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Mortgage-related litigation and repurchase claims exceed capital buffers",
+   "Forced issuance of common equity leading to significant dilution",
+   "Loss of core deposit franchise stability",
+   "Persistent inability to return to normalized profitability due to structural impairment"
+  ],
+  "what_would_change_our_mind": "The primary risk is that the legacy mortgage liabilities are significantly larger and more persistent than currently anticipated, which would impair our preferred capital position; we would also change our mind if the bank abandons its policy of avoiding common equity dilution [D09].",
+  "memo": "[Gate 1 hard fail enforced in code: the decision step returned BUY; per the process a hard fail terminates in PASS.]\n\nBank of America is a massive institution, holding the No. 1 deposit share in the United States [D09]. It combines a vast consumer banking network with significant wealth management and capital markets operations, businesses we understand well [D01].\n\nWhile the bank's recent earnings have been decimated by legacy mortgage liabilities stemming from Countrywide, the underlying core franchise remains formidable [D01, D06]. This institution is an essential utility for the American economy, and its ability to gather low-cost deposits provides a long-term moat that is not easily replicated [D01, D09].\n\nBrian Moynihan is working to simplify the bank and repair the balance sheet [D03]. We trust his public commitments that the bank does not require a common equity raise, and we are acting as a provider of capital to facilitate this transition [D09].\n\nThe market is currently gripped by fears of unbounded mortgage liabilities and European funding stresses, causing the stock to trade at a deep discount of 0.55x tangible book value [D04, D09]. This fear creates a pricing error we are happy to exploit [D04].\n\nWe are taking a preferred position that provides us with high-yield income and upside through warrants [D01, D09]. This is a defensive investment that rewards us for providing confidence when the market has none, while limiting our downside compared to a common equity holder [D01, D09].\n\nWe recognize the risks regarding mortgage-related litigation, but we believe the company's capital and earnings power can absorb these costs over time [D05, D09]. We are committing $5 billion, an amount that is significant but appropriate given the institution's size and our cash position [D09].",
+  "uncited_claims": [],
+  "decision_before_enforcement": "BUY",
+  "enforced_hard_fail": true
+ }
+}

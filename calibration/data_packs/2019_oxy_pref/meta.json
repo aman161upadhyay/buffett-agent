@@ -1,0 +1,25 @@
+{
+  "id": "2019_oxy_pref",
+  "company": "Occidental Petroleum Corporation \u2014 preferred financing",
+  "ticker": "OXY",
+  "aliases": [
+    "Occidental Petroleum Corporation \u2014 preferred financing",
+    "OXY",
+    "Occidental",
+    "Occidental Petroleum",
+    "Occidental Petroleum Corporation",
+    "OxyChem",
+    "Anadarko",
+    "Anadarko Petroleum",
+    "Western Midstream",
+    "WES",
+    "Oxy Low Carbon Ventures"
+  ],
+  "as_of_date": "2019-04-30",
+  "mode": "new",
+  "era": "D",
+  "first_action_window": "2019-04-30 conditional commitment; funded August 8, 2019",
+  "fund_aum_usd_bn": 112.0,
+  "decider": "Buffett",
+  "notes": "Reasoning-limited key: terms verified, full own-words entry rationale not recovered. Same-day deal digest strips accepted decision and counterparty. Do not grade inferred oil-price optimism as stated reason. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated."
+}

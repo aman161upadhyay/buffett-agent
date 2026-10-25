@@ -1,0 +1,237 @@
+{
+ "pack": "dep_2020_snow_ipo_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2020-09-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company provides a cloud-based platform that separates cloud-data storage and compute, enabling enterprises to consolidate, query, and share governed data [D01]. It operates on infrastructure provided by large cloud vendors, utilizing a consumption-based revenue model rather than a fixed subscription [D01].",
+   "products_customers_and_why_they_buy": [
+    "Cloud data storage and compute services provided to enterprise customers [D01]. Customers choose the platform for easier scaling and cross-organization data sharing, with evidence of 3,117 customers and a 158% net revenue retention rate [D01]."
+   ],
+   "economics": [
+    "The company is currently loss-making, with fiscal-year net loss of approximately $348.5 million [D01]. Economics are driven by a consumption-based model where revenue aligns with use [D01]. Capital intensity involves reliance on cloud vendor infrastructure [D01]. No explicit maintenance-capex or pricing history is in pack [D02]."
+   ],
+   "earnings_record": [
+    "Fiscal-year revenue of $264.7 million (up 174% from $96.7 million) with a net loss of $348.5 million [D01]. Six months ended July 31 revenue of $242.0 million (up 133% from $104.0 million) with a net loss of $171.3 million [D01]."
+   ],
+   "competitive_position": [
+    "Competes with Amazon Redshift, Google BigQuery, and Microsoft offerings [D06]. Moat evidence includes potential switching costs from data migration and workflow integration, and a 'land-and-expand' base supported by 56 customers spending over $1 million annually [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Not in pack for complete balance sheet; IPO involves a $250 million private placement and a 4,042,043-share secondary block [D01]. Combined illustrative cash from IPO components is approximately $735.045 million [D02]."
+   ],
+   "management_and_capital_allocation": [
+    "Not in pack regarding specific CEO tenure or detailed track record; dual-class structure exists with Class B holding ten votes per share and Class A holding one vote [D01]."
+   ],
+   "price_and_valuation": [
+    "Priced at $120 per share as of September 15, 2020 [D02]. Conventional earnings-yield valuation is not applicable due to net losses [D02]. No first-day trading price is in pack [D02]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "Not in pack; company reported net losses in provided periods [D01]."
+   },
+   "what_the_market_is_worried_about": [
+    "Unprofitable status and short public financial history [D05]. Reliance on cloud providers that compete with the company [D05]. Potential for customers to optimize workloads or reduce consumption [D05]. Dual-class structure and stock-based compensation [D05]."
+   ],
+   "deal_terms_if_any": [
+    "IPO priced at $120; includes 28 million shares primary issuance, $250 million private placement, and 4,042,043-share secondary block [D01, D02]."
+   ],
+   "recent_events": [
+    "August 24, 2020: public registration [D07]. September 15, 2020: IPO priced at $120 [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire held approximately $146.6 billion in cash, cash equivalents, and Treasury bills as of June 2020 [D08]. The investment would be considered a potential deputy-scale position [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Full balance sheet, maintenance-capex, normalized owner-earnings, and definitive valuation metrics."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The company operates in a sector characterized by rapid technological change and significant competition from major cloud vendors [D01], [D06]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While 'land-and-expand' and high retention rates suggest potential switching costs, the company competes directly with the infrastructure providers it relies on, creating an uncertain long-term moat [D01], [D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company is currently loss-making with no history of profitability to evaluate [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company has negative net income, precluding a positive return on equity [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The reliance on third-party cloud infrastructure and the lack of visibility into long-term capital needs for a consumption-based model make it appear capital-intensive without established returns [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "There is no history of management performance, and the dual-class share structure may limit alignment with minority owners [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "The investment is considered a potential deputy-scale position rather than one capable of moving the needle for Berkshire's total capital [D08]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "The company is loss-making and lacks the necessary earnings yield or margin of safety to meet our investment criteria [D01], [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 0,
+   "n_fail": 6,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": true,
+   "one_line_business_quality_verdict": "a loss-making technology platform in a highly competitive and rapidly changing landscape"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no reason to expect a bargain because the company is a loss-making entity in an early-stage, highly competitive technology sector [D01]. The market is not mispricing a durable franchise, but rather pricing an unproven business model with high execution risk and intense competition from its own infrastructure providers [D01], [D06].",
+   "evidence": [
+    "The company is currently loss-making with a fiscal-year net loss of $348.5 million [D01].",
+    "The company faces direct competition from dominant infrastructure providers like Amazon, Google, and Microsoft [D06].",
+    "The company lacks an established record of profitability or normalized owner earnings [D01]."
+   ],
+   "market_narrative_we_disagree_with": "The market may be valuing the company based on high growth rates in revenue, ignoring the lack of profitability, capital intensity, and the fundamental risk of competing with one's own platform providers [D01], [D05].",
+   "what_must_be_true": [
+    "The company must achieve profitability and demonstrate a sustainable moat.",
+    "The business must prove it can differentiate itself despite relying on competitors for its underlying infrastructure.",
+    "Management must show disciplined capital allocation despite the dual-class share structure."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "Not applicable; company is loss-making [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "Not calculable",
+    "high": "Not calculable",
+    "key_assumptions": [
+     "Requires achievement of profitability and sustainable moat [D01]",
+     "Competitive pressure from infrastructure providers must be mitigated [D06]"
+    ],
+    "discount_rate_used": "Not in pack"
+   },
+   "price_vs_value": "Indeterminate; no earnings yield or positive owner earnings to capitalize [D01]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Berkshire's $146.6 billion in cash and Treasury bills [D08] is superior, as it earns a certain return while awaiting opportunities with established, durable competitive advantages and consistent earnings records [D08].",
+   "downside_case": "Significant potential for permanent loss of capital given the lack of profitability, high execution risk, and competitive reliance on platform providers [D01].",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "No data provided to normalize owner earnings or project future cash flows [D01]",
+    "No long-term government bond rate provided in the specific pack for 2020-09-15"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We act as a permanent, passive holder of marketable securities, relying on the underlying business to compound value through rational capital allocation and the strength of its franchise [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realised through the long-term compounding of owner earnings and the durability of the business's competitive advantage [D08]."
+   ],
+   "decider": "deputy",
+   "why_this_role_fits_the_era": "For a small, speculative position in a technology sector entity, we would rely on our investment deputies to manage the exposure, as it does not meet the scale or business quality requirements for a core Berkshire investment [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Pricing power lost to major cloud infrastructure providers who offer competing services",
+    "Failure to achieve profitability as the consumption-based model matures",
+    "Switching costs prove insufficient to prevent enterprise customer churn to native cloud vendor solutions"
+   ],
+   "berkshire_constraints": "Must maintain cash floor of at least $30 billion; must not disrupt capital allocation for insurance float [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Berkshire's $146.6 billion in cash and Treasury bills provides a superior, certain return compared to a speculative, loss-making entity [D08].",
+   "leverage": "none",
+   "decider": "deputy",
+   "decider_reason": "The business is in the technology sector and fails to meet the threshold for a core Buffett position, making it exclusively a candidate for a deputy's sleeve if it were to be considered at all.",
+   "biggest_risk_in_one_sentence": "The company relies on infrastructure providers that are also its primary, well-capitalized competitors, creating a fundamental threat to its long-term viability."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-09-15",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "deputy",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Not calculable; company is loss-making [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Not calculable [D01]",
+   "expected_return_pct": 0,
+   "downside_case": "High potential for permanent loss of capital [D01]"
+  },
+  "drivers": [
+   {
+    "driver": "The business is loss-making with no history of profitability, failing the most basic requirement for an investment [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The company relies on infrastructure providers that are also its primary, well-capitalized competitors, creating a fundamental threat to its long-term viability [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "The business model is highly speculative and lacks the durable competitive advantage and pricing power we require [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Berkshire's $146.6 billion in cash and Treasury bills offers a superior, certain return compared to an unproven, capital-intensive entity [D08].",
+    "citations": [
+     "D08"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Pricing power lost to major cloud infrastructure providers who offer competing services",
+   "Failure to achieve profitability as the consumption-based model matures",
+   "Switching costs prove insufficient to prevent enterprise customer churn to native cloud vendor solutions"
+  ],
+  "what_would_change_our_mind": "Evidence of consistent, sustainable profitability, a demonstrable moat independent of underlying infrastructure providers, and a history of disciplined, owner-oriented capital allocation.",
+  "memo": "We have reviewed the offering of this company and have concluded that it does not meet our criteria for an investment [D01]. The business is currently loss-making, having reported a net loss of $348.5 million in the last fiscal year [D01]. We do not speculate on unproven businesses, nor do we attempt to forecast the future of rapidly changing technology sectors [D01].\n\nOur philosophy is to buy businesses that are simple, understandable, and possess a durable moat [D08]. This company relies entirely on the infrastructure of its own primary competitors—major cloud vendors—which creates a precarious foundation for any long-term competitive advantage [D06]. We cannot see how this situation provides the margin of safety that is essential to our investment process [D01].\n\nFurthermore, the company lacks a history of consistent returns on capital, which is a non-negotiable requirement for us [D01]. While the company has seen revenue growth, this has been accompanied by significant and recurring losses [D01]. We prefer to hold our capital in cash and short-term Treasury bills, which currently provides us with a certain, albeit modest, return while we wait for wonderful businesses to be offered at sensible prices [D08].",
+  "uncited_claims": []
+ }
+}

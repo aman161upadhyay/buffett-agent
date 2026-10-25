@@ -1,0 +1,47 @@
+{
+ "trade_id": "dep_2021_atvi_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "BUY by an unnamed deputy, not Buffett and not merger arbitrage",
+   "Buffett's signed February 17, 2022 clarification: one of two independent investment managers bought about 85% in October, completed in November, average cost about $77; no prior knowledge of Microsoft's January proposal. Exact deputy not named.",
+   "Buffett explicitly said the investment manager operated independently of him and Berkshire had no prior knowledge of Microsoft's proposal; the October purchase is not merger arbitrage."
+  ],
+  "extra_agent_drivers": [
+   "Business model reliance on constant creative reinvestment",
+   "Serious employment and workplace allegations",
+   "Intense competition for talent and playtime",
+   "Lack of clarity on maintenance capital and owner earnings"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business model relies on constant, non-discretionary creative reinvestment rather than serving as a self-maintaining royalty stream [D01, D06].",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Serious and ongoing employment and workplace allegations pose non-quantifiable risks to management credibility and the stability of the creative workforce [D01, D05].",
+    "citation": "D05",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 5,
+  "share": 0.5
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We prefer to put this idea in our 'too hard' pile rather than risk Berkshire’s reputation and capital on an uncertain outcome [D01].",
+ "grader_notes": "The agent reached the opposite conclusion of the actual investor (a deputy at Berkshire), failing to identify the purchase as a decision made by an independent manager. Consequently, the reasoning focused on speculative fundamental analysis (the 'too hard' pile) rather than the actual documented investment action, resulting in a complete miss.",
+ "run": "dep_2021_atvi_buy__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS"
+}

@@ -1,0 +1,55 @@
+{
+ "trade_id": "2025_bac_trim_q3",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Competitive position and sticky deposits",
+   "Profitable performance and capital returns",
+   "Regulatory and capital position",
+   "Tax liability avoidance"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The bank maintains a strong competitive position with massive, sticky deposits and diversified fee engines",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Financial results show profitable performance",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The regulatory and capital position remains robust",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Selling would trigger a significant tax liability",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 3,
+  "share": 0.38
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We view this position as a durable franchise that continues to demonstrate its value through consistent profitability and substantial deposit scale [D01].",
+ "grader_notes": "The agent incorrectly decided to HOLD while Berkshire Hathaway executed a TRIM. As the answer key indicates no stated drivers for Buffett's decision, the reasoning overlap is not scorable, resulting in a MISS due to the mismatch in trade direction.",
+ "run": "2025_bac_trim_q3__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "TRIM",
+ "agent_decision": "HOLD",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

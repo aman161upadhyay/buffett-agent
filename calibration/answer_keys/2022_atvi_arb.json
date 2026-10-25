@@ -1,0 +1,41 @@
+{
+  "id": "2022_atvi_arb",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Approximately 9.5% ownership by April 30, including prior deputy shares; Q2 2022 mark approximately $5.326 billion",
+  "first_action_date": null,
+  "disclosure_date": "2022-04-30",
+  "reason_class": null,
+  "opportunity_template": [
+    "B5"
+  ],
+  "catalyst_role": "R5",
+  "decider": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "The spread to the $95 cash consideration created a workout opportunity.",
+      "source": "https://www.cnbc.com/2022/04/30/buffett-berkshire-owns-9point5percent-of-activision-blizzard-shares-in-merger-arbitrage-bet.html (2022-04-30; post-entry annual-meeting explanation)",
+      "quote": null
+    },
+    {
+      "driver": "Buffett personally made the arbitrage decision, distinct from the deputy's pre-bid purchase.",
+      "source": "https://www.cnbc.com/2022/04/30/buffett-berkshire-owns-9point5percent-of-activision-blizzard-shares-in-merger-arbitrage-bet.html (2022-04-30; post-entry annual-meeting explanation)",
+      "quote": null
+    },
+    {
+      "driver": "Completion probability, including government intervention, had to justify the downside risk.",
+      "source": "https://www.cnbc.com/2022/04/30/buffett-berkshire-owns-9point5percent-of-activision-blizzard-shares-in-merger-arbitrage-bet.html (2022-04-30; post-entry annual-meeting explanation)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "$95 cash bid; no authenticated February 15 entry price.",
+  "outcome_note": "Deal closed October 2023, but Berkshire reduced before closing; no assumption full peak stake captured full spread.",
+  "sources": [
+    "https://www.cnbc.com/2022/04/30/buffett-berkshire-owns-9point5percent-of-activision-blizzard-shares-in-merger-arbitrage-bet.html",
+    "https://news.microsoft.com/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/",
+    "https://www.berkshirehathaway.com/letters/2020ltr.pdf"
+  ],
+  "pack_quality_notes": "New strategy overlay on pre-existing deputy stake. No contemporaneous Buffett trade date or exact cutoff spread recovered. Do not backdate the approximately $75.60 April quote to February. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated. Key source timing: 2022-04-30; post-entry annual-meeting explanation. Unknown first execution is null; see meta.first_action_window. Fewer than three authenticated drivers means reasoning is unscorable rather than completed with invented manager claims.",
+  "quality_grade": "B"
+}

@@ -1,0 +1,64 @@
+{
+ "trade_id": "1987_salomon_pref",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "The 9% preferred and scheduled redemption supplied the bulk of the investment's value. → Our investment provides an initial yield of 9%, comparable to government bonds, while the conversion feature at $38 per share allows us to participate in the firm's future success if it stabilizes.",
+   "Conversion offered additional participation without requiring a confident common-equity forecast. → The preferred instrument provides a 9% yield, which is competitive with the 9.53% long bond yield, while adding an equity conversion feature at $38 per share that offers significant upside if the company stabilizes."
+  ],
+  "missed": [
+   "Confidence in Gutfreund's ability and integrity was explicit.",
+   "Buffett acknowledged no special insight into investment banking's future profitability."
+  ],
+  "extra_agent_drivers": [
+   "Salomon is a major securities dealer and capital-markets intermediary that occupies a central role in the financial system.",
+   "Management's urgent need for capital to facilitate a share repurchase from Minorco and navigate a control contest allows us to dictate terms that prioritize our protection."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "We have negotiated a $700 million 9% convertible preferred position",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "9.53% long bond yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Salomon Inc. is a leading securities dealer",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management, led by John Gutfreund, is currently navigating a period of internal transition",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "65.8% decline in the second quarter of 1987",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 1,
+  "share": 0.08
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Our investment provides an initial yield of 9%, comparable to government bonds, while the conversion feature at $38 per share allows us to participate in the firm's future success if it stabilizes.",
+ "grader_notes": "The agent correctly identified the structural mechanics of the preferred stock and the value of the conversion option as primary drivers. However, it failed to cite Buffett's explicit trust in John Gutfreund's integrity and his stated lack of special insight into investment banking, which were central to his post-hoc justification. The agent instead focused heavily on external market context and the specifics of the control contest, which Buffett treated as background rather than primary investment drivers.",
+ "run": "1987_salomon_pref__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

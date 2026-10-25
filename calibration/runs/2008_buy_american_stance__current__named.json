@@ -1,0 +1,58 @@
+{
+ "pack": "2008_buy_american_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "hedge",
+ "as_of_date": "2008-10-16",
+ "stages": {},
+ "final": {
+  "as_of_date": "2008-10-16",
+  "trailing_earnings_yield_pct": 4.86,
+  "normalised_earnings_yield_pct": 8,
+  "normalisation_basis": "prior 5-10y average because reported earnings are depressed [D02]",
+  "long_bond_yield_pct": 3.99,
+  "spread_points": "4.01",
+  "drawdown_from_high_pct": 0,
+  "panic_indicators": [
+   "VIX at 67.61 [D04]",
+   "Emergency public interventions and financial crisis [D03]",
+   "Record-high option-implied volatility [D06]"
+  ],
+  "rule_decision": "BUY_BROADLY — normalised earnings yield (~8%) exceeds long-bond yield (3.99%) by >2 points [D02, D04]",
+  "decision": "BUY_BROADLY",
+  "override_reason": null,
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "Normalised earnings yield of ~8% is significantly higher than the 3.99% long-bond yield, indicating stocks offer substantial value relative to fixed income [D02, D04]",
+  "valuation_level": "Prices have fallen significantly, with trailing P/E sensitivity at 20.6x based on depressed earnings; normalized yields suggest broad undervaluation [D02, D04]",
+  "ideas_that_qualify": [
+   "High-quality businesses with durable competitive advantages and strong balance sheets that can survive the credit crisis [D01]"
+  ],
+  "berkshire_action": "Aggressively deploy cash into wonderful businesses at fair prices as they become available; maintain sufficient liquidity for insurance and contractual obligations [D01, D08]",
+  "drivers": [
+   {
+    "driver": "The spread between normalized equity earnings yields and long government bonds provides a significant margin of safety [D02, D04]",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Market prices have declined during a period of acute panic, creating opportunities to purchase ownership in profitable businesses at attractive valuations [D03, D04]",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Long-term investment success is built on acquiring businesses with sustainable cash flows rather than forecasting short-term market movements [D01, D07]",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   }
+  ],
+  "memo": "We find ourselves in a period of extreme financial distress, yet our investment philosophy remains unchanged: we look for wonderful businesses that we can understand, which possess durable competitive advantages and the ability to generate sustainable owner earnings. When others are fearful, the market often provides us with the opportunity to purchase such businesses at prices that offer a substantial margin of safety. While the reported earnings are currently depressed and do not reflect the normalized earning power of these enterprises, the gap between the normalized earnings yield and the 3.99% yield on the long Treasury bond is compelling [D02, D03, D04].\n\nWe do not attempt to forecast the bottom of the market or the near-term path of the economy, as such efforts are futile. Instead, we focus on the durability of the underlying businesses and our own liquidity needs. We maintain a strong cash position to ensure we can meet our insurance and contractual obligations, but we are prepared to move decisively when the arithmetic of value favors ownership over fixed-income claims. We remain focused on the long-run distributable cash, indifferent to the temporary volatility captured by the VIX or daily price quotes [D01, D03, D04, D06].",
+  "uncited_claims": []
+ }
+}

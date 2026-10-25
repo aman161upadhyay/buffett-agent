@@ -1,0 +1,243 @@
+{
+ "pack": "ctl_2024_intc_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2024-08-02",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company designs processors and manufactures semiconductors, currently attempting to recover its manufacturing franchise and expand into foundry services for external customers [D01]. Key assets include an installed x86 software base, enterprise qualification processes, and manufacturing expertise [D01].",
+   "products_customers_and_why_they_buy": [
+    "Processors and semiconductor manufacturing services sold to client and server product customers [D01], [D03]."
+   ],
+   "economics": [
+    "GAAP gross margin 35.4% (vs 35.8%), non-GAAP gross margin 38.7% (vs 39.8%) [D01]; GAAP operating margin -15.3%, adjusted operating margin 0.2% [D01].",
+    "Annual net capital spending guided at $11–13 billion after partner offsets [D01].",
+    "Capital intensity is high; business-recovery thesis rather than a regulated utility with guaranteed returns [D01]."
+   ],
+   "earnings_record": [
+    "Q2 2024 revenue $12.8 billion (down 1% YoY), GAAP net loss $1.6 billion, EPS negative $0.38 [D01].",
+    "Non-GAAP EPS was positive $0.02 [D01]."
+   ],
+   "competitive_position": [
+    "Integrated producer with x86 software base and manufacturing expertise, but faces competition from fabless designers and specialized foundries [D01], [D06].",
+    "Manufacturing leadership not yet proven; currently in turnaround phase [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Dividend suspension beginning in Q4 2024 to preserve liquidity [D01].",
+    "Company announced >$10 billion in operating and capital spending reductions [D01].",
+    "Gross capex guidance $25–27 billion for the year [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Management pursuing cost reductions and headcount cuts exceeding 15% to stabilize the business [D01].",
+    "Dividend suspended to protect liquidity [D01]."
+   ],
+   "price_and_valuation": [
+    "Price $21.48 as of August 2, 2024 [D02].",
+    "Trailing P/E not meaningful due to GAAP net loss [D02].",
+    "Adjusted quarterly EPS ($0.02) annualizes to $0.08, resulting in a mechanical 268.5x multiple [D02]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Operating losses and razor-thin (0.2%) adjusted operating margins [D05].",
+    "Cash priority leading to dividend suspension [D05].",
+    "Risk that cost-cutting measures may undermine essential R&D and future yields [D05].",
+    "Potential for technical obsolescence and low utilization to destroy book value [D05]."
+   ],
+   "deal_terms_if_any": "not in pack",
+   "recent_events": [
+    "August 1, 2024: Q2 results, loss-making guidance, cost-reduction plan, and dividend suspension announced [D07].",
+    "August 2, 2024: Stock price fell approximately 26% [D07]."
+   ],
+   "berkshire_context": [
+    "Cash and equivalents approximately $189 billion as of Q1 2024 [D08].",
+    "Berkshire previously owned the Company (prior episode) [D08]."
+   ],
+   "document_conflicts": [
+    "None identified."
+   ],
+   "missing_data": [
+    "Normalized owner-earnings estimate, maintenance capex figures, and independent long-term forecasts."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The company is in a turnaround phase attempting to recover its manufacturing franchise, which makes the long-term business trajectory highly unpredictable [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "Manufacturing leadership is unproven and the company currently faces significant competitive pressure from fabless designers and specialized foundries [D01], [D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company reported a GAAP net loss of $1.6 billion for Q2 2024 and is currently in a turnaround scenario [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company has negative GAAP operating margins and is suspending its dividend to protect liquidity [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business requires massive capital expenditure of $25–27 billion annually without the protection of regulated returns [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management is taking aggressive cost-cutting measures, including dividend suspension and significant layoffs, to stabilize the business [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The company is of sufficient scale to be meaningful for Berkshire Hathaway [D01]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "The company lacks positive earnings and is currently loss-making, failing the 10% pre-tax earnings yield requirement [D01], [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 6,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a capital-intensive business in a difficult turnaround phase with eroding margins and unproven competitive leadership"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The company is in the midst of a difficult, high-risk turnaround with eroding operating margins and a massive, unproven capital expenditure program [D01]. The market is reacting to severe financial deterioration, including a significant net loss and the suspension of the dividend, rather than a temporary cloud over a stable franchise [D01], [D07].",
+   "evidence": [
+    "GAAP net loss of $1.6 billion and negative operating margins [D01]",
+    "Dividend suspension to preserve liquidity [D01]",
+    "High capital intensity of $25-27 billion gross annual expenditure without regulated returns [D01]",
+    "Stock price drop of 26% following poor quarterly results [D07]"
+   ],
+   "market_narrative_we_disagree_with": "The market views this as a distressed asset that may require significant dilution or risk permanent impairment of book value due to technical obsolescence [D05]. We do not disagree with this assessment, as the business currently lacks the durable competitive advantage and consistent earnings record required for investment [D01].",
+   "what_must_be_true": [
+    "Management must successfully execute a turnaround of manufacturing capabilities",
+    "Operating margins must recover to sustainable, high levels",
+    "Capital expenditure requirements must stabilize at a level that generates positive free cash flow"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "negative $0.38 [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not estimable",
+    "high": "not estimable",
+    "key_assumptions": [
+     "requires successful turnaround of manufacturing capabilities [D01]",
+     "stabilization of capex to levels generating positive FCF [D01]",
+     "recovery of operating margins [D01]"
+    ],
+    "discount_rate_used": "not applicable"
+   },
+   "price_vs_value": "not applicable; business lacks durable competitive advantage [D01]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "T-bills / existing holdings / Berkshire buyback; all superior due to guaranteed returns or proven earnings power [D08]",
+   "downside_case": "permanent impairment of capital due to technical obsolescence and continued operating losses [D05]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Normalized owner-earnings estimate not available in pack",
+    "Maintenance capex figures not available in pack",
+    "Independent long-term growth forecasts not available in pack"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are long-term owners of businesses, not stock flippers. We look for companies with durable competitive advantages and consistent earnings power where we can act as a permanent, passive partner, allowing the business to compound value over time [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "the company must demonstrate a sustained turnaround of its manufacturing franchise and return to consistent, high-margin earnings growth to generate intrinsic value [D01]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For all marketable securities, our role is that of a permanent investor. In the current era, we seek wonderful businesses at fair prices; as this business fails our quality and valuation criteria, we would pass entirely, but if we were to hold, we would do so only as a passive observer waiting for long-term compounding [D01]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "failure to achieve manufacturing process leadership by target dates",
+    "operating margins fail to recover to historical, industry-leading levels",
+    "further deterioration of free cash flow necessitating equity dilution",
+    "erosion of x86 ecosystem moat due to successful competitive architectures"
+   ],
+   "berkshire_constraints": "Must maintain $30B+ cash floor; investment must not jeopardize Berkshire's reputation for financial conservatism [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "T-bills yielding ~5% or repurchasing Berkshire stock offer superior risk-adjusted returns and certainty [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business fails to meet our quality criteria for a durable franchise and possesses no reliable owner earnings, placing it firmly in the 'too hard' pile.",
+   "biggest_risk_in_one_sentence": "The company faces a high risk of permanent capital impairment due to technical obsolescence and a capital-intensive turnaround that may fail to generate sustainable returns."
+  }
+ },
+ "final": {
+  "as_of_date": "2024-08-02",
+  "company": "the Company (XXX)",
+  "ticker": "INTC",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "negative $0.38 per share [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not estimable [D03]",
+   "expected_return_pct": 0,
+   "downside_case": "permanent impairment of capital due to technical obsolescence and continued operating losses [D05]"
+  },
+  "drivers": [
+   {
+    "driver": "The business is currently in a difficult turnaround phase with no durable competitive advantage or proven manufacturing leadership [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Earnings are negative, failing to meet our 10% pre-tax earnings yield requirement for a wonderful business [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Capital intensity is extreme, requiring $25–27 billion in gross annual expenditure without the protection of regulated returns [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The company's suspension of its dividend and negative GAAP operating margins indicate a high risk of capital impairment [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "failure to achieve manufacturing process leadership by target dates",
+   "operating margins fail to recover to historical, industry-leading levels",
+   "further deterioration of free cash flow necessitating equity dilution",
+   "erosion of x86 ecosystem moat due to successful competitive architectures"
+  ],
+  "what_would_change_our_mind": "A demonstrated, sustained return to consistent, high-margin earnings growth and proof that the manufacturing turnaround has solidified a long-term competitive moat.",
+  "memo": "We have reviewed the Company and find it sits firmly in our 'too hard' pile. At this time, the business is struggling through a major turnaround of its manufacturing operations, which makes its long-term economic trajectory highly unpredictable [D01]. We require businesses with durable competitive advantages and a consistent record of high returns on capital, neither of which is present in the current, loss-making financial results [D01].\n\nUnlike the stable, predictable franchises we prefer, this company requires massive annual capital expenditures of $25–27 billion without the safety of regulated returns [D01]. With the company reporting a $1.6 billion GAAP net loss and suspending its dividend to preserve liquidity, the fundamental economics do not meet our standards for an owner-minded investment [D01]. We simply do not know what the intrinsic value will look like when—or if—the current turnaround concludes [D01].\n\nThere is no margin of safety here. The market is currently reacting to severe financial deterioration, and we see no reason to participate in a capital-intensive situation where the risk of permanent capital impairment is significant [D01], [D05]. We prefer to keep our cash in T-bills or look for opportunities where the economics are near-certain [D08].\n\nUltimately, Charlie and I look for businesses we can understand and trust for the long haul. This situation requires us to bet on a complex manufacturing recovery that remains unproven [D01]. We will pass and continue to wait for an opportunity that offers a more reliable path to value creation.",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

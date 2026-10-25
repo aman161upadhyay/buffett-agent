@@ -1,0 +1,57 @@
+{
+ "pack": "2024_cash_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "hedge",
+ "as_of_date": "2024-11-02",
+ "stages": {},
+ "final": {
+  "as_of_date": "2024-11-02",
+  "trailing_earnings_yield_pct": 3.51,
+  "normalised_earnings_yield_pct": 3.51,
+  "normalisation_basis": "trailing (no distortion)",
+  "long_bond_yield_pct": 4.37,
+  "spread_points": "-0.86",
+  "drawdown_from_high_pct": 2.32,
+  "panic_indicators": [
+   "VIX at 21.88 [D04]",
+   "modest retreat from recent high [D06]"
+  ],
+  "rule_decision": "SELECTIVE",
+  "decision": "HOLD_CASH",
+  "override_reason": "With S&P earnings yields (3.51%) below long-term Treasury yields (4.37%) and record cash levels [D02, D04], the opportunity set does not provide a margin of safety for broad deployment, mandating a patient approach consistent with the HOLD_CASH posture [D04, D08].",
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "Equity earnings yield (3.51%) is less than the 10-year Treasury yield (4.37%) [D04].",
+  "valuation_level": "S&P 500 trading at ~28.45x earnings, representing an expensive valuation relative to risk-free alternatives [D04].",
+  "ideas_that_qualify": [
+   "none identified in pack [D07]"
+  ],
+  "berkshire_action": "Maintain high liquidity in short-term instruments, continue disciplined capital preservation, and restrict repurchases to levels below intrinsic value [D01, D04, D08].",
+  "drivers": [
+   {
+    "driver": "Equity earnings yields remain structurally unattractive compared to nominal risk-free Treasury yields.",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The lack of scalable, wonderful businesses at prices offering a sufficient margin of safety limits deployment.",
+    "citations": [
+     "D01",
+     "D08"
+    ]
+   },
+   {
+    "driver": "Large cash and bill holdings preserve liquidity for future opportunistic investment without forecasting a market decline.",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   }
+  ],
+  "memo": "Charlie and I have always maintained that we do not forecast the market; we simply evaluate whether prices in general offer a margin of safety that justifies our capital [D01]. Today, with the 10-year Treasury yielding 4.37% and the S&P 500 earnings yield at roughly 3.51%, equities are not particularly cheap relative to risk-free nominal claims [D04]. While a 2.32% drawdown from recent highs is a trivial event, it does not suggest the sort of widespread pessimism or crisis pricing that would tempt us to move aggressively [D04, D06].\n\nWe continue to hold a significant cash position, which serves as a necessary buffer for our insurance operations and a reservoir for whenever Mr. Market eventually offers us a wonderful business at a fair price [D01, D08]. We feel no institutional imperative to force a purchase simply because our cash balance has grown; indeed, we would rather wait years for a high-conviction idea than risk permanent loss of capital on mediocre assets at excessive valuations [D04, D05]. Our focus remains on the durability of the businesses we own and the patience required to deploy our capital only when the math is clearly in our favor [D01, D06].",
+  "uncited_claims": []
+ }
+}

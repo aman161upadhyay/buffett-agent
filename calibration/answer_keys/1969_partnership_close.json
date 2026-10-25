@@ -1,0 +1,44 @@
+{
+  "id": "1969_partnership_close",
+  "actual_decision": "SELL_DOWN",
+  "conviction": "high",
+  "size_pct_nav": "Orderly Partnership wind-down; not immediate disposal of all controlled businesses",
+  "first_action_date": "1969-05-29",
+  "disclosure_date": "1969-05-29",
+  "reason_class": "S2",
+  "opportunity_template": [
+    "B8"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "size_basis": "partnership",
+  "drivers": [
+    {
+      "driver": "Quantitative opportunities had largely disappeared at the capital scale now required.",
+      "source": "https://focusedcompounding.com/wp-content/uploads/2018/04/Complete_Buffett_partnership_letters-1957-70.pdf (1969-05-29; contemporary)",
+      "quote": null
+    },
+    {
+      "driver": "Buffett would not play an unfamiliar speculative game merely to preserve his record.",
+      "source": "https://focusedcompounding.com/wp-content/uploads/2018/04/Complete_Buffett_partnership_letters-1957-70.pdf (1969-05-29; contemporary)",
+      "quote": "I am not attuned to this market environment and I don't want to spoil a decent record by trying to play a game I don't understand just so I can go out a hero."
+    },
+    {
+      "driver": "The attempt to reduce effort without stopping had failed.",
+      "source": "https://focusedcompounding.com/wp-content/uploads/2018/04/Complete_Buffett_partnership_letters-1957-70.pdf (1969-05-29; contemporary)",
+      "quote": "The only way to slow down is to stop."
+    },
+    {
+      "driver": "He refused to grope for luck with partners' money.",
+      "source": "https://focusedcompounding.com/wp-content/uploads/2018/04/Complete_Buffett_partnership_letters-1957-70.pdf (1969-05-29; contemporary)",
+      "quote": "I have no desire to grope around, hoping to 'get lucky' with other people's money."
+    }
+  ],
+  "entry_valuation_stated": "Scarcity of quantitative opportunities at ~$100 million scale, not a Dow price target.",
+  "outcome_note": "Orderly liquidation and distributions with residual controlled holdings and workout obligations; not a market short.",
+  "sources": [
+    "https://focusedcompounding.com/wp-content/uploads/2018/04/Complete_Buffett_partnership_letters-1957-70.pdf (1969-05-29; contemporary)",
+    "Buffett Partnership correspondence through May 29, 1969; factual opportunity-set reconstruction with the day's disposition and instructions withheld; https://focusedcompounding.com/wp-content/uploads/2018/04/Complete_Buffett_partnership_letters-1957-70.pdf"
+  ],
+  "pack_quality_notes": "Same-day decision paragraph withheld; pre-decision facts reconstructed from the letter. Personal retirement utility matters, so grading as pure macro timing is inappropriate. Exact cash and security values unrecovered."
+}

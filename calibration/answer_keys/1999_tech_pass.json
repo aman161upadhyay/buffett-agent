@@ -1,0 +1,39 @@
+{
+  "id": "1999_tech_pass",
+  "actual_decision": "PASS",
+  "conviction": "high",
+  "size_pct_nav": "0; no Berkshire Microsoft position documented in the review window",
+  "first_action_date": null,
+  "disclosure_date": "1998-07-20",
+  "reason_class": null,
+  "opportunity_template": [],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "Buffett did not understand Microsoft's business well enough to underwrite it despite admiring its success.",
+      "source": "https://eikon.moom.cn/portal/zh/kb/articles/1998-07-20-buffett-and-gates-talk-to-students-at-university-of-washington (1998-07-20; contemporary)",
+      "quote": "I don't worry about not buying Microsoft, though, because I didn't understand that business."
+    },
+    {
+      "driver": "The relevant skill is identifying predictable economics, not benefiting from every successful technology company.",
+      "source": "https://www.berkshirehathaway.com/letters/1996.html (1997-02-28; contemporary)",
+      "quote": null
+    },
+    {
+      "driver": "Avoiding technology forecasts outside his circle was discipline, not a negative prediction about the company's products.",
+      "source": "https://www.berkshirehathaway.com/letters/1997.html (1998-02-27; contemporary)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Strong financial control case; exact March 1 price/multiple unrecovered. PASS reason is outside circle, not proof that shares were overvalued.",
+  "outcome_note": "Documented refusal, not a silently inferred nonholding. Later friendship/conflict explanations must not replace the pre-cutoff circle-of-competence explanation. The July 1998 conversation also discloses Buffett's personal 100-share tracking purchase; this is a Berkshire deployment PASS, not a claim that Buffett personally never owned one share.",
+  "sources": [
+    "https://eikon.moom.cn/portal/zh/kb/articles/1998-07-20-buffett-and-gates-talk-to-students-at-university-of-washington (1998-07-20; contemporary)",
+    "https://www.berkshirehathaway.com/letters/1996.html (1997-02-28; contemporary)",
+    "https://www.berkshirehathaway.com/letters/1997.html (1998-02-27; contemporary)",
+    "Microsoft fiscal 1998 annual financial highlights, https://www.microsoft.com/investor/reports/ar98/fins.htm ; January 19, 1999 earnings announcement; pre-cutoff antitrust proceedings; https://news.microsoft.com/source/1999/01/19/microsoft-announces-record-quarterly-revenue-and-income-3; fund reference https://www.berkshirehathaway.com/letters/1998htm.html"
+  ],
+  "pack_quality_notes": "Pre-cutoff refusal verified in full dated transcript mirror of Fortune's 'The Bill & Warren Show', July 20, 1998 (original archive https://money.cnn.com/magazines/fortune/fortune_archive/1998/07/20/245683/). The same conversation mentions a personal 100-share tracking purchase, explicitly not Berkshire portfolio ownership. No complete historical 13F archive recovered; annual major-holdings evidence plus the refusal supports the window control, not an all-time exhaustive negative. March quote missing."
+}

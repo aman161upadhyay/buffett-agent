@@ -1,0 +1,252 @@
+{
+ "pack": "ctl_2008_lehman_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2008-03-28",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a financial franchise combining fixed-income intermediation, equity execution, underwriting, mergers advice, and asset management [D01]. Its productive assets consist of client relationships, distribution networks, and specialist trading personnel [D01].",
+   "products_customers_and_why_they_buy": [
+    "Fixed-income intermediation, equity execution, underwriting, mergers advice, and asset management services [D01].",
+    "Institutional and client-based relationships; $277 billion in client assets under management [D01]."
+   ],
+   "economics": [
+    "Pre-tax margin of 18.9% [D01].",
+    "Quarterly ROE of 8.6%, down from 24.4% a year earlier [D01].",
+    "Compensation expense absorbed 52.5% of net revenues [D01].",
+    "Owner-earnings inputs: negative mark-to-market adjustments were $1.8 billion; fixed income revenue fell 88% [D01]."
+   ],
+   "earnings_record": [
+    "Q1 net revenue of $3.5 billion (down 31%) [D01].",
+    "Q1 net income of $489 million (down 57%) [D01].",
+    "Diluted EPS of $0.81 versus $1.96 in the prior period [D01]."
+   ],
+   "competitive_position": [
+    "Competes for advisory, underwriting, and trading flows with peers such as Goldman Sachs, Morgan Stanley, and Merrill Lynch [D06].",
+    "Key productive assets are client relationships and specialized personnel [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Common book value of $39.45 per share; total stockholders' equity of $24.8 billion [D01].",
+    "Holding-company liquidity of $34 billion, with $64 billion of other unencumbered assets [D01].",
+    "Regulated entities hold $99 billion of unencumbered assets [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Not in pack."
+   ],
+   "price_and_valuation": [
+    "Price: $38.71 (as of March 27) [D02].",
+    "Market capitalization: $20.539 billion [D02].",
+    "Price to book: approximately 0.98 [D02].",
+    "Mechanical P/E: 11.95 based on annualized Q1 EPS [D02]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Liquidity shocks and loss of confidence [D05].",
+    "Talent departures and trading losses [D05].",
+    "Fixed-income revenue volatility (down 88%) [D05].",
+    "Quality of earnings impacted by hedge and debt-liability marks [D05].",
+    "Potential for assets to be non-saleable at carrying value during industry liquidation [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "February 29: first-quarter fiscal balance-sheet date [D07].",
+    "March 18: first-quarter results published [D07].",
+    "March 28: Citi upgrade released [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire has $44.329 billion in cash/cash equivalents and $74.999 billion in equity securities [D08].",
+    "Existing large financial exposures include American Express and Wells Fargo [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Management track record, normalized earnings estimates, specific maintenance-capex data for the financial segment, and current executable preferred security terms."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business relies on complex, volatile trading flows and is subject to systemic liquidity shocks that make long-term outcomes highly unpredictable [D01], [D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While client relationships exist [D01], the business operates in an intensely competitive environment where the primary assets—specialized personnel—are flighty and revenue volatility is extreme [D01], [D05], [D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company has shown significant recent deterioration, with Q1 net income down 57% and fixed income revenue falling 88% [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "Quarterly ROE has plummeted to 8.6% from 24.4% and the business model inherently relies on heavy leverage typical of investment banking [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is capital-intensive, requiring massive unencumbered assets to maintain market confidence and liquidity [D01], [D05]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Information regarding management's track record and capital allocation philosophy is not in pack [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of approximately $20.5 billion, the company is large enough to be meaningful for Berkshire [D02]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "While trading near book value, the volatility of owner earnings and potential for assets to be non-saleable make a reliable 10% earnings yield calculation impossible [D01], [D02], [D05]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 4,
+   "n_unsure": 3,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a volatile financial intermediary subject to liquidity risks with deteriorating earnings and high capital requirements"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is fearful of systemic liquidity shocks and the potential for a catastrophic loss of confidence in a highly leveraged financial intermediary [D05]. We cannot refute the possibility that the company's assets are significantly impaired or non-saleable during a industry-wide liquidation, making the intrinsic value impossible to determine [D01], [D05].",
+   "evidence": [
+    "Quarterly ROE has plummeted from 24.4% to 8.6% [D01].",
+    "Fixed income revenue fell 88% [D01].",
+    "The business model relies on heavy leverage and volatile trading flows [D01]."
+   ],
+   "market_narrative_we_disagree_with": "The market views this as a temporary valuation dip near book value; however, we lack confidence in the durability of the franchise or the quality of the balance sheet in a crisis [D01], [D02].",
+   "what_must_be_true": [
+    "The company's liquidity must remain sufficient to survive the current market environment.",
+    "The underlying assets must be worth at least their carrying value.",
+    "The management team must possess the capability to navigate extreme revenue volatility."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "market_stance",
+   "owner_earnings_per_share": "Not calculable due to volatile earnings and missing normalized maintenance-capex [D01]",
+   "initial_pretax_yield_pct": 8,
+   "intrinsic_value_range": {
+    "low": "Not determinable",
+    "high": "Not determinable",
+    "key_assumptions": [
+     "Market conditions preclude reliable valuation of distressed financial assets [D01]",
+     "Ability to survive liquidity shock [D05]"
+    ],
+    "discount_rate_used": "Assumed 10% risk premium over T-bills"
+   },
+   "price_vs_value": "Price to book 0.98 [D02]; intrinsic value indeterminate due to asset quality uncertainty [D01]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": -100,
+    "bull": 15
+   },
+   "alternatives": "T-bills / existing high-quality financial holdings; liquidity in T-bills is superior to taking risk on a leveraged financial intermediary with opaque balance sheet issues [D08]",
+   "downside_case": "Permanent loss of capital if leverage forces asset liquidation at fire-sale prices [D01], [D05]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Earnings normalization is impossible given the extreme volatility in fixed-income revenue [D01]",
+    "Assumed intrinsic value cannot be calculated due to the potential for systemic impairment of assets [D01]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We act as a permanent, passive holder of businesses that meet our criteria for durability and economic predictability [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realized through the long-term compounding of the business's intrinsic value and rational capital allocation by management [D01]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000-2015 era, our standard approach for marketable securities is to remain patient, permanent owners, avoiding the operational complexities of control positions unless the business meets our strict investment criteria [D01]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Systemic liquidity shock leads to a run on the firm",
+    "Forced liquidation of assets at fire-sale prices causing permanent loss of capital [D01], [D05]",
+    "Loss of key personnel resulting in the erosion of the client franchise [D01]",
+    "Regulator forces an unfavorable restructuring or capital raise [D05]"
+   ],
+   "berkshire_constraints": "Must maintain strong liquidity and avoid capital allocation that jeopardizes Berkshire's credit rating or regulatory standing; must remain within ownership limits for financial institutions [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better preserved in T-bills or deployed into established, durable financial franchises with predictable earnings like American Express or Wells Fargo [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The investment does not meet the criteria for a durable competitive advantage and the intrinsic value is indeterminate due to extreme balance sheet opacity.",
+   "biggest_risk_in_one_sentence": "The primary risk is a systemic loss of confidence in a highly leveraged financial intermediary, rendering the firm's assets non-saleable and leading to a permanent loss of capital [D01], [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2008-03-28",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Not calculable due to volatile earnings and missing normalized maintenance-capex [D01]",
+   "initial_pretax_yield_pct": 8,
+   "intrinsic_value_range": "Not determinable due to asset quality uncertainty [D01]",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital if leverage forces asset liquidation at fire-sale prices [D01], [D05]"
+  },
+  "drivers": [
+   {
+    "driver": "The business relies on volatile trading flows and is subject to systemic liquidity risks that make long-term outcomes unpredictable [D01], [D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The company's reliance on heavy leverage and capital-intensive assets creates significant potential for permanent loss of capital in a crisis [D01], [D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Earnings have deteriorated sharply, with quarterly net income down 57% and fixed income revenue falling 88% [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The intrinsic value is indeterminate because we cannot verify the carrying value of assets in an industry-wide liquidation [D01], [D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Systemic liquidity shock leads to a run on the firm",
+   "Forced liquidation of assets at fire-sale prices causing permanent loss of capital [D01], [D05]",
+   "Loss of key personnel resulting in the erosion of the client franchise [D01]",
+   "Regulator forces an unfavorable restructuring or capital raise [D05]"
+  ],
+  "what_would_change_our_mind": "A demonstration of stable, long-term earnings power, a reduction in balance sheet leverage, and clear evidence of an enduring competitive moat that survives severe market stress.",
+  "memo": "We have reviewed the business, which acts as a financial intermediary across fixed-income, equity, and advisory services [D01]. While the company possesses significant client assets, its reliance on complex trading flows makes its long-term results highly unpredictable [D01], [D05].\n\nWe look for durable competitive advantages and predictable returns on capital [D01]. Here, we see a business model burdened by heavy leverage and revenue volatility, evidenced by a 57% decline in quarterly net income and an 88% drop in fixed income revenue [D01]. Such a business is inherently sensitive to systemic liquidity shocks [D01], [D05].\n\nThe market’s focus on book value overlooks the fragility of the balance sheet [D01], [D02]. Without confidence in the underlying asset quality during a market crisis, intrinsic value remains impossible to determine [D01], [D05]. We prefer to keep our cash in T-bills or deploy it into high-quality, durable franchises with predictable earnings [D08].\n\nOur investment policy is to avoid situations where a permanent loss of capital is possible due to external systemic risks [D01], [D05]. We do not speculate on liquidity-dependent intermediaries [D01]. Consequently, we have placed this opportunity in our \"too hard\" pile and will look elsewhere for value [D01].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

@@ -1,0 +1,17 @@
+Title: Quarterly observations before a separate control decision
+Source: https://www.oxy.com/news/news-releases/occidental-announces-2nd-quarter-2025-results ; https://www.oxy.com/siteassets/documents/investors/quarterly-earnings/oxy2q25transcript.pdf ; https://www.oxy.com/siteassets/documents/news-releases/pr-080223_occidental-announces-2nd-quarter-2023-results.pdf ; https://www.oxy.com/news/news-releases/occidental-announces-1st-quarter-2024-results
+Date: 2025-10-01
+
+August 2, 2023: Occidental reports OxyChem quarterly pre-tax income of $436 million. May 7, 2024: the next recovered historical observation is $260 million for that year's first quarter. August 6, 2025: current second-quarter pre-tax income is $213 million with offsetting inventory and export-demand effects. August 7: the earnings call discusses prospective capital-spending reductions. October 1 is the assessment boundary, not a publication date for a new chemical result. [1-4]
+
+The chronology establishes that the business is operating and profitable, with cyclical results and a changing investment program. It establishes neither an available purchase price nor a publicly agreed transfer of control. Confidential negotiations are outside the analyst's evidence set. A segment inside an already familiar parent can be a plausible business to investigate, but that familiarity should not be mistaken for knowledge of all stand-alone liabilities. No closing date, management-retention arrangement or environmental indemnity is included because none is available in the cited pre-cutoff documents.
+
+Evidence ledger: Occidental's August 6 release reports OxyChem second-quarter pre-tax income of $213 million. Excluding comparability items, income was relatively unchanged sequentially; negative inventory adjustments were offset by improved export demand for caustic soda and PVC. Earlier releases report OxyChem pre-tax income of $436 million in the second quarter of 2023 and $260 million in the first quarter of 2024. These are different quarters, not an annualized normalized earnings record. For the parent as a whole, second-quarter operating cash flow was $3.0 billion and capital spending $2.0 billion; those figures must not be assigned to the chemicals segment. The August earnings call discusses about $300 million lower OxyChem spending in the following year. No stand-alone acquisition agreement or price is publicly established in this dated source set. [1-4]
+
+Timing discipline: the chronology separates publication dates from the economic periods discussed. A result for an earlier quarter only becomes an input when released. The market close is an observation available on the stated assessment date, not evidence of a particular investor's execution. This timeline includes no presumed private conversations or unannounced agreement. There is no catalyst completion forecast here: the analyst must decide whether the available business evidence is sufficient without relying on a future disclosure to reveal someone else's decision.
+
+Sources and publication dates:
+[1] https://www.oxy.com/news/news-releases/occidental-announces-2nd-quarter-2025-results (published 2025-08-06)
+[2] https://www.oxy.com/siteassets/documents/investors/quarterly-earnings/oxy2q25transcript.pdf (published 2025-08-07)
+[3] https://www.oxy.com/siteassets/documents/news-releases/pr-080223_occidental-announces-2nd-quarter-2023-results.pdf (published 2023-08-02)
+[4] https://www.oxy.com/news/news-releases/occidental-announces-1st-quarter-2024-results (published 2024-05-07)

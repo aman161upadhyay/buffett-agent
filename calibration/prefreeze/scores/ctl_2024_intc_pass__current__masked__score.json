@@ -1,0 +1,62 @@
+{
+ "trade_id": "ctl_2024_intc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned in the tested 2024 window per parent 13F history; no public comment explaining the 2024 nonpurchase. Prior 2011 purchase means a timeless outside-tech prohibition would be a false key.",
+   "Corrected requested 'never bought': Berkshire DID own Intel in 2011–Q1 2012, exited Q2 2012. No Intel holding in 2024 Q1/Q2/Q3/Q4 parent filings or later census through Q2 2026. Retain as a 2024 nonpurchase/re-entry control, not a lifetime nonownership control.",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements; do not award reasoning-overlap credit for treating them as quotations."
+  ],
+  "extra_agent_drivers": [
+   "The business lacks a durable moat, facing intense competition while requiring massive, non-discretionary capital expenditures",
+   "Operating results are poor, characterized by GAAP losses and razor-thin adjusted margins that fail to provide a margin of safety",
+   "The company is undergoing a difficult turnaround, which falls outside our circle of competence and violates our principle of avoiding speculative situations",
+   "The dividend suspension and high capex intensity signal significant financial strain, making cash or T-bills a far superior alternative"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company is currently struggling through a turnaround in an industry characterized by rapid technological change, which makes future results highly unpredictable",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Unlike the businesses we prefer to own, this company requires massive, constant capital reinvestment—often exceeding $25 billion annually",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management is currently attempting to right-size the business through headcount reductions and cost-cutting",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "At present, the GAAP net loss and the suspension of the dividend provide a clear signal that the business is facing significant financial pressure",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We find no reason to deploy Berkshire's capital into such an environment when we can hold T-bills that provide a safe, certain return",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 8,
+  "share": 0.89
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We find no reason to deploy Berkshire's capital into such an environment when we can hold T-bills that provide a safe, certain return while we wait for more attractive opportunities [D08].",
+ "grader_notes": "The agent reached the correct PASS decision but relied entirely on an analyst-reconstructed fundamental bear case. The answer key specifies that these fundamental objections are not authentic Buffett statements and that the decision should be grounded in the historical non-ownership/non-purchase evidence within the tested window.",
+ "run": "ctl_2024_intc_pass__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

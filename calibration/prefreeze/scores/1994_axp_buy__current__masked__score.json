@@ -1,0 +1,50 @@
+{
+ "trade_id": "1994_axp_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Long experience with the company and products helped evaluate business quality → We have long understood the economics of this model, which relies on trust, scale, and the utility of a global service promise"
+  ],
+  "missed": [
+   "Berkshire enlarged a familiar franchise investment rather than repeating the original salad-oil trade.",
+   "Common ownership offered continuing business participation distinct from the preferred's contractual economics."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value",
+   "Premier travel-payments franchise",
+   "Management refocusing on core business",
+   "High capital efficiency"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company operates a premier travel-payments franchise",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Return on equity achieved in Q2 1994 of 23.8%",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 11,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have long understood the economics of this model, which relies on trust, scale, and the utility of a global service promise [D01].",
+ "grader_notes": "The agent correctly identified the BUY direction and Buffett's familiarity with the franchise. However, it failed to reference the specific Berkshire-related drivers (enlarging existing holdings and the transition from preferred to common ownership), focusing instead on generic valuation and operating metrics. The state is marked PARTIAL due to the direction match but the failure to capture the majority of Buffett's qualitative drivers.",
+ "run": "1994_axp_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

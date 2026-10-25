@@ -1,0 +1,15 @@
+Title: American Express — Investor's capital and constraints
+Source: American Express pre-cutoff corporate and operating reconstruction; Berkshire preferred contract in https://www.berkshirehathaway.com/letters/1991.html ; prior holdings in https://www.berkshirehathaway.com/letters/1993.html
+Date: 1994-08-01
+
+## Cutoff evidence — reconstructed
+
+The investor is Berkshire, not the old Buffett Partnership. Berkshire already has American Express preferred or related common exposure, giving it relevant experience of both the issuer and the security structure. A common-stock proposal still requires fresh assessment of price and continuing business economics. Current cash and the complete equity denominator were not recovered. Long-standing familiarity can assist assessment of the franchise, while concentration, taxes and conversion terms affect implementation. The nominal preferred principal is not the market value of new common at the cutoff. Existing exposure also raises the opportunity cost of increasing one business rather than diversifying into another sound franchise. No actual new shares or intended ownership percentage is supplied.
+
+## Economic reading of the supplied facts
+
+Industry economics: travel payments combine service charges with funds held between receipt and settlement. Customer confidence and merchant acceptance matter because the product is a promise to pay, not just a piece of paper or plastic. More activity can expand fee income and balances, but neither is free capital if redemption, settlement or credit obligations grow with it. Competitive pressure can appear in merchant charges, cardholder benefits and the cost of funding. A loss in a separate activity must be assessed both as a direct financial claim and as a possible threat to trust in the continuing payments service. This is an economic interpretation of the business described in the cited sources, not a quantified forecast.
+
+Capital-allocation interpretation: a portfolio allocation must fit the legal entity that supplies the money. An insurance subsidiary's invested assets are not all cash available for an acquisition. Premiums collected before claims are paid provide investment funds but also create obligations. Consolidated equity, publicly traded holdings, cash and insurance float are different denominators.
+
+No target weight follows mechanically from the fund-size reference. Available cash at this exact cutoff, where unrecovered, remains unknown rather than being equated with the reference figure. Existing concentrated holdings create opportunity costs; selling them may incur tax and surrender durable earning power. A commitment involving stock also transfers a continuing fraction of the buyer's future economics. The investor has no obligation to purchase simply to remain fully invested. Conversely, waiting has a cost when a sound business is offered below conservative value. This context describes available choices and constraints without specifying an allocation or revealing a decision.

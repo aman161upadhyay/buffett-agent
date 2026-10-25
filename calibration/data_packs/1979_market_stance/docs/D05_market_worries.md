@@ -1,0 +1,15 @@
+Title: US equity market — Contemporaneous problem and adverse case
+Source: Forbes, August 6, 1979, numerical market comparison without recommendation; https://www.forbes.com/2008/11/08/buffett-forbes-article-markets-cx_pm-1107stocks.html ; Berkshire letter March 26, 1979, https://www.berkshirehathaway.com/letters/1978.html
+Date: 1979-08-06
+
+## Cutoff evidence — reconstructed
+
+The two major objections described in the article are overstated earnings under historical-cost accounting and uncertainty about the near future. Inflation may require replacement of assets at costs well above depreciation charges. Aggregate returns on equity may also decline, and end-period valuation can remain depressed. A 9.5% contractual bond coupon appears more definite than a fluctuating equity return, though it has purchasing-power and reinvestment risks. There is always the possibility that shares become still cheaper. These are substantive objections; the pack does not dismiss them as stupidity or assume inflation is about to improve. No guaranteed twenty-year return or low-probability loss estimate is supplied.
+
+## Economic reading of the supplied facts
+
+Portfolio economics: aggregate stock ownership is a claim on business earnings, not a claim on the path of a market index. Dividends distribute part of those earnings; retained earnings add value only if employed productively. Interest rates affect the present value of both equities and bonds. An investor who sells one financial asset must still decide what to hold instead. Cash avoids duration and business risk but is exposed to inflation and the opportunity cost of missed investments. Market averages can obscure large differences among individual businesses. Comparing aggregate prices with book value or profits is a valuation exercise, not a mechanism for forecasting next month's quotation. The financial comparisons below are conditional on earnings durability and the stated measurement dates.
+
+Adverse-case interpretation: a falling quotation is not itself evidence that a problem is temporary. The economically important loss is an impairment of future cash generation or a financing obligation that existing owners cannot meet. A patient investor can endure a lower stock price, but patience does not repair a destroyed franchise.
+
+The risks described here should be tested before assuming a return to ordinary margins. A capable manager may improve execution without being able to change the industry's economics. A security senior to common stock can still be junior to creditors and can still suffer interruption of its payments. Likewise, apparent balance-sheet strength may depend on estimates whose errors emerge only slowly. No probability is assigned to a disaster without evidence. These concerns are an analyst's reconstruction of the adverse argument from the identified business conditions, not an invented quotation from a named contemporary critic. Original bearish research, where unavailable, is explicitly not represented as recovered.

@@ -1,0 +1,261 @@
+{
+ "pack": "ctl_2022_meta_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2022-11-04",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The company operates global social and messaging networks monetized primarily through advertising, alongside a loss-making virtual/augmented-reality hardware and software segment [D01]. Its fundamental business model relies on maintaining repeated user attention to match advertisers with specific audiences [D01].",
+   "products_customers_and_why_they_buy": [
+    "Social and messaging networks monetized through advertising [D01]",
+    "Virtual/augmented-reality hardware and software [D01]",
+    "Customers include advertisers seeking to reach billions of users [D01]"
+   ],
+   "economics": [
+    "Operating margin declined from 36% to 20% in the third quarter of 2022 [D01]",
+    "High capital intensity with projected 2023 capex of $34–39 billion [D01]",
+    "Significant investment in new-platform development currently generating losses [D05]",
+    "Pricing power is pressured, with average price per ad falling 18% despite 17% growth in impressions [D01]"
+   ],
+   "earnings_record": [
+    "Q3 2022 revenue: $27.714 billion (down 4% YoY) [D01]",
+    "Q3 2022 operating income: $5.664 billion (down 46% YoY) [D01]",
+    "Q3 2022 net income: $4.395 billion (down 52% YoY) [D01]",
+    "Q3 2022 diluted EPS: $1.64 (down 49% YoY) [D01]"
+   ],
+   "competitive_position": [
+    "Large user base with 2.96 billion monthly active users on the primary platform and 3.71 billion across the family of apps [D01]",
+    "Competes with Alphabet, Snap, and TikTok for advertising time and attention [D06]",
+    "Subject to influence from mobile operating systems (Apple) regarding targeting and distribution [D06]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Cash and marketable securities: $41.78 billion [D01]",
+    "Long-term debt: $9.92 billion [D01]",
+    "High capital requirements with 2023 expense guidance of $96–101 billion [D01]"
+   ],
+   "management_and_capital_allocation": [
+    "Founder-controlled entity with minority owners lacking ability to stop long-duration spending [D05]",
+    "Aggressive share repurchases, with $6.55 billion consumed in the quarter [D01]",
+    "Rapid headcount growth (28% increase to 87,314) [D01]"
+   ],
+   "price_and_valuation": [
+    "November 4, 2022 close: $90.79 [D02]",
+    "Approximate trailing reported P/E: 8.68x based on $10.46 TTM EPS [D02]",
+    "Annualized quarterly EPS (current) implies a P/E of approximately 13.84x [D02]"
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "No owner-earnings yield provided; pack notes current P/E approximations of 8.68x (TTM) and 13.84x (annualized Q3) [D02, D04]"
+   },
+   "what_the_market_is_worried_about": [
+    "High and growing capital expenditure and operating expenses [D05]",
+    "Loss-making investments in new platforms [D05]",
+    "Pressure on advertising pricing and volume [D05]",
+    "Competitive shifts and targeting changes affecting ad measurement [D05]"
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2022-10-26: Q3 2022 results and forward spending guidance published [D01, D07]"
+   ],
+   "berkshire_context": [
+    "Berkshire cash/Treasury balance (as of H1 2022 report) was approx. $105.4 billion [D08]",
+    "Position not held by Berkshire in current portfolio disclosures [D08]"
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Standardized owner earnings, maintenance capex requirements, and long-term debt maturity schedule."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business is undergoing significant, unpredictable shifts in platform technology and competitive dynamics that make its 10-20 year outlook highly uncertain [D05, D06]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "Pricing power is currently pressured, evidenced by an 18% decline in average price per ad, and the business is vulnerable to external platform changes beyond its control [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "Earnings have deteriorated significantly, with Q3 2022 net income down 52% year-over-year [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "While debt levels appear low at $9.92 billion relative to cash, the sharp decline in operating margins and profitability makes evaluating the underlying ROE of the core franchise difficult [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business model is increasingly capital-intensive, with projected 2023 capex of $34–39 billion and high operating expense guidance [D01, D05]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "FAIL",
+     "evidence": "The founder-controlled structure and current focus on massive long-duration spending on unproven platforms despite declining core profitability conflicts with an owner-minded capital allocation approach [D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a large market presence, the company is of sufficient scale to be meaningful for Berkshire [D01]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "Without a clear calculation of owner earnings or maintenance capex, the earnings yield remains speculative given the high, discretionary nature of current spending [D02, D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 5,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a business facing structural disruption with a declining competitive position and deteriorating economics"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is reacting to a sharp decline in profitability and a massive, unproven pivot toward heavy capital investment that disrupts the core business's economics [D01, D05]. As Buffett, I see no reason to expect a bargain because the fundamental competitive position is being eroded by platform dependence and intense competition [D06]. There is no clear margin of safety when earnings power is deteriorating and management's capital allocation is prioritized toward high-risk, long-duration projects rather than protecting the core [D01, D05].",
+   "evidence": [
+    "Operating margin declined from 36% to 20% in Q3 2022 [D01]",
+    "Projected 2023 capex of $34–39 billion amid declining core profitability [D01, D05]",
+    "Pricing power is pressured with average price per ad down 18% [D01]",
+    "Vulnerability to external platform changes beyond management's control [D06]"
+   ],
+   "market_narrative_we_disagree_with": "The market may perceive the low trailing P/E as a value opportunity, but this ignores the high probability that current reported earnings overstate the long-term sustainable owner earnings due to the structural changes in the business and aggressive, non-discretionary spending [D01, D02, D05].",
+   "what_must_be_true": [
+    "The core advertising business must stabilize its market share against competitors like TikTok [D06]",
+    "Management must demonstrate a pivot back to disciplined capital allocation that prioritizes owner earnings [D05]",
+    "The competitive impact of platform-level targeting changes must be fully reflected in the cost structure"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "Not in pack; annualized Q3 2022 EPS is $6.56 [D01, D02]",
+   "initial_pretax_yield_pct": 7,
+   "intrinsic_value_range": {
+    "low": "Not in pack",
+    "high": "Not in pack",
+    "key_assumptions": [
+     "Core advertising business stabilizes [D06]",
+     "Capex returns to normalized levels [D01, D05]"
+    ],
+    "discount_rate_used": "Not in pack; assumption required"
+   },
+   "price_vs_value": "Indeterminate; margin of safety absent due to structural disruption [D06]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "T-bills / existing holdings / Berkshire buyback; these offer known or more predictable returns than a business facing structural competitive decline [D01, D05, D06]",
+   "downside_case": "Permanent loss of competitive position; investment in Metaverse yields no economic return [D05, D06]",
+   "valuation_verdict": "PASS",
+   "flagged_assumptions": [
+    "No standardized owner earnings data in pack",
+    "Long bond rate for discount calculation not provided in pack",
+    "Maintenance capex vs growth capex allocation not defined"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Permanent passive holder. We do not seek to control or influence the board; we look for companies that can compound value over the long term through rational capital allocation [D05]. If we own it, we do so as an investment in the business's future earnings power [D05].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realized through the business compounding its intrinsic value over time [D05].",
+    "In this case, the lack of a clear margin of safety and the presence of structural disruption make the path to value realization too uncertain [D06]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "Since 1980, our standard approach for marketable securities is to act as a permanent, passive owner, allowing the business's internal capital allocation to drive returns. This role is inappropriate here because the business fails our fundamental tests for quality and predictability [D05, D06]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "The advertising business loses significant market share to competitors like TikTok",
+    "Management continues prioritizing massive capital allocation toward unproven platforms while core profitability deteriorates",
+    "Regulatory or platform-level changes permanently impair ad targeting capabilities"
+   ],
+   "berkshire_constraints": "Must maintain substantial cash floor; position size must respect ability to accumulate without adverse market impact [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "T-bills, repurchasing Berkshire stock, or adding to more predictable, high-moat existing holdings.",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business faces structural disruption and management-led capital allocation risks that disqualify it from our investment criteria regardless of its large market scale.",
+   "biggest_risk_in_one_sentence": "A deteriorating competitive position combined with management's commitment to high-risk, non-core capital expenditures creates the potential for permanent loss of capital."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-11-04",
+  "company": "the Company (XXX)",
+  "ticker": "META",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Not in pack",
+   "initial_pretax_yield_pct": 7,
+   "intrinsic_value_range": "Not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of competitive position; investment in Metaverse yields no economic return [D05, D06]"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the market prices the company at a trailing P/E of approximately 8.68x, yet the absence of reliable owner earnings and the structural decline in operating margins from 36% to 20% make this an inadequate measure of value [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The business faces a significant erosion of its core moat, evidenced by an 18% decline in average price per ad and increased vulnerability to platform-level changes [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The capital-intensive pivot toward speculative, loss-making platform development, with projected 2023 capex of $34–39 billion, signals a departure from disciplined, owner-minded capital allocation [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Earnings are deteriorating rapidly, with Q3 2022 net income falling 52% year-over-year, leaving us with no confidence in the sustainability of current profit levels [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "The advertising business loses significant market share to competitors like TikTok",
+   "Management continues prioritizing massive capital allocation toward unproven platforms while core profitability deteriorates",
+   "Regulatory or platform-level changes permanently impair ad targeting capabilities"
+  ],
+  "what_would_change_our_mind": "The core advertising business must stabilize its market share against competitors, and management must demonstrate a pivot back to disciplined capital allocation that prioritizes owner earnings over speculative, long-duration spending.",
+  "memo": "We have examined the company and concluded it does not meet our requirements for a permanent investment. The business operates social and messaging networks that rely on maintaining user attention to generate advertising revenue, a model that has historically provided strong returns [D01]. However, the economic reality has shifted, with operating margins contracting from 36% to 20% in the most recent quarter [D01].\n\nOur assessment of the moat is clouded by structural shifts in the advertising landscape and increasing dependence on external platform providers that dictate targeting capabilities [D06]. While the company maintains a large user base, the 18% decline in pricing power per ad highlights a diminishing competitive advantage against emerging rivals like TikTok [D01, D06].\n\nWe are particularly troubled by management's current capital allocation policy, which prioritizes massive, non-core spending over protecting the profitability of the existing franchise [D05]. The projected 2023 capital expenditures of $34–39 billion, coupled with ongoing losses in new-platform initiatives, suggest that the company's capital needs are expanding at a time when its underlying earnings power is in retreat [D01, D05].\n\nAs value investors, we require a clear margin of safety, but the current earnings yield is speculative given the discretionary and highly uncertain nature of management's massive long-duration investments [D02, D04, D05]. We prefer to allocate our capital to more predictable, high-moat businesses or hold cash, rather than participate in a situation where the core economics are being sacrificed to fund unproven ventures [D05, D06].",
+  "uncited_claims": []
+ }
+}

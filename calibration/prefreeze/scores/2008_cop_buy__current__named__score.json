@@ -1,0 +1,54 @@
+{
+ "trade_id": "2008_cop_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett alone favored the long-run oil and gas economics.",
+   "He still expected higher future oil prices in the post-mortem.",
+   "He acknowledged failure to anticipate the dramatic commodity-price decline."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value — the TTM earnings yield of 15.04% is attractive but the price must be weighed against the lack of a durable moat or predictable owner earnings [D01, D04].",
+   "The business lacks a discernible durable competitive advantage or pricing power independent of fluctuating commodity markets [D01].",
+   "The earnings record is highly cyclical and sensitive to commodity price swings rather than the steady compounding of a wonderful business [D02, D03].",
+   "The company is highly capital-intensive, which subjects shareholders to significant risk if commodity prices decline or capital allocation is not optimally managed [D01]."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business lacks a clear, durable moat [D01].",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company is highly capital-intensive, requiring substantial investment simply to maintain its production base [D01].",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Charlie and I prefer to hold cash or seek businesses with more predictable, non-cyclical economics [D08].",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 8,
+  "share": 0.8
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We do not engage in commodity speculation, and thus we have no edge here; we prefer to wait for opportunities where the permanence of the business is near-certain [D01].",
+ "grader_notes": "The agent reached a 'PASS' decision, which contradicts Buffett's actual 'BUY' decision, resulting in a direction MISS. The reasoning diverged completely; whereas the agent utilized a rigorous quality-business filter to justify passing, Buffett later admitted he bought based on his own idiosyncratic view on oil prices and acknowledged he was 'dead wrong'. There was zero overlap in the drivers cited by the agent and the post-mortem drivers provided in the key.",
+ "run": "2008_cop_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

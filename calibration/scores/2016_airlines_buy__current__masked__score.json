@@ -1,0 +1,54 @@
+{
+ "trade_id": "2016_airlines_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "The bet was an industry judgment across the four major carriers.",
+   "Consolidation and greater capacity discipline changed the industry's economics.",
+   "The 21st-century earnings outlook could differ from the poor 20th-century record."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value — yields cannot be normalized, and current valuations do not provide a clear margin of safety against intrinsic value [D04].",
+   "The industry is a commodity-like business with high fixed costs, perishable inventory, and a history of intense, unpredictable fare wars [D01, D08].",
+   "The business is highly capital-intensive, requiring massive, recurring investment for fleet and infrastructure with no guarantee of durable returns [D02, D05, D08].",
+   "Profitability remains volatile and cyclical, making it impossible to confidently project the sustainable earnings required for a Berkshire investment [D02, D06]."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The industry is defined by high fixed costs and the sale of a perishable commodity; once a plane takes off, any empty seat represents revenue lost forever [D01, D08].",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Valuation is also problematic. Current earnings are difficult to normalize due to accounting factors like tax valuation-allowance releases, and we cannot reliably project future owner earnings [D02, D04].",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Moreover, the business is extremely capital-intensive [D02].",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 4,
+  "share": 0.31
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "The airline industry is a business we have studied, and ultimately placed in our 'too hard' pile.",
+ "grader_notes": "The agent reached the exact opposite conclusion of Buffett, who identified a fundamental shift in industry economics through consolidation. The agent focused on traditional airline risks—commodity status, capital intensity, and cyclicality—which Buffett explicitly chose to look past in 2016.",
+ "run": "2016_airlines_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

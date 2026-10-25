@@ -1,0 +1,27 @@
+{
+  "id": "2007_petrochina_sell",
+  "company": "PetroChina Company Limited",
+  "ticker": "PTR / 0857.HK",
+  "aliases": [
+    "PetroChina Company Limited",
+    "PTR / 0857.HK",
+    "PetroChina",
+    "PTR",
+    "0857",
+    "0857.HK",
+    "857",
+    "CNPC",
+    "China National Petroleum Corporation",
+    "Daqing",
+    "Liaohe",
+    "Changqing",
+    "Tarim"
+  ],
+  "as_of_date": "2007-07-12",
+  "mode": "existing",
+  "era": "C",
+  "first_action_window": "Second half 2007; July 12 is requested replay anchor, not verified first execution",
+  "fund_aum_usd_bn": 43.7,
+  "decider": "Buffett",
+  "notes": "Exact first-sale day unresolved. $275 billion appraisal in the 2007 letter concerns the later sale window, not an authenticated July 12 quotation. October 18 interview reported October 19 supports valuation-only explanation. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated."
+}

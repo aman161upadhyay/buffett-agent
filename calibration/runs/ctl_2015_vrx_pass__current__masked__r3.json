@@ -1,0 +1,247 @@
+{
+ "pack": "ctl_2015_vrx_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2015-03-02",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The company owns branded pharmaceutical, dermatology and eye-care businesses and purchases additional products and distribution [D01]. It operates as a decentralized platform focusing on established medicines and consumer-health brands with disciplined overhead and selective development spending [D01].",
+   "products_customers_and_why_they_buy": [
+    "Branded pharmaceutical, dermatology and eye-care products; customers are provided a recognizable repeat-purchase consumer/medical franchise [D01]."
+   ],
+   "economics": [
+    "Management focuses on adjusted operating cash flow (reported as $624 million vs $607 million in Q4 2014) rather than GAAP metrics [D01, D02]. Returns and margins are influenced by acquisition-led growth and decentralized cost discipline; recurring cash flow after integration remains the primary variable to determine true owner earnings [D01].",
+    "Reported same-store organic sales growth was 16% for the quarter; full-year company organic growth was 11% [D01, D02]."
+   ],
+   "earnings_record": [
+    "Q4 2014 revenue was $2.3 billion, up 10% from $2.1 billion [D01]. Management cash EPS was $2.58 in Q4 2014 vs $2.15 in the prior period [D01]. Reported GAAP operating cash flow was $816 million in Q4 2014, including a $287 million transaction gain [D01]."
+   ],
+   "competitive_position": [
+    "The company competes by acquiring branded products with durable demand, utilizing a decentralized model [D01]. It does not prioritize laboratory discovery, opting instead to purchase existing products at sensible prices [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Year-end net debt reported as approximately $15.3 billion [D04]. Growth is funded through acquisition debt [D05, D06].",
+    "The firm requires recurring operating cash to pay down acquisition debt [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Strategy centers on rational capital allocation through decentralized ownership, reducing duplicative costs, and aggressive acquisition-led growth [D01]. Management cash EPS is emphasized over GAAP earnings [D01, D02]."
+   ],
+   "price_and_valuation": [
+    "Price at 2015-03-02 was US$203.35 [D04]. FY2014 diluted GAAP EPS was $2.67, resulting in a P/E of 76.2x [D04]. FY2014 management cash EPS was $8.34, resulting in an adjusted P/E of 24.4x [D04]. Approximate EV is $83.67bn [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "The pack does not provide standardized yield calculations; it cautions that cash EPS and adjusted operating cash flow are not substitutes for owner earnings [D02, D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Reliance on debt-funded acquisitions to replace internally developed assets [D05].",
+    "Exclusion of recurring integration and amortization costs from headline EPS [D05].",
+    "Potential for drug exclusivity loss and pricing pressure from payers [D05].",
+    "Inability to reconcile non-GAAP forward guidance to GAAP [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "February 23, 2015: Q4 2014 results and discussion of the Company acquisition proposal [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire reported $63.27 billion in cash and $117.47 billion in equity securities as of 2014 year-end [D08]. The company's decentralized model is noted as a proposition to test against Berkshire's own established operating companies [D08]."
+   ],
+   "document_conflicts": [
+    "None reported."
+   ],
+   "missing_data": [
+    "Independent owner-earnings estimate, maintenance capex split, and exact reconciliation of recurring cash earnings after integration."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business relies on a continuous stream of debt-funded acquisitions of existing products rather than internal product development, creating uncertainty regarding its long-term stability and underlying earnings power [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While it holds branded pharmaceutical and consumer-health products, its reliance on acquisition-led growth rather than organic competitive advantage makes it difficult to assess the durability of its pricing power [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company's earnings growth is driven by acquisitions and management-adjusted metrics that exclude significant integration and amortization costs, preventing a clear view of the underlying earnings record [D01, D02, D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company carries significant debt to fund its acquisition strategy, which is the primary driver of its growth rather than returns on unlevered tangible capital [D01, D04, D05]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The model is highly capital-intensive, requiring constant external funding for acquisitions and recurring operating cash to service the resulting debt load [D01, D05]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "FAIL",
+     "evidence": "Management emphasizes adjusted metrics and non-GAAP cash EPS over GAAP earnings, which masks the true economic costs of integration and acquisition-led growth [D01, D02, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With an approximate EV of $83.67 billion, the company is large enough to move the needle for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "The valuation based on management-adjusted EPS is 24.4x, and there is no evidence of a sufficient earnings yield to provide a margin of safety against intrinsic value [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 6,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "an acquisition-dependent platform with high leverage and aggressive accounting that lacks the durable, self-funding characteristics of a wonderful business"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no reason to expect a bargain because the company's business model relies on a continuous stream of debt-funded acquisitions rather than internal growth, which obscures the true economic reality [D01, D05]. The reliance on adjusted EPS metrics instead of GAAP earnings prevents a clear assessment of owner earnings and durable competitive advantage [D01, D02].",
+   "evidence": [
+    "The company's earnings growth is driven by debt-funded acquisitions, not internal product development [D01, D05].",
+    "Management emphasizes adjusted cash EPS, masking the true economic costs of integration and amortization [D01, D02, D05].",
+    "The valuation at 24.4x adjusted EPS provides no margin of safety [D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market appears to be pricing the company based on management-adjusted cash EPS projections, which ignore the recurring capital and debt requirements inherent in the acquisition-led growth strategy [D01, D04, D05].",
+   "what_must_be_true": [
+    "The company must demonstrate that it can generate sustainable, GAAP-based owner earnings without reliance on further debt-funded acquisitions.",
+    "Management must reconcile adjusted earnings to actual cash available to owners after accounting for all integration costs.",
+    "The business must prove it has a moat derived from product durability rather than just a collection of purchased assets."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack [D02, D04]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "GAAP EPS of $2.67 [D04]",
+     "Management Adjusted EPS of $8.34 [D04]",
+     "Reliance on debt-funded acquisitions [D05]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "valuation at 24.4x adjusted EPS offers no margin of safety [D04]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / T-bills / existing holdings / Berkshire buyback — Berkshire currently holds substantial cash for better opportunities [D08]",
+   "downside_case": "potential for permanent loss of capital if debt-funded acquisition model fails to produce GAAP earnings; reliance on adjusted metrics masks true costs [D01, D02, D05]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "True owner earnings cannot be determined due to lack of reconciliation between adjusted cash EPS and GAAP figures [D02, D04]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Berkshire serves as a permanent passive holder, relying on the business to compound value through rational capital allocation and patience, which is our default approach for marketable securities in this era [R0 description].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "value is realised through the long-term compounding of the business's owner earnings, consistent with our role as permanent owners [R0]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For the period 2000-2015, we seek wonderful businesses at fair prices to hold for the long term; however, as this company does not meet our standards for a durable business, we have no intent to hold it [Filter 1, Era switch 5]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "The acquisition-led business model fails to generate consistent GAAP earnings",
+    "Pricing power is eroded by payer pressure or loss of drug exclusivity",
+    "High debt levels become unsustainable due to an inability to integrate acquired assets profitably",
+    "Management's aggressive accounting practices mask a deterioration in true owner earnings"
+   ],
+   "berkshire_constraints": "Must maintain cash floor of at least $30 billion [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Cash is better held for better opportunities or repurchasing Berkshire stock given the current valuation [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a potential multi-billion dollar investment position that must be evaluated against our standards for durable competitive advantage and owner earnings, which this company fails to meet.",
+   "biggest_risk_in_one_sentence": "The company relies on a debt-funded acquisition model that masks its true economic costs and lacks the durable, self-funding characteristics of a wonderful business."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-03-02",
+  "company": "the Company (XXX)",
+  "ticker": "N/A",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "permanent loss of capital due to debt-funded acquisition model and aggressive accounting"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the company trades at 24.4x management-adjusted earnings, which fails to offer a margin of safety given the reliance on debt-funded acquisitions [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The company relies on a debt-funded acquisition model to drive growth, preventing a clear view of sustainable owner earnings [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Management emphasizes adjusted metrics that mask true economic costs like integration and amortization, which we find unacceptable [D01, D02, D05].",
+    "citations": [
+     "D01",
+     "D02",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The business lacks the durable, self-funding competitive advantage we require, making it impossible to assess long-term pricing power [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "The acquisition-led business model fails to generate consistent GAAP earnings",
+   "Pricing power is eroded by payer pressure or loss of drug exclusivity",
+   "High debt levels become unsustainable due to an inability to integrate acquired assets profitably",
+   "Management's aggressive accounting practices mask a deterioration in true owner earnings"
+  ],
+  "what_would_change_our_mind": "Evidence that the company can generate sustainable, GAAP-based owner earnings without reliance on further debt-funded acquisitions, and a reconciliation of adjusted earnings to actual cash available to owners.",
+  "memo": "We have examined the business and found it to be outside our circle of competence regarding sustainable economics [D01]. The company operates as a platform that relies on a continuous stream of debt-funded acquisitions to replace internally developed products, a model that does not provide the durability we seek [D01, D05].\n\nOur standard is to invest in wonderful businesses with a durable competitive advantage and pricing power [D01]. Here, we cannot assess the underlying earnings record because growth is driven by acquisitions rather than internal product development, and management focuses on adjusted metrics that obscure true economic costs [D01, D02, D05].\n\nAt a valuation of 24.4x adjusted earnings, we see no margin of safety for investors [D04]. The reliance on significant debt to fund ongoing growth introduces unnecessary risk, and we prefer to hold cash for better opportunities where the economics are certain [D04, D05, D08].\n\nWe put this idea in the 'too hard' pile. We do not participate in businesses that require constant external funding to maintain their appearance of growth, as we prefer to bet on the long-term compounding of owner earnings, not the success of aggressive accounting [D01, D05, R0].",
+  "uncited_claims": []
+ }
+}

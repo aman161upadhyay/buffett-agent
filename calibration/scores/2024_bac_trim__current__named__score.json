@@ -1,0 +1,44 @@
+{
+ "trade_id": "2024_bac_trim",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Regulatory threshold compliance is a standard priority for Berkshire's banking positions",
+   "The position is a large holding that currently exceeds the 10% beneficial ownership reporting requirement",
+   "Trimming reduces the regulatory and reporting burden while maintaining a significant residual investment in a solid franchise"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The stock trades at a 73.4% premium to tangible book value",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Regulatory reporting burden for positions exceeding 10% ownership is a material consideration",
+    "citation": "D08",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 5,
+  "share": 0.63
+ },
+ "state": "MATCH",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We will trim this position to bring our ownership below the 10% trigger, accepting the 21% federal tax hit as the cost of maintaining a more efficient and less burdensome oversight structure for our portfolio.",
+ "grader_notes": "The agent correctly matched the directional decision to trim. However, the reasoning is entirely fabricated by the agent as there is no authenticated Buffett rationale for this specific trade, as noted in the answer key. The agent erroneously attributes specific regulatory motives to Buffett that are not supported by the provided records.",
+ "run": "2024_bac_trim__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "TRIM",
+ "agent_decision": "TRIM",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

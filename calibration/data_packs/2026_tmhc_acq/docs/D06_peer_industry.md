@@ -1,0 +1,14 @@
+Title: Land strategy and customer mix distinguish builders
+Source: https://s27.q4cdn.com/448041563/files/doc_earnings/2026/q1/earnings-result/TMHC-1Q26-Earnings-Release_Final.pdf
+Date: 2026-05-29
+
+D.R. Horton, Lennar and NVR are relevant industry comparisons, but differ in customer mix, land ownership and operating structure. A builder with more controlled lots may commit less capital than one owning several years of land, while deposits and takedown obligations still create downside. The current release supplies Taylor Morrison's 75,626 homesites, with 51% controlled off balance sheet and total supply of 6.2 years at trailing closings. [1]
+
+Customer quality also matters. The company's mortgage borrowers had average credit scores of 750, average income of approximately $181,000 and average loan-to-value of 80%. That is evidence about current buyers, not immunity to affordability pressure or job losses. Esplanade performance distinguishes a resort-lifestyle segment from entry-level demand. No synchronized peer price/book, lot-duration or cancellation table is recovered, so no numerical sector ranking is asserted. The relevant test is returns through a land cycle after incentives, warranty costs and capital needs, not merely which builder reports the lowest current P/E.
+
+Evidence ledger from April 22: first-quarter total revenue was $1.387092 billion, home closings revenue $1.311421 billion and net income $98.625 million. Reported diluted EPS was $1.01, adjusted $1.12. There were 2,268 closings at $578,000 average price and 2,914 net orders at $603,000. Backlog was 3,465 homes worth $2.3 billion. Home closings gross margin was 20.0%, adjusted 20.6%, versus 24.0% and 24.8% a year earlier. The company owned/controlled 75,626 lots, 51% off balance sheet, and invested $503 million in land/development. Liquidity was approximately $1.6 billion including $653 million cash; net homebuilding debt/capital was 20.5%. Book value per share was $64. The company repurchased about 2.5 million shares for $150 million at roughly $61 per share. [1]
+
+Comparison discipline: industry membership does not make two businesses economically identical. Geography, customer mix, contract duration, capital intensity, leverage and accounting adjustments can dominate headline growth comparisons. No synchronized peer-price and consensus-earnings dataset was recovered for this cutoff; relative cheapness is therefore not asserted numerically. The useful comparison is between sources of durable return and exposure to common pressures. A competitor's weakness is not automatically this company's moat, and an industry recovery is not required to be uniform across participants.
+
+Sources and publication dates:
+[1] https://s27.q4cdn.com/448041563/files/doc_earnings/2026/q1/earnings-result/TMHC-1Q26-Earnings-Release_Final.pdf (published 2026-04-22)

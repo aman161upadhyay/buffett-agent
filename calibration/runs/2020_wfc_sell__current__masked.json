@@ -1,0 +1,56 @@
+{
+ "pack": "2020_wfc_sell",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2020-11-01",
+ "stages": {},
+ "final": {
+  "as_of_date": "2020-11-01",
+  "company": "Wells Fargo",
+  "ticker": "WFC",
+  "decision": "SELL",
+  "reason_class": "S1",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Banking discipline: broken [D07].",
+   "Customer relationships: deteriorated due to sales-practices failures [D01, D07].",
+   "Operating growth: constrained by regulatory asset caps [D03, D07]."
+  ],
+  "price_vs_value_now": "The stock trades at approximately 0.67x tangible book value [D04], reflecting significant uncertainty regarding the normalization of earnings and the sustainability of the deposit franchise [D01, D05].",
+  "after_tax_hurdle": "Given the degradation of the core business thesis and the persistent regulatory constraints, the potential for future returns does not justify the capital allocation relative to other opportunities [D01, D06].",
+  "drivers": [
+   {
+    "driver": "The institutional culture failed, resulting in widespread misconduct that has proven difficult and expensive to remediate [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Long-term earnings power is structurally impaired by ongoing regulatory restrictions on asset growth [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The bank's competitive advantage in customer retention has been damaged, rendering the future of the deposit franchise unknowable [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Management turnover and the necessity of massive trust repair absorb capital and focus, diverting resources from core banking activities [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "When we invest in a bank, we look for a low-cost deposit franchise and sound, disciplined management. In this instance, the culture that allowed widespread sales-practices failures demonstrated a profound breakdown in the internal controls we require [D01]. This is not merely a cyclical downturn or a temporary setback; it is an institutional failure that has made the future of the bank's earning power unknowable [D01, D05].\n\nThe Federal Reserve's asset-growth restriction serves as a tangible marker of this deterioration, placing a ceiling on the bank's ability to operate effectively [D03, D07]. While others may look at a discount to tangible book value as an opportunity, we must be honest with ourselves: a cheap price does not cure an impaired business [D04, D06]. The costs of remediation, litigation, and trust repair create a persistent drag that complicates the normalization of earnings [D03, D05].\n\nWe have long held this position, but when the facts change, we must change our minds [D07]. We do not anchor on our cost basis or hope for a recovery that is no longer supported by the business's fundamentals [D04]. The institutional imperative for growth and the integrity of the deposit franchise have been fundamentally compromised, and it is time to move on [D01].",
+  "uncited_claims": []
+ }
+}

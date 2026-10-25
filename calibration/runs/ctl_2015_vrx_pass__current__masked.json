@@ -1,0 +1,256 @@
+{
+ "pack": "ctl_2015_vrx_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2015-03-02",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The company owns branded pharmaceutical, dermatology and eye-care businesses [D01]. It operates as a decentralized platform focusing on established medicines and consumer-health brands with disciplined overhead and selective development spending [D01].",
+   "products_customers_and_why_they_buy": [
+    "Branded pharmaceuticals, dermatology, and eye-care products sold to medical providers and consumers [D01, D06].",
+    "The franchise provides recognizable repeat-purchase consumer/medical products with durable demand [D01]."
+   ],
+   "economics": [
+    "Management reports cash EPS growth of 20% in Q4 2014 [D01, D07].",
+    "Adjusted operating cash flow growth was 3% in Q4 2014, while GAAP operating cash flow benefited from a $287 million transaction gain [D01, D07].",
+    "Integration and restructuring costs were $47 million in Q4 2014 [D01, D07].",
+    "Company-wide organic growth was 11% for 2014, with 16% reported same-store organic sales growth for Q4 2014 [D01, D07]."
+   ],
+   "earnings_record": [
+    "Reported Q4 2014 revenue was $2.3 billion, up 10% from $2.1 billion in the prior period [D01, D07].",
+    "Management's cash EPS was $2.58 in Q4 2014 versus $2.15 in the prior period [D01, D07]."
+   ],
+   "competitive_position": [
+    "The company competes in branded pharma, dermatology, and eye care [D06].",
+    "Competitive strength relies on acquired products with durable demand, though it faces risks from drug exclusivity expiration and payer resistance [D01, D05]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Year-end 2014 net debt was approximately $15.3 billion [D04].",
+    "Management reports net leverage at approximately 3.5x [D04].",
+    "The company utilizes acquisition-driven growth, requiring access to credit markets and ongoing acquisition financing [D05, D06]."
+   ],
+   "management_and_capital_allocation": [
+    "Strategy focuses on decentralized ownership, disciplined overhead, and rational capital allocation via acquisitions [D01, D07].",
+    "Management defines success through cash EPS and adjusted cash flow, which are not reconciled to GAAP [D01, D07]."
+   ],
+   "price_and_valuation": [
+    "NYSE price (2015-03-02) was US$203.35 [D04].",
+    "Market cap approximately US$68.37 billion based on 336.203 million shares [D04].",
+    "FY2014 GAAP P/E was 76.2x; management adjusted P/E was 24.4x [D04].",
+    "Approximate EV/adjusted pro-forma EBITDA of 19.1x [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "not in pack"
+   },
+   "what_the_market_is_worried_about": [
+    "Reliance on debt-funded acquisitions and credit-market access [D05].",
+    "Potential for products to lose exclusivity and payer resistance to price increases [D05].",
+    "Discrepancy between management's non-GAAP cash metrics and GAAP cash flow/distributable owner earnings [D01, D05].",
+    "Integration risks and potential for recurring integration spending [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2015-02-23: Reported Q4 2014 results and announced the Company acquisition proposal [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire held approximately $63.27 billion in cash and $117.47 billion in equity securities as of year-end 2014 [D08]."
+   ],
+   "document_conflicts": [
+    "None stated, but D04 notes EBITDA is back-solved from leverage ratios rather than recovered from GAAP [D04]."
+   ],
+   "missing_data": [
+    "Maintenance capex, true owner earnings, and reconciled GAAP-to-cash-flow figures."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The company relies on a strategy of aggressive, debt-funded acquisitions of drug portfolios rather than organic product development or a stable long-term franchise [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "While the company holds branded products, its competitive position is undermined by high exposure to drug exclusivity expirations and significant payer resistance [D01, D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "Earnings quality is obscured by a reliance on non-GAAP metrics, integration costs, and transactional gains rather than consistent operational cash flow [D01, D07]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company carries significant debt with net leverage at approximately 3.5x, necessitating ongoing access to credit markets to fund its acquisition-driven model [D04, D05]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is highly capital-intensive, requiring constant external financing and debt to acquire growth rather than generating excess capital internally [D05, D06]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "FAIL",
+     "evidence": "Management emphasizes non-GAAP 'cash EPS' and adjusted cash flow metrics that are not reconciled to GAAP, suggesting a lack of transparency and an aggressive accounting approach [D01, D07]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market cap of approximately $68.37 billion, the company is of sufficient scale to be meaningful for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "At a GAAP P/E of 76.2x and high leverage, the price does not offer a margin of safety or an earnings yield remotely approaching the required 10% threshold [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "D04 EBITDA figure derived from leverage ratios vs. GAAP; I rely on the debt load and reported non-GAAP metrics as evidence of the company's financial risk profile."
+   ],
+   "n_pass": 1,
+   "n_fail": 7,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "an acquisition-dependent entity with aggressive accounting, high leverage, and significant risks to its underlying pharmaceutical portfolio."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no reason to expect a bargain here because the business model is inherently unstable. The company relies on debt-funded acquisitions to simulate growth rather than creating intrinsic value through a sustainable competitive advantage [D01, D05].",
+   "evidence": [
+    "High net leverage of 3.5x necessitates constant access to credit markets to sustain operations [D04, D05].",
+    "Earnings quality is obscured by the use of non-GAAP 'cash EPS' metrics that lack reconciliation to GAAP standards [D01, D07].",
+    "The business is highly capital-intensive and relies on transactional gains rather than consistent operational cash flow [D01, D05, D07]."
+   ],
+   "market_narrative_we_disagree_with": "The market may be pricing the company based on management's adjusted 'cash EPS' growth of 20%, ignoring the underlying GAAP realities and the risks inherent in the acquisition-driven strategy [D01, D04, D07].",
+   "what_must_be_true": [
+    "The company would need to cease its debt-funded acquisition model.",
+    "Management would need to provide transparent GAAP-based financial reporting.",
+    "The company would need to demonstrate organic growth in owner earnings rather than relying on integration accounting."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "inability to calculate owner earnings due to lack of GAAP reconciliation [D01, D07]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "not in pack; reliance on debt for growth prevents reliable valuation",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / T-bills / existing holdings / Berkshire buyback — superior alternatives exist given high leverage and lack of durable competitive advantage [D04, D05, D08]",
+   "downside_case": "permanent loss of capital if credit markets tighten or growth-by-acquisition model fails [D05]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Maintenance capex is unknown",
+    "True owner earnings are not reconcilable to GAAP [D01]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Berkshire's edge is patience and permanent capital, realizing value through the business compounding and rational capital allocation [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Not applicable; this is a PASS decision as the business model fails our core investment standards [D01, D05, D07]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in the 2000-2015 era, our role is that of a permanent, passive holder of wonderful businesses at fair prices; this company does not qualify [D01, D04]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Tightening of credit markets hindering the acquisition-driven growth model [D05]",
+    "Failure of acquired pharmaceutical products to sustain revenue due to exclusivity expirations or payer resistance [D01, D05]",
+    "Management's accounting strategy leading to a permanent impairment of investor trust or regulatory scrutiny [D01, D07]"
+   ],
+   "berkshire_constraints": "Berkshire maintains a high cash floor (>$30B) and avoids companies that rely on excessive leverage or lack transparent owner earnings [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed into existing high-quality businesses or Berkshire's own repurchases rather than a highly leveraged, acquisition-dependent entity [D04, D08].",
+   "leverage": "High net leverage of approximately 3.5x [D04].",
+   "decider": "Buffett",
+   "decider_reason": "The business fails to meet core investment standards regarding understandable economics, debt levels, and transparent earnings, requiring a definitive PASS.",
+   "biggest_risk_in_one_sentence": "The company relies on a debt-funded acquisition model that obscures true owner earnings and leaves the enterprise vulnerable to credit market volatility."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-03-02",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital if credit markets tighten or the growth-by-acquisition model collapses [D05]."
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the company trades at a GAAP P/E of 76.2x with high leverage, failing to offer the margin of safety or the 10% earnings yield we require [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The company relies on a debt-funded acquisition model to generate growth rather than organic development or a stable long-term franchise [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Earnings quality is obscured by management’s reliance on non-GAAP metrics, which are not reconciled to GAAP cash flow [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The business is highly capital-intensive and carries significant debt, with net leverage at approximately 3.5x, necessitating constant access to credit markets [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Tightening of credit markets hindering the acquisition-driven growth model [D05]",
+   "Failure of acquired pharmaceutical products to sustain revenue due to exclusivity expirations or payer resistance [D01, D05]",
+   "Management's accounting strategy leading to a permanent impairment of investor trust or regulatory scrutiny [D01, D07]"
+  ],
+  "what_would_change_our_mind": "The company would need to cease its debt-funded acquisition model, provide transparent GAAP-based financial reporting, and demonstrate organic growth in true owner earnings.",
+  "memo": "We have reviewed the business and have decided to pass. This company relies on an aggressive, debt-funded acquisition strategy to simulate growth rather than building a durable, long-term franchise [D01, D05]. We prefer to buy businesses we can understand, and here, the reliance on non-GAAP 'cash EPS' metrics that are not reconciled to GAAP prevents us from calculating true owner earnings [D01, D07].\n\nFurthermore, the economics are concerning. The business is highly capital-intensive, carrying net leverage of approximately 3.5x, which forces the company to rely constantly on credit markets to sustain its acquisition-driven model [D04, D05]. A business that must constantly seek external financing to grow does not fit our model of a wonderful business [D05, D06].\n\nRegarding price, the company trades at a GAAP P/E of 76.2x, which provides no margin of safety and does not offer an earnings yield remotely approaching our 10% threshold [D04]. While the company has reached a meaningful scale, the risks inherent in its structure make it an unattractive prospect for Berkshire [D04, D05]. We prefer to keep our cash for better opportunities, as we have no interest in participating in an enterprise whose value depends on debt-funded transactional gains rather than consistent operational excellence [D01, D08].",
+  "uncited_claims": []
+ }
+}

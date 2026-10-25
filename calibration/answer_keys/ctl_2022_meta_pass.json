@@ -1,0 +1,47 @@
+{
+  "id": "ctl_2022_meta_pass",
+  "actual_decision": "PASS",
+  "conviction": "high",
+  "size_pct_nav": 0,
+  "first_action_date": null,
+  "disclosure_date": "2023-02-14",
+  "reason_class": null,
+  "opportunity_template": [
+    "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "decider_identity": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "Never owned per parent 13F history in the tested window; no public comment explaining this nonpurchase. Technology, control and owner-earnings concerns are analyst hypotheses, not Buffett's stated 2022 rationale.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1067983/000095012323002585/0000950123-23-002585.txt (2023-02-14; later evidence where after cutoff)",
+      "quote": null,
+      "evidence_type": "documented_action_or_comment"
+    },
+    {
+      "driver": "No Facebook or Meta position in the 2010\u2013Q2 2026 parent 13F census, including Q3/Q4 2022 and Q1 2023. Excludes NEAM's separately filed client holdings. No issuer-specific 2022 public refusal found.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1067983/000095012323002585/0000950123-23-002585.txt",
+      "quote": null,
+      "evidence_type": "ownership_or_refusal_verification"
+    },
+    {
+      "driver": "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements; do not award reasoning-overlap credit for treating them as quotations.",
+      "source": "https://investor.atmeta.com/investor-news/press-release-details/2022/Meta-Reports-Third-Quarter-2022-Results/default.aspx (2022-10-26)",
+      "quote": null,
+      "evidence_type": "grading_boundary_not_stated_reason"
+    }
+  ],
+  "entry_valuation_stated": "No issuer-specific investor-stated intrinsic value or entry multiple recovered; pack valuation is analyst reconstruction.",
+  "outcome_note": "No Facebook or Meta position in the 2010\u2013Q2 2026 parent 13F census, including Q3/Q4 2022 and Q1 2023. Excludes NEAM's separately filed client holdings. No issuer-specific 2022 public refusal found. This is a direction/discipline test, not a return forecast. Nonholding evidence is scoped to the parent discretionary portfolio and the tested window; quarterly 13Fs cannot prove absence of every intraperiod trade, nonreportable instrument, subsidiary client holding or personal investment.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1067983/000095012323002585/0000950123-23-002585.txt",
+    "https://investor.atmeta.com/investor-news/press-release-details/2022/Meta-Reports-Third-Quarter-2022-Results/default.aspx",
+    "buffett-agent/compendium/all_positions_index.md",
+    "buffett-agent/compendium/filings_2010_2026.md"
+  ],
+  "pack_quality_notes": "Historical November 4 price recovered in a retrospective price citation, not used as later operating evidence. No verified own-words nonpurchase rationale. Approximate trailing EPS is an analyst reconstruction; 9x is not treated as consensus. All future-year budgets are explicitly guidance. Silent controls do not have three authentic stated reasons; the three slots distinguish action, ownership verification and grading boundary rather than fabricate quotes. Deputy keys use user-requested decider='deputy'; meta retains the allowed named/unknown identity. PASS label is nonpurchase/refusal evidence, not proof a presented bull thesis was publicly evaluated.",
+  "verification_window": "No Facebook or Meta position in the 2010\u2013Q2 2026 parent 13F census, including Q3/Q4 2022 and Q1 2023. Excludes NEAM's separately filed client holdings. No issuer-specific 2022 public refusal found.",
+  "control_quality_grade": "B"
+}

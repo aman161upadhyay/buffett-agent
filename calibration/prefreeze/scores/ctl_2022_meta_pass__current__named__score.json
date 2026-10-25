@@ -1,0 +1,47 @@
+{
+ "trade_id": "ctl_2022_meta_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned per parent 13F history in the tested window; no public comment explaining this nonpurchase.",
+   "No Facebook or Meta position in the 2010–Q2 2026 parent 13F census.",
+   "Economic and valuation objections are analyst-reconstructable discipline tests, not authenticated issuer-specific Buffett statements."
+  ],
+  "extra_agent_drivers": [
+   "Deteriorating moat due to platform rules and competition",
+   "Aggressive capital expenditure and operating expense increases",
+   "Speculative pivot to Reality Labs eroding owner earnings",
+   "Lack of minority owner influence over management capital allocation"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "operating income declining 46% in the third quarter of 2022",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "capital expenditures projected to rise to $34-39 billion in 2023",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 11,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Meta Platforms operates a large social network that historically served as a strong advertising franchise, but we do not find the business understandable in its current state [D01].",
+ "grader_notes": "The agent correctly identified the PASS decision but failed to identify the actual reasoning, which is based on historical non-ownership and the lack of a public Buffett statement regarding the company. Instead, the agent generated an original analyst thesis involving valuation and capital allocation, which the answer key explicitly excludes as a substitute for Buffett's actual rationale.",
+ "run": "ctl_2022_meta_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

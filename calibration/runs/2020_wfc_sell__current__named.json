@@ -1,0 +1,57 @@
+{
+ "pack": "2020_wfc_sell",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2020-11-01",
+ "stages": {},
+ "final": {
+  "as_of_date": "2020-11-01",
+  "company": "Wells Fargo & Company",
+  "ticker": "WFC",
+  "decision": "SELL",
+  "reason_class": "S1",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Banking discipline: broken, evidenced by widespread misconduct and cultural failure [D01], [D07].",
+   "Low-cost operations: broken, evidenced by high expense/revenue ratio and ongoing remediation costs [D03].",
+   "Growth: broken, due to persistent Federal Reserve asset-growth restrictions [D03], [D07]."
+  ],
+  "price_vs_value_now": "Market cap $88.6bn [D04]; trading at ~0.67x tangible book [D04], reflecting lasting compliance costs and restricted growth [D04].",
+  "after_tax_hurdle": "The business's fundamental economic advantage has deteriorated [D01], meaning current market value, despite the discount to book, does not justify the capital risk or opportunity cost [D06].",
+  "drivers": [
+   {
+    "driver": "The institutional culture and sales-practices failures have fundamentally damaged the competitive advantage that originally justified the investment [D01], [D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Persistent regulatory asset caps and high remediation expenses have structurally impaired the bank's earning power [D03], [D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The future of the business has become unknowable, as trust repair and culture reform are expensive and uncertain [D01], [D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Better capital allocation opportunities exist within the broader financial sector and Berkshire's portfolio [D06], [D08].",
+    "citations": [
+     "D06",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "When we invest in a bank, we look for low-cost operations and sound banking discipline. The events that have come to light at Wells Fargo since 2016 demonstrate a profound institutional failure that is not easily fixed [D01], [D07]. A bank's deposit franchise can survive for a time, but the culture and compliance costs that follow such widespread misconduct permanently reduce what owners can earn [D01]. \n\nWe no longer have confidence that the bank's competitive advantage is durable or that its future path is predictable [D01], [D05]. The asset growth restriction imposed by the Federal Reserve remains binding, limiting the bank's ability to operate effectively, while remediation and litigation continue to weigh on earnings [D03], [D07]. We do not wait for a full recovery when the underlying economic thesis has been broken by systemic issues [D01], [D05]. \n\nIt is our practice to exit when the world has changed and the business's fundamental advantage is lost [S1]. While the stock may appear cheap relative to tangible book value, that discount reflects the reality of constrained growth and lasting compliance obligations [D04], [D06]. We are not in the business of holding companies through prolonged periods of structural repair when our capital can be better deployed elsewhere [D06].",
+  "uncited_claims": []
+ }
+}

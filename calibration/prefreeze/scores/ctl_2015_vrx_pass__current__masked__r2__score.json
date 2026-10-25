@@ -1,0 +1,52 @@
+{
+ "trade_id": "ctl_2015_vrx_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "No ownership in the window",
+   "No Valeant/VRX/Bausch predecessor position in the parent 2010–Q2 2026 13F census",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "High-leverage, acquisition-dependent business model",
+   "Significant reliance on debt to fund acquisitions",
+   "Lack of transparent GAAP/non-GAAP reconciliation",
+   "Exposure to drug exclusivity expiration and payer resistance"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company relies on a high-leverage, acquisition-dependent business model rather than stable, organic growth [D01].",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The lack of transparent GAAP/non-GAAP reconciliation makes it difficult to assess true owner earnings [D05].",
+    "citation": "D05",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Exposure to drug exclusivity expiration and potential payer resistance threatens the long-term durability of the franchise [D05].",
+    "citation": "D05",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 8,
+  "share": 0.8
+ },
+ "state": "PARTIAL",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We have reviewed the business and decided to pass.",
+ "grader_notes": "The agent correctly reached a PASS decision but failed to mirror Buffett's actual reasoning, which was based on the objective absence of the stock in Berkshire's portfolio rather than a fundamental analysis of the company's business model. The agent performed an independent analyst-style valuation that was not reflective of Buffett's stated position at the time. Therefore, the reasoning overlap is zero.",
+ "run": "ctl_2015_vrx_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

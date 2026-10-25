@@ -1,0 +1,64 @@
+{
+ "trade_id": "2016_airlines_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Consolidation and greater capacity discipline changed the industry's economics. → The industry has consolidated into a disciplined oligopoly, utilizing networks, slots, and loyalty programs to create a more stable environment than we have ever seen [D01, D07].",
+   "The 21st-century earnings outlook could differ from the poor 20th-century record. → Investors are pricing these companies as if the past is prologue, ignoring the structural transition that has occurred [D05, D08]."
+  ],
+  "missed": [
+   "The bet was an industry judgment across the four major carriers."
+  ],
+  "extra_agent_drivers": [
+   "The airline basket currently offers a weighted earnings yield estimated in the high teens against near-zero T-bill rates [D04, D08].",
+   "Structural advantages—networks, slots, and loyalty programs—provide a durable moat absent in previous decades [D01].",
+   "Management teams have begun prioritizing returns on capital through disciplined capacity management and share buybacks [D02, D05]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The industry has consolidated into a disciplined oligopoly, utilizing networks, slots, and loyalty programs.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The industry has consolidated into a disciplined oligopoly, utilizing networks, slots, and loyalty programs.",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We estimate an initial pre-tax earnings yield that is significantly superior to long-term government bond yields.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are starting with a 5% position within our equity portfolio to ensure we have exposure without risking a permanent loss of capital.",
+    "citation": "D08",
+    "verdict": "supported"
+   },
+   {
+    "claim": "For years, Charlie and I have viewed the airline industry as a graveyard for capital, where companies consistently destroyed value.",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 4,
+  "share": 0.29
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "The industry has consolidated into a disciplined oligopoly, utilizing networks, slots, and loyalty programs to create a more stable environment than we have ever seen [D01, D07].",
+ "grader_notes": "The agent correctly identified the thematic shift in industry economics (consolidation/discipline) and the rejection of the poor historical record. However, it failed to explicitly frame the decision as an industry-wide basket bet, which was a core driver in Buffett's explanation. The agent's reasoning was otherwise strong and well-grounded.",
+ "run": "2016_airlines_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

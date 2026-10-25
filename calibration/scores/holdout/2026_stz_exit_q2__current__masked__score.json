@@ -1,0 +1,50 @@
+{
+ "trade_id": "2026_stz_exit_q2",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The Mexican beer portfolio continues to show strong relative performance and pricing power despite a broader industry slowdown",
+   "Comparable operating margins remain high at 38%, indicating that brand strength allows for cost absorption",
+   "Absolute volume declines and ongoing high capital expenditure requirements for capacity expansion warrant caution but do not invalidate the core franchise",
+   "The current valuation is modest relative to guided earnings, providing a sufficient margin of safety for a business of this quality"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Mexican beer portfolio continues to show strong relative performance and pricing power despite a broader industry slowdown",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Comparable operating margins remain high at 38%",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The stock trades at ~13x guided comparable earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We do not exit wonderful businesses simply because the market is pessimistic or because the industry faces temporary consumption shifts [D05].",
+ "grader_notes": "The agent reached a HOLD decision, while the actual outcome was a full exit. Reasoning overlap is not scorable as there were no stated drivers in the answer key.",
+ "run": "2026_stz_exit_q2__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "SELL",
+ "agent_decision": "HOLD",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

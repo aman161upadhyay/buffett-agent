@@ -1,0 +1,30 @@
+{
+ "id": "2013_heinz_acq",
+ "company": "H. J. Heinz Company",
+ "ticker": "HNZ",
+ "aliases": [
+  "H. J. Heinz Company",
+  "HNZ",
+  "H. J. Heinz",
+  "H.J. Heinz",
+  "Heinz",
+  "Heinz Company",
+  "Ore-Ida",
+  "Lea & Perrins",
+  "HP Sauce",
+  "ABC",
+  "Wattie's",
+  "Watties",
+  "T.G.I. Friday's",
+  "ketchup",
+  "3G Capital",
+  "Lemann"
+ ],
+ "as_of_date": "2013-02-13",
+ "mode": "new",
+ "era": "C",
+ "first_action_window": "2013-02-13 agreement; funded on June 2013 closing",
+ "fund_aum_usd_bn": 37.3,
+ "decider": "Buffett",
+ "notes": "Announcement commitment $12.12 billion differs from final $12.25 billion capitalization. Final terms are after cutoff. Metadata scale must use public baseline; corrected in generator to 2011 cash. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated."
+}

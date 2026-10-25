@@ -1,0 +1,49 @@
+{
+ "trade_id": "1993_dexter_acq",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "The original attraction was a long, profitable record, an enduring franchise and superb management.",
+   "Berkshire and the sellers shared a long-term ownership philosophy with management retained.",
+   "Prior footwear experience supported extending a familiar operating field."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value — the $420 million valuation cannot be measured against intrinsic value or earnings yield due to a lack of audited accounts.",
+   "The structural cost disadvantage of domestic manufacturing relative to imports creates an uncertain economic future that we cannot verify.",
+   "We lack the financial data necessary to confirm that Dexter maintains the durable competitive advantage and high returns on capital that we require.",
+   "Paying with Berkshire shares surrenders permanent participation in our superior businesses for an asset with questionable long-term viability."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The $420 million valuation cannot be measured against intrinsic value or earnings yield due to a lack of audited accounts",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "structural cost disadvantage inherent in domestic manufacturing",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Given the absence of verifiable financial data and the significant threat of low-cost imports, we cannot justify the allocation of our capital or our shares to this enterprise [D02, D05].",
+ "grader_notes": "The agent reached the opposite decision of Warren Buffett, who opted to buy the company. While the agent correctly identified the risk of low-cost imports, it failed to acknowledge Buffett's specific attraction to the management team and the enduring franchise of Dexter Shoe.",
+ "run": "1993_dexter_acq__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,240 @@
+{
+ "pack": "1990_wfc_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "1990-10-24",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a large California bank led by a management team emphasizing expense discipline over growth [D01]. Deposits fund a substantial loan portfolio with exposure to California property conditions [D01].",
+   "products_customers_and_why_they_buy": [
+    "Banking services including deposit taking and loan provision [D01, D02]."
+   ],
+   "economics": [
+    "Pre-provision earnings absorb credit losses before capital is impaired [D01, D02]; 1989 reported net income was $601.1 million [D02]; return on equity historically above 20% and return on assets above 1.25% [D02]; common equity/assets is 5.04% [D02]."
+   ],
+   "earnings_record": [
+    "1985 net interest income $1,220.2M, 1986 $1,491.7M, 1987 $1,801.6M, 1988 $1,972.1M, 1989 $2,158.6M [D02]; 1988 net income $512.5M, 1989 $601.1M [D02]; 1990 H1 net income $392.2M [D03]."
+   ],
+   "competitive_position": [
+    "Management emphasizes expense discipline to generate earnings to absorb credit losses [D01, D02]; peer Citicorp shows weakness in real estate and international markets [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Assets approximately $56 billion and loans approximately $48 billion [D02]; 1989 common equity/assets 5.04% [D02]; 1989 problem/restructured loans and foreclosed property total $1,153.7 million [D02]."
+   ],
+   "management_and_capital_allocation": [
+    "Management emphasizes expense discipline rather than growth for its own sake [D01]; seeks to maintain capital to absorb losses [D02]."
+   ],
+   "price_and_valuation": [
+    "1989 EPS $11.02 [D02, D04]; purchase-window reconstruction indicates less than 5x after-tax earnings and less than 3x pretax earnings [D04]; exact October 24 closing quote not in pack [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 8.66,
+    "basis": "10-year Treasury yield as of 1990-10-24 [D04]; earnings and FCF yields are not in pack."
+   },
+   "what_the_market_is_worried_about": [
+    "Severe property-credit losses amplified by leverage [D05]; recession risk affecting borrower refinancing [D05]; geographic concentration risk (California earthquake) [D05]; potential for delayed loss recognition [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Q2 1990 net income $232.4 million [D03]; October 17 report noted worsening commercial-property problems and declining profits at some banking groups [D06]."
+   ],
+   "berkshire_context": [
+    "Berkshire has an established concentrated portfolio [D08]; banking allocation competes with existing consumer, insurance and media franchises [D08]; ownership stake has regulatory implications at 10% [D08]."
+   ],
+   "document_conflicts": [
+    "not in pack"
+   ],
+   "missing_data": [
+    "Exact October 24 market price, market capitalization, P/E ratio, P/B ratio, full 1990 fiscal year earnings, and current nonperforming-loan schedule [D02, D04, D06]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The company operates a core banking business focused on deposit taking and loan provision, which is a straightforward and understandable model [D01, D02]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "Management's emphasis on expense discipline allows the bank to absorb credit losses, providing a low-cost competitive advantage in its banking operations [D01, D02]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "The company has demonstrated consistent growth in net interest income and net income over the 1985-1989 period, with continued profitability in the first half of 1990 [D02, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The bank has maintained a return on equity historically above 20% and return on assets above 1.25%, demonstrating strong profitability in its core franchise [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "As a bank, it operates using deposits as raw material and maintains capital to absorb losses, which is appropriate for a well-managed financial institution [D01, D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Management explicitly prioritizes expense discipline over growth for its own sake and focuses on maintaining adequate capital to absorb credit losses [D01, D02]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With $56 billion in assets and a significant California presence, the company is of sufficient scale to be meaningful for Berkshire [D02]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "Trading at less than 3x pre-tax earnings, the pre-tax earnings yield significantly exceeds 1.5x the 8.66% long bond yield [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 8,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a disciplined, high-return California banking franchise trading at a bargain valuation relative to its earnings power"
+  },
+  "gate2": {
+   "templates": [
+    "B2"
+   ],
+   "why_available": "The market is currently gripped by widespread fear regarding commercial real estate exposure, recessionary risks, and geographic concentration in California [D05]. Investors are extrapolating these cyclical fears to the entire banking sector, driving the stock price down to an irrational level that ignores the bank's demonstrated ability to absorb credit losses through its superior expense discipline and core earnings power [D01, D02]. As the temporary credit cloud passes, the bank’s intrinsic value will be recognized by the market [D02].",
+   "evidence": [
+    "Management focuses on expense discipline to ensure earnings are sufficient to absorb credit losses before capital is impaired [D01, D02]",
+    "Consistent growth in net interest income and net income throughout the late 1980s and into 1990 confirms the underlying franchise strength [D02, D03]",
+    "The valuation is extremely depressed, trading at less than 3x pre-tax earnings, providing a significant margin of safety [D04]",
+    "Market concerns are focused on macro-economic variables like California property conditions and recession risk rather than a structural failure of the business model [D05]"
+   ],
+   "market_narrative_we_disagree_with": "The market believes that severe property-credit losses and a potential recession will permanently impair the bank's capital position, leading to a collapse in profitability [D05].",
+   "what_must_be_true": [
+    "The bank's pre-provision earnings remain strong enough to cover current and future credit losses without requiring additional capital [D01, D02]",
+    "Management maintains its disciplined approach to costs and risk underwriting [D01]",
+    "The underlying California banking franchise retains its deposit base and customer relationships despite the localized property-market downturn [D01, D02]"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "1989 EPS $11.02 [D02]",
+   "initial_pretax_yield_pct": 33.3,
+   "intrinsic_value_range": {
+    "low": "Conservative normalized earnings capitalized at 8x",
+    "high": "Conservative normalized earnings capitalized at 10x",
+    "key_assumptions": [
+     "Pre-provision earnings absorb credit losses [D01, D02]",
+     "Management expense discipline protects capital [D01, D02]"
+    ],
+    "discount_rate_used": "8.66% [D04]"
+   },
+   "price_vs_value": "Trading at less than 3x pre-tax earnings [D04]; significant margin of safety",
+   "expected_return_pct": {
+    "base": 15,
+    "bear": 5,
+    "bull": 20
+   },
+   "alternatives": "bonds / T-bills / existing holdings / Berkshire buyback — Berkshire buyback or existing franchises are safer, but the bank's earnings yield is exceptional [D08]",
+   "downside_case": "Significant credit losses in California real estate impair capital, but expense discipline mitigates permanent loss risk [D01, D05]",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Exact October 24 market price and P/E ratio not in pack [D04]",
+    "Normalized earnings assumed consistent with 1989 levels despite 1990 H1 volatility [D02, D03]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "The intrinsic value will be realised as the market eventually recognizes the bank's demonstrated ability to absorb credit losses through its superior expense discipline [D02].",
+    "Value is further realised through the compounding of consistent earnings growth at a high return on equity [D02]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 1980-1999 era, Berkshire focuses on buying wonderful businesses at fair prices to hold, utilizing our permanent capital to ignore temporary market pessimism surrounding cyclical credit clouds [D02, D05, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Pre-provision earnings fail to cover credit losses, leading to erosion of core capital [D01, D02]",
+    "Management deviates from their historical expense discipline and risk-averse underwriting culture [D01, D02]",
+    "California property market deterioration accelerates beyond current provisioning, threatening structural solvency [D05]"
+   ],
+   "berkshire_constraints": "Must maintain regulatory thresholds (avoiding 10% ownership without approval) and ensure insurance float remains protected against concentrated regional risk [D08].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 15,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital could be deployed into existing high-quality consumer franchises or kept as cash if the margin of safety were thinner [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The investment involves a straightforward analysis of banking economics and expense discipline within a core financial sector familiar to Berkshire.",
+   "biggest_risk_in_one_sentence": "A prolonged, severe collapse in the California real estate market could outpace the bank's earnings power, leading to a permanent impairment of capital."
+  }
+ },
+ "final": {
+  "as_of_date": "1990-10-24",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 10,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "1989 EPS $11.02 [D02]",
+   "initial_pretax_yield_pct": 33.3,
+   "intrinsic_value_range": "8x-10x normalized earnings",
+   "expected_return_pct": 15,
+   "downside_case": "Significant credit losses in California real estate impair capital, but expense discipline mitigates permanent loss risk [D01, D05]"
+  },
+  "drivers": [
+   {
+    "driver": "The Company is currently available at less than 3x pre-tax earnings [D04], offering a compelling initial pre-tax earnings yield of approximately 33% against the 8.66% long bond yield [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The bank maintains a consistent record of high profitability, with returns on equity historically exceeding 20% and returns on assets above 1.25% [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "Management’s intense focus on expense discipline creates a low-cost structure that provides a vital cushion to absorb credit losses before capital is impaired [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The current market price is depressed due to cyclical fears regarding California real estate and recession risks, which do not represent a structural failure of the underlying business [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Pre-provision earnings fail to cover credit losses, leading to erosion of core capital [D01, D02]",
+   "Management deviates from their historical expense discipline and risk-averse underwriting culture [D01, D02]",
+   "California property market deterioration accelerates beyond current provisioning, threatening structural solvency [D05]"
+  ],
+  "what_would_change_our_mind": "Evidence that the bank's pre-provision earnings can no longer cover the cost of credit losses or a material shift in management's culture of disciplined expense control would force us to reconsider our position.",
+  "memo": "The Company is a well-managed California banking institution that specializes in deposit gathering and loan provision [D01, D02]. We understand this model well, as it relies on the basic banking function of using deposits as raw material to generate earnings [D01, D02].\n\nThe bank has built a durable competitive advantage through rigorous expense discipline, which allows it to maintain profitability even when credit losses arise [D01, D02]. Its record of performance is impressive, with a historical return on equity consistently above 20% and return on assets exceeding 1.25% [D02].\n\nManagement has shown great character by prioritizing expense control over growth for its own sake, consistently managing the bank to ensure that capital remains protected [D01, D02]. We trust them to continue this disciplined approach to underwriting and operations [D01].\n\nMr. Market is currently gripped by fears of a recession and property-market volatility in California, leading him to offer us this business at less than 3x its pre-tax earnings [D04, D05]. While the market frets over near-term macro conditions, we see a profitable, well-capitalized business available at a significant discount to its intrinsic value [D02, D04].\n\nWe estimate an initial pre-tax earnings yield of over 30%, which is exceptionally attractive when compared to the 8.66% yield available on long-term government bonds [D04]. We expect this investment to generate solid returns as the market eventually recognizes the bank's underlying earnings power [D02, D04].\n\nOur primary risk is that a severe and prolonged collapse in the California real estate market could outpace these earnings, resulting in permanent impairment [D05]. We will cap our investment at 10% of our equity portfolio to ensure this regional concentration remains within prudent bounds for Berkshire [D08].",
+  "uncited_claims": []
+ }
+}

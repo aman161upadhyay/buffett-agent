@@ -1,0 +1,251 @@
+{
+ "pack": "2016_airlines_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2016-10-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The four major US airlines operate as a network-based basket with substantial fixed and semi-fixed costs and perishable capacity [D01]. Market positions are supported by networks, slots, loyalty programs, and scale following a period of industry consolidation [D01].",
+   "products_customers_and_why_they_buy": [
+    "Airlines sell seats with perishable capacity that cannot be stored; repeat-purchase and loyalty dynamics are driven by network reach and loyalty programs [D01]"
+   ],
+   "economics": [
+    "High fixed and semi-fixed costs; load factor, fare, and unit costs are interdependent variables [D01, D08]",
+    "Profitability is sensitive to fuel costs, labor, and aircraft ownership costs; lower fuel prices can induce competitive fare cuts [D01, D08]",
+    "Capital intensity is significant due to committed fleet purchases, lease obligations, and pension liabilities [D01, D08]"
+   ],
+   "earnings_record": [
+    "Mixed 2011-2015 record: Delta experienced high volatility including a 19.2% operating margin in 2015 [D02]",
+    "American and United showed cyclical swings; American moved from negative margins in 2011-2013 to 15.1% in 2015 [D02]",
+    "Southwest maintained consistent positive margins, reaching 20.8% in 2015 [D02]"
+   ],
+   "competitive_position": [
+    "Industry consolidation has created a different competitive structure compared to the pre-bankruptcy era [D01]",
+    "Southwest maintains a different business mix compared to global network carriers [D06]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Significant debt, pension liabilities, and fleet purchase commitments [D01, D08]",
+    "American had $18,330m in debt and Delta had $8,329m in debt as of FY2015 [D02]",
+    "Earnings before aircraft ownership costs can overstate cash available to owners [D01, D08]"
+   ],
+   "management_and_capital_allocation": [
+    "Management record is not assumed based on name or history; focus is on demonstrated ability to allocate capital [D01]",
+    "Active buyback programs and dividends present at most carriers [D02, D04]"
+   ],
+   "price_and_valuation": [
+    "FY2015 P/E ratios: American 3.67x, Delta 7.42x, United 2.89x, Southwest 12.25x [D04]",
+    "American and United multiples are skewed by tax benefits; sustainable yields are not fully reflected in fiscal earnings multiples [D04]"
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 1.94,
+    "long_bond_yield": 1.84,
+    "basis": "Dividend yield is for Delta [D04]; yields calculated from fiscal 2015 data [D04]. No aggregate or owner earnings yield is computed due to missing maintenance capex/normalized figures [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "History of poor aggregate returns, volatile fuel, labor cost pressure, and competitive fare cutting [D05]",
+    "Capacity discipline post-consolidation is not guaranteed [D05]",
+    "Recession or disruption could destroy demand and limit cash flow [D05, D08]"
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "August 2016 Delta technology outage caused $150m earnings impact [D03]",
+    "Q3 2016 results show revenue contraction across the basket [D03]"
+   ],
+   "berkshire_context": [
+    "Berkshire has a history of poor airline-investment experience [D08]",
+    "Approximately $61.2 billion in cash as of year-end 2015 [D08]",
+    "Float of $87.722 billion as of 2015 [D08]"
+   ],
+   "document_conflicts": [
+    "Debt definitions differ across carriers (e.g., American excludes current maturities while others include them) [D02]"
+   ],
+   "missing_data": [
+    "Reconciled four-carrier aggregate financial data (net income, net debt, FCF), normalized owner earnings, and consistent maintenance capital expenditure figures [D02, D04]"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business relies on perishable capacity and is subject to volatile fuel and labor costs, making long-term predictability difficult [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "Despite recent consolidation, the industry historically struggles with competitive fare cutting and lacks a durable pricing advantage [D01, D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Following industry consolidation, the carriers have demonstrated improved returns and consistent positive margins in recent years [D01, D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "Carriers carry significant debt, pension liabilities, and fleet commitments, failing the test for little debt [D01, D08]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is highly capital-intensive with constant reinvestment required for fleet and infrastructure, and it does not meet the criteria for a low-cost commodity producer [D01, D08]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management is focused on capital allocation through buybacks and dividends, but demonstrated long-term ability is not yet proven across the cycle [D01, D02, D04]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The four major US airlines are large enough to represent a meaningful investment for Berkshire [D01]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "Missing normalized owner earnings data makes a definitive assessment of the earnings yield impossible [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "Debt definitions: Used raw debt figures from D02 with acknowledgement of inconsistency across carriers [D02]."
+   ],
+   "n_pass": 2,
+   "n_fail": 4,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a capital-intensive industry with a history of poor aggregate returns and structural susceptibility to competitive fare wars"
+  },
+  "gate2": {
+   "templates": [
+    "B12"
+   ],
+   "why_available": "The market views airlines through the lens of a long, dismal history of value destruction and bankruptcy [D05, D08]. We believe the recent consolidation has fundamentally shifted the industry structure toward a more disciplined, rational competitive environment, allowing the majors to generate sustainable returns on capital despite the cyclical nature of demand [D01, D05].",
+   "evidence": [
+    "Industry consolidation has replaced the pre-bankruptcy era with a more stable competitive structure [D01].",
+    "Carriers have demonstrated consistent positive margins and improved capital allocation through buybacks and dividends in recent years [D01, D02, D04].",
+    "The four major US carriers operate as an effective network basket with significant scale and loyalty advantages [D01]."
+   ],
+   "market_narrative_we_disagree_with": "The market remains focused on the industry's historical volatility, susceptibility to fare wars, and the potential for capacity discipline to collapse during a downturn [D05, D08].",
+   "what_must_be_true": [
+    "The major carriers maintain capacity discipline rather than returning to destructive fare-cutting.",
+    "The industry-wide consolidation remains durable and is not reversed by regulatory or competitive shifts.",
+    "The carriers are able to manage their debt levels and fleet commitments through cyclical downturns."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack [D04]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "Industry consolidation holds and capacity discipline continues [D01]",
+     "Maintenance capex is proportional to fleet renewal cycles [D01]"
+    ],
+    "discount_rate_used": "1.84% [D04]"
+   },
+   "price_vs_value": "not in pack",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Berkshire cash [D08] or share repurchases [D08] are better given the lack of visibility into normalized owner earnings and historical record of value destruction [D08]",
+   "downside_case": "Permanent loss of capital if cyclical downturn or capacity discipline failure recurs [D05, D08]",
+   "valuation_verdict": "FULL",
+   "flagged_assumptions": [
+    "Maintenance capex is not provided, making owner earnings calculation impossible without assumption",
+    "No aggregate normalized earnings data exists for the four-carrier basket"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "value is realised through the compounding of the carriers' improved competitive structure and rational capital allocation, such as share repurchases [D01, D02]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities post-1980, our default approach is to act as a permanent, passive holder, allowing the management teams to execute their capital allocation strategies while we benefit from the compounding of a more disciplined industry structure [D01, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Industry-wide abandonment of capacity discipline leading to destructive fare wars [D01, D05]",
+    "Regulatory or competitive reversal of the industry consolidation that occurred post-bankruptcy [D01, D05]",
+    "Inability to manage significant debt levels and fleet commitments through a cyclical downturn [D01, D08]"
+   ],
+   "berkshire_constraints": "Must maintain cash floor (≥ $30B) [D08]; avoid over-concentration in cyclicals given Berkshire's history of poor airline-investment experience [D08]; adhere to regulatory ownership thresholds.",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 10,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Cash or Berkshire share repurchases [D08], both of which offer more certainty than an industry with a historical record of value destruction [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "While this is a cyclical industry with a poor history, a multi-billion dollar position in the four major carriers qualifies as a significant capital allocation move that I would oversee personally.",
+   "biggest_risk_in_one_sentence": "Permanent loss of capital is possible if the recent trend toward capacity discipline fails to hold during a cyclical downturn."
+  }
+ },
+ "final": {
+  "as_of_date": "2016-10-31",
+  "company": "Four major US airlines — American, Delta, United, Southwest (AAL / DAL / UAL / LUV)",
+  "ticker": "AAL, DAL, UAL, LUV",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B12"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack [D04]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital if cyclical downturn or capacity discipline failure recurs [D05, D08]"
+  },
+  "drivers": [
+   {
+    "driver": "The business fails our criteria for an understandable, durable moat with low capital intensity and little debt, as these companies remain highly capital-intensive with significant debt and volatile earnings [D01, D08].",
+    "citations": [
+     "D01",
+     "D08"
+    ]
+   },
+   {
+    "driver": "We lack the normalized owner earnings data required to calculate an earnings yield that justifies investment against our internal alternatives of cash or repurchases [D04, D08].",
+    "citations": [
+     "D04",
+     "D08"
+    ]
+   },
+   {
+    "driver": "The history of the industry is one of aggregate value destruction, and despite recent consolidation, we cannot be certain that capacity discipline will hold through the next downturn [D01, D05, D08].",
+    "citations": [
+     "D01",
+     "D05",
+     "D08"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Industry-wide abandonment of capacity discipline leading to destructive fare wars [D01, D05]",
+   "Regulatory or competitive reversal of the industry consolidation that occurred post-bankruptcy [D01, D05]",
+   "Inability to manage significant debt levels and fleet commitments through a cyclical downturn [D01, D08]"
+  ],
+  "what_would_change_our_mind": "Evidence of sustained, cycle-tested capacity discipline and a consistent ability to generate free cash flow that meaningfully exceeds the heavy maintenance capital expenditure required to operate the fleet.",
+  "memo": "The four major U.S. airlines operate networks that connect the country, yet they have historically struggled with a business model reliant on perishable capacity and highly volatile fuel and labor costs [D01]. While we understand the basic utility of these services, the constant requirement for reinvestment in fleet and infrastructure makes them capital-intensive in a way that rarely rewards the long-term owner [D01, D08].\n\nFollowing a period of industry consolidation, these carriers have demonstrated improved margins and more rational behavior [D01, D02]. However, the moat remains elusive; despite network reach and loyalty programs, the industry is structurally susceptible to competitive fare wars, and the record of aggregate value destruction across the sector is long and dismal [D01, D05, D08].\n\nManagement teams today are focused on capital allocation through buybacks and dividends, but we have not yet seen this discipline survive a full, deep cyclical downturn [D01, D04]. Because debt levels and pension liabilities remain significant, the margin of safety is thin [D01, D08].\n\nWe cannot calculate a normalized owner earnings yield, and without that, we have no reliable way to value the business [D04]. Berkshire’s history with airlines has been poor, and given that our cash and share repurchases offer more certainty, we prefer to keep these ideas in the 'too hard' pile [D08].",
+  "uncited_claims": []
+ }
+}

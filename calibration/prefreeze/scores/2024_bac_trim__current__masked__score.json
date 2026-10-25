@@ -1,0 +1,44 @@
+{
+ "trade_id": "2024_bac_trim",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Regulatory ownership threshold management for common equity holdings above 10%.",
+   "Excessive reporting and regulatory burden for positions exceeding 10% beneficial ownership.",
+   "Portfolio concentration and liquidity management in a fully priced market."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Trading at 1.73x tangible book value of $25.37 per share",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "ROTCE of 13.6% in Q2 2024",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 6,
+  "share": 0.86
+ },
+ "state": "MATCH",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "Reducing this holding toward the 10% threshold simplifies our regulatory footprint and reporting obligations, a prudent step regardless of our high regard for the underlying business [D08].",
+ "grader_notes": "The agent correctly identified the direction as a trim. However, the reasoning provided by the agent regarding regulatory thresholds and reporting burdens is speculative, as the official record does not contain an authenticated rationale from Buffett for this specific trade. The agent attributed the decision to 'Buffett' as the decider, whereas the key marks the decider as unknown.",
+ "run": "2024_bac_trim__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "TRIM",
+ "agent_decision": "TRIM",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

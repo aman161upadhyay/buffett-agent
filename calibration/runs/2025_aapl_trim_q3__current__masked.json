@@ -1,0 +1,50 @@
+{
+ "pack": "2025_aapl_trim_q3",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2025-06-30",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-06-30",
+  "company": "the Company (XXX)",
+  "ticker": "AAPL",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Consumer franchise: intact; record installed base [D01]",
+   "Pricing power: intact; services revenue growth [D03]",
+   "Capital allocation: intact; repurchases and dividends continue [D03]"
+  ],
+  "price_vs_value_now": "Market price $205.17 reflects a multiple of ~33.75x trailing earnings, which is high but the business remains a premier consumer franchise [D04]",
+  "after_tax_hurdle": "Significant unrealized gain suggests a high tax cost to liquidate, favoring continued ownership of a business we regard as the best we know [D04, D08]",
+  "drivers": [
+   {
+    "driver": "The business continues to demonstrate durable consumer loyalty and high-margin services growth",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Management remains disciplined in capital return through share repurchases and dividends",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The tax burden of selling a highly successful, long-term holding outweighs the benefits of a full exit at current prices",
+    "citations": [
+     "D04",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "the Company remains, in my view, the best business I know [D08]. While the stock currently trades at a full valuation of approximately 33.75 times trailing earnings, we do not sell wonderful businesses simply because Mr. Market has become enthusiastic [D04]. The fundamental thesis—a powerful consumer ecosystem supported by a record installed base—remains firmly intact [D01, D05].\n\nWe recognize the risks posed by shifting trade policy and the potential for increased costs, such as the estimated $900 million tariff impact for the June quarter [D03, D05]. However, these are manageable near-term pressures rather than a fundamental erosion of the company's competitive advantage [D05]. Management continues to allocate capital intelligently, as evidenced by the recent $100 billion repurchase authorization and dividend increase [D03].\n\nFinally, we must consider the tax consequences of reducing our position. A sale of this magnitude would trigger a significant federal tax liability, requiring the proceeds to be reinvested in an equally compelling opportunity to justify the friction [D04, D08]. Given the strength of the underlying business and the lack of a more attractive immediate alternative, we prefer to maintain our significant ownership [D08].",
+  "uncited_claims": []
+ }
+}

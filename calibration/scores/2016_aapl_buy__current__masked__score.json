@@ -1,0 +1,63 @@
+{
+ "trade_id": "2016_aapl_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "The initial investment was a deputy's decision, not Buffett's."
+  ],
+  "extra_agent_drivers": [
+   "Initial pre-tax earnings yield of 9.62%.",
+   "Consumer ecosystem with high switching costs/moat.",
+   "Extraordinary returns on equity and cash position.",
+   "Shareholder-friendly capital allocation.",
+   "Market fixation on cyclical hardware contraction."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company sells for an initial pre-tax earnings yield of 9.62% against a 1.83% long bond yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business possesses a powerful consumer ecosystem with high switching costs",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company generates extraordinary returns on equity, ranging from 30% to 44.7%",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management has returned over $163 billion via dividends and repurchases",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market's current fixation on cyclical hardware contraction provides an opportunity",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 17,
+  "cited": 10,
+  "share": 0.59
+ },
+ "state": "PARTIAL",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "At a P/E of roughly 10.4x and an initial pre-tax yield of 9.62%, we are buying a wonderful business at a price that offers a significant margin of safety over the 1.83% yield available on long-term Treasuries [D04].",
+ "grader_notes": "The agent identifies the decision as Buffett's, contradicting the historical reality that it was a deputy's move. Consequently, the agent provides complex fundamental analysis that was not part of the actual decision process, resulting in a MISS on the state and decider match.",
+ "run": "2016_aapl_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

@@ -1,0 +1,264 @@
+{
+ "pack": "2011_ibm_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2011-03-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company provides enterprise information technology solutions, including services, middleware, systems, maintenance, and financing [D01]. It maintains long-term relationships with large organizations by integrating into their critical infrastructure and ongoing operations [D01].",
+   "products_customers_and_why_they_buy": [
+    "Products: services, middleware, systems, maintenance, and financing [D01].",
+    "Customers: large organizations [D01].",
+    "Why they buy: The company serves critical operational needs; customers face significant switching costs including retraining, migration, and execution risk [D01]."
+   ],
+   "economics": [
+    "Margins: 19.7% pretax margin (FY2010) [D06]; 49.0% gross profit margin (Q4 2010) [D03].",
+    "Return on equity: 66.8% (FY2010) [D02].",
+    "Owner-earnings inputs: Financing receivables, research expenditure, acquisitions, pension contributions, and stock compensation are noted as necessary adjustments for a conservative assessment [D01, D02].",
+    "Capital intensity: Gross property investment of $4.185 billion in 2010 [D02]."
+   ],
+   "earnings_record": [
+    "Revenue: $91.4bn (2006) to $99.9bn (2010) [D02].",
+    "Net income: $9.5bn (2006) to $14.8bn (2010) [D02].",
+    "ROE: Trended from 29.3% in 2006 to 66.8% in 2010 [D02]."
+   ],
+   "competitive_position": [
+    "Moat evidence: Customer switching frictions arising from integrated enterprise architecture [D01].",
+    "Peers: Hewlett-Packard, Oracle, and Accenture [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Total debt: $28.624bn (FY2010) [D02].",
+    "Cash: $11.651bn (FY2010) [D04].",
+    "Net debt: $16.973bn (FY2010) [D04]."
+   ],
+   "management_and_capital_allocation": [
+    "Record: Share repurchases have been utilized to reduce the share count from 1,556m (2006) to 1,288m (2010) [D02].",
+    "Candour: Not in pack.",
+    "Incentives: Not in pack."
+   ],
+   "price_and_valuation": [
+    "Price: $163.07 (March 2011) [D04].",
+    "Market cap: ~$200.25bn [D04].",
+    "P/E: 14.16x (FY2010) [D04].",
+    "P/B: 8.64x [D04].",
+    "Earnings yield: 7.06% [D04].",
+    "Long bond yield: 3.47% [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 7.06,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 7.67,
+    "dividend_yield": 1.59,
+    "long_bond_yield": 3.47,
+    "basis": "Earnings yield calculated from FY2010 NI / capitalization [D04]. Mechanical FCF yield calculated from $15.364bn CFO less gross property investment / capitalization [D04]. Dividend yield based on $2.60 annual rate [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Switching costs may be temporary if enterprise architecture changes [D05].",
+    "Revenue growth is less impressive than EPS growth driven by buybacks [D05].",
+    "Financing activities, pension assumptions, and outsourcing execution complicate financials [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "2011-01-18: Q4 2010 results and 2011 earnings guidance released [D03].",
+    "2011-02-22: 2010 Annual Report published [D01]."
+   ],
+   "berkshire_context": [
+    "Berkshire cash (year-end 2010): $38.2bn [D08].",
+    "Berkshire float (year-end 2010): $65.832bn [D08].",
+    "Existing stake: Not in pack."
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Maintenance capex, true owner earnings, specific insider ownership, and current Berkshire position."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The business provides essential enterprise IT infrastructure that creates long-term, sticky relationships with large organizations [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "Deep integration into customer operations combined with high switching costs—including retraining and execution risk—provide a formidable barrier to competition [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Net income grew consistently from $9.5bn in 2006 to $14.8bn in 2010, demonstrating resilience over the period [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company maintains extremely high ROE, reaching 66.8% in 2010, and maintains a manageable leverage profile relative to its scale [D02, D04]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "Despite maintaining significant infrastructure, the company generates robust earnings relative to its property investment, and its service-oriented model is not overly capital-intensive [D01, D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "While management has demonstrated capital discipline through consistent share repurchases, specific details regarding their candor and incentive structures are missing from the pack [D02]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of approximately $200bn, the company is of sufficient scale to meaningfully impact Berkshire's results [D04]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The earnings yield of 7.06% is more than 2x the long bond yield of 3.47%, satisfying the margin of safety requirement for this era [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 7,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a deeply entrenched enterprise IT provider with strong switching costs and impressive returns on capital."
+  },
+  "gate2": {
+   "templates": [
+    "B1"
+   ],
+   "why_available": "The market appears concerned that the company's enterprise architecture dominance could erode due to shifting technology paradigms and that EPS growth is artificially inflated by share repurchases rather than organic revenue expansion [D05]. We believe the market under-rates the durability of the switching costs created by deep integration into customer infrastructure and the company's ability to maintain its high returns on capital over the long term [D01]. The value will manifest through the continued compounding of earnings, supported by a disciplined management team that has demonstrated an effective use of excess capital via share buybacks [D02].",
+   "evidence": [
+    "Consistent net income growth from $9.5bn to $14.8bn over four years [D02].",
+    "High return on equity of 66.8% [D02].",
+    "Deeply entrenched position in customer operations creating high switching costs [D01].",
+    "Share count reduced significantly from 1,556m to 1,288m between 2006 and 2010 [D02]."
+   ],
+   "market_narrative_we_disagree_with": "The market fears that enterprise architecture integration is a temporary moat that will dissipate and that the business lacks genuine top-line growth, relying too heavily on financial engineering [D05].",
+   "what_must_be_true": [
+    "The switching costs for customers remain high despite industry evolution.",
+    "Management continues to allocate capital efficiently.",
+    "The business maintains its competitive advantage in critical enterprise infrastructure."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "11.49 [D02, D04]",
+   "initial_pretax_yield_pct": 7.06,
+   "intrinsic_value_range": {
+    "low": "170",
+    "high": "220",
+    "key_assumptions": [
+     "Revenue growth persists due to entrenched switching costs [D01]",
+     "Maintenance capex approximates historical gross property investment [D02]",
+     "EPS growth continues via disciplined share repurchases [D02]"
+    ],
+    "discount_rate_used": "3.47% long bond rate [D04]"
+   },
+   "price_vs_value": "Price ($163.07) is ~96% of low-end value; modest margin of safety",
+   "expected_return_pct": {
+    "base": 10,
+    "bear": 5,
+    "bull": 14
+   },
+   "alternatives": "Existing holdings or T-bills / long bonds; the current yield exceeds the bond rate [D04], but cash remains high [D08] for better opportunities.",
+   "downside_case": "Permanent loss unlikely due to high switching costs [D01] and dominant market position, but EPS stagnation could result in capital underperformance.",
+   "valuation_verdict": "FAIR",
+   "flagged_assumptions": [
+    "Maintenance capex assumed equal to reported gross property investment [D02]",
+    "Earnings persist at FY2010 levels as a base for valuation [D04]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are long-term owners of wonderful businesses. Our edge is patience and the ability to look past short-term market noise to focus on the compounding of owner earnings over time [D01, D02].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Continued compounding of earnings supported by a dominant enterprise market position [D01, D02]",
+    "Efficient allocation of excess capital through disciplined share repurchases [D02]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "As of 2011, Berkshire has reached a scale where we focus on marketable securities that serve as permanent homes for our capital, provided they possess durable moats and are run by management teams who act as rational stewards of shareholder value [D01, D02, D04]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Pricing power lost to cloud-native competitors eroding the utility of the installed base [D05]",
+    "Regulator or client mandate forces a structural change to enterprise IT procurement",
+    "Management begins making large, value-destructive acquisitions outside of the core expertise",
+    "Revenue base continues to shrink, rendering the EPS growth via repurchases unsustainable [D05]"
+   ],
+   "berkshire_constraints": "Must maintain a cash floor of at least $30B [D08], and limit position size to ensure the investment does not create excessive regulatory reporting requirements or liquidity issues [D04].",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Allocating capital to existing high-conviction holdings or maintaining liquidity for larger whole-company acquisitions given the $38.2B cash balance [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The company's scale and established enterprise moat fit within the types of durable franchises Buffett has historically favored for Berkshire's equity portfolio.",
+   "biggest_risk_in_one_sentence": "The risk that the company's enterprise architecture dominance is structurally undermined by shifting technology paradigms, causing the moat to evaporate over time [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2011-03-31",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "11.49 per share",
+   "initial_pretax_yield_pct": 7.06,
+   "intrinsic_value_range": "170-220",
+   "expected_return_pct": 10,
+   "downside_case": "EPS stagnation leads to capital underperformance, but permanent loss is unlikely due to high switching costs."
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at an earnings yield of 7.06% against a long bond yield of 3.47%, providing a meaningful margin of safety [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The business possesses a deep-seated moat derived from integrated enterprise architecture that creates high switching costs for large organizations [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Management has demonstrated disciplined capital allocation by significantly reducing the share count from 1,556 million to 1,288 million between 2006 and 2010 [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "The company maintains exceptional economics with a 66.8% return on equity and robust net income growth from $9.5bn to $14.8bn over the last four years [D02].",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Pricing power lost to cloud-native competitors eroding the utility of the installed base [D05].",
+   "Regulator or client mandate forces a structural change to enterprise IT procurement.",
+   "Management begins making large, value-destructive acquisitions outside of the core expertise.",
+   "Revenue base continues to shrink, rendering the EPS growth via repurchases unsustainable [D05]."
+  ],
+  "what_would_change_our_mind": "A fundamental shift in how enterprises manage their IT infrastructure that renders our client's integrated offerings obsolete, or clear evidence that management is overpaying for growth to compensate for an eroding core business.",
+  "memo": "The Company occupies a vital position in the modern economy, providing the critical information technology infrastructure upon which large organizations rely for their daily operations [D01]. By weaving its services, middleware, and systems into the fabric of its customers' businesses, the company creates a sticky, long-term relationship that is difficult for any competitor to break [D01]. This deep integration ensures that once a client is on board, the switching costs—comprising retraining, execution risk, and migration friction—become an formidable barrier to entry [D01].\n\nCharlie and I have long admired businesses that demonstrate consistent performance, and this company is no exception. Between 2006 and 2010, the company grew its net income from $9.5 billion to $14.8 billion, a testament to its operational durability [D02]. Furthermore, the company achieves an impressive 66.8% return on equity, indicating that it requires relatively little incremental capital to maintain its dominant market position [D02]. Such economics are rare and provide us with a high degree of confidence in the underlying strength of the franchise.\n\nManagement has shown a disciplined approach to capital allocation, particularly in its commitment to share repurchases [D02]. By reducing the share count from 1,556 million to 1,288 million over the past four years, they have effectively increased the ownership stake of remaining shareholders without relying on external financing [D02]. This focus on per-share value is exactly what we look for when we entrust our capital to a management team [D02].\n\nMr. Market is currently preoccupied with the fear that new technology paradigms will erode the company's dominance and that revenue growth is not organic [D05]. We believe these concerns are overblown and that the market fails to properly value the lasting nature of the company’s enterprise relationships [D01]. As a result, we are able to purchase a piece of a high-quality business at a price that yields more than double that of a long-term government bond [D04]. It is a rare day when such a wonderful business is offered at a fair price [D04].",
+  "uncited_claims": []
+ }
+}

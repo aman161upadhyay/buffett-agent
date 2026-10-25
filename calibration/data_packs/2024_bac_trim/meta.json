@@ -1,0 +1,26 @@
+{
+  "id": "2024_bac_trim",
+  "company": "Bank of America Corporation",
+  "ticker": "BAC",
+  "aliases": [
+    "Bank of America Corporation",
+    "BAC",
+    "Bank of America",
+    "BofA",
+    "Merrill Lynch",
+    "Merrill",
+    "Countrywide",
+    "Countrywide Financial",
+    "US Trust",
+    "U.S. Trust",
+    "Brian Moynihan",
+    "Moynihan"
+  ],
+  "as_of_date": "2024-07-17",
+  "mode": "existing",
+  "era": "D",
+  "first_action_window": "2024-07-17 first reported sale date; continued thereafter",
+  "fund_aum_usd_bn": 189.0,
+  "decider": "unknown",
+  "notes": "No authenticated Buffett rationale. S3 is taxonomy for observed portfolio/threshold management, not a claimed explanation or forced regulatory sale. Apple tax comments must not be reused as BAC motive. Below-10% status was reached in October, not at first July trim. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated."
+}

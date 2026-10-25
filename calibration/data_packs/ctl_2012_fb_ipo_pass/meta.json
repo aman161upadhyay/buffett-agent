@@ -1,0 +1,22 @@
+{
+  "id": "ctl_2012_fb_ipo_pass",
+  "company": "Facebook",
+  "ticker": "FB",
+  "aliases": [
+    "Facebook, Inc.",
+    "Facebook",
+    "FB",
+    "The Facebook",
+    "Facebook Platform",
+    "Instagram",
+    "Meta Platforms",
+    "META"
+  ],
+  "as_of_date": "2012-05-17",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "2012-05-05",
+  "fund_aum_usd_bn": 37.3,
+  "decider": "Buffett",
+  "notes": "Research pack is an affirmative analyst case, not an investor endorsement. Cutoff is end of the as_of_date, including same-date evening releases. fund_aum_usd_bn is the explicitly dated cash/T-bill benchmark in D08, except Cisco where it is 1998 common-stock market value. Not consolidated assets or fee-paying AUM. Final prospectus is dated May 17 but filed May 18; used as the May 17 pricing document, with that release/filing distinction explicit. No market close exists before IPO. Prior public refusal is intentionally not reproduced in docs, to avoid giving away the label."
+}

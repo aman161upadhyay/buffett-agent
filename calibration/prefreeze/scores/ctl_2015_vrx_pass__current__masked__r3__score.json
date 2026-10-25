@@ -1,0 +1,52 @@
+{
+ "trade_id": "ctl_2015_vrx_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "No ownership in the window",
+   "No Valeant/VRX/Bausch predecessor position in the parent 2010–Q2 2026 13F census",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements"
+  ],
+  "extra_agent_drivers": [
+   "The business relies on a debt-fueled serial acquisition model",
+   "Management's reliance on non-GAAP metrics obscures quality of earnings",
+   "High leverage and constant need for acquisition-related capital investment represent unacceptable risks",
+   "The company lacks the durable competitive advantage and transparent earnings record"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Permanent loss of capital if credit markets tighten or acquisition-driven model collapses",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business relies on a debt-fueled serial acquisition model",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Maintenance capital expenditures are not clearly separated from the heavy integration and restructuring costs",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 9,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We prefer to put our money into businesses we understand and trust, rather than those that require us to guess at the sustainability of their earnings; this idea sits firmly in the 'too hard' pile [D01], [D05].",
+ "grader_notes": "The agent correctly identified the decision (PASS) but failed to replicate Buffett's reasoning, which was grounded in non-ownership and the lack of authenticated issuer-specific statements during the period. The agent instead generated a detailed fundamental analysis and investment thesis, treating analyst-reconstructable bear cases from the provided documents as if they were Buffett's own stated drivers.",
+ "run": "ctl_2015_vrx_pass__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

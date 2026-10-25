@@ -1,0 +1,42 @@
+{
+  "id": "2015_pcp_acq",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Approximately $37.2 billion enterprise value; $32+ billion cash equity purchase, with existing shares and net debt distinct",
+  "first_action_date": null,
+  "disclosure_date": "2015-08-10",
+  "reason_class": null,
+  "opportunity_template": [
+    "B1",
+    "B4"
+  ],
+  "catalyst_role": "R3",
+  "decider": "Buffett",
+  "size_basis": "cash",
+  "drivers": [
+    {
+      "driver": "PCC was an admired specialized manufacturing franchise.",
+      "source": "https://www.berkshirehathaway.com/news/aug1015.pdf (2015-08-10; next-day announcement)",
+      "quote": "I\u2019ve admired PCC\u2019s operation for a long time."
+    },
+    {
+      "driver": "It was the aerospace industry's preferred supplier.",
+      "source": "https://www.berkshirehathaway.com/news/aug1015.pdf (2015-08-10; next-day announcement)",
+      "quote": "it is the supplier of choice for the world\u2019s aerospace industry"
+    },
+    {
+      "driver": "Its operating model and retained management fit permanent Berkshire ownership.",
+      "source": "https://www.berkshirehathaway.com/news/aug1015.pdf (2015-08-10; next-day announcement)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "$235/share in cash; approximately $37.2 billion including net debt.",
+  "outcome_note": "2020 letter published 2021-02-27: Buffett admitted overpaying and misjudging average future earnings; roughly $11 billion impairment almost entirely PCC, hindsight only.",
+  "sources": [
+    "https://www.berkshirehathaway.com/news/aug1015.pdf",
+    "https://www.sec.gov/Archives/edgar/data/79958/000007995815000049/pcp2015062810-q.htm",
+    "https://www.berkshirehathaway.com/letters/2014ltr.pdf"
+  ],
+  "pack_quality_notes": "ERROR CASE. $37 billion headline is enterprise value, not incremental cash equity. Existing deputy-sized public holding is disclosed; new means control acquisition. Final offer after cutoff is key-only. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated. Key source timing: 2015-08-10; next-day announcement. Unknown first execution is null; see meta.first_action_window. Fewer than three authenticated drivers means reasoning is unscorable rather than completed with invented manager claims.",
+  "quality_grade": "B"
+}

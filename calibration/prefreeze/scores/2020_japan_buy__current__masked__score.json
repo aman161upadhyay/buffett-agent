@@ -1,0 +1,49 @@
+{
+ "trade_id": "2020_japan_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Yen bonds limited net currency mismatch. → We anticipate these companies will improve their capital allocation and continue their history of dividend payments, which, when coupled with our ability to fund these holdings with low-cost yen-denominated debt, creates a highly favorable yield spread [D06, D08]."
+  ],
+  "missed": [
+   "Buffett wanted long-term participation in Japan and the five chosen businesses.",
+   "Their worldwide joint ventures offered possibilities of mutual benefit."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value / margin of safety",
+   "Attractive initial earnings yield",
+   "Value realization through disciplined capital allocation / buybacks / dividends"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "the trading houses sell at 0.57x to 1.14x book value",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "five Japanese general trading houses... are diversified conglomerates",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 1,
+  "share": 0.11
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are initiating a position in five prominent Japanese trading houses that are, in aggregate, attractively priced relative to their intrinsic value [D01, D06].",
+ "grader_notes": "The agent correctly identified the decision to buy, but failed to capture the primary, high-level strategic reasoning cited by Buffett (long-term participation and mutual benefit), instead focusing on valuation metrics and specific financial mechanics that were not the drivers provided by the principal. While the yen-debt financing logic aligned with the answer key, the overall reasoning structure reflected an analyst-driven valuation framework rather than Buffett's stated intent.",
+ "run": "2020_japan_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,5 @@
+# Prompt freeze v1.6 — 2026-10-25T17:42Z — sha256 of AGENT.md and every prompts/*.md; hold-out packs opened only after this freeze
+6d627922f7644df36679db676e9b4c976248b7d8e81655064eafddc34f118150  AGENT.md
+d50850092dc83735d7fc449d53afe6a9a5ed277591c9c3937b9a9ff6dbc51a85  prompts/00_system.md
+1bae734bd092911e7630a206cc486aac83e3e828390135fe64b6584a8b15a18b  prompts/01_fact_sheet.md
+ad3264a7ce0280b0305f255b61fb15c5690971e1b9199f25a2e84fae99e5b808  prompts/02_gate1_business_quality.md

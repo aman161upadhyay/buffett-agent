@@ -1,0 +1,254 @@
+{
+ "pack": "2016_aapl_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2016-04-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company sells consumer devices integrated with proprietary software and services [D01]. It operates as a consumer franchise supported by a broad installed base, applications, accessories, and customer accounts [D01].",
+   "products_customers_and_why_they_buy": [
+    "Consumer devices and integrated services [D01].",
+    "Customers benefit from ecosystem convenience, which creates switching costs and encourages repeat purchases [D01]."
+   ],
+   "economics": [
+    "Operating margins: 31.2% (2011), 35.3% (2012), 28.7% (2013), 28.7% (2014), 30.5% (2015) [D02].",
+    "ROE proxy (NI/year-end equity): 33.8% (2011), 35.3% (2012), 30.0% (2013), 35.4% (2014), 44.7% (2015) [D02].",
+    "Capital intensity: Capex increased from $4.260bn in 2011 to $11.247bn in 2015 [D02].",
+    "Pricing power is subject to product desirability and requires continued investment [D01]."
+   ],
+   "earnings_record": [
+    "Revenue growth: 2011: $108.249bn; 2012: $156.508bn; 2013: $170.910bn; 2014: $182.795bn; 2015: $233.715bn [D02].",
+    "Net income: 2011: $25.922bn; 2012: $41.733bn; 2013: $37.037bn; 2014: $39.510bn; 2015: $53.394bn [D02].",
+    "Recent cyclicality: Revenue fell 12.8% and net income fell 22.5% in Q2 2016 compared to the prior year [D03]."
+   ],
+   "competitive_position": [
+    "The Company maintains a broad installed base and ecosystem [D01].",
+    "Competitors include Samsung and Android-based phone manufacturers [D06].",
+    "Moat evidence is tied to ecosystem switching costs, but the company faces risks from premium pricing, product cycle dependence, and concentrated hardware demand [D01, D05]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Debt (including commercial paper): $64.328bn as of FY2015 [D02].",
+    "Cash and marketable securities: $232.928bn as of 2016-03-26 [D04].",
+    "Net cash: $153.056bn [D04].",
+    "The capital-return program is expanded to $250 billion [D03]."
+   ],
+   "management_and_capital_allocation": [
+    "The company has returned more than $163 billion to shareholders through March 2016 [D03].",
+    "Buyback authorization is not execution [D01, D08].",
+    "Management record is evidenced by historical growth but faced a contraction in the most recent periods [D03]."
+   ],
+   "price_and_valuation": [
+    "Price: $93.74 (as of 2016-04-29) [D04].",
+    "Market cap: ~$513.55bn [D04].",
+    "P/E: 10.39x [D04].",
+    "P/B: 3.94x [D04].",
+    "Earnings yield: 9.62% [D04].",
+    "10-year US Treasury yield: 1.83% [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Smartphone growth is saturating [D05].",
+    "Competitors offer lower-priced alternatives [D05].",
+    "Heavy reliance on a single upgrade cycle [D05].",
+    "China demand, foreign exchange volatility, and carrier behavior [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2016-04-26: Reported Q2 FY2016 revenue of $50.6bn and net income of $10.5bn [D02, D03].",
+    "2016-04-26: Announced expansion of capital-return program to $250bn [D03]."
+   ],
+   "berkshire_context": [
+    "Berkshire held approximately $61.2bn in cash at year-end 2015 [D08].",
+    "Investment deputies have discretion over smaller portfolios [D08].",
+    "Existing stake: not in pack."
+   ],
+   "document_conflicts": [
+    "None identified."
+   ],
+   "missing_data": [
+    "Current-quarter holdings for Berkshire, specific details on offshore cash repatriation tax, and a complete matched equity-portfolio concentration table."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The company operates as a consumer franchise with an integrated ecosystem of devices and services that creates switching costs [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "A broad installed base and ecosystem provide stickiness, though the company requires continued investment in product desirability to maintain its position [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "The company has demonstrated significant growth in revenue and net income from 2011 to 2015 [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company maintains high ROE figures (exceeding 30% in most recent years) and has a significant net cash position [D02, D04]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "While capital expenditure has increased, the company's high returns on capital and substantial cash generation indicate it can fund its requirements [D02, D04]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Management has demonstrated an owner-oriented approach by returning over $163 billion to shareholders through March 2016 [D03]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market cap of over $500 billion, this is an investment of sufficient scale for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The earnings yield of 9.62% is well above the 1.5x threshold for the 1.83% long bond yield [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 8,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a powerful consumer franchise with high returns on capital and exceptional cash generation"
+  },
+  "gate2": {
+   "templates": [
+    "B1"
+   ],
+   "why_available": "The market is overly focused on short-term saturation in the smartphone market and the risks of a single upgrade cycle, leading to a depressed valuation [D05]. We believe the market under-rates the enduring strength of the consumer franchise, its stickiness through ecosystem switching costs, and the company's massive capacity to return cash to shareholders [D01, D03]. Value will be realized as the business continues to generate exceptional returns on capital and capitalizes on its installed base [D02].",
+   "evidence": [
+    "Earnings yield of 9.62% is highly attractive compared to the 1.83% long bond yield [D04].",
+    "The company has a significant net cash position of $153.056bn [D04].",
+    "Management has demonstrated an owner-oriented approach by committing to return $250bn in capital to shareholders [D03]."
+   ],
+   "market_narrative_we_disagree_with": "The narrative that smartphone saturation and reliance on a single upgrade cycle permanently impair the company's long-term earnings power [D05].",
+   "what_must_be_true": [
+    "The ecosystem continues to retain customers through switching costs despite hardware competition.",
+    "Management maintains its disciplined capital allocation policy.",
+    "Product desirability remains sufficient to command pricing power over the long term."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "$9.92 [D02, D04]",
+   "initial_pretax_yield_pct": 9.62,
+   "intrinsic_value_range": {
+    "low": "$115.00",
+    "high": "$150.00",
+    "key_assumptions": [
+     "Ecosystem stickiness offsets hardware cyclicality [D01]",
+     "Capital returns continue at scale [D03]",
+     "Operating margins stabilize above 25% [D02]"
+    ],
+    "discount_rate_used": "1.83% [D04]"
+   },
+   "price_vs_value": "Price is 81.5% of the low-end estimate; margin of safety exists given the net cash position.",
+   "expected_return_pct": {
+    "base": 12,
+    "bear": 5,
+    "bull": 18
+   },
+   "alternatives": "Existing holdings or T-bills; this offers superior earnings yield and capital return potential compared to 1.83% long bonds [D04].",
+   "downside_case": "Significant contraction in hardware demand and margin compression; however, massive net cash position of $153.056bn limits risk of permanent capital loss [D02, D04].",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Owner earnings approximated by reported net income due to lack of D&A and maintenance capex breakdown [D02]",
+    "Discount rate assumption derived from long bond yield [D04]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital [D03].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Continued compounding of owner earnings [D02].",
+    "Disciplined capital return program through buybacks and dividends [D03]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "As of 2016, we view this as a powerful consumer franchise; we are buying a wonderful business at a fair price to hold indefinitely, trusting management's owner-oriented capital allocation [D03]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent loss of pricing power due to successful lower-cost Android commoditization [D05]",
+    "Failure of the ecosystem to retain users across subsequent hardware upgrade cycles [D01]",
+    "Management deviates from the shareholder-friendly capital allocation policy [D03]"
+   ],
+   "berkshire_constraints": "Must maintain a minimum cash floor of $30B [D08]; investment must be made without causing adverse market impact, though daily volume is high enough for accumulation [D04].",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 10,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Comparison to existing equities or short-term T-bills, where the 9.62% earnings yield of this franchise provides superior long-term returns relative to current interest rate environment [D04].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "As a consumer franchise with significant scale and predictable economics, this is a core business decision that falls squarely under Buffett's purview [D03].",
+   "biggest_risk_in_one_sentence": "The risk that slowing smartphone industry growth and hardware commoditization permanently impair the company's ability to maintain high margins and product desirability [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2016-04-30",
+  "company": "the Company (XXX)",
+  "ticker": "AAPL",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "$9.92",
+   "initial_pretax_yield_pct": 9.62,
+   "intrinsic_value_range": "$115.00 - $150.00",
+   "expected_return_pct": 12,
+   "downside_case": "Significant contraction in hardware demand and margin compression, mitigated by massive $153.056bn net cash position"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the company sells for an initial earnings yield of 9.62% against a 1.83% long bond yield, representing a compelling entry point [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The company acts as a powerful consumer franchise with a sticky ecosystem that creates meaningful switching costs for customers [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Management has demonstrated an owner-oriented approach to capital allocation, having already returned $163 billion to shareholders [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The company maintains exceptional returns on capital, regularly exceeding 30% ROE, while holding a massive net cash position of $153.056bn [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent loss of pricing power due to successful lower-cost Android commoditization [D05]",
+   "Failure of the ecosystem to retain users across subsequent hardware upgrade cycles [D01]",
+   "Management deviates from the shareholder-friendly capital allocation policy [D03]"
+  ],
+  "what_would_change_our_mind": "Evidence that the ecosystem's stickiness has evaporated, leading to a permanent impairment of margins and the loss of the company's competitive moat against commoditized hardware competitors [D01, D05].",
+  "memo": "The Company is a world-class consumer franchise that has built a remarkably sticky ecosystem of devices, software, and services [D01]. We understand this business because it relies on simple, durable human behavior: once a customer enters the ecosystem, the switching costs encourage repeat purchases and long-term retention [D01].\n\nDespite the market's current fixation on smartphone saturation, the business generates exceptional returns on capital, consistently exceeding 30% [D02]. It has demonstrated its ability to grow substantially over the last five years, and we believe its broad installed base provides a durable advantage that is currently underappreciated [D01, D02].\n\nManagement has proven to be highly owner-oriented, having returned $163 billion to shareholders through March 2016 and committing to a total capital return program of $250 billion [D03]. Their disciplined approach to using the company's vast cash hoard aligns perfectly with our own philosophy on capital allocation [D03].\n\nMr. Market is currently focused on short-term hardware cycles and fears of industry saturation, which has allowed us to purchase this wonderful business at an attractive initial earnings yield of 9.62% [D04, D05]. With 10-year Treasury yields at only 1.83%, this yield is compelling and offers a significant margin of safety [D04].\n\nWe value this company in the range of $115 to $150 per share, and at the current price of $93.74, we are essentially buying a dollar of earnings for well under fair value [D04]. Given the company's massive net cash position of $153.056 billion, the risk of permanent capital loss is remote [D04].\n\nWe view this as a long-term holding that we intend to keep indefinitely [D03]. We will size this position at 5% of our equity portfolio, as the business is of sufficient scale to move the needle for Berkshire and possesses the economic characteristics we prize [D04].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "trade_id": "2008_cop_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett alone favored the long-run oil and gas economics.",
+   "He still expected higher future oil prices in the post-mortem.",
+   "He acknowledged failure to anticipate the dramatic commodity-price decline."
+  ],
+  "extra_agent_drivers": [
+   "Commodity price cyclicality renders earnings yield unreliable.",
+   "Business lacks a durable competitive advantage.",
+   "Operating results are heavily dependent on volatile commodity prices.",
+   "Production volumes are in decline.",
+   "Capital-intensive nature risks significant cash outflows."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at 6.65x TTM earnings, implying a 15.04% trailing earnings yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Production volumes are in decline",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Permanent loss of capital if commodity prices mean-revert and capital expenditure requirements for reserves exceed cash flow",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 6,
+  "share": 0.6
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have examined the Company and concluded that it does not meet our requirements for a long-term investment.",
+ "grader_notes": "The agent completely missed the actual investment thesis, which was a high-conviction bet on oil economics by Buffett. The agent provided a detailed fundamental analysis citing lack of a moat and cyclical risks, which is diametrically opposed to the decision made by the actual investor.",
+ "run": "2008_cop_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

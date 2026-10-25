@@ -1,0 +1,253 @@
+{
+ "pack": "ctl_2020_ba_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2020-03-20",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a global large-commercial-aircraft manufacturer with additional businesses in defense, space, and services [D01]. Certification requirements, engineering, and installed fleets create high entry barriers for the business [D01].",
+   "products_customers_and_why_they_buy": [
+    "Commercial aircraft, defense, space, and service offerings [D01].",
+    "Customers include airlines and defense/government entities [D01].",
+    "Barriers to entry such as certification and specialized training requirements sustain the franchise [D01]."
+   ],
+   "economics": [
+    "Free cash flow was $13.6 billion in the prior profitable year [D01].",
+    "Negative free cash flow of $4.280 billion in the most recent year [D01].",
+    "Capital expenditure was $1.834 billion [D01].",
+    "Anticipated $4 billion in abnormal production costs related to MAX production suspension and resumption [D01]."
+   ],
+   "earnings_record": [
+    "Prior year profitable: $10.460 billion net profit; GAAP EPS $17.85 [D01].",
+    "Current year: $636 million net loss; GAAP EPS negative $1.12 [D01].",
+    "Revenue declined 24% to $76.559 billion from $101.127 billion [D01]."
+   ],
+   "competitive_position": [
+    "Operates in a duopoly for large-commercial-aircraft manufacturing [D01].",
+    "Backlog of $463 billion including over 5,400 commercial airplanes [D01].",
+    "Precision Castparts ownership by Berkshire provides industry exposure but does not duplicate the Company's liabilities [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Cash and marketable securities totaled $10.0 billion [D01].",
+    "Consolidated debt was $27.3 billion [D01].",
+    "Dividends in the fourth quarter consumed $1.2 billion despite negative operating cash flow [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "not in pack"
+   ],
+   "price_and_valuation": [
+    "March 20 closing price: $95.01 [D02].",
+    "P/E ratio based on prior year EPS: 5.32x [D02].",
+    "Current profit multiple is meaningless due to negative EPS [D02]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Simultaneous collapse in airline finances and safety-certification delays [D05].",
+    "Backlog risk where customers may be unable to fund deliveries [D05].",
+    "Potential for repeated external financing or dilution [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "January 29: Full-year results published [D07].",
+    "March 20: Market stress and travel restrictions heighten liquidity concerns [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds approximately $128 billion in cash, cash equivalents, and Treasury bills [D08].",
+    "Berkshire already owns Precision Castparts and has positions in major airlines [D08].",
+    "An investment would add correlated aviation exposure [D08]."
+   ],
+   "document_conflicts": [
+    "not in pack"
+   ],
+   "missing_data": [
+    "Normalized maintenance capex, updated debt figures post-pandemic start, and specific executable rescue security terms."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The company operates in a duopoly for large-commercial-aircraft manufacturing with massive barriers to entry through certification requirements and installed fleets [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "A massive $463 billion backlog and duopoly market position provide a durable competitive advantage [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company swung from a $10.460 billion profit to a $636 million net loss in the current year, and free cash flow turned negative [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company faces significant financial strain with consolidated debt of $27.3 billion against negative free cash flow [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is capital intensive with $1.834 billion in capex and $4 billion in abnormal production costs, lacking the characteristics of a regulated monopoly or low-cost producer [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "The pack contains no information regarding the quality, candor, or capital allocation track record of the current management [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The company's scale is sufficiently large to be meaningful for Berkshire [D01]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "Current profit multiples are meaningless due to negative earnings and significant liquidity concerns, making an intrinsic value assessment speculative [D02], [D05]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 3,
+   "n_fail": 3,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a duopoly with a massive moat that is currently suffering from severe operational and financial distress."
+  },
+  "gate2": {
+   "templates": [
+    "B2"
+   ],
+   "why_available": "The market is currently pricing in a worst-case liquidity crisis driven by the simultaneous collapse of airline finances and safety-certification issues [D05]. While the company faces severe financial and operational distress, it remains one of two players in a critical, high-barrier industry that the global economy cannot function without [D01]. The value will manifest once production stabilizes, airline demand returns, and the franchise's long-term utility as a duopolist is realized over its $463 billion backlog [D01].",
+   "evidence": [
+    "Simultaneous collapse in airline finances and safety-certification delays [D05].",
+    "Backlog of $463 billion including over 5,400 commercial airplanes [D01].",
+    "Market stress and travel restrictions heighten liquidity concerns [D07]."
+   ],
+   "market_narrative_we_disagree_with": "The market fears a permanent impairment of the enterprise due to potential bankruptcy, dilution, or an inability to deliver on the backlog [D05].",
+   "what_must_be_true": [
+    "The aviation industry recovers sufficiently to prevent widespread order cancellations from the backlog.",
+    "The company manages its $27.3 billion debt load without catastrophic shareholder dilution.",
+    "Safety-certification issues are resolved within a reasonable timeframe."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "Not calculable due to negative current year cash flow [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "Not estimable",
+    "high": "Not estimable",
+    "key_assumptions": [
+     "Normalization of MAX production [D01]",
+     "Solvency during liquidity crisis [D05]"
+    ],
+    "discount_rate_used": "10% assumed for business risk"
+   },
+   "price_vs_value": "Indeterminate due to high uncertainty and negative recent cash flow [D01]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": -100,
+    "bull": 15
+   },
+   "alternatives": "T-bills / Berkshire buyback — superior given our $128B cash position and the high probability of permanent loss in a capital-intensive, distressed aerospace situation [D08].",
+   "downside_case": "Bankruptcy or massive shareholder dilution; risk of permanent loss is significant given the current liquidity constraints [D05].",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Normalized maintenance capex is not provided [D01]",
+    "Long-term government bond rate not provided in pack"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are long-term owners of businesses, not speculators or stock-flippers [D08]. We prefer to hold securities indefinitely, allowing the underlying business to compound earnings and allocate capital rationally [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Business recovery and normalization of production [D01]",
+    "Reduction of debt and restoration of positive cash flow [D01]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the modern era, our edge is our permanent capital and patience, allowing us to hold through market distress while others are forced to sell [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent impairment of the aviation duopoly market structure",
+    "Inability to resolve MAX certification issues",
+    "Bankruptcy filing resulting in total shareholder wipeout",
+    "Catastrophic dilution through equity issuance to address liquidity"
+   ],
+   "berkshire_constraints": "Maintaining significant cash reserves for insurance float requirements and operational liquidity; avoidance of permanent capital loss [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "T-bills or Berkshire share repurchases offer a safer and superior expected return given the high probability of permanent loss in this distressed situation [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The investment represents a speculative bet on a distressed business rather than a predictable, high-quality franchise with a margin of safety.",
+   "biggest_risk_in_one_sentence": "The company's severe liquidity crisis and negative free cash flow during an industry downturn present an unacceptably high risk of permanent capital loss [D01], [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-03-20",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "era_a_bargain": false,
+  "negotiated_terms": false,
+  "valuation": {
+   "owner_earnings": "Not calculable due to negative cash flow",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Not estimable due to severe financial distress",
+   "expected_return_pct": 0,
+   "downside_case": "Bankruptcy or massive shareholder dilution"
+  },
+  "drivers": [
+   {
+    "driver": "The company's severe liquidity crisis and negative free cash flow present an unacceptably high risk of permanent capital loss [D01], [D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The business lacks a consistent earnings record and exhibits high capital intensity, violating our requirement for a durable, predictable franchise [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Current profit multiples are meaningless due to negative earnings and significant liquidity concerns, making a margin of safety impossible to determine [D02], [D05].",
+    "citations": [
+     "D02",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Berkshire has superior alternatives for our $128 billion cash pile, including internal repurchases or low-risk T-bills, rather than speculating on a distressed aerospace situation [D08].",
+    "citations": [
+     "D08"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent impairment of the aviation duopoly market structure",
+   "Inability to resolve MAX certification issues",
+   "Bankruptcy filing resulting in total shareholder wipeout",
+   "Catastrophic dilution through equity issuance to address liquidity"
+  ],
+  "what_would_change_our_mind": "Evidence of stabilized production, a return to consistent positive free cash flow, and a significantly strengthened balance sheet that eliminates the threat of bankruptcy or dilution.",
+  "memo": "We have looked at the Company and have decided to pass. While the business occupies a critical position in a global duopoly for large-commercial-aircraft manufacturing, its current financial state is precarious [D01]. We only invest in businesses we can understand, and today the company's financial results—swinging to a $636 million net loss and suffering from negative free cash flow—render any estimate of intrinsic value pure speculation [D01], [D02].\n\nWe prioritize durable competitive advantages and the ability to generate consistent returns on capital, yet the company is currently burdened by $27.3 billion in debt and $4 billion in abnormal production costs [D01]. A business that requires constant external validation of its solvency does not fit our definition of a wonderful business [D01], [D05]. Even with a $463 billion backlog, the immediate threats posed by the collapse in airline finances and unresolved safety-certification issues create an environment where permanent loss of capital is a very real possibility [D01], [D05].\n\nIn our view, this is a situation better described as a gamble than an investment. We have $128 billion in cash and Treasury bills that can be put to work in ways that do not risk Berkshire's reputation or capital [D08]. We prefer to own businesses that thrive in almost any economic climate, rather than those that require a perfect recovery to avoid bankruptcy or catastrophic dilution [D05], [D08]. Just as a ship in a storm should seek a harbor, we find it prudent to remain in our cash position until a truly compelling, high-quality opportunity appears.",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

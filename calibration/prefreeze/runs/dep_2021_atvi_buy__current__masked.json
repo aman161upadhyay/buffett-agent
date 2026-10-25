@@ -1,0 +1,193 @@
+{
+ "pack": "dep_2021_atvi_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2021-10-31",
+ "stages": {
+  "fact_sheet": {
+   "_raw": "{\n \"business_description\": \"The Company is an owner of recurring entertainment franchises across consoles, personal computers, and mobile platforms [D01]. It generates revenue through premium game sales, subscriptions, in-game content, and advertising [D01].\",\n \"products_customers_and_why_they_buy\": [\n  \"Premium games, subscriptions, and in-game content sold to a global user base of 408 million monthly active users, driven by habitual engagement with established franchises [D01, D03].\"\n ],\n \"economics\": [\n  \"Second-quarter GAAP operating margin of 42% and non-GAAP operating margin of 44% [D01].\",\n  \"High reliance on digital-channel revenue, which reached $2.03 billion in the second quarter [D01].\",\n  \"Trailing-twelve-month operating cash flow of $2.57 billion [D01].\",\n  \"Software production requires continuing creative investment; intellectual property is not a self-maintaining royalty stream [D01].\"\n ],\n \"earnings_record\": [\n  \"Second-quarter GAAP revenue of $2.296 billion versus $1.932 billion year-over-year [D01].\",\n  \"Second-quarter diluted EPS of $1.12 versus $0.75 year-over-year [D01].\",\n  \"Net bookings of $1.92 billion versus $2.08 billion year-over-year [D01].\"\n ],\n \"competitive_position\": [\n  \"Possesses a portfolio of established consumer franchises that reduce dependence on single-title releases [D03].\",\n  \"Competes for playtime and talent against Electronic Arts, Take-Two, and other mobile publishers [D06].\",\n  \"Facing competitive risks from free-to-play engagement, platform fees, and new entrants [D05].\"\n ],\n \"balance_sheet_and_capital_needs\": [\n  \"Not in pack.\"\n ],\n \"management_and_capital_allocation\": [\n  \"Management raised its outlook while acknowledging serious employment, compensation, and workplace allegations [D01, D03].\",\n  \"Repairing management credibility and company culture is currently necessary [D05].\"\n ],\n \"price_and_valuation\": [\n  \"Not in pack (authenticated price not available as of date) [D02, D04].\",\n  \"Latest quarterly GAAP EPS annualizes to $4.48 [D02].\"\n ],\n \"what_the_market_is_worried_about\": [\n  \"Serious workplace allegations and culture issues potentially harming the creative pipeline [D05].\",\n  \"Year-over-year decline in net bookings despite GAAP revenue increases [D05].\",\n  \"Uncertainty regarding whether pandemic-period engagement levels are sustainable [D05].\"\n ],\n \"deal_terms_if_any\": [\n  \"not in pack\"\n ],\n \"recent_events\": [\n  \"July 2021: Workplace allegations create public controversy [D07].\",\n  \"August 3, 2021: Results release acknowledges allegations [D07].\"\n ],\n \"berkshire_context\": [\n  \"Berkshire holds significant cash ($144.1 billion as of June 2021) [D08].\",\n  \"Any investment would be evaluated against other portfolio opportunities; no acquisition or merger transaction is announced [D08].\"\n ],\n \"document_conflicts\": [\n  \"None.\"\n ],\n \"missing_data\": [\n  \"Current market price, debt levels, detailed maintenance capex figures, and normalized long-term earnings records.\"\n]"
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "Software production requires ongoing creative investment rather than being a self-maintaining royalty stream, making long-term predictability difficult [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While the company holds established franchises [D03], it faces intense competition and risks from free-to-play models and platform fees [D05, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "UNSURE",
+     "evidence": "Net bookings declined year-over-year [D01], and there is uncertainty regarding the sustainability of pandemic-driven engagement [D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "Debt levels and detailed capital structure information are not in the pack [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business model requires constant creative reinvestment to maintain its product pipeline [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "FAIL",
+     "evidence": "Management credibility and culture are currently under repair due to serious workplace and compensation allegations [D03, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "The business may be too small for a direct Buffett acquisition, making it a potential deputy idea [D08]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "The current market price is not in the pack, preventing an earnings yield calculation [D02, D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 0,
+   "n_fail": 3,
+   "n_unsure": 5,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": true,
+   "one_line_business_quality_verdict": "a capital-intensive creative business facing significant management and cultural headwinds"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is reacting to significant management and cultural instability, which presents a legitimate risk to the business's creative pipeline [D05]. Because this is a capital-intensive creative business that requires constant reinvestment rather than providing a stable, predictable royalty stream, these headwinds create a situation where the long-term intrinsic value is too difficult to calculate with the required margin of safety [D01].",
+   "evidence": [
+    "Management is currently working to repair credibility and company culture due to serious workplace and compensation allegations [D03, D05].",
+    "Net bookings declined year-over-year, indicating potential headwinds for the business model [D01].",
+    "The business requires ongoing creative reinvestment rather than functioning as a self-maintaining royalty stream [D01]."
+   ],
+   "market_narrative_we_disagree_with": "The market may be attempting to price the business based on short-term GAAP earnings while ignoring the fundamental difficulty of maintaining a durable moat in a business that requires continuous, unpredictable creative hits [D01, D05].",
+   "what_must_be_true": [
+    "Evidence that the creative pipeline is not structurally impaired by internal cultural issues.",
+    "Confirmation that the business can produce consistent owner earnings without excessive capital expenditure.",
+    "Clear visibility into long-term demand levels for their franchises post-pandemic."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "4.48 annualized based on latest quarter [D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "Creative pipeline stability [D05]",
+     "Maintenance capital expenditure [D01]",
+     "Sustainability of pandemic engagement levels [D05]"
+    ],
+    "discount_rate_used": "long bond rate not in pack"
+   },
+   "price_vs_value": "not in pack",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Berkshire cash ($144.1B) [D08] offers superior liquidity and no exposure to cultural instability",
+   "downside_case": "Permanent loss of creative talent and franchise value due to cultural and management failures [D05]",
+   "valuation_verdict": "FULL",
+   "flagged_assumptions": [
+    "Current market price not available [D02]",
+    "Debt levels not available [D01]",
+    "Maintenance capex not available [D01]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are a permanent passive holder. In the rare event we invested, our edge is our patience and our ability to provide capital when others are fearful, allowing the business to compound over time [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "The value is realised through the business compounding its owner earnings and rational capital allocation by management [D01]."
+   ],
+   "decider": "deputy",
+   "why_this_role_fits_the_era": "For a business of this scale and sector, if it were considered, it would be a deputy's position as it is currently too small and lacks the necessary clarity for a direct Buffett acquisition [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management fails to resolve severe workplace and compensation allegations, resulting in a mass exodus of key creative talent [D05, D07].",
+    "Creative pipeline productivity remains impaired, preventing the return to growth in net bookings [D01, D05].",
+    "Operating margins compress significantly due to rising talent costs and increased marketing spend required to maintain engagement [D01, D06]."
+   ],
+   "berkshire_constraints": "Berkshire maintains a massive cash position ($144.1B) and requires investments to be significant enough to move the needle or remain within a deputy's authorized sleeve [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed in Berkshire's own shares or held in cash given the high uncertainty and cultural risks present [D08].",
+   "leverage": "none",
+   "decider": "deputy",
+   "decider_reason": "The business operates in an industry outside of Buffett's core circle of competence and requires active management of cultural issues, making it a deputy-level assessment if considered at all [D01, D08].",
+   "biggest_risk_in_one_sentence": "The loss of creative talent and franchise integrity due to unresolved cultural and management instability poses a direct risk of permanent loss of capital [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2021-10-31",
+  "company": "The Company (XXX)",
+  "ticker": "N/A",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "deputy",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "4.48 annualized based on latest quarter [D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of creative talent and franchise value due to cultural and management failures [D05]"
+  },
+  "drivers": [
+   {
+    "driver": "The business requires constant, unpredictable creative reinvestment rather than functioning as a stable, compounding royalty stream [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Severe management and cultural instability risks the integrity of the creative pipeline and long-term franchise value [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "Year-over-year declines in net bookings cast doubt on the sustainability of pandemic-era engagement levels [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The business operates outside our circle of competence, making any potential valuation inherently speculative [D01, D08].",
+    "citations": [
+     "D01",
+     "D08"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management fails to resolve severe workplace and compensation allegations, resulting in a mass exodus of key creative talent [D05, D07].",
+   "Creative pipeline productivity remains impaired, preventing the return to growth in net bookings [D01, D05].",
+   "Operating margins compress significantly due to rising talent costs and increased marketing spend required to maintain engagement [D01, D06]."
+  ],
+  "what_would_change_our_mind": "Clear evidence that the creative pipeline is not structurally impaired by internal cultural issues, combined with a demonstration that the business can produce consistent owner earnings without excessive, unpredictable capital expenditure.",
+  "memo": "We have looked at the Company and decided to pass. While the business owns established entertainment franchises, it fails our criteria for a predictable, self-maintaining stream of earnings [D01, D03]. Instead, this is a capital-intensive creative business that requires constant reinvestment to keep its products relevant [D01].\n\nSerious workplace and compensation allegations have created an environment where management credibility is under repair [D05, D07]. In a business where success depends entirely on the retention of creative talent, such cultural instability poses a direct risk of permanent loss of capital [D05].\n\nFurthermore, the record shows a decline in net bookings year-over-year, leaving us uncertain about the sustainability of recent engagement levels [D01, D05]. Given the difficulty of forecasting future performance in such a volatile environment, we are not willing to deploy capital here [D01].\n\nWe prefer to hold our cash or invest in businesses we can understand and trust over the long term [D08]. When the clouds gather, we do not try to forecast the weather; we simply stay inside until it is clear [D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

@@ -1,0 +1,50 @@
+{
+ "pack": "2007_petrochina_sell",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2007-07-12",
+ "stages": {},
+ "final": {
+  "as_of_date": "2007-07-12",
+  "company": "PetroChina",
+  "ticker": "0857.HK",
+  "decision": "SELL",
+  "reason_class": "S2",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Original thesis: bought as a price-to-value gap in a producer [D07].",
+   "Current thesis: market value has caught up with our estimate [S2].",
+   "Operating performance: annual profitability rose materially since 2002 [D02, D07]."
+  ],
+  "price_vs_value_now": "Market cap of HK$2,055.16 billion at a 14.53x P/E [D04], compared to our appraisal of intrinsic value; the gap has closed.",
+  "after_tax_hurdle": "The gap between our cost of $488 million [D07] and the current market valuation provides substantial proceeds to offset the 35% federal tax rate applicable in 2007.",
+  "drivers": [
+   {
+    "driver": "The original investment was a price-to-value gap, and the market price has now reached our estimate of intrinsic value [D04, D07, S2].",
+    "citations": [
+     "D07",
+     "S2"
+    ]
+   },
+   {
+    "driver": "Reported earnings have risen significantly since the purchase, causing the valuation to catch up with our appraisal [D02, D07].",
+    "citations": [
+     "D02",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Capital allocation requires us to move on when the investment thesis has been fully realized, regardless of the company's size or reputation [D01, S2].",
+    "citations": [
+     "D01",
+     "S2"
+    ]
+   }
+  ],
+  "memo": "When we purchased our stake in PetroChina in 2002–03, we did so because the market price represented a significant discount to our appraisal of the business's earning power and assets [D07]. We viewed this as a price-to-value gap rather than a permanent franchise holding of the type we might keep indefinitely [D07, S2].\n\nSince that time, the company has seen its annual profitability rise materially, and the market has finally recognized this growth in the stock's valuation [D02, D07]. With the shares now trading at a P/E of approximately 14.5x, the market value has caught up with our estimate of intrinsic value [D04]. In such cases, the prudent course is to sell, as the margin of safety that originally justified the purchase no longer exists [S2].\n\nWhile the company remains a large and capable oil and gas producer, we are not interested in holding the stock for its own sake once the investment thesis has been fulfilled [D01, S2]. We prefer to realize our gains—despite the tax consequences—and deploy that capital elsewhere, either into businesses with more attractive long-term prospects or into our own shares if the price is right [D06, D08].",
+  "uncited_claims": []
+ }
+}

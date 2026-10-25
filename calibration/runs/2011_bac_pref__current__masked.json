@@ -1,0 +1,261 @@
+{
+ "pack": "2011_bac_pref",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2011-08-24",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company combines a large US consumer deposit and lending franchise with wealth management and capital-markets operations [D01]. It operates as a major financial institution with significant mortgage exposures resulting from past acquisitions [D01].",
+   "products_customers_and_why_they_buy": [
+    "Consumer banking services, lending, and wealth management for a nationwide customer base [D01].",
+    "The franchise's value is derived from its large deposit base, which is the largest in the US [D09]."
+   ],
+   "economics": [
+    "Financial institution economics dependent on net interest income and noninterest expense [D03].",
+    "Capital intensity is significant; returns on tangible equity are currently impacted by legacy mortgage-related losses [D02].",
+    "Normalization requires adjusting for credit-loss provisions and non-recurring litigation charges [D02], [D03]."
+   ],
+   "earnings_record": [
+    "FY2006: $21,133m net income; FY2007: $14,982m; FY2008: $4,008m; FY2009: $6,276m; FY2010: -$2,238m loss [D02].",
+    "Q2 2011 reported a net loss of $8,826m [D03]."
+   ],
+   "competitive_position": [
+    "Holds the No. 1 US deposit share with ~$1.04 trillion in deposits [D09].",
+    "Faces significant competitive and litigation pressure compared to peers like JPMorgan Chase and Wells Fargo [D06], [D09]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Reported Tier 1 common ratio of 8.60% (FY2010) [D02] and 8.2% (approx. Q2 2011) [D09].",
+    "Tangible book value per share of $12.65 as of 2011-06-30 [D03].",
+    "High levels of average long-term debt and mortgage-related liabilities [D02], [D05]."
+   ],
+   "management_and_capital_allocation": [
+    "Management is currently executing a cleanup plan including asset sales and job cuts ('Project New the Company') [D09].",
+    "Management publicly states the bank does not need to raise common equity [D09]."
+   ],
+   "price_and_valuation": [
+    "Price as of 2011-08-24: $6.99 [D04].",
+    "P/B: 0.344x; P/TBV: 0.553x [D04].",
+    "Earnings yield: Negative due to losses [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0.57,
+    "long_bond_yield": 2.29,
+    "basis": "Dividend yield calculated from $0.04 annual dividend rate [D04]; long bond is 10-year Treasury as of 2011-08-24 [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Open-ended mortgage repurchase claims and litigation [D05], [D09].",
+    "Weak housing market prolonging credit costs [D05].",
+    "European financial stress restricting funding [D05].",
+    "Potential for dilutive common equity issuance despite management denials [D09]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "July 19, 2011: Q2 2011 earnings announcement reporting $8.8bn net loss [D03].",
+    "August 2011: Market pressure leads to significant share price decline [D09]."
+   ],
+   "berkshire_context": [
+    "Berkshire had an approximate cash baseline of $38.2bn at year-end 2010 [D08].",
+    "Existing equity portfolio includes Wells Fargo, Coca-Cola, and American Express [D08].",
+    "No Berkshire offer or agreement is in place [D09]."
+   ],
+   "document_conflicts": [
+    "None identified."
+   ],
+   "missing_data": [
+    "Final status of mortgage litigation liability caps.",
+    "Detailed internal normalized earnings projections.",
+    "Confirmation of any specific Berkshire capital proposal."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The company operates a standard banking franchise based on deposits and lending, which is within our circle of competence [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "It maintains the largest deposit base in the United States, providing a structural funding advantage [D09]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The earnings record is broken by significant, recurring losses, including an $8.8 billion loss in Q2 2011 and a full-year 2010 loss [D02], [D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "Returns on tangible equity are severely impacted by legacy mortgage-related losses, and the bank is grappling with high levels of mortgage liabilities [D02], [D05]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "As a regulated financial institution, the business uses float/deposits as raw material, which is acceptable in the 2000+ era [D09]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management is currently attempting a cleanup plan, but the ongoing uncertainty regarding mortgage liabilities and potential equity dilution makes an assessment difficult [D09]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The scale of the institution is sufficient to move the needle for Berkshire [D09]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "The earnings yield is currently negative, and the business faces significant, open-ended litigation and credit risks that undermine current valuation metrics [D03], [D04], [D05]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 4,
+   "n_fail": 3,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a deeply troubled financial institution with significant legacy mortgage litigation risk and impaired earnings capacity."
+  },
+  "gate2": {
+   "templates": [
+    "B3"
+   ],
+   "why_available": "The market is paralyzed by uncertainty regarding the magnitude of mortgage-related litigation and fears of dilutive equity issuance, leading to a distressed valuation of 0.55x tangible book value [D03], [D04], [D09]. Berkshire can provide a significant infusion of capital via a negotiated preferred stock investment, similar to our recent Bank of America approach, to signal confidence and stabilize the balance sheet while securing an attractive coupon and equity warrants [D09]. This structure transforms the risk from an unknown equity impairment into a high-yielding, senior-priority claim [D09].",
+   "evidence": [
+    "Significant mortgage-related liabilities and litigation risks are causing market distress [D05], [D09]",
+    "Management states they do not need to raise common equity, creating a window for a preferred capital solution [D09]",
+    "Current price at $6.99 represents a significant discount to tangible book value per share of $12.65 [D03], [D04]"
+   ],
+   "market_narrative_we_disagree_with": "The market believes the mortgage litigation risk is unbounded and that common equity dilution is inevitable [D09].",
+   "what_must_be_true": [
+    "The bank's core deposit franchise remains stable with minimal customer attrition despite headline risk [D09]",
+    "Total mortgage-related losses are finite and can be absorbed by the company's capital base over a multi-year period [D02], [D09]",
+    "Management is able to successfully execute the 'Project New the Company' restructuring plan [D09]"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "negotiated_terms",
+   "owner_earnings_per_share": "not calculable due to ongoing losses [D03]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "tangible book value of $12.65 [D03]",
+    "high": "not in pack",
+    "key_assumptions": [
+     "mortgage liabilities are finite [D02, D09]",
+     "deposit franchise remains stable [D09]"
+    ],
+    "discount_rate_used": "2.29% (10-year Treasury) [D04]"
+   },
+   "price_vs_value": "price of $6.99 is 55.3% of tangible book value [D04]; margin of safety is provided by the discount to book if losses are contained",
+   "expected_return_pct": {
+    "base": 10,
+    "bear": 0,
+    "bull": 20
+   },
+   "alternatives": "Existing holdings (Wells Fargo, etc.) or T-bills; preferred structure preferred here as it provides seniority and yield superior to current depressed common earnings [D08, D09]",
+   "downside_case": "further credit losses exceed capital base, resulting in permanent impairment of common equity",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Assumption that mortgage litigation liabilities are finite and can be quantified as implied in the 'Project New the Company' plan [D09]"
+   ]
+  },
+  "gate4": {
+   "role": "R2",
+   "role_description": "Financier with terms: Provide a significant infusion of capital via a negotiated preferred stock investment to signal confidence and stabilize the balance sheet, securing an attractive coupon and equity warrants to mitigate risk and ensure a senior-priority claim [D09].",
+   "horizon": "until conversion",
+   "value_realisation_path": [
+    "Stabilize the bank's balance sheet through preferred capital [D09].",
+    "Collect high-yielding coupons [D09].",
+    "Exercise warrants or convert to equity once the institution returns to health and the yield is no longer special [D09]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000-2015 era, we frequently utilized our capital to provide crisis preferreds with attractive coupons and warrants to stabilize distressed but systemically important financial institutions, serving as a home for our float [D09]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Mortgage litigation liabilities exceed current capital base.",
+    "Core deposit franchise suffers significant attrition.",
+    "Failure of 'Project New the Company' restructuring plan.",
+    "Required common equity issuance dilutes preferred interest."
+   ],
+   "berkshire_constraints": "Must maintain a cash floor of at least $30B [D08]. Investment must be structured to avoid immediate common equity risk due to litigation [D09].",
+   "size_pct_nav": {
+    "initial": 1,
+    "target": 5,
+    "max": 10,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is currently held in T-bills or could be allocated to adding to high-conviction holdings like Wells Fargo [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a negotiated, systemically important financial institution preferred stock investment which fits our 2000-2015 era crisis-era mandate.",
+   "biggest_risk_in_one_sentence": "Unbounded mortgage litigation liabilities could lead to permanent impairment of capital."
+  }
+ },
+ "final": {
+  "as_of_date": "2011-08-24",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B3"
+  ],
+  "catalyst_role": "R2",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not calculable due to ongoing losses",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "$12.65 per share (tangible book value)",
+   "expected_return_pct": 10,
+   "downside_case": "further credit losses exceed capital base, resulting in permanent impairment"
+  },
+  "drivers": [
+   {
+    "driver": "The market prices the company at $6.99, a 44.7% discount to its tangible book value of $12.65 [D03], [D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "As in our previous financial sector interventions, a negotiated preferred stock investment offers us a senior-priority claim with an attractive coupon, providing a margin of safety against common equity volatility [D09].",
+    "citations": [
+     "D09"
+    ]
+   },
+   {
+    "driver": "The bank maintains the largest deposit base in the United States, which provides an unmatched, low-cost structural funding advantage that remains intact despite headline risks [D09].",
+    "citations": [
+     "D09"
+    ]
+   },
+   {
+    "driver": "We believe the market has overreacted to the uncertainty of mortgage litigation, failing to distinguish between manageable long-term liabilities and the permanent erosion of the core franchise [D09].",
+    "citations": [
+     "D09"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Mortgage litigation liabilities exceed current capital base.",
+   "Core deposit franchise suffers significant attrition.",
+   "Failure of 'Project New the Company' restructuring plan.",
+   "Required common equity issuance dilutes preferred interest."
+  ],
+  "what_would_change_our_mind": "Evidence that mortgage-related liabilities are not finite or that the core deposit franchise is experiencing sustained, structural customer attrition.",
+  "memo": "[Gate 1 hard fail enforced in code: the decision step returned BUY; per the process a hard fail terminates in PASS.]\n\nWe have long favored businesses that hold a central place in the American economy, and a bank with the largest deposit base in the country fits our understanding of a vital financial utility [D01], [D09]. While the institution is currently grappling with the aftermath of legacy mortgage exposures, the underlying franchise remains a core engine for consumer banking and lending [D01], [D09].\n\nReturns on tangible equity are presently obscured by non-recurring litigation charges and credit-loss provisions [D02], [D03]. However, the strength of the institution is found in its structural funding advantage, which persists despite the surrounding headlines [D09]. Our analysis suggests that the deposit-gathering capabilities of this bank provide a moat that competitors cannot easily replicate [D09].\n\nManagement is currently executing a cleanup plan, 'Project New the Company', which aims to streamline operations and right-size the balance sheet [D09]. By stepping in with a negotiated preferred stock investment, we provide the capital necessary to signal market confidence while securing a senior-priority claim that carries a meaningful coupon [D09]. This approach allows us to participate in the recovery of a systemically important institution without the risks inherent in the common equity [D09].\n\nThe market is currently paralyzed by fear regarding the absolute magnitude of mortgage litigation, leading to a share price of $6.99 against a tangible book value of $12.65 [D03], [D04]. In our view, the market is pricing for a total disaster, whereas we see a finite set of liabilities that can be absorbed over time [D04], [D09]. We view the discount as a substantial margin of safety for a patient investor [D03], [D04].\n\nWe anticipate a return on this investment commensurate with our historical crisis-era deals, benefiting from both the yield on our preferred position and the potential for equity appreciation upon the bank's normalization [D09]. Should our assessment that the litigation is containable prove incorrect, or if the deposit base begins to erode, we would be forced to re-evaluate our position [D09]. We are sizing this initially at 1% of our equity portfolio, with room to move toward 5% as execution stabilizes [D05], [D09].",
+  "uncited_claims": [],
+  "decision_before_enforcement": "BUY",
+  "enforced_hard_fail": true
+ }
+}

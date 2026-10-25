@@ -1,0 +1,25 @@
+{
+  "id": "1993_dexter_acq",
+  "company": "Dexter Shoe",
+  "ticker": "n/a",
+  "aliases": [
+    "Dexter Shoe",
+    "Dexter",
+    "Dexter Shoe Company",
+    "Dexter Shoe Co.",
+    "Harold Alfond",
+    "Alfond",
+    "Peter Lunder",
+    "Lunder",
+    "H. H. Brown",
+    "HH Brown",
+    "Lowell Shoe"
+  ],
+  "as_of_date": "1993-09-30",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "September 30, 1993 agreement announcement; November completion/accounting distinct.",
+  "fund_aum_usd_bn": 0.0,
+  "decider": "Buffett",
+  "notes": "Historical reconstruction: doc Date is effective information cutoff, not archival publication date. Only pre-cutoff business conditions are reconstructed; later investor explanations/outcomes appear in key only. Cutoff cash and same-date equity portfolio denominator unrecovered; 0 sentinel; stock-funded proposed consideration is not cash spending. Primary September 30 agreement report recovered: ~$420 million and 25,221 proposed shares versus later $433 million / 25,203 shares actually issued. The annual letter gives November 7 acquisition accounting; November 9 press reports completion 'yesterday' (November 8), so distinguish accounting and announcement dates. Missing original Dexter earnings and cost table. BUY rationale is directly contemporary."
+}

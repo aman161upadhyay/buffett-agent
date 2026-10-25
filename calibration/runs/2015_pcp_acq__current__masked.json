@@ -1,0 +1,259 @@
+{
+ "pack": "2015_pcp_acq",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2015-08-09",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company manufactures complex metal components, investment castings, forgings, and critical fasteners, primarily for the aerospace industry [D01]. It holds sole or dominant source positions on many engine and airframe programs with long-term agreements through the end of the decade [D09].",
+   "products_customers_and_why_they_buy": [
+    "Investment castings, forgings, and fasteners sold to aerospace, power, and industrial customers [D01, D09].",
+    "Customers buy because components are essential for safe operation despite representing a small portion of total aircraft cost; supplier replacement is difficult due to certification, process expertise, and reliability requirements [D01]."
+   ],
+   "economics": [
+    "Operating margins have exceeded 20% every year since FY2007 [D09].",
+    "Returns on tangible capital are above 20% [D09].",
+    "Product requires little capital and can support bolt-on acquisitions [D09].",
+    "Translating reported profit to owner earnings requires accounting for test inventory, material costs, maintenance investment, and acquisition accounting [D01, D09]."
+   ],
+   "earnings_record": [
+    "Sales grew from $6,209m (2011) to $10,005m (2015) [D02].",
+    "Common net income rose from $1,014m (2011) to $1,777m (2014) before declining to $1,530m in 2015 [D02].",
+    "Results are currently impacted by cyclical energy/pipe market weakness and aerospace customer destocking [D09]."
+   ],
+   "competitive_position": [
+    "Sole or dominant source on many programs; 70% of sales are to aerospace [D09].",
+    "Moat is derived from process expertise, certification, and reliability [D01].",
+    "Backlog extends to eight years of production, though backlog is not distributable cash [D01, D09]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Total debt was $4,587m as of FY2015 [D02] and $5,286m as of June 28, 2015 [D03].",
+    "Cash was $1,056m as of June 28, 2015 [D03].",
+    "Requires maintenance investment, the extent of which must be assessed against reported capex [D01, D02]."
+   ],
+   "management_and_capital_allocation": [
+    "CEO Mark the Company has served since 2002 and is regarded by customers/competitors as the industry's best operator [D09].",
+    "Proposed to stay and run the business as a Berkshire subsidiary [D09]."
+   ],
+   "price_and_valuation": [
+    "Closing price on 2015-08-07 was $193.88 [D04, D09].",
+    "Potential acquisition at $235/share implies ~22x trailing earnings and ~13x EBITDA [D09].",
+    "Estimated pre-destocking run-rate P/E is 17.5x [D09].",
+    "Earnings yield at $235/share is approximately 5-6% [D09]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 5.3,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 4.6,
+    "dividend_yield": 0.062,
+    "long_bond_yield": 2.18,
+    "basis": "Trailing earnings yield and FCF yield (based on FY2015 $1.247bn mechanical FCF) calculated [D04]; dividend yield based on $0.12 annual dividend and cutoff price [D04]; bond yield is 10-year Treasury [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Aerospace customer bargaining power and shifting production schedules [D05, D09].",
+    "Weakness in energy-related and pipe businesses [D05, D09].",
+    "Potential overpayment if peak earnings are treated as normal [D05, D09]."
+   ],
+   "deal_terms_if_any": [
+    "No signed transaction; proposed acquisition at $235/share by Berkshire [D09]."
+   ],
+   "recent_events": [
+    "1 July 2015: CEO Mark the Company met Berkshire Chairman to discuss potential acquisition [D09].",
+    "28 July 2015: Q1 FY2016 results reported decline in revenue and operating income [D03].",
+    "7 August 2015: Final recovered operating document/filing [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire owns ~4.2 million shares (~3%) [D09].",
+    "Potential acquisition would be Berkshire's largest ever, requiring roughly $32bn equity/$37bn EV [D09].",
+    "Berkshire cash position ~ $66.6bn [D09]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Explicit maintenance capex estimates required to derive true owner earnings [D01, D04]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The company manufactures complex, essential components for aerospace and industrial use with long-term program agreements, making its future business profile predictable [D01, D09]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "Sole or dominant source positions in aerospace programs create high barriers to entry due to stringent certification and reliability requirements [D01, D09]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Operating margins have consistently exceeded 20% since 2007, and while current results show cyclical weakness, the core franchise remains robust [D09]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "Returns on tangible capital are above 20% [D09], and despite current debt levels, the business generates strong underlying cash flow [D01, D09]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "The business is noted to require little capital for its operations, allowing for efficient growth [D09]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "The CEO is highly regarded by the industry as the best operator and is willing to stay on under Berkshire ownership [D09]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "At an estimated $37bn enterprise value, this acquisition would be significant enough to move the needle for Berkshire [D09]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "At a proposed acquisition price of $235 per share, the earnings yield is approximately 5-6%, which falls short of the ~10% pre-tax earnings yield target relative to the 2.18% long bond yield [D09]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 7,
+   "n_fail": 1,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a high-quality aerospace component manufacturer with a durable competitive advantage and excellent management, currently priced too high to meet the margin of safety requirements"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is appropriately cautious due to cyclical weakness in the company's energy and pipe segments and destocking in the aerospace business [D09]. While the business is high-quality, the proposed valuation of $235 per share results in an earnings yield that does not meet our required margin of safety [D09].",
+   "evidence": [
+    "Proposed $235 share price implies ~22x trailing earnings, yielding 5-6% [D09].",
+    "Recent results show declining revenue and operating income [D03].",
+    "The market is concerned with cyclical energy/pipe market weakness and aerospace customer destocking [D09]."
+   ],
+   "market_narrative_we_disagree_with": "The market likely views the current earnings decline as a temporary cyclical fluctuation, potentially justifying a premium multiple in anticipation of a recovery [D09].",
+   "what_must_be_true": [
+    "The company's maintenance capex must be significantly lower than reported depreciation to boost owner earnings to a 10% yield.",
+    "The energy and pipe segment weakness must be proven to be strictly cyclical rather than a permanent impairment of demand.",
+    "Aerospace demand must remain resilient to customer bargaining power."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "Not explicitly stated; derived as trailing FCF of $1.247bn [D04] adjusted for maintenance capex (assumed 50% of depreciation)",
+   "initial_pretax_yield_pct": 5.3,
+   "intrinsic_value_range": {
+    "low": "210",
+    "high": "240",
+    "key_assumptions": [
+     "20x-23x normalized earnings",
+     "Maintenance capex lower than reported D&A",
+     "Long-term aerospace growth [D09]"
+    ],
+    "discount_rate_used": "2.18% [D04]"
+   },
+   "price_vs_value": "Price $235 is 100-112% of low-end value; lacks sufficient margin of safety",
+   "expected_return_pct": {
+    "base": 8,
+    "bear": 4,
+    "bull": 12
+   },
+   "alternatives": "Existing holdings or T-bills are superior due to the lack of margin of safety at the proposed $235 entry price compared to our long-term hurdle [D09]",
+   "downside_case": "Permanent loss of capital unlikely given competitive moat [D01], but temporary impairment of returns if cyclical downturns persist [D09]",
+   "valuation_verdict": "FULL",
+   "flagged_assumptions": [
+    "Maintenance capex assumed at 50% of reported depreciation to normalize owner earnings"
+   ]
+  },
+  "gate4": {
+   "role": "R3",
+   "role_description": "We buy businesses to keep, leaving management to operate them while capital allocation and major strategic decisions are handled in Omaha [D09].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realised through the long-term compounding of the business's earnings [D09]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "Since 2000, our focus has been on acquiring whole companies at scale to serve as permanent homes for our float, valuing excellent managers like the current CEO who are willing to continue running the business [D09]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Pricing power eroded by increased aerospace customer bargaining power or changes in production technology",
+    "Management ceases to act as an owner or leaves the company",
+    "Cyclical energy/pipe market weakness turns into a long-term structural decline",
+    "Aerospace components become commoditized due to loss of sole-source status on key programs"
+   ],
+   "berkshire_constraints": "Must maintain substantial liquidity above $30bn after the acquisition; must ensure regulatory compliance if ownership exceeds 10% thresholds; must avoid overpaying relative to a 10% pre-tax earnings yield requirement [D09].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 100,
+    "basis": "whole company acquisition funded by cash"
+   },
+   "opportunity_cost": "Cash reserves could be deployed into higher-yielding opportunities or stock repurchases if the business quality does not justify the premium price [D09].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a proposed whole-company acquisition at scale that falls within my direct purview of capital allocation for Berkshire [D09].",
+   "biggest_risk_in_one_sentence": "Paying a significant premium for peak cyclical earnings in a business facing temporary headwinds, resulting in an inadequate margin of safety."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-08-09",
+  "company": "The Company",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "estimated based on normalized FCF adjusted for maintenance capex [D03, D04]",
+   "initial_pretax_yield_pct": 5.3,
+   "intrinsic_value_range": "$210 - $240 per share",
+   "expected_return_pct": 8,
+   "downside_case": "temporary cyclical impairment of earnings due to energy/pipe weakness [D09]"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the proposed $235 acquisition price offers an initial pre-tax earnings yield of roughly 5-6% against a 2.18% long bond yield, failing to meet our 10% threshold [D09].",
+    "citations": [
+     "D09"
+    ]
+   },
+   {
+    "driver": "While the business possesses a durable moat due to sole-source positions and high certification barriers in aerospace [D01], the entry price does not provide a sufficient margin of safety [D09].",
+    "citations": [
+     "D01",
+     "D09"
+    ]
+   },
+   {
+    "driver": "We are paying a premium multiple for peak cyclical earnings at a time when the company faces headwinds in its energy, pipe, and aerospace segments [D03, D09].",
+    "citations": [
+     "D03",
+     "D09"
+    ]
+   },
+   {
+    "driver": "The company's history of 20%+ returns on tangible capital demonstrates quality, yet that excellence is not an excuse to ignore valuation [D09].",
+    "citations": [
+     "D09"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Pricing power eroded by increased aerospace customer bargaining power or changes in production technology",
+   "Management ceases to act as an owner or leaves the company",
+   "Cyclical energy/pipe market weakness turns into a long-term structural decline",
+   "Aerospace components become commoditized due to loss of sole-source status on key programs"
+  ],
+  "what_would_change_our_mind": "A significant reduction in the purchase price to a level that provides an initial pre-tax earnings yield closer to our 10% standard, or clear evidence that the current cyclical earnings decline is purely temporary and maintenance capex is significantly lower than depreciation.",
+  "memo": "We have long admired The Company for its formidable competitive position in the aerospace industry. By maintaining sole or dominant source status through rigorous certification requirements and technical expertise, the business has historically achieved operating margins exceeding 20% [D01, D09]. It is the kind of high-quality, essential business that we would be happy to own for the long term [D09].\n\nMark, the current CEO, is widely regarded as the finest operator in the industry, and his willingness to remain at the helm is a major positive [D09]. His stewardship of the company's capital and operations has been exemplary [D09]. Under ordinary circumstances, we would welcome the opportunity to add such a company to the Berkshire fold [D09].\n\nHowever, price is what you pay and value is what you get. At the proposed acquisition price of $235 per share, we are being asked to pay roughly 22 times trailing earnings for a business currently facing cyclical headwinds in its energy, pipe, and aerospace segments [D03, D09]. An initial pre-tax earnings yield of 5-6% simply does not offer the margin of safety we require, especially when measured against the 2.18% yield available on long-term government bonds [D04, D09].\n\nWe prefer to wait for Mr. Market to offer us a more attractive entry point. While the company's long-term prospects remain bright, paying a peak multiple for a business experiencing a cyclical slowdown is not a strategy we employ [D09]. We will continue to monitor the situation, but for now, we will pass.",
+  "uncited_claims": []
+ }
+}

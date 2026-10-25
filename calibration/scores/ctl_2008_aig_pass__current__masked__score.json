@@ -1,0 +1,49 @@
+{
+ "trade_id": "ctl_2008_aig_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett considered but could not undertake roughly $25B for the property/casualty unit on the crisis weekend.",
+   "He distinguished desirable operating businesses from financial-products obligations management did not adequately understand.",
+   "The pressure and depth of the funding hole prevented a workable transaction despite interest in selected units."
+  ],
+  "extra_agent_drivers": [
+   "The business is a complex conglomerate of insurance franchises bundled with opaque financial guarantees, making it impossible to project its state.",
+   "We have no way to bound the ultimate cash required in a collateral stress, rendering intrinsic value indeterminate.",
+   "The company reported a $13.16 billion net loss for the first six months, reflecting a lack of consistent earnings.",
+   "We maintain a cash floor to ensure we never rely on the kindness of strangers, and this opportunity presents an unquantifiable risk of permanent capital loss."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business is a complex conglomerate of insurance franchises bundled with opaque financial guarantees, making it impossible to project its state",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company reported a $13.16 billion net loss for the first six months",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 6,
+  "share": 0.75
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have reviewed this business and determined it sits firmly in our \"too hard\" pile.",
+ "grader_notes": "The agent reached the correct decision to PASS but failed to cite any of the specific drivers Buffett provided in the key (the specific refusal of the $25B unit deal and the inability to work out the funding hole). The agent instead provided independent fundamental analysis, which does not overlap with the retrospective reasoning provided in the answer key.",
+ "run": "ctl_2008_aig_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

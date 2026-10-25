@@ -1,0 +1,44 @@
+{
+ "trade_id": "2024_bac_trim",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Trim position to manage the regulatory and reporting burden associated with exceeding the 10% ownership threshold",
+   "Increase cash reserves in a fully priced market",
+   "Tax efficiency dictates a disciplined, staged reduction"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Trading at 1.28x book and 1.73x tangible book value as of 2024-06-30",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Stake remains above the 10% threshold, requiring insider reporting",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 5,
+  "share": 0.56
+ },
+ "state": "MATCH",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "This decision is a matter of capital management and regulatory compliance rather than a fundamental change in our view of the company's long-term earning power.",
+ "grader_notes": "The agent correctly identified the trim action but fabricated specific rationales (regulatory burden, tax efficiency, cash reserves) that were not disclosed by Berkshire Hathaway. Because the answer key explicitly states no authenticated Buffett rationale exists, any driver attributed to Buffett is an invention, rendering the reasoning overlap score effectively zero despite the correct direction.",
+ "run": "2024_bac_trim__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "TRIM",
+ "agent_decision": "TRIM",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

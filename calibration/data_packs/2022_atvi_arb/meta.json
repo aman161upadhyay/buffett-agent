@@ -1,0 +1,29 @@
+{
+  "id": "2022_atvi_arb",
+  "company": "Activision Blizzard \u2014 Microsoft cash-deal arbitrage",
+  "ticker": "ATVI",
+  "aliases": [
+    "Activision Blizzard \u2014 Microsoft cash-deal arbitrage",
+    "ATVI",
+    "Activision",
+    "Activision Blizzard",
+    "Blizzard",
+    "King",
+    "Call of Duty",
+    "World of Warcraft",
+    "Candy Crush",
+    "Overwatch",
+    "Diablo",
+    "Battle.net",
+    "Microsoft",
+    "Xbox",
+    "MSFT"
+  ],
+  "as_of_date": "2022-02-15",
+  "mode": "new",
+  "era": "D",
+  "first_action_window": "After January 18, before April 30; exact first arbitrage purchase unknown",
+  "fund_aum_usd_bn": 144.1,
+  "decider": "Buffett",
+  "notes": "New strategy overlay on pre-existing deputy stake. No contemporaneous Buffett trade date or exact cutoff spread recovered. Do not backdate the approximately $75.60 April quote to February. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated."
+}

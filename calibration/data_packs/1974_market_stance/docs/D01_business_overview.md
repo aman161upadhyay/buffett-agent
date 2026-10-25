@@ -1,0 +1,15 @@
+Title: US equity market — Business economics
+Source: Forbes interview, November 1, 1974, market and business observations only, recommendations removed; https://rogermontgomery.com/wp-content/uploads/2013/11/AnInterviewwithWarrenBuffettin1974.pdf; Berkshire financial statements, unaffiliated common-stock reference https://ia803100.us.archive.org/10/items/berkshirehathawayannualreports/berkshirehathaway1973_text.pdf
+Date: 1974-11-01
+
+## Cutoff evidence — reconstructed
+
+The opportunity set is publicly traded American businesses during a severe market decline. The interview distinguishes simple businesses such as a water utility, a newspaper or a major retailer from complex businesses requiring technological predictions. Ownership economics, sensible management and limited exposure to hard times are the relevant screening variables. Price is discussed relative to net worth and going-concern business value, not merely relative to a recent high. This document reconstructs the investable setting and deliberately excludes the investor's market-stance verdict. It does not turn a cheap-looking stock into a suitable business if its risks cannot be understood.
+
+## Economic reading of the supplied facts
+
+Portfolio economics: aggregate stock ownership is a claim on business earnings, not a claim on the path of a market index. Dividends distribute part of those earnings; retained earnings add value only if employed productively. Interest rates affect the present value of both equities and bonds. An investor who sells one financial asset must still decide what to hold instead. Cash avoids duration and business risk but is exposed to inflation and the opportunity cost of missed investments. Market averages can obscure large differences among individual businesses. Comparing aggregate prices with book value or profits is a valuation exercise, not a mechanism for forecasting next month's quotation. The financial comparisons below are conditional on earnings durability and the stated measurement dates.
+
+Economic interpretation, not a management forecast: the important distinction is between demand for the product and cash available to its owners. A recognizable name is not sufficient evidence of an economic franchise. The relevant tests are repeat purchasing, the customer's alternatives, the seller's ability to maintain price, and the capital needed to preserve those advantages. Physical assets can be copied; a durable customer relationship may be harder to reproduce. Conversely, an apparently entrenched relationship can disappear if customers obtain better service or lower prices elsewhere.
+
+The business description therefore does not assume that historical profitability persists indefinitely. Separate ordinary operations from unusual charges and separate a good product from a good investment at the offered price. Management's operating record and the financing of the enterprise belong in the same assessment. No value is assigned here to an unannounced acquisition, hypothetical takeover premium, or an improvement that requires a new owner to change the basic business.

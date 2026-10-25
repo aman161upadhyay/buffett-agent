@@ -1,0 +1,63 @@
+{
+ "trade_id": "1989_usair_pref",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "The preferred structure was intended to compensate for lack of strong convictions about airline economics. → We are accepting the risks of a commodity-like, capital-intensive business in exchange for fixed terms that do not require us to rely on the difficult task of predicting long-term airline economics",
+   "The dividend, redemption and conversion rights appeared to provide downside protection plus participation. → The conversion option at $60 per share offers potential equity participation should the company's performance improve over the next decade"
+  ],
+  "missed": [
+   "Admiration for Ed Colodny and the airline's past profits underlay the original favorable assessment."
+  ],
+  "extra_agent_drivers": [
+   "The 9.25% cumulative preferred dividend provides a return superior to the 8.03% yield on long-term Treasuries, serving as our primary margin of safety",
+   "The structure grants us seniority over common equity, offering protection against the cyclicality and high fixed-cost risks inherent in the airline industry"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The 9.25% cumulative preferred dividend provides a return superior to the 8.03% yield on long-term Treasuries",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The structure grants us seniority over common equity",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management has navigated a period of rapid acquisition-led growth",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The conversion option at $60 per share provides a kicker",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Airline industry is a commodity business with high capital intensity",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 1,
+  "share": 0.09
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are not buying this business for its long-term competitive durability, but rather to provide necessary capital on terms that we find highly attractive relative to the alternatives.",
+ "grader_notes": "The agent correctly identified the investment as a yield-focused play rather than a common-stock conviction, aligning well with Buffett's intent to use preferred structure as a hedge against weak airline economics. However, it missed the specific driver regarding admiration for management (Colodny), which Buffett highlighted as an original component of his assessment.",
+ "run": "1989_usair_pref__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

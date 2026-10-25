@@ -1,0 +1,59 @@
+{
+ "trade_id": "2017_aapl_buffett_add",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Buffett judged the durable consumer franchise rather than predicting its next product. → What we see is a wonderful business with a powerful consumer franchise that creates meaningful friction for anyone trying to switch platforms",
+   "Customer stickiness made the ecosystem attractive. → This is not a commodity business; it is an ecosystem that keeps customers coming back"
+  ],
+  "missed": [
+   "He found the price sufficiently attractive to make a large personal decision for Berkshire."
+  ],
+  "extra_agent_drivers": [
+   "The company maintains excellent capital discipline and utilizes its massive free cash flow to reward shareholders through dividends and buybacks",
+   "The recent Q1 FY2017 results demonstrate robust demand and record revenue",
+   "At a P/E of roughly 14.5×, the shares remain reasonably priced"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Apple possesses a durable consumer franchise with high switching costs derived from an integrated ecosystem of hardware, software, and services",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company maintains excellent capital discipline and utilizes its massive free cash flow to reward shareholders through dividends and buybacks",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The recent Q1 FY2017 results demonstrate robust demand and record revenue",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "At a P/E of roughly 14.5×, the shares remain reasonably priced",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 9,
+  "share": 0.9
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "What we see is a wonderful business with a powerful consumer franchise that creates meaningful friction for anyone trying to switch platforms [D01].",
+ "grader_notes": "The agent correctly identified the core thesis drivers regarding the consumer franchise and ecosystem stickiness. However, it relied heavily on quantitative financial drivers (P/E ratios, capital allocation policies) which were not cited by Buffett in the provided source as the primary justification for his personal decision to add.",
+ "run": "2017_aapl_buffett_add__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "ADD",
+ "agent_decision": "ADD",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

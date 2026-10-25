@@ -1,0 +1,44 @@
+{
+  "id": "1979_market_stance",
+  "actual_decision": "BUY_BROADLY",
+  "conviction": "high",
+  "size_pct_nav": "Broad long-horizon preference for equities over bonds; no exact incremental allocation documented",
+  "first_action_date": null,
+  "disclosure_date": "1979-08-06",
+  "reason_class": null,
+  "opportunity_template": [
+    "B8"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "At approximately book value, diversified American equities with roughly 13% ROE offered better long-term value than 9.5% bonds.",
+      "source": "https://www.forbes.com/2008/11/08/buffett-forbes-article-markets-cx_pm-1107stocks.html (1979-08-06; contemporary)",
+      "quote": "Stocks now sell at levels that should produce long-term returns far superior to bonds."
+    },
+    {
+      "driver": "Pension buying followed past price pleasure rather than prospective value.",
+      "source": "https://www.forbes.com/2008/11/08/buffett-forbes-article-markets-cx_pm-1107stocks.html (1979-08-06; contemporary)",
+      "quote": null
+    },
+    {
+      "driver": "Replacement-cost concerns did not invalidate attractive returns in financial and service industries.",
+      "source": "https://www.forbes.com/2008/11/08/buffett-forbes-article-markets-cx_pm-1107stocks.html (1979-08-06; contemporary)",
+      "quote": null
+    },
+    {
+      "driver": "Waiting for certainty forces the investor to pay for consensus.",
+      "source": "https://www.forbes.com/2008/11/08/buffett-forbes-article-markets-cx_pm-1107stocks.html (1979-08-06; contemporary)",
+      "quote": "The future is never clear; you pay a very high price in the stock market for a cheery consensus."
+    }
+  ],
+  "entry_valuation_stated": "Old Dow ~840 / book ~940, expected illustrative 13% ROE, versus 9.5% bonds.",
+  "outcome_note": "BUY_BROADLY chosen over SELECTIVE: text explicitly compares a group of Dow-type equities and urges pension equity ownership, while noting suitable industries and no guarantee.",
+  "sources": [
+    "https://www.forbes.com/2008/11/08/buffett-forbes-article-markets-cx_pm-1107stocks.html (1979-08-06; contemporary)",
+    "Forbes, August 6, 1979, numerical market comparison without recommendation; https://www.forbes.com/2008/11/08/buffett-forbes-article-markets-cx_pm-1107stocks.html ; Berkshire letter March 26, 1979, https://www.berkshirehathaway.com/letters/1978.html"
+  ],
+  "pack_quality_notes": "Publication/reprint numbers verified against full mirrored text. Old-Dow series is not the current revised close. Current Berkshire cash and exact trade actions unavailable."
+}

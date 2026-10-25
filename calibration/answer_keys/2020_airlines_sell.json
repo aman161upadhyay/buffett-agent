@@ -1,0 +1,41 @@
+{
+  "id": "2020_airlines_sell",
+  "actual_decision": "SELL",
+  "conviction": "high",
+  "size_pct_nav": "Entire four-airline basket sold in April; airline cost approximately $7\u20138 billion; $6.5 billion total April equity sales is not airline proceeds alone",
+  "first_action_date": null,
+  "disclosure_date": "2020-05-02",
+  "reason_class": "S1",
+  "opportunity_template": [
+    "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "The industry facts changed, invalidating his previous assessment.",
+      "source": "https://www.cnbc.com/2020/05/02/warren-buffett-says-berkshire-sold-its-entire-position-in-airlines-because-of-the-coronavirus.html (2020-05-02; post-sale meeting explanation)",
+      "quote": "The world has changed for the airlines."
+    },
+    {
+      "driver": "Passenger demand and the amount of future fleet capacity became uncertain.",
+      "source": "https://www.cnbc.com/2020/05/02/warren-buffett-says-berkshire-sold-its-entire-position-in-airlines-because-of-the-coronavirus.html (2020-05-02; post-sale meeting explanation)",
+      "quote": null
+    },
+    {
+      "driver": "New financing would leave existing owners with weaker economics even if carriers survived.",
+      "source": "https://www.cnbc.com/2020/05/02/warren-buffett-says-berkshire-sold-its-entire-position-in-airlines-because-of-the-coronavirus.html (2020-05-02; post-sale meeting explanation)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Not publicly stated.",
+  "outcome_note": "Full April exit; grading is thesis revision, not subsequent stock-price performance.",
+  "sources": [
+    "https://www.cnbc.com/2020/05/02/warren-buffett-says-berkshire-sold-its-entire-position-in-airlines-because-of-the-coronavirus.html",
+    "https://www.berkshirehathaway.com/letters/2019ltr.pdf",
+    "https://www.berkshirehathaway.com/letters/2019ltr.pdf"
+  ],
+  "pack_quality_notes": "No use of May 2 quotes as April 2 inputs. Exact first execution uncertain; partial sales around April 1\u20132 are not the full basket liquidation. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated. Key source timing: 2020-05-02; post-sale meeting explanation. Unknown first execution is null; see meta.first_action_window. Fewer than three authenticated drivers means reasoning is unscorable rather than completed with invented manager claims.",
+  "quality_grade": "B"
+}

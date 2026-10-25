@@ -1,0 +1,52 @@
+{
+ "trade_id": "2015_pcp_acq",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "PCC was an admired specialized manufacturing franchise. → Charlie and I have long admired Precision Castparts, a company that produces essential components for aerospace and industrial programs where reliability is paramount [D01, D09].",
+   "It was the aerospace industry's preferred supplier. → We understand the business well: by providing sole-source, certified parts, they have embedded themselves into the long-term success of the world's most critical engine and airframe manufacturers [D01, D09].",
+   "Its operating model and retained management fit permanent Berkshire ownership. → Mark Donegan, who will remain as CEO, is an exceptional operator whose integrity and management style perfectly align with our values [D09]."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The acquisition at ~$235/share represents a 22x trailing earnings multiple, which provides a fair entry point for a permanent, high-moat business when compared to the 2.18% 10-year Treasury yield [D04, D09].",
+   "The market's current fixation on cyclical energy headwinds and aerospace destocking allows us to acquire a wonderful business at a fair price [D09]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Precision Castparts has consistently maintained operating margins above 20% and returns on tangible capital exceeding 20% since 2007",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Mark Donegan will remain at the helm",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the acquisition at ~$235/share represents a 22x trailing earnings multiple",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 6,
+  "share": 0.46
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Charlie and I have long admired Precision Castparts, a company that produces essential components for aerospace and industrial programs where reliability is paramount [D01, D09].",
+ "grader_notes": "The agent correctly identifies the acquisition and aligns with all three of Buffett's core drivers regarding admiration, supplier status, and management retention. The reasoning is well-grounded in the provided documents. The agent includes extra financial context and market timing drivers not explicitly highlighted in the core Buffett drivers list, but these do not detract from the successful matching of the primary investment rationale.",
+ "run": "2015_pcp_acq__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

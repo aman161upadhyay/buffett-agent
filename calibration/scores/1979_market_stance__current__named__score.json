@@ -1,0 +1,53 @@
+{
+ "trade_id": "1979_market_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "At approximately book value, diversified American equities with roughly 13% ROE offered better long-term value than 9.5% bonds → With a trailing earnings yield of 13.83% stacked against a ten-year Treasury yield of 8.91%, the math dictates a simple course of action: we buy",
+   "Pension buying followed past price pleasure rather than profound value → Institutional sentiment is characterized by extreme pessimism and neglect, with pension equity allocations falling to 9%",
+   "Replacement-cost concerns did not invalidate attractive returns in financial and service industries → While critics point to inflation and the replacement cost of assets as reasons to stay on the sidelines, we prefer to look at the underlying business economics"
+  ],
+  "missed": [
+   "Waiting for certainty forces the investor to pay for consensus."
+  ],
+  "extra_agent_drivers": [
+   "Market prices relative to book value and earnings are historically depressed."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The spread between equity earnings yields and bond yields is exceptionally wide at 4.92 points",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "S&P 500 trading at 7.23x trailing earnings",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "private pension net funds allocated to equities 9%",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 6,
+  "share": 0.67
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "With a trailing earnings yield of 13.83% stacked against a ten-year Treasury yield of 8.91%, the math dictates a simple course of action: we buy.",
+ "grader_notes": "The agent correctly matched Buffett's investment decision and captured the core reasoning regarding yield spreads and business economics vs replacement costs. The agent missed the specific behavioral driver regarding paying for consensus, but correctly identified three of the four required drivers.",
+ "run": "1979_market_stance__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY_BROADLY",
+ "agent_decision": "BUY_BROADLY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

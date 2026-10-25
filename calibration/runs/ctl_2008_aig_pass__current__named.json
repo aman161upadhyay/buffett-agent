@@ -1,0 +1,253 @@
+{
+ "pack": "ctl_2008_aig_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2008-09-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "AIG owns international property/casualty and life-insurance franchises, retirement products, and financial-service operations [D01]. The firm also maintains a financial-products subsidiary involved in credit-default-swap portfolios [D01].",
+   "products_customers_and_why_they_buy": [
+    "Insurance and retirement products sold to customers, where distribution relationships, licensing, and policy renewals possess distinct value [D01]."
+   ],
+   "economics": [
+    "Margins and returns are heavily impacted by investment impairments, realized capital losses, and valuation losses from derivative portfolios [D01].",
+    "Capital intensity is significant, with consolidated assets of $1.050 trillion [D01].",
+    "Reported earnings are currently negative, requiring reconciliation of noncash items and derivatives to understand underlying economics [D02]."
+   ],
+   "earnings_record": [
+    "Second-quarter 2008 net loss was $5.36 billion compared to $4.28 billion profit a year earlier [D01].",
+    "Six-month 2008 net loss was $13.16 billion [D01]."
+   ],
+   "competitive_position": [
+    "AIG operates as an international insurance franchise with valuable customer relationships [D01].",
+    "Competitive strength is distinct from the risks associated with its financial-products subsidiary and opaque financial guarantees [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Consolidated assets of $1.050 trillion [D01].",
+    "Shareholders' equity was $78.09 billion as of June 30, 2008 [D01].",
+    "Liquidity and cash requirements under collateral stress are unknown and not bounded by reported equity figures [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Management's August 2008 review promised to examine every business, reduce risk, and protect capital [D01].",
+    "Capital raising of approximately $20 billion occurred in May 2008 [D01]."
+   ],
+   "price_and_valuation": [
+    "Trading price as of 2008-09-15 was $4.76 [D04].",
+    "P/B ratio is 0.164x based on stale June book value of $29.04 [D04].",
+    "P/E is not meaningful due to net losses [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "Earnings-based multiples are not meaningful against the reported first-half loss [D02]. No normalized earnings estimate is provided [D02]."
+   },
+   "what_the_market_is_worried_about": [
+    "Liquidity call on a highly interconnected guarantee book [D05].",
+    "Change in ratings or collateral terms demanding cash [D05].",
+    "Large derivative marks and investment losses [D05].",
+    "Uncertainty regarding the ultimate cash requirement in a collateral stress [D01]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "May 2008: ~$20 billion capital raise [D01].",
+    "June 30, 2008: Shareholders' equity of $78.09 billion [D01].",
+    "August 6, 2008: Second-quarter results and business-review plans released [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire's December 2007 cash was $44.329 billion, with equity securities of $74.999 billion and insurance float of $58.698 billion [D08].",
+    "Berkshire's own insurance operations provide expertise but do not eliminate AIG's legal-entity risk [D08]."
+   ],
+   "document_conflicts": [
+    "not in pack"
+   ],
+   "missing_data": [
+    "Sustainable underwriting earnings, maintenance capex figures, and an estimate of the cash required in a collateral stress."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business involves opaque financial guarantees and derivative portfolios that make future outcomes unpredictable [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While the insurance franchises have value, their strength is currently obscured by the risks within the financial-products subsidiary [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The firm reported a six-month net loss of $13.16 billion in 2008 [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "Liquidity and collateral requirements are unknown, and the firm faces severe capital stress [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business requires massive capital with consolidated assets of $1.050 trillion and high risk of collateral calls [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management is currently reviewing the business to reduce risk, but their effectiveness in navigating the current crisis remains to be seen [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The company is large enough to be meaningful for Berkshire [D01]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "Earnings-based metrics are not meaningful due to deep losses and uncertainty regarding the firm's survival [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 5,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a highly opaque and capital-strained insurance and financial-products conglomerate facing existential liquidity risks"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is pricing in the high probability of an existential liquidity crisis due to the firm's opaque derivative portfolio and unknown collateral requirements [D01], [D05]. We have no reason to expect a bargain because the potential liabilities are unbounded and the underlying economics of the insurance franchise are obscured by the risk of total failure [D01].",
+   "evidence": [
+    "Six-month 2008 net loss of $13.16 billion [D01]",
+    "Liquidity and cash requirements under collateral stress are unknown and not bounded by reported equity figures [D01]",
+    "Business involves opaque financial guarantees and derivative portfolios that make future outcomes unpredictable [D01]"
+   ],
+   "market_narrative_we_disagree_with": "The market treats the company as a terminal, failed entity because the derivative exposures at the financial-products subsidiary threaten the stability of the entire enterprise [D01], [D05].",
+   "what_must_be_true": [
+    "A clear, bounded estimate of potential collateral calls must be established",
+    "The core insurance franchises must be successfully ring-fenced from the derivative losses",
+    "The firm must secure sufficient liquidity to survive the current collateral stress"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "unknown",
+    "high": "unknown",
+    "key_assumptions": [
+     "Liquidity and cash requirements under collateral stress are unknown and unbounded [D01]",
+     "Earnings are currently negative [D01]"
+    ],
+    "discount_rate_used": "long bond rate not in pack"
+   },
+   "price_vs_value": "price is 0.164x book [D04], but book value is potentially impaired by derivative liabilities [D01]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": -100,
+    "bull": 0
+   },
+   "alternatives": "T-bills / existing holdings; cash is safer as AIG risk is binary and existential [D01]",
+   "downside_case": "Permanent loss of capital if the firm fails to meet collateral calls [D01]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "No normalized owner earnings possible due to derivative portfolio opacity [D01]",
+    "Book value is not a reliable floor due to potential for unbounded collateral calls [D01]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are long-term investors in businesses with durable competitive advantages and predictable economics, relying on compounding rather than market timing [D01], [D05].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Business compounding and the eventual recognition of intrinsic value by Mr. Market [D01]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in the post-1980 era, our edge is patience and the use of permanent capital to wait for businesses to grow their owner earnings [D01]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "The firm fails to meet collateral calls on its derivative portfolio",
+    "Regulatory authorities or counterparties force a fire sale of core insurance assets",
+    "The firm is unable to secure sufficient liquidity to survive the current capital stress"
+   ],
+   "berkshire_constraints": "We must maintain our reputation and cash levels [D01], [D08]. Direct ownership is risky given the current existential liquidity crisis and lack of visibility into collateral requirements [D01].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Cash held for safer, more predictable opportunities that do not carry the risk of permanent capital impairment [D01].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The situation involves an existential, binary outcome that falls outside of a manageable investment framework.",
+   "biggest_risk_in_one_sentence": "The opaque and unbounded nature of the derivative-related collateral calls creates a high probability of permanent loss of capital."
+  }
+ },
+ "final": {
+  "as_of_date": "2008-09-15",
+  "company": "American International Group (AIG)",
+  "ticker": "AIG",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "unknown",
+   "expected_return_pct": 0,
+   "downside_case": "permanent loss of capital due to liquidity and collateral failure"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the market price of $4.76 against an unknown and potentially negative intrinsic value [D01], [D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The business involves opaque financial guarantees and derivative portfolios that make future outcomes unpredictable [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The risk of permanent capital loss is high, as liquidity and cash requirements under collateral stress are unbounded [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Earnings are negative with a six-month 2008 net loss of $13.16 billion [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "The firm fails to meet collateral calls on its derivative portfolio [D01]",
+   "Regulatory authorities or counterparties force a fire sale of core insurance assets [D01]",
+   "The firm is unable to secure sufficient liquidity to survive the current capital stress [D01]"
+  ],
+  "what_would_change_our_mind": "A clear, bounded estimate of potential collateral calls and successful ring-fencing of the insurance franchises from derivative-related liabilities.",
+  "memo": "AIG operates a collection of international insurance and retirement businesses that, under normal circumstances, would be the type of franchise we admire [D01]. However, the core business is fundamentally obscured by a financial-products subsidiary that has entered into opaque derivative contracts [D01]. This structure makes it impossible to define the company's future, as the derivative exposure creates potential liabilities that are not bounded by reported figures [D01].\n\nWe require businesses with predictable economics and consistent returns on capital, yet AIG reported a $13.16 billion net loss for the first six months of 2008 [D01]. The firm is currently under extreme capital stress, and its reliance on massive collateral to back its derivative portfolios introduces an existential risk to the entire enterprise [D01].\n\nIn our view, the management team is currently struggling to navigate an environment where liquidity needs remain unknown and potentially catastrophic [D01]. While they have initiated reviews to protect capital, the company's survival is not a given [D01]. We never bet on survival in a situation where the risks are this opaque.\n\nThe market is currently pricing AIG as a potential failure because of these derivative exposures [D01], [D05]. We cannot see a reason to classify this as a bargain when the floor for the business is essentially non-existent [D01]. It is better to hold cash for safer, more predictable opportunities than to risk our capital—and our reputation—on a binary outcome of this magnitude [D01].",
+  "uncited_claims": []
+ }
+}

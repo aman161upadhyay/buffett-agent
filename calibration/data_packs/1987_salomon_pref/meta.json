@@ -1,0 +1,25 @@
+{
+  "id": "1987_salomon_pref",
+  "company": "Salomon Inc.",
+  "ticker": "SB",
+  "aliases": [
+    "Salomon Inc.",
+    "SB",
+    "Salomon",
+    "Salomon Brothers",
+    "John Gutfreund",
+    "Gutfreund",
+    "Minorco",
+    "Ronald Perelman",
+    "Perelman",
+    "Phibro",
+    "Phibro-Salomon"
+  ],
+  "as_of_date": "1987-09-27",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "September 27, 1987 agreement, reported September 28; later funding distinct.",
+  "fund_aum_usd_bn": 1.874033,
+  "decider": "Buffett",
+  "notes": "Historical reconstruction: doc Date is effective information cutoff, not archival publication date. Only pre-cutoff business conditions are reconstructed; later investor explanations/outcomes appear in key only. Total common stocks December 31, 1986 market value $1,874.033 million, excluding specified subsidiary minorities; 1986 annual letter published 1987; not September cash. Sunday cutoff: prior-day deal terms reconstructed from Monday press. Exact settlement, covenants, prior close and dealer liquidity model unavailable. Perelman threat is context, not one of Buffett's stated economic drivers."
+}

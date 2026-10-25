@@ -1,0 +1,54 @@
+{
+ "trade_id": "2017_aapl_buffett_add",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Buffett judged the durable consumer franchise rather than predicting its next product → The business possesses a durable consumer franchise with high switching costs derived from an integrated ecosystem of hardware and services [D01].",
+   "Customer stickiness made the ecosystem attractive → The business possesses a durable consumer franchise with high switching costs derived from an integrated ecosystem of hardware and services [D01]."
+  ],
+  "missed": [
+   "He found the price sufficiently attractive to make a large personal decision for Berkshire."
+  ],
+  "extra_agent_drivers": [
+   "Financial performance remains strong, with massive cash generation and a significant net cash balance providing substantial flexibility [D03], [D04].",
+   "The current valuation, at approximately 14.5x trailing earnings, is conservative for a business of this quality and offers a solid margin of safety [D04].",
+   "The position is currently a deputy-originated stake that warrants being built into a larger, Buffett-scale position over time [D07], [D08]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business possesses a durable consumer franchise with high switching costs derived from an integrated ecosystem of hardware and services [D01].",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Financial performance remains strong, with massive cash generation and a significant net cash balance providing substantial flexibility [D03], [D04].",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The stock trades at a trailing P/E of approximately 14.5x [D04].",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 8,
+  "share": 0.89
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We do not need a catalyst; we simply want to own more of a business that is run by able managers and possesses such durable economic characteristics [D04].",
+ "grader_notes": "The agent correctly identified the franchise-based thesis. However, the agent included excessive focus on financial metrics (valuation, cash balance) and internal portfolio strategy (deputy-originated stake) that were not the primary drivers cited by Buffett in his public commentary regarding this specific purchase.",
+ "run": "2017_aapl_buffett_add__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "ADD",
+ "agent_decision": "ADD",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

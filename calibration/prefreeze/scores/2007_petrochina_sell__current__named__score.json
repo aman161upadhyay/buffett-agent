@@ -1,0 +1,42 @@
+{
+ "trade_id": "2007_petrochina_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "The market value reached the comparative appraisal of other giant oil companies. → The oil price and the company's market value have risen considerably, catching up with our appraisal of intrinsic value"
+  ],
+  "missed": [
+   "Higher oil prices and reserve development raised intrinsic value since purchase.",
+   "The sale was price-driven, not a Sudan divestment decision."
+  ],
+  "extra_agent_drivers": [
+   "Capital allocation priorities favor deploying funds into opportunities with greater prospective margins of safety rather than holding a commodity producer at full valuation"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The oil price and the company's market value have risen considerably, catching up with our appraisal of intrinsic value",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 8,
+  "share": 0.89
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "The oil price and the company's market value have risen considerably, catching up with our appraisal of intrinsic value",
+ "grader_notes": "The agent correctly identified the primary driver: that the market price had converged with intrinsic value. However, it missed the specific Buffett-cited drivers regarding reserve development and the explicit clarification that the sale was price-driven rather than related to political (Sudan) divestment.",
+ "run": "2007_petrochina_sell__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "SELL",
+ "agent_decision": "SELL",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

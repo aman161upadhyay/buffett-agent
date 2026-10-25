@@ -1,0 +1,51 @@
+{
+ "trade_id": "2019_oxy_pref",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "The investment was a financing transaction with unusually attractive terms, not an acquisition bid for the oil company. → Our investment provides the necessary financing for Occidental to complete its acquisition of Anadarko, a role for which we extract premium terms due to the credibility our balance sheet provides [D04, D09].",
+   "The preferred provided an $800 million annual cash-income claim. → The preferred instrument offers an 8% cash coupon against a 2.51% long bond yield, providing a compelling premium for the capital provided [D04].",
+   "Warrants added long-duration upside to the financing package. → We receive warrants for 80 million shares at a strike price of $62.50, offering participation in the company's long-term success without the risks of common equity ownership [D04, D09]."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The negotiated structure provides us with seniority and contractual protections that mitigate the risks associated with the cyclicality of the underlying oil and gas business [D04, D05]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The preferred instrument offers an 8% cash coupon against a 2.51% long bond yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We receive warrants for 80 million shares at a strike price of $62.50",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Occidental requires significant capital to facilitate its acquisition of Anadarko",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 4,
+  "share": 0.36
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "While the underlying common stock is a cyclical commodity business, our investment is not in the equity but in a negotiated $10 billion preferred financing package [D02, D04].",
+ "grader_notes": "The agent accurately identified the three core components of the deal: the financing nature of the transaction, the preferred yield, and the warrant kicker. Reasoning was consistent with the available contractual disclosures, though the agent added an extra driver regarding seniority protections.",
+ "run": "2019_oxy_pref__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

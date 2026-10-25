@@ -1,0 +1,62 @@
+{
+ "pack": "2026_cash_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "2026-05-01",
+ "stages": {},
+ "final": {
+  "as_of_date": "2026-05-01",
+  "trailing_earnings_yield_pct": 3.92,
+  "normalised_earnings_yield_pct": 3.92,
+  "normalisation_basis": "trailing (no distortion)",
+  "long_bond_yield_pct": 4.39,
+  "spread_points": "-0.47",
+  "drawdown_from_high_pct": 0,
+  "panic_indicators": [
+   "VIX 16.99 [D04]",
+   "High-yield spread 2.77 [D04]"
+  ],
+  "rule_decision": "SELECTIVE",
+  "decision": "SELECTIVE",
+  "override_reason": null,
+  "conviction": "medium",
+  "earnings_yield_vs_bonds": "The market's earnings yield of 3.92% is 0.47 percentage points below the 4.39% yield on the ten-year Treasury [D04].",
+  "valuation_level": "The S&P 500 trailing P/E of 25.49x reflects historically high levels, offering little margin of safety at current prices [D04].",
+  "ideas_that_qualify": [
+   "No individual businesses meeting our filters are explicitly identified in the current pack [D03]."
+  ],
+  "berkshire_action": "Maintain high liquidity in short-term Treasuries while exercising patience for businesses that meet our rigorous standards; only repurchase Berkshire shares if priced below conservatively estimated intrinsic value.",
+  "drivers": [
+   {
+    "driver": "The earnings yield of equities is inferior to the risk-free long-term government bond yield [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Extremely high market valuations and lack of bargain opportunities necessitate a disciplined, patient approach [D04, D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The requirement to preserve financial strength and insurance-resilience remains paramount over the urge to be fully invested [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "Large cash and Treasury-bill holdings provide necessary optionality without the need for immediate deployment into unattractive markets [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   }
+  ],
+  "memo": "We find ourselves in a market where prices are high and the earnings yield on equities fails to provide an attractive premium over the risk-free rate. With the S&P 500 trading at 25.49 times trailing earnings, the margin of safety we demand is absent [D04]. While we prefer owning wonderful businesses, we will not compromise on terms simply to keep our cash moving. \n\nOur current liquidity position of over $370 billion is not a sign of retreat, but a testament to our discipline [D01, D03]. We continue to evaluate opportunities, but we prioritize the preservation of Berkshire's financial strength and reputation over the institutional imperative to be fully invested [D05, D06]. We remain ready to act decisively when Mr. Market offers us prices that align with our long-term investment criteria.",
+  "uncited_claims": []
+ }
+}

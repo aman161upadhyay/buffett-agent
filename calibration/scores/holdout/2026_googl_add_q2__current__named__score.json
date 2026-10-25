@@ -1,0 +1,59 @@
+{
+ "trade_id": "2026_googl_add_q2",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Abel said operating-company experience showed AI would materially affect American businesses.",
+   "He identified Google as a significant participant in that opportunity.",
+   "Abel and Buffett were comfortable committing $10bn to a significant block at a 6.5% discount."
+  ],
+  "extra_agent_drivers": [
+   "Core search advertising growth",
+   "Cloud segment performance acceleration",
+   "Cash and marketable securities cushion",
+   "Monitoring the $175-$185 billion capital budget"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "revenue grew 17% in Q4",
+    "citation": "D03",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Cloud segment 48% revenue growth",
+    "citation": "D03",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "management expects massive $175-$185 billion in 2026 capex",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "cash and marketable securities cushion of $126.8 billion",
+    "citation": "D02",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 6,
+  "share": 0.6
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We do not look to flip stocks; we look to hold businesses.",
+ "grader_notes": "The agent opted to HOLD the position while the actual decision was to ADD via a negotiated placement. Reasoning overlap is non-existent as the agent focused on standard valuation and business quality metrics while Buffett/Abel justified the investment based on a specific thesis regarding AI's impact on American business and an opportunistic block purchase.",
+ "run": "2026_googl_add_q2__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "ADD",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,256 @@
+{
+ "pack": "2016_airlines_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2016-10-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a member of a four-carrier US airline basket, a sector characterized by high fixed and semi-fixed costs and perishable capacity [D01, D05]. Industry consolidation and the use of networks, slots, loyalty programs, and scale represent an attempt to create a different competitive structure from the fragmented pre-bankruptcy era [D01].",
+   "products_customers_and_why_they_buy": [
+    "Provision of air transportation and related services [D01].",
+    "Customers include passengers and cargo shippers; loyalty programs and network scale are identified as support for market positions [D01]."
+   ],
+   "economics": [
+    "Margins are subject to fluctuations based on fuel, labor, and aircraft costs [D01].",
+    "High fixed and semi-fixed costs combined with perishable capacity mean that load factor, fare, and unit cost must be read together; full aircraft can still produce weak returns if prices fall [D01, D02].",
+    "Owner-earnings require adjustment for non-cash items, maintenance capex, and lease/pension obligations [D02].",
+    "Low fuel prices have supported recent period profits [D02, D03]."
+   ],
+   "earnings_record": [
+    "Historical performance (2011-2015) shows cyclicality and varied profitability across the basket [D02].",
+    "FY2015 operating margins for the four carriers ranged from 13.6% to 20.8% [D02].",
+    "FY2013 and FY2015 net earnings for some members include large deferred-tax valuation-allowance releases [D02]."
+   ],
+   "competitive_position": [
+    "Industry features significant consolidation compared to the pre-bankruptcy era [D01, D07].",
+    "Competitive factors include network, slots, scale, and loyalty programs [D01].",
+    "Shared exposure to travel demand, fuel, labor, and credit availability persists despite carrier-specific differences [D01, D02]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Includes significant aircraft leases, pension liabilities, and committed fleet purchases [D01, D02].",
+    "Debt levels and structures vary significantly across the four carriers [D02].",
+    "Maintenance capex is a recurring requirement for the industry [D02, D05]."
+   ],
+   "management_and_capital_allocation": [
+    "Management record varies by carrier; the industry has a long history of poor aggregate returns [D01, D05].",
+    "Capital allocation includes recent share buybacks and dividends, though industry spending on fleet remains a factor [D02, D03, D04]."
+   ],
+   "price_and_valuation": [
+    "As of 2016-10-31, P/E ratios and valuations show significant variance and include tax-effected distortions [D04].",
+    "Unnormalized fiscal EPS yields are cited at 27.3%, 13.5%, 34.6%, and 8.2% for the respective carriers [D04].",
+    "Valuation is complicated by lease obligations and the need to subtract maintenance investment [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Long history of poor aggregate returns [D05].",
+    "Fixed costs, volatile fuel, powerful labor, and competitive fare cuts [D05].",
+    "Concerns that consolidation does not guarantee capacity discipline [D05].",
+    "Sensitivity to recession and travel demand disruption [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Third-quarter 2016 operating results reported across the industry [D03].",
+    "Revenue contraction reported across the basket in Q3 2016 [D03].",
+    "Technological outage at one carrier had a $150m earnings impact in Q3 2016 [D03]."
+   ],
+   "berkshire_context": [
+    "Berkshire had approximately $61.2 billion in cash as of year-end 2015 [D08].",
+    "Historical airline investment experience is noted as poor [D08].",
+    "Regulatory thresholds and potential for correlated losses are considerations for position sizing [D08]."
+   ],
+   "document_conflicts": [
+    "Revenue growth figures for certain carriers appear as approximations in some sources versus specific calculations [D03, D06]."
+   ],
+   "missing_data": [
+    "Fully reconciled aggregate four-carrier net income, net debt, and P/E ratios [D02].",
+    "Consistent and fully adjusted earnings denominators across all four carriers [D04].",
+    "Current specific holdings in the airline sector [D08]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "While historically difficult, the current industry structure has consolidated into a more stable oligopoly, allowing for predictable core transportation demand [D01, D07]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "Networks, slots, scale, and loyalty programs have created a competitive structure superior to the fragmented pre-bankruptcy era [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Recent years show industry-wide profitability, and per the 2016-era criteria, we judge the industry on its new, consolidated record rather than its historical failures [D02, D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "Debt levels and pension liabilities vary significantly, and the industry maintains high fixed costs, making high ROE dependent on continued capacity discipline [D01, D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "As of 2016, capital-intensive businesses are permissible if they demonstrate adequate returns on capital within a consolidated industry structure [D01, D05]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management quality varies by carrier, and the industry has only recently shifted toward capital allocation strategies like buybacks [D02, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The combined scale of the four-carrier basket is sufficiently large for Berkshire to deploy capital meaningfully [D01, D08]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "Earnings yields for the carriers, even after adjusting for maintenance capex, appear attractive relative to the low long-term government bond yield [D04, D08]."
+    }
+   },
+   "conflicts_resolved": [
+    "Revenue growth figures for certain carriers → relied on D03 as it provides the most recent Q3 2016 data reflecting current sector performance."
+   ],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a consolidated oligopoly that has transformed from a capital-destroying commodity into a more disciplined, durable network-based utility."
+  },
+  "gate2": {
+   "templates": [
+    "B12"
+   ],
+   "why_available": "The market remains anchored to the industry's historical record of poor returns and excessive competition, leading investors to treat current earnings as unsustainable [D05, D08]. We disagree, viewing the recent consolidation and capacity discipline as a structural shift that has transformed the industry into a more durable, network-based utility [D01, D07]. The value will manifest as the market eventually recognizes that these carriers can now maintain disciplined returns on capital despite their inherent high fixed costs [D01, D02].",
+   "evidence": [
+    "Industry has consolidated into a more stable oligopoly [D01, D07].",
+    "Current competitive factors—networks, slots, scale, and loyalty—provide a structure superior to the fragmented pre-bankruptcy era [D01].",
+    "Recent period profits have been supported by low fuel prices and improved operations [D02, D03].",
+    "Valuation multiples appear attractive relative to the low long-term government bond yield [D04, D08]."
+   ],
+   "market_narrative_we_disagree_with": "The market fears that the airlines remain commodity businesses prone to destructive fare wars, volatile fuel costs, and cyclical downturns that will inevitably destroy capital as they have historically [D05].",
+   "what_must_be_true": [
+    "Management maintains capacity discipline and prioritizes returns on capital over market share growth.",
+    "The oligopolistic structure remains intact and is not undermined by renewed aggressive price competition.",
+    "Maintenance capex requirements do not balloon to negate the benefits of industry consolidation."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack; calculations require full reconciliation of maintenance capex and non-cash items across the basket [D02, D04]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "Industry oligopoly maintains capacity discipline [D01, D07]",
+     "Maintenance capex does not exceed normalized operating cash flow [D02, D05]"
+    ],
+    "discount_rate_used": "long bond yield [D04]"
+   },
+   "price_vs_value": "not in pack; valuation requires normalization of tax-effected and cyclical earnings [D04]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / T-bills / existing holdings / Berkshire buyback — Berkshire currently holds significant cash ($61.2B) [D08]; buybacks at intrinsic value are preferred over speculative sectors with a historical record of poor aggregate returns [D08]",
+   "downside_case": "Industry reverts to historical pattern of destructive fare wars and capital destruction; permanent loss of capital possible if consolidation fails to yield pricing power [D01, D05, D08]",
+   "valuation_verdict": "FAIR",
+   "flagged_assumptions": [
+    "Lack of aggregate reconciled financial data for the airline basket prevents precise valuation [D02, D04, D08]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We act as a permanent, passive holder of marketable securities. We rely on the business to compound value through rational capital allocation and disciplined management rather than active intervention [D01, D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "The market eventually recognizes that the airline industry has transitioned into a disciplined, network-based utility, allowing for sustained profitability and returns on capital [D01, D02]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "Post-1980, our default role for marketable securities is a passive owner; we provide capital and expect management to exercise the discipline necessary to generate durable returns [D01, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Renewed aggressive price competition destroys the new oligopoly structure [D01, D05].",
+    "Management abandons capacity discipline in favor of market share growth [D05].",
+    "Maintenance capex requirements balloon, negating the benefits of consolidation [D05].",
+    "Macroeconomic downturn triggers a collapse in demand that forces carriers to burn cash [D01, D05]."
+   ],
+   "berkshire_constraints": "Must maintain a cash floor of at least $30B [D08]; avoid exceeding regulatory ownership thresholds (typically 10%) without authorization [D08].",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 10,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is currently held in T-bills or cash [D08]; compare against Berkshire buybacks or higher-quality, long-term compounders in the equity portfolio [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "While airlines have a poor historical reputation, I am evaluating this as a tactical shift in industry structure that allows for significant capital deployment at a scale appropriate for my personal oversight.",
+   "biggest_risk_in_one_sentence": "The industry's historical tendency toward destructive competition and capital destruction may reassert itself despite recent consolidation."
+  }
+ },
+ "final": {
+  "as_of_date": "2016-10-31",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "not in pack; normalized earnings yield estimated through basket analysis [D04]",
+   "initial_pretax_yield_pct": 20,
+   "intrinsic_value_range": "not in pack; value derived from persistent oligopolistic returns [D01]",
+   "expected_return_pct": 0,
+   "downside_case": "Industry reverts to destructive competition, destroying capital [D05]"
+  },
+  "drivers": [
+   {
+    "driver": "The airline basket currently offers a weighted earnings yield estimated in the high teens against near-zero T-bill rates [D04, D08].",
+    "citations": [
+     "D04",
+     "D08"
+    ]
+   },
+   {
+    "driver": "The industry has evolved from a fragmented, capital-destroying commodity into a stable, consolidated oligopoly [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Structural advantages—networks, slots, and loyalty programs—provide a durable moat absent in previous decades [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Management teams have begun prioritizing returns on capital through disciplined capacity management and share buybacks [D02, D05].",
+    "citations": [
+     "D02",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Renewed aggressive price competition destroys the new oligopoly structure [D01, D05].",
+   "Management abandons capacity discipline in favor of market share growth [D05].",
+   "Maintenance capex requirements balloon, negating the benefits of consolidation [D05].",
+   "Macroeconomic downturn triggers a collapse in demand that forces carriers to burn cash [D01, D05]."
+  ],
+  "what_would_change_our_mind": "Evidence that carriers have returned to destructive fare wars or that capital expenditure requirements exceed the industry's ability to generate cash returns [D01, D05].",
+  "memo": "For years, Charlie and I have viewed the airline industry as a graveyard for capital, where companies consistently destroyed value [D05, D08]. However, the landscape has fundamentally changed. The industry has consolidated into a disciplined oligopoly, utilizing networks, slots, and loyalty programs to create a more stable environment than we have ever seen [D01, D07].\n\nThese businesses now function more like network utilities than the commodity producers of the past [D01, D07]. While high fixed costs and maintenance capex requirements remain, the structural shift allows for sustained profitability through disciplined capacity management [D01, D02, D05].\n\nManagement teams across the sector are finally behaving like owners, focusing on return on capital and returning excess cash to shareholders through buybacks [D02, D05]. This is a departure from the historical obsession with market share at any cost [D05].\n\nInvestors are pricing these companies as if the past is prologue, ignoring the structural transition that has occurred [D05, D08]. We are able to acquire a stake at an attractive initial earnings yield, providing a margin of safety against the inevitable cycles of the economy [D04, D08].\n\nWe estimate an initial pre-tax earnings yield that is significantly superior to long-term government bond yields [D04, D08]. While not the 'wonderful business' we usually seek, the current economics and valuation offer a compelling opportunity for our idle cash [D08].\n\nWe are starting with a 5% position within our equity portfolio to ensure we have exposure without risking a permanent loss of capital [D08]. If the industry maintains its newfound discipline, we expect these carriers to compound value over the long term; if they regress to their old habits, we will be forced to reevaluate our commitment [D01, D05].",
+  "uncited_claims": []
+ }
+}

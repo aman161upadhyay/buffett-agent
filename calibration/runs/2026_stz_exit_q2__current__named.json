@@ -1,0 +1,56 @@
+{
+ "pack": "2026_stz_exit_q2",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2026-03-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2026-03-31",
+  "company": "Constellation Brands",
+  "ticker": "STZ",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "decider": "deputy",
+  "thesis_at_purchase_vs_now": [
+   "Durable brand preference: intact [D01]",
+   "Distribution strength: intact [D01]",
+   "Consumption trends: deteriorated [D01], [D05]"
+  ],
+  "price_vs_value_now": "Market price $150.00 is approximately 13x comparable EPS guidance [D04].",
+  "after_tax_hurdle": "21% federal capital gains tax applies; sale would require higher return threshold from alternative capital allocation [D08].",
+  "drivers": [
+   {
+    "driver": "The core investment thesis rests on durable brand power in Mexican imports, which continues to show relative strength despite a soft industry environment [D01], [D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Operating margins remain robust at 38%, supporting the company's ability to navigate current volume headwinds through pricing [D01], [D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The current valuation is modest relative to comparable earnings guidance, providing a sufficient margin of safety for a business with high cash flow [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Capital demands for expansion in Mexican beer operations are significant but within manageable leverage targets of approximately 3.0 times [D02], [D05].",
+    "citations": [
+     "D02",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "We regard Constellation as a business with substantial brand strength in the Mexican beer category [D01]. While the broader industry faces volume headwinds, the company’s ability to maintain high operating margins through pricing and brand mix suggests the competitive advantage remains in place [D01], [D03]. We do not buy or sell our businesses based on short-term consumption fluctuations or the noise of quarterly depletions [D01], [D05].\n\nManagement continues to guide for healthy free cash flow, though we recognize this capital must be weighed against necessary reinvestment in brewing capacity [D02], [D05]. The company's leverage position is acceptable, and at roughly 13 times our estimated comparable earnings, the stock does not appear to be discounting a catastrophic failure of the franchise [D04].\n\nAs we have stated before, we do not dispose of wonderful businesses simply because Mr. Market is having a momentary disagreement with the underlying consumption trends. The thesis of durable brand preference is intact, even if absolute volumes are currently under pressure [D01], [D03]. We shall continue to hold the position as a secondary investment under our deputy's management, monitoring whether the company can sustain its returns on capital through the current investment cycle [D08].",
+  "uncited_claims": []
+ }
+}

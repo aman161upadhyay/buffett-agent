@@ -1,0 +1,48 @@
+{
+ "trade_id": "2009_bnsf_acq",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Efficient rail infrastructure is necessary for US prosperity. → Charlie and I have long admired the American railroad industry, an essential component of our national infrastructure that provides a vital service for our economy [D01].",
+   "Buffett trusted Matt Rose and the operating team. → We have full confidence in the management team to continue running this business as they have, with a focus on long-term efficiency and prudent capital allocation [D01]."
+  ],
+  "missed": [
+   "The bet concerned the long-term US economy rather than next-quarter freight."
+  ],
+  "extra_agent_drivers": [
+   "The railroad possesses an enduring moat through its difficult-to-replicate rights of way and an interconnected network that serves as a toll bridge on the US economy [D01].",
+   "The industry has shifted toward disciplined capacity and pricing, allowing for improved returns that justify the capital-intensive nature of the business [D01, D02]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "BNSF operates a massive western network that is virtually impossible to replicate",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market price of $76.07 [D04] represents an initial earnings yield of 6.9% [D04]",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 7,
+  "share": 0.54
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "By bringing BNSF fully under the Berkshire umbrella, we remove the distractions of public markets and allow management to focus entirely on the decades of service ahead [D01].",
+ "grader_notes": "The agent correctly identified the acquisition decision and the trust in management. However, it missed the specific framing of the investment as an 'all-in wager' on the US economy, which was Buffett's primary stated motivation. The agent also included several structural, industry-level drivers not explicitly cited in the answer key.",
+ "run": "2009_bnsf_acq__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

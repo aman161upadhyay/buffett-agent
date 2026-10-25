@@ -1,0 +1,57 @@
+{
+ "trade_id": "ctl_2023_frc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett distinguished safe deposits from risky bank equity and criticized asset/liability mismatch and accounting incentives",
+   "No First Republic in parent filings around Q4 2022/Q1 2023 or the 2010–Q2 2026 census",
+   "Economic and valuation objections are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "Bank is experiencing acute liquidity stress and deposit run",
+   "Banking model faces earnings compression from asset-liability mismatches",
+   "No edge in determining if deposit franchise is permanently impaired",
+   "Berkshire cash offers safer, more certain return profile"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The bank is currently experiencing acute liquidity stress and a deposit run that obscures its long-term earnings power",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The banking model faces significant earnings compression due to asset-liability mismatches and the high cost of wholesale funding",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We have no edge in determining if the deposit franchise is permanently impaired",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Berkshire has $128.6 billion in cash and T-bills",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 6,
+  "share": 0.6
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are perfectly content to sit on our hands when we cannot see why we should get a bargain or where we can be sure of protecting Berkshire's capital and reputation.",
+ "grader_notes": "The agent correctly reached the PASS decision but failed to mirror Buffett's reasoning, which is rooted in verified non-holding status rather than active fundamental analysis of the bank's liquidity or specific financial metrics. The agent performed an independent equity research exercise instead of documenting the absence of investment per the answer key's guidance.",
+ "run": "ctl_2023_frc_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

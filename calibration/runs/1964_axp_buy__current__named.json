@@ -1,0 +1,240 @@
+{
+ "pack": "1964_axp_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "1964-02-20",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "American Express operates travelers-cheque and charge-card services in addition to a warehousing subsidiary currently implicated in a commodities fraud [D01]. The core business model relies on the customer's continued trust in their payment promises and merchant acceptance of their charge cards [D01].",
+   "products_customers_and_why_they_buy": [
+    "Travelers cheques and charge-card services; customers buy a recognized payment promise while merchants accept the card because customers use it and payment is expected [D01]."
+   ],
+   "economics": [
+    "Industry economics involve service charges combined with funds held between receipt and settlement [D01]. Margins and capital availability are sensitive to redemption, settlement, or credit obligations [D01]. Operating margins were 14.5% in 1963 [D02]. Tangible-capital reconciliation is not supported by provided data [D02]."
+   ],
+   "earnings_record": [
+    "FY1959–FY1963: Net income grew from $8.4m to $11.264m [D02]. EPS grew from $1.89 in 1959 to $2.52 in 1963 [D02]. Figures for 1963 are preliminary [D03]."
+   ],
+   "competitive_position": [
+    "The company maintains a network of service establishments, which grew to 81,989 by year-end 1962 [D06]. Moat evidence relies on customer confidence and merchant acceptance, though trust may be threatened by the current scandal [D01, D05]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "As of Dec 1962: Cash was $187.307m, securities $463.480m, outstanding payment instruments $421.063m, and customer balances $337.238m [D02]. Customer money is not surplus corporate cash [D02]."
+   ],
+   "management_and_capital_allocation": [
+    "President is Howard L. Clark [D02]. No specific information provided on buybacks or insider ownership [D02, D08]."
+   ],
+   "price_and_valuation": [
+    "January 1964 price proxy: approximately $37 [D04]. P/E is 14.7x based on $2.52 EPS [D04]. P/B is 2.42x based on Dec 1962 equity [D04]. S&P 500 P/E was 18.77x in January 1964 [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 6.81,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 3.78,
+    "long_bond_yield": 4.14,
+    "basis": "Earnings yield calculated as $2.52 EPS / $37 price; Dividend yield based on $1.40 FY1963 DPS [D04]; Long bond yield as of Feb 20, 1964 [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Potential liability from the warehousing subsidiary's commodities fraud; risk of loss of customer trust and reduced merchant acceptance [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "November 1963: Salad-oil fraud becomes public [D07]. January 6, 1964: Preliminary 1963 earnings announced at $2.52/share [D03]."
+   ],
+   "berkshire_context": [
+    "The investing vehicle is the Buffett Partnership, not Berkshire Hathaway [D08]. Exact position size is not in pack [D08]."
+   ],
+   "document_conflicts": [
+    "None reported."
+   ],
+   "missing_data": [
+    "Full legal-liability range for the fraud; post-scandal monthly card volumes; final settlement details; verified recurring owner earnings."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The core business of payment services and travelers cheques is straightforward, with a long-term utility in commerce that remains stable despite the current scandal [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The company possesses a powerful network effect through its vast system of service establishments and established customer habit, which serves as a moat despite the temporary trust threat [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Net income and EPS have shown consistent growth from 1959 to 1963, rising from $8.4m to $11.264m and $1.89 to $2.52 respectively [D02, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "Tangible-capital reconciliation is not supported by the provided data, and the nature of the business requires careful assessment of leverage vs. float [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "The business model relies on service charges and funds held, which does not require heavy capital investment to grow the network [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "No specific information is provided regarding insider ownership or capital allocation, and the company is currently embroiled in a significant commodities fraud scandal [D01, D02]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The company is sufficiently large for the Partnership to take a meaningful position [D08]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The trailing earnings yield of 6.81% is well above the 4.14% long bond yield, satisfying the era-appropriate margin of safety [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "A resilient payment franchise with a powerful network effect facing a temporary crisis of confidence."
+  },
+  "gate2": {
+   "templates": [
+    "B2"
+   ],
+   "why_available": "The market is reacting with alarm to the salad-oil commodities fraud, fearing that the resultant liabilities could ruin American Express and undermine its cardholder and merchant networks [D05, D07]. We believe this is a temporary cloud; the core payment business remains fundamentally intact and is distinct from the activities of the subsidiary involved in the fraud [D01]. Once the financial impact of the legal and credit losses is clarified and absorbed, the strength of the company's network and customer habits will allow it to return to its historical earnings trajectory [D01, D06].",
+   "evidence": [
+    "The core business involves travelers-cheque and charge-card services that maintain high utility in commerce [D01].",
+    "The network effect is supported by over 80,000 service establishments, demonstrating entrenched merchant and customer habits [D06].",
+    "Earnings have shown consistent growth, with net income rising from $8.4m in 1959 to $11.264m in 1963 [D02].",
+    "The market is currently pricing the company at a P/E of 14.7x, a discount relative to the broader market P/E of 18.77x [D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market fears the commodities fraud at the warehousing subsidiary represents an existential threat to the entire enterprise, potentially causing a collapse in card usage and merchant acceptance [D05].",
+   "what_must_be_true": [
+    "Cardholders continue to use the charge card and travelers cheques during the crisis.",
+    "The financial liability from the fraud is finite and can be absorbed by the company's resources.",
+    "The regulatory and legal environment will not revoke the company's ability to operate."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "$2.52 [D03]",
+   "initial_pretax_yield_pct": 6.81,
+   "intrinsic_value_range": {
+    "low": "Not explicitly calculable due to fraud uncertainty",
+    "high": "Not explicitly calculable due to fraud uncertainty",
+    "key_assumptions": [
+     "Core business remains fundamentally intact [D01]",
+     "Financial impact of the fraud is finite [D01]"
+    ],
+    "discount_rate_used": "4.14% [D04]"
+   },
+   "price_vs_value": "Market discounting relative to S&P 500 P/E [D04]; margin of safety provided by temporary nature of cloud",
+   "expected_return_pct": {
+    "base": 10,
+    "bear": 0,
+    "bull": 15
+   },
+   "alternatives": "Bonds (4.14% yield) are inferior as American Express core franchise offers superior long-term growth potential once the salad-oil crisis passes [D01, D04].",
+   "downside_case": "If the liability exceeds financial resources or permanently destroys the brand's trust, capital loss is possible; however, we view this as a temporary cloud [D01, D05].",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Exact legal liability is unknown [D05]",
+    "Final settlement impact on earnings [D05]",
+    "Assumes the core payment network is separable from the fraud-tainted subsidiary [D01]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are purchasing a stake in a marketable security to benefit from the long-term compounding of a resilient payment franchise once the temporary cloud of the salad-oil crisis dissipates [D01, D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Realization occurs through the company's return to its historical earnings growth trajectory as the temporary fraud-related liabilities are absorbed [D01, D06]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In 1964, the Buffett Partnership acts as a permanent holder of undervalued securities, seeking opportunities where the market has irrationally priced a high-quality business due to a temporary crisis [D01, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "The commodities fraud liability exceeds the company's financial resources, necessitating a capital restructuring that dilutes current shareholders [D01, D05].",
+    "Evidence emerges that the parent company's core payment business is legally or operationally tied to the fraudulent activities of the warehousing subsidiary [D01].",
+    "Widespread cancellation of American Express cards by customers or mass delisting by service establishments, signaling a permanent loss of the franchise's network effect [D01, D05, D06]."
+   ],
+   "berkshire_constraints": "The Partnership requires capital to remain available for other opportunities and must manage concentration risk, though the firm is currently operating as a partnership [D08].",
+   "size_pct_nav": {
+    "initial": 20,
+    "target": 40,
+    "max": 40,
+    "basis": "partnership"
+   },
+   "opportunity_cost": "Allocating capital to undervalued securities in the current market environment versus maintaining cash for potential future distress opportunities.",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The investment represents a significant opportunity in a durable franchise where the market is mispricing a temporary crisis, fitting the partnership's strategy for concentrated positions.",
+   "biggest_risk_in_one_sentence": "The ultimate legal and financial liability from the salad-oil scandal could prove significantly larger than current market estimates, potentially impairing the intrinsic value of the core franchise."
+  }
+ },
+ "final": {
+  "as_of_date": "1964-02-20",
+  "company": "American Express",
+  "ticker": "AXP",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 40,
+  "size_basis": "partnership",
+  "opportunity_template": [
+   "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "$2.52 per share",
+   "initial_pretax_yield_pct": 6.81,
+   "intrinsic_value_range": "Not explicitly calculable due to fraud uncertainty",
+   "expected_return_pct": 10,
+   "downside_case": "Significant financial liability from commodities fraud, though we view this as temporary"
+  },
+  "drivers": [
+   {
+    "driver": "The company sells at a 6.81% earnings yield against a 4.14% long bond yield, representing a discount to the broader market P/E of 18.77x [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "American Express maintains a powerful network effect through over 80,000 service establishments and deeply entrenched customer habits [D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The core business of travelers-cheque and charge-card services remains fundamentally sound and separable from the salad-oil commodities fraud [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The company has demonstrated a consistent earnings trajectory, with net income rising from $8.4m in 1959 to $11.264m in 1963 [D02].",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Commodities fraud liability exceeds financial resources requiring dilution [D01, D05].",
+   "Core business becomes legally or operationally tied to the fraudulent subsidiary [D01].",
+   "Widespread loss of customer trust or merchant delisting signaling a permanent loss of the network effect [D01, D05, D06]."
+  ],
+  "what_would_change_our_mind": "Evidence that the financial liability from the salad-oil scandal is not finite and will cause permanent impairment to the core payment franchise's competitive position or credit standing.",
+  "memo": "American Express is a company whose core services—travelers cheques and charge cards—occupy a central place in modern commerce [D01]. We understand this business because it relies on simple, durable customer habits: users trust the payment promise, and merchants accept the card because the customers are there [D01].\n\nBehind this service lies an extraordinary network effect, with over 80,000 service establishments forming a moat that is difficult for any competitor to replicate [D06]. While the commodities fraud at a subsidiary has cast a temporary shadow, the underlying economics of the payment business, which requires little capital to grow, remain robust [D01].\n\nManagement has overseen a consistent record of growth, with net income climbing from $8.4 million in 1959 to $11.264 million in 1963 [D02]. We look for businesses with these qualities, and American Express has historically rewarded its owners with steady returns on capital [D02].\n\nMr. Market is currently agitated by the salad-oil scandal, fearing that legal liabilities might cripple the enterprise [D05]. We believe this fear is misplaced; the scandal is a localized event that does not destroy the essential utility of the card and cheque business [D01]. We are buying this company because the market is pricing a temporary crisis as if it were a permanent destruction of the franchise [D05].\n\nAt a price of approximately $37, the company trades at a 14.7x multiple, offering an earnings yield of 6.81% compared to 4.14% for long-term bonds [D04]. This provides an attractive margin of safety for a business of this quality [D04]. We expect this investment to perform well as the clouds clear and the company returns to its historical growth path [D01].\n\nOur biggest risk is that the legal and financial fallout from the fraud exceeds our current estimates, potentially diluting the value of our stake [D05]. Given the strength of the franchise, we are establishing a significant position of up to 40% of the partnership's assets to take advantage of this mispricing [D08].",
+  "uncited_claims": []
+ }
+}

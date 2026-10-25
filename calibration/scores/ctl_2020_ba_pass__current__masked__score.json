@@ -1,0 +1,59 @@
+{
+ "trade_id": "ctl_2020_ba_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Berkshire's $128 billion cash position offers superior, higher-certainty alternatives to an aviation industry facing liquidity shocks [D05, D08] → With $128 billion in cash, we have no shortage of high-certainty alternatives that provide an immediate and reliable earnings yield [D08]."
+  ],
+  "missed": [
+   "Buffett said Berkshire had not acted because nothing was sufficiently attractive; calls before Federal Reserve action did not offer appealing terms, and firms subsequently borrowed more cheaply in public markets.",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements"
+  ],
+  "extra_agent_drivers": [
+   "Negative earnings and cash flow",
+   "Safety-related production grounding and collapse in global travel demand",
+   "Risk of value-destructive dilution or insolvency"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company currently has negative earnings and cash flow",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business is experiencing a severe confluence of a safety-related production grounding and a systemic collapse in global travel demand",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Berkshire's $128 billion cash position",
+    "citation": "D08",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The risk of value-destructive dilution or insolvency",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 7,
+  "share": 0.7
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "With $128 billion in cash, we have no shortage of high-certainty alternatives that provide an immediate and reliable earnings yield [D08].",
+ "grader_notes": "The agent correctly matches the decision to PASS and the high-level reasoning regarding the preference for higher-certainty alternatives given Berkshire's cash position. However, the agent relies heavily on detailed analyst-reconstructed fundamental analysis rather than citing Buffett's specific, broader market commentary regarding the lack of sufficiently attractive opportunities during the crisis, which represents a divergence from the provided answer key drivers.",
+ "run": "ctl_2020_ba_pass__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

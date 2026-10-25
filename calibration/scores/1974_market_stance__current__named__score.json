@@ -1,0 +1,58 @@
+{
+ "trade_id": "1974_market_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Purchase understandable businesses at low prices against net worth or going-concern value, with good management and resilience. → We are looking for simple, understandable businesses—utilities, newspapers, retailers—where the competitive position is secure and the management acts like owners [D01].",
+   "Ordinary recession and profit fears did not invalidate the available values at these prices. → While the headlines are filled with talk of inflation, oil scarcity, and economic despair, we prefer to focus on the durability of the cash-generating machines we can buy today [D03, D05].",
+   "There were still many bargains even after the sharp rebound. → When stocks are on the bargain counter, we do not stand on the sidelines; we act with conviction to put our capital to work."
+  ],
+  "missed": [
+   "Patience and independent appraisal matter more than institutional pressure to act."
+  ],
+  "extra_agent_drivers": [
+   "The earnings yield of 13.02% provides a massive spread of 5.22 percentage points over the 7.80% risk-free rate"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The S&P 500 earnings yield of 13.02% significantly exceeds the 7.80% yield on the ten-year Treasury",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Simple businesses with durable competitive advantages like utilities, newspapers, and major retailers",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Market prices have declined 41.4% from the 1973 highs",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Widespread pessimism and talk of depression confirm that Mr. Market is acting irrationally",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "When stocks are on the bargain counter, we do not stand on the sidelines; we act with conviction to put our capital to work.",
+ "grader_notes": "The agent correctly matched the investment decision and captured the core sentiment regarding identifying durable business value amidst market pessimism. The agent's reasoning was farthest from Buffett's by focusing heavily on relative bond-yield spreads, a quantitative method not explicitly cited as a driver by Buffett in the provided interview materials.",
+ "run": "1974_market_stance__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY_BROADLY",
+ "agent_decision": "BUY_BROADLY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

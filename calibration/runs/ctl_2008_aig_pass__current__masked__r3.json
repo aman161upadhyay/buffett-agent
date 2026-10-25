@@ -1,0 +1,243 @@
+{
+ "pack": "ctl_2008_aig_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2008-09-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a conglomerate owning international property/casualty and life-insurance franchises, retirement products, and financial-service operations [D01]. It maintains a large portfolio of financial guarantees and credit-default swaps [D01].",
+   "products_customers_and_why_they_buy": [
+    "Insurance products sold to individuals and commercial entities; value is derived from distribution relationships, licensing, and policy renewals [D01]"
+   ],
+   "economics": [
+    "Not in pack; no maintenance-capex or owner-earnings breakdown is provided [D02]. Reported results are affected by significant investment impairments and derivative valuation losses [D01]"
+   ],
+   "earnings_record": [
+    "Second-quarter 2008 net loss was $5.36 billion ($2.06/share) vs $4.28 billion profit a year earlier [D01]. Six-month 2008 net loss was $13.16 billion ($5.11/share) [D01]"
+   ],
+   "competitive_position": [
+    "Not in pack; no specific market-share data or peer-relative moat analysis is provided beyond general insurance-industry comparisons [D06]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "June 30, 2008 shareholders' equity was $78.09 billion ($29.04/share) [D01]. Consolidated assets were $1.050 trillion [D01]. The company faces significant collateral stress risks related to its credit-default-swap portfolio [D01]"
+   ],
+   "management_and_capital_allocation": [
+    "Management is currently reviewing all business units to reduce risk and protect capital [D01]. May 2008 capital raise totaled ~$20 billion including common shares, equity units, and fixed maturities [D01]"
+   ],
+   "price_and_valuation": [
+    "Price as of 2008-09-15 was $4.76/share [D04]. P/B is 0.164x based on June book value [D04]. P/E is not meaningful due to net losses [D04]"
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "No earnings yield is calculable due to reported net losses [D02, D04]. No yield metrics are provided in the pack."
+   },
+   "what_the_market_is_worried_about": [
+    "Liquidity calls on interconnected guarantee books [D05].",
+    "Potential for ratings changes or collateral-term adjustments requiring cash before insured credit losses are known [D05].",
+    "Legal/regulatory restrictions on upstreaming policyholder assets [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "May 2008: ~$20 billion capital raised [D07].",
+    "August 6, 2008: Release of Q2 results and announcement of business-review plans [D07].",
+    "September 15, 2008: Date of assessment regarding market stress [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire held $44.329 billion in cash as of December 2007 [D08]. Insurance float was $58.698 billion [D08]. Berkshire possesses relevant insurance expertise but is subject to legal-entity risks [D08]."
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Contemporaneous September 15 liquidity statement; normalized owner earnings; maintenance capital expenditure data; specific subsidiary purchase prices; detailed peer-valuation table."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The company's reliance on complex credit-default swaps and financial guarantees creates opaque, binary risks that are difficult to assess [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "The business faces significant liquidity and collateral stress risks that jeopardize the capital strength and underwriting reputation essential to an insurance moat [D01, D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company reported a $13.16 billion net loss for the first six months of 2008, indicating a severe break in earnings consistency [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The firm suffers from thin capital relative to its massive derivative exposure and relies on significant capital raises to maintain liquidity [D01, D07]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business requires massive capital infusions to cover collateral calls and derivative valuation losses, failing the test for capital-efficient growth [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "While management is reviewing units to reduce risk, the prior accumulation of significant credit-default swap exposure raises questions regarding past capital allocation [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The company's scale is sufficiently large to impact Berkshire's portfolio [D01]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "No earnings yield is calculable due to net losses, and the price is depressed due to fundamental solvency concerns [D02, D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 7,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a distressed financial institution facing a liquidity crisis and severe, unquantifiable risk from its derivative portfolio"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is pricing the business for potential insolvency due to opaque derivative exposure and liquidity risks that are impossible to accurately quantify [D01, D05]. We cannot determine if the underlying insurance franchises are durable or if the capital base will be depleted by collateral calls, rendering a bargain thesis impossible to support [D01].",
+   "evidence": [
+    "Net loss of $13.16 billion reported for the first half of 2008 [D01].",
+    "Significant liquidity and collateral stress risks related to credit-default-swap portfolio [D01].",
+    "Concerns regarding legal and regulatory restrictions on accessing policyholder assets [D05]."
+   ],
+   "market_narrative_we_disagree_with": "The market views the entity as a viable financial conglomerate despite the massive derivative-related losses and capital calls [D01, D05].",
+   "what_must_be_true": [
+    "The derivative portfolio must not contain hidden, unbounded liabilities that threaten total firm collapse.",
+    "The core insurance operations must remain sufficiently capitalized to function.",
+    "Management must be able to ring-fence or liquidate the problematic financial guarantee units without exhausting the firm's overall equity."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "market_stance",
+   "owner_earnings_per_share": "Not in pack [D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "Indeterminate",
+    "high": "Indeterminate",
+    "key_assumptions": [
+     "Derivative portfolio liabilities are bounded [D01]",
+     "Insurance operations remain solvent [D01]"
+    ],
+    "discount_rate_used": "Not applicable due to lack of earnings visibility [D02]"
+   },
+   "price_vs_value": "Indeterminate; P/B 0.164x [D04]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Holding T-bills / cash is superior; the risk of permanent capital loss here is unquantifiable [D01]",
+   "downside_case": "Total loss of equity if collateral calls and derivative liabilities exceed liquid assets; this is a permanent loss risk [D01]",
+   "valuation_verdict": "FULL",
+   "flagged_assumptions": [
+    "Normalised owner earnings cannot be estimated due to impairment and derivative losses [D01]",
+    "Long bond yield is not provided in the pack [D02]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We act as a permanent, passive holder when we purchase marketable securities, relying on the compounding of the business and rational capital allocation over the long term [D01, D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realised through the compounding of the business and the eventual market recognition of its intrinsic value [D01]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000-2015 era, our role as a permanent, passive holder is our standard approach for marketable securities where we do not seek control or board representation [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Derivative portfolio liabilities exceed liquid assets resulting in insolvency [D01]",
+    "Regulatory or legal restrictions prevent access to insurance float [D05]",
+    "Collateral calls exceed cash and credit capacity [D01]"
+   ],
+   "berkshire_constraints": "Must maintain strong liquidity to support insurance operations and preserve reputation; regulatory capital requirements must be satisfied [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Holding cash and T-bills provides superior safety and optionality given the unquantifiable risk of permanent capital loss [D01, D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The decision involves assessing systemic risk and potential capital allocation in a distressed financial environment, which falls under my direct purview.",
+   "biggest_risk_in_one_sentence": "The opaque, binary risks inherent in the derivative portfolio could lead to total loss of equity."
+  }
+ },
+ "final": {
+  "as_of_date": "2008-09-15",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Indeterminate",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Indeterminate",
+   "expected_return_pct": 0,
+   "downside_case": "Total loss of equity if collateral calls and derivative liabilities exceed liquid assets [D01]"
+  },
+  "drivers": [
+   {
+    "driver": "The company reported a $13.16 billion net loss for the first six months of 2008, rendering valuation based on earnings yield impossible [D01, D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The business faces opaque, binary risks from a massive credit-default swap portfolio that creates unquantifiable collateral stress [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Liquidity risks and potential regulatory restrictions on accessing policyholder assets create a threat of permanent capital loss [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "We have no edge in assessing whether the insurance franchise is durable or if the capital base will be depleted by derivative-related liabilities [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Derivative portfolio liabilities exceed liquid assets resulting in insolvency [D01]",
+   "Regulatory or legal restrictions prevent access to insurance float [D05]",
+   "Collateral calls exceed cash and credit capacity [D01]"
+  ],
+  "what_would_change_our_mind": "Clear evidence that derivative liabilities are bounded, the insurance subsidiaries are isolated from financial guarantee losses, and the company has sufficient, unencumbered liquidity to meet all obligations without further dilution or state intervention.",
+  "memo": "Charlie and I have reviewed the situation at this financial institution and have determined that it falls firmly into our 'too hard' pile. While the company owns insurance franchises, the opaque and binary risks embedded in its massive credit-default swap portfolio create a situation where we cannot form a reliable estimate of intrinsic value [D01]. We do not engage in businesses where the potential for permanent capital loss is unquantifiable [D01].\n\nRecent results have been catastrophic, with a $13.16 billion net loss reported for the first six months of 2008 [D01]. This performance represents a severe break in consistency and reflects the dangers of the firm's past capital allocation toward complex derivative products [D01]. The ongoing collateral stress associated with these guarantees creates a level of liquidity risk that we are unwilling to underwrite [D01, D05].\n\nWe prioritize the preservation of Berkshire’s reputation and capital above all else [D08]. In an environment where the company’s solvency is questioned by the market, holding cash and short-term treasuries provides us with far superior safety and optionality [D01, D08]. We will wait for opportunities where the economics are transparent and the risks are well within our circle of competence.",
+  "uncited_claims": []
+ }
+}

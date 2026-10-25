@@ -1,0 +1,250 @@
+{
+ "pack": "2025_oxychem_acq",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2025-10-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company's chemical subsidiary produces chlorine, caustic soda, and PVC for industrial and building-related uses [D01]. The business is an operating chemical platform that requires consistent reinvestment in physical assets and relies on energy costs, product spreads, and customer demand [D01].",
+   "products_customers_and_why_they_buy": [
+    "Chlorine, caustic soda, and PVC sold for essential industrial and building-related applications [D01]."
+   ],
+   "economics": [
+    "Earnings are cyclically variable; the segment experienced a 55.2% decline in pretax earnings from 2022 to 2024 [D02].",
+    "Capital intensity is significant, with capital expenditures increasing 112.7% between 2020 and 2024 [D02].",
+    "The business requires maintenance, safety, and environmental spending to earn an adequate return [D01]."
+   ],
+   "earnings_record": [
+    "Pretax earnings: $664m (2020), $1,544m (2021), $2,508m (2022), $1,531m (2023), and $1,124m (2024) [D02].",
+    "Recent quarterly pretax income: $436m (Q2 2023), $260m (Q1 2024), and $213m (Q2 2025) [D01, D02, D03]."
+   ],
+   "competitive_position": [
+    "Essential products do not automatically grant pricing power [D01].",
+    "Low-cost producers may earn attractive cash flows across a cycle, but no specific cost-curve rank is provided [D01, D06].",
+    "Peers include Olin, Westlake, and Dow, which also produce chlor-alkali/PVC and related chemical products [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "No stand-alone balance sheet, debt, or cash position exists for the chemical segment [D02].",
+    "The parent is reducing debt using cash generation and divestitures; segment assets must compete for capital [D03].",
+    "Prospective capital spending for the parent is expected to decrease by approximately $300 million in the following year [D03]."
+   ],
+   "management_and_capital_allocation": [
+    "Not in pack."
+   ],
+   "price_and_valuation": [
+    "No separate publicly traded stock or established stand-alone transaction price exists for the segment [D04].",
+    "Parent market valuation reflects the combined energy and chemical operations, not a stand-alone segment price [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 4.12,
+    "basis": "10-year Treasury yield as of 2025-10-01 [D04]; segment earnings and cash flows are cyclically variable and not directly convertible to stable yields [D02]."
+   },
+   "what_the_market_is_worried_about": [
+    "Cyclical commodity spreads and volatility [D05, D07].",
+    "Environmental, safety, and legacy liability exposures [D05].",
+    "Inability to distinguish between cyclical inventory adjustments and long-term earnings durability [D03, D05]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "2025-08-06: Reported Q2 2025 pretax income of $213 million [D03].",
+    "2025-08-07: Discussion of prospective $300 million reduction in capital spending [D03]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds 264,941,431 common shares of the parent company as of June 30, 2025 [D08].",
+    "Berkshire possesses no direct ownership or control over the chemical subsidiary itself [D01, D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Stand-alone balance sheet, maintenance-capital schedule, distributable owner earnings, and a stand-alone transaction price."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business is a cyclical commodity platform reliant on unpredictable product spreads and energy costs, making long-term earnings visibility low [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "The company produces essential products but lacks clear pricing power, and no evidence of a low-cost competitive advantage is provided [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "Earnings are highly volatile, having experienced a 55.2% decline in pretax profit from 2022 to 2024 [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "A stand-alone balance sheet is not provided, making it impossible to assess the segment's leverage or return on capital [D02, D03]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business requires significant and increasing capital expenditures for maintenance and safety, with spending growing 112.7% from 2020 to 2024 [D01, D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Information regarding the management team is not in the pack [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "The business is a subsidiary with no stand-alone transaction price or valuation available to assess its scale [D04]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "No stand-alone earnings yield or transaction price exists to evaluate against the 4.12% long bond yield [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 0,
+   "n_fail": 6,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a capital-intensive commodity business lacking a durable moat or stable earnings record"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no reason to classify this as a bargain, as the business is a cyclical commodity platform with declining, volatile earnings and rising capital intensity [D01, D02]. Because it is a subsidiary without a stand-alone transaction price or clear competitive advantage, it fails to meet the criteria for a wonderful business or a predictable turnaround [D01, D04].",
+   "evidence": [
+    "Pretax earnings fell 55.2% from 2022 to 2024 [D02].",
+    "Capital expenditures increased 112.7% between 2020 and 2024 [D02].",
+    "No stand-alone balance sheet or valuation exists to assess an intrinsic value [D02, D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market's concern regarding cyclical commodity spreads and environmental liabilities [D05, D07] is not a temporary cloud over a durable franchise, but a reflection of the inherent nature of a commodity business that requires heavy, ongoing capital investment [D01, D02].",
+   "what_must_be_true": [
+    "The subsidiary would need to demonstrate a sustainable low-cost advantage in the industry [D01].",
+    "Capital expenditures would need to stabilize relative to owner earnings [D01, D02].",
+    "A clear, reliable stream of distributable earnings would need to be established [D02]."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack [D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "No stand-alone balance sheet or transaction price [D02, D04]"
+    ],
+    "discount_rate_used": "4.12% [D04]"
+   },
+   "price_vs_value": "not in pack",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / T-bills / existing holdings / Berkshire buyback — which is better and why [D04]",
+   "downside_case": "not in pack; the business is a cyclical commodity platform requiring high capital intensity [D01, D02]",
+   "valuation_verdict": "FULL",
+   "flagged_assumptions": [
+    "No stand-alone financial statements exist for the subsidiary [D02]",
+    "Unable to determine owner earnings due to lack of maintenance-capital schedule [D02]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are a permanent passive holder of the parent company's common stock, seeking value realisation through the business's long-term compounding and rational capital allocation [D08]. We do not seek to manage or restructure the underlying chemical subsidiary [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "The parent company continues to manage its portfolio of assets and debt, while we benefit from the compounding of our total position in the parent company [D03, D08]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "As of 2025-10-01, our approach to non-controlled marketable securities is to remain a permanent, passive holder of businesses that meet our criteria, while awaiting appropriate capital allocation opportunities [D04, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent loss of pricing power due to commodity market oversupply",
+    "Capital expenditures for environmental and safety compliance exceed segment cash generation",
+    "Structural decline in industrial demand for chlorine and PVC"
+   ],
+   "berkshire_constraints": "As a subsidiary of a publicly traded parent company, we have no direct control over the chemical business's capital allocation or operations, and we are limited to our position in the parent entity [D01, D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed into existing high-quality holdings or Berkshire's own shares, as this subsidiary fails to meet our standards for a wonderful business [D04].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a passive holding in a subsidiary of a larger company that does not meet our requirements for a stand-alone business investment.",
+   "biggest_risk_in_one_sentence": "The business is a capital-intensive commodity platform with volatile earnings, high maintenance-capital requirements, and no durable competitive advantage."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-10-01",
+  "company": "the Company (XXX)",
+  "ticker": "N/A",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "not in pack"
+  },
+  "drivers": [
+   {
+    "driver": "The business is a cyclical commodity platform, and no stand-alone valuation or transaction price exists to assess against the 4.12% long bond yield [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Pretax earnings declined 55.2% from 2022 to 2024, demonstrating high earnings volatility [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "Capital expenditures increased by 112.7% from 2020 to 2024, reflecting significant and rising capital intensity [D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The business lacks a clear durable competitive advantage or pricing power in its essential product lines [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent loss of pricing power due to commodity market oversupply",
+   "Capital expenditures for environmental and safety compliance exceed segment cash generation",
+   "Structural decline in industrial demand for chlorine and PVC"
+  ],
+  "what_would_change_our_mind": "A demonstration of a sustained, low-cost competitive advantage, stabilization of capital expenditures relative to owner earnings, and a reliable, predictable stream of distributable earnings.",
+  "memo": "We have examined the chemical subsidiary and found it to be a capital-intensive commodity business that falls well outside our circle of competence [D01, D04]. The operation, which produces chlorine, caustic soda, and PVC, relies on unpredictable product spreads and energy costs that make long-term earnings visibility impossible [D01, D05].\n\nUnlike the wonderful businesses we seek, this subsidiary lacks clear pricing power [D01]. The economic record is marked by extreme volatility, with pretax earnings falling 55.2% between 2022 and 2024 [D02]. Such swings are the hallmark of a commodity platform, not a business with a durable moat [D01, D02].\n\nFurthermore, the business is a voracious consumer of capital, with expenditures for maintenance and safety growing 112.7% over the last four years [D02]. In this industry, you must constantly run faster just to stay in the same place [D01, D02].\n\nThere is no stand-alone balance sheet or established transaction price to allow for a calculation of intrinsic value [D02, D04]. Investing here would be a gamble on cyclical commodity trends rather than an investment in a durable franchise [D01, D05]. We prefer to keep our capital in high-quality holdings or Berkshire shares, where the economics are far more certain [D04].",
+  "uncited_claims": []
+ }
+}

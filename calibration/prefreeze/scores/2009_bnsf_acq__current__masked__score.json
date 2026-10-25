@@ -1,0 +1,48 @@
+{
+ "trade_id": "2009_bnsf_acq",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Efficient rail infrastructure is necessary for US prosperity. → We are agreeing to acquire the entire business because it operates an essential, difficult-to-replicate rail network that forms the backbone of the United States' freight infrastructure [D01].",
+   "The bet concerned the long-term US economy rather than next-quarter freight. → By acquiring this business, we are making an all-in wager on the economic future of the United States, utilizing our float to own a permanent compounder that will benefit from the nation's long-term growth [D01, D08]."
+  ],
+  "missed": [
+   "Buffett trusted Matt Rose and the operating team."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value — the shares trade at $76.07 against an intrinsic value of $95-$120, offering a significant margin of safety [D04, D05].",
+   "The market is incorrectly extrapolating short-term cyclical declines in freight and coal as permanent impairments to long-term utility [D05]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "We are agreeing to acquire the entire business because it operates an essential, difficult-to-replicate rail network that forms the backbone of the United States' freight infrastructure",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market is currently pricing this asset as if recent cyclical pressures on freight volumes and secular concerns regarding coal were permanent",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 5,
+  "share": 0.56
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "By acquiring this business, we are making an all-in wager on the economic future of the United States, utilizing our float to own a permanent compounder that will benefit from the nation's long-term growth [D01, D08].",
+ "grader_notes": "The agent correctly identified the macro-economic thesis and the critical nature of the rail network, aligning with Buffett's stated rationale. However, the agent included valuation-based drivers (margin of safety and market mispricing) which, while sound in an analytical context, were not mentioned in Buffett's specific public drivers for this transaction.",
+ "run": "2009_bnsf_acq__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,48 @@
+{
+  "id": "ctl_2012_fb_ipo_pass",
+  "actual_decision": "PASS",
+  "conviction": "high",
+  "size_pct_nav": 0,
+  "first_action_date": "2012-05-05",
+  "disclosure_date": "2012-05-06",
+  "reason_class": null,
+  "opportunity_template": [
+    "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "decider_identity": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "Buffett declines new offerings because a well-informed seller chooses the timing and price; neither he nor Munger underwrote Facebook at its IPO valuation.",
+      "source": "https://www.theatlantic.com/business/2012/05/warren-buffet-bearish-facebooks-ipo/328508/ (2012-05-06; later evidence where after cutoff)",
+      "quote": "We never buy into an offering.",
+      "evidence_type": "documented_action_or_comment"
+    },
+    {
+      "driver": "Buffett and Munger publicly said they would not buy the Facebook IPO at the May 5 meeting; contemporaneous May 6 coverage quotes the policy. No Facebook/Meta row in parent holdings census 2010\u2013Q2 2026; not a claim about NEAM client portfolios.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1067983/000119312512355534/0001193125-12-355534.txt",
+      "quote": null,
+      "evidence_type": "ownership_or_refusal_verification"
+    },
+    {
+      "driver": "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements; do not award reasoning-overlap credit for treating them as quotations.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1326801/000119312512240111/d287954d424b4.htm (2012-05-17)",
+      "quote": null,
+      "evidence_type": "grading_boundary_not_stated_reason"
+    }
+  ],
+  "entry_valuation_stated": "No issuer-specific investor-stated intrinsic value or entry multiple recovered; pack valuation is analyst reconstruction.",
+  "outcome_note": "Buffett and Munger publicly said they would not buy the Facebook IPO at the May 5 meeting; contemporaneous May 6 coverage quotes the policy. No Facebook/Meta row in parent holdings census 2010\u2013Q2 2026; not a claim about NEAM client portfolios. This is a direction/discipline test, not a return forecast. Nonholding evidence is scoped to the parent discretionary portfolio and the tested window; quarterly 13Fs cannot prove absence of every intraperiod trade, nonreportable instrument, subsidiary client holding or personal investment.",
+  "sources": [
+    "https://www.theatlantic.com/business/2012/05/warren-buffet-bearish-facebooks-ipo/328508/",
+    "https://www.sec.gov/Archives/edgar/data/1067983/000119312512355534/0001193125-12-355534.txt",
+    "https://www.sec.gov/Archives/edgar/data/1326801/000119312512240111/d287954d424b4.htm",
+    "buffett-agent/compendium/all_positions_index.md",
+    "buffett-agent/compendium/filings_2010_2026.md"
+  ],
+  "pack_quality_notes": "Final prospectus is dated May 17 but filed May 18; used as the May 17 pricing document, with that release/filing distinction explicit. No market close exists before IPO. Prior public refusal is intentionally not reproduced in docs, to avoid giving away the label. Silent controls do not have three authentic stated reasons; the three slots distinguish action, ownership verification and grading boundary rather than fabricate quotes. Deputy keys use user-requested decider='deputy'; meta retains the allowed named/unknown identity. PASS label is nonpurchase/refusal evidence, not proof a presented bull thesis was publicly evaluated.",
+  "verification_window": "Buffett and Munger publicly said they would not buy the Facebook IPO at the May 5 meeting; contemporaneous May 6 coverage quotes the policy. No Facebook/Meta row in parent holdings census 2010\u2013Q2 2026; not a claim about NEAM client portfolios.",
+  "control_quality_grade": "B"
+}

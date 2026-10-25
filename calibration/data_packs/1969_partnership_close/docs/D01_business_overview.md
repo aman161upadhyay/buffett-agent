@@ -1,0 +1,15 @@
+Title: US equity market / Buffett Partnership — Business economics
+Source: Buffett Partnership correspondence through May 29, 1969; factual opportunity-set reconstruction with the day's disposition and instructions withheld; https://focusedcompounding.com/wp-content/uploads/2018/04/Complete_Buffett_partnership_letters-1957-70.pdf
+Date: 1969-05-29
+
+## Cutoff evidence — reconstructed
+
+The asset being evaluated is the Partnership's opportunity set across generals, workouts and controlled businesses. Quantitative discounts, announced corporate events and control positions require different kinds of evidence; their returns should not be conflated with the direction of a stock index. The May correspondence describes a market increasingly dominated by performance-oriented and speculative methods unlike the Partnership's established approach. The analytical issue is whether the existing method can still place meaningful capital at satisfactory prospective returns. This is not a company-specific revenue model, and it supplies no proposition about the next move in the Dow.
+
+## Economic reading of the supplied facts
+
+Portfolio economics: aggregate stock ownership is a claim on business earnings, not a claim on the path of a market index. Dividends distribute part of those earnings; retained earnings add value only if employed productively. Interest rates affect the present value of both equities and bonds. An investor who sells one financial asset must still decide what to hold instead. Cash avoids duration and business risk but is exposed to inflation and the opportunity cost of missed investments. Market averages can obscure large differences among individual businesses. Comparing aggregate prices with book value or profits is a valuation exercise, not a mechanism for forecasting next month's quotation. The financial comparisons below are conditional on earnings durability and the stated measurement dates.
+
+Economic interpretation, not a management forecast: the important distinction is between demand for the product and cash available to its owners. A recognizable name is not sufficient evidence of an economic franchise. The relevant tests are repeat purchasing, the customer's alternatives, the seller's ability to maintain price, and the capital needed to preserve those advantages. Physical assets can be copied; a durable customer relationship may be harder to reproduce. Conversely, an apparently entrenched relationship can disappear if customers obtain better service or lower prices elsewhere.
+
+The business description therefore does not assume that historical profitability persists indefinitely. Separate ordinary operations from unusual charges and separate a good product from a good investment at the offered price. Management's operating record and the financing of the enterprise belong in the same assessment. No value is assigned here to an unannounced acquisition, hypothetical takeover premium, or an improvement that requires a new owner to change the basic business.

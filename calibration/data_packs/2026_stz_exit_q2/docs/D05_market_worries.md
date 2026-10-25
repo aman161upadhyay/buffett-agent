@@ -1,0 +1,14 @@
+Title: Volume weakness, tariffs and a leveraged investment cycle
+Source: https://ml.globenewswire.com/Resource/Download/3ef69300-da43-4e07-9468-985051ddf0ed
+Date: 2026-03-31
+
+The strongest bear case is that Mexican beer brands continue gaining share within a shrinking market while absolute demand and returns deteriorate. The current data show declining shipments and depletions, including weakness in the largest brands. Favorable pricing has not fully offset those pressures. Aluminum tariff costs and unfavorable fixed-cost absorption already appear in the issuer's margin explanation. [1]
+
+Approximately $1.2 billion guided capital spending and meaningful leverage limit how much accounting profit becomes cash for common holders. Water, raw-material and production concentration risks are also identified in the release's cautionary disclosures. A skeptic need not claim the brands have disappeared; a persistent change in drinking habits or customer affordability could lower normalized growth and justify a lower multiple. Management's relative share gains are the counterargument, not proof of recovery. No manager-specific admission of a mistake or particular portfolio-cleanup reason is invented. The pack contains no subsequent annual guidance or completed exit disclosure. [1]
+
+Evidence ledger from the January 7 release, covering the November quarter: total net sales were $2.223 billion, down 10% reported but 2% organically; reported EPS $2.88 and comparable EPS $3.06. Beer net sales of $2.0097 billion fell 1%; shipments fell 2.2%, depletions 3.0%, and beer operating income was $763.5 million. Beer operating margin was 38.0%. Modelo Especial depletions fell about 4%, Corona Extra nearly 9%, while Pacifico and Victoria grew over 15% and 13%. Year-to-date operating cash flow was $2.1 billion and free cash flow $1.45 billion. Annual comparable EPS guidance remained $11.30-$11.60; reported guidance was $9.72-$10.02. Guided capital spending was approximately $1.2 billion, including approximately $1.0 billion for Mexican beer operations. Comparable net leverage target was approximately 3.0 times. [1]
+
+Risk distinction: a temporary earnings interruption and a permanent impairment can initially produce similar reported numbers. The test is whether the cause can be bounded without assuming that management's preferred recovery path must occur. Position liquidity limits execution risk, not business risk. The adverse mechanisms set out here are scenarios grounded in the cited contemporary evidence, not claims that every adverse outcome has occurred. No independent short-seller target or numerical probability is invented where a dated opposing valuation was not recovered.
+
+Sources and publication dates:
+[1] https://ml.globenewswire.com/Resource/Download/3ef69300-da43-4e07-9468-985051ddf0ed (published 2026-01-07)

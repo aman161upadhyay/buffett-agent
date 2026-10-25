@@ -1,0 +1,57 @@
+{
+ "trade_id": "dep_2021_atvi_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "BUY by an unnamed deputy, not Buffett and not merger arbitrage.",
+   "Buffett's signed February 17, 2022 clarification: one of two independent investment managers bought about 85% in October, completed in November, average cost about $77.",
+   "Buffett explicitly said the investment manager operated independently of him and Berkshire had no prior knowledge of Microsoft's proposal."
+  ],
+  "extra_agent_drivers": [
+   "Lack of stable royalty stream",
+   "Workplace and reputational risk",
+   "Declining net bookings",
+   "Outside circle of competence"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company relies on constant creative investment and lacks the characteristics of a stable, self-maintaining royalty stream",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Serious and ongoing workplace, employment, and compensation allegations create significant reputational risk",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Net bookings have shown a year-on-year decline",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company operates outside of our circle of competence regarding unpredictable creative software cycles",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 7,
+  "share": 0.64
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have reviewed the business of Activision Blizzard and determined it is not a candidate for our portfolio.",
+ "grader_notes": "The agent reached the opposite decision of Berkshire Hathaway, which initiated a significant position during the specified period. The agent's reasoning focused on qualitative business risks and reputational concerns, which were entirely absent from the actual investment rationale provided in the answer key.",
+ "run": "dep_2021_atvi_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS"
+}

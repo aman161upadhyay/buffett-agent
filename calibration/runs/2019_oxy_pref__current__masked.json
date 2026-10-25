@@ -1,0 +1,242 @@
+{
+ "pack": "2019_oxy_pref",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2019-04-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is an oil and gas producer with chemical and midstream interests [D01]. It is currently engaged in a potential acquisition that would expand its resource and operating footprint while increasing its financing requirements [D01].",
+   "products_customers_and_why_they_buy": [
+    "Oil, gas, chemical and midstream products [D01]; customer-retention or specific pricing evidence is not in pack [D01]."
+   ],
+   "economics": [
+    "Margins are impacted by realized prices, volumes, royalties, taxes and exploration/development costs [D01]; standalone FY2018 CFO was $7.669bn with $4.975bn capex [D02]; pricing history is not in pack [D12]."
+   ],
+   "earnings_record": [
+    "Net income: $616m (2014), -$7.829bn (2015), -$574m (2016), $1.311bn (2017), $4.131bn (2018) [D02]; cyclical commodity business [D05]."
+   ],
+   "competitive_position": [
+    "Peer group includes Chevron, Exxon Mobil, and ConocoPhillips [D04]; competitive rank and share are not in pack [D12]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "FY2018 long-term debt: $10.201bn; cash: $3.033bn; net debt: $7.168bn [D04]; proposed $10bn preferred financing supports acquisition [D02, D04]."
+   ],
+   "management_and_capital_allocation": [
+    "CEO tenure, record, and internal incentive details are not in pack [D12]."
+   ],
+   "price_and_valuation": [
+    "Common share price (April 2019): $58.88 [D04]; market cap: ~$44.87bn [D04]; FY2018 P/E: 10.92x [D04]; P/B: 2.10x [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 9.15,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 5.3,
+    "long_bond_yield": 2.51,
+    "basis": "FY2018 EPS of $5.39 and price of $58.88 [D04]; 10-year Treasury yield as of 2019-04-30 [D04]; FCF yield not in pack [D12]."
+   },
+   "what_the_market_is_worried_about": [
+    "Aggressive acquisition debt and preferred obligations near a cyclical peak [D05]; execution risk of acquisition synergies and asset sales [D05]."
+   ],
+   "deal_terms_if_any": [
+    "$10bn cumulative perpetual preferred, 8% coupon ($800m annual), warrants on 80m shares at $62.50 strike ($5bn exercise) [D02, D04]."
+   ],
+   "recent_events": [
+    "April 30, 2019: Securities purchase agreement for preferred and warrants announced [D04, D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire held ~$112bn in cash/Treasuries at YE2018 [D08]; this is a potential material allocation but not in pack that the Company accepted [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Specific customer-retention data, precise maintenance capex requirements, and details of management compensation/tenure."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The company operates as a cyclical commodity producer with fluctuating results dependent on market prices rather than a stable, predictable consumer franchise [D01], [D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "The pack lacks evidence of specific pricing power or a durable competitive advantage, and the company competes in a commodity industry against larger peers [D04], [D12]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The earnings history is highly volatile with significant net losses in 2015 and 2016 [D02], reflecting the cyclical nature of the industry [D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company carries significant long-term debt and is further increasing its leverage to fund a major acquisition [D01], [D04]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "It is a capital-intensive oil and gas producer without evidence of a low-cost, Permian-class resource base or commitment to debt reduction [D01], [D04]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Specific details regarding management tenure, record, and compensation structures are not in the pack [D12]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The company's market capitalization of approximately $44.87bn is sufficiently large to impact Berkshire's portfolio [D04]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "While the trailing earnings yield is 9.15%, the lack of normalized owner earnings or FCF data prevents a definitive assessment against the 1.5x long bond yield threshold [D04], [D12]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 5,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": true,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "The terms, not the business, carry the investment; the underlying common stock is a cyclical commodity producer with volatile earnings and high debt."
+  },
+  "gate2": {
+   "templates": [
+    "B3"
+   ],
+   "why_available": "The market is wary of the company's aggressive debt load and execution risks associated with a major acquisition, leading to a valuation that allows Berkshire to command attractive, senior-ranking terms [D05]. By acting as a lender of last resort, we secure an 8% cumulative perpetual dividend and warrants that provide significant upside if the business stabilizes and scales, without requiring us to bet on the commodity price cycle [D02], [D04].",
+   "evidence": [
+    "Proposed $10bn preferred financing to support acquisition [D02], [D04]",
+    "8% cumulative perpetual preferred coupon [D02], [D04]",
+    "Warrants on 80m shares at $62.50 strike [D04]",
+    "Market concerns regarding acquisition debt and execution risk [D05]"
+   ],
+   "market_narrative_we_disagree_with": "The market views the acquisition and associated leverage as a sign of financial distress or overextension at a cyclical peak, ignoring the contractual seniority and equity kicker provided by our preferred investment [D05].",
+   "what_must_be_true": [
+    "The 8% coupon is serviced reliably through operating cash flow",
+    "The acquired assets provide sufficient scale to justify the capital injection",
+    "Management executes the integration without destroying value",
+    "The business remains solvent through commodity price volatility"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "negotiated_terms",
+   "owner_earnings_per_share": "not in pack",
+   "initial_pretax_yield_pct": 8,
+   "intrinsic_value_range": {
+    "low": "Value of $10bn preferred + warrant option value",
+    "high": "Value of $10bn preferred + warrant option value",
+    "key_assumptions": [
+     "Preferred provides priority over common [D05]",
+     "8% coupon is sustainable through cash flow [D02]",
+     "Warrants provide upside potential [D04]"
+    ],
+    "discount_rate_used": "2.51% [D04]"
+   },
+   "price_vs_value": "Negotiated terms provide senior-ranking security; margin of safety derived from preferred status",
+   "expected_return_pct": {
+    "base": 8,
+    "bear": 8,
+    "bull": 15
+   },
+   "alternatives": "Cash/Treasuries yield 2.51% [D04]; preferred provides superior risk-adjusted return of 8% with equity upside",
+   "downside_case": "Company struggles with debt load; downside is limited to investment impairment if the business fails to service the preferred coupon, which we view as unlikely given the assets [D05]",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Exact warrant valuation requires Black-Scholes model not in pack",
+    "Operating cash flow sufficiency assumed to cover $800m annual coupon"
+   ]
+  },
+  "gate4": {
+   "role": "R2",
+   "role_description": "Berkshire acts as a financier with specific terms, providing $10bn in capital through a cumulative perpetual preferred security with an 8% coupon and warrants, ensuring seniority and a priority claim over common equity [D02], [D04], [D05].",
+   "horizon": "until conversion",
+   "value_realisation_path": [
+    "Receive 8% annual coupon payments supported by operating cash flow [D02], [D05]",
+    "Participate in potential upside through the exercise of warrants on 80m shares at a $62.50 strike if the business stabilizes and scales [D04]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "During the 2000-2015 period and beyond, we utilize our liquidity to act as a lender of last resort in complex situations, securing crisis-style preferreds with attractive coupons and warrants that offer an equity kicker without requiring us to operate the underlying commodity business directly [D02], [D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Operating cash flow falls below the level required to service the $800m annual preferred dividend [D02], [D05].",
+    "Management fails to integrate the acquired assets, leading to excessive leverage and insolvency [D05].",
+    "A persistent, structural decline in commodity prices renders the underlying business model unsustainable despite the preferred's seniority [D05]."
+   ],
+   "berkshire_constraints": "Cash position exceeds $30B [D08]; deal terms ensure senior-ranking security and priority over common equity [D05].",
+   "size_pct_nav": {
+    "initial": 10000000000,
+    "target": 10000000000,
+    "max": 10000000000,
+    "basis": "dollars"
+   },
+   "opportunity_cost": "Cash/Treasuries yielding 2.51% [D04].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a negotiated deal for a preferred security, which falls under my direct purview as a crisis-style capital allocation [D04], [D05].",
+   "biggest_risk_in_one_sentence": "The acquisition significantly increases the company's leverage, creating a risk that even our senior position could be impaired if commodity prices remain depressed and the acquired assets fail to perform."
+  }
+ },
+ "final": {
+  "as_of_date": "2019-04-30",
+  "company": "the Company",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 10000000000,
+  "size_basis": "cash",
+  "opportunity_template": [
+   "B3"
+  ],
+  "catalyst_role": "R2",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 8,
+   "intrinsic_value_range": "Value of $10bn preferred + warrant option value",
+   "expected_return_pct": 8,
+   "downside_case": "Company struggles with debt load; downside is limited to investment impairment if the business fails to service the preferred coupon, which we view as unlikely given the assets"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — an 8% cumulative perpetual yield against 2.51% long-term bond yields [D04], [D05].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Seniority and contractual protection provided by the preferred security status, which grants us priority over common equity [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "Equity upside participation through warrants on 80 million shares at a $62.50 strike, offering significant gain potential if the business scales [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The ability to act as a lender of last resort in a complex transaction that others are unwilling or unable to finance [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Operating cash flow falls below the level required to service the $800m annual preferred dividend [D02], [D05].",
+   "Management fails to integrate the acquired assets, leading to excessive leverage and insolvency [D05].",
+   "A persistent, structural decline in commodity prices renders the underlying business model unsustainable despite the preferred's seniority [D05]."
+  ],
+  "what_would_change_our_mind": "Evidence that the Company’s operating cash flow is insufficient to sustain the preferred dividend or that the integration of the new acquisition permanently impairs the balance sheet's solvency.",
+  "memo": "We have agreed to provide $10 billion to finance the Company's major acquisition, an operation in the oil and gas sector that has created significant financing needs [D01], [D04]. While this is a cyclical commodity business, our understanding of the scale and the assets involved provides us with the confidence to deploy capital [D05].\n\nOur investment takes the form of a cumulative perpetual preferred security carrying an 8% coupon, alongside warrants for 80 million common shares at a $62.50 strike [D02], [D04]. This structure provides us with a priority claim over common equity, ensuring our capital is protected even if the market remains skeptical of the Company's leverage [D05].\n\nIn an environment where cash yields are merely 2.51%, securing an 8% preferred coupon offers a superior risk-adjusted return [D04]. We are not betting on a specific commodity price recovery, but rather on the contractual durability of our position and the fundamental value of the assets supporting the cash flow [D05].\n\nThis is a classic Berkshire capital allocation: using our liquidity to step in as a lender of last resort when others are hesitant [D05]. We accept the execution risks of the integration, but our senior status provides a margin of safety that makes this an attractive use of our idle cash [D04], [D05].",
+  "uncited_claims": []
+ }
+}

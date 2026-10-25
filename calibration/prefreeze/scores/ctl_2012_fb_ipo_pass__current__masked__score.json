@@ -1,0 +1,47 @@
+{
+ "trade_id": "ctl_2012_fb_ipo_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett declines new offerings because a well-informed seller chooses the timing and price; neither he nor Munger underwrote Facebook at its IPO valuation.",
+   "Buffett and Munger publicly said they would not buy the Facebook IPO at the May 5 meeting; contemporaneous May 6 coverage quotes the policy. No Facebook/Meta row in parent holdings census 2010–Q2 2026; not a claim about NEAM client portfolios.",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements; do not award reasoning-overlap credit for treating them as quotations."
+  ],
+  "extra_agent_drivers": [
+   "The valuation of 104x 2011 earnings provides no margin of safety and falls far short of our 10% pretax yield requirement.",
+   "The company lacks a multi-cycle earnings history, making any projection of intrinsic value highly speculative.",
+   "The dual-class share structure centralizes control, which limits our influence as minority shareholders.",
+   "The long-term competitive landscape for social media is subject to rapid shifts in user preference and platform control risks."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The valuation of 104x 2011 earnings provides no margin of safety and falls far short of our 10% pretax yield requirement.",
+    "citation": "D02",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The dual-class share structure centralizes control, which limits our influence as minority shareholders.",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We never buy into an offering.",
+ "grader_notes": "The agent correctly identified the PASS decision but missed all stated Buffett drivers, opting instead for independent analyst-style valuation and governance critique. The agent's reasoning was farthest from Buffett's by fabricating a personalized 'investor memo' style that ignored Buffett's public policy against IPO participation.",
+ "run": "ctl_2012_fb_ipo_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

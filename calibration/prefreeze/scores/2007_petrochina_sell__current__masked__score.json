@@ -1,0 +1,47 @@
+{
+ "trade_id": "2007_petrochina_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "The market value reached the comparative appraisal of other giant oil companies. → In such cases, the prudent course is to sell, as the margin of safety that originally justified the purchase no longer exists [S2]."
+  ],
+  "missed": [
+   "Higher oil prices and reserve development raised intrinsic value since purchase.",
+   "The sale was price-driven, not a Sudan divestment decision."
+  ],
+  "extra_agent_drivers": [
+   "Capital allocation requires us to move on when the investment thesis has been fully realized."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company has seen its annual profitability rise materially",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Market cap of HK$2,055.16 billion at a 14.53x P/E",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 3,
+  "share": 0.38
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "In such cases, the prudent course is to sell, as the margin of safety that originally justified the purchase no longer exists [S2].",
+ "grader_notes": "The agent correctly identified the primary valuation-based driver for the sale. However, it failed to capture the specific operational context mentioned by Buffett regarding higher oil prices and reserve development as drivers for intrinsic value growth, and it did not address the explicit distinction that the sale was price-driven rather than related to political divestment.",
+ "run": "2007_petrochina_sell__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "SELL",
+ "agent_decision": "SELL",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

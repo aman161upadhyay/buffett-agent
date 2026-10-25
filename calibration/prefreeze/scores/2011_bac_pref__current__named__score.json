@@ -1,0 +1,51 @@
+{
+ "trade_id": "2011_bac_pref",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Buffett believed the underlying bank remained large and attractive. → While the institution is currently navigating significant integration issues and mortgage-related legal costs, the core business remains a powerful engine for long-term value.",
+   "He trusted Moynihan's rebuilding effort. → Brian Moynihan is actively working to simplify the company through 'Project New BAC,' focusing on shedding non-core assets and reducing structural complexity.",
+   "Preferred income and ten-year equity optionality made the structure attractive. → Our investment will take the form of a preferred security, providing us with a steady dividend yield and warrants that offer equity-like upside."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The market is currently pricing the common equity at just over half of its tangible book value, driven by a deep fear of open-ended mortgage litigation."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Bank of America operates the largest consumer deposit franchise in the United States.",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market is currently pricing the common equity at just over half of its tangible book value.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Brian Moynihan is actively working to simplify the company through 'Project New BAC.'",
+    "citation": "D09",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 13,
+  "share": 1
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Our investment will take the form of a preferred security, providing us with a steady dividend yield and warrants that offer equity-like upside.",
+ "grader_notes": "The agent correctly identified all three of Buffett's core drivers regarding the underlying business quality, trust in management, and the attractiveness of the structured instrument. The reasoning is well-grounded in the provided pack. The agent included an additional driver regarding valuation/market mispricing, which did not conflict with the primary thesis.",
+ "run": "2011_bac_pref__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,54 @@
+{
+ "trade_id": "2025_oxychem_acq",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Abel described a robust industrial asset portfolio.",
+   "He emphasized the accomplished team supporting the assets.",
+   "Abel later explained the essential chlorine/caustic end markets, efficient execution, integrated assets and low-cost inputs behind the cash-flow case."
+  ],
+  "extra_agent_drivers": [
+   "Cyclical commodity platform with no stand-alone valuation",
+   "Declining pretax earnings volatility",
+   "Rising capital intensity",
+   "Lack of durable competitive advantage"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Pretax earnings declined 55.2% from 2022 to 2024",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Capital expenditures increased by 112.7% from 2020 to 2024",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "No stand-alone balance sheet or established transaction price to allow for a calculation of intrinsic value",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 5,
+  "share": 0.45
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We have examined the chemical subsidiary and found it to be a capital-intensive commodity business that falls well outside our circle of competence [D01, D04].",
+ "grader_notes": "The agent missed the acquisition entirely, opting for a pass based on a commodity-business thesis. It failed to identify the specific economic rationale provided by the actual decision-maker (Abel) regarding the quality of the assets and the team.",
+ "run": "2025_oxychem_acq__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

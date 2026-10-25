@@ -1,0 +1,52 @@
+{
+ "trade_id": "2024_aapl_trim",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Realizing some gains at a 21% federal rate could be attractive if future rates rise. → We must remain mindful of our substantial tax cost in the event of a sale."
+  ],
+  "missed": [
+   "The remaining business was still highly regarded.",
+   "A large residual would remain central to the equity portfolio."
+  ],
+  "extra_agent_drivers": [
+   "Management continues to act in the interest of owners through share repurchases and dividends."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Apple remains a wonderful business with a durable consumer-ecosystem moat",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The tax cost of selling would be substantial, requiring a very high hurdle to justify liquidation",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management continues to act in the interest of owners through share repurchases and dividends",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 7,
+  "share": 0.64
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We must remain mindful of our substantial tax cost in the event of a sale.",
+ "grader_notes": "The agent missed the primary trade decision (trim vs hold) and failed to capture the core drivers of tax-motivated gain realization cited by Buffett. While the agent correctly identified the tax implications, it incorrectly framed them as a reason to hold rather than a factor in the decision to trim.",
+ "run": "2024_aapl_trim__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "TRIM",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

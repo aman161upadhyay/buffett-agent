@@ -1,0 +1,245 @@
+{
+ "pack": "1964_axp_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "1964-02-20",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The company operates travelers-cheque and charge-card services, which function as payment promises backed by funds held between receipt and settlement [D01]. It also maintains a warehousing subsidiary currently implicated in a commodities fraud, creating uncertainty regarding potential financial and reputational impacts [D01, D05].",
+   "products_customers_and_why_they_buy": [
+    "Travelers cheques and charge cards used for payments by consumers and accepted by merchants; customers rely on the company's name as a recognized payment promise [D01, D06]"
+   ],
+   "economics": [
+    "Industry economics involve fee income and investment float from funds held; key risks include competitive pressure on merchant charges, cardholder benefits, funding costs, and potential loss of trust [D01, D02]",
+    "Returns on equity (year-end equity basis) were 14.9% (1959), 15.0% (1960), 14.4% (1961), 14.8% (1962), and 14.3% (1963) [D02]"
+   ],
+   "earnings_record": [
+    "Net income: $8.4m (1959), $9.0m (1960), $9.2m (1961), $10.131m (1962), $11.264m (1963) [D02]",
+    "EPS (reported): $1.89 (1959), $2.02 (1960), $2.06 (1961), $2.27 (1962), $2.52 (1963) [D02]"
+   ],
+   "competitive_position": [
+    "Network breadth indicated by 81,989 card-accepting establishments as of year-end 1962 [D06]",
+    "Competitive advantage resides in durable customer/merchant relationships, though brand trust is sensitive to the ongoing fraud scandal [D01, D06]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "As of December 1962: cash $187.307m, securities $463.480m, outstanding payment instruments $421.063m, customer balances $337.238m [D02]",
+    "Customer money constitutes obligations rather than surplus cash [D02]"
+   ],
+   "management_and_capital_allocation": [
+    "President Howard L. Clark provided preliminary 1963 earnings estimates in January 1964 [D02, D03]",
+    "Capital allocation record includes dividends per share: $1.05 (1959), $1.20 (1960), $1.20 (1961), $1.25 (1962), $1.40 (1963) [D02]"
+   ],
+   "price_and_valuation": [
+    "Approximate price: $37 (January 1964) [D04]",
+    "P/E: 14.7x (based on $2.52 EPS) [D04]",
+    "Earnings yield: 6.81% [D04]",
+    "Dividend yield: 3.38% (1962 basis) to 3.78% (1963 basis) [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Uncertainty regarding full financial liability and legal exposure from the commodities fraud scandal [D05]",
+    "Potential for reduced merchant acceptance or increased travelers-cheque redemptions leading to loss of trust and liquidity crises [D05]"
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "November 1963: Salad-oil fraud becomes public [D07]",
+    "January 6, 1964: Company reports 1963 earnings of $2.52/share (preliminary) [D03]"
+   ],
+   "berkshire_context": [
+    "Context is for Buffett Partnership, not Berkshire Hathaway [D08]",
+    "Partnership starting net assets as of January 18, 1964: $17,454,900 [D08]"
+   ],
+   "document_conflicts": [
+    "Not in pack (no conflicting figures provided within the documents)"
+   ],
+   "missing_data": [
+    "Full legal liability range, parent-versus-subsidiary exposure, and detailed FCF/maintenance-capex reconciliation [D02]"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The business operates a clear payment service model relying on float and fees, which is easy to grasp despite the current crisis [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong network of over 81,000 card-accepting establishments, suggesting a durable competitive advantage [D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Net income has shown steady growth from $8.4m in 1959 to $11.264m in 1963 [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company has demonstrated consistent returns on equity in the 14-15% range [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "The payment services business generates significant float, allowing for growth without heavy traditional capital investment [D01, D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "While President Clark is communicative, the warehousing subsidiary's involvement in a major commodities fraud raises concerns regarding management oversight [D01, D03, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market valuation reflecting tens of millions in earnings, it is of sufficient scale for the Partnership to take a meaningful position [D02, D08]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The earnings yield of 6.81% is comfortably above the roughly 4.2% long-term bond rate environment of 1964 [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "None"
+   ],
+   "n_pass": 7,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a powerful payment franchise currently obscured by a reputational crisis."
+  },
+  "gate2": {
+   "templates": [
+    "B2"
+   ],
+   "why_available": "The market is currently paralyzed by the salad-oil scandal, fearing that the losses in the warehousing subsidiary will cause a run on the core travelers-cheque business and threaten the parent company's solvency [D05, D07]. We believe the market fails to recognize that the core payment franchise is distinct from the fraud and that the long-term earning power of the network remains intact once the cloud of uncertainty lifts [D01, D06].",
+   "evidence": [
+    "The core travelers-cheque and charge-card business continues to operate with a network of over 81,000 establishments [D06].",
+    "Reported earnings have grown steadily, reaching $2.52 per share in 1963 despite the emerging crisis [D02, D03].",
+    "The drop in stock price to $37 represents a temporary market reaction to the November 1963 salad-oil fraud revelations [D04, D07]."
+   ],
+   "market_narrative_we_disagree_with": "The market assumes the commodities fraud represents a catastrophic, potentially existential risk to the entire parent corporation, ignoring the bounded nature of the liability and the durability of the payment services moat [D01, D05].",
+   "what_must_be_true": [
+    "The travelers-cheque business maintains its reputation and customer trust despite the scandal.",
+    "The total financial and legal liability from the salad-oil fraud is finite and can be absorbed by several years of normal earnings.",
+    "The core payment business is legally or operationally shielded from the warehousing subsidiary's specific losses."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "$2.52 [D02, D03]",
+   "initial_pretax_yield_pct": 6.81,
+   "intrinsic_value_range": {
+    "low": "$35.00",
+    "high": "$50.00",
+    "key_assumptions": [
+     "Core travelers-cheque franchise retains trust [D01, D06]",
+     "Liability from salad-oil fraud is bounded and manageable [D01, D05]",
+     "Earnings growth continues at moderate historical rates [D02]"
+    ],
+    "discount_rate_used": "4.25% (estimated long-term government bond rate assumption)"
+   },
+   "price_vs_value": "Price is approximately 105% of low-end estimate; margin of safety is narrow due to legal uncertainty.",
+   "expected_return_pct": {
+    "base": 10,
+    "bear": 0,
+    "bull": 15
+   },
+   "alternatives": "T-bills or existing partnership holdings; given the scandal, waiting for legal clarity provides a higher risk-adjusted return than current entry [D08].",
+   "downside_case": "Significant loss if the fraud triggers a run on the travelers-cheque business, potentially threatening insolvency; risk is high but not necessarily permanent if the franchise remains intact.",
+   "valuation_verdict": "FAIR",
+   "flagged_assumptions": [
+    "Long-term government bond rate of 4.25% assumed as proxy for discount rate",
+    "Maintenance capex assumed to be minimal for a services-based payment franchise"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are looking to acquire a significant stake in a business that possesses a durable competitive advantage and strong earning power at a discount to intrinsic value [D01, D06]. Our strategy relies on the business compounding over time while we act as a patient, permanent-oriented investor, allowing the intrinsic value to be realized as the temporary market cloud surrounding the fraud subsides [D01, D07].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "The market eventually recognizes the separation between the core payment franchise and the warehousing liability, causing the stock price to reflect the underlying earnings power of the business [D01, D06]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the early Partnership era, we actively seek out undervalued opportunities, including those with temporary reputational clouds (workouts or mispriced securities), where we can hold for long-term appreciation once the intrinsic value is recognized by Mr. Market [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "The travelers-cheque business suffers a sustained loss of customer or merchant trust, rendering the network irrelevant.",
+    "Legal liability from the salad-oil fraud exceeds the total capital and reserve cushion of the parent corporation, leading to insolvency.",
+    "Management fails to contain the legal exposure to the subsidiary, causing a contagion effect on the parent's core financial obligations."
+   ],
+   "berkshire_constraints": "The Partnership requires liquid assets to meet capital withdrawals, and we must maintain sufficient cash to ensure we never face forced liquidations during market panics [D08].",
+   "size_pct_nav": {
+    "initial": 0.05,
+    "target": 0.15,
+    "max": 0.25,
+    "basis": "partnership"
+   },
+   "opportunity_cost": "We would prefer to hold cash or seek higher-conviction, less-legally-clouded opportunities until the extent of the fraud liability is explicitly quantified.",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "As a Partnership-era decision involving a mispriced security due to temporary reputational crisis, this falls squarely within my circle of competence.",
+   "biggest_risk_in_one_sentence": "The reputational damage from the salad-oil fraud may prove to be terminal for the core travelers-cheque franchise if the market loses faith in the company's payment promise."
+  }
+ },
+ "final": {
+  "as_of_date": "1964-02-20",
+  "company": "American Express",
+  "ticker": "AXP",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "partnership",
+  "opportunity_template": [
+   "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "$2.52 per share [D02, D03]",
+   "initial_pretax_yield_pct": 6.81,
+   "intrinsic_value_range": "$35.00 - $50.00",
+   "expected_return_pct": 10,
+   "downside_case": "Insolvency if the salad-oil fraud triggers a run on the travelers-cheque business."
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at $37 per share, an earnings yield of 6.81%, while the legal liability from the salad-oil scandal remains unquantified [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The core business possesses a powerful, moat-like network of 81,000 establishments, though its value is obscured by a reputational crisis [D06, D01].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The company has maintained a strong earnings record, growing from $8.4m in 1959 to $11.264m in 1963 [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "Management's oversight of the subsidiary involved in the commodities fraud leaves us unable to fully trust the capital allocation process during this period of uncertainty [D01, D03, D05].",
+    "citations": [
+     "D01",
+     "D03",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Sustained loss of trust in the travelers-cheque payment promise.",
+   "Legal liability exceeding total corporate reserves.",
+   "Contagion effect from the subsidiary leading to insolvency."
+  ],
+  "what_would_change_our_mind": "Quantitative clarity on the total financial exposure from the salad-oil scandal and evidence that the core payment franchise's reputation remains untarnished by the subsidiary's fraud.",
+  "memo": "American Express operates a dominant payment franchise through its travelers-cheque and charge-card services, businesses we find inherently understandable and high-quality [D01]. The company has historically demonstrated consistent earning power and high returns on equity in the 14-15% range [D02].\n\nThis business possesses a formidable moat defined by a network of over 81,000 establishments, a position that typically warrants a premium [D06]. However, the recent exposure of a commodities fraud within their warehousing subsidiary has created a severe, albeit likely temporary, cloud of doubt regarding the firm's overall solvency [D01, D05, D07].\n\nWe have significant reservations regarding management's oversight concerning the warehousing subsidiary, which complicates our assessment of their ability to act as stewards of capital during this crisis [D03, D05]. While the current market price of $37 implies a fair valuation relative to our $2.52 per share earnings, the lack of clarity regarding the total legal liability creates a risk profile that is currently too difficult to quantify [D02, D04].\n\nWe believe in waiting for further information before committing capital. A stitch in time saves nine, and in this instance, prudence dictates that we avoid a situation where a reputational shock could permanently impair the capital entrusted to us, preferring to hold cash until the extent of the damage is clearly defined [D08].",
+  "uncited_claims": []
+ }
+}

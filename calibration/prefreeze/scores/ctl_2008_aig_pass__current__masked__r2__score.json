@@ -1,0 +1,47 @@
+{
+ "trade_id": "ctl_2008_aig_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett considered but could not undertake roughly $25B for the property/casualty unit on the crisis weekend.",
+   "He distinguished desirable operating businesses from financial-products obligations management did not adequately understand.",
+   "The pressure and depth of the funding hole prevented a workable transaction despite interest in selected units."
+  ],
+  "extra_agent_drivers": [
+   "The business operates with opaque financial guarantees and credit-default-swap portfolios that obscure its competitive position.",
+   "We cannot determine intrinsic value due to unbounded and unknown potential collateral stress requirements.",
+   "The company reported severe financial distress with a $13.16 billion net loss in the first six months of the year.",
+   "Preserving capital in T-bills or cash is superior to assuming the extreme risks inherent in this institution."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business operates with opaque financial guarantees and credit-default-swap portfolios that obscure its competitive position.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company reported severe financial distress with a $13.16 billion net loss in the first six months of the year.",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 6,
+  "share": 0.67
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We prefer to hold cash and T-bills, waiting for opportunities that we can actually understand, rather than risking Berkshire's capital and reputation on a situation that belongs firmly in our \"too hard\" pile [D01, D08].",
+ "grader_notes": "The agent correctly identified the 'PASS' decision but failed to cite any of the actual historical reasons for Buffett's refusal during the September 2008 crisis (the $25B capital constraint, management's lack of understanding, and the inability to solve the funding hole). Instead, the agent provided generic valuation/risk analysis, resulting in zero reasoning overlap with the specific historical drivers.",
+ "run": "ctl_2008_aig_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

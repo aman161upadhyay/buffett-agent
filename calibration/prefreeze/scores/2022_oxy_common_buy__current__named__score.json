@@ -1,0 +1,54 @@
+{
+ "trade_id": "2022_oxy_common_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Hollub was executing the operating and financial priorities he would choose. → CEO Vicki Hollub has proven to be a rational manager who prioritizes debt reduction and disciplined capital allocation over uneconomic growth [D01, D03]."
+  ],
+  "missed": [
+   "Buffett read the fourth-quarter call and agreed with Hollub's capital-allocation choices.",
+   "Available market liquidity allowed a large minority common position."
+  ],
+  "extra_agent_drivers": [
+   "The company sells for an initial pre-tax free-cash-flow yield of 18.5% against a 1.83% long bond yield.",
+   "Occidental possesses a durable, low-cost competitive advantage.",
+   "The market's focus on cyclical commodity volatility and historical leverage masks the business's ability to generate significant cash at break-even levels as low as $40 WTI."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Occidental possesses a durable, low-cost competitive advantage.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management, led by Vicki Hollub, has committed to a disciplined capital allocation framework focused on aggressive debt reduction toward a $20 billion target.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business generates significant free cash flow and operates with a break-even point of approximately $40 WTI.",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 9,
+  "share": 0.69
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "CEO Vicki Hollub has proven to be a rational manager who prioritizes debt reduction and disciplined capital allocation over uneconomic growth [D01, D03].",
+ "grader_notes": "The agent correctly identified the decision and the decider, and captured the driver regarding trust in management. However, it failed to capture the key drivers regarding Buffett's direct reading of the earnings call and the availability of liquidity, substituting them with extensive proprietary valuation analysis which is not documented in the answer key.",
+ "run": "2022_oxy_common_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

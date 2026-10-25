@@ -1,0 +1,55 @@
+{
+ "trade_id": "2025_unh_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Valuation is impossible due to missing data regarding maintenance capital and statutory capital, as well as the suspension of earnings guidance",
+   "The combination of accelerating medical costs and ongoing criminal investigation places the company outside our circle of competence",
+   "Regulatory and operational headwinds create a cloud that obscures the underlying economics and durability of the franchise",
+   "Capital is better preserved in T-bills until clear visibility into normalized earnings power is restored"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "When a business is forced to suspend earnings guidance due to an inability to forecast its own primary costs, we cannot begin to calculate the owner earnings that represent the starting point for our investment decisions",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are troubled by the ongoing criminal investigation",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Any shadow over the regulatory standing of a company introduces a risk of permanent capital loss",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The price is merely a ticker symbol for a set of unknowns",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 4,
+  "share": 0.4
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We have looked at this business and, for now, placed it firmly in our 'too hard' pile.",
+ "grader_notes": "The agent's decision is a direct contradiction of the actual observed market activity. As the answer key indicates no stated drivers for the actual trade, the agent's extensive reasoning is treated as entirely extraneous to the official record.",
+ "run": "2025_unh_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

@@ -1,0 +1,52 @@
+{
+ "trade_id": "ctl_2022_meta_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned per parent 13F history in the tested window; no public comment explaining this nonpurchase.",
+   "No Facebook or Meta position in the 2010–Q2 2026 parent 13F census.",
+   "Economic and valuation objections are analyst-reconstructable discipline tests, not authenticated Buffett statements."
+  ],
+  "extra_agent_drivers": [
+   "Core advertising business suffers from a lack of pricing power",
+   "Capital expenditures on virtual-reality operations threaten owner earnings",
+   "Operating income and net income have seen significant declines",
+   "Structural uncertainty due to shifting user habits and competitive pressure"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "ad impressions growing 17% while average prices fell 18%",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "third-quarter operating income falling 46% and net income declining 52%",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "headcount increasing by 28%",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 6,
+  "share": 0.6
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have looked at the business and concluded that it currently falls into our 'too hard' pile.",
+ "grader_notes": "The agent correctly reached the PASS decision but provided a long list of analyst-reconstructed fundamental drivers that Warren Buffett did not explicitly cite. The agent failed to identify that the primary rationale for the PASS was the historical non-ownership and the absence of any public commentary or refusal from Buffett regarding this specific entity.",
+ "run": "ctl_2022_meta_pass__current__masked__r3",
+ "state_llm": "PARTIAL",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

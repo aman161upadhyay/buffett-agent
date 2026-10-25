@@ -1,0 +1,64 @@
+{
+ "trade_id": "1973_wpo_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Public shares offered the whole collection of businesses at no more than roughly a quarter of conservatively appraised business value.",
+   "Profitable media franchises mattered more than quoted price volatility.",
+   "Independent business appraisal and attitude, rather than private information, supplied the advantage."
+  ],
+  "extra_agent_drivers": [
+   "Regulatory concern regarding broadcasting licenses",
+   "Dominant local media franchise market share",
+   "High-margin broadcasting segment",
+   "Consistent earnings growth"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company operates as a dominant media franchise in Washington, D.C., holding a 63% share of metropolitan advertising linage",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Return on equity of 13.0%",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company requires periodic capital investment for its printing facilities",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "1972 EPS reaching $2.02",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Regulatory revocation of broadcasting licenses in Miami and Jacksonville",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 7,
+  "share": 0.5
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We do not chase stocks; we wait for Mr. Market to offer us a bargain.",
+ "grader_notes": "The agent correctly identified the business quality but failed to execute a purchase, citing a lack of price information as the primary barrier. This directly contradicts Buffett's actual behavior in 1973, where he aggressively accumulated a position in The Washington Post despite prevailing market conditions and regulatory uncertainties.",
+ "run": "1973_wpo_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

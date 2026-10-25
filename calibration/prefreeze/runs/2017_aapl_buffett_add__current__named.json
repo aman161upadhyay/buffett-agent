@@ -1,0 +1,53 @@
+{
+ "pack": "2017_aapl_buffett_add",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2017-01-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2017-01-31",
+  "company": "Apple Inc.",
+  "ticker": "AAPL",
+  "decision": "ADD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Consumer ecosystem moat: intact [D01]",
+   "Earnings power: strengthened by record revenue and EPS in Q1 FY2017 [D03]",
+   "Capital allocation: share repurchases continue to reduce share count [D02]"
+  ],
+  "price_vs_value_now": "The stock trades at approximately 14.5× trailing earnings, offering an attractive earnings yield [D04].",
+  "after_tax_hurdle": "Not applicable as we are adding to the position.",
+  "drivers": [
+   {
+    "driver": "Apple possesses a durable consumer franchise with high switching costs derived from an integrated ecosystem of hardware, software, and services [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The company maintains excellent capital discipline and utilizes its massive free cash flow to reward shareholders through dividends and buybacks [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "The recent Q1 FY2017 results demonstrate robust demand and record revenue, confirming the strength of the underlying business economics [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "At a P/E of roughly 14.5×, the shares remain reasonably priced for a business of this quality, offering a comfortable margin of safety [D04].",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "memo": "Charlie and I have watched Apple closely since the initial stake was taken. What we see is a wonderful business with a powerful consumer franchise that creates meaningful friction for anyone trying to switch platforms [D01]. This is not a commodity business; it is an ecosystem that keeps customers coming back, providing the company with durable pricing power and excellent returns on capital [D01].\n\nRecent results for the holiday quarter reinforce our confidence, with record revenue and strong services growth suggesting the thesis is firmly on track [D03]. While a skeptic might point to product cycles or international risks, these are typical features of a business of this scale, not permanent impairments [D05]. We prefer to focus on the long-term cash-generating capability of the firm rather than the temporary noise of quarterly cycles [D03].\n\nAt current levels, the shares are available at a price that leaves us with a satisfactory margin of safety [D04]. Given our belief in the durability of the Apple franchise and the rational capital allocation practices of its management, we are happy to increase our ownership [D02]. We continue to hold our cash for opportunities, but this is one where the opportunity cost is clearly outweighed by the quality of the asset [D08].",
+  "uncited_claims": []
+ }
+}

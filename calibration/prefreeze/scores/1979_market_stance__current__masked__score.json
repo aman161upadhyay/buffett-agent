@@ -1,0 +1,48 @@
+{
+ "trade_id": "1979_market_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "At approximately book value, diversified American equities with roughly 13% ROE offered better long-term value than 9.5% bonds. → The earnings yield of equities is significantly higher than the yield on long-term government bonds, providing a superior long-term owner return.",
+   "Pension buying followed past price pleasure rather than prospective value. → Market sentiment is exceptionally depressed, as evidenced by private pension fund net equity purchases falling to only 9% of new funds.",
+   "Replacement-cost concerns did not invalidate attractive returns in financial and service industries. → We focus on the durability of owner earnings rather than the short-term fluctuations of market indices."
+  ],
+  "missed": [
+   "Waiting for certainty forces the investor to pay for consensus."
+  ],
+  "extra_agent_drivers": [
+   "Broad availability of businesses trading at or below book value allows us to acquire meaningful stakes in companies with high returns on capital."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The market earnings yield of 13.83% provides a spread of 4.92 percentage points over the 8.91% ten-year Treasury yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market trades at a trailing P/E of approximately 7.23x",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 1,
+  "share": 0.14
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "At present, Mr. Market is offering us the opportunity to purchase shares in established American businesses at prices that make the 9–10% yields on long-term bonds look relatively unattractive.",
+ "grader_notes": "The agent correctly identified the 'BUY_BROADLY' stance and aligned closely with Buffett's valuation logic regarding the equity-bond yield spread. While the agent missed the specific driver about the high cost of waiting for a consensus, it accurately captured the core sentiment and economic justification for the market entry.",
+ "run": "1979_market_stance__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY_BROADLY",
+ "agent_decision": "BUY_BROADLY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

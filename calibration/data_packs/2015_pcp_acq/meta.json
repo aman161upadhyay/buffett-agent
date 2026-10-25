@@ -1,0 +1,26 @@
+{
+ "id": "2015_pcp_acq",
+ "company": "Precision Castparts Corporation",
+ "ticker": "PCP",
+ "aliases": [
+  "Precision Castparts Corporation",
+  "PCP",
+  "Precision Castparts",
+  "PCC",
+  "Timet",
+  "TIMET",
+  "Titanium Metals",
+  "Special Metals",
+  "Wyman-Gordon",
+  "Wyman Gordon",
+  "SPS Technologies",
+  "Donegan"
+ ],
+ "as_of_date": "2015-08-09",
+ "mode": "new",
+ "era": "C",
+ "first_action_window": "2015-08 agreement; completed 2016-01-29",
+ "fund_aum_usd_bn": 63.3,
+ "decider": "Buffett",
+ "notes": "ERROR CASE. $37 billion headline is enterprise value, not incremental cash equity. Existing deputy-sized public holding is disclosed; new means control acquisition. Final offer after cutoff is key-only. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated."
+}

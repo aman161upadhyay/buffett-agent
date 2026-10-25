@@ -1,0 +1,64 @@
+{
+  "id": "2025_googl_buy",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "conviction_basis": "Classification inferred from observed size/action; private conviction not observable.",
+  "size_pct_nav": "1.6228% of the 2025-Q3 ending 13F portfolio; 17,846,142 Class A shares marked $4,338,397,121 / $267,334,501,955. Cost unknown.",
+  "first_action_date": "2025-Q3; exact first execution unknown",
+  "disclosure_date": "2025-11-14",
+  "reason_class": null,
+  "reason_class_status": "Unknown/unassigned; not inferred from price movement or generic prior comments.",
+  "opportunity_template": [
+    "B1"
+  ],
+  "opportunity_template_basis": "Analyst classification of case economics, not a verified manager label.",
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "Buffett framed long-lived high returns on capital as the central investing attraction when explaining Alphabet.",
+      "source": "https://www.cnbc.com/2026/07/15/warren-buffett-tells-cnbc-he-initiated-berkshire-hathaways-investment-in-alphabet.html (2026-07-15)",
+      "quote": "The trick in life is to find — I mean investing — is to find businesses that are going to earn high returns on capital for an extended period of time",
+      "evidence_timing": "RETROSPECTIVE 2026-07-15 interview; general criterion in the Alphabet discussion, not a contemporaneous Q3 memorandum."
+    },
+    {
+      "driver": "He limited relative enthusiasm: several existing holdings ranked ahead of Alphabet.",
+      "source": "https://www.cnbc.com/2026/07/15/warren-buffett-tells-cnbc-he-initiated-berkshire-hathaways-investment-in-alphabet.html (2026-07-15)",
+      "quote": "I would say that I don’t like it as well as at least four or five other businesses that we own",
+      "evidence_timing": "RETROSPECTIVE 2026-07-15; sizing/ranking qualification, not a positive buy catalyst."
+    },
+    {
+      "driver": "He distinguished the former software economics from the very large new AI capital commitments.",
+      "source": "https://www.cnbc.com/2026/07/15/warren-buffett-tells-cnbc-he-initiated-berkshire-hathaways-investment-in-alphabet.html (2026-07-15)",
+      "quote": "That’s the game they’re playing now. They weren’t playing that game with computer software.",
+      "evidence_timing": "RETROSPECTIVE 2026-07-15; risk qualification, not proof of the original entry valuation."
+    }
+  ],
+  "entry_valuation_stated": "No original cost or stated entry multiple verified. $243.10 September Class A close is a quarter-end mark, not known purchase cost.",
+  "outcome_note": "Buffett said 'I initiated it' on July 15, 2026, with Abel as approving decider. Subsequent purchases do not establish the original 2025 entry rationale or price; position remains open in latest reviewed ledger.",
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095012325008343/0000950123-25-008343.txt",
+      "date": "2025-08-14"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525282901/0001193125-25-282901.txt",
+      "date": "2025-11-14"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/07/15/warren-buffett-tells-cnbc-he-initiated-berkshire-hathaways-investment-in-alphabet.html",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/0001193125-26-352200.txt",
+      "date": "2026-08-14"
+    }
+  ],
+  "pack_quality_notes": "Retrospective own-words explanation is limited and partly general/risk framing. Do not overstate it as a contemporaneous full thesis. Quarter-end cutoff can postdate purchases. Original cost, exact trade date, normalized owner earnings, peer table and consensus entry multiple unknown.",
+  "quality_grade": "B",
+  "reasoning_scoring": "Qualified: distinguish retrospective statements, generic criteria and pre-cutoff unavailable terms; do not score private-term prediction.",
+  "as_of_date": "2025-09-30",
+  "actual_action_window": "2025-Q3; exact execution day unknown",
+  "decider_scope": "Buffett initiated; Abel approved. Attribution disclosed retrospectively 2026-07-15, not known in the pack."
+}

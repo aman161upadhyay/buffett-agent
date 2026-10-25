@@ -1,0 +1,60 @@
+{
+ "trade_id": "2026_unh_exit_q1",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The company retains a substantial customer base and scale, maintaining the core franchise potential",
+   "Management has provided a revised, lower earnings floor, indicating active operational management rather than drift",
+   "Ongoing formal Department of Justice investigations represent material uncertainty that warrants patience before concluding the thesis is permanently broken",
+   "A 21% capital gains tax hit on a sale is not justified while the company continues to generate cash and pursue a repair strategy"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company retains a substantial customer base and scale, maintaining the core franchise potential",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management has provided a revised, lower earnings floor",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Formal Department of Justice investigations represent material uncertainty",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "A 21% capital gains tax hit on a sale is not justified while the company continues to generate cash",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The current valuation of approximately 20 times the revised adjusted EPS floor",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 7,
+  "share": 0.64
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We prefer to wait for more clarity on the regulatory front and the success of the company's operational changes before deciding to add or exit.",
+ "grader_notes": "The agent opted for a HOLD stance, while the actual outcome was a full exit. Because the answer key explicitly states that no investor-stated rationale was verified for the exit, the reasoning overlap is not scorable; the agent's provided drivers are speculative and do not align with any Berkshire-stated exit logic.",
+ "run": "2026_unh_exit_q1__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "SELL",
+ "agent_decision": "HOLD",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

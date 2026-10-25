@@ -1,0 +1,57 @@
+{
+ "trade_id": "ctl_2012_fb_ipo_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett declines new offerings because a well-informed seller chooses the timing and price; neither he nor Munger underwrote Facebook at its IPO valuation.",
+   "Buffett and Munger publicly said they would not buy the Facebook IPO at the May 5 meeting; contemporaneous May 6 coverage quotes the policy. No Facebook/Meta row in parent holdings census 2010–Q2 2026; not a claim about NEAM client portfolios.",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements; do not award reasoning-overlap credit for treating them as quotations."
+  ],
+  "extra_agent_drivers": [
+   "Implied earnings yield is inadequate compared to our 10% threshold",
+   "Business operates outside our circle of competence",
+   "Dual-class voting structure is inconsistent with our requirement for owner-minded governance",
+   "Company lacks a long-term, consistent record of earnings"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The implied earnings yield of 0.96% is woefully inadequate compared to our 10% threshold",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business operates outside our circle of competence",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The dual-class voting structure, granting one individual 55.9% control, is inconsistent with our requirement for owner-minded governance",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company lacks a long-term, consistent record of earnings",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 9,
+  "share": 0.75
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We will pass and continue waiting for opportunities that meet our standards.",
+ "grader_notes": "The agent correctly arrived at a PASS decision, but failed to ground its reasoning in Buffett's stated policy of avoiding IPOs entirely. Instead, the agent constructed a standard fundamental analysis thesis using the provided documents, which the answer key explicitly notes should not be treated as authenticated issuer-specific Buffett reasoning.",
+ "run": "ctl_2012_fb_ipo_pass__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

@@ -1,0 +1,51 @@
+{
+ "trade_id": "2013_heinz_acq",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Heinz was an enduring branded-food business suited to long ownership. → The company sells branded packaged food globally, with a focus on sauces and iconic products that consumers have relied on for generations.",
+   "The 3G partnership paired operating expertise with Berkshire capital. → We are backing 3G Capital, led by Jorge Paulo Lemann and his partners, who have an exceptional record of driving operational efficiency and improving margins through zero-based budgeting.",
+   "The preferred supplied a 9% contractual yield alongside common ownership. → We have stepped in as a financier, securing terms that provide a 9% cumulative dividend on our $8bn preferred investment."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Berkshire receives warrants for approximately 5% of the common equity, providing meaningful upside participation beyond the high-coupon preferred yield"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Heinz maintains the No. 1 or No. 2 brand position in most of its markets",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "9% cumulative dividend yield",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "30 consecutive quarters of organic growth through late 2012",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 15,
+  "cited": 9,
+  "share": 0.6
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Charlie and I are pleased to participate in the acquisition of H.J. Heinz, a business we have long admired for its enduring brand strength.",
+ "grader_notes": "The agent correctly identified the three primary drivers articulated by Buffett in his retrospective 2013 letter. The agent's inclusion of warrants as an additional driver is consistent with the deal structure but was not listed as a primary qualitative motive in the answer key.",
+ "run": "2013_heinz_acq__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

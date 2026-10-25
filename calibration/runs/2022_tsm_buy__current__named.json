@@ -1,0 +1,247 @@
+{
+ "pack": "2022_tsm_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2022-11-14",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "TSMC is a dedicated semiconductor foundry that manufactures chips based on designs provided by its customers rather than competing with them [D01]. The company relies on advanced process technology, high manufacturing yields, and scale to maintain its franchise position within an exceptionally capital-intensive industry [D01].",
+   "products_customers_and_why_they_buy": [
+    "Fabricated semiconductor wafers; customers are chip designers who value advanced process technology, manufacturing scale, and trust [D01]."
+   ],
+   "economics": [
+    "High capital intensity requiring continual expensive reinvestment [D01, D03]; 2021 ROE 29.69% [D02]; 2021 tangible-capital return proxy 25% [D02]; Q3 2022 gross margin 60.4%, operating margin 50.6% [D02, D03].",
+    "Capital spending (Capex) often exceeds depreciation; 2021 Capex NT$839bn vs D&A NT$422bn [D02]."
+   ],
+   "earnings_record": [
+    "2017-2021 EPS record: 13.23, 13.54, 13.32, 19.97, 23.01 (NT$) [D02].",
+    "Significant cyclicality inherent in foundry utilization [D01, D03]; Q3 2022 revenue grew 47.9% YoY [D03]."
+   ],
+   "competitive_position": [
+    "Leading global pure-play foundry [D01]; process and scale barriers exist, but leading-edge production is highly concentrated in Taiwan [D01].",
+    "Technology mix: 54% of revenue from 5nm and 7nm nodes in Q3 2022 [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Interest-bearing debt increased to NT$730bn in 2021 from NT$146bn in 2017 [D02].",
+    "As of 2022-09-30, cash of NT$1,296bn and debt of NT$870bn (net cash ≈NT$426bn) [D04]."
+   ],
+   "management_and_capital_allocation": [
+    "Not in pack regarding specific CEO tenure or detailed capital allocation philosophy beyond substantial capex reinvestment [D01, D02, D03]."
+   ],
+   "price_and_valuation": [
+    "ADR price: $72.80 (2022-11-14) [D04]; market cap $377.6bn [D04].",
+    "Trailing P/E: 12.3x [D04]; P/B: 4.1x [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 8.1,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 2.3,
+    "dividend_yield": 2.4,
+    "long_bond_yield": 3.88,
+    "basis": "Earnings yield based on TTM ADR EPS [D04]. FCF yield based on FY2021 FCF [D04, D02]. Dividend yield based on annualized Q3 2022 run rate [D04]. Bond yield from FRED DGS10 [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Geopolitical interruption to Taiwan-based production [D05].",
+    "Demand cyclicality [D05].",
+    "Customer concentration and export controls [D05].",
+    "High capital intensity and costs associated with overseas expansion [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "Q3 2022 earnings release published 2022-10-13 [D03].",
+    "FY2022 capex guidance of US$36bn [D03]."
+   ],
+   "berkshire_context": [
+    "Not in pack regarding current stake or position [D07, D08]."
+   ],
+   "document_conflicts": [
+    "None reported"
+   ],
+   "missing_data": [
+    "Normalized owner earnings; breakdown of maintenance vs. growth capex; current forward earnings consensus."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business operates in an environment of rapid technological change and significant geopolitical risk related to Taiwan-based production, making long-term predictability difficult [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "TSMC maintains a leading global position through process technology, manufacturing scale, and high switching costs for its customers [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "The company has demonstrated consistent growth in earnings per share from 2017 to 2021 despite the inherent cyclicality of the foundry industry [D02, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong balance sheet with a net cash position of approximately NT$426bn and a high return on equity of 29.69% in 2021 [D02, D04]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The foundry business is exceptionally capital-intensive with annual capex consistently exceeding depreciation, requiring continuous, massive reinvestment [D01, D02, D03]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "The provided information does not contain specific details regarding management's capital allocation philosophy or owner-mindedness [D01, D02, D03]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of $377.6bn, the company is sufficiently large to impact Berkshire's results [D04]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "The trailing earnings yield of 8.1% is below the required threshold of approximately 1.5x the 3.88% long bond yield, and the free cash flow yield is only 2.3% [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 4,
+   "n_fail": 3,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a technologically sophisticated foundry with strong competitive advantages but extreme capital intensity and geopolitical risk"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is discounting TSMC due to significant concerns regarding geopolitical risks in Taiwan, demand cyclicality in the semiconductor sector, and the company's extreme capital intensity [D01, D05]. Because these risks are core to the business model and the required margin of safety is absent given the low earnings and free cash flow yields relative to the long bond, there is no compelling reason to expect a bargain [D01, D04].",
+   "evidence": [
+    "Geopolitical interruption to Taiwan-based production [D05].",
+    "High capital intensity and costs associated with overseas expansion [D05].",
+    "Trailing earnings yield of 8.1% and free cash flow yield of 2.3% are insufficient relative to the long bond [D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market may be pricing the company as a generic cyclical play, but we find the lack of predictability and extreme capital requirements to be fundamental disqualifiers regardless of the narrative [D01, D05].",
+   "what_must_be_true": [
+    "Geopolitical stability in the Taiwan Strait",
+    "A shift in capital intensity to allow for meaningful free cash flow generation",
+    "Valuation multiple compression reflecting a superior risk-adjusted return"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "Not in pack; 2021 Capex (NT$839bn) exceeds D&A (NT$422bn) significantly, indicating high reinvestment needs [D02].",
+   "initial_pretax_yield_pct": 8.1,
+   "intrinsic_value_range": {
+    "low": "Not in pack",
+    "high": "Not in pack",
+    "key_assumptions": [
+     "Capex significantly exceeds depreciation [D02]",
+     "High geopolitical risk [D05]"
+    ],
+    "discount_rate_used": "3.88% (10-year Treasury) [D04]"
+   },
+   "price_vs_value": "Price as % of low-end value: unknown; margin of safety: absent [D01, D04]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Existing holdings or T-bills are preferable; TSMC's capital intensity and geopolitical risk profile fail our durability standards [D01, D04, D05].",
+   "downside_case": "Permanent loss of capital due to potential geopolitical disruption of Taiwan-based production [D05].",
+   "valuation_verdict": "FULL",
+   "flagged_assumptions": [
+    "Lack of normalized maintenance capex prevents precise owner earnings calculation.",
+    "Assumed current geopolitical risks are not fully priced due to business model sensitivity."
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital [D04]",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "market compounding of intrinsic value [D01]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in this era, our role is to act as a permanent owner of a business, relying on the company's compounding power rather than active intervention or short-term trading [D04]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Geopolitical disruption to Taiwan-based manufacturing operations [D05]",
+    "Failure of capital discipline where reinvestment requirements permanently destroy free cash flow [D01]",
+    "Loss of technological leadership in advanced nodes to competitors [D01]"
+   ],
+   "berkshire_constraints": "Must maintain a minimum cash buffer of $30B [D04]. Any position would be subject to regulatory scrutiny regarding international technology investments [D05].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed into existing high-quality consumer franchises or repurchasing Berkshire shares, as TSMC's capital intensity and geopolitical risk prevent it from being a 'wonderful business' at this price [D04, D05].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The decision to avoid an investment due to fundamental durability and geopolitical concerns sits squarely within Buffett's purview.",
+   "biggest_risk_in_one_sentence": "The concentration of critical production in a geopolitically sensitive region creates a risk of permanent capital loss that cannot be mitigated by the company's competitive advantages [D01, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-11-14",
+  "company": "Taiwan Semiconductor Manufacturing Company",
+  "ticker": "TSM",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Not in pack; Capex consistently exceeds depreciation [D02].",
+   "initial_pretax_yield_pct": 8.1,
+   "intrinsic_value_range": "Not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital due to geopolitical disruption of Taiwan-based production [D05]."
+  },
+  "drivers": [
+   {
+    "driver": "The company's trailing earnings yield of 8.1% and free cash flow yield of 2.3% offer an inadequate margin of safety against the 3.88% long bond yield [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The business model is exceptionally capital-intensive, requiring massive reinvestment that consistently outstrips depreciation, which limits genuine owner earnings [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The concentration of critical production in a geopolitically sensitive region presents a risk of permanent capital loss that falls outside our circle of competence [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "We prefer businesses with predictable, durable economics that do not depend on the continuous, high-stakes navigation of geopolitical tensions [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Geopolitical disruption to Taiwan-based manufacturing operations [D05].",
+   "Failure of capital discipline where reinvestment requirements permanently destroy free cash flow [D01].",
+   "Loss of technological leadership in advanced nodes to competitors [D01]."
+  ],
+  "what_would_change_our_mind": "A fundamental shift in the business model that significantly reduces capital intensity, combined with a verifiable and substantial reduction in geopolitical risk, would be required for us to reconsider.",
+  "memo": "TSMC is a technologically impressive foundry that manufactures chips for many of the world's leading technology companies [D01]. While the company has established a formidable moat through process technology and manufacturing scale, the business operates in a field of rapid technological change and intense capital requirements [D01].\n\nThe foundry industry is inherently capital-intensive, and TSMC’s record shows annual capital expenditures that consistently and significantly exceed its depreciation [D01, D02]. Such dynamics make it difficult to determine true owner earnings, as massive reinvestment is required simply to stay in the game [D01, D02].\n\nBeyond the economics, we must consider the geography of the business. The concentration of advanced manufacturing in a geopolitically sensitive region introduces a level of risk that we cannot quantify or mitigate [D01, D05]. For Berkshire, the risk of permanent loss of capital is the primary concern, and here, the potential for geopolitical disruption looms large [D05].\n\nFinally, the price offered by Mr. Market does not provide an adequate margin of safety [D04]. With an earnings yield of 8.1% and a free cash flow yield of just 2.3%, the valuation does not compensate us for the underlying uncertainties and the capital-heavy nature of the operation [D04]. We prefer to keep our powder dry for opportunities that are well within our circle of competence and offer more certain economics [D04, D05].",
+  "uncited_claims": []
+ }
+}

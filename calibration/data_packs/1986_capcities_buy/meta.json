@@ -1,0 +1,27 @@
+{
+  "id": "1986_capcities_buy",
+  "company": "Capital Cities/ABC",
+  "ticker": "CCB",
+  "aliases": [
+    "Capital Cities/ABC",
+    "CCB",
+    "Capital Cities",
+    "Capital Cities/ABC Inc.",
+    "Cap Cities",
+    "CapCities",
+    "ABC",
+    "American Broadcasting Companies",
+    "American Broadcasting Company",
+    "Tom Murphy",
+    "Thomas Murphy",
+    "Dan Burke",
+    "Daniel Burke"
+  ],
+  "as_of_date": "1986-01-03",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "Early March 1985 commitment, March 18 announcement; early 1986 funding boundary.",
+  "fund_aum_usd_bn": 1.268886,
+  "decider": "Buffett",
+  "notes": "Historical reconstruction: doc Date is effective information cutoff, not archival publication date. Only pre-cutoff business conditions are reconstructed; later investor explanations/outcomes appear in key only. December 31, 1984 common-stock portfolio market value, disclosed February 25, 1985; stale pre-cutoff reference, excludes the contemplated new block. Corrected first-action distinction: March 1985 commitment, early 1986 funding. New-mode January replay is not a pristine uncommitted buy test. Exact funding day and opening cash-flow model missing. First commitment was early March, not necessarily March 18; March 18 is the public-announcement checkpoint."
+}

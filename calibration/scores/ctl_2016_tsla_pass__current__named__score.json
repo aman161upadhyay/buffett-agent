@@ -1,0 +1,54 @@
+{
+ "trade_id": "ctl_2016_tsla_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned per parent 13F history in the tested window",
+   "No Tesla row in parent 2010–Q2 2026 holdings census",
+   "Economic and valuation objections are analyst-reconstructable discipline tests, not authenticated issuer-specific Buffett statements"
+  ],
+  "extra_agent_drivers": [
+   "The company lacks a consistent GAAP profit base or owner earnings, rendering an earnings yield calculation impossible",
+   "The business is highly capital-intensive, requiring massive, constant investment of $1.5 billion that consumes cash rather than generating it",
+   "Tesla operates in a rapidly changing technological environment that does not provide the long-term predictability required for our investment",
+   "Management prioritizes hyper-growth over conservative capital allocation, failing to protect capital in the way we require"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Tesla Motors is an automotive and energy-storage company that seeks to vertically integrate its manufacturing, sales, and charging network",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company's economics are hampered by extreme capital intensity, with approximately $1.5 billion in planned capital investments",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Because the company has yet to produce consistent GAAP profits, there is no earnings yield or margin of safety to evaluate",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 11,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We prefer to hold cash or invest in profitable businesses with clear moats [D08].",
+ "grader_notes": "The agent correctly matched the 'PASS' decision but failed to mirror the Buffett-specific reasoning. Buffett's 'drivers' in the answer key are based on factual non-ownership and the lack of specific historical refusal, whereas the agent attempted to reconstruct a fundamental bear case from analyst documents. Consequently, no reasoning overlap points were awarded.",
+ "run": "ctl_2016_tsla_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

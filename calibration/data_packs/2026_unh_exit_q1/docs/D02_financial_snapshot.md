@@ -1,0 +1,17 @@
+Title: Revenue strength coexists with halved operating earnings
+Source: https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/unh-reports-third-quarter-2025-results-and-raises-full-year-2025-earnings-outlook.pdf ; https://www.unitedhealthgroup.com/newsroom/2025/2025-07-24-uhg-responds-to-doj-investigation.html ; https://www.sec.gov/Archives/edgar/data/731766/000073176625000022/a2024q4exhibit991.htm ; https://www.sec.gov/Archives/edgar/data/731766/000073176625000123/a2025q1exhibit991.htm
+Date: 2025-12-31
+
+Third-quarter operating earnings of $4.3 billion are approximately half the year-earlier $8.7 billion despite revenue growth to $113.2 billion. Net margin of 2.1% demonstrates how a modest change in costs or reimbursement can move common-owner profit substantially. Operating cash flow of $5.9 billion exceeds net income, but claims and working-capital timing make one quarter's cash conversion an insufficient measure of normalized earnings. [1]
+
+The 2024 revenue base of $400.3 billion and adjusted EPS of $27.66 establish scale and prior profitability. They are not appropriate current denominators without a credible bridge. The current annual adjusted floor of $16.25 is far below the withdrawn April range. No maintenance-capital split or complete statutory-capital stress is recovered, so distributable cash cannot be equated with all reported operating cash flow. Reported and adjusted EPS continue to differ. An existing owner should re-underwrite the current economics rather than anchor on either original cost or the highest historical earnings number. [1,3,4]
+
+Evidence ledger: the October 28 release reports third-quarter revenue of $113.2 billion, up 12%; operating earnings of $4.3 billion, down approximately 50% year on year; net margin of 2.1%; GAAP EPS of $2.59; adjusted EPS of $2.92; and operating cash flow of $5.9 billion. Management increased its annual floor to $14.90 GAAP EPS and $16.25 adjusted EPS. That floor is substantially below April's superseded $26.00-$26.50 adjusted range and 2024 adjusted EPS of $27.66. On July 24 the company said it was complying with formal criminal and civil Department of Justice requests and expressed confidence in its practices. No legal settlement or completed annual financial result is assumed. [1-4]
+
+Accounting discipline: all dollar amounts in this document retain the period and basis given in the evidence ledger. Revenue is not owner earnings; neither adjusted profit nor operating cash flow alone measures distributable cash. Maintenance investment, working capital, compensation dilution and financing claims must be considered separately. A quarter is not a full economic cycle. Where a stand-alone balance sheet, maintenance-capital split or historical consensus series is absent, it is unavailable rather than assumed to be zero or inferred from a later filing.
+
+Sources and publication dates:
+[1] https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/unh-reports-third-quarter-2025-results-and-raises-full-year-2025-earnings-outlook.pdf (published 2025-10-28)
+[2] https://www.unitedhealthgroup.com/newsroom/2025/2025-07-24-uhg-responds-to-doj-investigation.html (published 2025-07-24)
+[3] https://www.sec.gov/Archives/edgar/data/731766/000073176625000022/a2024q4exhibit991.htm (published 2025-01-16)
+[4] https://www.sec.gov/Archives/edgar/data/731766/000073176625000123/a2025q1exhibit991.htm (published 2025-04-17)

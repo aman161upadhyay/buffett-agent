@@ -1,0 +1,48 @@
+{
+ "trade_id": "1999_market_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Starting valuations, interest rates and profits constrained aggregate returns far below popular expectations → The earnings yield of 3.49% is significantly below the 10-year Treasury yield of 6.09% [D04].",
+   "High prices and uncertainty about winners supported withholding new equity capital rather than predicting the next market move → We prefer to wait for opportunities where a wonderful business can be purchased at a price that provides a clear margin of safety [D04, D08]."
+  ],
+  "missed": [
+   "Technological transformation did not automatically produce attractive shareholder economics.",
+   "Existing sound franchises were not automatically sold because the aggregate market was expensive."
+  ],
+  "extra_agent_drivers": [
+   "Margin of safety concerns due to high price-to-earnings multiples."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The earnings yield of 3.49% is significantly below the 10-year Treasury yield of 6.09%",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "market trading at roughly 28.66x trailing earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 3,
+  "share": 0.43
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We prefer to wait for opportunities where a wonderful business can be purchased at a price that provides a clear margin of safety [D04, D08].",
+ "grader_notes": "The agent correctly identified the HOLD_CASH stance and used appropriate valuation-based reasoning consistent with Buffett's contemporaneous skepticism. It fell short on reasoning overlap by focusing heavily on relative yield spreads rather than addressing Buffett's specific points regarding the decoupling of technological transformation from shareholder economics and the necessity of retaining existing franchises despite market conditions.",
+ "run": "1999_market_stance__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "HOLD_CASH",
+ "agent_decision": "HOLD_CASH",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

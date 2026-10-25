@@ -1,0 +1,54 @@
+{
+ "pack": "2024_aapl_trim",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2024-05-04",
+ "stages": {},
+ "final": {
+  "as_of_date": "2024-05-04",
+  "company": "the Company (Apple)",
+  "ticker": "AAPL",
+  "decision": "TRIM",
+  "reason_class": "S3",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Consumer franchise and ecosystem: intact [D01]",
+   "Pricing power and service recurring revenue: intact [D01], [D03]",
+   "Capital allocation and buybacks: intact [D03]"
+  ],
+  "price_vs_value_now": "28.5x P/E, which is rich relative to historical averages and the long bond yield of 4.50% [D04]",
+  "after_tax_hurdle": "Selling involves a 21% federal tax cost, which is weighed against the high concentration of the position and current full pricing [D04], [D08]",
+  "drivers": [
+   {
+    "driver": "The position remains an exceptionally large component of the equity portfolio, necessitating prudent risk management [D08].",
+    "citations": [
+     "D08"
+    ]
+   },
+   {
+    "driver": "The stock trades at a full valuation (28.5x P/E) that provides little margin of safety at current market levels [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Realizing gains allows for the deployment of capital into other opportunities or the further strengthening of our cash position [D04], [D08].",
+    "citations": [
+     "D04",
+     "D08"
+    ]
+   },
+   {
+    "driver": "Tax considerations—specifically the 21% federal rate—are part of our long-term capital allocation strategy when trimming highly appreciated winners [D04].",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "memo": "the Company remains a wonderful business with an enviable consumer ecosystem and a management team that acts like owners [D01]. We continue to hold the company in high regard, and our core thesis regarding its durability and service-based growth is fully intact [D01], [D03]. However, the institutional imperative requires us to manage the size of our commitments when they reach such an outsized weight in our portfolio [D08]. \n\nAt a P/E of 28.5x, the shares are fully priced, particularly when compared to the 4.50% yield available on U.S. government bonds [D04]. While we are not market timers and never sell a wonderful business simply because Mr. Market is enthusiastic, our approach to capital allocation dictates that we maintain a prudent weight across our holdings [D04], [D08]. \n\nWe accept that trimming this position incurs a 21% federal tax cost, but we believe this is a sensible trade-off given the sheer scale of the holding and the desire to maintain liquidity in a fully priced market [D04], [D08]. We are not abandoning the thesis; we are merely rightsizing an investment that has performed exceptionally well over many years [D07].",
+  "uncited_claims": []
+ }
+}

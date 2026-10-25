@@ -1,0 +1,44 @@
+{
+  "id": "1986_capcities_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "$517.5 million / 3 million shares at $172.50; no valid same-date portfolio percentage recovered",
+  "first_action_date": null,
+  "disclosure_date": "1985-03-18",
+  "reason_class": null,
+  "opportunity_template": [
+    "B1"
+  ],
+  "catalyst_role": "R1",
+  "decider": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "Murphy and Burke supplied exceptional managerial ability and character.",
+      "source": "https://www.berkshirehathaway.com/letters/1985.html (1986-03-04; hindsight explanation)",
+      "quote": "I think it is the best of any publicly-owned company in the country."
+    },
+    {
+      "driver": "Excellent properties and people could justify a full price at meaningful scale.",
+      "source": "https://www.berkshirehathaway.com/letters/1985.html (1986-03-04; hindsight explanation)",
+      "quote": "Our Cap Cities purchase was made at a full price"
+    },
+    {
+      "driver": "Berkshire could remain patient through initially unexciting ABC economics.",
+      "source": "https://www.berkshirehathaway.com/letters/1985.html (1986-03-04; hindsight explanation)",
+      "quote": null
+    },
+    {
+      "driver": "Voluntary voting and disposition restrictions gave the managers stable ownership rather than a threatening block.",
+      "source": "https://www.berkshirehathaway.com/letters/1985.html (1986-03-04; hindsight explanation)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Full price in Buffett's subsequent explanation; $172.50 subscription, not a cheap asset multiple.",
+  "outcome_note": "Successful investment; later Disney transaction and premature partial sale belong only in subsequent history.",
+  "sources": [
+    "https://www.berkshirehathaway.com/letters/1985.html (1986-03-04; hindsight explanation)",
+    "Capital Cities/ABC transaction announced March 18, 1985; Berkshire 1984 letter subsequent-event appendix, https://www.berkshirehathaway.com/letters/1984.html"
+  ],
+  "pack_quality_notes": "Corrected first-action distinction: March 1985 commitment, early 1986 funding. New-mode January replay is not a pristine uncommitted buy test. Exact funding day and opening cash-flow model missing. First commitment was early March, not necessarily March 18; March 18 is the public-announcement checkpoint."
+}

@@ -1,0 +1,59 @@
+{
+ "trade_id": "2022_oxy_common_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Hollub was executing the operating and financial priorities he would choose. → Under the leadership of Vicki Hollub, management has acted as true owners, prioritizing the reduction of debt over growth in production."
+  ],
+  "missed": [
+   "Buffett read the fourth-quarter call and agreed with Hollub's capital-allocation choices.",
+   "Available market liquidity allowed a large minority common position."
+  ],
+  "extra_agent_drivers": [
+   "The company trades at an initial free-cash-flow yield of 18.5% compared to 1.83% for the long bond, representing a compelling margin of safety.",
+   "Occidental possesses a low-cost competitive advantage in the Permian Basin, where well costs have declined by approximately 30% since 2019.",
+   "The business possesses structural durability with a cash flow break-even point of approximately $40 WTI, allowing it to generate significant cash across typical cycles."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at an initial free-cash-flow yield of 18.5%",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "repaying $6.7 billion in 2021",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "well costs have declined by approximately 30% since 2019",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "break-even point of approximately $40 WTI",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 9,
+  "share": 0.69
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Under the leadership of Vicki Hollub, management has acted as true owners, prioritizing the reduction of debt over growth in production.",
+ "grader_notes": "The agent correctly identified the decision and the primary driver regarding management's capital allocation. However, it failed to capture the specific idiosyncratic drivers of Buffett's decision, instead relying on its own intrinsic valuation and quantitative fundamental analysis, which does not reflect the reasoning stated in the answer key.",
+ "run": "2022_oxy_common_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

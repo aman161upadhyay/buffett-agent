@@ -1,0 +1,51 @@
+{
+ "trade_id": "2020_airlines_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "The industry facts changed, invalidating his previous assessment. → The world has since changed in a way that makes the future of the airline industry effectively unknowable.",
+   "Passenger demand and the amount of future fleet capacity became uncertain. → the collapse in demand has exposed the inherent vulnerability of a business with massive fixed costs and perishable capacity.",
+   "New financing would leave existing owners with weaker economics even if carriers survived. → The current environment, combined with the complexities of government aid and the potential for substantial dilution, means the original economic rationale for our stake no longer exists."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "We refuse to anchor on original purchase costs or wait for a recovery that is speculative rather than based on durable business prospects."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The world has since changed in a way that makes the future of the airline industry effectively unknowable",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the collapse in demand has exposed the inherent vulnerability of a business with massive fixed costs and perishable capacity",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Government assistance, while potentially necessary, carries restrictions and risks of dilution that fundamentally alter the position of common equity holders",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 10,
+  "share": 1
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "The world has since changed in a way that makes the future of the airline industry effectively unknowable [D01].",
+ "grader_notes": "The agent correctly identified all three primary drivers of Buffett's decision: the shift in industry economics, the uncertainty of demand/capacity, and the dilutive impact of government aid. The reasoning overlaps substantially with the provided answer key. The agent included an additional driver regarding anchoring bias, which is consistent with Buffett's general investment philosophy but was not explicitly highlighted in the post-sale explanation.",
+ "run": "2020_airlines_sell__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "SELL",
+ "agent_decision": "SELL",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

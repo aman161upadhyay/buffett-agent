@@ -1,0 +1,26 @@
+{
+  "id": "2026_dal_buy_q1",
+  "company": "Delta Air Lines",
+  "ticker": "DAL",
+  "aliases": [
+    "Delta Air Lines",
+    "DAL",
+    "Delta Air Lines, Inc.",
+    "Delta",
+    "SkyMiles",
+    "Delta Connection",
+    "Ed Bastian",
+    "Glen Hauenstein",
+    "Dan Janki",
+    "27904",
+    "247361702",
+    "ir.delta.com"
+  ],
+  "as_of_date": "2025-12-31",
+  "mode": "new",
+  "era": "E",
+  "first_action_window": "2026-Q1; exact execution day unknown",
+  "fund_aum_usd_bn": 267.334501955,
+  "decider": "unknown",
+  "notes": "SEALED hold-out. Dates are public-information cutoffs, not asserted private decision days. The original stock-picker rationale is unknown where not expressly sourced in the sealed key; the docs do not invent attribution. Financial inputs retain period/basis; illustrative annualization is not consensus. Exact entry costs and tax lots are unknown. Independent dated peer multiples, full maintenance-capital splits and many consensus estimates were not recovered; opposing scenarios are analyst synthesis grounded in dated issuer disclosures. Late attribution and all outcome evidence are confined to the sealed answer key. fund_aum_usd_bn is the latest publicly released 13F equity-portfolio total at cutoff, not corporate NAV or current cash."
+}

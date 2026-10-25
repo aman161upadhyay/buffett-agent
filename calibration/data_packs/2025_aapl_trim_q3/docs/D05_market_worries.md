@@ -1,0 +1,17 @@
+Title: Tariffs, China demand and platform economics
+Source: https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm ; https://www.apple.com/newsroom/pdfs/fy2025-q2/FY25_Q2_Consolidated_Financial_Statements.pdf ; https://www.apple.com/newsroom/2025/05/apple-reports-second-quarter-results/ ; https://www.cnbc.com/2025/05/01/apple-has-managed-tariffs-so-far-says-tough-to-predict-beyond-june.html
+Date: 2025-06-30
+
+The bear case is not that consumers immediately abandon their phones. The risk is that a mature premium franchise sells at a valuation requiring stronger durable growth than it can deliver while incremental costs rise. Greater China March sales were $16.002 billion, down from $16.372 billion. Services helps offset hardware fluctuations, but also makes platform policies and fees more economically important. The annual report discusses competition, supply concentration and legal/regulatory risks. [1,2]
+
+Cook's approximately $900 million June-quarter tariff estimate is a concrete cost exposure, not a precise permanent annual burden. Changes in sourcing and trade rules can shift the impact. Passing all costs through to consumers could affect demand; absorbing them could reduce margins. A skeptic should also ask whether new features generate upgrades or merely require continuing research expenditure to defend the installed base. A record installed base and strong repurchases do not eliminate execution, regulatory or valuation risk, nor do these concerns establish that the franchise is broken. [1-4]
+
+Evidence ledger: fiscal revenues in 2022, 2023 and 2024 were $394.328 billion, $383.285 billion and $391.035 billion. Fiscal 2024 diluted EPS was $6.08. In the March quarter, revenue was $95.359 billion, operating income $29.589 billion, net income $24.780 billion and diluted EPS $1.65. Products supplied $68.714 billion sales and Services $26.645 billion. First-half operating cash flow was $53.887 billion and capital spending $6.011 billion. March cash and marketable securities totaled $132.922 billion; commercial paper and term debt totaled $98.186 billion. The board authorized another $100 billion repurchase program and a $0.26 quarterly dividend. Cook estimated about $900 million additional tariff costs for the June quarter, conditional on unchanged policy. [1-4]
+
+Risk distinction: a temporary earnings interruption and a permanent impairment can initially produce similar reported numbers. The test is whether the cause can be bounded without assuming that management's preferred recovery path must occur. Position liquidity limits execution risk, not business risk. The adverse mechanisms set out here are scenarios grounded in the cited contemporary evidence, not claims that every adverse outcome has occurred. No independent short-seller target or numerical probability is invented where a dated opposing valuation was not recovered.
+
+Sources and publication dates:
+[1] https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm (published 2024-11-01)
+[2] https://www.apple.com/newsroom/pdfs/fy2025-q2/FY25_Q2_Consolidated_Financial_Statements.pdf (published 2025-05-01)
+[3] https://www.apple.com/newsroom/2025/05/apple-reports-second-quarter-results/ (published 2025-05-01)
+[4] https://www.cnbc.com/2025/05/01/apple-has-managed-tariffs-so-far-says-tough-to-predict-beyond-june.html (published 2025-05-01)

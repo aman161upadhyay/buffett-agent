@@ -1,0 +1,265 @@
+{
+ "pack": "2022_oxy_common_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2022-02-28",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Occidental is a US-centered oil and gas producer with interests in chemicals (OxyChem) and midstream segments [D01]. It operates primarily in the Permian Basin, where it is the largest acreage holder, alongside other assets in the Rockies, Gulf of Mexico, Oman, Algeria, and the UAE [D01].",
+   "products_customers_and_why_they_buy": [
+    "Crude oil, natural gas, and natural gas liquids sold to energy markets [D01].",
+    "Chlorine and caustic soda produced by OxyChem for industrial use; largest US merchant producer [D01]."
+   ],
+   "economics": [
+    "2021 pre-tax segment income for chemicals was $1.5 billion [D01].",
+    "Cash flow breaks even at approximately $40 WTI including sustaining capital and common dividend [D01].",
+    "2022 sustaining capital guided at approximately $3.9 billion [D01].",
+    "Permian well costs fell 30% from 2019 to 2021 [D01]."
+   ],
+   "earnings_record": [
+    "Net income: $1.31B (2017), $4.13B (2018), -$0.99B (2019), -$14.83B (2020), $2.32B (2021) [D02].",
+    "Diluted EPS: $1.70 (2017), $5.39 (2018), -$1.22 (2019), -$17.06 (2020), $1.58 (2021) [D02].",
+    "Cyclicality noted due to commodity price dependence and impairment charges [D02]."
+   ],
+   "competitive_position": [
+    "Largest acreage holder in the Permian Basin (2.8 million net acres) [D01].",
+    "Largest US merchant producer of chlorine and caustic soda [D01].",
+    "Peers include Exxon Mobil, Chevron, and ConocoPhillips [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Total debt $29.03 billion (year-end 2021) [D04].",
+    "Cash $2.76 billion (year-end 2021) [D04].",
+    "Priority 1 is reducing debt toward $20 billion net [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "CEO: Vicki Hollub [D03].",
+    "Capital allocation priorities: (1) debt reduction, (2) $3 billion share repurchase authorization and dividend, (3) modest production growth [D01].",
+    "Dividend raised from $0.01 to $0.13 per quarter in 2022 [D01]."
+   ],
+   "price_and_valuation": [
+    "Price: $43.73 [D04].",
+    "Market cap: $40.84 billion [D04].",
+    "Trailing P/E: 27.7x [D04].",
+    "Earnings yield: 3.61% [D04].",
+    "EV/EBITDA proxy: 5.6x [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 3.61,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 18.5,
+    "dividend_yield": 1.19,
+    "long_bond_yield": 1.83,
+    "basis": "Trailing earnings yield [D04]. FCF yield of 18.5% based on cash-statement FCF ($7.56bn / $40.84bn) [D04]. Dividend yield based on $0.13 quarterly run rate [D04]. 10-year Treasury yield [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "War-related oil strength may be temporary [D05].",
+    "High financial leverage [D05].",
+    "High commodity prices encouraging uneconomic drilling or acquisitions [D05].",
+    "Preferred claims consuming cash before common holders [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack (regarding new common investment)."
+   ],
+   "recent_events": [
+    "2022-02-24: FY2021 earnings release detailing debt reduction and capital allocation framework [D01]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds Occidental preferred and warrants, but no current common ownership disclosed [D08].",
+    "Berkshire cash and T-bills: approximately $146.7 billion at year-end 2021 [D08]."
+   ],
+   "document_conflicts": [
+    "Company-defined free cash flow ($8.809bn) differs from cash-flow-statement FCF ($7.56bn) [D02]."
+   ],
+   "missing_data": [
+    "Consensus forward P/E estimates for 2022 [D04].",
+    "Maintenance capex vs. growth capex split [D01]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The company operates as a large-scale oil and gas producer in the Permian Basin, a business we understand as a core component of global energy markets [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "As the largest acreage holder in the Permian Basin with declining well costs, Occidental possesses a significant low-cost position in a commodity business [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "While historical GAAP earnings were impacted by cyclical commodity prices and impairments, the core franchise has demonstrated an ability to generate significant cash through the cycle, consistent with the requirements for commodity producers [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "Management is actively prioritizing debt reduction toward a $20 billion net debt target, and cash generation is robust enough to support this deleveraging [D01]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "The business is capital-intensive, but as a low-cost Permian-class producer with a free-cash-flow yield significantly above 10-15%, it meets our requirements for oil and gas producers [D01, D04]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "CEO Vicki Hollub has established a clear, rational capital allocation framework focused on debt paydown, dividend sustainability, and modest production growth [D01, D03]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of over $40 billion, this is an investment of sufficient scale to move the needle for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The free-cash-flow yield of 18.5% is substantially higher than the 1.5x threshold relative to the 1.83% long bond yield [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "Free cash flow: used $7.56bn cash-statement figure as it is a more conservative measure for assessing actual cash availability than company-defined adjusted FCF [D02, D04]."
+   ],
+   "n_pass": 8,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a low-cost Permian-focused producer with disciplined capital allocation and strong free-cash-flow generation"
+  },
+  "gate2": {
+   "templates": [
+    "B1"
+   ],
+   "why_available": "The market views Occidental primarily through the lens of volatile commodity cycles and historical debt levels, leading to a focus on trailing P/E multiples that ignore the business's current cash-generating power [D02, D04]. We disagree, as we see a low-cost, Permian-dominant franchise with substantial free-cash-flow yields that allow for rapid deleveraging and value creation independent of short-term price spikes [D01, D04]. The value will emerge as management successfully reduces debt toward the $20 billion target, proving the durability of their cash flow through the cycle [D01].",
+   "evidence": [
+    "FCF yield of 18.5% far exceeds the cost of capital, despite market concerns over leverage [D04].",
+    "Management's clear capital allocation framework prioritizes debt paydown and dividend sustainability [D01].",
+    "Permian well costs have declined 30% from 2019 to 2021, reinforcing a competitive low-cost position [D01]."
+   ],
+   "market_narrative_we_disagree_with": "The market fears that current oil strength is temporary and that financial leverage remains a critical risk for common shareholders [D05].",
+   "what_must_be_true": [
+    "Commodity prices remain supportive of FCF generation at levels sufficient to continue debt paydown.",
+    "Vicki Hollub maintains disciplined capital allocation without succumbing to the urge for uneconomic drilling or acquisitions.",
+    "The Permian Basin assets continue to deliver low-cost production as guided."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "Not directly reported; estimated via FCF yield of 18.5% on market cap [D04]",
+   "initial_pretax_yield_pct": 18.5,
+   "intrinsic_value_range": {
+    "low": "Implied at roughly $20B net debt target plus normalized asset value [D01]",
+    "high": "Variable based on long-term oil price environment",
+    "key_assumptions": [
+     "Oil prices remain supportive of FCF generation [D05]",
+     "Management successfully de-levers toward $20B target [D01]"
+    ],
+    "discount_rate_used": "1.83% [D04]"
+   },
+   "price_vs_value": "Price ($43.73) [D04] reflects discount to normalized cash-generating power; high margin of safety given 18.5% FCF yield [D04]",
+   "expected_return_pct": {
+    "base": 18.5,
+    "bear": 5,
+    "bull": 25
+   },
+   "alternatives": "Berkshire has $146.7B in cash/T-bills [D08]. Occidental FCF yield is significantly superior to Treasury alternatives and provides inflation protection [D04].",
+   "downside_case": "Commodity price collapse leads to sustained leverage stress; loss is not permanent provided debt reduction continues and asset quality holds [D01, D05].",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Maintenance capex is assumed to be a subset of total guided capex [D01]",
+    "Long-term commodity price normalized to support debt paydown [D01]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital [D01, D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Debt reduction toward the $20 billion target, which strengthens the balance sheet and increases the equity value per share [D01].",
+    "Continued generation of strong free cash flow from low-cost Permian assets, allowing for capital returns to shareholders through dividends and potential repurchases [D01, D04]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the current era, we act as a long-term owner of outstanding franchises. We have high conviction in the management's capital allocation framework and the quality of the Permian assets, making a passive, long-term holding the appropriate approach for our scale [D01, D04, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent loss of pricing power or cost advantage in the Permian Basin [D01].",
+    "Management abandons debt-reduction priority for uneconomic growth or large acquisitions [D01].",
+    "Sustained collapse in commodity prices renders operations cash-flow negative at the $40 WTI break-even level [D01].",
+    "Regulatory or environmental constraints cap returns below the cost of capital [D01]."
+   ],
+   "berkshire_constraints": "Must maintain a cash floor of $30B+; must navigate potential regulatory reporting thresholds if ownership exceeds 10% [D08].",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 10,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Investment in Occidental provides an 18.5% FCF yield, which is superior to the current Treasury alternative and represents better value than immediate large-scale Berkshire share repurchases at current prices [D04, D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The investment represents a large-scale deployment into a commodity franchise within my circle of competence, consistent with past large-scale energy sector involvement.",
+   "biggest_risk_in_one_sentence": "A sustained, long-term decline in commodity prices could impair the cash-generating ability required to service the debt load."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-02-28",
+  "company": "Occidental Petroleum Corporation",
+  "ticker": "OXY",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 5,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "estimated via $7.56bn FCF",
+   "initial_pretax_yield_pct": 18.5,
+   "intrinsic_value_range": "normalized asset value plus deleveraged balance sheet",
+   "expected_return_pct": 18.5,
+   "downside_case": "commodity price collapse causing sustained leverage stress"
+  },
+  "drivers": [
+   {
+    "driver": "The company sells for an initial pre-tax free-cash-flow yield of 18.5% against a 1.83% long bond yield [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "As the largest acreage holder in the Permian Basin with 30% lower well costs since 2019, Occidental possesses a durable, low-cost competitive advantage [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Management, led by Vicki Hollub, has committed to a disciplined capital allocation framework focused on aggressive debt reduction toward a $20 billion target [D01].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The market's focus on cyclical commodity volatility and historical leverage masks the business's ability to generate significant cash at break-even levels as low as $40 WTI [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent loss of pricing power or cost advantage in the Permian Basin [D01].",
+   "Management abandons debt-reduction priority for uneconomic growth or large acquisitions [D01].",
+   "Sustained collapse in commodity prices renders operations cash-flow negative at the $40 WTI break-even level [D01].",
+   "Regulatory or environmental constraints cap returns below the cost of capital [D01]."
+  ],
+  "what_would_change_our_mind": "A sustained, long-term decline in commodity prices that impairs the cash-generating ability required to service the debt load, or a shift by management toward uneconomic growth that ignores our debt-reduction requirements.",
+  "memo": "Occidental is a large-scale oil and gas producer with significant assets in the Permian Basin and chemicals operations through OxyChem [D01]. We understand the economics of this business, which serves as a core component of global energy markets [D01].\n\nAs the largest acreage holder in the Permian, Occidental holds a formidable low-cost position, with well costs having declined 30% from 2019 to 2021 [D01]. The business generates significant free cash flow and operates with a break-even point of approximately $40 WTI, demonstrating durability through commodity cycles [D01, D02].\n\nCEO Vicki Hollub has proven to be a rational manager who prioritizes debt reduction and disciplined capital allocation over uneconomic growth [D01, D03]. We trust her focus on deleveraging the company toward a $20 billion net debt target [D01].\n\nThe market currently views Occidental through the lens of historical debt and volatile cycles, ignoring the substantial cash-generating power of the business [D02, D04]. While others fear the cyclicality, we see a business priced attractively relative to its intrinsic value [D04].\n\nWe are acquiring this interest at an 18.5% free-cash-flow yield, which is far superior to the 1.83% yield on long-term Treasury bonds [D04]. This investment provides excellent inflation protection and value that is not dependent on speculative growth, but on the cash produced by a world-class asset [D04].\n\nWe will hold this position as long as the cost advantage remains and management continues its path of fiscal discipline [D01]. We view this as a permanent investment in a sector essential to the economic future of the United States [D01, D08].",
+  "uncited_claims": []
+ }
+}

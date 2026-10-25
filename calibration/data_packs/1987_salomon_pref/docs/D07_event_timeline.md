@@ -1,0 +1,15 @@
+Title: Salomon Inc. — Information chronology
+Source: Proposed September financing terms reconstructed from transaction account; period report https://www.nytimes.com/1987/09/28/business/salomon-to-sell-12-to-buffett.html used only for preceding-day terms, not later market reaction; fund reference https://www.berkshirehathaway.com/letters/1986.html
+Date: 1987-09-27
+
+## Cutoff evidence — reconstructed
+
+At the September 27 boundary, the relevant proposed terms are a large convertible preferred associated with a Minorco block repurchase and ownership pressure. September 27 is a Sunday; a September 28 newspaper report is used solely as an archival reconstruction of the preceding-day agreement, not as an already published article or as evidence of Monday's reaction. Exact signing and settlement timestamps are not recovered. No event after this boundary appears in the operating case. In particular, a future market decline cannot be used to price this security or to make the capital provider appear to possess information unavailable when the terms were negotiated.
+
+## Economic reading of the supplied facts
+
+Industry economics: a securities dealer finances inventory and counterparty exposures as well as providing advice, underwriting and distribution. Earnings can be large while requiring substantial financing and exposing the enterprise to abrupt changes in liquidity. A reputation for reliability is part of the franchise because clients and lenders can move their business quickly. Published book equity is not the same as immediately realizable cash if markets become disorderly. A preferred investment can offer a defined dividend and priority over common equity, but it does not eliminate the dealer's obligations to its creditors. Conversion gives participation in better operating results while leaving the holder exposed to the issuing company's solvency. These security distinctions matter more than a generic common-stock earnings multiple.
+
+Chronology controls: the cutoff is an information boundary, not proof of an execution on that day. A negotiated commitment, a public announcement, a purchase settlement and an annual-report disclosure are distinct events. Facts about the condition of the business may be reconstructed from archival accounts without turning a later explanation into a statement available to the market.
+
+Only the events described above enter this chronology. No subsequent result is assumed when assessing the unresolved question. The absence of an original day-by-day price series prevents identification of a precise entry-day return or volume pattern. The same restriction applies to unpublished board discussions and security-specific purchase ledgers. This reconstruction does not claim access to either. Where a transaction is being considered, proposed terms are identified as proposed; regulatory approvals and operating improvements are not treated as completed. Where shares already exist in a portfolio, a request to study a new allocation must not erase that exposure.

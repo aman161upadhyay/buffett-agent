@@ -1,0 +1,60 @@
+{
+ "pack": "2024_cash_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "2024-11-02",
+ "stages": {},
+ "final": {
+  "as_of_date": "2024-11-02",
+  "trailing_earnings_yield_pct": 3.51,
+  "normalised_earnings_yield_pct": 3.51,
+  "normalisation_basis": "trailing (no distortion) [D04]",
+  "long_bond_yield_pct": 4.37,
+  "spread_points": "-0.86",
+  "drawdown_from_high_pct": 2.32,
+  "panic_indicators": [
+   "VIX 21.88 [D04]",
+   "US high-yield credit spread 2.83% [D04]"
+  ],
+  "rule_decision": "SELECTIVE",
+  "decision": "HOLD_CASH",
+  "override_reason": "With a spread of -0.86 points and a significant cash balance providing a safe, liquid return, the lack of opportunities that meet our stringent criteria for scale and quality makes HOLD_CASH the appropriate stance [D03, D04, D08].",
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "The 3.51% equity earnings yield is lower than the 4.37% long-term government bond yield [D04].",
+  "valuation_level": "Prices are elevated, with an S&P 500 P/E of approximately 28.45x [D04].",
+  "ideas_that_qualify": [
+   "None identified that meet scale and quality requirements [D03, D08]"
+  ],
+  "berkshire_action": "Maintain significant liquidity, continue to hold existing businesses, and limit buybacks to prices below conservatively estimated intrinsic value [D01, D04, D08].",
+  "drivers": [
+   {
+    "driver": "Broad equity earnings yields are below the yield on safe, liquid government bills and bonds [D04, D06].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The Company's massive scale limits the number of individual ideas that can meaningfully impact results [D03, D08].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "We have not identified businesses with durable competitive advantages at prices providing an adequate margin of safety [D01, D08].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Cash and short-term bills offer a competitive, risk-free nominal return while we wait for more attractive opportunities [D03, D04].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "memo": "Charlie and I have always maintained that we do not forecast markets; we simply look for businesses that we understand, that have durable moats, and that can be bought at prices offering a clear margin of safety. Today, the arithmetic of the market is unappealing. With the S&P 500 trading at roughly 28 times earnings and offering an earnings yield of 3.51%, stocks are expensive relative to the 4.37% yield available on a 10-year Treasury bond [D04, D06]. When our risk-free alternatives yield more than the earnings yield of the broad market, the hurdle for new equity commitments is exceptionally high.\n\nWe are currently in a state where our cash pile is large, but our opportunity set is small [D03, D08]. This is not a macroeconomic prediction or a signal that we expect a crash; it is simply a recognition that we are not seeing wonderful businesses at prices that make sense for a company of our scale [D01, D07, D08]. We will continue to hold our cash and short-term bills, waiting for a time when Mr. Market becomes more pessimistic and offers us assets at prices that reflect a true margin of safety [D01, D04]. In the meantime, we will remain disciplined, avoiding the institutional imperative to deploy capital just for the sake of activity [D01, D04].",
+  "uncited_claims": []
+ }
+}

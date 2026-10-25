@@ -1,0 +1,49 @@
+{
+ "trade_id": "2008_cop_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett alone favored the long-run oil and gas economics.",
+   "He still expected higher future oil prices in the post-mortem.",
+   "He acknowledged failure to anticipate the dramatic commodity-price decline."
+  ],
+  "extra_agent_drivers": [
+   "The Company is a price-taker in global commodity markets with no durable competitive advantage.",
+   "The business requires significant, recurring capital investment just to maintain production.",
+   "We avoid commodity producers because they lack the sustainable moats and pricing power.",
+   "Capital is better held in cash or deployed into businesses with identifiable economic franchises."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is a price-taker in global commodity markets with no durable competitive advantage.",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The business requires significant, recurring capital investment just to maintain production.",
+    "citation": "D03",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 5,
+  "share": 0.38
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We generally avoid businesses that lack a durable competitive advantage and require constant, massive capital expenditure simply to maintain existing production levels [D01, D03].",
+ "grader_notes": "The agent correctly identified the company as a commodity producer but reached a PASS decision, which directly contradicts Buffett's actual decision to BUY. The agent's reasoning focused on quality/moat characteristics that Buffett notoriously disregarded in this specific instance, as he later admitted his purchase was based on a flawed assumption regarding future oil prices.",
+ "run": "2008_cop_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,45 @@
+{
+ "trade_id": "1999_market_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Starting valuations, interest rates and profits constrained aggregate returns far below popular expectations. → The earnings yield of 3.49% is significantly below the 6.09% yield on 10-year Treasury bonds, resulting in a negative spread of 2.60 percentage points."
+  ],
+  "missed": [
+   "Technological transformation did not automatically produce attractive shareholder economics.",
+   "High prices and uncertainty about winners supported withholding new equity capital rather than predicting the next market move.",
+   "Existing sound franchises were not automatically sold because the aggregate market was expensive."
+  ],
+  "extra_agent_drivers": [
+   "Margin of safety concerns",
+   "Investor irrational exuberance",
+   "Cash as a superior alternative"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The earnings yield of 3.49% is significantly below the 6.09% yield on 10-year Treasury bonds",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 3,
+  "share": 0.38
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We prefer to hold cash and wait for the inevitable moment when Mr. Market becomes discouraged and offers us wonderful businesses at sensible prices, rather than chasing growth that may not be supported by durable cash generation.",
+ "grader_notes": "The agent correctly identified the 'HOLD_CASH' stance and used valid valuation data from the period. However, it failed to capture the specific drivers regarding technological transformation and the nuance that existing holdings were not being liquidated, focusing instead on broader margin of safety and exuberance themes.",
+ "run": "1999_market_stance__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "HOLD_CASH",
+ "agent_decision": "HOLD_CASH",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

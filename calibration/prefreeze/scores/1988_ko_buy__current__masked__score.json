@@ -1,0 +1,55 @@
+{
+ "trade_id": "1988_ko_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Goizueta and Keough refocused policies and energized overseas sales. → Management has demonstrated disciplined capital allocation and a singular focus on the core beverage franchise since 1981"
+  ],
+  "missed": [
+   "The product's extraordinary consumer appeal supported a worldwide franchise.",
+   "Marketing and finance worked together to maximize growth and rewards to owners.",
+   "Outstanding businesses with outstanding management warranted long ownership."
+  ],
+  "extra_agent_drivers": [
+   "A global soft-drink share exceeding 44% provides an enduring moat and exceptional pricing power",
+   "The concentrate business model separates the brand from capital-intensive bottling, resulting in highly attractive returns on equity",
+   "The market's temporary fixation on bottling investments and dilution concerns offers us an entry point into a wonderful business at a fair price"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Management has focused exclusively on the core franchise and has been remarkably disciplined in its capital allocation since 1981",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "International markets already drive roughly 77% of operating income",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "13.8% increase in net income during the second quarter of 1988",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 5,
+  "share": 0.38
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We intend to build a position toward 20% of our equity portfolio, as the business's scale and quality are a perfect fit for Berkshire.",
+ "grader_notes": "The agent correctly identified the direction and the high conviction/large sizing Buffett utilized. However, the reasoning overlap was poor, as the agent focused on quantitative business model aspects rather than the qualitative management and \"shareholder's dream\" messaging Buffett emphasized.",
+ "run": "1988_ko_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

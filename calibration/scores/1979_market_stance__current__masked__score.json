@@ -1,0 +1,51 @@
+{
+ "trade_id": "1979_market_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "At approximately book value, diversified American equities with roughly 13% ROE offered better long-term value than 9.5% bonds → we can secure an earnings yield of nearly 14% by purchasing productive assets at or below book value",
+   "Pension buying followed past price pleasure rather than prospective value → the current 9% allocation of pension funds to equities confirms that the appetite for ownership is historically depressed",
+   "Replacement-cost concerns did not invalidate attractive returns in financial and service industries → we are focusing our attention on financial and service-oriented businesses where this adjustment is less punitive"
+  ],
+  "missed": [
+   "Waiting for certainty forces the investor to pay for consensus."
+  ],
+  "extra_agent_drivers": []
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "earnings yield of 13.83% significantly exceeds the 8.91% ten-year Treasury yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "private pension equity purchases at just 9% of net funds in 1978",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "financial and service businesses where replacement cost adjustment is less significant",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 1,
+  "share": 0.14
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "While bondholders are locking in 9-10% yields, we can secure an earnings yield of nearly 14% by purchasing productive assets at or below book value [D02, D04].",
+ "grader_notes": "The agent correctly identified the core valuation thesis regarding earnings yields versus bond yields and the opportunistic nature of current market sentiment. The reasoning is closest to Buffett's in its focus on ROE/earnings yield relative to bond rates; it is farthest in missing the explicit warning about the 'high price' paid for consensus, focusing instead on pension fund data as a contrarian indicator.",
+ "run": "1979_market_stance__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY_BROADLY",
+ "agent_decision": "BUY_BROADLY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

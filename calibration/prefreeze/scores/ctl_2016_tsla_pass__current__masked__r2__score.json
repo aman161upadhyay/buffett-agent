@@ -1,0 +1,52 @@
+{
+ "trade_id": "ctl_2016_tsla_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned per parent 13F history",
+   "No Tesla row in parent 2010–Q2 2026 holdings census",
+   "Economic and valuation objections are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "Company lacks consistent GAAP profit base",
+   "Capital-intensive business model requiring constant infusions",
+   "Intense competition from entrenched manufacturers",
+   "Uncertainty regarding operational execution"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company lacks a consistent GAAP profit base, making long-term earnings power unpredictable [D02].",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business model is highly capital-intensive, requiring $1.5 billion in planned capital investment [D02].",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "It faces intense competition from entrenched, high-quality luxury manufacturers with established moats [D06].",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 9,
+  "share": 0.9
+ },
+ "state": "PARTIAL",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We have looked at the Company and have decided to pass.",
+ "grader_notes": "The agent correctly reached a PASS decision but failed to identify the actual reasoning, which relies on the documented absence of the stock in Berkshire's holdings rather than a fundamental analysis of Tesla's business model. The agent incorrectly treated analyst-reconstructable discipline tests as authenticated issuer-specific Buffett statements. Consequently, while the outcome matches, the reasoning process does not align with the provided answer key.",
+ "run": "ctl_2016_tsla_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

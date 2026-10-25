@@ -1,0 +1,55 @@
+{
+ "trade_id": "2022_tsm_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The initial earnings yield of 8.1% is insufficient given the structural risks.",
+   "The business model is exceptionally capital-intensive, requiring massive, perpetual reinvestment.",
+   "Significant geopolitical concentration risk in Taiwan creates a potential for the permanent loss of capital.",
+   "Necessity of constant technological reinvention makes the long-term future highly uncertain."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The initial earnings yield of 8.1% is insufficient given the structural risks, falling well below our requirement of roughly 1.5x the 3.88% long bond yield.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business model is exceptionally capital-intensive, requiring massive, perpetual reinvestment that limits the generation of sustainable free cash flow.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Significant geopolitical concentration risk in Taiwan creates a potential for the permanent loss of capital that cannot be adequately discounted.",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "While the foundry maintains a strong market position and good returns on capital, the necessity of constant technological reinvention makes the long-term future highly uncertain.",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 7,
+  "share": 0.64
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have looked closely at this foundry business and, while we admire its technical prowess and the vital role it plays in the global semiconductor ecosystem, we have decided to pass [D01].",
+ "grader_notes": "The agent reached a PASS decision while Buffett actually bought the stock. Because there were no authenticated entry drivers provided for Buffett in the answer key, the reasoning comparison is null, and the agent's detailed negative analysis cannot be scored against Buffett's logic.",
+ "run": "2022_tsm_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

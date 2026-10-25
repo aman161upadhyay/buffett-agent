@@ -1,0 +1,45 @@
+{
+  "id": "1988_ko_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "$592.540 million cost at December 1988; $1.023920 billion at December 1989, not all committed on the cutoff",
+  "first_action_date": null,
+  "disclosure_date": "1989-02-28",
+  "reason_class": null,
+  "opportunity_template": [
+    "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "The product's extraordinary consumer appeal supported a worldwide franchise.",
+      "source": "https://www.berkshirehathaway.com/letters/1989.html (1990-03-02; hindsight explanation)",
+      "quote": null
+    },
+    {
+      "driver": "Goizueta and Keough refocused policies and energized overseas sales.",
+      "source": "https://www.berkshirehathaway.com/letters/1989.html (1990-03-02; hindsight explanation)",
+      "quote": null
+    },
+    {
+      "driver": "Marketing and finance worked together to maximize growth and rewards to owners.",
+      "source": "https://www.berkshirehathaway.com/letters/1989.html (1990-03-02; hindsight explanation)",
+      "quote": "With Roberto, the mesh of marketing and finance is perfect and the result is a shareholder's dream."
+    },
+    {
+      "driver": "Outstanding businesses with outstanding management warranted long ownership.",
+      "source": "https://www.berkshirehathaway.com/letters/1988.html (1989-02-28; hindsight explanation)",
+      "quote": "our favorite holding period is forever"
+    }
+  ],
+  "entry_valuation_stated": "Common ~15x shorthand not verified; exact cutoff multiple unknown, no original forecast recovered.",
+  "outcome_note": "Built to 23.35 million then-current shares at $1.023920 billion cost in 1989; retained long-term ownership, not a realized 1989 exit.",
+  "sources": [
+    "https://www.berkshirehathaway.com/letters/1989.html (1990-03-02; hindsight explanation)",
+    "https://www.berkshirehathaway.com/letters/1988.html (1989-02-28; hindsight explanation)",
+    "Coca-Cola pre-cutoff annual operating record; management actions reconstructed from Berkshire acquisition-history narrative, with later opinion and purchase disclosures withheld; fund reference https://www.berkshirehathaway.com/letters/1986.html"
+  ],
+  "pack_quality_notes": "Grade C: current financial and price table not independently recovered. Summer 1988 first buying predates September 30; new mode retained as requested with thesis-replay warning. Do not grade a precise multiple or guaranteed growth as necessary."
+}

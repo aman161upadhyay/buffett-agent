@@ -1,0 +1,28 @@
+{
+  "id": "1994_axp_buy",
+  "company": "American Express",
+  "ticker": "AXP",
+  "aliases": [
+    "American Express",
+    "AXP",
+    "American Express Company",
+    "Amex",
+    "AmEx",
+    "Travel Related Services",
+    "TRS",
+    "IDS",
+    "Investors Diversified Services",
+    "Harvey Golub",
+    "Shearson",
+    "Lehman Brothers",
+    "American Express Financial Advisors",
+    "Optima"
+  ],
+  "as_of_date": "1994-08-01",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "1994 common-stock enlargement after prior preferred/common exposure; exact new-order day unknown.",
+  "fund_aum_usd_bn": 0.0,
+  "decider": "Buffett",
+  "notes": "Historical reconstruction: doc Date is effective information cutoff, not archival publication date. Only pre-cutoff business conditions are reconstructed; later investor explanations/outcomes appear in key only. Current cash/equity denominator unrecovered; 0 sentinel. Existing preferred/common exposure is explicitly acknowledged. Grade C: original common quote/earnings and complete issuer-specific rationale thin. New mode is an accumulation/conversion thesis review with prior exposure; exact first purchase/settlement unverified."
+}

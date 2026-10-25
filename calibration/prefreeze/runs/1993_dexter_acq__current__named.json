@@ -1,0 +1,240 @@
+{
+ "pack": "1993_dexter_acq",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "1993-09-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Dexter Shoe makes popular-priced men's and women's shoes, combining manufacturing with distribution and retail outlets [D01]. The company operates plants in Maine and Puerto Rico and is managed by Harold Alfond and Peter Lunder [D01, D07].",
+   "products_customers_and_why_they_buy": [
+    "Popular-priced men's and women's shoes [D01].",
+    "Product viability depends on brand, quality, and delivery speed, which must be tested against consumer alternatives and import competition [D01]."
+   ],
+   "economics": [
+    "Footwear economics involve design, sourcing, manufacturing, and distribution, with inventory risks where items may be worth less than cost [D01].",
+    "Retail ownership captures margin but adds leases, inventory, and fixed expenses [D01].",
+    "Efficient operations are valuable only if they sustain returns after all capital requirements; domestic production faces competitive pressure from lower-cost imports [D01]."
+   ],
+   "earnings_record": [
+    "Not in pack; audited income, cash flow, and balance sheet series for 1988–1992 were not recovered [D02]."
+   ],
+   "competitive_position": [
+    "Dexter is established with a long operating history; however, its ability to maintain domestic production against import competition is an open economic question [D01].",
+    "Familiarity with H.H. Brown and Lowell Shoe does not guarantee Dexter possesses the same competitive strength [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Debt, cash, pensions, and maintenance capex remain explicit gaps as no audited balance sheet was recovered [D02]."
+   ],
+   "management_and_capital_allocation": [
+    "Harold Alfond and Peter Lunder provide a long operating history; the transaction intends to retain incumbent management [D01, D07].",
+    "Capital allocation is centralized at the buyer level [D08]."
+   ],
+   "price_and_valuation": [
+    "Proposed consideration is approximately $420 million, payable via 25,221 Berkshire shares [D02, D09].",
+    "Target P/E, P/B, and earnings yield are not measurable due to a lack of seller financial accounts [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Structural cost disadvantage of domestic plants versus lower-cost imports [D05].",
+    "Working capital and inventory may be less recoverable than book value implies [D05].",
+    "Paying in stock may permanently surrender participation in Berkshire's other businesses [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Proposed transaction for approximately $420 million using 25,221 Berkshire shares [D02].",
+    "Requires federal antitrust clearance [D07].",
+    "Incumbent management to be retained [D01, D07]."
+   ],
+   "recent_events": [
+    "September 30, 1993: Agreement announced for Berkshire Hathaway to acquire Dexter Shoe [D01, D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire already owns footwear companies H. H. Brown and Lowell Shoe [D01, D07].",
+    "Transaction involves Berkshire equity rather than cash [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Audited trailing earnings, maintenance capex, working-capital needs, debt, cash, and full financial statements [D02, D03, D09]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "UNSURE",
+     "evidence": "While footwear is a simple product, the long-term impact of import competition on the business model is an open economic question [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "It is unclear if Dexter possesses the same competitive strength as other holdings like H.H. Brown, given the pressure from lower-cost imports [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "UNSURE",
+     "evidence": "Audited income and cash flow series are not in the pack [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "Balance sheet data, including debt and capital needs, are not in the pack [D02]."
+    },
+    "capital_intensity": {
+     "score": "UNSURE",
+     "evidence": "The business requires ongoing investment in manufacturing and inventory, and the ability to maintain returns given the cost structure is not documented [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Harold Alfond and Peter Lunder have a long operating history and are expected to remain with the business [D01, D07]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "At $420 million, the acquisition is of sufficient scale to be a direct Berkshire investment [D02]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "P/E, P/B, and earnings yield are not measurable due to lack of financial accounts [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 0,
+   "n_unsure": 6,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a footwear manufacturer facing significant competitive pressure from lower-cost imports with insufficient financial transparency to verify underlying economics"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is appropriately concerned about the long-term viability of domestic footwear manufacturing against low-cost import competition [D01, D05]. Without verified financial accounts or clear evidence of a durable competitive advantage in the face of these structural pressures, there is no basis to view the $420 million valuation as a bargain [D02, D04].",
+   "evidence": [
+    "Structural cost disadvantage of domestic plants versus lower-cost imports [D05].",
+    "Audited income, cash flow, and balance sheet series are missing [D02].",
+    "Dexter's ability to maintain returns given its capital requirements remains an open economic question [D01]."
+   ],
+   "market_narrative_we_disagree_with": "The market may be viewing this as a simple extension of Berkshire's existing footwear businesses, but we lack the data to confirm if Dexter shares the same competitive strength or economic durability [D01].",
+   "what_must_be_true": [
+    "Dexter must demonstrate pricing power that offsets the domestic manufacturing cost disadvantage.",
+    "Inventory and working capital must be as recoverable as book value implies.",
+    "The business must demonstrate a consistent, high return on capital that warrants the $420 million price tag."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack [D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "Lack of audited financial data prevents calculation of owner earnings [D02, D04].",
+     "Structural cost disadvantage of domestic manufacturing vs imports makes long-term earnings durability uncertain [D05]."
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "not in pack",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / T-bills / existing holdings / Berkshire buyback — Berkshire's own shares are a known benchmark for capital allocation [D05]",
+   "downside_case": "permanent loss of capital if domestic shoe manufacturing becomes unviable against low-cost imports [D05]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "No audited income, cash flow, or balance sheet data available [D02].",
+    "Assumption that intrinsic value cannot be determined with current information [D02]."
+   ]
+  },
+  "gate4": {
+   "role": "R3",
+   "role_description": "We buy businesses to keep, typically acquiring 80-100% of the company, leaving management in place to run the operations while we handle capital allocation [D01, D07].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realised through the long-term compounding of owner earnings, which are distributed to Berkshire to be reallocated at higher rates of return [D01, D08]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 1980-1999 era, our strategy focused on acquiring whole businesses with established management teams to serve as homes for our capital, provided they meet our quality and durability standards [D01, D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Domestic footwear manufacturing cost disadvantage relative to low-cost imports renders business model unviable [D05].",
+    "Inventory and working capital losses exceeding stated book value due to industry structural decline [D05]."
+   ],
+   "berkshire_constraints": "Must maintain adequate capital for core insurance operations and avoid diluting shareholder value with overvalued stock-for-stock transactions [D05, D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio | partnership | cash"
+   },
+   "opportunity_cost": "Capital and Berkshire shares could be better utilized for higher-return businesses or repurchasing undervalued Berkshire stock [D05].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "As a whole-company acquisition at scale ($420 million), this is a capital allocation decision reserved for the CEO [D02, D08].",
+   "biggest_risk_in_one_sentence": "We risk permanent loss of capital by acquiring a business with a structural cost disadvantage that we cannot verify due to the absence of audited financial statements [D02, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "1993-09-30",
+  "company": "Dexter Shoe",
+  "ticker": "n/a",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R3",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "permanent loss of capital if domestic shoe manufacturing becomes unviable against low-cost imports [D05]"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the $420 million valuation cannot be measured against intrinsic value or earnings yield due to a lack of audited accounts [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The structural cost disadvantage of domestic manufacturing relative to imports creates an uncertain economic future that we cannot verify [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "We lack the financial data necessary to confirm that Dexter maintains the durable competitive advantage and high returns on capital that we require [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "Paying with Berkshire shares surrenders permanent participation in our superior businesses for an asset with questionable long-term viability [D05, D08].",
+    "citations": [
+     "D05",
+     "D08"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Domestic footwear manufacturing cost disadvantage relative to low-cost imports renders business model unviable [D05].",
+   "Inventory and working capital losses exceeding stated book value due to industry structural decline [D05]."
+  ],
+  "what_would_change_our_mind": "Access to comprehensive, audited financial statements that demonstrate consistent, high returns on capital and a sustainable competitive moat despite import pressures [D02].",
+  "memo": "We evaluate businesses based on their ability to produce consistent returns on capital, supported by a durable competitive advantage and a clear understanding of the economics [D01]. With Dexter, we are presented with a manufacturer of popular-priced footwear that faces significant headwinds from low-cost import competition [D01, D05].\n\nOur assessment of a company's moat requires an understanding of how pricing power and cost structures interact over long periods [D01]. In this instance, the structural cost disadvantage inherent in domestic manufacturing is a substantial concern, and we lack the audited income and balance sheet data required to determine if Dexter has overcome these industry-wide pressures [D01, D02, D05].\n\nWe prioritize management teams that demonstrate both ability and integrity, and while Harold Alfond and Peter Lunder have built a significant history, our capital allocation process remains strictly grounded in our own verification of the underlying business value [D01, D07, D08]. Without audited proof of earnings, we cannot determine if the $420 million price provides any margin of safety [D02, D04].\n\nUltimately, Berkshire shares are a precious commodity that we only trade for businesses we understand intimately and which promise to compound value over the long term [D05, D08]. Given the absence of verifiable financial data and the significant threat of low-cost imports, we cannot justify the allocation of our capital or our shares to this enterprise [D02, D05].",
+  "uncited_claims": []
+ }
+}

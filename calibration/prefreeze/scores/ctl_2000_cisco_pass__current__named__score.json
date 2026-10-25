@@ -1,0 +1,52 @@
+{
+ "trade_id": "ctl_2000_cisco_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Outside Buffett's demonstrated technology circle and no demonstrated margin of safety",
+   "No Cisco in the parent 13F-era holdings window around 2000; Buffett's no-technology stance is independently stated",
+   "Economic and valuation objections are analyst-reconstructable discipline tests, not authenticated Buffett statements"
+  ],
+  "extra_agent_drivers": [
+   "The business operates outside my circle of competence due to rapid technological change.",
+   "Constant, heavy reinvestment and acquisitions are required to prevent technological obsolescence.",
+   "Accounting is obscured by frequent pooling restatements and excluded in-process R&D costs.",
+   "The competitive advantage is not durable enough to provide long-term predictability."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Cisco is a significant provider of internet infrastructure",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "I am unable to determine owner earnings because maintenance capital expenditures and working capital requirements are not clear",
+    "citation": "D05",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "GAAP earnings are frequently muddied by pooling restatements and the exclusion of in-process research and development costs",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 5,
+  "share": 0.5
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Charlie and I prefer to stick to businesses we can understand.",
+ "grader_notes": "The agent correctly identified the 'PASS' decision but failed to utilize the provided answer key's reasoning, instead constructing its own independent investment thesis regarding Cisco's business model and accounting practices. Buffett's actual stated reason for passing on such investments during this period was a categorical exclusion of technology stocks from his circle of competence, rather than a granular forensic analysis of Cisco's specific financial statements.",
+ "run": "ctl_2000_cisco_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

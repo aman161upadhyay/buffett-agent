@@ -1,0 +1,49 @@
+{
+  "id": "ctl_2015_vrx_pass",
+  "actual_decision": "PASS",
+  "conviction": "high",
+  "size_pct_nav": 0,
+  "first_action_date": null,
+  "disclosure_date": "2016-05-02",
+  "reason_class": null,
+  "opportunity_template": [
+    "B1",
+    "B4"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "decider_identity": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "No ownership in the window; Munger's later criticism focused on an acquisition-and-price-increase model and its ethics. No authenticated March 2 issuer-specific refusal or three own-words Buffett drivers exists.",
+      "source": "https://www.theglobeandmail.com/globe-investor/investment-ideas/valeant-falls-after-buffett-calls-business-enormously-flawed/article29821806/ (2016-05-02; later evidence where after cutoff)",
+      "quote": null,
+      "evidence_type": "documented_action_or_comment"
+    },
+    {
+      "driver": "No Valeant/VRX/Bausch predecessor position in the parent 2010\u2013Q2 2026 13F census, including 2014 Q4 and 2015 Q1/Q2. Corrected requested chronology: the authenticated 'sewer' quotation is from the April 30, 2016 meeting, reported May 2, 2016, not the 2015 meeting. March 2015 criticism also postdates the cutoff.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1067983/000095012315006438/0000950123-15-006438.txt",
+      "quote": null,
+      "evidence_type": "ownership_or_refusal_verification"
+    },
+    {
+      "driver": "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements; do not award reasoning-overlap credit for treating them as quotations.",
+      "source": "https://www.sec.gov/Archives/edgar/data/885590/000119312515057297/d878630dex991.htm (2015-02-23)",
+      "quote": null,
+      "evidence_type": "grading_boundary_not_stated_reason"
+    }
+  ],
+  "entry_valuation_stated": "No issuer-specific investor-stated intrinsic value or entry multiple recovered; pack valuation is analyst reconstruction.",
+  "outcome_note": "No Valeant/VRX/Bausch predecessor position in the parent 2010\u2013Q2 2026 13F census, including 2014 Q4 and 2015 Q1/Q2. Corrected requested chronology: the authenticated 'sewer' quotation is from the April 30, 2016 meeting, reported May 2, 2016, not the 2015 meeting. March 2015 criticism also postdates the cutoff. This is a direction/discipline test, not a return forecast. Nonholding evidence is scoped to the parent discretionary portfolio and the tested window; quarterly 13Fs cannot prove absence of every intraperiod trade, nonreportable instrument, subsidiary client holding or personal investment.",
+  "sources": [
+    "https://www.theglobeandmail.com/globe-investor/investment-ideas/valeant-falls-after-buffett-calls-business-enormously-flawed/article29821806/",
+    "https://www.sec.gov/Archives/edgar/data/1067983/000095012315006438/0000950123-15-006438.txt",
+    "https://www.sec.gov/Archives/edgar/data/885590/000119312515057297/d878630dex991.htm",
+    "buffett-agent/compendium/all_positions_index.md",
+    "buffett-agent/compendium/filings_2010_2026.md"
+  ],
+  "pack_quality_notes": "Exact desk-date price and full annual cash/debt reconciliation not recovered. No Philidor or later price-hike episodes in docs. Corrected sewer-quote date to 2016, not 2015. Munger criticism is later and not attributed to Buffett as a March 2 quotation. Silent controls do not have three authentic stated reasons; the three slots distinguish action, ownership verification and grading boundary rather than fabricate quotes. Deputy keys use user-requested decider='deputy'; meta retains the allowed named/unknown identity. PASS label is nonpurchase/refusal evidence, not proof a presented bull thesis was publicly evaluated.",
+  "verification_window": "No Valeant/VRX/Bausch predecessor position in the parent 2010\u2013Q2 2026 13F census, including 2014 Q4 and 2015 Q1/Q2. Corrected requested chronology: the authenticated 'sewer' quotation is from the April 30, 2016 meeting, reported May 2, 2016, not the 2015 meeting. March 2015 criticism also postdates the cutoff.",
+  "control_quality_grade": "B"
+}

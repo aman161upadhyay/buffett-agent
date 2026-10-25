@@ -1,0 +1,15 @@
+Title: USAir Group — Investor's capital and constraints
+Source: Proposed August 7 terms reconstructed from https://www.nytimes.com/1989/08/08/business/buffett-s-stake-in-usair-seen-as-takeover-move.html ; prior operating history only
+Date: 1989-08-07
+
+## Cutoff evidence — reconstructed
+
+Berkshire's capital-allocation alternatives include existing common holdings, bonds, cash and negotiated financings. Insurance liabilities require prudent liquidity. Exact current cash and the equity-portfolio value on a comparable basis are not recovered, so no preferred-to-cash percentage is supplied. The contemplated preferred's $358 million check is different from the possible common ownership percentage on conversion. The investor's familiarity with or admiration for management is context to verify, not a disclosed verdict. A structured investment can be considered where common business forecasting is uncertain, but its protection must come from actual economic coverage and contractual terms rather than a label. No later sale rule is applied to today's record.
+
+## Economic reading of the supplied facts
+
+Industry economics: airlines commit capital to aircraft and infrastructure before knowing the revenue each seat will earn. An empty seat cannot be stored for sale tomorrow. Routes, schedules and customer loyalty can support a network, but fare competition can transfer much of the value to travelers. Labor contracts, fleet obligations and fuel costs can remain burdensome even when fares fall. Acquiring another network adds both opportunities and integration exposure. A preferred dividend is paid by the same operating enterprise and therefore depends on cash generation, financing and senior creditor claims. Historical profits should be examined across competitive conditions rather than treated as a bond-like entitlement. No estimate of future fuel prices or an unverified cost-per-seat comparison is assumed here.
+
+Capital-allocation interpretation: a portfolio allocation must fit the legal entity that supplies the money. An insurance subsidiary's invested assets are not all cash available for an acquisition. Premiums collected before claims are paid provide investment funds but also create obligations. Consolidated equity, publicly traded holdings, cash and insurance float are different denominators.
+
+No target weight follows mechanically from the fund-size reference. Available cash at this exact cutoff, where unrecovered, remains unknown rather than being equated with the reference figure. Existing concentrated holdings create opportunity costs; selling them may incur tax and surrender durable earning power. A commitment involving stock also transfers a continuing fraction of the buyer's future economics. The investor has no obligation to purchase simply to remain fully invested. Conversely, waiting has a cost when a sound business is offered below conservative value. This context describes available choices and constraints without specifying an allocation or revealing a decision.

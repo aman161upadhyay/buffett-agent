@@ -1,0 +1,59 @@
+{
+ "pack": "2008_buy_american_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "2008-10-16",
+ "stages": {},
+ "final": {
+  "as_of_date": "2008-10-16",
+  "trailing_earnings_yield_pct": 4.86,
+  "normalised_earnings_yield_pct": 8,
+  "normalisation_basis": "prior 5-10y average because reported earnings are depressed [D02]",
+  "long_bond_yield_pct": 3.99,
+  "spread_points": "4.01",
+  "drawdown_from_high_pct": 0,
+  "panic_indicators": [
+   "VIX 67.61 [D04]",
+   "September nonfarm payrolls -159,000 [D03]",
+   "Financial crisis/bank failures [D03]"
+  ],
+  "rule_decision": "BUY_BROADLY — spread of >2 points (8.0% vs 3.99%) with visible panic and depressed earnings",
+  "decision": "BUY_BROADLY",
+  "override_reason": null,
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "Normalised earnings yield of ~8.0% significantly exceeds the 3.99% long-bond yield, signaling deep undervaluation [D02, D04]",
+  "valuation_level": "Prices are highly attractive as earnings yields have risen and market quotations have collapsed amid crisis-driven fear [D02, D04]",
+  "ideas_that_qualify": [
+   "Understandable businesses with durable competitive advantages [D01]"
+  ],
+  "berkshire_action": "Aggressively deploy excess liquidity into high-quality equities that pass stringent underwriting standards, as prices have decoupled from long-term intrinsic value [D01, D05]",
+  "drivers": [
+   {
+    "driver": "The spread between normalized earnings yields and long-term interest rates has widened to a level that historically offers a significant margin of safety [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Widespread panic—evidenced by record VIX levels and credit market impairment—has created a divergence between temporary price quotations and sustainable business value [D03, D04, D05].",
+    "citations": [
+     "D03",
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Berkshire's mandate remains focused on ownership of businesses with durable competitive advantages, which are now available at valuations providing a high margin of safety [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "We are currently observing a period of intense market fear where the price of assets has disconnected from their long-term ability to generate distributable cash. While reported earnings in the index are temporarily depressed due to the crisis, a normalization against prior-year cycles reveals that stocks are fundamentally cheap relative to government bonds [D02, D03, D04]. \n\nWe do not forecast the economy or the timing of a recovery, as the path of the current financial crisis remains uncertain. However, the current earnings yield spread provides a compelling margin of safety. We will continue to focus on businesses we understand—those with durable competitive advantages and predictable pricing power—and we will treat this environment as an opportunity to buy as fast as we can rather than hide in cash [D01, D05].",
+  "uncited_claims": []
+ }
+}

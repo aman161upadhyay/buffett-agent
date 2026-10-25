@@ -1,0 +1,246 @@
+{
+ "pack": "1986_capcities_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "1986-01-03",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company is a media entity combining broadcast and publishing operations with a national television network [D01]. The firm operates by selling audiences to advertisers while providing news and entertainment content [D01].",
+   "products_customers_and_why_they_buy": [
+    "Newspapers and broadcasting services sold to readers, viewers, and advertisers [D01].",
+    "An established local position is difficult to replicate, requiring both audience and advertising support [D01]."
+   ],
+   "economics": [
+    "Predecessor standalone operating margins: 29.1% (1980), 27.7% (1981), 28.6% (1982), 28.9% (1983), 28.5% (1984) [D02].",
+    "Return on average equity (pre-extraordinary gains) for predecessor: 21.5%, 20.1%, 19.5%, 19.6%, and 19.9% (1980-1984) [D02].",
+    "Advertising revenue is sensitive to business conditions; costs for labor, programming, and newsprint do not necessarily decline during downturns [D01]."
+   ],
+   "earnings_record": [
+    "Predecessor income before extraordinary gains: $70.783m (1980), $80.518m (1981), $96.317m (1982), $114.704m (1983), $135.193m (1984) [D02].",
+    "Earnings growth remains subject to acquisition dilution and moderate inflation [D03]."
+   ],
+   "competitive_position": [
+    "Local broadcast franchises and national networks compete for advertising, with different operating risks and costs [D06].",
+    "Broadcast licenses carry regulatory obligations and are not equivalent to perpetual monopolies [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Predecessor 1984 year-end: $236.399m cash/short-term investments and $222.995m total debt [D02].",
+    "Full opening combined balance sheet and post-deal debt amortization schedules are not in pack [D02, D09]."
+   ],
+   "management_and_capital_allocation": [
+    "Management is noted for a low-cost, owner-oriented approach [D01].",
+    "Murphy and Burke identified as managers with a prior record; improvements remain prospective [D03]."
+   ],
+   "price_and_valuation": [
+    "Negotiated subscription price for minority block: $172.50 per share [D02, D04].",
+    "Standalone 1984 EPS: $10.40; simple price/standalone earnings multiple: 16.59x [D04].",
+    "Yield context: 10-year Treasury at 9.05% vs. standalone earnings yield of 6.03% [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Attractive record may not scale to the network acquisition [D05].",
+    "Television assets may be overpriced, leaving little margin for disappointment [D05].",
+    "Earnings sensitivity to ratings, programming costs, and advertising conditions [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Minority financing of 3 million shares at $172.50 per share ($517.5 million) [D02, D09].",
+    "Does not provide control of the network [D01, D09]."
+   ],
+   "recent_events": [
+    "Transaction announced March 18, 1985 [D01, D07].",
+    "Q1 1985 net income reported at $27.7m ($2.13/share) [D03]."
+   ],
+   "berkshire_context": [
+    "Berkshire has prior experience with the Company and its management [D08].",
+    "Recovered 1984 portfolio data is stale; current available cash/allocation not in pack [D08]."
+   ],
+   "document_conflicts": [
+    "Not in pack"
+   ],
+   "missing_data": [
+    "Complete post-combination opening balance sheet, debt amortization schedule, normalized owner-earnings reconciliation, and current market capitalization [D02, D04, D09]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The company operates broadcast and publishing media, which are predictable, slow-changing businesses built on advertising and content [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The company possesses established local franchises that are difficult to replicate, providing competitive stability [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Predecessor income grew consistently from $70.783m in 1980 to $135.193m in 1984 [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The predecessor maintained strong returns on average equity near or above 20% between 1980 and 1984 [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "Media businesses generally grow with limited additional capital expenditure once established [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Management is explicitly recognized for a low-cost, owner-oriented approach [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The investment of $517.5 million is significant enough to impact Berkshire's portfolio in the 1980s era [D02, D09]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "The earnings yield of 6.03% falls well below the 10% pre-tax threshold relative to the 9.05% Treasury rate [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "Not in pack"
+   ],
+   "n_pass": 7,
+   "n_fail": 1,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "A high-quality media franchise with strong returns and management, but currently offered at a price that fails to provide a sufficient margin of safety."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is valuing the business at a premium reflecting its historical growth and competitive position, resulting in an earnings yield that significantly lags the risk-free rate. There is no evidence of a cloud or temporary crisis to explain a price depression; rather, the valuation simply fails to provide a margin of safety against the inherent risks of television network integration and advertising volatility [D04, D05].",
+   "evidence": [
+    "Standalone earnings yield of 6.03% vs 9.05% Treasury rate [D04]",
+    "Market concerns regarding scalability of the network acquisition and high asset pricing [D05]",
+    "Earnings sensitivity to ratings and programming costs [D05]"
+   ],
+   "market_narrative_we_disagree_with": "The market likely assumes that the acquired media network will achieve synergies and growth consistent with the predecessor's historical performance without significant dilution or competitive erosion [D05].",
+   "what_must_be_true": [
+    "The network acquisition must demonstrate operating leverage beyond current forecasts",
+    "Advertising demand must remain resilient despite business cycle fluctuations",
+    "Management must successfully maintain low-cost, owner-oriented operations at the expanded scale"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "$10.40 [D04]",
+   "initial_pretax_yield_pct": 6.03,
+   "intrinsic_value_range": {
+    "low": "Not calculable without post-combination normalized earnings [D09]",
+    "high": "Not calculable [D09]",
+    "key_assumptions": [
+     "Historical margins sustain at 28% [D02]",
+     "Debt amortization does not impair cash flow [D09]"
+    ],
+    "discount_rate_used": "9.05% [D04]"
+   },
+   "price_vs_value": "Price at 16.59x earnings; lacks margin of safety [D04]",
+   "expected_return_pct": {
+    "base": 6,
+    "bear": 4,
+    "bull": 8
+   },
+   "alternatives": "Long bonds at 9.05% offer a higher yield with less risk [D04]",
+   "downside_case": "Multiple compression due to network integration failure; loss is not permanent but capital is trapped [D05]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Normalization of owner earnings is assumed equivalent to reported EPS due to missing D&A/Capex breakdown [D09]",
+    "Post-deal debt impact on earnings is not in pack [D09]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are a permanent passive holder. We seek wonderful businesses at fair prices and compound value over the long term, relying on our edge in patience and permanent capital [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Business compounding and rational capital allocation [D01]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in the 1980s, our approach is to act as a long-term owner of the business, valuing the underlying franchise and management's capital allocation over short-term market fluctuations."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent impairment of broadcast license value due to regulatory shifts",
+    "Advertising revenue collapse exceeding cyclical norms",
+    "Management fails to integrate network acquisition, leading to sustained margin erosion",
+    "Debt burden from acquisition permanently constrains free cash flow generation"
+   ],
+   "berkshire_constraints": "Must maintain sufficient cash for insurance operations and existing commitments [D02]; acquisition requires regulatory compliance for media ownership [D01].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Long-term Treasury bonds yield 9.05% with lower risk, while this investment offers only a 6.03% earnings yield [D04].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The investment represents a significant capital allocation into a media business within my circle of competence, requiring a judgment on management and intrinsic value.",
+   "biggest_risk_in_one_sentence": "The price paid fails to provide a margin of safety against the integration risks and economic sensitivity inherent in the network acquisition [D04, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "1986-01-03",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "$10.40 [D04]",
+   "initial_pretax_yield_pct": 6.03,
+   "intrinsic_value_range": "Not calculable [D09]",
+   "expected_return_pct": 6,
+   "downside_case": "Multiple compression due to network integration failure [D05]"
+  },
+  "drivers": [
+   {
+    "driver": "The earnings yield of 6.03% is insufficient relative to the risk-free 9.05% Treasury rate [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The valuation at 16.59x earnings provides no margin of safety against the uncertainties of a large network acquisition [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The business faces execution risks regarding the integration of television network assets that may not replicate the predecessor's historical returns [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "Advertising revenue is cyclical and sensitive to business conditions, which can lead to volatility in earnings [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent impairment of broadcast license value due to regulatory shifts",
+   "Advertising revenue collapse exceeding cyclical norms",
+   "Management fails to integrate network acquisition, leading to sustained margin erosion",
+   "Debt burden from acquisition permanently constrains free cash flow generation"
+  ],
+  "what_would_change_our_mind": "A significant decline in the share price relative to owner earnings to provide an initial pre-tax yield approaching our 10% threshold, or clear evidence that the combined entity maintains pre-acquisition return on equity metrics.",
+  "memo": "We have long admired the operations of this company, which combines broadcast and publishing entities into a franchise with a durable local presence [D01]. Historically, the predecessor business has demonstrated remarkable economics, characterized by returns on average equity near 20% and operating margins consistently around 28% [D02].\n\nManagement, led by Murphy and Burke, has maintained an owner-oriented, low-cost approach that we find highly attractive [D01]. We understand the media business well and appreciate the power of strong broadcasting and publishing franchises, which serve as essential conduits for content and advertising [D01].\n\nHowever, we must insist on a price that provides a margin of safety, and at 16.59x current earnings, the current offering falls short [D04]. With an earnings yield of 6.03% competing against risk-free long-term Treasury bonds yielding 9.05%, the risk-reward tradeoff is not in our favor [D04].\n\nWe worry that the market has grown overly optimistic about the scalability of the network acquisition, ignoring the potential for margin dilution and the volatility inherent in advertising demand [D05]. We prefer to wait for more favorable terms; as I have said before, the stock market is a device for transferring money from the impatient to the patient [D01].",
+  "uncited_claims": []
+ }
+}

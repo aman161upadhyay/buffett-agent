@@ -1,0 +1,243 @@
+{
+ "pack": "2020_japan_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2020-08-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The basket consists of five Japanese general trading houses: Itochu, Marubeni, Mitsubishi, Mitsui, and Sumitomo [D01]. They function as diversified operating and investment groups combining commodity interests, distribution, infrastructure, industrial holdings, and consumer businesses [D01].",
+   "products_customers_and_why_they_buy": [
+    "They provide commodity, industrial, and consumer services; direct evidence of customer-retention or pricing power is absent [D01]."
+   ],
+   "economics": [
+    "Margins and returns vary; FY2020 ROE ranged from -13.4% (Marubeni) to 17.0% (Itochu) [D02], [D06]. Capital intensity is high, and reported figures require complex reconciliation for equity-accounted earnings and asset dispositions [D01], [D06].",
+    "Maintenance capex and owner earnings inputs are not directly reported [D02], [D06]."
+   ],
+   "earnings_record": [
+    "Cyclical earnings record; 2016-2020 net profit and EPS show significant volatility across all five houses, exacerbated by commodity-price sensitivity and impairments [D02], [D06]."
+   ],
+   "competitive_position": [
+    "These are large-scale, diversified conglomerates with substantial global trade exposure; moat evidence is not definitively established beyond asset scale [D01], [D05]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "High gross and net debt levels, though partially offset by liquidity in underlying holdings [D02], [D03]. Debt is often yen-matched to limit currency risk [D01], [D05]."
+   ],
+   "management_and_capital_allocation": [
+    "Management quality is not inferred from longevity; allocation record is mixed, with some firms showing significant buybacks and dividend growth, while others have faced impairment-driven losses [D01], [D02]."
+   ],
+   "price_and_valuation": [
+    "July 2020 price-to-book ratios ranged from 0.57x (Sumitomo) to 1.14x (Itochu) [D04], [D06]. Trailing P/E multiples were compressed, ranging from ~6x to 8.5x, excluding loss-making Marubeni [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 3.7,
+    "long_bond_yield": 0.01,
+    "basis": "Trailing dividend yields as of July 2020: Itochu 3.70%, Marubeni 7.22%, Mitsubishi 6.23%, Mitsui 5.08%, Sumitomo 6.85% [D04]; Long bond yield is the 10-year Japanese government benchmark [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Opaque holdings, commodity cycles, high leverage, low ROE, minority shareholder influence, and the possibility that high dividend yields indicate risk rather than safety [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Fiscal-year 2020 results reflected pandemic impact; Q1 FY2021 results (April-June 2020) showed widespread year-over-year declines in net income and trading profit [D03]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds significant cash (~$128bn) and has previously issued yen-denominated debt, creating a potential source for yen-denominated investments [D08]."
+   ],
+   "document_conflicts": [
+    "Revenue reporting is inconsistent due to consolidation and presentation changes (e.g., Itochu) [D02]."
+   ],
+   "missing_data": [
+    "Harmonized maintenance-capital, look-through debt, EBITDA/ROIC bridges, and synchronized 52-week ranges/EV-EBITDA multiples [D02], [D04], [D06]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "These are highly complex, diversified conglomerates operating across disparate global industries with opaque underlying holdings that lack clear long-term predictability [D01], [D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "While they possess large-scale asset bases, there is no definitive evidence of a durable competitive advantage or pricing power beyond simple commodity-driven trade exposure [D01], [D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The earnings record is highly cyclical and volatile, characterized by significant impairment charges and sensitivity to commodity price fluctuations [D02], [D06]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The firms exhibit inconsistent ROE and carry high levels of gross and net debt, which does not meet the standard for a core franchise with little debt [D02], [D03]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business model is inherently capital-intensive and does not fit the criteria for a regulated utility or low-cost commodity producer with structural cost advantages [D01], [D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Capital allocation records are mixed, with inconsistent approaches to buybacks and dividend growth alongside significant impairment-driven losses [D01], [D02]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The aggregate size and scale of these five major trading houses are sufficient to accommodate a meaningful investment of Berkshire's capital [D01]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The trading houses are priced at significant discounts to book value (0.57x to 1.14x) and offer attractive dividend yields significantly above the 10-year Japanese government bond yield of 0.01% [D04], [D06]."
+    }
+   },
+   "conflicts_resolved": [
+    "Revenue reporting inconsistency → relied on diversified conglomerate structure and commodity sensitivity reported in [D01] and [D02] rather than specific revenue figures."
+   ],
+   "n_pass": 2,
+   "n_fail": 5,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": true,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a collection of complex, commodity-sensitive trading conglomerates whose economics are subpar but which are being acquired at a significant discount to book value."
+  },
+  "gate2": {
+   "templates": [
+    "B13"
+   ],
+   "why_available": "The market is preoccupied with the cyclicality and complexity of these trading houses, leading to price-to-book ratios that are significantly depressed [D04], [D05]. We view this as a large-scale, low-risk opportunity where the attractive dividend yields—far exceeding the Japanese government bond rate—provide a margin of safety while we wait for the market to eventually recognize the underlying value of their diverse asset bases [D04], [D06].",
+   "evidence": [
+    "Trading houses are priced at significant discounts to book value (0.57x to 1.14x) [D04], [D06].",
+    "Trailing dividend yields are substantial, ranging from 3.7% to 7.22%, compared to a 10-year Japanese government bond yield of 0.01% [D04].",
+    "Berkshire has access to yen-denominated financing to manage currency risk [D08]."
+   ],
+   "market_narrative_we_disagree_with": "The market fears that high dividend yields are a sign of distress and that these conglomerates are too opaque, over-leveraged, and cyclical to warrant a premium valuation [D05].",
+   "what_must_be_true": [
+    "The companies remain solvent and continue to pay dividends despite cyclical commodity fluctuations.",
+    "The deep discount to book value provides a sufficient buffer against potential asset impairments.",
+    "The Japanese yen-denominated debt remains a cost-effective way to hedge the underlying currency exposure."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_a_asset_value",
+   "owner_earnings_per_share": "not in pack [D02], [D06]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "Not explicitly calculated; appraisal based on net asset values/book values [D04], [D06]",
+    "high": "Not explicitly calculated; appraisal based on net asset values/book values [D04], [D06]",
+    "key_assumptions": [
+     "Companies remain solvent and continue paying dividends [D06]",
+     "Discount to book value acts as a buffer against impairments [D06]"
+    ],
+    "discount_rate_used": "0.01% [D04]"
+   },
+   "price_vs_value": "Prices range from 0.57x to 1.14x book value; suggests margin of safety at lower end [D04], [D06]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Berkshire has ~$128bn cash [D08]; buybacks or other investments compete for capital",
+   "downside_case": "Permanent loss if commodity price cycles result in long-term asset impairment and dividend cuts",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Maintenance capex and owner earnings are not reported [D02], [D06]",
+    "Intrinsic value is proxied by book value discounts rather than DCF due to complexity [D06]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital [D01], [D05].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Dividends provide an immediate cash return significantly higher than the Japanese long bond yield [D04], [D06].",
+    "Capital appreciation as the market corrects the substantial discount to book value [D04], [D06]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "This investment utilizes Berkshire's scale and ability to access low-cost yen-denominated financing [D08] to acquire high-yielding, tangible assets at a discount to book value during a period of market pessimism [D04], [D06]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent loss of pricing power in core commodities",
+    "Persistent dividend cuts signaling structural insolvency",
+    "Regulatory or geopolitical intervention restricting foreign ownership of Japanese entities",
+    "Debt-to-equity ratios rising to levels that threaten core liquidity"
+   ],
+   "berkshire_constraints": "Must maintain cash reserves above $30B [D08]; individual holdings limited by regulatory reporting thresholds (10% limit without regulatory approval) [D01]; must be mindful of reputation as a long-term, friendly investor [D05].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 10,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Cash held at ~0% return or repurchasing Berkshire stock if trading below intrinsic value [D08].",
+   "leverage": "None at the investment level; utilization of low-cost, long-dated yen-denominated debt to hedge currency exposure [D08].",
+   "decider": "Buffett",
+   "decider_reason": "The investment involves a large-scale allocation of capital into established, blue-chip Japanese conglomerates that can be meaningfully sized at $5B+ given their market caps.",
+   "biggest_risk_in_one_sentence": "The highly cyclical nature and commodity sensitivity of these conglomerates could lead to prolonged asset impairments if the global economic environment remains depressed [D02], [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-08-30",
+  "company": "Five Japanese trading houses (Itochu, Marubeni, Mitsubishi, Mitsui, Sumitomo)",
+  "ticker": "8001 / 8002 / 8058 / 8031 / 8053",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B13"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Discount to book value (0.57x-1.14x) suggests margin of safety",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss if commodity price cycles result in long-term asset impairment and dividend cuts"
+  },
+  "drivers": [
+   {
+    "driver": "The trading houses are priced at significant discounts to book value (0.57x to 1.14x) and offer trailing dividend yields ranging from 3.7% to 7.22% against a 10-year Japanese government bond yield of 0.01% [D04], [D06]."
+   },
+   {
+    "driver": "These companies are massive, diversified global entities that allow for a meaningful deployment of capital at scale [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "We have access to low-cost, yen-denominated financing which allows us to hedge our currency exposure while holding these assets [D08].",
+    "citations": [
+     "D08"
+    ]
+   },
+   {
+    "driver": "The market's preoccupation with cyclicality and complexity has created a price-to-book valuation that provides a margin of safety [D04], [D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent loss of pricing power in core commodities",
+   "Persistent dividend cuts signaling structural insolvency",
+   "Regulatory or geopolitical intervention restricting foreign ownership of Japanese entities",
+   "Debt-to-equity ratios rising to levels that threaten core liquidity"
+  ],
+  "what_would_change_our_mind": "Evidence of structural insolvency, persistent dividend cuts, or a change in the macroeconomic environment that permanently impairs the value of the underlying diverse asset bases.",
+  "memo": "Charlie and I are committing to a significant investment in five of Japan’s most prominent trading houses: Itochu, Marubeni, Mitsubishi, Mitsui, and Sumitomo [D01]. These businesses function as diversified global conglomerates with wide-ranging interests in commodities, industrial infrastructure, and consumer services [D01]. While their complexity is significant, their massive scale allows them to move the needle for Berkshire [D01].\n\nThese firms operate in a cyclical environment, and their earnings are sensitive to commodity price fluctuations [D02], [D06]. While we cannot point to a single durable competitive advantage, their diversified asset bases provide a level of resilience that we find attractive at current valuations [D01], [D05]. We acknowledge that management quality and capital allocation records have been mixed, but their role as established, blue-chip entities provides comfort [D01], [D02].\n\nMr. Market is currently focused on the cyclicality and perceived opacity of these companies, which has driven their price-to-book ratios to levels between 0.57x and 1.14x [D04], [D06]. This pessimism has resulted in dividend yields that are truly exceptional when compared to the 0.01% yield on the 10-year Japanese government bond [D04]. We are effectively buying a portfolio of tangible assets at a significant discount to their book value [D04].\n\nWe plan to hold these positions for the long term, realizing value through both reliable dividends and potential capital appreciation as the market eventually recognizes the underlying worth of these businesses [D04], [D06]. We are utilizing our ability to issue low-cost, yen-denominated debt to hedge our currency risk, an advantage that helps us maintain our margin of safety [D08]. We will start with a position representing roughly 5% of our equity portfolio and remain disciplined in our oversight, ready to exit if the fundamental investment thesis regarding solvency and dividend payments is violated [D05], [D08].",
+  "uncited_claims": [
+   "We plan to hold these positions for the long term"
+  ]
+ }
+}

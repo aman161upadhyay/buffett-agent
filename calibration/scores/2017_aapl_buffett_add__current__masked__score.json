@@ -1,0 +1,53 @@
+{
+ "trade_id": "2017_aapl_buffett_add",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Buffett judged the durable consumer franchise rather than predicting its next product → The business exhibits a durable consumer franchise with high switching costs and recurring service potential [D01].",
+   "He found the price sufficiently attractive to make a large personal decision for Berkshire → The valuation at 14.46x earnings remains modest for a business of this quality relative to long-term interest rates [D04]."
+  ],
+  "missed": [
+   "Customer stickiness made the ecosystem attractive."
+  ],
+  "extra_agent_drivers": [
+   "Latest quarterly results show renewed revenue and EPS growth, validating the ongoing demand for the platform [D03].",
+   "The initial stake was small, and we prefer to build significant positions in wonderful businesses over several quarters [D07, D08]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business exhibits a durable consumer franchise with high switching costs and recurring service potential",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Latest quarterly results show renewed revenue and EPS growth",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The valuation at 14.46x earnings remains modest",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 5,
+  "share": 0.71
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "The ecosystem created by the company’s hardware, software, and services creates friction for users that functions as a moat, providing us with confidence in the durability of its future returns [D01].",
+ "grader_notes": "The agent correctly identified the durable consumer franchise and valuation as key drivers, aligning well with Buffett's logic. It failed to explicitly categorize 'customer stickiness' as a distinct driver, though it was implied within the moat discussion. The agent added extraneous operational analysis regarding recent quarterly growth and internal portfolio sizing, which were not cited by Buffett.",
+ "run": "2017_aapl_buffett_add__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "ADD",
+ "agent_decision": "ADD",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

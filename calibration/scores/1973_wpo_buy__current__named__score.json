@@ -1,0 +1,49 @@
+{
+ "trade_id": "1973_wpo_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Public shares offered the whole collection of businesses at no more than roughly a quarter of conservatively appraised business value. → The company sells for $128 million, or roughly $27 per share, against a conservatively appraised intrinsic value between $40 and $55 per share, representing an initial pre-tax earnings yield of approximately 16% compared to 6.72% for long bonds [D04]."
+  ],
+  "missed": [
+   "Profitable media franchises mattered more than quoted price volatility.",
+   "Independent business appraisal and attitude, rather than private information, supplied the advantage."
+  ],
+  "extra_agent_drivers": [
+   "The newspaper holds a dominant position with 63% of local advertising linage, creating a durable moat that is difficult for competitors to replicate.",
+   "Operating income has demonstrated strong growth, increasing 43.5% in 1972, supported by highly profitable broadcasting assets.",
+   "Katharine Graham has proven her ability to manage and grow the business while maintaining a disciplined balance sheet with minimal net debt."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company sells for $128 million, or roughly $27 per share, against a conservatively appraised intrinsic value between $40 and $55 per share",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating income has demonstrated strong growth, increasing 43.5% in 1972",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 3,
+  "share": 0.23
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "The market has currently mispriced this asset at $27 per share, likely due to ephemeral concerns regarding TV license renewals and general cost pressures [D04, D05].",
+ "grader_notes": "The agent correctly identified the direction and the primary valuation gap. However, it relied heavily on specific operational metrics and moat analysis rather than the broader 'attitude' and 'business collection' logic Buffett emphasized in hindsight. The agent also provided three extra drivers focused on current management and specific operating performance which were not primary drivers in the answer key.",
+ "run": "1973_wpo_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

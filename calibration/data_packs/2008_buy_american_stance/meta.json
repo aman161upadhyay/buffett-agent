@@ -1,0 +1,23 @@
+{
+  "id": "2008_buy_american_stance",
+  "company": "United States equities \u2014 portfolio stance",
+  "ticker": "US equities",
+  "aliases": [
+    "United States equities \u2014 portfolio stance",
+    "US equities",
+    "United States equities",
+    "American equities",
+    "S&P 500",
+    "Standard & Poor's 500",
+    "Dow Jones Industrial Average",
+    "SPX",
+    "SPY"
+  ],
+  "as_of_date": "2008-10-16",
+  "mode": "hedge",
+  "era": "C",
+  "first_action_window": "Personal buying underway before October 16; exact first day unknown",
+  "fund_aum_usd_bn": 44.3,
+  "decider": "Buffett",
+  "notes": "The op-ed itself reveals the answer and is excluded from docs. Personal-account scope is explicit in key; no fabricated Berkshire broad-market purchase size. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated."
+}

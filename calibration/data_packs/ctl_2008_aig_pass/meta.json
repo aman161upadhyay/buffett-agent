@@ -1,0 +1,24 @@
+{
+  "id": "ctl_2008_aig_pass",
+  "company": "American International Group",
+  "ticker": "AIG",
+  "aliases": [
+    "American International Group, Inc.",
+    "American International Group",
+    "AIG",
+    "AIG Financial Products",
+    "AIGFP",
+    "American General",
+    "International Lease Finance Corporation",
+    "ILFC",
+    "United Guaranty",
+    "AIU"
+  ],
+  "as_of_date": "2008-09-15",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "2008-09-12 to 2008-09-15",
+  "fund_aum_usd_bn": 44.329,
+  "decider": "Buffett",
+  "notes": "Research pack is an affirmative analyst case, not an investor endorsement. Cutoff is end of the as_of_date, including same-date evening releases. fund_aum_usd_bn is the explicitly dated cash/T-bill benchmark in D08, except Cisco where it is 1998 common-stock market value. Not consolidated assets or fee-paying AUM. Exact stock close and executable private deal terms unavailable. Refusal preceded the requested desk date; private call is not inserted into docs. The roughly $25B unit-price recollection is key-only."
+}

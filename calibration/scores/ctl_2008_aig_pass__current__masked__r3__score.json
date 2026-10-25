@@ -1,0 +1,54 @@
+{
+ "trade_id": "ctl_2008_aig_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett considered but could not undertake roughly $25B for the property/casualty unit on the crisis weekend.",
+   "He distinguished desirable operating businesses from financial-products obligations management did not adequately understand.",
+   "The pressure and depth of the funding hole prevented a workable transaction despite interest in selected units."
+  ],
+  "extra_agent_drivers": [
+   "The company reported a $13.16 billion net loss for the first six months of 2008, rendering valuation based on earnings yield impossible",
+   "The business faces opaque, binary risks from a massive credit-default swap portfolio that creates unquantifiable collateral stress",
+   "Liquidity risks and potential regulatory restrictions on accessing policyholder assets create a threat of permanent capital loss",
+   "We have no edge in assessing whether the insurance franchise is durable or if the capital base will be depleted by derivative-related liabilities"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company reported a $13.16 billion net loss for the first six months of 2008",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business faces opaque, binary risks from a massive credit-default swap portfolio",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We prioritize the preservation of Berkshire’s reputation and capital above all else",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 6,
+  "share": 0.6
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "While the company owns insurance franchises, the opaque and binary risks embedded in its massive credit-default swap portfolio create a situation where we cannot form a reliable estimate of intrinsic value [D01].",
+ "grader_notes": "The agent correctly reached the PASS decision but focused entirely on a fundamental analysis of the firm's balance sheet and CDS risk. It completely missed the key drivers identified by Buffett, which were centered on his specific 2008 crisis-weekend negotiations, the refusal to engage in a rescue, and his assessment that even management did not understand the obligations.",
+ "run": "ctl_2008_aig_pass__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

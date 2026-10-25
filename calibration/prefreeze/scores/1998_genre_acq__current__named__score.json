@@ -1,0 +1,56 @@
+{
+ "trade_id": "1998_genre_acq",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "The acquisition added a major reinsurance franchise and substantial investable assets. → The acquisition offers a permanent, massive pool of insurance float that far exceeds our ability to replicate in the open market, providing the fundamental engine for Berkshire’s long-term compounding",
+   "Buffett's original assessment viewed the acquired businesses and managers as first-class. → General Re is a premier global reinsurer with an excellent record of underwriting discipline and operating ROEs consistently between 14.5% and 16.9%",
+   "Berkshire's capital and ownership structure could support the insurance operations while broadening investments per share. → By acquiring the entire business, we gain the ability to redirect the massive investable asset base into our own superior investment allocation strategy, creating value beyond the standalone reinsurance entity"
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Management has proven its ability to operate effectively within a capital-intensive industry while maintaining a balance sheet with very little long-term debt"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "General Re is a premier global reinsurer",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "operating ROEs consistently between 14.5% and 16.9%",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "4.43% earnings yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "price we are paying, at 2.53 times book value",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 2,
+  "share": 0.15
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "What the market misses is that we are not buying a simple stream of quarterly earnings; we are acquiring a permanent source of low-cost capital [D01, D08].",
+ "grader_notes": "The agent correctly identified the acquisition and the strategic rationale regarding float and investment allocation, matching all key drivers from the answer key. The agent's reasoning was closest to Buffett's focus on the value of insurance float and the quality of the franchise, though the agent added an extra driver concerning management's balance sheet discipline not explicitly cited in the key.",
+ "run": "1998_genre_acq__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

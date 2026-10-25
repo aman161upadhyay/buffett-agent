@@ -1,0 +1,40 @@
+{
+  "id": "1976_geico_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "About half of eventual ~$47 million aggregate cost invested in 1976; 1977 table: $19.417 million preferred plus $4.116 million common",
+  "first_action_date": null,
+  "disclosure_date": "1978-03-14",
+  "reason_class": null,
+  "opportunity_template": [
+    "B2",
+    "B3"
+  ],
+  "catalyst_role": "R2",
+  "decider": "Buffett",
+  "size_basis": "cash",
+  "drivers": [
+    {
+      "driver": "The fundamental direct-distribution business advantage remained intact beneath the financial and operating troubles.",
+      "source": "https://www.berkshirehathaway.com/letters/1980.html (1981-02-27; hindsight explanation)",
+      "quote": "The fundamental business advantage that GEICO had enjoyed — an advantage that previously had produced staggering success — was still intact within the company, although submerged in a sea of financial and operating troubles."
+    },
+    {
+      "driver": "The exceptional manager and exceptional franchise made this a rare turnaround worth attempting.",
+      "source": "https://www.berkshirehathaway.com/letters/1980.html (1981-02-27; hindsight explanation)",
+      "quote": "There aren't many Jack Byrnes in the managerial world, or GEICOs in the business world."
+    },
+    {
+      "driver": "Minority securities offered earning power far below the cost of acquiring equivalent controlled operations.",
+      "source": "https://www.berkshirehathaway.com/letters/1980.html (1981-02-27; hindsight explanation)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Distressed price; original cutoff preferred terms and exact trade prices unrecovered.",
+  "outcome_note": "Franchise recovered; Berkshire ultimately acquired the remaining shares. Do not infer that capital support or a return to profitability was certain in July.",
+  "sources": [
+    "https://www.berkshirehathaway.com/letters/1980.html (1981-02-27; hindsight explanation)",
+    "Reconstructed from GEICO operating history and 1975 accounts; Jack Byrne Insurance Hall of Fame biography, https://www.insurancehalloffame.org/jack-byrne-simple (pre-cutoff events only)"
+  ],
+  "pack_quality_notes": "Grade C: no original July statutory statement, rescue agreement, reserve model or preferred term sheet. Common plus convertible preferred classification verified by 1977 holdings. Exact July 1 first action unverified."
+}

@@ -1,0 +1,14 @@
+Title: Deposit distribution, lending and fee businesses
+Source: https://d1io3yog0oux5.cloudfront.net/_70c8fb58fd3bea7a80c281a02cf2c22d/bankofamerica/db/806/10171/earnings_release/The+Press+Release_1Q25_ADA.pdf
+Date: 2025-06-30
+
+Bank of America operates Consumer Banking, Global Wealth and Investment Management, Global Banking and Global Markets. Deposits provide funding for loans and securities; fees come from wealth, payments, investment banking and trading. The first-quarter release reports approximately $2 trillion ending deposits, a scale advantage that must be judged together with deposit pricing and credit exposure. A depositor relationship can be sticky without being a free permanent source of capital. [1]
+
+The original business-owner thesis concerns a broad customer franchise under Brian Moynihan, with a large low-cost distribution base and multiple fee engines. It is not simply a wager that all banks deserve a higher price/book ratio. Consumer Banking earned $2.5 billion in the quarter; Global Banking and Global Markets each approximately $1.9 billion, and Wealth about $1.0 billion. The mix reduces dependence on a single loan product while creating capital-markets and operational exposures. High integrity, adequate reserves and capital sufficiency are prerequisites to valuing the franchise. [1]
+
+Evidence ledger from the April 15 release: first-quarter net income was $7.4 billion, versus $6.7 billion a year earlier; diluted EPS was $0.90, versus $0.76. Revenue net of interest expense was $27.4 billion, or $27.5 billion fully tax equivalent. Net interest income was $14.4 billion, or $14.6 billion FTE, up 3%. Noninterest expense was $17.8 billion and credit provision $1.5 billion; net charge-offs of $1.5 billion were flat versus both comparison quarters. Ending deposits were approximately $2 trillion. Standardized CET1 was 11.8%, backed by $201 billion common equity tier 1 capital. Book value per common share was $36.39. Capital returned totaled $6.5 billion, comprising $2.0 billion common dividends and $4.5 billion repurchases. [1]
+
+Analytical distinction: a large customer base is not itself proof of a moat. The relevant test is whether customers keep paying enough to cover the full cost of serving them, including reinvestment and risk. Product descriptions and reported segment economics below are observations; a prediction that their advantages persist is an underwriting judgment. No terminal growth rate, private management forecast, or guaranteed future market share is supplied. Historical success must be tested against the specific competitive threats, not substituted for that test.
+
+Sources and publication dates:
+[1] https://d1io3yog0oux5.cloudfront.net/_70c8fb58fd3bea7a80c281a02cf2c22d/bankofamerica/db/806/10171/earnings_release/The+Press+Release_1Q25_ADA.pdf (published 2025-04-15)

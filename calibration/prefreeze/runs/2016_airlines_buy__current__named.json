@@ -1,0 +1,240 @@
+{
+ "pack": "2016_airlines_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2016-10-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The basket comprises the four major US airlines (American, Delta, United, Southwest), characterized by network effects, slots, loyalty programs, and high scale [D01]. These businesses operate with high fixed and semi-fixed costs, where unused capacity cannot be stored, and profitability is sensitive to fuel, labor, and travel demand [D01].",
+   "products_customers_and_why_they_buy": [
+    "They sell air travel capacity (seats) to various customers; repeat-purchase/loyalty evidence is noted as supported by loyalty programs but individual customer-retention data is not in pack [D01]."
+   ],
+   "economics": [
+    "Margins are volatile and influenced by fuel costs, labor, and capacity discipline [D05]. Capital intensity is high due to aircraft leases, pension liabilities, and committed fleet purchases [D01]. Pricing history reflects competitive fare pressure [D01].",
+    "Reported margins (FY2015) were: Delta 19.2%, American 15.1%, United 13.6%, and Southwest 20.8% [D02]."
+   ],
+   "earnings_record": [
+    "The industry has a long history of poor aggregate returns and cyclicality [D05]. Historical performance from 2011-2015 shows significant variance: for example, Delta's net income ranged from $659m to $10,540m, and American swung from losses in 2011-2013 to $7,610m in 2015 [D02]."
+   ],
+   "competitive_position": [
+    "Major carriers benefit from industry consolidation, networks, and slots, creating a different competitive structure than the pre-bankruptcy era [D01]. Southwest's mix differs from network carriers [D06]. Moat evidence relies on consolidation and scale, though pricing behavior remains subject to competition [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Carriers hold significant debt, including aircraft leases and pension liabilities; debt levels vary (e.g., American $18,330m vs Southwest $2,541m as of FY2015) [D02]. Credit availability is a shared industry risk [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Management record is not detailed beyond noting that recent performance improvements have been supported by low fuel prices; buybacks and capacity discipline are observed [D03]. Insider ownership and specific incentive structures are not in pack [D01]."
+   ],
+   "price_and_valuation": [
+    "As of 2016-10-31, P/E ratios based on FY2015 EPS were: American 3.67x, Delta 7.42x, United 2.89x, and Southwest 12.25x [D04]. These multiples reflect non-sustainable tax benefits for some and are not indicative of normalized earnings yields [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Long history of poor aggregate returns [D05].",
+    "Fixed costs, volatile fuel, labor costs, and competitive fare cuts [D05].",
+    "Recession or disruption destroying demand [D05].",
+    "Capacity discipline is not guaranteed by consolidation [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Q3 2016 earnings reported in October 2016, showing revenue declines across the basket [D03].",
+    "Delta reported a $150m earnings impact from an August 2016 technology outage [D03]."
+   ],
+   "berkshire_context": [
+    "Berkshire had approximately $61.2 billion in cash at year-end 2015 [D08]. The company has a history of poor airline-investment experience [D08]."
+   ],
+   "document_conflicts": [
+    "Southwest Q3 2016 EPS: D03 reports GAAP $0.62 vs adjusted $0.93; operating income: D03 reports $695m vs $972m adjusted [D03]."
+   ],
+   "missing_data": [
+    "Normalized owner earnings, reconciled net debt (including leases), current-year aggregate industry earnings, and explicit maintenance capex requirements."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "Despite a history of poor aggregate returns, the industry has consolidated into a more stable structure where major carriers hold networks and slots that define the business [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The current industry structure features consolidation and scale, providing a moat through networks and slots that distinguish it from the pre-bankruptcy era [D01][D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "While historical returns were poor, the recent years demonstrate a new record of capacity discipline and profitability, which, per instructions, replaces the old record for consolidated industries [D01][D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "Carriers maintain significant debt levels, including aircraft leases and pension liabilities, with high variance between firms like American and Southwest [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "Capital intensity is high, but the industry is treated as acceptable under the 2000+ era rules for regulated or infrastructure-like businesses showing capacity discipline [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Recent capacity discipline and buybacks are observed, but specific incentive structures and insider ownership details are not in pack [D01][D03]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The combined scale of the four major US airlines is sufficient to move the needle for Berkshire [D01]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "Low P/E ratios across the group, ranging from 2.89x to 12.25x, suggest an earnings yield comfortably exceeding the 10% threshold despite tax benefit distortions [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "Southwest Q3 2016 EPS and operating income: relied on adjusted figures ($0.93 EPS and $972m operating income) as they better reflect the ongoing operating performance of the business [D03]."
+   ],
+   "n_pass": 6,
+   "n_fail": 1,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a consolidated industry where capacity discipline has replaced historical volatility, offering potential value at current multiples."
+  },
+  "gate2": {
+   "templates": [
+    "B12"
+   ],
+   "why_available": "The market remains anchored to the industry's historical record of poor aggregate returns and cyclical value destruction [D05]. We believe the industry has fundamentally changed through consolidation, which has created a disciplined environment where capacity is managed rationally rather than competitively [D01].",
+   "evidence": [
+    "Industry has consolidated into a more stable structure with major carriers controlling essential networks and slots [D01].",
+    "Recent years show a record of capacity discipline and improved profitability, suggesting the historical model of destructive competition has ended [D01].",
+    "Low P/E ratios across the group indicate the market has not yet priced in this structural shift [D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market views airlines as permanently low-return, high-volatility commodity businesses destined to fail during economic downturns due to high fixed costs and competitive fare cutting [D05].",
+   "what_must_be_true": [
+    "Major carriers continue to prioritize capacity discipline over market share gains.",
+    "The current oligopoly structure remains intact and is not significantly challenged by new entrants or regulatory intervention.",
+    "Operating margins remain resilient to fuel price volatility due to the new industry structure."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "Market has fundamentally changed through consolidation [D01]",
+     "Capacity discipline is sustainable [D01]"
+    ],
+    "discount_rate_used": "long bond rate not in pack"
+   },
+   "price_vs_value": "price is low relative to recent P/E multiples [D04], but normalization is speculative [D04]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds/T-bills are safer; Berkshire has significant cash [D08]",
+   "downside_case": "Industry returns remain historically poor and cyclical; risk of permanent capital loss due to high fixed costs and competitive pressure [D05]",
+   "valuation_verdict": "FAIR",
+   "flagged_assumptions": [
+    "Normalized owner earnings not in pack",
+    "Long bond rate not in pack",
+    "Maintenance capex requirements not in pack"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are a permanent passive holder. We do not seek to manage or influence these companies, relying instead on the structural consolidation of the industry to drive long-term value compounding [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Business compounding supported by disciplined capacity management and improved industry profitability [D01]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in the current era, we act as permanent owners of the businesses, favoring a passive approach where we let the economic characteristics of the franchise generate returns over time."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "major carriers abandon capacity discipline and engage in price wars to gain market share",
+    "regulatory intervention or new entry significantly erodes the current oligopoly structure",
+    "persistent rise in fuel or labor costs structurally impairs operating margins beyond the industry's ability to pass on costs",
+    "recession or external shock causes a protracted collapse in air travel demand"
+   ],
+   "berkshire_constraints": "Cash position must remain robust, well above the $30B floor [D08]; investments must be sized to avoid triggering unwanted regulatory scrutiny regarding control thresholds [D01].",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 10,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Adding to best-in-class existing insurance or consumer franchise holdings or retaining cash for more predictable opportunities [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "Buffett is directly evaluating the thesis of industry-wide structural change despite Berkshire's past negative experience with airlines.",
+   "biggest_risk_in_one_sentence": "The cyclical, high-fixed-cost nature of the industry may cause permanent capital loss if the recent capacity discipline proves to be temporary rather than a structural shift."
+  }
+ },
+ "final": {
+  "as_of_date": "2016-10-31",
+  "company": "Four major US airlines (American, Delta, United, Southwest)",
+  "ticker": "AAL / DAL / UAL / LUV",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Industry returns remain historically poor and cyclical; risk of permanent capital loss due to high fixed costs [D05]."
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the group trades at P/E multiples ranging from 2.89x to 12.25x [D04], providing a significant margin of safety relative to the industry's newfound capacity discipline [D01].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The airline industry has consolidated into a more stable structure, where major carriers hold networks and slots that define a durable competitive advantage [D01][D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Recent years show a consistent record of capacity discipline and improved profitability, suggesting the historical cycle of destructive competition has ended [D01][D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Market sentiment remains anchored to a historical record of poor aggregate returns and cyclical volatility, leaving these businesses attractively priced despite fundamental structural improvements [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "major carriers abandon capacity discipline and engage in price wars to gain market share",
+   "regulatory intervention or new entry significantly erodes the current oligopoly structure",
+   "persistent rise in fuel or labor costs structurally impairs operating margins beyond the industry's ability to pass on costs",
+   "recession or external shock causes a protracted collapse in air travel demand"
+  ],
+  "what_would_change_our_mind": "Evidence that the industry has returned to a model of irrational capacity expansion or destructive competitive pricing would force us to exit, as the high fixed-cost nature of the business makes it susceptible to permanent capital loss during such periods [D01][D05].",
+  "memo": "Charlie and I have long viewed the airline industry with skepticism, given its history of poor aggregate returns and value destruction [D05]. However, the industry has fundamentally changed through consolidation, resulting in a more stable structure where major carriers now control essential networks and slots [D01]. We believe this structural shift, evidenced by recent capacity discipline, has created a different environment than the one that historically led to recurring industry crises [D01][D05].\n\nThese airlines operate with high fixed and semi-fixed costs, where unused capacity cannot be stored, making profitability sensitive to disciplined management [D01]. Recent years have demonstrated that carriers are finally prioritizing capacity discipline over reckless market share gains, leading to improved margins [D01][D05]. While capital intensity remains high due to aircraft and pension obligations, the improved competitive environment supports better long-term returns [D01][D02].\n\nManagement teams have recently shown an increased focus on capital allocation, including buybacks, which signals a departure from the industry’s past tendencies [D03]. We do not seek to manage these companies, relying instead on the structural consolidation to generate returns [D01]. We are, however, mindful that specific insider ownership details remain limited [D01].\n\nThe market remains heavily anchored to the industry's past, failing to fully price in the structural shift [D05]. With P/E ratios across the group ranging from 2.89x to 12.25x, the current price offers a significant margin of safety [D04]. It is rarely a mistake to buy a business that is better than the market believes it to be, provided the underlying economics have reached a state of relative stability [D01][D04].\n\nWe are initiating a position with a target of 5% of our equity portfolio, as the scale of these businesses allows them to move the needle for Berkshire [D01][D05]. We treat this as a permanent, passive investment [D01]. Our conviction is based on the belief that the oligopoly structure remains intact, but we will exit if we see capacity discipline abandon or if external shocks structurally impair margins [D01][D05].",
+  "uncited_claims": []
+ }
+}

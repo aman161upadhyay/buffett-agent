@@ -1,0 +1,15 @@
+Title: Salomon Inc. — Contemporaneous problem and adverse case
+Source: Proposed September financing terms reconstructed from transaction account; period report https://www.nytimes.com/1987/09/28/business/salomon-to-sell-12-to-buffett.html used only for preceding-day terms, not later market reaction; fund reference https://www.berkshirehathaway.com/letters/1986.html
+Date: 1987-09-27
+
+## Cutoff evidence — reconstructed
+
+A securities dealer can lose money quickly if trading positions move adversely or funding disappears. Gutfreund's perceived quality cannot substitute for understanding capital, controls and incentives. The financing also serves management's position in a possible control contest; a stable outside investor may surrender gains available in an alternative transaction. A 9% preferred dividend can be suspended or impaired if the firm lacks funds, and conversion can have little value in a weak common-stock outcome. This is the contemporaneously intelligible bear case, not an accusation about any undisclosed later conduct. No future scandal or regulatory episode enters the pack.
+
+## Economic reading of the supplied facts
+
+Industry economics: a securities dealer finances inventory and counterparty exposures as well as providing advice, underwriting and distribution. Earnings can be large while requiring substantial financing and exposing the enterprise to abrupt changes in liquidity. A reputation for reliability is part of the franchise because clients and lenders can move their business quickly. Published book equity is not the same as immediately realizable cash if markets become disorderly. A preferred investment can offer a defined dividend and priority over common equity, but it does not eliminate the dealer's obligations to its creditors. Conversion gives participation in better operating results while leaving the holder exposed to the issuing company's solvency. These security distinctions matter more than a generic common-stock earnings multiple.
+
+Adverse-case interpretation: a falling quotation is not itself evidence that a problem is temporary. The economically important loss is an impairment of future cash generation or a financing obligation that existing owners cannot meet. A patient investor can endure a lower stock price, but patience does not repair a destroyed franchise.
+
+The risks described here should be tested before assuming a return to ordinary margins. A capable manager may improve execution without being able to change the industry's economics. A security senior to common stock can still be junior to creditors and can still suffer interruption of its payments. Likewise, apparent balance-sheet strength may depend on estimates whose errors emerge only slowly. No probability is assigned to a disaster without evidence. These concerns are an analyst's reconstruction of the adverse argument from the identified business conditions, not an invented quotation from a named contemporary critic. Original bearish research, where unavailable, is explicitly not represented as recovered.

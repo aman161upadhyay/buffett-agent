@@ -1,0 +1,62 @@
+{
+ "trade_id": "ctl_2023_frc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett distinguished safe deposits from risky bank equity and criticized asset/liability mismatch and accounting incentives",
+   "No First Republic in parent filings around Q4 2022/Q1 2023 or the 2010–Q2 2026 census",
+   "Economic and valuation objections are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "The bank faces a severe confidence crisis and deposit flight that undermines its fundamental viability",
+   "The institution's reliance on large uninsured deposits and expensive wholesale funding lacks the durability we require",
+   "We cannot ascertain the intrinsic value or a margin of safety due to the risk of asset impairments and deposit instability",
+   "The business fails our requirement for a predictable record of earnings and stable funding"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The bank faces a severe confidence crisis and deposit flight that undermines its fundamental viability",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The institution's reliance on large uninsured deposits and expensive wholesale funding lacks the durability we require",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We cannot ascertain the intrinsic value or a margin of safety due to the risk of asset impairments and deposit instability",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business fails our requirement for a predictable record of earnings and stable funding",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We currently hold a substantial amount of cash and Treasury bills, which offer us far greater certainty and liquidity than this investment",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "In the world of investing, we do not need to swing at every pitch, and where the fundamental economics of a business are in question, the only sensible course is to stay on the sidelines [D05, D08].",
+ "grader_notes": "The agent correctly matches the pass decision but relies entirely on analyst-reconstructed fundamental analysis rather than Buffett's actual stated reasons, which were focused on the absence of holdings and retrospective comments about bank fragility. The agent failed to cite the verified non-holding status, which is the primary driver for this decision in the answer key.",
+ "run": "ctl_2023_frc_pass__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

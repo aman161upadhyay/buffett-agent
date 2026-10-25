@@ -1,0 +1,56 @@
+{
+ "pack": "2020_airlines_sell",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2020-04-02",
+ "stages": {},
+ "final": {
+  "as_of_date": "2020-04-02",
+  "company": "The four major US airlines",
+  "ticker": "AAL, DAL, UAL, LUV",
+  "decision": "SELL",
+  "reason_class": "S1",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Consolidation and disciplined capacity: broken; pandemic demand collapse has rendered the future of travel demand unknowable [D01, D06, D07]",
+   "Durable competitive advantage: broken; fixed costs and perishable capacity make cash losses nonlinear and threaten the common shareholder's claim [D05]"
+  ],
+  "price_vs_value_now": "Market prices have declined, but intrinsic value is currently unknowable due to the fundamental shift in industry economics [D01, D07]",
+  "after_tax_hurdle": "The uncertainty regarding the permanent impairment of earning power outweighs potential tax considerations; selling now avoids further capital risk [D05, D07]",
+  "drivers": [
+   {
+    "driver": "The airline industry's fundamental economics have deteriorated such that the future of travel demand and the carriers' profitability is now unknowable [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Fixed costs and perishable capacity create nonlinear cash losses during demand interruptions, threatening the long-term viability of the equity position [D05, D07].",
+    "citations": [
+     "D05",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Public assistance under the CARES Act, while potentially aiding survival, does not guarantee the retention of value for common shareholders and may impose restrictive conditions [D03, D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The original thesis of industry consolidation has been eclipsed by the current existential threat, necessitating a prompt exit rather than waiting for a recovery [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   }
+  ],
+  "memo": "The world has changed for the airline industry, and with it, the investment thesis that led us to these positions [D01, D07]. We originally invested based on a view that the industry had achieved a durable level of consolidation and rational capacity management [D01, D07]. The current pandemic has shattered passenger confidence and brought travel demand to a virtual standstill, a shock that has fundamentally altered the economics of the business [D06].\n\nWhen we see a business lose its advantage or find that its future has become unknowable, we do not anchor on our cost or hope for a recovery that is no longer assured [D07]. The airlines face high fixed and semi-fixed costs combined with perishable capacity, which makes cash losses nonlinear as traffic drops [D05, D07]. While the CARES Act may provide government assistance, such aid does not protect the common shareholder from the risk of permanent impairment or dilution [D03, D05].\n\nWe have no interest in holding businesses where the economic future is as cloudy as it is for the airlines today [D01, D05]. It is far better to exit promptly when the facts change than to wait for a rebound that may not come on terms favorable to owners [D07]. We would rather redeploy our capital into businesses where the path to earnings is clearer and the competitive advantage remains intact [D06].",
+  "uncited_claims": []
+ }
+}

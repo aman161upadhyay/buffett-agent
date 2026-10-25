@@ -1,0 +1,55 @@
+{
+ "trade_id": "1986_capcities_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Murphy and Burke supplied exceptional managerial ability and character. → The company has demonstrated an exceptional record of standalone performance, with EPS growing from $5.38 in 1980 to $10.40 in 1984, alongside returns on equity consistently near or above 20% [D02]. Such economics reflect high margins and a low-cost, owner-oriented approach by management, specifically Murphy and Burke, whom we hold in high regard [D01, D03]."
+  ],
+  "missed": [
+   "Excellent properties and people could justify a full price at meaningful scale.",
+   "Berkshire could remain patient through initially unexciting ABC economics.",
+   "Voluntary voting and disposition restrictions gave the managers stable ownership rather than a threatening block."
+  ],
+  "extra_agent_drivers": [
+   "Initial pre-tax earnings yield is lower than Treasury bonds",
+   "Earnings yield fails margin of safety requirement",
+   "Uncertainties regarding national network integration"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "EPS growing from $5.38 in 1980 to $10.40 in 1984",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "long-term Treasury bonds offering a 9.05% yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "trailing earnings yield of only 6.03%",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 5,
+  "share": 0.56
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We prefer to remain in cash or seek alternatives that offer more attractive yields until we have greater visibility into the combined post-deal economic reality [D04, D08].",
+ "grader_notes": "The agent correctly identified the high caliber of Murphy and Burke as managers but failed to recognize the opportunity as a 'full price' acquisition justified by their exceptional quality, which was the central pillar of Buffett's decision. Instead, the agent applied a short-term, yield-based valuation filter that led to a PASS decision, directly contradicting Buffett's willingness to look past initially unexciting economics for the right leadership team.",
+ "run": "1986_capcities_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,57 @@
+{
+ "trade_id": "1976_geico_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "The fundamental direct-distribution business advantage remained intact beneath the financial and operating troubles. → The business possesses a durable, low-cost distribution model that customers continue to value, providing a moat that will yield strong returns once the current reserve crisis is resolved [D01, D06, D07].",
+   "The exceptional manager and exceptional franchise made this a rare turnaround worth attempting. → New leadership under Jack Byrne provides the necessary competence and discipline to address the reserve deficiencies and restore underwriting profitability [D07]."
+  ],
+  "missed": [
+   "Minority securities offered earning power far below the cost of acquiring equivalent controlled operations."
+  ],
+  "extra_agent_drivers": [
+   "The market's current panic over insolvency and potential regulation has created an opportunity to acquire a fundamentally sound franchise at a distressed price [D01, D05]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company sells at a price of $3.50 [D04]",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "historically maintained a distinct and durable expense advantage of 12.4 to 13.2 points [D06]",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "net losses of $126.5 million in 1975 and a Q1 1976 loss of $26.4 million [D02, D03]",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The appointment of Jack Byrne as CEO in May 1976 is the key catalyst [D07]",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 7,
+  "share": 0.54
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We view this as an Era A turnaround situation where we have the opportunity to acquire a wonderful business at a distressed price.",
+ "grader_notes": "The agent correctly identified the core business advantage and the importance of Jack Byrne as key drivers of the investment. It failed to articulate the third driver concerning the specific valuation benefit of minority securities relative to controlled operations. Overall, the reasoning logic aligned well with the Buffett investment thesis.",
+ "run": "1976_geico_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

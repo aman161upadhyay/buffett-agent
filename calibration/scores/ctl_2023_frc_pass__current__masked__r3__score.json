@@ -1,0 +1,49 @@
+{
+ "trade_id": "ctl_2023_frc_pass",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett distinguished safe deposits from risky bank equity and criticized asset/liability mismatch and accounting incentives",
+   "No First Republic in parent filings around Q4 2022/Q1 2023 or the 2010–Q2 2026 census",
+   "Economic and valuation objections are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements"
+  ],
+  "extra_agent_drivers": [
+   "Price vs value",
+   "Affluent client base quality",
+   "Liquidity bridge effectiveness",
+   "Margin of safety"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The bank maintains an affluent client base with historically low credit losses of five basis points.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The $30 billion industry-wide liquidity bridge provides the necessary window for the bank's deposit base to stabilize.",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 11,
+  "share": 0.85
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We are making a small investment in a banking franchise that has historically demonstrated exceptional service and loyalty among its affluent client base [D01].",
+ "grader_notes": "The agent completely missed the actual outcome (a pass) and instead constructed a bull case for a purchase. The agent relied on optimistic market valuation metrics which contradict the conservative, risk-averse stance Buffett maintained regarding bank stocks during this period of instability.",
+ "run": "ctl_2023_frc_pass__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,46 @@
+{
+ "trade_id": "2019_oxy_pref",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "The investment was a financing transaction with unusually attractive terms, not an acquisition bid for the oil company. → While we generally avoid commodity-based businesses due to their lack of a durable consumer franchise, our investment here is structured as a financing deal rather than a purchase of the underlying business",
+   "The preferred provided an $800 million annual cash-income claim. → We are committing $10 billion in preferred equity that carries an 8% cash coupon",
+   "Warrants added long-duration upside to the financing package. → These warrants provide us with equity participation, offering a potential kicker should the company successfully navigate the integration and market volatility"
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Berkshire's substantial cash position of approximately $112 billion allows us to act as a partner of choice when others are constrained by leverage concerns"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "We are committing $10 billion in preferred equity that carries an 8% cash coupon",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The inclusion of warrants for 80 million shares at a $62.50 strike price",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 4,
+  "share": 0.31
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "While we generally avoid commodity-based businesses due to their lack of a durable consumer franchise, our investment here is structured as a financing deal rather than a purchase of the underlying business",
+ "grader_notes": "The agent correctly identified the nature of the transaction as a financing deal rather than an equity purchase and captured the key economic drivers. The conviction level was labeled 'medium' versus the key's 'high', and the sizing approach (10% of equity portfolio vs the key's $10B cash/treasury basis) led to a PARTIAL grade for sizing.",
+ "run": "2019_oxy_pref__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

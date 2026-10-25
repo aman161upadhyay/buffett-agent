@@ -1,0 +1,44 @@
+{
+ "trade_id": "2008_cop_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett alone favored the long-run oil and gas economics.",
+   "He still expected higher future oil prices in the post-mortem.",
+   "He acknowledged failure to anticipate the dramatic commodity-price decline."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value — the shares trade at $73.25 against an appraised intrinsic value range of $50-$70, providing no margin of safety",
+   "The business is a capital-intensive commodity producer lacking a durable competitive advantage or meaningful pricing power",
+   "Earnings are highly volatile and tethered to commodity cycles rather than consistent, predictable owner earnings",
+   "The high capital requirements to sustain production and replace reserves impede the ability to generate consistently high returns on capital"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The market currently prices the shares at $73.25, which sits above our estimated intrinsic value range of $50 to $70.",
+    "citation": "D03",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 3,
+  "share": 0.3
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We prefer to maintain our liquidity for opportunities that offer a clear margin of safety and the prospect of more predictable compounding [D08].",
+ "grader_notes": "The agent correctly identified the decider as Buffett but reached the opposite decision (PASS vs. BUY). The reasoning was entirely discordant; the agent focused on margin of safety and commodity cycle risks, whereas Buffett's retrospective drivers centered on his personal expectation of oil prices and his later admission of a mistake.",
+ "run": "2008_cop_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

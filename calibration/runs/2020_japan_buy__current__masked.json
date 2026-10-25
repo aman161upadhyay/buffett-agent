@@ -1,0 +1,246 @@
+{
+ "pack": "2020_japan_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2020-08-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a diversified Japanese general trading house, known as a sogo shosha, that combines commodity interests, distribution, infrastructure, industrial holdings, and consumer businesses [D01]. It operates as a consolidated investment and operating group rather than a single-commodity trader [D01].",
+   "products_customers_and_why_they_buy": [
+    "Diversified portfolio of commodity, industrial, and consumer goods sold to global commercial and industrial customers [D01]. Loyalty and repeat-purchase evidence is not in pack [D10]."
+   ],
+   "economics": [
+    "FY2020 gross trading profit ratio was 16.4% [D02]. Reported ROE was 17.0% in 2020 [D02]. Maintenance capex and owner earnings are not in pack; D&A was ¥422.6bn [D02]."
+   ],
+   "earnings_record": [
+    "Attributable net profit: ¥240.4bn (2016), ¥352.2bn (2017), ¥400.3bn (2018), ¥500.5bn (2019), ¥501.3bn (2020) [D02]. Record shows susceptibility to commodity cycles [D05]."
+   ],
+   "competitive_position": [
+    "One of five major Japanese general trading houses [D01]. Moat evidence is not in pack; diversification does not inherently establish a superior return on capital [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "March 2020 gross debt ¥2,877.0bn, net debt ¥2,256.9bn [D02]. Net debt must be evaluated alongside liquidity of holdings rather than offset indiscriminately [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Dividend per share grew from ¥50 (2016) to ¥85 (2020) [D02]. Management record and candour not in pack; avoid inferring quality solely from reputation [D01]."
+   ],
+   "price_and_valuation": [
+    "July 2020 price: ≈¥2,300; FY2020 P/E: 6.85x; P/B: 1.14x [D04]. Valuation reflects conglomerate structure and governance risks [D01, D05]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 14.6,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 3.7,
+    "long_bond_yield": 0.01,
+    "basis": "Earnings yield calculated as 1/PE (6.85x) [D04]. Dividend yield is trailing 2020 [D04]. Long bond yield is July 2020 Japanese 10-year benchmark [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Opaque holdings and conglomerate complexity [D05], commodity cycle sensitivity [D05], leverage and influence of minority shareholders [D05], and potential for dividend reductions [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "FY2020 earnings released May 2020 [D02]. Q1 (April-June) 2020 results reported August 2020 showing profit decline of 28.9% [D03]."
+   ],
+   "berkshire_context": [
+    "Berkshire held ~$128bn in cash/bills at year-end 2019 and has issued yen-denominated obligations [D08]. Stake size or intent not in pack [D08]."
+   ],
+   "document_conflicts": [
+    "Revenue figures are non-comparable due to consolidation/presentation changes [D02]."
+   ],
+   "missing_data": [
+    "Maintenance capex, harmonized look-through debt, EBITDA/ROIC bridges, and specific owner earnings calculations are missing [D02, D06]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The company operates as a complex, diversified conglomerate of disparate commodity and industrial interests where long-term visibility is obscured by conglomerate complexity [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "Evidence of a durable competitive advantage or pricing power is not in the pack [D01, D10]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The earnings record shows clear susceptibility to commodity cycles, complicating the assessment of a stable, long-term franchise [D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "While the 2020 ROE was 17%, net debt remains significant and its impact cannot be fully evaluated without detailed look-through metrics [D01, D02]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "As a general trading house involved in commodities and infrastructure, the business is highly capital-intensive and lacks evidence of regulated-level returns [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management candor and their record of capital allocation are not in the pack [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "As a major Japanese trading house, the scale is sufficient to move the needle for Berkshire [D01]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The earnings yield of 14.6% significantly exceeds the required 1.5x multiple of the 0.01% long bond yield [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "Revenue figures → relied on profit metrics [D02] because revenue is non-comparable due to consolidation changes [D02]."
+   ],
+   "n_pass": 2,
+   "n_fail": 3,
+   "n_unsure": 3,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": true,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a complex commodity-linked conglomerate with significant valuation discounts, justified by the price-to-earnings gap rather than inherent franchise quality"
+  },
+  "gate2": {
+   "templates": [
+    "B13"
+   ],
+   "why_available": "The market views the company as a complex, opaque commodity-linked conglomerate with governance risks and cyclical sensitivity [D01, D05]. We disagree, seeing a collection of undervalued assets priced at a significant discount to book value and intrinsic earning power, offering an attractive yield compared to near-zero long-term interest rates [D04]. Value will be realized through capital discipline, dividends, and the eventual narrowing of the price-to-book and earnings gap [D02, D04].",
+   "evidence": [
+    "FY2020 P/E of 6.85x and P/B of 1.14x [D04].",
+    "Earnings yield of 14.6% significantly exceeds the 0.01% long bond yield [D04].",
+    "Dividend per share has grown from ¥50 to ¥85 over the last five years [D02].",
+    "Berkshire possesses yen-denominated debt to fund Japanese investments, reducing currency risk [D08]."
+   ],
+   "market_narrative_we_disagree_with": "The market believes the conglomerate complexity and commodity exposure necessitate a deep and permanent valuation discount [D05].",
+   "what_must_be_true": [
+    "The underlying portfolio of businesses continues to generate positive cash flow despite commodity cycle fluctuations.",
+    "Management remains committed to shareholder returns through dividends and capital allocation.",
+    "The structural discount reflects a market mispricing rather than a permanent impairment of the assets.",
+    "The yen-denominated financing cost remains significantly lower than the earnings yield of the acquired stake."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "b13_cheap_giant",
+   "owner_earnings_per_share": "not in pack; net profit per share ¥336 [D02] used as proxy",
+   "initial_pretax_yield_pct": 14.6,
+   "intrinsic_value_range": {
+    "low": "¥2,300",
+    "high": "¥3,500",
+    "key_assumptions": [
+     "Normalised earnings power persists at recent 5-year average [D02]",
+     "Book value of 1.14x represents a discount to net assets [D04]",
+     "Yen-denominated debt provides favorable financing spread [D08]"
+    ],
+    "discount_rate_used": "0.01% [D04]"
+   },
+   "price_vs_value": "price ≈100% of low-end value; margin of safety provided by high earnings yield relative to bonds",
+   "expected_return_pct": {
+    "base": 10,
+    "bear": 5,
+    "bull": 15
+   },
+   "alternatives": "Better than holding cash or T-bills at near 0% yield [D04]; yield significantly exceeds Japanese government bond [D04]",
+   "downside_case": "Commodity cycle downturn impairs earnings power; risk is moderated by diversified trading house model and dividend history [D02, D05]",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Normalised earnings derived from 5-year net profit average [D02]",
+    "Maintenance capex assumed to be a fraction of D&A [D02]",
+    "Intrinsinc value assumes market discount closes over time"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Capital discipline and dividends [D02]",
+    "Eventual narrowing of the price-to-book and earnings gap [D04]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in the 2000-2015/2020+ era, we act as a permanent owner of assets purchased at a discount, relying on management's capital allocation and the business's earnings yield rather than control-based restructuring [D04, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent impairment of core commodity-linked business units due to structural shifts in global demand",
+    "Management shifts capital allocation away from shareholder returns (dividends/buybacks) toward value-destructive acquisitions",
+    "Persistent decline in return on capital below the cost of debt financing"
+   ],
+   "berkshire_constraints": "Must remain below regulatory 10% ownership threshold for Japanese trading houses without additional permits [D01]; must maintain cash floor above $30B [D08].",
+   "size_pct_nav": {
+    "initial": 1,
+    "target": 5,
+    "max": 9.9,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Higher than holding cash or T-bills at near 0% yield; secondary to repurchasing Berkshire stock at or below intrinsic value.",
+   "leverage": "None at the investment level; financed via yen-denominated debt to hedge currency exposure [D08].",
+   "decider": "Buffett",
+   "decider_reason": "This is a large-scale allocation into established, durable Japanese conglomerates at a significant discount to intrinsic value, fitting the Buffett-era strategy of deploying excess cash into high-yield assets when domestic opportunities are expensive.",
+   "biggest_risk_in_one_sentence": "The complexity and cyclical nature of the underlying commodity businesses may obscure a permanent decline in earnings power."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-08-30",
+  "company": "The Company (XXX)",
+  "ticker": "N/A",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B13"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "¥336 per share (proxy) [D02]",
+   "initial_pretax_yield_pct": 14.6,
+   "intrinsic_value_range": "¥2,300 - ¥3,500 [D04]",
+   "expected_return_pct": 10,
+   "downside_case": "commodity cycle downturn impairs earnings power; moderated by dividends [D02, D05]"
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at a P/E of 6.85x, yielding 14.6% pre-tax, which is exceptionally attractive relative to the 0.01% long-term Japanese government bond yield [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "We are purchasing a collection of established, diversified industrial and commodity assets at a significant discount to their intrinsic value [D01, D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The use of yen-denominated debt allows us to finance the acquisition at very low interest rates, creating a favorable spread against the earnings yield [D04, D08].",
+    "citations": [
+     "D04",
+     "D08"
+    ]
+   },
+   {
+    "driver": "Management has demonstrated a commitment to shareholders through consistent dividend growth, raising the dividend from ¥50 to ¥85 over the past five years [D02].",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent impairment of core commodity-linked business units due to structural shifts in global demand [D05]",
+   "Management shifts capital allocation away from shareholder returns toward value-destructive acquisitions [D05]",
+   "Persistent decline in return on capital below the cost of debt financing [D02]"
+  ],
+  "what_would_change_our_mind": "A fundamental shift where commodity cycle sensitivity leads to a permanent erosion of earnings power that is no longer offset by the company's diversified cash flow or capital allocation discipline.",
+  "memo": "We are initiating a position in this Japanese trading house because it represents a rare opportunity to acquire a group of established, productive assets at a bargain price [D01, D04]. While the market views these businesses as complex and overly sensitive to commodity cycles, we see a collection of durable operations that have generated significant profits and growing dividends even in a challenging environment [D02, D05].\n\nThe economics of these businesses are substantial, evidenced by a 2020 return on equity of 17% and a history of attributable net profit growth [D02]. Though the commodity-linked nature of the business requires us to be mindful of cyclicality, the current valuation provides a significant margin of safety that protects our capital [D02, D04].\n\nManagement has shown a disciplined approach to capital allocation, increasing dividends per share from ¥50 to ¥85 over the last five years [D02]. By utilizing low-cost yen-denominated debt to fund this investment, we effectively hedge our currency exposure while capturing an earnings yield of 14.6%, far exceeding the near-zero return available on government bonds [D04, D08].\n\nThis is an investment in a major, well-entrenched participant in the Japanese economy [D01]. We intend to hold these shares for the long term, acting as permanent owners who benefit from the business's natural compounding and management's continued focus on shareholder returns [D04, D08]. We are comfortable limiting our exposure to under 10% to ensure we remain within regulatory bounds while still deploying a meaningful amount of Berkshire's excess cash [D01, D08].",
+  "uncited_claims": []
+ }
+}

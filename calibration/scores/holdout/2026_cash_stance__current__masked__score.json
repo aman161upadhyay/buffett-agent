@@ -1,0 +1,54 @@
+{
+ "trade_id": "2026_cash_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "The pre-meeting capital framework preferred productive businesses but preserved patience for the right opportunities → We continue to evaluate opportunities, but we prioritize the preservation of Berkshire's financial strength and reputation over the institutional imperative to be fully invested"
+  ],
+  "missed": [
+   "Abel rejected pressure to spend all available capital merely because it exists.",
+   "He emphasized independence rather than dependence on outside funding."
+  ],
+  "extra_agent_drivers": [
+   "The earnings yield of equities is inferior to the risk-free long-term government bond yield.",
+   "Extremely high market valuations and lack of bargain opportunities necessitate a disciplined, patient approach.",
+   "Large cash and Treasury-bill holdings provide necessary optionality without the need for immediate deployment into unattractive markets."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The market's earnings yield of 3.92% is 0.47 percentage points below the 4.39% yield on the ten-year Treasury",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The S&P 500 trailing P/E of 25.49x reflects historically high levels",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Our current liquidity position of over $370 billion is not a sign of retreat",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 2,
+  "share": 0.25
+ },
+ "state": "PARTIAL",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "While we prefer owning wonderful businesses, we will not compromise on terms simply to keep our cash moving.",
+ "grader_notes": "The agent correctly identified the 'SELECTIVE' stance but focused on macro-valuation indicators rather than the specific, personnel-centric drivers (Abel's mandate and independence) cited in the answer key. The reasoning overlap is limited because the agent relied on external market metrics while the actual decision was driven by internal corporate philosophy.",
+ "run": "2026_cash_stance__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "HOLD_CASH",
+ "agent_decision": "SELECTIVE",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

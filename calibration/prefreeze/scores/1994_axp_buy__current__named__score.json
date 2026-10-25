@@ -1,0 +1,64 @@
+{
+ "trade_id": "1994_axp_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Berkshire enlarged a familiar franchise investment rather than repeating the original salad-oil trade.",
+   "Long experience with the company and products helped evaluate business quality.",
+   "Common ownership offered continuing business participation distinct from the preferred's contractual economics."
+  ],
+  "extra_agent_drivers": [
+   "Intrinsic value / margin of safety",
+   "Durable payments franchise",
+   "Management refocusing",
+   "High-margin recurring revenue"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at a price of $26.50 against an intrinsic value range of $28 to $35.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "American Express operates a powerful, durable payments franchise.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management under Harvey Golub has successfully refocused the company on its core payments business.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business model generates high-margin recurring revenue.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "1993 net income of $1,478 million.",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 8,
+  "share": 0.62
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "American Express is a franchise that Charlie and I have long admired, centering on a global payments network that links cardholders and merchants through a trusted promise to pay [D01].",
+ "grader_notes": "The agent correctly identified the investment as a 'BUY' and demonstrated a good understanding of the business model. However, it failed to cite the specific historical reasoning drivers provided in the answer key, focusing instead on a traditional fundamental valuation approach rather than the 'familiarity/enlarging franchise' narrative Buffett employed.",
+ "run": "1994_axp_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

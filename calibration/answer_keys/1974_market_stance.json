@@ -1,0 +1,44 @@
+{
+  "id": "1974_market_stance",
+  "actual_decision": "BUY_BROADLY",
+  "conviction": "high",
+  "size_pct_nav": "Market stance, no documented broad-market weight or reopening of the Partnership",
+  "first_action_date": null,
+  "disclosure_date": "1974-11-01",
+  "reason_class": null,
+  "opportunity_template": [
+    "B8"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "There were still many bargains even after the sharp rebound.",
+      "source": "https://rogermontgomery.com/wp-content/uploads/2013/11/AnInterviewwithWarrenBuffettin1974.pdf (1974-11-01; contemporary)",
+      "quote": "I don't know what the averages are going to do next"
+    },
+    {
+      "driver": "Purchase understandable businesses at low prices against net worth or going-concern value, with good management and resilience.",
+      "source": "https://rogermontgomery.com/wp-content/uploads/2013/11/AnInterviewwithWarrenBuffettin1974.pdf (1974-11-01; contemporary)",
+      "quote": null
+    },
+    {
+      "driver": "Patience and independent appraisal matter more than institutional pressure to act.",
+      "source": "https://rogermontgomery.com/wp-content/uploads/2013/11/AnInterviewwithWarrenBuffettin1974.pdf (1974-11-01; contemporary)",
+      "quote": null
+    },
+    {
+      "driver": "Ordinary recession and profit fears did not invalidate the available values at these prices.",
+      "source": "https://rogermontgomery.com/wp-content/uploads/2013/11/AnInterviewwithWarrenBuffettin1974.pdf (1974-11-01; contemporary)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Interview Dow ~580 then ~660, not verified November 1 close; prices low relative to business value.",
+  "outcome_note": "Valuation-driven bullish stance, not a prediction of the next move in the averages.",
+  "sources": [
+    "https://rogermontgomery.com/wp-content/uploads/2013/11/AnInterviewwithWarrenBuffettin1974.pdf (1974-11-01; contemporary)",
+    "Forbes interview, November 1, 1974, market and business observations only, recommendations removed; https://rogermontgomery.com/wp-content/uploads/2013/11/AnInterviewwithWarrenBuffettin1974.pdf; Berkshire financial statements, unaffiliated common-stock reference https://ia803100.us.archive.org/10/items/berkshirehathawayannualreports/berkshirehathaway1973_text.pdf"
+  ],
+  "pack_quality_notes": "Exact publication-day quote, cash and aggregate valuation table missing. Mirror has editorial substitution discussion; key avoids the disputed harem/whorehouse wording."
+}

@@ -1,0 +1,51 @@
+{
+ "trade_id": "2013_heinz_acq",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Heinz was an enduring branded-food business suited to long ownership. → The Company occupies a leading position in households globally, selling products that consumers buy habitually and predictably [D01].",
+   "The 3G partnership paired operating expertise with Berkshire capital. → We are not buying a turnaround; we are acting as a partner to operators who excel at removing cost from mature businesses [D09].",
+   "The preferred supplied a 9% contractual yield alongside common ownership. → The 9% cumulative dividend provides a return that is vastly superior to that offered by the long bond, and our senior position relative to the common shareholders provides a substantial margin of safety [D09]."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The agent explicitly detailed the capital structure as a $12bn total commitment ($8bn preferred / $4bn common) vs. the key's $12.12bn/$12.25bn figures."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company occupies a leading position in households globally.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The 9% cumulative dividend provides a return that is vastly superior to that offered by the long bond.",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business will be highly leveraged at roughly 5x EBITDA.",
+    "citation": "D09",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 8,
+  "share": 0.67
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "The 9% cumulative dividend provides a return that is vastly superior to that offered by the long bond, and our senior position relative to the common shareholders provides a substantial margin of safety [D09].",
+ "grader_notes": "The agent correctly identified all three primary drivers cited in the 2013 Berkshire shareholder letter. The reasoning regarding the partnership, the brand stability, and the contractual yield of the preferred stock matches the historical record. The agent also correctly identified the decider as Buffett.",
+ "run": "2013_heinz_acq__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

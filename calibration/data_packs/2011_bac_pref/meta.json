@@ -1,0 +1,26 @@
+{
+ "id": "2011_bac_pref",
+ "company": "Bank of America Corporation",
+ "ticker": "BAC",
+ "aliases": [
+  "Bank of America Corporation",
+  "BAC",
+  "Bank of America",
+  "BofA",
+  "Merrill Lynch",
+  "Merrill",
+  "Countrywide",
+  "Countrywide Financial",
+  "US Trust",
+  "U.S. Trust",
+  "Brian Moynihan",
+  "Moynihan"
+ ],
+ "as_of_date": "2011-08-24",
+ "mode": "new",
+ "era": "C",
+ "first_action_window": "August 2011 negotiation; announced August 25, closed September 2",
+ "fund_aum_usd_bn": 38.2,
+ "decider": "Buffett",
+ "notes": "Terms announced one day after cutoff remain key-only. 6% coupon is below the usual B3 8–10% screen but authentic; no rule-forcing alteration. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated."
+}

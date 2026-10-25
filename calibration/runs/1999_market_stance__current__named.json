@@ -1,0 +1,57 @@
+{
+ "pack": "1999_market_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "hedge",
+ "as_of_date": "1999-11-22",
+ "stages": {},
+ "final": {
+  "as_of_date": "1999-11-22",
+  "trailing_earnings_yield_pct": 3.49,
+  "normalised_earnings_yield_pct": 3.49,
+  "normalisation_basis": "trailing (no distortion)",
+  "long_bond_yield_pct": 6.09,
+  "spread_points": "-2.60",
+  "drawdown_from_high_pct": 0,
+  "panic_indicators": [
+   "VIX 19.98, November 22 [D04]"
+  ],
+  "rule_decision": "≤ −1 point with few ideas passing Filters 1-3 → HOLD_CASH",
+  "decision": "HOLD_CASH",
+  "override_reason": null,
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "The earnings yield of 3.49% is significantly below the 10-year Treasury yield of 6.09% [D04].",
+  "valuation_level": "Prices are high relative to business earnings, with the market trading at roughly 28.66x trailing earnings [D04].",
+  "ideas_that_qualify": [
+   "not in pack"
+  ],
+  "berkshire_action": "Maintain liquidity, focus on existing high-quality franchises, and avoid new commitments at current valuations.",
+  "drivers": [
+   {
+    "driver": "The earnings yield on stocks is substantially lower than the risk-free return offered by long-term government bonds.",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Equity valuations remain at historically high levels relative to trailing earnings, limiting the margin of safety.",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Large-scale ownership of American business is currently priced for high growth, which historically is not guaranteed to persist.",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "Charlie and I continue to see a market where the prices of wonderful businesses have far outpaced their underlying earnings growth. When we compare the 3.49% earnings yield of the S&P 500 to the 6.09% yield on the 10-year Treasury, the math clearly discourages broad equity purchases at these levels [D04]. Sustaining these price-to-earnings multiples would require a level of future growth that remains speculative rather than probable [D03, D05].\n\nWe remain disciplined in our approach: we do not need to be active in the market simply because cash is available. We prefer to wait for opportunities where a wonderful business can be purchased at a price that provides a clear margin of safety [D04, D08]. At present, we find ourselves in a period where the \"too hard\" pile is growing, and we are content to let our cash position build while we maintain our stake in the durable franchises we already own [D08].",
+  "uncited_claims": [
+   "The earnings yield of 3.49% is significantly below the 10-year Treasury yield of 6.09%.",
+   "Prices are high relative to business earnings, with the market trading at roughly 28.66x trailing earnings."
+  ]
+ }
+}

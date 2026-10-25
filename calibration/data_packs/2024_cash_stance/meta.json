@@ -1,0 +1,29 @@
+{
+  "id": "2024_cash_stance",
+  "company": "Berkshire Hathaway \u2014 cash and Treasury-bill stance",
+  "ticker": "BRK.A / BRK.B",
+  "aliases": [
+    "Berkshire Hathaway \u2014 cash and Treasury-bill stance",
+    "BRK.A / BRK.B",
+    "Berkshire Hathaway",
+    "Berkshire",
+    "BRK",
+    "BRK.A",
+    "BRK.B",
+    "Treasury bills",
+    "T-bills",
+    "US Treasury",
+    "United States Treasury",
+    "GEICO",
+    "National Indemnity",
+    "BNSF",
+    "Berkshire Hathaway Energy"
+  ],
+  "as_of_date": "2024-11-02",
+  "mode": "hedge",
+  "era": "D",
+  "first_action_window": "Q3 2024 allocation state, disclosed November 2",
+  "fund_aum_usd_bn": 276.9,
+  "decider": "Buffett",
+  "notes": "Decision-revealing Q3 $325.2 billion cash and zero buybacks are key-only; docs use last-public Q2 $276.9 billion. This treats Nov 2 as pre-disclosure boundary for replay despite same-day availability. No authenticated new Q3 Buffett explanation; standing policy supports reasoning, not a market-timing claim. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated."
+}

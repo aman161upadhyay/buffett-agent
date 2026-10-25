@@ -1,0 +1,15 @@
+Title: Microsoft Corporation — Information chronology
+Source: Microsoft fiscal 1998 annual financial highlights, https://www.microsoft.com/investor/reports/ar98/fins.htm ; January 19, 1999 earnings announcement; pre-cutoff antitrust proceedings; https://news.microsoft.com/source/1999/01/19/microsoft-announces-record-quarterly-revenue-and-income-3; fund reference https://www.berkshirehathaway.com/letters/1998htm.html
+Date: 1999-03-01
+
+## Cutoff evidence — reconstructed
+
+The fiscal 1998 financial year closes June 30; the annual earnings release appears July 16. Windows 98 is a current product, and the federal antitrust trial begins in October. The December-quarter earnings announcement appears January 19 of the current year. All precede the March 1 boundary. The chronology excludes a later court finding, subsequent product generation and any later Berkshire public discussion. The assigned date is a control evaluation point, not a recovered declined deal. No contemporaneous purchase request or sale is fabricated. The analyst is being asked to evaluate an available public security with strong reported economics and genuine forecasting uncertainty.
+
+## Economic reading of the supplied facts
+
+Industry economics: software involves substantial development and selling expense but little physical manufacturing cost for another copy. Compatibility, application availability and user familiarity can support a platform. Those advantages are not guarantees: a change in computing architecture or distribution can alter which platform controls demand. Reported margins must also be considered alongside stock compensation and the cost of sustaining a development organization. Customer adoption is evidence of current usefulness, not a complete forecast of profits a decade away. Legal limits on business practices can affect the means by which a platform defends its position. A business can be excellent for customers and employees while its shares still require a careful estimate of future cash flows and purchase price.
+
+Chronology controls: the cutoff is an information boundary, not proof of an execution on that day. A negotiated commitment, a public announcement, a purchase settlement and an annual-report disclosure are distinct events. Facts about the condition of the business may be reconstructed from archival accounts without turning a later explanation into a statement available to the market.
+
+Only the events described above enter this chronology. No subsequent result is assumed when assessing the unresolved question. The absence of an original day-by-day price series prevents identification of a precise entry-day return or volume pattern. The same restriction applies to unpublished board discussions and security-specific purchase ledgers. This reconstruction does not claim access to either. Where a transaction is being considered, proposed terms are identified as proposed; regulatory approvals and operating improvements are not treated as completed. Where shares already exist in a portfolio, a request to study a new allocation must not erase that exposure.

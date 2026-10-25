@@ -1,0 +1,16 @@
+Title: The economics of an AI arms race are not yet a settled annuity
+Source: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm ; https://www.justice.gov/opa/pr/department-justice-wins-significant-remedies-against-google ; https://www.congress.gov/crs_external_products/LSB/PDF/LSB11362/LSB11362.1.pdf
+Date: 2026-03-31
+
+The bear case is no longer only that chat interfaces might displace a traditional search page. It is also that all major competitors invest so much in infrastructure that returns fall even if revenues grow. The company's $175-$185 billion plan is a direct observed commitment outlook, not a hypothetical claim that spending is immaterial. Depreciation and ongoing replacement needs can make accounting profit lag the true economic burden. [1]
+
+Antitrust remedies continue to constrain specified exclusive distribution arrangements and require access to certain data and services. Immediate Chrome divestiture was rejected in the search remedy, but behavioral relief still changes the competitive environment. A profitable Cloud segment and growing subscription base are important counterevidence to a simple collapse thesis; neither assures that new capital earns historical software-like returns. No later financing agreement or investor endorsement is used to settle this debate. An existing owner must ask whether the original moat persists after a very different physical investment regime. [1-3]
+
+Evidence ledger: February 4 results show 2025 revenue of $402.836 billion versus $350.018 billion in 2024; operating income $129.039 billion versus $112.390 billion; net income $132.170 billion; diluted EPS $10.81. Fourth-quarter revenue was $113.828 billion, operating income $35.934 billion and EPS $2.82. Services revenue was $95.862 billion and Cloud $17.664 billion, up 48%; segment operating income was $40.132 billion and $5.313 billion respectively. Other Bets lost $3.617 billion, including a Waymo compensation charge, and central activities cost $5.894 billion. Cash/marketable securities totaled $126.843 billion. Management expects 2026 capital expenditures of $175-$185 billion. These plans are forward-looking; no second-quarter capital commitment by an outside investor is included. [1-3]
+
+Risk distinction: a temporary earnings interruption and a permanent impairment can initially produce similar reported numbers. The test is whether the cause can be bounded without assuming that management's preferred recovery path must occur. Position liquidity limits execution risk, not business risk. The adverse mechanisms set out here are scenarios grounded in the cited contemporary evidence, not claims that every adverse outcome has occurred. No independent short-seller target or numerical probability is invented where a dated opposing valuation was not recovered.
+
+Sources and publication dates:
+[1] https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm (published 2026-02-04)
+[2] https://www.justice.gov/opa/pr/department-justice-wins-significant-remedies-against-google (published 2025-09-02)
+[3] https://www.congress.gov/crs_external_products/LSB/PDF/LSB11362/LSB11362.1.pdf (published 2025-09-10)

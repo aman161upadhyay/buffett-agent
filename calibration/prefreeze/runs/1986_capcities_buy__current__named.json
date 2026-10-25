@@ -1,0 +1,247 @@
+{
+ "pack": "1986_capcities_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "1986-01-03",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Capital Cities is combining its broadcast and publishing operations with the national television network ABC and related media properties [D01]. The combined entity operates in media, where they sell audiences to advertisers while providing news and entertainment [D01].",
+   "products_customers_and_why_they_buy": [
+    "Newspapers and broadcasting: selling audiences to advertisers while supplying news/entertainment to readers/viewers [D01], [D06]"
+   ],
+   "economics": [
+    "Margins: Capital Cities standalone operating margins were 28.5% in 1984 [D02]. Segment margins in 1984: broadcasting 52.1%, publishing 22.5%, cable 3.3% [D06].",
+    "Capital intensity: Advertising revenue is sensitive to business conditions [D01]. Local broadcast and publishing positions are difficult to replicate, but broadcast licenses are not perpetual unregulated monopolies [D01].",
+    "Owner-earnings: FY1984 standalone: depreciation $34.084m, intangible amortization $17.633m, capital spending $53.866m; 'available cash flow' $142.734m [D02]."
+   ],
+   "earnings_record": [
+    "1980-1984 Capital Cities standalone EPS: $5.38, $6.12, $7.25, $8.53, $10.40 [D02].",
+    "ROE (before extraordinary gains) 1980-1984: 21.5%, 20.1%, 19.5%, 19.6%, 19.9% [D02].",
+    "Q1 1985 net income was $27.7m vs $27.1m in 1984 (2.2% growth) [D03]."
+   ],
+   "competitive_position": [
+    "Established local positions are difficult to replicate [D01], [D06].",
+    "Regulatory ownership ceiling is 25% of national television homes [D06].",
+    "Network programming/local stations have different economics; strong local returns are not mechanically transferable to a network [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Capital Cities standalone 1984: Cash $236.399m, Total debt $222.995m [D02].",
+    "ABC combination value is roughly $3.5 billion [D02], [D09].",
+    "Opening combined balance sheet and debt amortization schedule are not recovered [D02], [D09]."
+   ],
+   "management_and_capital_allocation": [
+    "Tom Murphy and Dan Burke have a long operating record [D01].",
+    "Management is noted for a low-cost, owner-oriented approach [D01]."
+   ],
+   "price_and_valuation": [
+    "Negotiated subscription price: $172.50 per common share for 3 million shares [D02], [D04].",
+    "Standalone 1984 P/E: 16.59x based on $10.40 EPS [D04].",
+    "Treasury yield (10-yr): 9.05% [D04].",
+    "S&P 500 trailing P/E: 14.19x [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Capital Cities record may not scale to the network [D05].",
+    "High acquisition prices may leave little room for disappointment [D05].",
+    "ABC earnings are subject to ratings, programming costs, advertising conditions, and competition [D05]."
+   ],
+   "deal_terms_if_any": [
+    "3 million shares subscribed at $172.50 per share [D02], [D09]."
+   ],
+   "recent_events": [
+    "Combination announced March 18, 1985 [D01], [D07].",
+    "Q1 1985 earnings reported April 24, 1985 [D03]."
+   ],
+   "berkshire_context": [
+    "Berkshire has prior experience with Capital Cities and its management [D08].",
+    "A $517.5 million financing is material relative to 1984 year-end portfolio [D08].",
+    "Exact funding cash and insurance-entity allocations are not in pack [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Full opening combined balance sheet, post-deal debt amortization, normalized ABC cash-flow reconciliation, Q3 1985 results, and current market price at 1986-01-03."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The business operates in media, selling audiences to advertisers via broadcast and publishing, which are established, slow-changing areas [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "Capital Cities has demonstrated local broadcast and publishing positions that are difficult to replicate [D01], [D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Standalone EPS grew consistently from $5.38 in 1980 to $10.40 in 1984 [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "Standalone ROE remained strong between 19.5% and 21.5% from 1980-1984 with conservative debt levels [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "The business generates high operating margins, specifically 28.5% standalone in 1984 [D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Tom Murphy and Dan Burke are well-regarded for their low-cost, owner-oriented approach [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The $3.5 billion ABC acquisition is a significant transaction that easily moves the needle for Berkshire [D02], [D08]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "While the standalone P/E is 16.59x, the complexity of the ABC integration and lack of post-deal normalized earnings make an accurate 10% earnings yield assessment difficult at this time [D02], [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 7,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a collection of elite media franchises managed by exceptionally disciplined, owner-oriented operators."
+  },
+  "gate2": {
+   "templates": [
+    "B1",
+    "B4"
+   ],
+   "why_available": "The market is skeptical that the Capital Cities low-cost operating model can effectively scale to the significantly larger and more volatile ABC network environment [D05]. We disagree, as our long experience with Tom Murphy and Dan Burke provides us confidence that they will apply their same owner-oriented discipline to ABC's assets [D01], [D08]. By backing this team, we are effectively buying a wonderful business at a fair price with the expectation that management will compound value over the long term regardless of short-term network ratings fluctuations [D01].",
+   "evidence": [
+    "Tom Murphy and Dan Burke are well-regarded for their low-cost, owner-oriented approach [D01].",
+    "Berkshire has prior experience with Capital Cities and its management [D08].",
+    "The combined entity operates in media with established local positions that are difficult to replicate [D01], [D06]."
+   ],
+   "market_narrative_we_disagree_with": "The market fears that ABC's earnings are too dependent on unpredictable ratings, rising programming costs, and cyclical advertising conditions to maintain the high returns seen at Capital Cities [D05].",
+   "what_must_be_true": [
+    "Murphy and Burke can successfully integrate ABC and impose their low-cost culture on the network operations.",
+    "The underlying demand for broadcast advertising remains durable enough to support the combined entity's returns.",
+    "The combined company's debt levels remain manageable, allowing management to focus on operations rather than financial distress."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "1984 standalone CapCities $10.40 EPS [D02]; combined normalized earnings not in pack",
+   "initial_pretax_yield_pct": 6,
+   "intrinsic_value_range": {
+    "low": "172.50",
+    "high": "210.00",
+    "key_assumptions": [
+     "Murphy/Burke operating discipline scales to ABC [D01]",
+     "Media advertising demand remains robust [D01]",
+     "Combined entity debt managed through cash flow [D02]"
+    ],
+    "discount_rate_used": "9.05% [D04]"
+   },
+   "price_vs_value": "100% of purchase price; margin of safety provided by management track record [D01]",
+   "expected_return_pct": {
+    "base": 12,
+    "bear": 5,
+    "bull": 18
+   },
+   "alternatives": "Existing holdings or T-bills at 9.05% [D04]; preferred Capital Cities as it leverages proven owner-oriented management [D01]",
+   "downside_case": "Overpayment for network assets resulting in stagnant growth; not a permanent loss of capital given strong station cash flows [D01]",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Combined 1986 owner earnings estimated based on 1984 standalone performance",
+    "Post-deal leverage impact on earnings assumed manageable"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Berkshire's edge is patience and permanent capital, allowing us to benefit as the business compounds under the stewardship of Tom Murphy and Dan Burke [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realised through the superior long-term compounding of owner earnings under exceptional management [D01]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 1980-1999 era, our focus is on acquiring consumer franchises at fair prices and retaining ownership in excellent businesses to hold indefinitely [Instruction 5]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management loses focus on cost control or makes acquisitions outside their circle of competence [D01].",
+    "The regulatory environment shifts to cap returns or limit ownership below the thresholds required for network operation [D06].",
+    "Structural changes in the television industry render broadcast advertising significantly less effective as an audience-selling medium [D01]."
+   ],
+   "berkshire_constraints": "The investment must respect regulatory ownership ceilings of 25% of national television homes [D06] and be funded in a manner that preserves Berkshire's capital adequacy [D08].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 15,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Allocating capital to T-bills yielding 9.05% or existing holdings with more predictable cash flow profiles [D04].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The investment is a substantial, negotiated commitment in a business managed by operators I know and trust to be exceptional, fitting my 1980s era mandate for consumer franchises [D01], [Instruction 5].",
+   "biggest_risk_in_one_sentence": "The primary risk is that the unique, low-cost operating culture that generated exceptional returns at smaller, local stations cannot be successfully scaled to the far more complex and volatile national television network environment [D01], [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "1986-01-03",
+  "company": "Capital Cities/ABC",
+  "ticker": "CCB",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "1984 standalone $10.40 EPS; combined normalized earnings projected to grow under disciplined management",
+   "initial_pretax_yield_pct": 6,
+   "intrinsic_value_range": "$172.50 - $210.00",
+   "expected_return_pct": 12,
+   "downside_case": "Integration fails to yield expected cost efficiencies, resulting in stagnant growth but minimal risk of permanent capital loss due to strong cash-generating station assets"
+  },
+  "drivers": [
+   {
+    "driver": "We are betting on the exceptional stewardship of Tom Murphy and Dan Burke, whose disciplined, owner-oriented culture has generated superior returns for years [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The business possesses a durable moat through elite local media franchises that are difficult to replicate [D01], [D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The acquisition of ABC transforms the entity's scale while keeping the core business understandable and within our circle of competence [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "We are acquiring these shares at a price that represents fair value for a wonderful business, with the expectation that management will compound value over the long term [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management loses focus on cost control or makes acquisitions outside their circle of competence [D01].",
+   "The regulatory environment shifts to cap returns or limit ownership below the thresholds required for network operation [D06].",
+   "Structural changes in the television industry render broadcast advertising significantly less effective as an audience-selling medium [D01]."
+  ],
+  "what_would_change_our_mind": "A departure of Tom Murphy or Dan Burke, or evidence that the network's high cost structure is undermining the company's historical operating discipline.",
+  "memo": "Charlie and I have long admired the operations of Capital Cities, a business that essentially functions by selling audiences to advertisers through its highly defensible broadcast and publishing assets [D01]. We understand this model well, as it relies on durable local positions that are quite difficult for competitors to replicate [D01], [D06].\n\nThe company’s record is a testament to its economics, with standalone returns on equity consistently hovering near 20% throughout the first half of the decade [D02]. While the acquisition of ABC adds complexity, the operating margins of 28.5% seen in Capital Cities' standalone business give us comfort in the underlying power of their media franchises [D02].\n\nThe true engine here is the management of Tom Murphy and Dan Burke, who are as honest and owner-oriented as any we have encountered [D01]. We are confident they will apply the same low-cost, disciplined approach to the ABC network that they have historically employed at their local stations [D01], [D08].\n\nMany in the market fear that these operating habits will fail to scale to the larger, more volatile national network environment [D05]. We disagree, viewing this skepticism as a short-term reaction to industry ratings fluctuations rather than a reflection of long-term business value [D01].\n\nWe are paying $172.50 per share, a price we consider fair given the intrinsic value and the potential for these operators to compound capital over an indefinite horizon [D02], [D04]. While we are not looking for a quick catalyst, our expectation is that patient ownership will be rewarded as the team integrates these assets [D01].\n\nThe primary risk remains the potential inability to translate local station efficiencies to the network level, but given the station cash flows, we do not view this as a threat of permanent loss [D01]. We have sized this at 10% of our equity portfolio, reflecting our high conviction in the stewardship of Murphy and Burke [D08].",
+  "uncited_claims": []
+ }
+}

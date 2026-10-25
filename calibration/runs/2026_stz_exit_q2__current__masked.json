@@ -1,0 +1,56 @@
+{
+ "pack": "2026_stz_exit_q2",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2026-03-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2026-03-31",
+  "company": "Constellation Brands, Inc.",
+  "ticker": "STZ",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "decider": "deputy",
+  "thesis_at_purchase_vs_now": [
+   "Durable brand preference: intact, with the company gaining relative share in a challenging industry [D01, D03]",
+   "Pricing power: intact, as favorable pricing offsets shipment weakness to support high margins [D01, D03]",
+   "Capital efficiency: weakened, as brewing expansion requires heavy investment and leverage [D01, D05]"
+  ],
+  "price_vs_value_now": "The stock trades at ~13x guided comparable earnings [D04], which is reasonable for a strong consumer franchise, though tempered by absolute volume declines [D01, D05].",
+  "after_tax_hurdle": "Selling would trigger a 21% federal capital gains tax; unless the thesis is broken, we prefer to retain the earning power of the business [D08].",
+  "drivers": [
+   {
+    "driver": "The Mexican beer portfolio continues to show strong relative performance and pricing power despite a broader industry slowdown [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Comparable operating margins remain high at 38%, indicating that brand strength allows for cost absorption [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Absolute volume declines and ongoing high capital expenditure requirements for capacity expansion warrant caution but do not invalidate the core franchise [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The current valuation is modest relative to guided earnings, providing a sufficient margin of safety for a business of this quality [D04].",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "memo": "We view Constellation as a durable consumer franchise, specifically regarding its imported Mexican beer portfolio, which continues to gain market share even as the broader beer category faces headwinds [D01, D03]. While absolute depletions have declined, the company's ability to maintain a 38% operating margin through favorable pricing demonstrates the kind of pricing power we admire [D01, D03]. We do not exit wonderful businesses simply because the market is pessimistic or because the industry faces temporary consumption shifts [D05].\n\nHowever, we remain mindful of the capital intensity required to support this growth [D05]. The company's $1.2 billion capital expenditure plan and 3.0x leverage target indicate that significant cash is being reinvested in the brewing operation [D01, D02, D05]. This is a departure from a simple royalty stream, and we must ensure that the returns on this incremental capital remain high enough to justify the investment [D02, D06].\n\nAt roughly 13 times comparable earnings, the stock is not excessively priced, and we see no reason to trigger a taxable sale [D04]. As long as the management team remains rational and the brands maintain their competitive moat, we are comfortable holding this position while the deputy continues to monitor the impact of capital spending on free cash flow [D04, D08].",
+  "uncited_claims": []
+ }
+}

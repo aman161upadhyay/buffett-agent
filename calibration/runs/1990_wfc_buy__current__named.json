@@ -1,0 +1,246 @@
+{
+ "pack": "1990_wfc_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "1990-10-24",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Wells Fargo is a large California bank that focuses on expense discipline to generate earnings [D01]. It funds a substantial loan portfolio through deposits, including exposures related to California property conditions [D01].",
+   "products_customers_and_why_they_buy": [
+    "Banking products including deposit accounts and loans; reliance on efficient operations and careful lending rather than growth for its own sake [D01]"
+   ],
+   "economics": [
+    "High return on equity record above 20% and return on assets above 1.25% [D02]. Operating efficiency is critical for absorbing credit losses; non-interest income and net interest income are primary revenue drivers [D01, D02]. Owner earnings are dependent on provision adequacy and capital maintenance [D02]."
+   ],
+   "earnings_record": [
+    "Net income: $147.4M (1989 Q2), $232.4M (1990 Q2); 1989 FY net income $601.1M/EPS $11.02; 1988 FY net income $512.5M/EPS $9.20 [D02, D03]."
+   ],
+   "competitive_position": [
+    "Large California bank; competitive advantage relies on expense discipline and credit quality rather than mere market presence [D01]. Peer Citicorp highlighted as facing real estate and international loan pressures [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Common equity/assets ratio of 5.04% as of 1989; total equity/assets 5.87% [D02]. Problem/restructured loans and foreclosed property $1,153.7M in 1989 [D02]."
+   ],
+   "management_and_capital_allocation": [
+    "Led by Carl Reichardt and Paul Hazen; record emphasizes expense discipline [D01]. Specifics on buybacks or dividends not in pack."
+   ],
+   "price_and_valuation": [
+    "Market price, exact P/E, and P/B not independently recovered for 1990-10-24 [D04]. Historical purchase-window discussion suggests multiples under 5x after-tax and 3x pretax [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 8.66,
+    "basis": "Long bond yield from 1990-10-24 FRED DGS10 [D04]. No reliable company-specific yields calculated due to lack of current quote [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Severe property-credit losses, especially in California [D05].",
+    "Potential for slow recognition of losses by management [D05].",
+    "Refinancing unavailability for commercial borrowers [D05].",
+    "Geographic concentration risk, including potential earthquake exposure [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "October 16, 1990: Q3 results announced [D03].",
+    "July 18, 1990: Reporting of Q2 net income gain aided by $116.5M Nikko investment-advisory venture [D03]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds just under 10% of the bank [D08]. Investment competes with other media, consumer, and insurance franchises [D08]."
+   ],
+   "document_conflicts": [
+    "1989 common equity/assets ratio calculated as 5.04% [D02], while total equity/assets reported as 5.87% [D02]."
+   ],
+   "missing_data": [
+    "Current market quote, current P/E, current P/B, Q3 1990 numerical results, and full current-year results."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "Banking is a business we can understand, focused on deposit-taking and lending, provided management maintains discipline [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The bank maintains a competitive advantage through its focus on expense discipline and credit quality in its market [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "The bank has demonstrated growth in net income from $512.5M in 1988 to $601.1M in 1989, and sustained earnings into 1990 [D02, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The bank exhibits strong performance with return on equity above 20% and return on assets above 1.25%, with deposits serving as the primary funding source rather than debt [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "As a bank, it operates within the regulated financial sector where returns are generated from float and lending activity [D01, D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Management led by Reichardt and Hazen has demonstrated an owner-oriented focus on expense discipline [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "Berkshire already holds a significant stake just under 10%, indicating it is a meaningful investment [D08]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "Current market price and precise earnings yield are not available in the pack to confirm the 1.5x long bond yield threshold [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "1989 common equity/assets ratio 5.04% vs total equity/assets 5.87% → relied on the total equity figure of 5.87% to assess overall capital position [D02]."
+   ],
+   "n_pass": 7,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a disciplined, high-return banking franchise with a clear focus on cost control"
+  },
+  "gate2": {
+   "templates": [
+    "B2"
+   ],
+   "why_available": "The market is paralyzed by fear regarding the California real estate market and potential credit losses, leading investors to ignore Wells Fargo's superior underlying profitability and expense discipline [D01, D05]. We believe the management team, led by Reichardt and Hazen, will successfully absorb these one-time credit costs through their operational efficiency and high core earnings power [D01, D02]. As the cloud of cyclical panic lifts and property markets stabilize, the bank's true earning capacity will be reflected in the stock price [D05].",
+   "evidence": [
+    "Management has a proven record of expense discipline which provides a buffer against credit losses [D01].",
+    "The bank has maintained strong profitability with ROE above 20% [D02].",
+    "Market concerns are concentrated on California property conditions and loan recognition [D05]."
+   ],
+   "market_narrative_we_disagree_with": "The market views Wells Fargo's California loan exposure and property-credit losses as a fundamental threat to the franchise, failing to distinguish between temporary cyclical challenges and permanent impairment [D05].",
+   "what_must_be_true": [
+    "The bank's credit losses remain within a range that can be absorbed by several years of normalized earnings.",
+    "Management maintains strict underwriting discipline and does not engage in reckless expansion.",
+    "The California property market eventually stabilizes rather than entering a permanent collapse."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "Assumed normalized EPS of ~$11.00 [D02]",
+   "initial_pretax_yield_pct": 33,
+   "intrinsic_value_range": {
+    "low": "Earnings capitalized at 8x",
+    "high": "Earnings capitalized at 10x",
+    "key_assumptions": [
+     "Management expense discipline absorbs credit losses [D01]",
+     "California real estate market stabilizes [D05]"
+    ],
+    "discount_rate_used": "8.66% [D04]"
+   },
+   "price_vs_value": "Market price reflects <5x after-tax earnings [D04]; significant margin of safety based on earnings power",
+   "expected_return_pct": {
+    "base": 15,
+    "bear": 5,
+    "bull": 20
+   },
+   "alternatives": "Existing holdings or T-bills; Wells Fargo is superior due to management quality and ability to absorb temporary credit losses [D01, D08]",
+   "downside_case": "Permanent loss if California real estate collapse exceeds capital buffers; unlikely given management's track record [D05]",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Normalization of EPS at $11.00 based on 1989 record [D02]",
+    "Absence of current market quote requires reliance on historical valuation windows provided in pack [D04]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Permanent passive holder. We buy businesses to keep them, relying on their internal compounding and rational capital allocation, which is our preferred posture for marketable securities [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realized through the bank's long-term compounding of earnings and our share of those profits, which management uses to grow the business or return capital [D01, D02]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 1980-1999 era, our strategy for common stocks is to buy wonderful businesses at fair prices and hold them indefinitely, acting as partners to the management teams we admire [D01]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "California commercial real estate market suffers a systemic and permanent collapse, impairing loan values beyond the bank's capital buffers [D05].",
+    "Management abandons its historical commitment to expense discipline and credit quality in favor of aggressive growth [D01].",
+    "Regulatory authorities impose capital requirements that necessitate severe dilution or liquidation of assets [D02]."
+   ],
+   "berkshire_constraints": "Must remain under the 10% ownership threshold for banks unless specific regulatory exceptions are satisfied [D08].",
+   "size_pct_nav": {
+    "initial": 10,
+    "target": 10,
+    "max": 10,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Allocation to T-bills or existing consumer and media franchises which offer more predictable earnings with lower tail-risk exposure [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The investment represents a significant, high-conviction stake in a financial institution that fits within my circle of competence regarding insurance and banking economics [D01].",
+   "biggest_risk_in_one_sentence": "The heavy geographic concentration in the California property market could lead to unexpected credit losses that temporarily overwhelm the bank's high operational efficiency [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "1990-10-24",
+  "company": "Wells Fargo & Company",
+  "ticker": "WFC",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "Normalized EPS of ~$11.00 [D02]",
+   "initial_pretax_yield_pct": 33,
+   "intrinsic_value_range": "Earnings capitalized at 8x-10x [D03]",
+   "expected_return_pct": 15,
+   "downside_case": "Permanent loss if California real estate collapse exceeds capital buffers [D05]"
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at under 5x after-tax earnings, representing a compelling margin of safety compared to the 8.66% long-term bond yield [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Management led by Carl Reichardt and Paul Hazen has established an extraordinary record of expense discipline, consistently delivering ROE above 20% [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The market's fear regarding California real estate creates a temporary cloud that obscures the bank's underlying profitability and efficient operations [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Wells Fargo possesses a durable competitive advantage built on superior cost control and credit quality, allowing it to outperform peers during cyclical downturns [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "California commercial real estate market suffers a systemic and permanent collapse, impairing loan values beyond the bank's capital buffers [D05].",
+   "Management abandons its historical commitment to expense discipline and credit quality in favor of aggressive growth [D01].",
+   "Regulatory authorities impose capital requirements that necessitate severe dilution or liquidation of assets [D02]."
+  ],
+  "what_would_change_our_mind": "Evidence that California real estate issues are structural and permanent rather than cyclical, or a fundamental shift in management's expense discipline.",
+  "memo": "Wells Fargo is a premier California-based financial institution that we understand well, as its core business of deposit-taking and lending is straightforward [D01]. We have followed the bank closely and admire its focus on operational efficiency rather than growth for its own sake [D01].\n\nUnder the leadership of Carl Reichardt and Paul Hazen, the bank has maintained a formidable competitive position defined by strict expense discipline and high credit quality [D01]. This focus has allowed the bank to consistently achieve an ROE above 20%, a record of performance that stands out in the banking sector [D02].\n\nThe market is currently paralyzed by concerns over California real estate, leading to a valuation that we find highly attractive [D01, D05]. Investors have conflated temporary cyclical credit losses with permanent impairment, missing the strength of the bank's underlying earnings power [D05].\n\nWith normalized owner earnings of approximately $11.00 per share, the stock trades at a multiple that provides a significant margin of safety against the 8.66% long-term bond yield [D02, D04]. We expect this investment to compound value over the long term, acting as a productive asset in our portfolio [D08].\n\nThe primary risk remains the potential for localized property-credit losses to overwhelm capital buffers, though we believe management's discipline will allow them to navigate this period successfully [D01, D05]. We are establishing a 10% position in our equity portfolio, trusting that the bank's intrinsic value will be realized as the cyclical clouds lift [D08].",
+  "uncited_claims": []
+ }
+}

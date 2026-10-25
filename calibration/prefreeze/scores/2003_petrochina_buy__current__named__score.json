@@ -1,0 +1,63 @@
+{
+ "trade_id": "2003_petrochina_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "The price implied roughly $37 billion for a business appraised near $100 billion.",
+   "The appraisal concerned the business's earning assets rather than a country-label discount alone.",
+   "A large gap between price and assessed value provided the purchase rationale."
+  ],
+  "extra_agent_drivers": [
+   "The company is a large, integrated producer with significant scale and reserves.",
+   "Strong earnings consistency (RMB26.4bn to RMB54.6bn) from 1999 to 2002.",
+   "Solid average return on equity of 15.5% with moderate debt levels."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "PetroChina sells for 0.97x book value.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company reported net income of RMB46.910bn.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "State management risk is a primary kill criterion.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company maintains an average ROE of 15.5%.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market prices the company at a P/E of 6.52x.",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 8,
+  "share": 0.73
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We do not rely on management to build a moat for us; instead, we rely on the extreme price discount to provide our safety.",
+ "grader_notes": "The agent correctly identified the direction and the primary importance of the price-to-value gap, consistent with the Buffett approach. However, the agent failed to cite or reference the specific $37B/$100B appraisal framework highlighted in Buffett's retrospective accounts, instead focusing on accounting ratios and commodity-specific metrics.",
+ "run": "2003_petrochina_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

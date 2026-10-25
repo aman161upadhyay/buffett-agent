@@ -1,0 +1,259 @@
+{
+ "pack": "2015_pcp_acq",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2015-08-09",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Precision Castparts manufactures complex metal components, investment castings, forgings, and critical fasteners for aerospace and other demanding industrial applications [D01]. These components are essential for safe operation in aircraft and industrial programs, with supplier replacement made difficult by stringent certification and reliability requirements [D01].",
+   "products_customers_and_why_they_buy": [
+    "Investment castings, forgings, and critical fasteners [D01].",
+    "Aerospace and power/industrial customers [D01, D09].",
+    "Sole or dominant source on many engine/airframe programs; long-term agreements support repeat business [D09]."
+   ],
+   "economics": [
+    "Operating margins have consistently exceeded 20% since FY2007 [D09].",
+    "Returns on tangible capital are above 20% [D09].",
+    "Requires maintenance investment and is sensitive to inventory and material costs [D01, D05].",
+    "FCF was approximately $1.9 billion in FY2015 [D09]."
+   ],
+   "earnings_record": [
+    "Sales: $6,209m (2011) to $10,005m (2015) [D02].",
+    "Common net income: $1,014m (2011) to $1,530m (2015) [D02].",
+    "Cyclicality noted in energy-related, pipe businesses, and aerospace destocking [D09]."
+   ],
+   "competitive_position": [
+    "Sole or dominant source on many programs; process expertise and certification form a moat [D01, D09].",
+    "Management (Mark Donegan) is regarded as the industry's best operator [D09].",
+    "Peers include Honeywell, United Technologies, and Allegheny Technologies [D04, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Debt: $4,587m (FY2015) [D02]; $5,286m as of 2015-06-28 [D03].",
+    "Cash: $1,056m as of 2015-06-28 [D03].",
+    "High capital intensity not required, but backlog can move with production schedules [D01, D09]."
+   ],
+   "management_and_capital_allocation": [
+    "Mark Donegan, CEO since 2002; would remain to run the business [D09].",
+    "Regarded as honest and an excellent operator [D09]."
+   ],
+   "price_and_valuation": [
+    "Price as of 2015-08-07: $193.88 [D04, D09].",
+    "Proposed takeover price: ~$235/share (22x trailing earnings) [D09].",
+    "10-year Treasury yield: 2.18% [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Aerospace customer concentration and bargaining power [D01, D05].",
+    "Weakness in energy-related and pipe businesses [D09].",
+    "Aerospace customer destocking [D09].",
+    "Risk of paying peak earnings as normal [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Proposed acquisition of 100% of shares at ~$235/share (premium of 20% over market price) [D09].",
+    "Mark Donegan to remain as CEO [D09]."
+   ],
+   "recent_events": [
+    "2015-07-01: Berkshire/Donegan meeting in Omaha [D09].",
+    "2015-07-28: Q1 FY2016 results reported [D03].",
+    "2015-08-07: Quarterly filing released [D01, D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire owns ~4.2 million shares (~3%) [D09].",
+    "Berkshire cash at 2014 year-end: $63.3bn [D08]; potentially $66.6bn at time of proposal [D09].",
+    "Potential 'elephant' acquisition [D09]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Maintenance capex estimate to calculate normalized owner earnings [D01, D04]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "Precision Castparts provides essential, certified metal components for aerospace and industrial programs where high switching costs and reliability requirements create long-term stability [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The company holds sole or dominant source status on critical engine and airframe programs, protected by stringent certification barriers [D01, D09]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Sales and net income have grown consistently from 2011 to 2015, with operating margins maintained above 20% since 2007 [D02, D09]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "Returns on tangible capital are consistently above 20%, and the company maintains a manageable debt profile relative to its earnings power [D09]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "While maintenance investment is required, the business generates significant free cash flow and delivers returns on capital that justify its industrial scale [D01, D09]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "CEO Mark Donegan is recognized as an industry-leading operator with a strong reputation for honesty and effective management [D09]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The proposed acquisition of Precision Castparts represents an 'elephant' size transaction suitable for Berkshire's capital allocation [D09]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The acquisition at roughly 22x trailing earnings provides an acceptable return given the high quality of the business and the current low interest rate environment (2.18% 10-year Treasury) [D04, D09]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 8,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a high-moat aerospace and industrial components manufacturer with excellent returns on capital and a top-tier management team."
+  },
+  "gate2": {
+   "templates": [
+    "B4"
+   ],
+   "why_available": "The market is fixated on short-term cyclical headwinds in the energy-related pipe business and temporary destocking trends in the aerospace sector [D09]. This creates an opportunity for Berkshire to acquire a permanent, high-moat business with an elite operator at a fair price [D09]. We view the long-term compounding potential of Precision Castparts' sole-source components as far outweighing current earnings volatility [D01, D09].",
+   "evidence": [
+    "Cyclicality noted in energy-related, pipe businesses, and aerospace destocking [D09].",
+    "Sole or dominant source on many engine/airframe programs; process expertise and certification form a moat [D01, D09].",
+    "Management (Mark Donegan) is regarded as the industry's best operator [D09]."
+   ],
+   "market_narrative_we_disagree_with": "The market fears that current aerospace and energy demand reflects peak earnings that may be unsustainable [D09].",
+   "what_must_be_true": [
+    "Mark Donegan continues his record of operational excellence and capital discipline",
+    "The aerospace and industrial programs remain dependent on these critical, certified components",
+    "The long-term growth in aircraft deliveries compensates for any near-term destocking"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "$10.68 [D02, D09]",
+   "initial_pretax_yield_pct": 4.5,
+   "intrinsic_value_range": {
+    "low": "210.00",
+    "high": "260.00",
+    "key_assumptions": [
+     "Management retention [D09]",
+     "Long-term aircraft demand [D09]",
+     "Stable margins >20% [D09]"
+    ],
+    "discount_rate_used": "2.18% [D04]"
+   },
+   "price_vs_value": "111% of low-end value; limited margin of safety at $235 premium price",
+   "expected_return_pct": {
+    "base": 8,
+    "bear": 5,
+    "bull": 12
+   },
+   "alternatives": "Existing holdings or Berkshire buyback; while the business is wonderful, the 22x P/E is full, but acceptable for a permanent elephant-sized, high-moat utility-like aerospace supplier [D09]",
+   "downside_case": "Permanent loss unlikely due to sole-source status and mission-critical nature of products, though cyclicality may impair near-term cash flows [D01, D09]",
+   "valuation_verdict": "FAIR",
+   "flagged_assumptions": [
+    "Maintenance capex assumed equal to depreciation for owner earnings calculation [D01, D04]"
+   ]
+  },
+  "gate4": {
+   "role": "R3",
+   "role_description": "We intend to acquire 100% of the business, leaving the management team in place to continue operating the company with our backing, as Mark Donegan is an exceptional operator whose style aligns with our own [D09].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realised through the continued compounding of the business's earnings, leveraging its dominant sole-source market position and the retention of its existing management team [D09]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000-2015 era, our strategy focuses on acquiring whole companies at scale to provide a permanent home for our capital and float, particularly those with durable competitive advantages [D09]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Aerospace and engine manufacturers shift to alternative manufacturing processes that bypass Precision Castparts' proprietary techniques",
+    "Stringent aerospace safety certifications are altered or diminished, allowing for lower-cost, lower-reliability substitutes",
+    "Mark Donegan departs or management culture shifts to prioritize financial engineering over operational excellence",
+    "Long-term aircraft demand enters a secular, multi-year decline rather than a cyclical adjustment"
+   ],
+   "berkshire_constraints": "Must maintain cash above $30 billion floor post-acquisition [D08, D09].",
+   "size_pct_nav": {
+    "initial": 100,
+    "target": 100,
+    "max": 100,
+    "basis": "whole company acquisition"
+   },
+   "opportunity_cost": "Comparison between acquiring a permanent, high-moat industrial asset versus holding cash or repurchasing Berkshire shares at current valuation levels [D09].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "As a whole-company 'elephant' acquisition within our circle of competence, this capital allocation decision is made by Buffett [D09].",
+   "biggest_risk_in_one_sentence": "Paying peak-cycle earnings for a capital-intensive manufacturing business that remains susceptible to cyclical aerospace and energy demand shocks."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-08-09",
+  "company": "Precision Castparts Corporation",
+  "ticker": "PCP",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 100,
+  "size_basis": "whole company acquisition",
+  "opportunity_template": [
+   "B4"
+  ],
+  "catalyst_role": "R3",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "$10.68 per share [D02, D09]",
+   "initial_pretax_yield_pct": 4.5,
+   "intrinsic_value_range": "$210.00 - $260.00 [D09]",
+   "expected_return_pct": 8,
+   "downside_case": "Cyclical earnings volatility due to energy and aerospace destocking [D09]"
+  },
+  "drivers": [
+   {
+    "driver": "The acquisition at ~$235/share represents a 22x trailing earnings multiple, which provides a fair entry point for a permanent, high-moat business when compared to the 2.18% 10-year Treasury yield [D04, D09].",
+    "citations": [
+     "D04",
+     "D09"
+    ]
+   },
+   {
+    "driver": "Precision Castparts acts as a sole or dominant source for critical metal components where stringent safety certifications create an enduring moat against competitors [D01, D09].",
+    "citations": [
+     "D01",
+     "D09"
+    ]
+   },
+   {
+    "driver": "The company has maintained operating margins above 20% and returns on tangible capital exceeding 20% since 2007, reflecting exceptional underlying economics [D09].",
+    "citations": [
+     "D09"
+    ]
+   },
+   {
+    "driver": "Mark Donegan is an elite operator who will remain at the helm, ensuring the business continues to be run with the honesty and capital discipline we demand [D09].",
+    "citations": [
+     "D09"
+    ]
+   },
+   {
+    "driver": "The market's current fixation on cyclical energy headwinds and aerospace destocking allows us to acquire a wonderful business at a fair price [D09].",
+    "citations": [
+     "D09"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Aerospace and engine manufacturers shift to alternative manufacturing processes that bypass Precision Castparts' proprietary techniques",
+   "Stringent aerospace safety certifications are altered or diminished, allowing for lower-cost, lower-reliability substitutes",
+   "Mark Donegan departs or management culture shifts to prioritize financial engineering over operational excellence",
+   "Long-term aircraft demand enters a secular, multi-year decline rather than a cyclical adjustment"
+  ],
+  "what_would_change_our_mind": "A fundamental shift in the aerospace industry where proprietary investment casting and forging processes lose their mission-critical status, or a departure of management that signals a decline in operational excellence.",
+  "memo": "Charlie and I have long admired Precision Castparts, a company that produces essential components for aerospace and industrial programs where reliability is paramount [D01, D09]. We understand the business well: by providing sole-source, certified parts, they have embedded themselves into the long-term success of the world's most critical engine and airframe manufacturers [D01, D09].\n\nThe economics of this business are first-rate. Precision Castparts has consistently maintained operating margins above 20% and returns on tangible capital exceeding 20% since 2007, proving the durability of their moat [D09]. The certification barriers required for their components act as a formidable fence, protecting their market position from lower-cost substitutes [D01, D09].\n\nMark Donegan, who will remain as CEO, is an exceptional operator whose integrity and management style perfectly align with our values [D09]. We are happy to back a team that has a proven, multi-year record of operational excellence and capital discipline [D09].\n\nCurrently, Mr. Market is preoccupied with temporary aerospace destocking and cyclical weakness in the energy-related pipe business [D09]. This misperception allows us to acquire a high-moat, elephant-sized business at a fair price [D09]. While the 22x earnings multiple at $235 per share is not 'cheap' in the traditional sense, it represents a fair price for a permanent utility-like supplier of critical parts when compared to current low interest rates [D04, D09].\n\nWe anticipate this investment to serve as a cornerstone of our industrial holdings for decades to come. Our primary risks involve cyclical demand shocks or a shift in manufacturing technology, but given the company's sole-source status, we believe the risk of permanent capital loss is remote [D01, D09].",
+  "uncited_claims": []
+ }
+}

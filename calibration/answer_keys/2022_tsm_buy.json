@@ -1,0 +1,25 @@
+{
+  "id": "2022_tsm_buy",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav": "60,060,880 ADRs; $4.117774 billion September 30 mark, not verified cash cost",
+  "first_action_date": null,
+  "disclosure_date": "2022-11-14",
+  "reason_class": null,
+  "opportunity_template": [
+    "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [],
+  "entry_valuation_stated": "Entry valuation not publicly stated; $4.1 billion is quarter-end mark.",
+  "outcome_note": "Q4 2022 reduction and Q1 2023 exit are separate case; no claim that entry was a successful long-term compounder.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1067983/000095012322012275/0000950123-22-012275.txt",
+    "https://investor.tsmc.com/chinese/encrypt/files/encrypt_file/reports/2022-10/a924f47cae2629ecb5f8801629cf7fb8773e5444/3Q22EarningsRelease.pdf",
+    "https://www.berkshirehathaway.com/letters/2021ltr.pdf"
+  ],
+  "pack_quality_notes": "No authenticated own-words entry drivers; reasoning must not be graded as if moat/cheapness were publicly stated by Buffett. Actual ownership supports BUY only. November cutoff is after quarter of purchase; historical close is date-filtered retrospective data. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated. Key source timing: 2022-11-14 ownership disclosure; no entry rationale stated. Unknown first execution is null; see meta.first_action_window. Fewer than three authenticated drivers means reasoning is unscorable rather than completed with invented manager claims.",
+  "quality_grade": "C"
+}

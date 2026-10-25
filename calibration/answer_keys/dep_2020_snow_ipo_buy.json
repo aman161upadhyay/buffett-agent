@@ -1,0 +1,51 @@
+{
+  "id": "dep_2020_snow_ipo_buy",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav": "Approximately $735.045M at $120: $250M primary + 4,042,043 secondary shares, about 0.354% of $207.454B June 2020 equity portfolio. 6,125,376 shares includes rounding.",
+  "first_action_date": "2020-09-07 agreement; 2020-09 IPO settlement",
+  "disclosure_date": "2020-09-08",
+  "reason_class": null,
+  "opportunity_template": [
+    "B10",
+    "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "deputy",
+  "decider_identity": "Combs",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "BUY as a deputy-controlled IPO/private-placement allocation. Todd Combs is the named executing investment officer; do not attribute an unexplained Buffett IPO-policy reversal or software thesis to Buffett.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1640147/000162828020013381/exhibit1021.htm (2020-09-08; later evidence where after cutoff)",
+      "quote": null,
+      "evidence_type": "documented_action_or_comment"
+    },
+    {
+      "driver": "SEC purchase agreement dated September 7 and filed September 8 is signed by Todd A. Combs, Investment Officer. It documents execution authority, not a valuation thesis. Final $120 pricing and Q3 parent 13F verify 6,125,376 shares, combining $250M private placement and 4,042,043 secondary shares.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1067983/000095012320012127/0000950123-20-012127.txt",
+      "quote": null,
+      "evidence_type": "ownership_or_refusal_verification"
+    },
+    {
+      "driver": "The signed agreement identifies Combs as Investment Officer; no public own-words valuation or growth thesis was located, so those analyst bull arguments must not be scored as manager-stated drivers.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1640147/000162828020013381/exhibit1021.htm (2020-09-08)",
+      "quote": null,
+      "evidence_type": "stated_attribution_not_investment_thesis"
+    }
+  ],
+  "entry_valuation_stated": "No issuer-specific investor-stated intrinsic value or entry multiple recovered; pack valuation is analyst reconstruction.",
+  "outcome_note": "SEC purchase agreement dated September 7 and filed September 8 is signed by Todd A. Combs, Investment Officer. It documents execution authority, not a valuation thesis. Final $120 pricing and Q3 parent 13F verify 6,125,376 shares, combining $250M private placement and 4,042,043 secondary shares. This is a direction/discipline test, not a return forecast. Nonholding evidence is scoped to the parent discretionary portfolio and the tested window; quarterly 13Fs cannot prove absence of every intraperiod trade, nonreportable instrument, subsidiary client holding or personal investment.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1640147/000162828020013381/exhibit1021.htm",
+    "https://www.sec.gov/Archives/edgar/data/1067983/000095012320012127/0000950123-20-012127.txt",
+    "https://www.sec.gov/Archives/edgar/data/1640147/000162828020013518/snowflakes-1a2.htm",
+    "buffett-agent/compendium/all_positions_index.md",
+    "buffett-agent/compendium/filings_2010_2026.md",
+    "https://www.sec.gov/Archives/edgar/data/1640147/000162828020013667/snowflake424b4.htm",
+    "https://www.cnbc.com/2020/09/15/snowflake-prices-ipo-above-increased-range-implying-initi.html"
+  ],
+  "pack_quality_notes": "No public own-words selection thesis; Combs signature establishes execution, not sole intellectual origination. Cutoff includes September 15 evening $120 pricing, corroborated by same-evening CNBC. Agreement dated September 7, filed September 8. Silent controls do not have three authentic stated reasons; the three slots distinguish action, ownership verification and grading boundary rather than fabricate quotes. Deputy keys use user-requested decider='deputy'; meta retains the allowed named/unknown identity. Positive control: grade BUY and deputy attribution/sizing; do not grade speculative stock-selection reasons as stated.",
+  "verification_window": "SEC purchase agreement dated September 7 and filed September 8 is signed by Todd A. Combs, Investment Officer. It documents execution authority, not a valuation thesis. Final $120 pricing and Q3 parent 13F verify 6,125,376 shares, combining $250M private placement and 4,042,043 secondary shares.",
+  "control_quality_grade": "B"
+}

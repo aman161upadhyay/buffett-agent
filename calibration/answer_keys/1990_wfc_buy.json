@@ -1,0 +1,44 @@
+{
+  "id": "1990_wfc_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "5 million shares, $289.431 million cost at year-end; just under 10% of bank, not 10% of Berkshire",
+  "first_action_date": null,
+  "disclosure_date": "1990-10-24",
+  "reason_class": null,
+  "opportunity_template": [
+    "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "Reichardt and Hazen were outstanding, cost-conscious bank managers.",
+      "source": "https://www.berkshirehathaway.com/letters/1990.html (1991-03-01; hindsight explanation)",
+      "quote": "the best managers in the business"
+    },
+    {
+      "driver": "Buffett wanted well-managed banks at fair prices, not poorly managed banks merely because they were cheap.",
+      "source": "https://www.berkshirehathaway.com/letters/1990.html (1991-03-01; hindsight explanation)",
+      "quote": "We have no interest in purchasing shares of a poorly-managed bank at a 'cheap' price."
+    },
+    {
+      "driver": "A severe California loan-loss stress could be absorbed by earning power without assuming a favorable economy.",
+      "source": "https://www.berkshirehathaway.com/letters/1990.html (1991-03-01; hindsight explanation)",
+      "quote": null
+    },
+    {
+      "driver": "Less than five times after-tax earnings supplied a substantial valuation cushion.",
+      "source": "https://www.berkshirehathaway.com/letters/1990.html (1991-03-01; hindsight explanation)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Buffett stated <5x after-tax and <3x pretax earnings for purchase window; exact October 24 quote not recovered.",
+  "outcome_note": "Accumulation case, not lifetime P&L. About one-sixth of year-end position was bought in 1989 and the balance in 1990.",
+  "sources": [
+    "https://www.berkshirehathaway.com/letters/1990.html (1991-03-01; hindsight explanation)",
+    "Wells Fargo pre-cutoff operating facts reconstructed from Berkshire purchase discussion; https://www.nytimes.com/1990/10/25/business/company-news-buffett-acquires-9.8-of-wells-fargo-shares.html used only as archival chronology, not to reveal the stake; Los Angeles Times, July 18, 1990, https://www.latimes.com/archives/la-xpm-1990-07-18-fi-684-story.html"
+  ],
+  "pack_quality_notes": "Rounded financial/stress anchors reconstructed from following-year explanation; original October regulatory schedules missing. New mode retained per assignment although this is accumulation. March 1 signing date is historical letter date, not claim of earliest disclosure."
+}

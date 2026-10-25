@@ -1,0 +1,56 @@
+{
+ "pack": "2026_unh_exit_q1",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2025-12-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-12-31",
+  "company": "UnitedHealth Group",
+  "ticker": "UNH",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Scale and franchise: intact [D01]",
+   "Operational performance: deteriorated from historical levels [D01, D02]",
+   "Regulatory environment: heightened risk due to formal DOJ inquiries [D03, D05]"
+  ],
+  "price_vs_value_now": "Market price of $330.11 implies a multiple of ~20.3x based on the adjusted earnings floor of $16.25 [D04]",
+  "after_tax_hurdle": "Any sale would trigger a 21% federal tax liability, requiring the current price to reflect a significant premium over intrinsic value to justify exiting a core franchise [D08]",
+  "drivers": [
+   {
+    "driver": "The company maintains a significant, scaled franchise despite recent operational challenges [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Management is actively addressing margin deterioration, and a lowered earnings floor has been established [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The company remains highly cash-generative despite current headwinds [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "Regulatory investigations present ongoing uncertainty, but do not yet constitute a permanent impairment of the business [D03, D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "In assessing our position in UnitedHealth, we look past the current noise of quarterly results to the underlying durability of the business. While operating earnings have been significantly impacted—falling by approximately 50% year-on-year in the third quarter—the essential franchise remains intact [D01, D02]. We do not jump ship simply because a wonderful business faces a difficult stretch; the management team's effort to repair operational performance is a normal part of the corporate cycle [D01, D03].\n\nThe formal DOJ inquiries regarding Medicare represent a clear regulatory headwind that we are monitoring closely [D05]. However, the company continues to express confidence in its practices, and we see no reason to preemptively conclude that these investigations will result in a permanent loss of capital or reputation [D01, D03]. We do not operate on the whims of short-term sentiment or headline-driven price volatility.\n\nAt a market price of $330.11, the stock trades at roughly 20 times the management-provided adjusted earnings floor [D04]. While this floor is far below the prior year's levels, we hold for the long term and remain disciplined about tax consequences [D02, D08]. We avoid selling wonderful businesses at the first sign of trouble, particularly when we have not yet determined that the competitive advantage of the business has been permanently compromised [D01, D06]. We choose to hold and allow the business to demonstrate its recovery capability.",
+  "uncited_claims": []
+ }
+}

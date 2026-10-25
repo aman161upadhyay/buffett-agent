@@ -1,0 +1,54 @@
+{
+ "trade_id": "ctl_2016_tsla_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned per parent 13F history",
+   "Replacement for false GE-common never-owned premise",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "No earnings yield",
+   "Capital-intensive industry",
+   "Lack of consistent GAAP profit",
+   "Management focus on non-GAAP targets"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company has no earnings yield, failing our requirement for a 10% pre-tax earnings yield",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business operates in a capital-intensive industry with aggressive investment requirements of $1.5 billion",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company lacks a consistent GAAP profit base and relies on external financing",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Charlie and I have looked at this business, and it is firmly in our 'too hard' pile.",
+ "grader_notes": "The agent correctly identified the PASS decision but failed to replicate the reasoning provided in the key. The key for this control uses a structural 'non-ownership' and 'discipline boundary' rationale, whereas the agent provided a substantive, fundamental analysis of the business which the key explicitly instructs not to credit as Buffett's reasoning.",
+ "run": "ctl_2016_tsla_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

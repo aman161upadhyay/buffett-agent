@@ -1,0 +1,62 @@
+{
+ "trade_id": "ctl_2000_cisco_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Outside Buffett's demonstrated technology circle and no demonstrated margin of safety",
+   "No Cisco in the parent 13F-era holdings window around 2000",
+   "Economic and valuation objections are analyst-reconstructable discipline tests, not Buffett-stated reasons"
+  ],
+  "extra_agent_drivers": [
+   "The business requires constant innovation and acquisitions",
+   "Earnings are difficult to evaluate due to pooling accounting",
+   "The moat is susceptible to technological substitution",
+   "Lack of data on maintenance capital expenditures"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "the rapid pace of technological change makes it impossible for us to determine if its competitive advantage will endure",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "the company must rely on constant engineering and a steady stream of acquisitions just to stay relevant",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "financial statements are obscured by the use of pooling accounting",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We prefer to allocate our capital to businesses with predictable, durable moats",
+    "citation": "D08",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the rapid pace of technological change makes it impossible for us to determine if its competitive advantage will endure",
+    "citation": "D05",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 6,
+  "share": 0.6
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "When the path is this uncertain, the only rational decision is to pass.",
+ "grader_notes": "The agent correctly matches the PASS decision, but it fails to reproduce Buffett's actual reasoning drivers, opting instead to generate a speculative analyst-style thesis. Buffett's actual stance on Cisco is defined by his general 'no-technology' policy and absence from holdings, not by the specific operational critiques the agent invented.",
+ "run": "ctl_2000_cisco_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

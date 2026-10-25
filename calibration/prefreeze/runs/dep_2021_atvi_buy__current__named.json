@@ -1,0 +1,255 @@
+{
+ "pack": "dep_2021_atvi_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2021-10-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The publisher owns recurring entertainment franchises across consoles, personal computers, and mobile phones [D01]. Monetization occurs through premium games, subscriptions, in-game content, and advertising [D01].",
+   "products_customers_and_why_they_buy": [
+    "Products include franchises like Call of Duty, Warcraft, and Candy Crush [D01].",
+    "Customers engage through habitual participation and digital distribution platforms [D01].",
+    "Loyalty is evidenced by 408 million monthly active users, with in-game purchases extending customer value beyond initial game prices [D01]."
+   ],
+   "economics": [
+    "Operating margins are high, reported at 42% GAAP and 44% non-GAAP in the second quarter [D01].",
+    "Revenue is predominantly digital, with $2.03 billion in digital-channel revenue out of $2.296 billion total GAAP revenue [D01].",
+    "Software production requires continuing creative investment, as intellectual property is not a self-maintaining royalty stream [D01].",
+    "Maintenance capex and economic dilution are not explicitly broken out in the provided record [D02]."
+   ],
+   "earnings_record": [
+    "Second-quarter GAAP revenue: $2.296 billion versus $1.932 billion in the prior period [D01].",
+    "Second-quarter diluted EPS: $1.12 versus $0.75 in the prior period [D01].",
+    "Trailing-twelve-month operating cash flow: $2.57 billion [D01].",
+    "Net bookings showed a decline: $1.92 billion versus $2.08 billion [D01]."
+   ],
+   "competitive_position": [
+    "The company possesses a portfolio of established franchises, which provides more diversification than a single-title publisher [D06].",
+    "Competitors include Electronic Arts, Take-Two, and mobile publishers, alongside platform operators that collect distribution fees [D06].",
+    "The creative pipeline is considered a moat but requires ongoing investment to maintain [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "The record does not supply an adjusted debt figure or specific liquidity statement [D02].",
+    "The company faces potential legal and regulatory costs related to workplace allegations [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Management raised its outlook while acknowledging serious employment, compensation, and workplace allegations [D01].",
+    "Insider ownership, specific buyback history, and dividend policy are not in pack."
+   ],
+   "price_and_valuation": [
+    "An authenticated October 29 last-session close is not available [D02].",
+    "Latest quarterly GAAP EPS of $1.12 annualizes to $4.48, though this is a sensitivity tool rather than a normalized estimate [D02].",
+    "Trailing-twelve-month operating cash flow is $2.57 billion [D02]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Serious workplace, compensation, and employment allegations [D01].",
+    "Bookings are lower year-on-year [D05].",
+    "Potential negative impact of workplace controversy on culture, employee retention, and the creative pipeline [D05].",
+    "Unpredictability of franchise engagement compared to fixed royalties due to free-to-play models and platform fees [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "June 30: latest quarterly measurement date [D07].",
+    "July: state workplace allegations create public controversy [D07].",
+    "August 3: results release acknowledging allegations [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire cash/equivalents approximately $144.1 billion as of the June 2021 report [D08].",
+    "The idea is analyzed as a stand-alone public-equity investment; any position would be evaluated as a deputy-scale or smaller allocation [D01, D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Specific contemporaneous stock price as of 2021-10-31.",
+    "Normalized owner earnings (maintenance capex, working capital adjustments).",
+    "Detailed debt/leverage figures.",
+    "Insider ownership data."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business relies on constant creative investment and faces high unpredictability in franchise engagement compared to stable royalty streams [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While the portfolio provides diversification, the creative pipeline requires heavy, constant reinvestment to remain relevant, and is currently threatened by cultural and workplace issues [D01, D05, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "UNSURE",
+     "evidence": "While GAAP earnings showed growth in the second quarter, net bookings declined year-on-year, indicating inconsistent performance [D01, D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "Adjusted debt figures and capital structure details are not in pack, leaving the leverage profile unknown [D02]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The company requires ongoing creative investment to maintain its IP, which is not a self-maintaining royalty stream [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "FAIL",
+     "evidence": "Management is currently embroiled in serious workplace, employment, and compensation allegations that threaten the core creative pipeline [D01, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "The investment is analyzed as a deputy-scale or smaller allocation relative to Berkshire's $144.1 billion cash pile [D08]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "The lack of a current stock price and normalized owner earnings prevents an accurate assessment of the earnings yield [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 0,
+   "n_fail": 3,
+   "n_unsure": 5,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": true,
+   "one_line_business_quality_verdict": "a business dependent on constant creative output and currently facing significant management and cultural instability."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is reacting to significant reputational and operational risks stemming from workplace and employment allegations, which threaten the stability of the creative pipeline [D01, D05]. Because the business lacks the stable, predictable characteristics of a self-maintaining royalty stream, these uncertainties make it difficult to determine a reliable margin of safety [D01].",
+   "evidence": [
+    "Serious workplace, compensation, and employment allegations [D01].",
+    "Year-on-year decline in net bookings [D01, D05].",
+    "Business requires constant creative investment rather than being a stable, low-capital-intensity franchise [D01]."
+   ],
+   "market_narrative_we_disagree_with": "The market may be pricing the company solely on recent GAAP earnings growth without properly discounting the risks to the long-term sustainability of the culture and talent, which are essential for future creative output [D01, D05].",
+   "what_must_be_true": [
+    "The workplace allegations must be resolved without causing long-term damage to the company's ability to retain creative talent.",
+    "The company must demonstrate that it can continue to generate hits despite a changing cultural environment.",
+    "Operating margins must be sustained through digital monetization without excessive reliance on recurring, high-cost creative cycles."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack; proxy used is TTM operating cash flow of $2.57 billion [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "inability to determine normalized owner earnings due to lack of maintenance capex data [D02]",
+     "unquantifiable impact of reputational risk on future cash flows [D01]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "not in pack; no price provided [D02]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Berkshire cash of $144.1 billion earns better returns in T-bills or existing business investments than this speculative situation [D08]",
+   "downside_case": "Permanent loss of reputation and talent leading to structural decline in franchise value; downside is uncapped due to legal/regulatory risks [D01]",
+   "valuation_verdict": "FULL",
+   "flagged_assumptions": [
+    "No contemporaneous stock price available [D02]",
+    "Maintenance capex and working capital adjustments are missing [D02]",
+    "Debt/leverage figures are missing [D02]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We act as a permanent, passive holder of marketable securities. We look for businesses with durable competitive advantages that can compound value over time without our operational interference [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Long-term earnings growth and capital compounding [D01]."
+   ],
+   "decider": "deputy",
+   "why_this_role_fits_the_era": "In the modern era, Berkshire holds significant public equity positions for the long term, relying on the business's underlying economic engine rather than active control or restructuring [D01]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management fails to resolve workplace and compensation allegations without long-term damage to the creative pipeline [D01, D05].",
+    "Net bookings consistently decline year-on-year, signaling a loss of franchise relevance [D01, D05].",
+    "Regulatory or legal liabilities stemming from workplace issues materially impair capital and reputation [D01]."
+   ],
+   "berkshire_constraints": "Must maintain a cash floor of at least $30 billion [D08]. Reputational risk is a primary constraint given the current allegations [D01].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Berkshire's $144.1 billion cash pile provides superior safety and optionality in T-bills or other business investments compared to this speculative situation [D08].",
+   "leverage": "none",
+   "decider": "deputy",
+   "decider_reason": "The business operates outside Buffett's core circle of competence regarding unpredictable creative software cycles and is sized as a small deputy-scale position [D01, D08].",
+   "biggest_risk_in_one_sentence": "A structural decline in the creative pipeline due to persistent management and cultural instability could lead to a permanent loss of franchise value [D01, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2021-10-31",
+  "company": "Activision Blizzard",
+  "ticker": "ATVI",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "deputy",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of reputation and talent leading to structural decline in franchise value"
+  },
+  "drivers": [
+   {
+    "driver": "The company relies on constant creative investment and lacks the characteristics of a stable, self-maintaining royalty stream [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Serious and ongoing workplace, employment, and compensation allegations create significant reputational risk that threatens the stability of the creative pipeline [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Net bookings have shown a year-on-year decline, indicating inconsistent performance and potential loss of franchise relevance [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The company operates outside of our circle of competence regarding unpredictable creative software cycles and the inability to reliably estimate owner earnings [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management fails to resolve workplace and compensation allegations without long-term damage to the creative pipeline [D01, D05].",
+   "Net bookings consistently decline year-on-year, signaling a loss of franchise relevance [D01, D05].",
+   "Regulatory or legal liabilities stemming from workplace issues materially impair capital and reputation [D01]."
+  ],
+  "what_would_change_our_mind": "A resolution of current workplace and cultural allegations that preserves the integrity of the creative team, alongside a sustained return to predictable, high-margin growth that demonstrates the durability of the franchises.",
+  "memo": "We have reviewed the business of Activision Blizzard and determined it is not a candidate for our portfolio. While the company owns recognizable franchises like Call of Duty and Candy Crush, the business requires constant creative investment to remain relevant [D01]. Unlike a wonderful business with a stable, self-maintaining royalty stream, this company’s economics depend on a continuous and unpredictable pipeline [D01].\n\nAt present, the company is embroiled in serious workplace and employment allegations [D01, D05]. We view these issues as a fundamental threat to the stability of the creative talent that is essential for the company's long-term success [D01]. When we invest, we seek honest and able managers who act as owners, but the current instability presents a risk we prefer to avoid [D01].\n\nFurthermore, our analysis shows a year-on-year decline in net bookings [D01, D05]. This inconsistency, combined with the difficulty of normalizing owner earnings in the face of ongoing reputational and operational challenges, prevents us from identifying the margin of safety we require [D01, D02]. \n\nWe prefer to hold cash when the risks are high and the path to future value is clouded [D08]. We remain focused on businesses we can understand and trust, and this situation falls firmly into our \"too hard\" pile [D01].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2026_tmhc_acq",
+  "company": "Taylor Morrison Home Corporation",
+  "ticker": "TMHC",
+  "aliases": [
+    "Taylor Morrison Home Corporation",
+    "TMHC",
+    "Taylor Morrison",
+    "TaylorMorrison",
+    "Esplanade",
+    "Yardly",
+    "Sheryl Palmer",
+    "Mackenzie Aron",
+    "taylormorrison",
+    "87705R206"
+  ],
+  "as_of_date": "2026-05-29",
+  "mode": "new",
+  "era": "E",
+  "first_action_window": "Agreement announced 2026-05-31; exact agreement signing time unknown",
+  "fund_aum_usd_bn": 263.09570357,
+  "decider": "Abel",
+  "notes": "SEALED hold-out. Dates are public-information cutoffs, not asserted private decision days. The original stock-picker rationale is unknown where not expressly sourced in the sealed key; the docs do not invent attribution. Financial inputs retain period/basis; illustrative annualization is not consensus. Exact entry costs and tax lots are unknown. Independent dated peer multiples, full maintenance-capital splits and many consensus estimates were not recovered; opposing scenarios are analyst synthesis grounded in dated issuer disclosures. fund_aum_usd_bn is the latest publicly released 13F equity-portfolio total at cutoff, not corporate NAV or current cash. Pre-announcement control case: actual negotiated terms and later management statements are excluded. Precise purchase-return scoring is unavailable from the pre-cutoff public record. May 29 historical close is not independently recovered in a contemporaneously published source; D04 retains the disclosed historical repurchase price instead."
+}

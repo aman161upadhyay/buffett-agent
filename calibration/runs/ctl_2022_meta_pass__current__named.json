@@ -1,0 +1,238 @@
+{
+ "pack": "ctl_2022_meta_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2022-11-04",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Meta Platforms operates global social and messaging networks monetized primarily through advertising [D01]. The company also maintains a loss-making virtual and augmented reality hardware and software operation [D01].",
+   "products_customers_and_why_they_buy": [
+    "Social and messaging platforms (e.g., Facebook) used by 3.71 billion family monthly active people [D01].",
+    "Advertising services sold to businesses seeking to reach specific audiences based on user attention [D01]."
+   ],
+   "economics": [
+    "Operating margin declined from 36% to 20% in the third quarter of 2022 [D01].",
+    "Capital intensity is high, with quarterly capital expenditures including finance-lease principal at $9.52 billion and management projecting full-year 2022 capex of $32-33 billion [D01].",
+    "Pricing power is pressured, with average price per ad falling 18% in the third quarter of 2022 [D01]."
+   ],
+   "earnings_record": [
+    "Third-quarter 2022 revenue was $27.714 billion (down 4%), operating income was $5.664 billion (down 46%), and net income was $4.395 billion (down 52%) [D01]."
+   ],
+   "competitive_position": [
+    "Competitors include Alphabet, Snap, and TikTok for advertising and user attention [D06].",
+    "Market position is supported by billions of users and strong network effects, though pressured by changes in targeting and distribution influenced by mobile operating systems [D01, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Cash and marketable securities of $41.78 billion against $9.92 billion in long-term debt [D01].",
+    "Large planned increases in capital expenditure ($34-39 billion) and expenses ($96-101 billion) for the following year [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Founder-led; management has prioritized long-duration spending on new platforms despite investor pressure [D05].",
+    "Buybacks consumed $6.55 billion in the third quarter [D01]."
+   ],
+   "price_and_valuation": [
+    "November 4, 2022, closing price of $90.79 [D04].",
+    "Approximate trailing reported P/E based on mechanical combination of quarterly results is 8.68x; annualizing the latest quarterly EPS results in a 13.84x P/E [D02, D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "Pack provides no explicit yield figures; calculated P/E ratios are based on $10.46 trailing EPS (approx 8.68x) or annualized $6.56 EPS (13.84x) [D02, D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Growing expenses and Reality Labs losses [D05].",
+    "Ad-price weakness and competitive/targeting headwinds [D05].",
+    "Inability of minority owners to curb founder-led long-duration spending [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "October 26, 2022: Q3 results published showing revenue decline and increased spending guidance [D01, D07]."
+   ],
+   "berkshire_context": [
+    "As of the last reported half-year, Berkshire held approximately $105.4 billion in cash and Treasury bills [D08].",
+    "Meta is not an existing portfolio position [D08]."
+   ],
+   "document_conflicts": [
+    "not in pack"
+   ],
+   "missing_data": [
+    "Maintenance capex, normalized owner earnings, and long-term debt maturity profile."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The company is transitioning its core business into an uncertain, capital-heavy virtual reality metaverse strategy, making long-term visibility difficult [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "Pricing power is actively deteriorating with a 18% decline in average ad prices and significant competitive pressure from rivals like TikTok [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company is facing significant declines in revenue and operating income, with operating margins contracting sharply to 20% in the most recent quarter [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The balance sheet remains strong with $41.78 billion in cash and marketable securities against only $9.92 billion in long-term debt [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The company is embarking on massive, non-regulated capital expenditure increases to $34-39 billion while operating margins are under pressure [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "FAIL",
+     "evidence": "Management is prioritizing long-duration, highly speculative spending despite clear investor concerns and deteriorating financial results [D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "Meta's market capitalization is sufficient to be a meaningful investment for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "While P/E ratios appear low, the lack of normalized owner earnings and uncertainty regarding the true maintenance capex of the core business prevents a confident yield calculation [D02, D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 5,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a formerly dominant advertising franchise now suffering from eroding pricing power and capital-intensive speculative reorientation"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is reacting to a sharp decline in profitability and a massive, founder-driven shift in capital allocation toward speculative projects that lack clear returns. We see no basis for a bargain because the core franchise's economics are deteriorating and we cannot confidently estimate the maintenance capital required to protect the business, let alone its future owner earnings [D01, D05].",
+   "evidence": [
+    "Operating income declined 46% and net income 52% in Q3 2022 [D01].",
+    "Capital expenditure is projected to surge to $34-39 billion while margins contract to 20% [D01].",
+    "Management is prioritizing speculative long-duration spending over core business stability despite investor concerns [D05]."
+   ],
+   "market_narrative_we_disagree_with": "The market may be pricing the company on a low trailing P/E ratio, assuming the current earnings level is a sustainable floor [D02, D04].",
+   "what_must_be_true": [
+    "The core advertising business must stabilize its pricing power against competitors like TikTok.",
+    "Management must demonstrate a return on the multi-billion dollar Reality Labs investment.",
+    "Maintenance capital requirements must be clearly defined to allow for an accurate calculation of owner earnings."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "Not in pack; unable to determine maintenance capex vs. growth capex [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "Not estimable",
+    "high": "Not estimable",
+    "key_assumptions": [
+     "Management's ability to stabilize core advertising margins [D01]",
+     "Future returns on $34-39 billion annual capex [D01]",
+     "Maintenance capital requirements [D01]"
+    ],
+    "discount_rate_used": "Not applicable"
+   },
+   "price_vs_value": "Cannot determine; lack of clarity on owner earnings makes margin of safety incalculable",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Berkshire's $105.4 billion in cash and Treasury bills [D08] provides a safer and more predictable alternative than speculating on Meta's turnaround.",
+   "downside_case": "Significant capital erosion due to high-expenditure speculative projects and loss of competitive moat; risk is non-permanent but substantial.",
+   "valuation_verdict": "PASS",
+   "flagged_assumptions": [
+    "Maintenance capex is unstated in the pack, preventing calculation of owner earnings.",
+    "Long-term government bond rate is missing from the pack."
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Berkshire's edge is patience and the use of permanent capital to compound value through rational allocation; we act as a long-term, passive owner of marketable securities [R0].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Not applicable as this is a PASS decision [FILTER 3]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in the current era, Berkshire acts as a permanent holder, waiting for wonderful businesses at fair prices that fit within our circle of competence; this opportunity failed our criteria [FILTER 1]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Pricing power continues to erode against competitors like TikTok [D01, D06].",
+    "Management fails to achieve acceptable returns on the $34-39 billion annual capital expenditure program [D01].",
+    "Operating margins fail to stabilize or return to historical levels [D01].",
+    "Founder-led capital allocation continues to prioritize speculative long-duration projects over shareholder value [D05]."
+   ],
+   "berkshire_constraints": "Berkshire maintains a cash floor of at least $30 billion [D08], and we must consider the reputational risk and lack of control over founder-led capital allocation [D05].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Berkshire's $105.4 billion in cash and Treasury bills offers a higher, more certain risk-adjusted return than speculating on a turnaround [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The investment fails our core criteria of an understandable business with a durable moat and predictable owner earnings.",
+   "biggest_risk_in_one_sentence": "The combination of deteriorating core advertising economics and management's massive, non-regulated capital commitment to speculative projects threatens permanent loss of capital."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-11-04",
+  "company": "Meta Platforms",
+  "ticker": "META",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Not estimable",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Not estimable",
+   "expected_return_pct": 0,
+   "downside_case": "Continued capital erosion due to high-expenditure speculative projects"
+  },
+  "drivers": [
+   {
+    "driver": "We cannot see why we should get a bargain because the core franchise's economics are deteriorating and we cannot confidently estimate the maintenance capital required to protect the business [D01, D05]."
+   },
+   {
+    "driver": "Pricing power is actively deteriorating with an 18% decline in average ad prices and significant competitive pressure from rivals [D01, D06]."
+   },
+   {
+    "driver": "Management is prioritizing speculative long-duration spending on a metaverse strategy that lacks clear returns over core business stability [D05]."
+   },
+   {
+    "driver": "The company's planned capital expenditure of $34-39 billion creates significant uncertainty and is not a regulated utility-style investment [D01]."
+   }
+  ],
+  "kill_criteria": [
+   "Pricing power continues to erode against competitors like TikTok [D01, D06].",
+   "Management fails to achieve acceptable returns on the $34-39 billion annual capital expenditure program [D01].",
+   "Operating margins fail to stabilize or return to historical levels [D01].",
+   "Founder-led capital allocation continues to prioritize speculative long-duration projects over shareholder value [D05]."
+  ],
+  "what_would_change_our_mind": "Evidence that the core advertising business has stabilized its pricing power, a reversal of the speculative capital-heavy metaverse shift, and clear visibility into normalized maintenance capital expenditure.",
+  "memo": "Meta Platforms operates global social and messaging networks, such as Facebook, which have historically enjoyed powerful network effects [D01]. We understand the basic economics of an advertising-supported business, but we currently find the company's long-term competitive position and capital requirements far too opaque [D01].\n\nOur standard for investment requires a durable competitive advantage, yet Meta is facing an 18% decline in average ad prices alongside mounting pressure from competitors [D01, D06]. Furthermore, while the business once generated consistent earnings, operating margins have contracted sharply to 20% in the most recent quarter [D01].\n\nCapital allocation is the most important job of a manager, and here we have concerns regarding the founder-led decision to commit $34-39 billion annually to highly speculative projects [D01, D05]. We prefer to own businesses where management acts like an owner focused on durable returns, not one prioritizing long-duration bets that dilute our confidence in future owner earnings [D05].\n\nMarket participants may be lured by low trailing price-to-earnings multiples, but a business is only worth what it will produce in cash for its owners over its lifetime [D02, D04]. Because we cannot confidently determine the necessary maintenance capital to protect the core franchise, we have no basis to calculate an intrinsic value or a margin of safety [D01, D05].\n\nCharlie and I are quite content to keep our $105.4 billion of cash and Treasury bills rather than speculating on a turnaround in an industry where the ground is shifting [D08]. We do not need to hit home runs on every pitch, and in the case of Meta, we find it far more prudent to remain on the sidelines [D01, D08].",
+  "uncited_claims": []
+ }
+}

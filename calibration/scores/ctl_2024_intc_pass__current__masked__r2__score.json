@@ -1,0 +1,49 @@
+{
+ "trade_id": "ctl_2024_intc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned in the tested 2024 window per parent 13F history; no public comment explaining the 2024 nonpurchase.",
+   "Corrected requested 'never bought': Berkshire DID own Intel in 2011–Q1 2012, exited Q2 2012. No Intel holding in 2024 Q1/Q2/Q3/Q4 parent filings or later census through Q2 2026.",
+   "Economic and valuation objections are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value — the company is currently loss-making on a GAAP basis and offers no earnings yield or dividend, failing the margin of safety test.",
+   "The business lacks a durable competitive advantage and faces manufacturing execution issues that threaten its core moat.",
+   "The company is highly capital-intensive with $25-27 billion in gross capex guidance, yet fails to generate adequate returns.",
+   "Management is in an emergency turnaround phase, making future earnings and capital allocation predictability too low for our standards."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "GAAP EPS is negative [D01]",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "company reported a GAAP net loss of $1.6 billion and has suspended its dividend to preserve liquidity [D01].",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 4,
+  "share": 0.29
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We do not participate in turnarounds, particularly those requiring massive capital outlays without a clear path to durable, predictable owner earnings [D01, D08].",
+ "grader_notes": "The agent correctly reached a PASS decision but failed to utilize the actual driver, which was that Berkshire had no position in 2024 and provided no specific commentary on a 2024 rejection. Instead, the agent generated an elaborate set of independent fundamental and valuation-based reasons. The reasoning overlap score is 0 because the agent treated analyst-reconstructable objections as Buffett's stated rationale, which the answer key explicitly instructed to ignore.",
+ "run": "ctl_2024_intc_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

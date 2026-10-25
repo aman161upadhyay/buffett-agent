@@ -1,0 +1,249 @@
+{
+ "pack": "ctl_2023_frc_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2023-03-16",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The bank specializes in relationship banking and wealth management for affluent clients, combining mortgages, deposits and advisory services [D01]. It operates as a service franchise providing advisory and lending services while managing wealth-management assets [D01].",
+   "products_customers_and_why_they_buy": [
+    "Affluent clients utilize the bank for combined mortgage, deposit and advisory services [D01].",
+    "High customer lifetime value is supported by referrals and low loan losses [D01]."
+   ],
+   "economics": [
+    "Full-year 2022 revenue $5.9 billion, net interest income $4.8 billion, net income ~$1.7 billion [D01].",
+    "Fourth-quarter net interest margin was 2.45%, down from 2.71% in the prior quarter [D01].",
+    "Reported nonperforming assets were five basis points of total assets; annual net charge-offs were $2.9 million [D01].",
+    "Capital intensity includes maintaining legal/regulatory permissions and customer relationship costs [D01].",
+    "Maintenance capex and owner-earnings specifics are not in pack [D02]."
+   ],
+   "earnings_record": [
+    "2022: Revenue up 16.5%, net interest income up 17.5%, net income up 12.7% [D01].",
+    "Fourth-quarter 2022: Net income $386 million, down 3.6% year on year [D01]."
+   ],
+   "competitive_position": [
+    "The bank is positioned as a sound lending franchise currently facing a regional-bank confidence shock [D01].",
+    "Peers in the current confidence backdrop include Silicon Valley Bank and Signature [D06].",
+    "Moat evidence cited as record customer satisfaction and low credit losses [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Loans $166.9 billion, deposits $176.4 billion [D01].",
+    "Tier 1 leverage ratio 8.51% [D01].",
+    "Wealth-management assets of $271.2 billion belong to clients and are not bank liquidity [D01].",
+    "On March 16, 2023, received $30 billion in deposits from eleven large banks [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Not in pack regarding specific CEO tenure, record or incentive structures."
+   ],
+   "price_and_valuation": [
+    "Common book value $75.38 per share, tangible common book value $74.19 per share [D01].",
+    "Precise market price, P/E, and P/B as of March 16 are not in pack [D02]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Acute stress from a deposit run by affluent clients with large uninsured balances [D05].",
+    "Asset-liability mismatch: long-duration mortgages losing economic value when rates rise [D05].",
+    "Compression of earnings due to replacement of cheap deposits with expensive wholesale funding [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "January 13, 2023: Annual results published [D07].",
+    "March 16, 2023: Eleven large banks announce $30 billion in deposits [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds ~$128.6 billion in cash, cash equivalents and T-bills, and $308.8 billion in equity securities [D08].",
+    "Existing financial exposure includes Bank of America and American Express [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Current market price as of March 16, 2023 [D02].",
+    "Specific management tenure/record and executive compensation details [D01].",
+    "Maintenance capex figures for owner-earnings calculation [D02]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The bank operates a straightforward model of relationship banking, wealth management, and lending to affluent clients [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While record customer satisfaction and low credit losses suggest a quality franchise [D01], the current acute stress from deposit runs and deposit base instability creates material uncertainty regarding the durability of its competitive position [D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "The bank reported consistent growth in 2022, with net income up 12.7% [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The bank maintains a Tier 1 leverage ratio of 8.51%, reflecting a standard capitalization level for a banking institution [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "Banking is inherently capital-intensive and currently faces significant earnings compression due to asset-liability mismatches and the high cost of wholesale funding [D05]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Specific details regarding management tenure, record, and compensation structures are not in the pack [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With $166.9 billion in loans and $176.4 billion in deposits, the bank is of significant scale [D01]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "Precise market price and P/E ratios as of March 16 are not in the pack [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 4,
+   "n_fail": 1,
+   "n_unsure": 3,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a regional bank currently experiencing acute liquidity stress and margin compression that obscures its long-term earnings power"
+  },
+  "gate2": {
+   "templates": [
+    "B2"
+   ],
+   "why_available": "The market is reacting to a contagion-driven confidence shock that has triggered a deposit run, overshadowing the bank's historical performance and customer loyalty [D01, D05]. Buffett would look past the temporary panic to evaluate whether the underlying franchise, particularly its affluent client relationships, remains intact once the liquidity pressure is stabilized [D01]. The value will show up as deposit stability returns and market sentiment normalizes, allowing the bank's core earnings power to re-emerge [D01, D07].",
+   "evidence": [
+    "Acute stress from a deposit run by affluent clients with large uninsured balances [D05].",
+    "Bank is positioned as a sound lending franchise currently facing a regional-bank confidence shock [D01].",
+    "Eleven large banks provided $30 billion in deposits on March 16, 2023, to bolster liquidity [D07]."
+   ],
+   "market_narrative_we_disagree_with": "The market assumes that a regional bank confidence shock and asset-liability duration mismatches will lead to a permanent impairment of the institution's deposit franchise and earnings power [D05].",
+   "what_must_be_true": [
+    "The bank's affluent client base remains loyal and does not fully migrate to systemic institutions.",
+    "The $30 billion deposit injection is sufficient to bridge the liquidity gap without permanent equity dilution.",
+    "The bank's long-term earnings potential is not structurally impaired by higher wholesale funding costs."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "not in pack [D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not calculable",
+    "high": "not calculable",
+    "key_assumptions": [
+     "Maintenance capex is assumed to be nominal as banking is a service franchise [D01]",
+     "Long-term earnings power is recovered following liquidity stabilization [D01]"
+    ],
+    "discount_rate_used": "assumption: 4% based on long-term risk-free rates"
+   },
+   "price_vs_value": "not calculable; current market price missing [D02]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Berkshire has $128.6 billion in cash and T-bills, offering a safer return profile than a bank experiencing a deposit run [D08].",
+   "downside_case": "Permanent loss of equity capital if deposit run causes forced liquidation of duration-mismatched assets [D05].",
+   "valuation_verdict": "FULL",
+   "flagged_assumptions": [
+    "Maintenance capex",
+    "Current market price",
+    "Discount rate",
+    "Long-term earnings recovery rate"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Berkshire's edge is patience and the use of permanent capital to support high-quality businesses that compound value over time [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realised as deposit stability returns, market sentiment normalizes, and the bank's core earnings power re-emerges [D01, D07]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities, we act as permanent, passive owners who look past temporary panics to focus on the long-term durability of a franchise's earnings power [D01, D05, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent loss of the deposit franchise as affluent clients migrate to systemic institutions [D05].",
+    "Forced liquidation of duration-mismatched assets due to persistent liquidity pressure [D05].",
+    "Earnings power structurally impaired by long-term reliance on expensive wholesale funding [D05]."
+   ],
+   "berkshire_constraints": "Must maintain liquidity and cash position above the $30B floor; regulatory thresholds apply to bank ownership stakes [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Berkshire has $128.6 billion in cash and T-bills, offering a safer and more certain return profile than a bank experiencing a deposit run [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The decision involves assessing the stability of a regional bank franchise during a financial sector crisis, which falls under Buffett's purview.",
+   "biggest_risk_in_one_sentence": "The bank faces a critical liquidity crisis where a deposit run could force the realization of losses on duration-mismatched assets, resulting in permanent impairment of equity."
+  }
+ },
+ "final": {
+  "as_of_date": "2023-03-16",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack [D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not calculable",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of equity capital if deposit run causes forced liquidation of duration-mismatched assets [D05]."
+  },
+  "drivers": [
+   {
+    "driver": "The bank is currently experiencing acute liquidity stress and a deposit run that obscures its long-term earnings power [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "The banking model faces significant earnings compression due to asset-liability mismatches and the high cost of wholesale funding [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "We have no edge in determining if the deposit franchise is permanently impaired or if the current liquidity support is sufficient [D05, D07].",
+    "citations": [
+     "D05",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Berkshire has $128.6 billion in cash and T-bills, offering a safer and more certain return profile than a bank experiencing a deposit run [D08].",
+    "citations": [
+     "D08"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent loss of the deposit franchise as affluent clients migrate to systemic institutions [D05].",
+   "Forced liquidation of duration-mismatched assets due to persistent liquidity pressure [D05].",
+   "Earnings power structurally impaired by long-term reliance on expensive wholesale funding [D05]."
+  ],
+  "what_would_change_our_mind": "Evidence of stabilized deposit flows, clear resolution of asset-liability duration mismatches, and demonstration of sustainable, normalized earnings power.",
+  "memo": "We have reviewed the business of the bank, which operates as a relationship lender and wealth manager for affluent clients [D01]. While the company has historically shown consistent growth, with net income rising 12.7% in 2022, the current environment presents challenges that we do not care to navigate [D01].\n\nThe bank is presently suffering from acute liquidity stress and a deposit run that threatens its fundamental stability [D05]. We have no way of knowing whether its affluent client base will remain loyal or if the $30 billion in recent liquidity support from peers will be sufficient to prevent permanent impairment of equity [D05, D07].\n\nBanking is inherently capital-intensive, and the current asset-liability mismatch is a dangerous combination when confidence vanishes [D05]. We prefer to put our money to work in businesses where the economics are near-certain, rather than in situations where we must guess if the institution will survive a run on its deposits [D05, D08].\n\nAt present, we hold $128.6 billion in cash and T-bills [D08]. We are perfectly content to sit on our hands when we cannot see why we should get a bargain or where we can be sure of protecting Berkshire's capital and reputation. We are passing on this opportunity.",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

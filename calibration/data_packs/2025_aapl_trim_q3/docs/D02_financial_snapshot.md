@@ -1,0 +1,17 @@
+Title: Large cash returns do not make reported ROE intuitive
+Source: https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm ; https://www.apple.com/newsroom/pdfs/fy2025-q2/FY25_Q2_Consolidated_Financial_Statements.pdf ; https://www.apple.com/newsroom/2025/05/apple-reports-second-quarter-results/ ; https://www.cnbc.com/2025/05/01/apple-has-managed-tariffs-so-far-says-tough-to-predict-beyond-june.html
+Date: 2025-06-30
+
+Apple's three-year revenue record is large but not a straight-line growth story. Fiscal 2024 revenue recovered from the prior year's decline; fiscal 2024 EPS also reflects an unusual tax charge described in the annual filing. The current half-year net income was $61.110 billion and operating income $72.421 billion. The cash-flow statement reports $6.512 billion share compensation and $5.741 billion depreciation/amortization, which should not both be treated as costless additions to earnings. [1,2]
+
+March common equity of $66.796 billion is small relative to annual earnings because of cumulative repurchases and capital distributions. A mechanically high return on that accounting denominator is not an independent measure of incremental operating returns. The balance sheet carries substantial liquid investments alongside debt. The distinction between net cash, gross liquid assets, working-capital needs and debt maturities matters. No verified split of maintenance and growth investment is recovered, so cash flow less all capital expenditure is a conservative cash-generation reference, not exact owner earnings. [2]
+
+Evidence ledger: fiscal revenues in 2022, 2023 and 2024 were $394.328 billion, $383.285 billion and $391.035 billion. Fiscal 2024 diluted EPS was $6.08. In the March quarter, revenue was $95.359 billion, operating income $29.589 billion, net income $24.780 billion and diluted EPS $1.65. Products supplied $68.714 billion sales and Services $26.645 billion. First-half operating cash flow was $53.887 billion and capital spending $6.011 billion. March cash and marketable securities totaled $132.922 billion; commercial paper and term debt totaled $98.186 billion. The board authorized another $100 billion repurchase program and a $0.26 quarterly dividend. Cook estimated about $900 million additional tariff costs for the June quarter, conditional on unchanged policy. [1-4]
+
+Accounting discipline: all dollar amounts in this document retain the period and basis given in the evidence ledger. Revenue is not owner earnings; neither adjusted profit nor operating cash flow alone measures distributable cash. Maintenance investment, working capital, compensation dilution and financing claims must be considered separately. A quarter is not a full economic cycle. Where a stand-alone balance sheet, maintenance-capital split or historical consensus series is absent, it is unavailable rather than assumed to be zero or inferred from a later filing.
+
+Sources and publication dates:
+[1] https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm (published 2024-11-01)
+[2] https://www.apple.com/newsroom/pdfs/fy2025-q2/FY25_Q2_Consolidated_Financial_Statements.pdf (published 2025-05-01)
+[3] https://www.apple.com/newsroom/2025/05/apple-reports-second-quarter-results/ (published 2025-05-01)
+[4] https://www.cnbc.com/2025/05/01/apple-has-managed-tariffs-so-far-says-tough-to-predict-beyond-june.html (published 2025-05-01)

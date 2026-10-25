@@ -1,0 +1,25 @@
+{
+  "id": "2011_ibm_buy",
+  "company": "International Business Machines",
+  "ticker": "IBM",
+  "aliases": [
+    "International Business Machines",
+    "IBM",
+    "Big Blue",
+    "Global Business Services",
+    "Global Technology Services",
+    "WebSphere",
+    "DB2",
+    "Lotus",
+    "Tivoli",
+    "System z",
+    "Watson"
+  ],
+  "as_of_date": "2011-03-31",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "March\u2013October 2011; first exact day unknown",
+  "fund_aum_usd_bn": 38.2,
+  "decider": "Buffett",
+  "notes": "ERROR CASE. Requested cutoff is after March buying started; new mode is counterfactual fresh underwriting. November explanation is key-only. Exact first execution, dated close and forward multiple unresolved. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated."
+}

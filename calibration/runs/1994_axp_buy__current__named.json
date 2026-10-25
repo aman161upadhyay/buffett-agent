@@ -1,0 +1,257 @@
+{
+ "pack": "1994_axp_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "1994-08-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "American Express combines a recognized travel-payments franchise with financial-services activities including IDS [D01]. The core charge-card brand links cardholders, merchants, and a service promise [D01].",
+   "products_customers_and_why_they_buy": [
+    "Charge-card services: sold to cardholders and merchants; they buy based on a promise to pay and merchant acceptance [D01], [D03].",
+    "Financial services: investment/advisory services (IDS) and banking products [D01], [D03], [D06]."
+   ],
+   "economics": [
+    "Travel payments combine service charges with funds held between receipt and settlement [D01], [D06].",
+    "Internal business pretax margins are approximately 14.6% for travel-related services, 19.8% for investment/advisory services, and 17.3% for banking [D06].",
+    "Travel-related services ROE was 23.8% in Q2 1994, while bank ROE was 10.03% [D06]."
+   ],
+   "earnings_record": [
+    "Net income: 1989 ($1,157M), 1990 ($181M), 1991 ($789M), 1992 ($461M), 1993 ($1,478M) [D02].",
+    "Adjusted continuing EPS (1991-93): $1.21, $0.23, $2.30 [D02].",
+    "H1 1994 total net income $710M vs $659M in H1 1993 [D03]."
+   ],
+   "competitive_position": [
+    "Integrated service model; business includes 35.6 million cards and 3.7 million merchant locations as of June 30, 1994 [D03].",
+    "Competes with bank-issued payment networks through acceptance, pricing, and benefits [D06].",
+    "Moat evidence: a recognizable name, but not sufficient evidence of an economic franchise without repeat purchasing and customer loyalty [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Total debt (short + long) as of 1993: $21,050M [D02].",
+    "Cash as of 1993: $3,312M [D02].",
+    "Bank tier-1 capital 6.6% and total capital 13.0% as of mid-1994 [D06]."
+   ],
+   "management_and_capital_allocation": [
+    "Harvey Golub's leadership involves moving away from an unfocused financial conglomerate toward payments and financial services [D01], [D03].",
+    "Management record: currently focused on restructuring [D03], [D05]."
+   ],
+   "price_and_valuation": [
+    "Common quote: $26.50 (July 1994 month-end) [D04].",
+    "FY1993 adjusted P/E: 11.52x [D04].",
+    "Post-distribution P/B: 2.24x [D04].",
+    "Market cap: approximately $13.12 billion [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 8.68,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 3.4,
+    "long_bond_yield": 7.13,
+    "basis": "Trailing earnings yield based on $26.50 share price and FY1993 adjusted continuing EPS of $2.30 [D04]. Dividend yield annualizes the $0.225 quarterly payment [D04]. US 10-year Treasury as of August 1, 1994 [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Competitive card networks and merchant resistance to fees [D05], [D06].",
+    "Consumer credit exposure [D05].",
+    "Difficulty of reversing an unfocused conglomerate strategy [D05]."
+   ],
+   "deal_terms_if_any": [
+    "1991 preferred investment: $300M, 8.85% coupon, convertible to common [D02], [D04]."
+   ],
+   "recent_events": [
+    "July 25, 1994: Q2 results released showing revenue net of interest of $3,508M [D03]."
+   ],
+   "berkshire_context": [
+    "Berkshire has pre-existing preferred or related common exposure [D07], [D08]."
+   ],
+   "document_conflicts": [
+    "Reported 1993 book value varies: $16.81 (consolidated) vs $11.81 (post-distribution pro-forma) [D02]."
+   ],
+   "missing_data": [
+    "Complete current cash-flow and tangible-capital reconciliation [D03].",
+    "Dated external payment/bank peer P/E/P/B/TBV grid [D06].",
+    "Current consolidated balance sheet and exact August 1 market price [D02], [D04]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The company operates a core, recognizable payment-processing and financial services franchise that provides essential utility to merchants and cardholders [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The business operates a massive network with 35.6 million cards and 3.7 million merchant locations, providing a defensible scale and service-based moat [D03]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Despite historical volatility, the core franchise shows strong recovery in earnings with 1993 net income of $1.478 billion and improved H1 1994 performance [D02], [D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "Travel-related services demonstrate high profitability with 23.8% ROE, and bank capital ratios meet regulatory requirements [D06]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "The payment business acts as a financial utility requiring reasonable capital levels, and the company is successfully refining its capital allocation [D01], [D06]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Harvey Golub is executing a clear, rational strategy to divest non-core assets and focus on the primary payments franchise [D01], [D03]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of $13.12 billion, the company is sufficiently large to impact Berkshire's portfolio [D04]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The earnings yield of 8.68% is comfortably above the long bond yield of 7.13%, providing a reasonable margin of safety [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "Book value: Relied on post-distribution pro-forma value of $11.81 as it better reflects the ongoing, refocused core business [D02]."
+   ],
+   "n_pass": 8,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "A resilient payment network franchise successfully refocusing its capital and operations."
+  },
+  "gate2": {
+   "templates": [
+    "B1"
+   ],
+   "why_available": "The market is wary of American Express due to historical earnings volatility and the challenges of reversing a previous period of unfocused, conglomerate-style management [D02], [D05]. Investors under-rate the enduring strength of the core payments franchise, which Harvey Golub is successfully sharpening through divestitures and a renewed focus on the primary business [D01], [D03]. We expect value to manifest as this operational refocusing continues to improve efficiency and demonstrate the resilience of the company's powerful network [D03].",
+   "evidence": [
+    "Golub is actively divesting non-core assets to focus on the payments franchise [D01], [D03].",
+    "The core network maintains 35.6 million cards and 3.7 million merchant locations [D03].",
+    "Net income has recovered to $1.478 billion in 1993 with strong H1 1994 performance [D02], [D03]."
+   ],
+   "market_narrative_we_disagree_with": "The market fears that competitive pressure from bank-issued cards and merchant resistance to fees, combined with the difficulty of organizational restructuring, permanently impairs the franchise's earnings power [D05], [D06].",
+   "what_must_be_true": [
+    "The core payment network continues to hold its value proposition for both merchants and cardholders.",
+    "Management maintains discipline in shedding unrelated businesses and controlling costs.",
+    "Consumer credit losses remain within manageable, normalized bounds."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "$2.30 [D02]",
+   "initial_pretax_yield_pct": 8.68,
+   "intrinsic_value_range": {
+    "low": "$30.00",
+    "high": "$40.00",
+    "key_assumptions": [
+     "Normalization of earnings following divestitures [D03]",
+     "Maintenance of competitive moat in payments [D01]",
+     "Stable credit loss ratios [D06]"
+    ],
+    "discount_rate_used": "7.13% [D04]"
+   },
+   "price_vs_value": "88% of low-end; margin of safety is tight given the transition status",
+   "expected_return_pct": {
+    "base": 12,
+    "bear": 5,
+    "bull": 15
+   },
+   "alternatives": "Long bonds at 7.13% [D04]; American Express offers superior potential for earnings growth through efficiency gains compared to fixed-income returns",
+   "downside_case": "Operational restructuring fails or credit losses spike, risking stagnation; not permanent loss as assets remain valuable",
+   "valuation_verdict": "FAIR",
+   "flagged_assumptions": [
+    "Normalization of owner earnings assumed to match 1993 EPS as no precise capital expenditure data is in pack [D02]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are a permanent passive holder; our edge is our patience and our willingness to hold capital through operational cycles while the business compounds [D01], [D03].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Realisation of value occurs as Harvey Golub successfully sheds non-core assets, improves efficiency, and the market recognizes the enduring resilience of the core payments franchise [D01], [D03]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 1980-1999 era, we seek consumer franchises at fair prices; we act as a long-term owner of the business's earnings power rather than a short-term trader or active restructurer."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent loss of pricing power due to successful merchant revolts against fee structures",
+    "Credit loss ratios exceeding historical norms due to a systemic economic downturn",
+    "Management abandons the focus on the core payments franchise in favor of conglomerate expansion"
+   ],
+   "berkshire_constraints": "Must maintain sufficient liquidity to manage potential insurance float obligations and adhere to regulatory capital requirements [D06].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 15,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Long-term Treasury bonds yielding 7.13% [D04]; adding to current holdings such as Coca-Cola which offer more predictable earnings growth.",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "American Express is a well-understood consumer franchise that fits squarely within the investment criteria for the current era.",
+   "biggest_risk_in_one_sentence": "The primary risk is a failure to successfully execute the operational turnaround, resulting in stagnation of earnings power rather than a permanent loss of capital."
+  }
+ },
+ "final": {
+  "as_of_date": "1994-08-01",
+  "company": "American Express",
+  "ticker": "AXP",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 10,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "$2.30 per share",
+   "initial_pretax_yield_pct": 8.68,
+   "intrinsic_value_range": "$30.00 - $40.00",
+   "expected_return_pct": 12,
+   "downside_case": "Operational restructuring fails or credit losses spike, leading to stagnant earnings without permanent capital loss."
+  },
+  "drivers": [
+   {
+    "driver": "The company sells at an earnings yield of 8.68% against a long bond yield of 7.13%, providing a margin of safety for a business in transition [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The core franchise remains powerful, anchored by a network of 35.6 million cards and 3.7 million merchant locations that provide essential utility [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Harvey Golub is taking the right steps to sharpen the focus of the business by divesting non-core assets and prioritizing the payments franchise [D01], [D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The travel-related services business has demonstrated strong profitability with an ROE of 23.8%, showing the underlying potential of the core operations [D06].",
+    "citations": [
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent loss of pricing power due to successful merchant revolts against fee structures",
+   "Credit loss ratios exceeding historical norms due to a systemic economic downturn",
+   "Management abandons the focus on the core payments franchise in favor of conglomerate expansion"
+  ],
+  "what_would_change_our_mind": "A failure to execute the operational turnaround that results in a permanent impairment of the franchise's competitive position or a sustained departure from the focus on core payment services.",
+  "memo": "We understand American Express well; it is a core, recognizable financial utility that connects cardholders and merchants through a clear, essential service promise [D01]. While the company lost its way in past years by wandering into unrelated fields, it remains a franchise of significant scale with 35.6 million cards and 3.7 million merchant locations in place as of mid-1994 [D03].\n\nHarvey Golub is now acting like the owner we want to see, methodically shedding non-core assets to restore the business to its primary mission [D01], [D03]. When we look at the travel-related services segment, we see a business that can generate returns on equity as high as 23.8%, which confirms the strength of the underlying economic engine [D06].\n\nThe market has been wary, fearing that competitive pressures and the difficulty of organizational restructuring will permanently diminish earnings power [D05], [D06]. However, the 1993 net income of $1.478 billion and the continued recovery observed in the first half of 1994 suggest the franchise has much more durability than current skeptics believe [D02], [D03].\n\nAt a price of $26.50, we are paying an earnings yield of 8.68%, which compares favorably to the 7.13% available from long-term Treasury bonds [D04]. While the margin of safety is tighter than we might prefer, we are confident that a patient approach will be rewarded as the company realizes its true earnings potential [D03], [D04].\n\nWe are sizing this at 10% of our equity portfolio, as the risk is primarily one of operational execution rather than permanent loss of capital [D05]. We will hold this position indefinitely, waiting for the market to eventually recognize the strength of the refined franchise [D01], [D03].",
+  "uncited_claims": []
+ }
+}

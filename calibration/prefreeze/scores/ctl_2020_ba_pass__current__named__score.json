@@ -1,0 +1,58 @@
+{
+ "trade_id": "ctl_2020_ba_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Berkshire has superior alternatives for capital allocation → We hold $128 billion in cash and have other, more certain ways to deploy it, including the repurchase of our own shares"
+  ],
+  "missed": [
+   "Buffett said Berkshire had not acted because nothing was sufficiently attractive",
+   "No Boeing in Berkshire parent 13F census",
+   "Economic and valuation objections are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "Negative earnings/cash flow/cyclical crisis",
+   "Balance sheet pressure/debt-to-cash ratios",
+   "Inability to determine margin of safety"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "2019 net loss of $636M",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Permanent loss of capital through severe dilution or insolvency",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "2019 debt of $27.3 billion against $10.0 billion in cash",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We hold $128 billion in cash",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 7,
+  "share": 0.64
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We hold $128 billion in cash and have other, more certain ways to deploy it, including the repurchase of our own shares [D08].",
+ "grader_notes": "The agent correctly identified the PASS decision and the preference for alternative capital deployment (share repurchases). However, the agent relied heavily on an analytical bear case to justify the pass, whereas Buffett's stated position was a market-level assessment of a lack of attractive opportunities regardless of specific issuer fundamentals.",
+ "run": "ctl_2020_ba_pass__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

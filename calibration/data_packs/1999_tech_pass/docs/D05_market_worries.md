@@ -1,0 +1,15 @@
+Title: Microsoft Corporation — Contemporaneous problem and adverse case
+Source: Microsoft fiscal 1998 annual financial highlights, https://www.microsoft.com/investor/reports/ar98/fins.htm ; January 19, 1999 earnings announcement; pre-cutoff antitrust proceedings; https://news.microsoft.com/source/1999/01/19/microsoft-announces-record-quarterly-revenue-and-income-3; fund reference https://www.berkshirehathaway.com/letters/1998htm.html
+Date: 1999-03-01
+
+## Cutoff evidence — reconstructed
+
+The adverse case is that an excellent current platform may be hard to value over ten or twenty years. Internet distribution, new architectures and competitors could change how users obtain software. The federal antitrust trial has begun, and legal restrictions may affect business practices; no verdict or remedy is yet treated as known. High margins can attract competition and do not establish an indefinitely rising profit share. Stock compensation and share dilution also matter to owners. These risks do not deny current financial strength. They explain why the investor must distinguish understanding today's products from forecasting the future structure and profitability of the industry.
+
+## Economic reading of the supplied facts
+
+Industry economics: software involves substantial development and selling expense but little physical manufacturing cost for another copy. Compatibility, application availability and user familiarity can support a platform. Those advantages are not guarantees: a change in computing architecture or distribution can alter which platform controls demand. Reported margins must also be considered alongside stock compensation and the cost of sustaining a development organization. Customer adoption is evidence of current usefulness, not a complete forecast of profits a decade away. Legal limits on business practices can affect the means by which a platform defends its position. A business can be excellent for customers and employees while its shares still require a careful estimate of future cash flows and purchase price.
+
+Adverse-case interpretation: a falling quotation is not itself evidence that a problem is temporary. The economically important loss is an impairment of future cash generation or a financing obligation that existing owners cannot meet. A patient investor can endure a lower stock price, but patience does not repair a destroyed franchise.
+
+The risks described here should be tested before assuming a return to ordinary margins. A capable manager may improve execution without being able to change the industry's economics. A security senior to common stock can still be junior to creditors and can still suffer interruption of its payments. Likewise, apparent balance-sheet strength may depend on estimates whose errors emerge only slowly. No probability is assigned to a disaster without evidence. These concerns are an analyst's reconstruction of the adverse argument from the identified business conditions, not an invented quotation from a named contemporary critic. Original bearish research, where unavailable, is explicitly not represented as recovered.

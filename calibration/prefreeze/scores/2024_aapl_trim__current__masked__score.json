@@ -1,0 +1,59 @@
+{
+ "trade_id": "2024_aapl_trim",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Realizing some gains at a 21% federal rate could be attractive if future rates rise. → Tax considerations—specifically the 21% federal rate—are part of our long-term capital allocation strategy when trimming highly appreciated winners [D04]."
+  ],
+  "missed": [
+   "The remaining business was still highly regarded.",
+   "A large residual would remain central to the equity portfolio."
+  ],
+  "extra_agent_drivers": [
+   "The position remains an exceptionally large component of the equity portfolio, necessitating prudent risk management [D08].",
+   "The stock trades at a full valuation (28.5x P/E) that provides little margin of safety at current market levels [D04].",
+   "Realizing gains allows for the deployment of capital into other opportunities or the further strengthening of our cash position [D04], [D08]."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company remains a wonderful business with an enviable consumer ecosystem",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "institutional imperative requires us to manage the size of our commitments when they reach such an outsized weight",
+    "citation": "D08",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "shares are fully priced",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "trimming this position incurs a 21% federal tax cost",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 8,
+  "share": 0.89
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We accept that trimming this position incurs a 21% federal tax cost, but we believe this is a sensible trade-off given the sheer scale of the holding and the desire to maintain liquidity in a fully priced market [D04], [D08].",
+ "grader_notes": "The agent correctly identified the tax rate as a driver but failed to capture the specific sentiment that the business remains highly regarded and that a large residual would stay in the portfolio. The agent added several external, unstated drivers regarding valuation and portfolio concentration that were not part of Buffett's provided drivers.",
+ "run": "2024_aapl_trim__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "TRIM",
+ "agent_decision": "TRIM",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

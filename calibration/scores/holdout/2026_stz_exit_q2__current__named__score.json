@@ -1,0 +1,60 @@
+{
+ "trade_id": "2026_stz_exit_q2",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The core investment thesis rests on durable brand power in Mexican imports, which continues to show relative strength despite a soft industry environment",
+   "Operating margins remain robust at 38%, supporting the company's ability to navigate current volume headwinds through pricing",
+   "The current valuation is modest relative to comparable earnings guidance, providing a sufficient margin of safety for a business with high cash flow",
+   "Capital demands for expansion in Mexican beer operations are significant but within manageable leverage targets of approximately 3.0 times"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Market price $150.00 is approximately 13x comparable EPS guidance",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We do not buy or sell our businesses based on short-term consumption fluctuations or the noise of quarterly depletions",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Capital demands for expansion in Mexican beer operations are significant but within manageable leverage targets of approximately 3.0 times",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The thesis of durable brand preference is intact",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We shall continue to hold the position as a secondary investment under our deputy's management",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 8,
+  "share": 0.8
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We shall continue to hold the position as a secondary investment under our deputy's management, monitoring whether the company can sustain its returns on capital through the current investment cycle [D08].",
+ "grader_notes": "The agent opted for a HOLD decision while the actual portfolio activity showed a complete exit of the remaining position during Q2 2026. Because the answer key specifies that no security-specific rationale was provided by Berkshire, the agent's attempt to construct a thesis is fundamentally misaligned with the actual outcome and the 'not scorable' nature of the reasoning in the key.",
+ "run": "2026_stz_exit_q2__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "SELL",
+ "agent_decision": "HOLD",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

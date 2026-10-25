@@ -1,0 +1,267 @@
+{
+ "pack": "ctl_2015_vrx_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2015-03-02",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The company owns branded pharmaceutical, dermatology and eye-care businesses and purchases additional products and distribution [D01]. The platform operates through decentralized ownership of established medicines and consumer-health brands combined with disciplined overhead and selective development spending [D01].",
+   "products_customers_and_why_they_buy": [
+    "Branded pharmaceuticals, dermatology products, and Bausch + Lomb eye-care; Bausch + Lomb is noted as a recognizable repeat-purchase consumer/medical franchise [D01]"
+   ],
+   "economics": [
+    "Margins: not in pack",
+    "Return on equity / tangible capital: not in pack",
+    "Capital intensity: acquisition-driven; growth is funded by acquisition debt and potential equity [D06]",
+    "Owner-earnings inputs: D&A and recurring integration costs are excluded from management's headline cash EPS [D05]; maintenance capex: not in pack",
+    "Pricing history: not in pack"
+   ],
+   "earnings_record": [
+    "Q4 2014 revenue of $2.3 billion vs $2.1 billion (up 10%) [D01]",
+    "Management cash EPS: $2.58 vs $2.15 (up 20%) [D01]",
+    "Reported same-store organic sales growth: 16% [D01]",
+    "Bausch + Lomb organic growth: 8% (Q4) and 11% (full year) [D01]"
+   ],
+   "competitive_position": [
+    "No specific share or rank in pack",
+    "Moat evidence: relies on durable demand for acquired products; decentralized platform model [D01]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Debt: significant acquisition debt mentioned [D01]",
+    "Cash: GAAP operating cash flow of $816 million included a $287 million transaction gain; adjusted operating cash flow of $624 million vs $607 million (3% growth) [D01]",
+    "Leverage: leveraged acquisition model noted [D05]",
+    "Refinancing needs: dependent on credit-market access [D05]"
+   ],
+   "management_and_capital_allocation": [
+    "CEO tenure: not in pack",
+    "Strategy: serial acquisitions of pharmaceutical, dermatology and eye-care assets [D01]",
+    "Candor: management warns that forward guidance is not reconciled to GAAP [D01]",
+    "Incentives/Ownership: not in pack"
+   ],
+   "price_and_valuation": [
+    "Price: not in pack",
+    "Market cap: not in pack",
+    "P/E: not in pack",
+    "P/B: not in pack",
+    "Earnings yield: not in pack",
+    "Drawdown: not in pack"
+   ],
+   "what_the_market_is_worried_about": [
+    "Exclusion of amortization and recurring integration costs from headline EPS [D05]",
+    "High reliance on credit-market access to fund future acquisitions [D05]",
+    "Difficulty of reconciling forward non-GAAP guidance [D05]",
+    "Potential for drug exclusivity loss and payer resistance to price increases [D05]"
+   ],
+   "deal_terms_if_any": [
+    "Salix acquisition contemplated; financing terms and specific price per share for Salix transaction not in pack [D01]"
+   ],
+   "recent_events": [
+    "February 23, 2015: Company reported Q4 results and discussed Salix acquisition proposal [D07]"
+   ],
+   "berkshire_context": [
+    "Cash: ~$63.27 billion [D08]",
+    "Float: not in pack",
+    "Existing stake: not in pack",
+    "Portfolio concentration: not in pack",
+    "Regulatory thresholds: not in pack",
+    "Tax basis: not in pack",
+    "Who originated the idea: not in pack"
+   ],
+   "document_conflicts": [
+    "None identified"
+   ],
+   "missing_data": [
+    "Normalized owner earnings",
+    "Maintenance capex",
+    "Debt/Equity ratios",
+    "Contemporaneous market price and market capitalization",
+    "Management incentive structure"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business relies on a strategy of serial acquisitions and decentralized ownership of disparate products rather than a clear, stable long-term franchise [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While Bausch + Lomb is noted as a repeat-purchase franchise [D01], the overall business lacks evidence of sustainable pricing power and faces concerns regarding drug exclusivity loss and payer resistance [D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "Growth is driven by acquisitions and non-GAAP figures that exclude recurring integration costs, rather than organic consistency [D01, D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company employs a leveraged acquisition model, relies on significant acquisition debt, and depends on credit-market access [D01, D05]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is capital-intensive and acquisition-driven, requiring external funding rather than organic capital generation [D06]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "FAIL",
+     "evidence": "Management uses aggressive non-GAAP accounting that excludes recurring integration costs and warns that forward guidance cannot be reconciled to GAAP [D01, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "Market capitalization data is not in pack, making it impossible to determine if the size meets Berkshire's threshold [D08]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "Contemporaneous price, market cap, and owner earnings are not in pack, so an earnings yield cannot be calculated [D08]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 0,
+   "n_fail": 5,
+   "n_unsure": 3,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a highly leveraged, acquisition-dependent roll-up with aggressive accounting and no clear sustainable moat"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no reason to expect a bargain because this business fails to meet our fundamental criteria for a wonderful company. We do not participate in highly leveraged, acquisition-driven roll-ups that rely on aggressive accounting and lack organic consistency [D01, D05].",
+   "evidence": [
+    "Leveraged acquisition model and significant acquisition debt [D01, D05]",
+    "Management excludes recurring integration costs from headline figures [D01, D05]",
+    "Dependence on credit-market access for growth [D05, D06]",
+    "No clear, stable long-term franchise [D01]"
+   ],
+   "market_narrative_we_disagree_with": "The market may focus on headline non-GAAP EPS growth driven by serial acquisitions, but we disregard such figures when they exclude recurring costs and rely on financial engineering rather than sustainable owner earnings [D01, D05].",
+   "what_must_be_true": [
+    "The company would need to transition to organic capital generation",
+    "Management would need to adopt transparent, GAAP-consistent accounting",
+    "The business would need to prove pricing power independent of acquisition-driven cost cutting"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not calculable",
+    "high": "not calculable",
+    "key_assumptions": [
+     "reliance on leveraged acquisition model [D01, D05]",
+     "exclusion of recurring costs from earnings [D01, D05]"
+    ],
+    "discount_rate_used": "not applicable"
+   },
+   "price_vs_value": "not applicable",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "We hold $63.27 billion in cash [D08] and prefer businesses with organic capital generation over those dependent on credit-market access [D05].",
+   "downside_case": "Significant potential for permanent loss of capital due to reliance on acquisition-driven debt and credit-market dependence [D05].",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Maintenance capex not provided",
+    "Debt levels not quantified",
+    "Market price and market cap missing"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are a permanent holder of businesses we understand, relying on their long-term compounding and rational capital allocation rather than market timing [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Not applicable as this is a PASS decision due to failure to meet fundamental business quality and accounting standards [D01, D05]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000-2015 era, we seek high-quality whole companies for permanent ownership; we do not engage in roll-up strategies or businesses dependent on serial debt-funded acquisitions and aggressive non-GAAP accounting [D01, D05, D06]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Credit-market access is restricted, preventing serial acquisitions [D05]",
+    "Recurring integration costs and amortization prove higher than anticipated, eroding reported earnings [D01, D05]",
+    "Drug exclusivity loss or payer resistance renders acquired products obsolete [D05]",
+    "Regulatory or debt covenant breaches due to excessive leverage [D01, D05]"
+   ],
+   "berkshire_constraints": "We maintain a cash floor of $30 billion [D08]; we avoid businesses that risk Berkshire's reputation through aggressive accounting or unstable leverage [D01, D05].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio | partnership | cash"
+   },
+   "opportunity_cost": "We hold $63.27 billion in cash and prefer businesses with organic capital generation over those dependent on credit-market access for roll-up strategies [D05, D08].",
+   "leverage": "The business operates with significant acquisition debt and relies on credit-market access [D01, D05].",
+   "decider": "Buffett",
+   "decider_reason": "This is a PASS decision based on fundamental quality and accounting standards, consistent with our refusal to engage in roll-up strategies.",
+   "biggest_risk_in_one_sentence": "The reliance on a leveraged acquisition model with aggressive accounting creates a high risk of permanent loss of capital should credit markets tighten or acquired assets fail to perform."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-03-02",
+  "company": "Valeant Pharmaceuticals International",
+  "ticker": "VRX",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not calculable",
+   "expected_return_pct": 0,
+   "downside_case": "significant potential for permanent loss of capital due to reliance on acquisition-driven debt and credit-market dependence"
+  },
+  "drivers": [
+   {
+    "driver": "The company relies on a serial-acquisition strategy rather than organic growth and stable, long-term franchise economics [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Management utilizes aggressive non-GAAP accounting that excludes recurring integration costs and warns that guidance cannot be reconciled to GAAP [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The business is highly leveraged and depends on continuous access to credit markets to fund its acquisition model [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "There is a lack of sustainable competitive advantage as the platform relies on disparate products and price increases rather than intrinsic pricing power [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Credit-market access is restricted, preventing serial acquisitions [D05]",
+   "Recurring integration costs and amortization prove higher than anticipated, eroding reported earnings [D01, D05]",
+   "Drug exclusivity loss or payer resistance renders acquired products obsolete [D05]",
+   "Regulatory or debt covenant breaches due to excessive leverage [D01, D05]"
+  ],
+  "what_would_change_our_mind": "A transition to organic capital generation, adoption of transparent GAAP-consistent accounting, and demonstration of sustainable pricing power independent of debt-funded acquisitions.",
+  "memo": "We have looked at Valeant and determined it does not meet our standards for a durable business. The company functions as a serial acquirer of pharmaceutical assets, a model that relies on financial engineering rather than the development of a stable, long-term franchise [D01]. We prefer businesses where the economics are generated organically by the products themselves, not by the constant purchase of new ones [D01, D06].\n\nThe business lacks a clear, sustainable moat. While it holds some recognizable brands like Bausch + Lomb, the overall platform is fragmented and relies heavily on external development spending and debt-funded roll-ups [D01]. We have no interest in participating in a strategy that requires perpetual access to credit markets to sustain its growth [D05, D06].\n\nManagement's approach to reporting also gives us pause. The use of non-GAAP figures that exclude recurring integration costs is a practice we avoid, and the explicit warning that guidance cannot be reconciled to GAAP makes it difficult for us to arrive at a conservative estimate of owner earnings [D01, D05]. We insist on candor and clarity, and this approach does not provide the transparency we require to judge a business accurately [D01].\n\nUltimately, the reliance on debt-funded acquisitions carries a significant risk of permanent loss of capital should credit markets tighten [D05]. We have $63.27 billion in cash and prefer to wait for opportunities that offer greater certainty and better economics, rather than betting on an acquisition-dependent business model [D05, D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

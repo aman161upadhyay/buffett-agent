@@ -1,0 +1,54 @@
+{
+ "trade_id": "ctl_2023_frc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett distinguished safe deposits from risky bank equity and criticized asset/liability mismatch and accounting incentives",
+   "No First Republic in parent filings around Q4 2022/Q1 2023 or the 2010–Q2 2026 census.",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "Price vs value vs normalized earnings",
+   "Confidence shock regarding uninsured deposits",
+   "Tier 1 leverage ratio thin buffer",
+   "Opportunity cost vs higher-quality holdings"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "the stock trades at 0.46x tangible book value [D04]",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the bank is currently suffering from a confidence shock, primarily driven by a heavy reliance on uninsured deposits [D01, D05].",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the institution to seek a $30 billion liquidity bridge from other large banks to remain operational [D01, D07].",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We prefer to allocate our capital to more stable financial institutions within our existing portfolio that do not face similar existential liquidity risks [D08].",
+ "grader_notes": "The agent arrived at the correct PASS decision but failed to mirror Buffett's actual reasoning process. Instead of citing Buffett's public commentary on banking risks and the lack of FRC in the portfolio as the primary drivers, the agent generated its own independent fundamental analysis regarding liquidity and valuation.",
+ "run": "ctl_2023_frc_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

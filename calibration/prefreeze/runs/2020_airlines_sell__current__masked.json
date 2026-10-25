@@ -1,0 +1,50 @@
+{
+ "pack": "2020_airlines_sell",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2020-04-02",
+ "stages": {},
+ "final": {
+  "as_of_date": "2020-04-02",
+  "company": "the Company (Airlines Basket)",
+  "ticker": "N/A",
+  "decision": "SELL",
+  "reason_class": "S1",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Industry consolidation: broken; the future of travel demand has become unknowable due to pandemic restrictions [D01], [D05]",
+   "Disciplined capacity: broken; fixed costs and perishable capacity now lead to non-linear cash losses [D05], [D08]",
+   "Durable competitive advantage: broken; the world has changed and the economics of the airlines are fundamentally impaired [D01], [D07]"
+  ],
+  "price_vs_value_now": "The business value is currently unknowable, rendering P/E and other traditional valuation metrics based on pre-pandemic earnings misleading [D04], [D05]",
+  "after_tax_hurdle": "The permanent impairment of earning power and the threat to common equity holders outweigh the tax cost of exiting [D05], [D08]",
+  "drivers": [
+   {
+    "driver": "The original economic thesis of disciplined capacity and consolidation has been rendered moot by a collapse in demand that makes the future of the industry unknowable.",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Fixed costs and perishable capacity in the airline industry create non-linear cash losses in the current environment that threaten the common shareholder's position.",
+    "citations": [
+     "D05",
+     "D08"
+    ]
+   },
+   {
+    "driver": "Government assistance, while possible, does not guarantee that previous common shareholders will retain their economic share or that the business will return to its prior profitability.",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "When we purchased these airline positions, we believed in the industry's newfound discipline and consolidation, which promised a more stable and rational economic environment [D01], [D07]. The world has changed in a way that makes that thesis irrelevant [D01], [D07]. The pandemic-induced collapse in travel demand has created a situation where the future of these businesses is now unknowable, and their high fixed costs make sustained, severe cash losses inevitable [D01], [D05].\n\nWe do not anchor on our cost basis, and we do not wait for a recovery that is not guaranteed to restore the prior economics of these companies [D07]. While these airlines may receive government assistance, such aid does not protect the common shareholder from the dilution or the fundamental loss of earning power we are witnessing [D03], [D05].\n\nOur reputation and our capital are not to be risked on business models where the competitive advantage has vanished and the path to profitability is obscured by permanent shifts in demand [D05]. It is best to exit these positions promptly rather than hoping for a return to a pre-pandemic normality that no longer exists [D01], [D07].",
+  "uncited_claims": []
+ }
+}

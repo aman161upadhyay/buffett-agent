@@ -1,0 +1,49 @@
+{
+ "pack": "2020_wfc_sell",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2020-11-01",
+ "stages": {},
+ "final": {
+  "as_of_date": "2020-11-01",
+  "company": "Wells Fargo & Company",
+  "ticker": "WFC",
+  "decision": "SELL",
+  "reason_class": "S1",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Original thesis of low-cost operations and sound banking: broken [D01]",
+   "Culture and compliance: deteriorated due to sales-practices failures and management turnover [D01, D05]",
+   "Regulatory environment: restrictive asset caps remain binding [D03, D07]"
+  ],
+  "price_vs_value_now": "Trading at 0.67x tangible book value, reflecting structural earnings impairment [D04]",
+  "after_tax_hurdle": "Tax cost of selling is 21% of realized gains, which is cleared by the necessity of exiting an impaired franchise [D04]",
+  "drivers": [
+   {
+    "driver": "The institutional culture and internal controls have suffered damage that makes the future earning power of the franchise unknowable.",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Persistent regulatory asset caps and remediation costs continue to constrain growth and profitability.",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The business has lost its competitive advantage, necessitating a departure from the original long-term holding thesis.",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "memo": "When we invest, we look for a durable competitive advantage and managers who act like owners [D01]. The sales-practices scandal and subsequent regulatory interventions have fundamentally altered the economics of Wells Fargo [D01, D07]. It has become clear that the institutional culture was deeply flawed, and repairing this damage is proving to be a costly and lengthy process that obscures the bank's true earnings potential [D05]. \n\nWe do not hold businesses where the future is unknowable or where the competitive advantage has eroded [D01]. The ongoing asset restrictions imposed by the Federal Reserve are not merely temporary fluctuations but represent a significant structural constraint on the business [D03, D07]. While the shares may trade at a discount to book value, a low price does not cure an institutional failure or the permanent impairment of the underlying franchise [D04, D06]. \n\nWe have already begun the process of reducing our stake in this position [D03, D07]. In keeping with our discipline, we do not anchor on cost or wait for a recovery when the facts regarding the quality and integrity of a business have changed [D01]. We prefer to allocate our capital to businesses where we have high confidence in their long-term moat and management, and Wells Fargo no longer meets those requirements.",
+  "uncited_claims": []
+ }
+}

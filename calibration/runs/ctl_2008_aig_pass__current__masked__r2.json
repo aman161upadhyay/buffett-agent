@@ -1,0 +1,243 @@
+{
+ "pack": "ctl_2008_aig_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2008-09-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The group is a conglomerate that owns international property/casualty and life-insurance franchises, retirement products, and financial-service operations [D01]. The enterprise also maintains a super-senior credit-default-swap portfolio and other financial-guarantee businesses [D01].",
+   "products_customers_and_why_they_buy": [
+    "Insurance and retirement products sold to international customers, relying on distribution relationships, licensing, and policy renewals [D01]"
+   ],
+   "economics": [
+    "Profitability is currently impacted by substantial unrealized valuation losses in the credit-default-swap portfolio and investment impairments [D01]. Margins and returns are not normalized due to severe recent losses [D01]. Maintenance capex and owner-earnings specifics are not provided [D02]"
+   ],
+   "earnings_record": [
+    "Second-quarter 2008 net loss was $5.36 billion vs. $4.28 billion profit a year earlier [D01]. Six-month 2008 net loss was $13.16 billion [D01]"
+   ],
+   "competitive_position": [
+    "Not in pack; mentions that insurance franchises have value distinct from the financial-products subsidiary [D01]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Consolidated assets of $1.050 trillion [D01]. Shareholders' equity was $78.09 billion at June 30, 2008 [D01]. Capital raise of approximately $20 billion completed in May 2008 [D01]. Ultimate cash requirements in a collateral stress are unknown [D01]"
+   ],
+   "management_and_capital_allocation": [
+    "Management promised in August 2008 to examine every business, reduce the risk profile, and protect capital [D01]. Specifics on management track record or incentives are not in pack"
+   ],
+   "price_and_valuation": [
+    "Unadjusted price of $4.76 as of 2008-09-15 [D04]. P/B is 0.164x based on June 30 book value [D04]. P/E is not meaningful due to losses [D04]"
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "No meaningful earnings yield can be calculated due to reported net losses [D04]"
+   },
+   "what_the_market_is_worried_about": [
+    "Liquidity calls on the interconnected guarantee book [D05].",
+    "Potential for ratings changes or collateral demands to trigger cash outflows [D05].",
+    "Legal and regulatory limitations on upstreaming assets [D05].",
+    "Substantial realized investment losses [D05]"
+   ],
+   "deal_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "May 2008: ~$20 billion capital raise [D07].",
+    "August 6, 2008: Q2 results and business-review plans released [D07].",
+    "September 15, 2008: Desk date for assessing opportunity under market stress [D07]"
+   ],
+   "berkshire_context": [
+    "Berkshire had $44.329 billion cash at December 2007 [D08]. Berkshire insurance operations provide relevant expertise but carry their own legal-entity risks [D08]"
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Sustainable underwriting earnings, maintenance capex figures, and definitive September cash-requirement assessments"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business model includes a complex super-senior credit-default-swap portfolio and financial-guarantee businesses that involve significant liquidity risks and unknown ultimate cash requirements [D01], [D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While insurance franchises have value [D01], the competitive position is not defined, and the business is currently struggling with substantial investment impairments and losses [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company reported a $13.16 billion net loss for the first six months of 2008 [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company suffers from severe recent losses [D01] and required a $20 billion capital raise in May 2008 to bolster its position [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business exhibits extreme capital sensitivity due to potential collateral stress and liquidity calls on its guarantee book [D01], [D05]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Specifics on management's track record or incentives are not in the pack [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The conglomerate's scale is large enough to be considered for a substantial position by Berkshire [D01]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "While the P/B is 0.164x [D04], the inability to calculate a normalized earnings yield due to ongoing losses makes a valuation assessment impossible [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 4,
+   "n_unsure": 3,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a complex financial entity under severe liquidity stress with unsustainable earnings and unknown capital requirements."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is pricing the company at a deep discount to book value due to extreme uncertainty regarding liquidity risks and the ultimate cash requirements of its credit-default-swap portfolio [D01], [D05]. We cannot reliably value the business or determine if these liabilities are bounded, meaning the risk of permanent capital loss remains high [D01], [D05].",
+   "evidence": [
+    "Net loss of $13.16 billion for the first six months of 2008 [D01].",
+    "Unknown ultimate cash requirements in a collateral stress scenario [D01].",
+    "Severe liquidity stress and interconnected guarantee book risks [D05]."
+   ],
+   "market_narrative_we_disagree_with": "The market is reacting to existential liquidity threats and a lack of transparency regarding the core financial-guarantee business [D05].",
+   "what_must_be_true": [
+    "The credit-default-swap portfolio must not contain unbounded systemic liabilities.",
+    "The insurance franchises must retain their value and remain shielded from the parent's liquidity crisis.",
+    "Regulatory intervention must not result in a total loss of shareholders' equity."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "market_stance",
+   "owner_earnings_per_share": "not in pack [D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "indeterminable",
+    "high": "indeterminable",
+    "key_assumptions": [
+     "Ultimate cash requirements for credit-default-swap portfolio are unknown [D01]",
+     "Risk of permanent capital loss remains high [D01]"
+    ],
+    "discount_rate_used": "not applicable due to lack of reliable earnings"
+   },
+   "price_vs_value": "price is 0.164x book [D04], but value is not ascertainable due to potential for unbounded liabilities [D01]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / T-bills are superior as we cannot quantify the downside or the margin of safety here [D01]",
+   "downside_case": "total loss of shareholders' equity if credit-default-swap liabilities are unbounded [D01]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Sustainable underwriting earnings, maintenance capex, and cash-requirement bounds are missing [D02]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We act as a permanent, passive holder of marketable securities when we choose to invest, relying on the compounding of the business and rational capital allocation [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Realisation of value would occur through long-term business compounding and the eventual recognition of intrinsic value by the market [D01]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000-2015 era, we act as a permanent holder for positions that meet our criteria, though this specific opportunity is rejected due to the risk of permanent capital loss [D01], [D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Unbounded liabilities in the credit-default-swap portfolio causing insolvency [D01]",
+    "Regulatory intervention forcing a liquidation of assets at distressed prices [D05]",
+    "Failure of insurance subsidiaries to operate independently of the parent's liquidity crisis [D01]"
+   ],
+   "berkshire_constraints": "We must maintain sufficient insurance capital and liquidity; we cannot risk the company's reputation on entities with existential uncertainty [D01], [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Cash held in T-bills is superior given the undefined risk of permanent capital loss [D01].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "As a potential whole-company or large-scale financial situation involving systemic risk, this would be a Buffett-level decision.",
+   "biggest_risk_in_one_sentence": "The inability to quantify potential collateral calls and liabilities in the credit-default-swap portfolio makes a permanent loss of capital highly probable."
+  }
+ },
+ "final": {
+  "as_of_date": "2008-09-15",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "indeterminable",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "indeterminable",
+   "expected_return_pct": 0,
+   "downside_case": "total loss of shareholders' equity"
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at 0.164x book value, but the intrinsic value is not ascertainable due to unbounded potential liabilities in the credit-default-swap portfolio [D01], [D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "We face a $13.16 billion net loss for the first half of 2008 and unknown ultimate cash requirements that risk the solvency of the entire enterprise [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The business model incorporates complex financial-guarantee obligations that create existential liquidity risks, which we are unable to quantify [D01], [D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Berkshire's standard of safety precludes involvement in entities where the risk of permanent loss of capital cannot be bounded [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Unbounded liabilities in the credit-default-swap portfolio causing insolvency [D01]",
+   "Regulatory intervention forcing a liquidation of assets at distressed prices [D05]",
+   "Failure of insurance subsidiaries to operate independently of the parent's liquidity crisis [D01]"
+  ],
+  "what_would_change_our_mind": "We would require absolute transparency and a definitive, bounded assessment of all credit-default-swap liabilities, ensuring that the insurance franchises are fully shielded from the parent's current liquidity crisis [D01], [D05].",
+  "memo": "Charlie and I have reviewed the business, but we find the investment to be outside our circle of competence due to the opaqueness of its financial-products subsidiary [D01]. While the company owns insurance franchises that may have value, the enterprise is currently marred by a $13.16 billion net loss in the first half of 2008 and a highly uncertain capital position [D01].\n\nWe cannot quantify the ultimate cash requirements arising from the company's super-senior credit-default-swap portfolio [D01]. Because these potential liabilities remain unbounded, we are unable to determine an intrinsic value, rendering any investment a gamble rather than a reasoned allocation of capital [D01], [D05].\n\nManagement has pledged to reduce the risk profile, yet the current liquidity stress and the risk of collateral calls on the interconnected guarantee book present an existential threat [D01], [D05]. Our priority is the permanent preservation of capital and Berkshire's reputation; we will not risk either on situations where we cannot calculate the downside [D01].\n\nThough the shares trade at 0.164x book value, this discount does not offer a margin of safety when the underlying liabilities could result in a total loss of shareholders' equity [D01], [D04]. We prefer the certainty of cash in T-bills to the undefined risks inherent in this conglomerate [D01].",
+  "uncited_claims": []
+ }
+}

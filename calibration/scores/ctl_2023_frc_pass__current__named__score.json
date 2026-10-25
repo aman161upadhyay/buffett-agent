@@ -1,0 +1,49 @@
+{
+ "trade_id": "ctl_2023_frc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett distinguished safe deposits from risky bank equity and criticized asset/liability mismatch and accounting incentives; these later industry comments contextualize a verified nonholding, not an authenticated issuer-specific refusal.",
+   "No First Republic in parent filings around Q4 2022/Q1 2023 or the 2010–Q2 2026 census. Buffett's April 12 comments document concern about bank asset/liability mismatches but are not proof of a rejected specific First Republic term sheet.",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements; do not award reasoning-overlap credit for treating them as quotations."
+  ],
+  "extra_agent_drivers": [
+   "The bank is currently experiencing an existential liquidity run and asset-liability mismatch, rendering the stock's 24.07% trailing earnings yield [D04] irrelevant as the business model faces potential collapse [D05].",
+   "We do not invest in businesses experiencing structural failures of their business model under interest rate stress, as these present risks of permanent capital loss [D05].",
+   "The reliance on a $30 billion external liquidity bridge demonstrates that the bank cannot operate independently, which violates our requirement for sustainable, self-funding franchises [D01, D05].",
+   "The deposit flight represents an unbounded risk to the core deposit base, making any valuation based on past earnings unreliable [D05]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The bank is currently experiencing an existential liquidity run and asset-liability mismatch",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "reliance on a $30 billion external liquidity bridge",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 5,
+  "share": 0.5
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We prefer to hold cash, which is safe and certain, rather than reach for yield in a situation where the permanent loss of capital is a very real possibility [D05, D08].",
+ "grader_notes": "The agent reached the correct PASS decision but failed to match Buffett's reasoning, instead constructing its own fundamental thesis using document analysis. Buffett's actual drivers reflect a lack of historical ownership and general industry commentary, whereas the agent focused on idiosyncratic firm-level risks and liquidity metrics not cited by Buffett.",
+ "run": "ctl_2023_frc_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

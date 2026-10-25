@@ -1,0 +1,49 @@
+{
+ "trade_id": "ctl_2024_intc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned in the tested 2024 window per parent 13F history; no public comment explaining the 2024 nonpurchase.",
+   "Corrected requested 'never bought': Berkshire DID own Intel in 2011–Q1 2012, exited Q2 2012.",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements."
+  ],
+  "extra_agent_drivers": [
+   "GAAP net loss of $1.6 billion",
+   "Unproven foundry transition with massive capital expenditures",
+   "Severe liquidity constraints",
+   "Significant execution risk"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business is reporting a GAAP net loss of $1.6 billion",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "planned annual expenditures of $25–27 billion",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 2,
+  "share": 0.22
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We would rather hold cash or deploy our capital into more certain prospects than gamble on an unproven transformation [D08].",
+ "grader_notes": "The agent correctly identified the PASS decision but provided exhaustive fundamental analysis as its reasoning, whereas the answer key reflects a neutral, non-ownership-based decision without specific public commentary or internal Buffett-stated drivers. The agent failed to account for the fact that these drivers were outside the scope of authentic Buffett statements, instead treating them as core justifications.",
+ "run": "ctl_2024_intc_pass__current__masked__r3",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,15 @@
+Title: American Express — Investor's capital and constraints
+Source: Reconstructed from American Express scandal histories; Lowenstein, Buffett: The Making of an American Capitalist, American Express episode (chapter numbering not recovered); Buffett Partnership letter, January 18, 1964; New York Times, January 6, 1964, https://www.nytimes.com/1964/01/06/archives/american-express-reports-gain-of-25c-a-share-irn-63-earnings.html
+Date: 1964-02-20
+
+## Cutoff evidence — reconstructed
+
+The vehicle is Buffett Partnership, not Berkshire Hathaway. Its January 18 letter states starting net assets of $17,454,900. Investment categories include generals, workouts and controls; a minority payments franchise is not automatically a control or a liquidation. Exact February cash, commitments and an American Express position ledger are not available in contemporaneous sources recovered here. Partnership assets are not the issuer's equity capital. Concentration must be measured against partnership net assets and capacity to withstand permanent loss, not against the stock's former high. The business can be researched through customer and merchant behavior without assuming access to nonpublic records or a completed purchase.
+
+## Economic reading of the supplied facts
+
+Industry economics: travel payments combine service charges with funds held between receipt and settlement. Customer confidence and merchant acceptance matter because the product is a promise to pay, not just a piece of paper or plastic. More activity can expand fee income and balances, but neither is free capital if redemption, settlement or credit obligations grow with it. Competitive pressure can appear in merchant charges, cardholder benefits and the cost of funding. A loss in a separate activity must be assessed both as a direct financial claim and as a possible threat to trust in the continuing payments service. This is an economic interpretation of the business described in the cited sources, not a quantified forecast.
+
+Capital-allocation interpretation: a portfolio allocation must fit the legal entity that supplies the money. An insurance subsidiary's invested assets are not all cash available for an acquisition. Premiums collected before claims are paid provide investment funds but also create obligations. Consolidated equity, publicly traded holdings, cash and insurance float are different denominators.
+
+No target weight follows mechanically from the fund-size reference. Available cash at this exact cutoff, where unrecovered, remains unknown rather than being equated with the reference figure. Existing concentrated holdings create opportunity costs; selling them may incur tax and surrender durable earning power. A commitment involving stock also transfers a continuing fraction of the buyer's future economics. The investor has no obligation to purchase simply to remain fully invested. Conversely, waiting has a cost when a sound business is offered below conservative value. This context describes available choices and constraints without specifying an allocation or revealing a decision.

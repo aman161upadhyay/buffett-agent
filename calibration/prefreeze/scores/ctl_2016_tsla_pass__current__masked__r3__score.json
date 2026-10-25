@@ -1,0 +1,57 @@
+{
+ "trade_id": "ctl_2016_tsla_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned per parent 13F history in the tested window; no public comment explaining a February 2016 nonpurchase.",
+   "Replacement for false GE-common never-owned premise.",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements."
+  ],
+  "extra_agent_drivers": [
+   "The business lacks a consistent GAAP profit base",
+   "Extreme capital intensity",
+   "Environment of rapid technological change",
+   "Production capacity and quality control constraints"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business lacks a consistent GAAP profit base",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Extreme capital intensity, evidenced by $1.5 billion in planned annual investment",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We look for businesses with a durable competitive advantage",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are content to hold our cash or invest in businesses we understand perfectly",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 9,
+  "share": 0.82
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We look for businesses with a durable competitive advantage, a long record of good returns on capital, and consistent earnings that we can comfortably predict [D01], [D08].",
+ "grader_notes": "The agent correctly reached the PASS decision but failed the reasoning overlap because it invented justifications rather than utilizing the provided answer key drivers, which centered on 13F history and the absence of authenticated refusal statements. The agent treated analyst-reconstructable discipline tests (D01, D02, D05) as if they were Buffett's own stated reasons for passing, violating the instruction to avoid treating such evidence as quotations.",
+ "run": "ctl_2016_tsla_pass__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

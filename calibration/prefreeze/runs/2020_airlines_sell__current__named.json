@@ -1,0 +1,58 @@
+{
+ "pack": "2020_airlines_sell",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2020-04-02",
+ "stages": {},
+ "final": {
+  "as_of_date": "2020-04-02",
+  "company": "American, Delta, United, Southwest",
+  "ticker": "AAL / DAL / UAL / LUV",
+  "decision": "SELL",
+  "reason_class": "S1",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Consolidation and disciplined capacity: broken; the industry now faces a complete collapse in demand due to pandemic restrictions and travel bans [D01], [D06].",
+   "Durable competitive advantage: broken; the future economics are unknowable as demand for travel is no longer identical to the existence of the franchise [D01].",
+   "Pricing power: broken; high fixed costs and perishable capacity lead to non-linear cash losses as traffic falls, and public assistance may result in dilution for existing owners [D05], [D06]."
+  ],
+  "price_vs_value_now": "The market prices reflect a state of distress with high uncertainty regarding normalized earnings; pre-pandemic P/E multiples of 2.7x to 8.3x are no longer reliable indicators of value [D04].",
+  "after_tax_hurdle": "Tax cost is secondary; the primary concern is avoiding permanent loss of capital as the airline industry's business model faces a structural interruption [D05].",
+  "drivers": [
+   {
+    "driver": "The economic thesis of a disciplined, profitable airline industry has been invalidated by an unforeseeable, systemic demand shock [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The business environment is now unknowable, and the duration of depressed demand makes future cash generation and survival highly speculative [D01], [D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Airlines carry heavy fixed costs and debt burdens, which, in the absence of travel demand, threaten to cause permanent impairment of shareholder equity [D05], [D06].",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Public assistance under the CARES Act, while providing liquidity, may impose restrictions or dilution that fundamentally alter the rights of existing common owners [D03], [D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "When the facts change, I must change my mind. My original thesis for the airlines centered on the industry finally achieving rational capacity discipline and sustained profitability [D01], [D07]. Today, the world has changed in a way that makes the future of the travel industry essentially unknowable [D01]. \n\nWe are facing a situation where demand has evaporated, and because airlines operate with high fixed costs and perishable capacity, the cash losses are non-linear and severe [D01], [D05]. While the CARES Act provides a potential lifeline, this support often comes at the cost of dilution or restrictive conditions for the common shareholder [D03], [D05]. I do not know how long the demand will remain depressed or what the industry will look like on the other side of this crisis [D06].\n\nI do not anchor on cost, and I will not wait for a recovery that is no longer within my circle of competence to predict [D07]. We must avoid the permanent loss of capital, and when the underlying economic advantage of a business is fundamentally compromised, the only prudent course is to exit [D05].",
+  "uncited_claims": [
+   "Buffett's personal decision-making process for exiting the airline positions as of April 2, 2020."
+  ]
+ }
+}

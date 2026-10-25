@@ -1,0 +1,48 @@
+{
+ "pack": "2007_petrochina_sell",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2007-07-12",
+ "stages": {},
+ "final": {
+  "as_of_date": "2007-07-12",
+  "company": "PetroChina Company Limited",
+  "ticker": "PTR / 0857.HK",
+  "decision": "SELL",
+  "reason_class": "S2",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Original thesis: bought as a price-to-value gap; value gap now closed [D04], [D07].",
+   "Earnings record: record profit growth observed through 2006, but the commodity environment is now very different from the original purchase period [D02].",
+   "Capital allocation: OCF less capex has declined significantly, indicating rising replacement investment costs [D06]."
+  ],
+  "price_vs_value_now": "The stock trades at approximately 14.53x P/E with a 3.11% dividend yield, which represents a full valuation relative to integrated oil peers [D04], [D06].",
+  "after_tax_hurdle": "Selling will trigger a 35% federal tax cost on the substantial capital gain; however, given the closure of the price-to-value gap and the availability of better long-term alternatives, the sale clears the hurdle [D04], [D08].",
+  "drivers": [
+   {
+    "driver": "The original thesis was a price-to-value gap, and the market value has now caught up to our appraisal of intrinsic value [D04], [D07].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Operating cash flow net of capital expenditures has fallen 37.6% despite rising net income, signaling increased capital intensity and lower owner earnings [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "The valuation multiples (14.5x P/E) are now consistent with, or exceed, those of integrated majors in a cyclical commodity sector [D04], [D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   }
+  ],
+  "memo": "When we purchased our stake in PetroChina in 2002–03, we were buying a business at an attractive price-to-value gap [D07]. That gap has now closed; the market value has caught up with our appraisal of intrinsic value [D04]. As a commodity producer, we do not view this as a permanent franchise to be held regardless of price [D04].\n\nWhile the company has reported record profits [D02], the underlying economics have shifted. Capital expenditures have risen sharply while cash generation net of those investments has declined [D06]. We must also recognize that a record annual result in a commodity business is not a guaranteed perpetual annuity [D03].\n\nWe are not in the business of holding commodity producers when the price no longer offers a margin of safety [D04]. Although selling incurs a 35% tax cost, the capital is better deployed elsewhere [D08]. We are liquidating our position to reallocate funds toward more compelling opportunities [D08].",
+  "uncited_claims": []
+ }
+}

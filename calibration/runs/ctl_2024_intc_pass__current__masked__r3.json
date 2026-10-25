@@ -1,0 +1,243 @@
+{
+ "pack": "ctl_2024_intc_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2024-08-02",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company designs processors and manufactures semiconductors, currently undergoing a strategic attempt to expand as a foundry for outside customers [D01]. It operates an established x86 software base and enterprise qualification processes alongside significant fabrication investments [D01].",
+   "products_customers_and_why_they_buy": [
+    "Processors and semiconductor products for internal and external customers [D01]; loyalty is supported by the installed x86 software base and enterprise qualification processes [D01]."
+   ],
+   "economics": [
+    "GAAP gross margin 35.4%; non-GAAP gross margin 38.7% [D01, D02]; adjusted operating margin 0.2% [D01, D05]; capital intensity is high, with gross annual capex guidance of $25–27 billion [D01, D02]."
+   ],
+   "earnings_record": [
+    "Q2 revenue $12.8 billion, down 1% [D01, D02]; GAAP net loss of $1.6 billion and GAAP EPS of negative $0.38 [D01, D02]; non-GAAP EPS positive $0.02 [D01, D02]."
+   ],
+   "competitive_position": [
+    "Integrated producer competing in processor markets; manufacturing leadership is currently being tested by a turnaround/foundry transition strategy rather than a proven competitive moat in commercial manufacturing [D01, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Operating cash flow $2.3 billion for the quarter [D01, D02]; company is reducing operating and capital spending by >$10 billion and suspending dividends to preserve liquidity [D01, D05]."
+   ],
+   "management_and_capital_allocation": [
+    "Management is pursuing a turnaround strategy involving headcount reductions >15% and tightened capex to protect liquidity [D01, D07]; dividend suspension starting in Q4 [D01, D02]."
+   ],
+   "price_and_valuation": [
+    "Price $21.48 as of August 2, 2024, down 26% in one session [D02, D05]; trailing earnings multiple is not meaningful due to reported loss [D02, D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "Not in pack; earnings are negative on a GAAP basis and management guidance remains loss-making for the next quarter [D02, D05]."
+   },
+   "what_the_market_is_worried_about": [
+    "Loss-making results despite high scale [D05]; execution risks in the manufacturing foundry transition [D01, D05]; potential for technical obsolescence to destroy book value [D05]; liquidity constraints necessitating dividend suspension and headcount cuts [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "August 1: Q2 earnings release, cost-reduction plan, and dividend suspension announcement [D07].",
+    "August 2: Stock price declined ~26% to $21.48 [D02, D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire held cash, equivalents, and Treasury bills of ~$189 billion as of Q1 2024 [D08]; historical prior ownership noted [D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Detailed maintenance capex figures to calculate normalized owner earnings [D02]; comprehensive long-term ROE record [D02]; independent forward earnings forecasts [D02]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The company is undergoing a complex strategic transition into a foundry model while facing execution risks in its core manufacturing [D01, D06]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "Manufacturing leadership is unproven in the foundry transition, and the current competitive position relies on a turnaround strategy rather than a sustainable moat [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company reported a GAAP net loss of $1.6 billion in the most recent quarter and is currently executing a turnaround plan [D01, D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "Recent performance shows negative GAAP EPS and the necessity to suspend dividends and reduce spending to preserve liquidity [D01, D05]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business requires massive capital expenditure guidance of $25–27 billion annually while failing to generate sufficient returns [D01, D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management is currently attempting a major turnaround with significant headcount reductions and cost-cutting measures, the outcome of which is not yet clear [D01, D07]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The company's scale is large enough to be meaningful for Berkshire [D01]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "Earnings are negative on a GAAP basis, and the business does not meet the requirement of a 10% pre-tax earnings yield [D02, D05]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 6,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a capital-intensive technology business in the midst of an unproven and liquidity-constrained turnaround"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is reacting to a significant earnings miss, the suspension of dividends, and deep uncertainty regarding the company's capital-intensive transition to a foundry model [D01, D05, D07]. We do not view this as a temporary cloud over a durable franchise, but rather as an unproven turnaround effort with severe liquidity constraints and high execution risk that falls squarely into our 'too hard' pile [D01, D06].",
+   "evidence": [
+    "GAAP net loss of $1.6 billion and negative EPS [D01, D02]",
+    "Dividend suspension and >$10 billion in planned spending cuts indicate severe liquidity pressure [D01, D05]",
+    "Manufacturing leadership is unproven and currently undergoing a high-risk strategic shift [D01, D06]"
+   ],
+   "market_narrative_we_disagree_with": "The market may be attempting to price the stock based on a potential recovery in foundry competitiveness, whereas we see fundamental structural problems that make the business's long-term earnings power impossible to estimate with a margin of safety [D01, D05].",
+   "what_must_be_true": [
+    "The company must prove it can generate meaningful, consistent owner earnings despite massive capital intensity.",
+    "The foundry transition must demonstrate sustainable profitability rather than capital depletion.",
+    "Management must successfully execute the turnaround without further eroding the capital base or requiring external dilution."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "market_stance",
+   "owner_earnings_per_share": "not in pack; company reported GAAP net loss [D01, D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "Cannot estimate intrinsic value due to negative earnings and turnaround uncertainty [D01, D05]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "not applicable; business currently in 'too hard' pile [D01, D06]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "T-bills / existing holdings / Berkshire buyback — superior to speculating on an unproven turnaround [D08]",
+   "downside_case": "Permanent loss of capital if the foundry transition fails and liquidity constraints erode the business base [D01, D05].",
+   "valuation_verdict": "FULL",
+   "flagged_assumptions": [
+    "Long-term bond yield not provided in the pack",
+    "Maintenance capex for owner earnings calculation not provided [D02]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We act as permanent passive holders, relying on the business to compound value through rational capital allocation and the strength of its underlying franchise [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Not applicable as this is a PASS decision due to the business being in the 'too hard' pile [D01, D06]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the modern era, Berkshire functions as a permanent owner of productive assets, preferring businesses that compound naturally without requiring our operational intervention or restructuring [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Foundry transition fails to achieve competitive manufacturing scale",
+    "Liquidity erosion continues, necessitating further dilution or debt",
+    "Management fails to restore positive free cash flow within the fiscal turnaround period",
+    "Persistent loss of market share in core processor business to competitors"
+   ],
+   "berkshire_constraints": "Maintain liquidity to preserve the $30B+ cash floor; avoid capital-intensive turnarounds that lack durable, predictable owner earnings [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed into existing high-quality holdings or repurchasing Berkshire shares, which offer superior risk-adjusted returns compared to this speculative turnaround [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The investment falls into the 'too hard' pile due to negative earnings, lack of a durable competitive advantage, and the inherent risks of a major turnaround [D01, D06].",
+   "biggest_risk_in_one_sentence": "The company may suffer a permanent loss of capital if the unproven foundry transition fails to generate returns above its massive capital intensity, eroding the underlying business base [D01, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2024-08-02",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital if the foundry transition fails and liquidity constraints erode the business base [D01, D05]."
+  },
+  "drivers": [
+   {
+    "driver": "The business is reporting a GAAP net loss of $1.6 billion, providing no initial pre-tax earnings yield to justify an investment [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The company is undergoing an unproven foundry transition that requires massive annual capital expenditures of $25–27 billion without a reliable return [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "Severe liquidity constraints have necessitated the suspension of dividends and deep spending cuts, indicating fundamental financial instability [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The turnaround strategy involves significant execution risk and headcount reductions, placing it firmly in our 'too hard' pile [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Foundry transition fails to achieve competitive manufacturing scale",
+   "Liquidity erosion continues, necessitating further dilution or debt",
+   "Management fails to restore positive free cash flow within the fiscal turnaround period",
+   "Persistent loss of market share in core processor business to competitors"
+  ],
+  "what_would_change_our_mind": "The company must demonstrate sustainable, consistent owner earnings and a proven ability to generate returns on capital that significantly exceed its high capital intensity.",
+  "memo": "We have reviewed the Company and find it unsuitable for our portfolio. We prefer to buy businesses with a long record of consistent returns and a clear, durable competitive advantage, rather than those requiring a high-risk turnaround of their manufacturing model [D01, D06].\n\nCurrently, the business is capital-intensive, with planned annual expenditures of $25–27 billion while reporting a GAAP net loss of $1.6 billion [D01, D02]. Such economics do not meet our standards for a wonderful business that can compound capital reliably [D01, D02].\n\nManagement is now forced to suspend dividends and aggressively cut spending to manage liquidity, which is a sign of fundamental structural difficulty rather than a temporary cloud [D01, D05]. We see no margin of safety here, as the outcome of the transition to a foundry model remains highly speculative [D01, D06].\n\nWe would rather hold cash or deploy our capital into more certain prospects than gamble on an unproven transformation [D08]. We will continue to watch from the sidelines, but for now, this remains in the 'too hard' pile [D01, D06].",
+  "uncited_claims": []
+ }
+}

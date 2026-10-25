@@ -1,0 +1,54 @@
+{
+ "pack": "2024_aapl_trim",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2024-05-04",
+ "stages": {},
+ "final": {
+  "as_of_date": "2024-05-04",
+  "company": "Apple Inc.",
+  "ticker": "AAPL",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Consumer ecosystem and brand power: intact [D01]",
+   "Recurring services revenue growth: strengthened [D03]",
+   "Management capital allocation (buybacks): intact [D03]"
+  ],
+  "price_vs_value_now": "Market cap $2,812bn; trailing P/E 28.5x; price reflects a premium multiple vs. historical standards but remains a wonderful business [D04]",
+  "after_tax_hurdle": "Significant: Federal corporate tax of 21% plus potential state impact; sale must clear this burden to justify exiting a permanent holding [D04, D06]",
+  "drivers": [
+   {
+    "driver": "Apple remains a wonderful business with durable competitive advantages and a powerful consumer ecosystem [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Services revenue continues to show strong, double-digit growth, reinforcing the strength of the customer relationship [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Tax consequences of selling a large, low-basis position are substantial and require high conviction in a better alternative [D04, D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Management remains rational and continues to return significant capital to shareholders through buybacks [D03].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "memo": "Apple remains one of our most important holdings, a wonderful business that continues to benefit from an enduring consumer ecosystem and a loyal installed base [D01]. While hardware revenue faced a modest decline in the latest quarter, the persistent strength in Services, which grew 14.2% year-over-year, confirms that the underlying economics of our customer relationship remain healthy [D03]. We do not sell wonderful businesses simply because Mr. Market expresses enthusiasm or because of cyclical fluctuations in product cycles [D05].\n\nOur investment was never based on a short-term product forecast but on the strength of the consumer franchise [D01]. The company continues to demonstrate high returns on capital and prudent capital allocation, highlighted by the board's recent authorization of $110 billion in repurchases [D02, D03]. As long as management remains rational and the competitive moat is intact, we prefer to let our capital compound rather than incur a significant 21% federal tax hit by liquidating a position we intend to hold for the long term [D04, D06].\n\nWe recognize that the current valuation is full, and we are mindful of risks such as platform regulation and increased competition [D04, D05]. However, the decision to hold is dictated by the quality of the business and the high cost of replacement, rather than a desire to time market movements [D05, D06]. We remain confident in the business's ability to navigate these challenges and generate long-term value for Berkshire [D01].",
+  "uncited_claims": []
+ }
+}

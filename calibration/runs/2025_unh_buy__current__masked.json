@@ -1,0 +1,251 @@
+{
+ "pack": "2025_unh_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2025-06-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company integrates health-benefit underwriting with care delivery, pharmacy services, and information operations [D01]. It operates as an intermediary that collects premiums to absorb uncertain medical costs for its members [D01].",
+   "products_customers_and_why_they_buy": [
+    "Health benefit plans, pharmacy services, and care delivery provided to a large consumer base [D01]. Membership grew by 780,000 year-to-date as of the first quarter [D01, D02]."
+   ],
+   "economics": [
+    "Operating earnings exceeded $32 billion in 2024 [D01, D02]. Economics are driven by the spread between premiums and medical expenditures, which are currently pressured by utilization and reimbursement factors [D01, D06]. Maintenance capex and a statutory capital roll-forward are not provided [D02].",
+    "2024 revenue was $400.3 billion vs $371.6 billion in 2023 [D01, D02]. Q1 2025 revenue was $109.6 billion [D01, D02].",
+    "Operating cash flow was $24.2 billion in 2024 [D01, D02]."
+   ],
+   "earnings_record": [
+    "2024 operating earnings were $32.3 billion [D01, D02]. GAAP EPS was $15.51 and adjusted EPS was $27.66 in 2024 [D01, D02]. Q1 2025 GAAP EPS was $6.85 and adjusted EPS was $7.20 [D01, D02]. Outlook is currently suspended [D01, D03]."
+   ],
+   "competitive_position": [
+    "The company possesses scale in insurance and healthcare services [D01]. Competitive position is subject to industry-wide medical-loss-ratio pressures and reimbursement timing mismatches [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Full subsidiary debt schedule and insurer statutory-capital roll-forward are not in pack [D02]. Precise owner-earnings and distributable cash at parent are not calculated [D02]."
+   ],
+   "management_and_capital_allocation": [
+    "CEO leadership transition effective May 13, 2025; Hemsley returned to the role [D03]. Outlook was suspended following acceleration of care activity [D03]."
+   ],
+   "price_and_valuation": [
+    "June 30 unadjusted close was $311.97 [D04, D07]. 2024 adjusted EPS of $27.66 implies a multiple of 11.28x; GAAP EPS of $15.51 implies 20.11x [D04]. Forward guidance is suspended [D03, D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "not in pack"
+   },
+   "what_the_market_is_worried_about": [
+    "Inability to forecast medical costs [D05].",
+    "Accelerating care activity beyond benefit categories [D03, D05].",
+    "Medicare Advantage utilization and reimbursement pressures [D01, D03, D05].",
+    "Potential criminal Medicare investigation [D05].",
+    "Leadership transition and execution uncertainty [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "January 16: Released 2024 results [D07].",
+    "April 17: Reported Q1 results and lowered guidance [D07].",
+    "May 13/14: CEO transition and suspension of annual earnings outlook [D07].",
+    "May 14: Disputed characterization of criminal investigation [D07]."
+   ],
+   "berkshire_context": [
+    "The Company is not listed in the latest Berkshire 13F filing as of March 31, 2025 [D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Full maintenance-capital expenditure split, insurer statutory-capital roll-forward, and complete subsidiary debt schedule [D02]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "UNSURE",
+     "evidence": "While the company integrates healthcare services and insurance, the current inability to forecast medical costs and ongoing investigations introduce significant complexity [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "The company possesses scale, but faces industry-wide pressures on medical-loss ratios and reimbursement rates, making it difficult to assess durable pricing power in the current environment [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "UNSURE",
+     "evidence": "Recent operational volatility, including the suspension of earnings outlooks, makes it unclear if historical earnings stability can be maintained [D01, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "Precise owner earnings and statutory capital data are not available in the pack to assess the capital structure or returns on unlevered tangible capital [D02]."
+    },
+    "capital_intensity": {
+     "score": "UNSURE",
+     "evidence": "Maintenance capital expenditures are not provided, preventing an analysis of how much cash is required to maintain the business [D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management has undergone a leadership transition in May 2025, and there is significant execution uncertainty and ongoing regulatory scrutiny [D03, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With $400.3 billion in 2024 revenue, the company is of sufficient scale to be meaningful for Berkshire [D01]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "Owner earnings and long bond yields are not in the pack, making it impossible to calculate a meaningful earnings yield to judge against the required margin of safety [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 0,
+   "n_unsure": 7,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a large-scale healthcare intermediary currently facing significant operational uncertainty and regulatory headwinds"
+  },
+  "gate2": {
+   "templates": [
+    "B2"
+   ],
+   "why_available": "The market is currently reacting with alarm to a combination of forecasting failures regarding medical costs and an ongoing criminal investigation, which has led to a suspension of earnings guidance [D03, D05]. While the company's core operations remain significant, the uncertainty regarding utilization trends and regulatory scrutiny creates a cloud that obscures the underlying earnings power [D01, D03, D05]. We require further clarity to determine if this is a temporary operational disruption or a fundamental impairment of the franchise before we would consider this a bargain [D01, D02].",
+   "evidence": [
+    "Operating earnings exceeded $32 billion in 2024 despite current pressures [D01, D02].",
+    "Company is facing significant operational uncertainty and regulatory headwinds [D01, D05].",
+    "CEO leadership transition occurred in May 2025 following the suspension of the outlook [D03].",
+    "Current price-to-earnings ratios are distorted by the suspension of forward guidance [D03, D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market is currently pricing the business as if the recent volatility in medical-loss ratios and the regulatory investigation represent a permanent decline in the value of the enterprise, rather than a manageable set of headwinds [D03, D05].",
+   "what_must_be_true": [
+    "The regulatory investigation does not represent an existential threat to the company's ability to operate.",
+    "Medical cost trends can be brought under control through pricing adjustments or utilization management.",
+    "The core health-benefit and pharmacy service franchises retain their competitive moat and customer loyalty."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack [D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "maintenance capex and statutory capital roll-forward missing [D02]",
+     "earnings guidance suspended [D03]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "valuation impossible due to missing data and suspended guidance",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / T-bills / existing holdings / Berkshire buyback — better due to lack of visibility into core earnings power [D02, D03]",
+   "downside_case": "potential permanent impairment of competitive position from regulatory investigations and persistent medical cost inflation [D03, D05]",
+   "valuation_verdict": "FULL",
+   "flagged_assumptions": [
+    "unable to calculate owner earnings due to missing maintenance capex and statutory capital data [D02]",
+    "unable to determine normalized earnings yield due to suspended guidance [D03]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Berkshire functions as a permanent, passive holder of marketable securities, relying on the long-term compounding of the underlying business [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realized through the business's ability to normalize medical-loss ratios and effectively deploy capital over an extended timeframe [D01, D03]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the current era, Berkshire operates as a permanent owner of high-quality franchises; we do not engage in restructuring or active management of complex healthcare entities [D01, D03]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent loss of pricing power due to government-imposed reimbursement caps in Medicare Advantage [D01, D05].",
+    "Regulatory or criminal investigations resulting in meaningful operational restrictions or existential penalties [D05].",
+    "Inability to manage medical cost trends, leading to a permanent impairment of the underwriting spread [D01, D03, D06]."
+   ],
+   "berkshire_constraints": "Must maintain cash reserves above the $30B floor [instruction 5]; insurance subsidiary capital adequacy must be maintained; potential reputational risk from involvement in entities under criminal investigation [D05].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better preserved in T-bills or utilized for repurchasing Berkshire shares until earnings visibility is restored [D02, D03].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The significant operational uncertainty and regulatory headwinds currently place this outside a predictable circle of competence, precluding a large-scale investment.",
+   "biggest_risk_in_one_sentence": "The combination of suspended earnings guidance, accelerating care utilization, and an ongoing criminal investigation makes it impossible to determine a reliable margin of safety for the business."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-06-30",
+  "company": "the Company",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "potential permanent impairment of competitive position from regulatory investigations and persistent medical cost inflation"
+  },
+  "drivers": [
+   {
+    "driver": "Valuation is impossible due to missing data regarding maintenance capital and statutory capital, as well as the suspension of earnings guidance [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The combination of accelerating medical costs and ongoing criminal investigation places the company outside our circle of competence [D03, D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Regulatory and operational headwinds create a cloud that obscures the underlying economics and durability of the franchise [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Capital is better preserved in T-bills until clear visibility into normalized earnings power is restored [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent loss of pricing power due to government-imposed reimbursement caps in Medicare Advantage [D01, D05].",
+   "Regulatory or criminal investigations resulting in meaningful operational restrictions or existential penalties [D05].",
+   "Inability to manage medical cost trends, leading to a permanent impairment of the underwriting spread [D01, D03, D06]."
+  ],
+  "what_would_change_my_mind": "Clear evidence that the regulatory investigations do not threaten the firm's existence, combined with a demonstrated ability to stabilize medical-loss ratios and provide reliable, sustainable earnings guidance.",
+  "memo": "We have looked at this business and, for now, placed it firmly in our 'too hard' pile. While the company operates at a scale that would otherwise catch our attention, the current visibility into its underlying economics is effectively zero [D01, D03]. When a business is forced to suspend earnings guidance due to an inability to forecast its own primary costs, we cannot begin to calculate the owner earnings that represent the starting point for our investment decisions [D02, D03].\n\nBeyond the operational fog caused by accelerating care utilization, we are troubled by the ongoing criminal investigation [D03, D05]. We require businesses that operate with absolute integrity, and any shadow over the regulatory standing of a company introduces a risk of permanent capital loss that we are unwilling to accept [D05]. We simply do not have the expertise to bet on the outcome of such investigations [D05].\n\nPrice is only meaningful when compared to a conservative estimate of future cash flows, and here the 'price' is merely a ticker symbol for a set of unknowns [D02, D04]. We prefer to hold cash or invest in our own shares rather than gamble on the resolution of complex regulatory and actuarial crises [D02, D03]. In this case, we have no edge, and we prefer to wait for a clearer opportunity where the margin of safety is visible to the naked eye [D03].",
+  "uncited_claims": []
+ }
+}

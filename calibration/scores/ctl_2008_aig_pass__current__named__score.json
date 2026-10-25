@@ -1,0 +1,44 @@
+{
+ "trade_id": "ctl_2008_aig_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett considered but could not undertake roughly $25B for the property/casualty unit on the crisis weekend.",
+   "He distinguished desirable operating businesses from financial-products obligations management did not adequately understand.",
+   "The pressure and depth of the funding hole prevented a workable transaction despite interest in selected units."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value",
+   "Opaque financial guarantees",
+   "Risk of permanent capital loss",
+   "Negative earnings"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "AIG reported a $13.16 billion net loss for the first six months of 2008",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 11,
+  "share": 0.92
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We never bet on survival in a situation where the risks are this opaque.",
+ "grader_notes": "The agent correctly reached the PASS decision but failed to cite any of the specific, retrospective drivers provided in the key, which focused on the concrete reality of the failed $25B crisis-weekend negotiation. The agent instead built a generic fundamental analysis of the company's financial condition, missing the actual behavioral evidence of Buffett's decision-making process.",
+ "run": "ctl_2008_aig_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

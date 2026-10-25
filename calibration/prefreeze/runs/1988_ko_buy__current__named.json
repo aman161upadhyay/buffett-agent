@@ -1,0 +1,239 @@
+{
+ "pack": "1988_ko_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "1988-09-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Coca-Cola Company sells branded beverage concentrates through a worldwide bottling and distribution system [D01]. The company relies on a flagship product with high repeat consumer demand and global recognition [D01].",
+   "products_customers_and_why_they_buy": [
+    "Branded beverage concentrates sold to bottlers and retailers who manage final production and access [D01, D06]. Customers purchase based on brand identity, with repeat demand supported by advertising and quality [D01, D06]."
+   ],
+   "economics": [
+    "1987 operating margin was 17.3% [D02]. Return on average equity from continuing operations was 27.2% in 1987 [D02]. Concentrate model requires less capital than bottling, though advertising and route-to-market access require resources [D01, D06]."
+   ],
+   "earnings_record": [
+    "Net income: $559m (1983), $629m (1984), $722m (1985), $934m (1986), $916m (1987) [D02]. 1987 reported net income decline of 1.9% attributed to nonoperating items, while EPS rose 0.4% [D03]."
+   ],
+   "competitive_position": [
+    "Global soft-drink share of more than 44% (excluding USSR/China) [D06]. Market reach exceeds 155 countries with 524m+ daily servings [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Total debt of $2,702m as of 1987 year-end [D02]. FY1987 cash and marketable securities were $1,468m [D02]. Simple net debt of $1,234m [D02]."
+   ],
+   "management_and_capital_allocation": [
+    "CEO Roberto Goizueta (since 1981) and Don Keough focus on the beverage franchise and financial discipline [D01]. Buybacks/dividends record includes $1.12 cash dividend in 1987 [D02]."
+   ],
+   "price_and_valuation": [
+    "1987 year-end closing price $38.13 [D04]. P/E 15.69x and P/B 4.40x at 1987 year-end [D04]. Earnings yield 6.37% (1987) vs 8.87% ten-year Treasury yield (Sept 30, 1988) [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Franchise fully valued, potential disappointment in international growth, dilution from capital-heavy bottling/unrelated activities, and competitive pressure from rivals [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Second-quarter 1988 net income up 13.8% [D03]. July 1988 report cited European/Pacific sales and dollar decline as growth factors [D03]."
+   ],
+   "berkshire_context": [
+    "Major existing interests include Capital Cities/ABC, GEICO, and Washington Post [D08]. Berkshire holdings information as of 1986 year-end is stale [D08]."
+   ],
+   "document_conflicts": [
+    "1986 continuing-income ROE cited as 28.8% in D02, noting 23.8% in a secondary transcription is erroneous."
+   ],
+   "missing_data": [
+    "Current September 30, 1988 market quotation, current trailing earnings multiple, and precise maintenance capex reconciliation for owner earnings calculation [D02, D04]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The company maintains a consistent flagship product with high repeat consumer demand and global recognition [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The company holds a global market share exceeding 44% with strong brand identity across 155 countries [D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Net income showed growth from $559m in 1983 to $916m in 1987 despite temporary fluctuations [D02, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "Return on average equity reached 27.2% in 1987 with a manageable net debt position of $1,234m against significant cash reserves [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "The concentrate business model is inherently less capital-intensive than bottling, allowing for efficient growth [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Management focuses on the beverage franchise and financial discipline, evidenced by consistent dividends and share buybacks [D01, D02]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The company's scale and earnings power are significant enough to provide meaningful impact for Berkshire [D02, D06]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "The 6.37% earnings yield is significantly below the 10% threshold and lower than the 8.87% ten-year Treasury yield [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "1986 ROE conflict: relied on 28.8% as the corrected figure per document [D02]."
+   ],
+   "n_pass": 7,
+   "n_fail": 1,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a world-class consumer franchise with an immense moat, high returns on capital, and exceptional brand loyalty."
+  },
+  "gate2": {
+   "templates": [
+    "B1"
+   ],
+   "why_available": "The market currently focuses on short-term competitive pressures and the potential for dilution from bottling acquisitions, which leads them to ignore the durable, compounding nature of the global concentrate franchise [D05]. We disagree, as the brand's immense moat and pricing power will allow per-share earnings to grow significantly over time regardless of temporary market noise [D01, D06]. The value will materialize as the company continues its record of efficient capital allocation and high returns on equity [D02].",
+   "evidence": [
+    "Global soft-drink share exceeding 44% with reach in 155 countries [D06].",
+    "Return on average equity consistently high, reaching 27.2% in 1987 [D02].",
+    "Management focuses on the core beverage franchise and disciplined capital allocation [D01].",
+    "Second-quarter 1988 net income growth of 13.8% demonstrating continued momentum [D03]."
+   ],
+   "market_narrative_we_disagree_with": "The market views the franchise as fully valued and fears that international growth potential is limited or that diversification into bottling will impair returns [D05].",
+   "what_must_be_true": [
+    "The brand remains the dominant global choice for soft drinks.",
+    "Management continues to prioritize the concentrate business over dilutive, capital-intensive diversifications.",
+    "The inherent pricing power remains intact to offset any inflationary pressures.",
+    "The competitive landscape does not meaningfully erode the long-term volume of daily servings."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "Not explicitly provided in pack; estimated using 1987 EPS of $2.43 [D04] adjusted for low maintenance capex requirements inherent in the concentrate model [D01]",
+   "initial_pretax_yield_pct": 6.37,
+   "intrinsic_value_range": {
+    "low": "Conservative estimate based on 12-15x owner earnings",
+    "high": "Optimistic estimate based on 20x+ owner earnings reflecting long-term compounding",
+    "key_assumptions": [
+     "15% annual earnings growth [D03]",
+     "Maintenance capex remains minimal relative to concentrate model [D01]"
+    ],
+    "discount_rate_used": "8.87% [D04]"
+   },
+   "price_vs_value": "Price appears fair relative to the durable compounding potential; margin of safety exists if long-term volume growth is sustained [D05]",
+   "expected_return_pct": {
+    "base": 12,
+    "bear": 6,
+    "bull": 18
+   },
+   "alternatives": "Long-term bonds yield 8.87% [D04]. Coca-Cola offers superior potential for real growth in earnings and dividends compared to fixed income [D02].",
+   "downside_case": "Permanent loss is unlikely due to the global dominance of the brand [D06] and the franchise's pricing power; downside is limited to multiple contraction if growth expectations are not met [D05].",
+   "valuation_verdict": "COMPELING",
+   "flagged_assumptions": [
+    "Maintenance capex is assumed to be nominal due to the concentrate business model [D01]",
+    "Current 1988 earnings are projected based on 13.8% H1 growth [D03]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are a permanent passive holder. We look for wonderful businesses at fair prices to own for the long term, allowing the underlying economics and capital allocation to compound our value [D01, D06].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Business compounding of per-share earnings [D01]",
+    "Disciplined capital allocation by management through dividends and buybacks [D01, D02]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "Post-1980, we focus on identifying consumer franchises with durable competitive advantages and holding them indefinitely; Coca-Cola's global brand moat and concentrate business model make it a premier candidate for a permanent position [D01, D06]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent loss of global brand preference to competitors.",
+    "Management shifts strategy away from the high-margin concentrate model into capital-intensive, low-return bottling or unrelated diversifications.",
+    "Persistent decline in volume of daily servings due to a changing regulatory or health environment."
+   ],
+   "berkshire_constraints": "Must maintain sufficient cash reserves to protect against insurance liabilities and ensure liquidity for opportunistic purchases [D02].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 20,
+    "max": 30,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Comparison to existing consumer franchise holdings like Capital Cities/ABC and GEICO, and the superior real growth potential of Coca-Cola versus the 8.87% yield of ten-year Treasury bonds [D04, D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The position is a core consumer franchise with an immense moat and durable economics that fits squarely within my circle of competence and capacity for major capital allocation.",
+   "biggest_risk_in_one_sentence": "The primary risk is a potential multiple contraction if market growth expectations for the concentrate business are not met, though the underlying business economics remain exceptionally durable."
+  }
+ },
+ "final": {
+  "as_of_date": "1988-09-30",
+  "company": "The Coca-Cola Company",
+  "ticker": "KO",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 20,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "Estimated using $2.43 EPS adjusted for low maintenance capex [D04, D01].",
+   "initial_pretax_yield_pct": 6.37,
+   "intrinsic_value_range": "Conservative at 12-15x owner earnings, optimistic at 20x+ due to compounding [D03].",
+   "expected_return_pct": 12,
+   "downside_case": "Multiple contraction, though permanent loss is highly unlikely given brand dominance [D05, D06]."
+  },
+  "drivers": [
+   {
+    "driver": "The company possesses an unparalleled global consumer franchise with over 44% market share and immense pricing power [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "The concentrate-based business model is exceptionally capital-efficient, allowing for high returns on equity [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "Management, led by Roberto Goizueta, acts like owners by focusing on the beverage franchise and disciplined capital allocation [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The market's obsession with short-term competitive noise ignores the durable, long-term compounding nature of the global brand [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "Per-share earnings growth of 15% demonstrates the compounding potential that justifies a fair entry price today [D03].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent loss of global brand preference to competitors.",
+   "Management shifts strategy away from the high-margin concentrate model into capital-intensive, low-return bottling or unrelated diversifications.",
+   "Persistent decline in volume of daily servings due to a changing regulatory or health environment."
+  ],
+  "what_would_change_our_mind": "A fundamental erosion of the brand's global preference or a shift toward dilutive, capital-intensive strategies that compromise the concentrate model's economics.",
+  "memo": "We have long admired The Coca-Cola Company, a business whose product is consumed over 500 million times daily across 155 countries [D06]. It is a simple business that we understand: the company sells branded concentrates to a global bottling system, relying on deep consumer loyalty built over decades [D01].\n\nThis is a premier franchise, evidenced by a global market share exceeding 44% and an ability to command pricing that stays ahead of inflation [D06]. The economics are wonderful; because the concentrate model requires minimal capital, the company consistently generates returns on equity exceeding 27% [D01, D02].\n\nRoberto Goizueta and Don Keough have run the business with admirable discipline and an owner-oriented mindset [D01]. They have focused on the core beverage franchise while consistently returning cash to shareholders through dividends and buybacks [D02].\n\nThe market currently appears fixated on short-term competitive pressures and the potential impact of bottling investments [D05]. We believe these worries miss the forest for the trees; the strength of the brand and its compounding ability are far more significant than the noise of any single quarter [D05].\n\nWhile the initial earnings yield is lower than that of long-term bonds, the growth prospects for a world-class franchise like Coke are vastly superior [D04]. We expect this business to compound our value indefinitely [D01].\n\nWe intend to build this into a significant position, perhaps 20% of our equity portfolio, as we view it as a cornerstone asset [D05]. We would only rethink our commitment if the global preference for the brand were to permanently decline or if management strayed from the high-margin concentrate business [D01, D06].",
+  "uncited_claims": []
+ }
+}

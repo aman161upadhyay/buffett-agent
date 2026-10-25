@@ -1,0 +1,237 @@
+{
+ "pack": "1989_usair_pref",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "1989-08-07",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "USAir operates an established passenger-airline network and has expanded through acquisitions including Piedmont and Pacific Southwest [D01]. The company's economics rely on network and customer loyalty, though these are subject to fare competition and substantial capital requirements [D01].",
+   "products_customers_and_why_they_buy": [
+    "Passenger airline transportation services sold to the traveling public [D01]. Repeat purchasing and customer loyalty are cited as potential, albeit difficult to reproduce, operating assets [D01]."
+   ],
+   "economics": [
+    "Operating margins were 9.5% (1985), 9.2% (1986), 10.6% (1987), and 7.6% (1988) [D02]. Return on average 1987/88 equity was 8.32% [D02]. The industry is highly capital intensive, requiring prior commitment to aircraft and infrastructure before revenue is known [D01]. Owner earnings inputs like maintenance capex are not explicitly resolved in the pack [D02]."
+   ],
+   "earnings_record": [
+    "Net income: $122m (1984), $117m (1985), $98.352m (1986), $194.649m (1987), $165.004m (1988) [D02]. Results are significantly affected by acquisitions, limiting organic comparability [D02, D03]."
+   ],
+   "competitive_position": [
+    "USAir is an established incumbent with an expanded network following acquisitions [D01]. It faces high-cost exposure due to fixed labor, aircraft, and integration obligations [D05]. Load-factor headroom over breakeven narrowed from 8.0 points in 1987 to 2.6 in 1988 [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "December 1988 net financial debt was $1,340.515m, with an additional $6.4bn of undiscounted noncancelable operating-lease commitments [D02]. Cash at year-end 1988 was $78m [D02]."
+   ],
+   "management_and_capital_allocation": [
+    "Ed Colodny leads the company and has a substantial industry operating record [D01]. Capital allocation has involved acquisitions of Piedmont and Pacific Southwest [D01]."
+   ],
+   "price_and_valuation": [
+    "Proposed $358m convertible preferred at 9.25% coupon, convertible at $60/share after two years [D02, D04]. Historical EPS (1988) was $3.81; book value per share $47.28 [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 9.25,
+    "long_bond_yield": 8.03,
+    "basis": "Negotiated preferred coupon of 9.25% vs 10-year Treasury yield of 8.03% on 1989-08-07 [D04]. No FCF yield is provided [D02]."
+   },
+   "what_the_market_is_worried_about": [
+    "Deregulated fare competition potentially transferring value to travelers [D05].",
+    "High fixed costs (labor, fleet, integration) remaining burdensome when fares fall [D05].",
+    "Takeover defenses prioritizing management stability over investor flexibility [D05].",
+    "Debt and lease obligations that could jeopardize dividends [D05]."
+   ],
+   "deal_terms_if_any": [
+    "$358 million of 9.25% convertible preferred; conversion at $60 after two years; ten-year mandatory redemption [D02, D09]."
+   ],
+   "recent_events": [
+    "Q1 1989 net profit of $15.5m compared to a loss of $18.8m in Q1 1988 [D03].",
+    "Proposed investment announced around August 7, 1989 [D01, D07]."
+   ],
+   "berkshire_context": [
+    "The contemplated $358 million investment is a negotiated financing intended to provide a senior claim with equity upside [D08, D09]."
+   ],
+   "document_conflicts": [
+    "Operating income for 1984 in D02 is noted as failing arithmetic reconciliation; figures are withheld [D02]."
+   ],
+   "missing_data": [
+    "Detailed lease-capitalization reconciliation [D02].",
+    "Current fleet-capital budget [D02].",
+    "Exact August 7 common stock price [D04].",
+    "Contemporaneous peer unit-cost table [D06]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The airline industry is subject to intense fare competition and rapid structural shifts that make long-term business performance difficult to predict [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "USAir operates as a commodity provider in a deregulated environment where pricing power is constrained by intense competition [D01, D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "Operating margins have been inconsistent, ranging from 10.6% in 1987 to 7.6% in 1988, and results are clouded by significant integration activities [D02, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "Return on equity is modest at 8.32%, and the balance sheet carries substantial debt and $6.4bn in operating lease commitments [D02]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The industry is highly capital-intensive, requiring massive upfront commitments for aircraft and infrastructure that do not produce predictable, high-return outcomes [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "While management has deep industry experience, the current reliance on integration and aggressive acquisition strategies complicates a full assessment of their owner-mindedness [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "At $358 million, the investment is of a scale that can meaningfully impact Berkshire's capital allocation [D02, D08]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The 9.25% coupon on the preferred provides a yield above the 8.03% long bond yield, compensating for the risks of the underlying business [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "1984 net income reported in D02 is inconsistent and withheld; I rely on the 1985-1988 trend which shows cyclical volatility [D02]."
+   ],
+   "n_pass": 2,
+   "n_fail": 5,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": true,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "The terms, not the business, carry the investment; this is a negotiated financing in a commodity industry where we have no special insight."
+  },
+  "gate2": {
+   "templates": [
+    "B3"
+   ],
+   "why_available": "The market views USAir as a commodity business facing intense fare competition and high fixed costs, which suppresses the common equity valuation [D05]. We view this as a negotiated financing opportunity where the 9.25% preferred coupon provides a superior yield to the 8.03% long bond while maintaining senior status and equity upside via the conversion feature [D04]. The deal relies on the seniority and yield to protect capital, effectively treating the airline's operational volatility as a manageable risk through the preferred structure [D08, D09].",
+   "evidence": [
+    "Negotiated 9.25% coupon on preferred stock versus 8.03% long bond yield [D04].",
+    "Senior claim with ten-year mandatory redemption provides downside protection [D02, D09].",
+    "Equity upside through conversion option at $60/share [D02, D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market fears that structural industry changes and high fixed costs render the business untenable, failing to appreciate the attractiveness of a senior, high-yielding security in a company that remains a significant, established network carrier [D01, D05].",
+   "what_must_be_true": [
+    "USAir remains solvent enough to pay the 9.25% preferred dividend.",
+    "The seniority of the preferred stock provides sufficient protection against the company's $6.4bn in lease obligations.",
+    "The conversion option retains potential value over the ten-year life of the instrument."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "negotiated_terms",
+   "owner_earnings_per_share": "not in pack",
+   "initial_pretax_yield_pct": 9.25,
+   "intrinsic_value_range": {
+    "low": "N/A",
+    "high": "N/A",
+    "key_assumptions": [
+     "Investment relies on seniority and 9.25% coupon for capital protection [D08, D09].",
+     "Conversion option at $60/share offers potential upside [D02, D04]."
+    ],
+    "discount_rate_used": "8.03% (long bond yield) [D04]"
+   },
+   "price_vs_value": "N/A - negotiated preferred security",
+   "expected_return_pct": {
+    "base": 9.25,
+    "bear": 0,
+    "bull": 15
+   },
+   "alternatives": "Bonds (8.03%) [D04]; the preferred yield of 9.25% provides a superior return while maintaining senior status and equity upside, making it preferable to plain long bonds [D04, D08].",
+   "downside_case": "Dividend default or impairment if airline competition renders USAir insolvent; protected by senior status and mandatory redemption [D02, D09].",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "No FCF yield or owner earnings calculated due to lack of maintenance capex and lease-capitalization details [D02]."
+   ]
+  },
+  "gate4": {
+   "role": "R2",
+   "role_description": "Berkshire serves as a financier providing capital with specific terms including a 9.25% coupon, seniority, and a conversion option, allowing us to earn an attractive yield while we assess the long-term viability of the underlying business [D04, D08].",
+   "horizon": "until conversion or mandatory redemption",
+   "value_realisation_path": [
+    "Receive 9.25% annual preferred dividends as income [D04].",
+    "Realize upside if USAir's business performance improves and common stock price exceeds $60/share, enabling conversion [D02, D04].",
+    "Return of principal via ten-year mandatory redemption if conversion is not attractive [D02, D09]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 1980s, we actively utilize our capital to provide negotiated financing to companies that need it, securing senior claims with equity kickers when the underlying industry dynamics are difficult but the terms provide a sufficient margin of safety [D04, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "USAir fails to meet dividend obligations on the preferred stock [D02]",
+    "Load-factor breakeven point exceeds capacity, signaling structural insolvency [D06]",
+    "Unforeseen regulatory changes significantly alter the airline industry's competitive landscape [D05]",
+    "Substantial increase in debt or lease liabilities further impairs the senior position of our investment [D02]"
+   ],
+   "berkshire_constraints": "As a $358 million negotiated position, this investment fits well within our capital deployment strategy and poses no threat to our cash position or regulatory standing [D08, D09].",
+   "size_pct_nav": {
+    "initial": 358000000,
+    "target": 358000000,
+    "max": 358000000,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "The 9.25% coupon provides an immediate yield advantage over current long bond yields (8.03%), representing a better risk-adjusted return than plain fixed-income alternatives [D04, D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a significant, negotiated private placement consistent with my approach to deploying capital into established businesses during the 1980s [D04, D08].",
+   "biggest_risk_in_one_sentence": "The primary risk is that the airline's high fixed costs and intense competitive pressures lead to a permanent impairment of the business's ability to service the preferred dividends."
+  }
+ },
+ "final": {
+  "as_of_date": "1989-08-07",
+  "company": "USAir Group",
+  "ticker": "U",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B3"
+  ],
+  "catalyst_role": "R2",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 9.25,
+   "intrinsic_value_range": "N/A",
+   "expected_return_pct": 9.25,
+   "downside_case": "Dividend default or impairment protected by senior status and mandatory redemption [D02, D09]."
+  },
+  "drivers": [
+   {
+    "driver": "The 9.25% coupon provides an immediate yield advantage over the 8.03% long bond yield, representing a superior risk-adjusted return [D04, D08]."
+   },
+   {
+    "driver": "The senior status of the preferred stock provides a margin of safety against the company's capital intensity and volatility [D08, D09]."
+   },
+   {
+    "driver": "We gain equity upside through the conversion option at $60 per share, participating in potential future success without needing a certain forecast of industry structure [D02, D04]."
+   },
+   {
+    "driver": "The investment is a negotiated financing consistent with our approach to deploying capital into established businesses during the 1980s [D04, D08]."
+   }
+  ],
+  "kill_criteria": [
+   "USAir fails to meet dividend obligations on the preferred stock [D02]",
+   "Load-factor breakeven point exceeds capacity, signaling structural insolvency [D06]",
+   "Unforeseen regulatory changes significantly alter the airline industry's competitive landscape [D05]",
+   "Substantial increase in debt or lease liabilities further impairs the senior position of our investment [D02]"
+  ],
+  "what_would_change_our_mind": "A sustained decline in operational performance that threatens the solvency of the company and our ability to collect the 9.25% dividend or the principal upon mandatory redemption.",
+  "memo": "We have agreed to purchase $358 million of convertible preferred stock in USAir Group, an established passenger-airline network that has expanded through significant acquisitions [D01, D02]. While the airline industry is characterized by intense fare competition and substantial capital requirements that place it outside our traditional circle of competence, the terms of this private placement provide a unique opportunity [D01, D05].\n\nUSAir operates as an incumbent carrier, yet it faces the commodity-like pressures of a deregulated environment where pricing power is often constrained [D01, D05]. Returns on capital have been inconsistent, and the company carries a heavy load of debt and long-term operating lease commitments [D02]. Under the leadership of Ed Colodny, the firm has sought scale through the integration of Piedmont and Pacific Southwest, a strategy that necessitates significant ongoing capital expenditure [D01, D02].\n\nWe are not betting on a transformation of the airline industry, but rather on the attractiveness of a senior security [D08]. The market's apprehension regarding high fixed costs and structural instability has allowed us to negotiate a 9.25% coupon, which compares favorably to the 8.03% yield on long-term Treasury bonds [D04, D08]. This provides us with an immediate, superior income stream relative to fixed-income alternatives [D04].\n\nOur investment is protected by a senior claim and a ten-year mandatory redemption provision, which provides a significant margin of safety [D02, D09]. Furthermore, we retain the option to convert our holdings into common stock at $60 per share, giving us participation should the company's performance improve over the next decade [D02, D04]. We view this as a prudent way to deploy capital while maintaining a senior position that limits our exposure to the inherent volatility of the skies [D08, D09].",
+  "uncited_claims": []
+ }
+}

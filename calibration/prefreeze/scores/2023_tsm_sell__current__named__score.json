@@ -1,0 +1,52 @@
+{
+ "trade_id": "2023_tsm_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Geopolitical location risk outweighed admiration for the business. → The geographic concentration of production in a region subject to heightened geopolitical tension creates a risk profile that is inconsistent with our requirements for a permanent holding [D01, D05].",
+   "The company was well managed; the reassessment was not a condemnation of its operations. → While the business possesses excellent manufacturing expertise and scale, the 'world has changed' regarding the safety and accessibility of the assets upon which its earnings depend [D01]."
+  ],
+  "missed": [
+   "Buffett preferred other places to allocate capital."
+  ],
+  "extra_agent_drivers": [
+   "We do not accept risks of permanent capital loss when the future of a company's primary operating location is unknowable [D01, D05]."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "TSMC is undeniably a wonderful business, leading the world in semiconductor foundry manufacturing",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The stock trades at a trailing P/E of 14.9x",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company's operating performance remains strong",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 3,
+  "share": 0.3
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Consequently, we have decided to sell our position to protect Berkshire's capital, as the risk profile has fundamentally shifted regardless of the company's P/E multiple [D04, D05].",
+ "grader_notes": "The agent correctly identified the primary drivers regarding geopolitical risk and the quality of the business operations. It missed the opportunity cost component (preference for other allocations) cited by Buffett. The reasoning remains highly aligned with the core risk-management thesis.",
+ "run": "2023_tsm_sell__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "SELL",
+ "agent_decision": "SELL",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

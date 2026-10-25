@@ -1,0 +1,63 @@
+{
+ "pack": "1969_partnership_close",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "1969-05-29",
+ "stages": {},
+ "final": {
+  "as_of_date": "1969-05-29",
+  "trailing_earnings_yield_pct": 5.75,
+  "normalised_earnings_yield_pct": 5.75,
+  "normalisation_basis": "trailing (no distortion) [D04]",
+  "long_bond_yield_pct": 6.56,
+  "spread_points": "-0.81",
+  "drawdown_from_high_pct": 4.9,
+  "panic_indicators": [
+   "market increasingly dominated by performance-oriented and speculative methods [D01]",
+   "scarcity of suitable individual situations [D04]"
+  ],
+  "rule_decision": "HOLD_CASH",
+  "decision": "SELL_DOWN",
+  "override_reason": "Market prices for general securities are unattractive relative to long-term interest rates [D04], and the Partnership faces a specific, documented inability to find ideas that pass filters at the required scale [D03, D04]. Given the manager's stated dissatisfaction with the effort required and the scarcity of bargains, continued liquidation of the Partnership's position is the rational conclusion [D03, D08].",
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "The earnings yield of 5.75% is less than the 6.56% yield available on the ten-year government bond [D04].",
+  "valuation_level": "Prices are high relative to value, as indicated by the negative yield spread and a scarcity of qualified investment ideas [D04, D03].",
+  "ideas_that_qualify": [
+   "None identified at necessary $3m scale [D03, D04]"
+  ],
+  "berkshire_action": "Proceed with the winding down of the Partnership; avoid new speculative commitments; maintain existing positions only where economics remain attractive and control benefits persist [D03, D05, D08].",
+  "drivers": [
+   {
+    "driver": "The earnings yield of equities is inferior to the risk-free long-term government bond yield [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "A persistent scarcity of investment opportunities that meet our stringent criteria at the required $3 million scale [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The manager's stated desire to reduce the competitive burden of finding bargains in a speculative, performance-oriented market [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The inherent complexity and potential tax consequences of managing existing controlled businesses suggest a orderly exit is more rational than continued forced searching [D05, D08].",
+    "citations": [
+     "D05",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "Charlie and I have long operated on the principle that we only invest in what we understand at a price that offers a margin of safety. Today, the market environment is increasingly dominated by speculative, performance-oriented methods that are entirely foreign to our approach [D01]. With the ten-year Treasury offering a yield of 6.56%, compared to the S&P 500 earnings yield of just 5.75%, stocks as a general asset class offer no premium to bonds, let alone the margin of safety we require for individual selections [D04].\n\nFurthermore, our scale has reached a point where we require individual situations of at least $3 million to make a meaningful difference to our results [D03]. We are currently finding such opportunities to be in extremely short supply, and we are unwilling to chase more speculative securities simply to remain fully invested [D03, D04]. The effort required to uncover bargains in this environment is becoming disproportionate to the likely returns, and it is my judgment that we can no longer place meaningful capital at satisfactory prospective returns [D01, D03].\n\nConsequently, the rational course of action is to stop trying to force results in an environment that does not suit our methods. We will continue to evaluate our existing controlled holdings on their own merits, but we are effectively closing the door on the Partnership's general investment activities [D03, D08]. Patience is a virtue, but persistence in a 'too hard' market is not a strategy—it is a recipe for the impairment of capital [D01, D05].",
+  "uncited_claims": []
+ }
+}

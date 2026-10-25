@@ -1,0 +1,241 @@
+{
+ "pack": "dep_2021_atvi_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2021-10-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company owns recurring entertainment franchises across consoles, personal computers and mobile phones [D01]. It generates revenue through premium games, subscriptions, in-game content and advertising [D01].",
+   "products_customers_and_why_they_buy": [
+    "Premium games, subscriptions, in-game content and advertising sold to users of consoles, PCs and mobile devices [D01]. Loyalty is driven by habitual engagement with long-standing franchises [D01]."
+   ],
+   "economics": [
+    "High operating margins (42% GAAP, 44% non-GAAP in Q2 2021) [D01]. Capital-intensive software production requires ongoing creative investment; intellectual property is not a self-maintaining royalty stream [D01].",
+    "Maintenance capex and owner-earnings inputs: not in pack."
+   ],
+   "earnings_record": [
+    "Q2 2021 GAAP revenue $2.296 billion vs $1.932 billion year prior; diluted EPS $1.12 vs $0.75 [D01]. TTM operating cash flow of $2.57 billion [D01]. Cyclicality: reliance on creative investment and potential pandemic-period engagement levels [D05]."
+   ],
+   "competitive_position": [
+    "Portfolio includes large accumulated development libraries [D01]. Competitors include Electronic Arts, Take-Two and other mobile publishers [D06]. Moat evidence: habitual engagement and established franchises [D01].",
+    "Rank/Market share: not in pack."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Debt/Leverage: not in pack.",
+    "Cash: not in pack.",
+    "Refinancing needs: not in pack."
+   ],
+   "management_and_capital_allocation": [
+    "Management acknowledges serious workplace, compensation and employment allegations, creating a cloud over the company [D01].",
+    "Capital allocation record: not in pack."
+   ],
+   "price_and_valuation": [
+    "Current price: not in pack.",
+    "Market cap: not in pack.",
+    "P/E, P/B, earnings yield vs long bond: not in pack.",
+    "October 29, 2021 close: not in pack [D02, D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Serious employment, compensation and workplace allegations affecting management credibility and employee retention [D01, D05].",
+    "Sustainability of pandemic-period engagement [D05].",
+    "Predictability of franchise revenue versus fixed royalties [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "June 30, 2021: latest quarterly measurement date [D07].",
+    "July 2021: workplace allegations surface [D07].",
+    "August 3, 2021: results release acknowledging allegations and reporting Q2 financials [D01, D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire cash at June 2021 was approximately $144.1 billion [D08]. Investment would be a passive public-equity holding; potential deputy-scale position [D08].",
+    "Tax basis/regulatory thresholds: not in pack."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Full 5-10 year earnings/ROE record; precise maintenance capex; debt/liquidity details; share price as of 2021-10-31."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business relies on creative production rather than self-maintaining royalty streams and faces unpredictable engagement cycles, making long-term stability difficult to judge [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While long-standing franchises create habitual engagement, the requirement for constant creative reinvestment suggests a moat that requires significant ongoing effort rather than passive strength [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "UNSURE",
+     "evidence": "While recent quarterly results show growth, the pack lacks a multi-year record to confirm resilience across cycles, and future performance is threatened by potential declines in pandemic-period engagement [D01, D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "Debt, liquidity, and long-term ROE data are not in the pack [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "Software production is explicitly described as capital-intensive, requiring ongoing creative investment [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "FAIL",
+     "evidence": "Serious workplace, compensation, and employment allegations have created a significant cloud over management credibility [D01, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "The market cap is not in the pack, necessitating caution regarding whether it moves the needle for Berkshire [D01]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "Current price and valuation metrics are not in the pack [D01]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 0,
+   "n_fail": 3,
+   "n_unsure": 5,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": true,
+   "one_line_business_quality_verdict": "a capital-intensive business subject to creative risks and significant management governance concerns"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The business faces significant governance and culture concerns that threaten management credibility and long-term stability, while the underlying model requires constant, capital-intensive creative reinvestment [D01, D05]. We do not have sufficient information on long-term earnings durability, debt levels, or valuation to justify an investment [D01].",
+   "evidence": [
+    "Workplace, compensation, and employment allegations have created a significant cloud over management [D01].",
+    "Business model relies on ongoing creative investment rather than self-maintaining intellectual property [D01].",
+    "Lack of multi-year earnings record and balance sheet data [D01]."
+   ],
+   "market_narrative_we_disagree_with": "The market may be pricing the company based on recent pandemic-period performance without fully accounting for the risk of recurring creative failures or the structural damage caused by ongoing management and cultural instability [D01, D05].",
+   "what_must_be_true": [
+    "A resolution of the governance and workplace allegations that restores management credibility.",
+    "Evidence of a durable, repeatable earnings stream that is not reliant on continuous high-risk creative hits.",
+    "A clear margin of safety based on long-term owner earnings."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "requires resolution of governance and workplace allegations [D01]",
+     "requires evidence of durable earnings stream not reliant on continuous high-risk creative hits [D01]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "not in pack",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Berkshire cash and existing holdings are superior given management/cultural instability and lack of necessary data [D01, D08]",
+   "downside_case": "permanent loss of reputation and capital due to unresolved management/cultural instability and reliance on high-risk creative production [D01]",
+   "valuation_verdict": "FULL",
+   "flagged_assumptions": [
+    "Current price, debt levels, and maintenance capital expenditures are not in pack [D01]",
+    "Long-term earnings durability cannot be assessed without further data [D01]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital (default for marketable securities after 1980) [D01]",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "The business compounding and rational capital allocation [D01]"
+   ],
+   "decider": "deputy",
+   "why_this_role_fits_the_era": "For marketable securities in the current era, we act as permanent, passive owners, relying on the compounding power of the business rather than seeking control or restructuring [D01]. A deputy would oversee this position given the potential for an equity-style holding within a broader portfolio [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Unresolved and systemic workplace, compensation, and employment allegations undermining management credibility [D01]",
+    "Failure of the business to generate consistent, self-maintaining intellectual property returns without constant capital-intensive creative reinvestment [D01]",
+    "Material decline in user engagement levels from pandemic-era highs [D05]"
+   ],
+   "berkshire_constraints": "Berkshire must maintain cash levels well above the $30 billion floor [D08]. We avoid investments where reputation risk is high due to management governance failures [D01].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better preserved in cash or deployed into businesses with proven, durable moats and unimpeachable management [D08].",
+   "leverage": "none",
+   "decider": "deputy",
+   "decider_reason": "The business sits outside the circle of competence for a Buffett-led core holding, and the governance concerns render it unsuitable for a major Berkshire commitment [D01].",
+   "biggest_risk_in_one_sentence": "The combination of severe management and cultural instability creates a high risk of permanent impairment to both capital and reputation [D01]."
+  }
+ },
+ "final": {
+  "as_of_date": "2021-10-31",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "deputy",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "permanent loss of reputation and capital due to unresolved management/cultural instability and reliance on high-risk creative production [D01]"
+  },
+  "drivers": [
+   {
+    "driver": "The business faces severe management and cultural instability that creates a high risk of permanent impairment to both capital and reputation [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The underlying model is capital-intensive, requiring constant creative reinvestment rather than functioning as a self-maintaining royalty stream [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The lack of a multi-year earnings record prevents an assessment of durable, resilient performance across economic cycles [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Potential declines in user engagement from pandemic-era highs introduce significant uncertainty into future revenue streams [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Unresolved and systemic workplace, compensation, and employment allegations undermining management credibility [D01]",
+   "Failure of the business to generate consistent, self-maintaining intellectual property returns without constant capital-intensive creative reinvestment [D01]",
+   "Material decline in user engagement levels from pandemic-era highs [D05]"
+  ],
+  "what_would_change_our_mind": "A complete resolution of the governance and workplace allegations that restores management credibility, combined with evidence of a durable, repeatable earnings stream that is not reliant on continuous high-risk creative hits.",
+  "memo": "We have examined this business and found it to be unsuitable for Berkshire. While the company owns long-standing franchises that generate habitual engagement, the business model relies heavily on constant, capital-intensive creative reinvestment rather than the self-maintaining royalty streams we prefer [D01]. Intellectual property in this sector is not a static asset but one requiring ongoing, unpredictable cycles of development [D01].\n\nMost troubling are the serious workplace, compensation, and employment allegations that have created a significant cloud over the management team [D01, D05]. We have a long-standing rule against investing in businesses where management credibility is in question or where our reputation could be compromised [D01, D05]. We insist on managers who act like owners and operate with unimpeachable integrity; the current governance situation falls far short of this standard [D01].\n\nFurthermore, the pack does not provide the multi-year record of returns on capital necessary to judge the resilience of the business across cycles [D01]. Without clear data on maintenance capital expenditures or debt, we cannot determine intrinsic value or ensure a sufficient margin of safety [D01]. The market may be focusing on recent pandemic-period performance, but we must look to the long-term durability of the earnings stream, which remains unproven here [D01, D05].\n\nWe prefer to hold cash rather than deploy capital into situations characterized by structural instability and management uncertainty [D01, D08]. Our capital is better preserved for businesses with proven, durable moats and management teams in whom we have absolute confidence [D08]. Consequently, we have placed this opportunity in the 'too hard' pile.",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

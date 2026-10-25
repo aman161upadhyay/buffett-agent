@@ -1,0 +1,14 @@
+Title: A differentiated homebuilding platform with capital tied to land
+Source: https://s27.q4cdn.com/448041563/files/doc_earnings/2026/q1/earnings-result/TMHC-1Q26-Earnings-Release_Final.pdf
+Date: 2026-05-29
+
+Taylor Morrison develops communities and builds homes for entry-level, move-up and resort-lifestyle buyers. Esplanade addresses resort-lifestyle demand; Yardly provides rental-community exposure. The company also supplies mortgage and related financial services. Sheryl Palmer's team emphasizes diversified customer segments and core submarket locations rather than a uniform speculative building strategy. The current results provide tangible evidence of orders, closures, backlog and land investment. [1]
+
+The business is understandable but cyclical. A brand reputation, locations, procurement and execution can differentiate a builder, while land and homes under construction absorb cash before customers close. In the latest quarter, orders exceed closings and backlog grows sequentially, yet year-on-year closings and margins decline. A permanent owner must underwrite both operating management and the full multi-year land cycle. No public transfer-of-control terms or buyer identity are supplied in this pre-announcement set. A comparison with Berkshire's existing housing operations belongs in fund context, not an assumption that an agreement exists. [1]
+
+Evidence ledger from April 22: first-quarter total revenue was $1.387092 billion, home closings revenue $1.311421 billion and net income $98.625 million. Reported diluted EPS was $1.01, adjusted $1.12. There were 2,268 closings at $578,000 average price and 2,914 net orders at $603,000. Backlog was 3,465 homes worth $2.3 billion. Home closings gross margin was 20.0%, adjusted 20.6%, versus 24.0% and 24.8% a year earlier. The company owned/controlled 75,626 lots, 51% off balance sheet, and invested $503 million in land/development. Liquidity was approximately $1.6 billion including $653 million cash; net homebuilding debt/capital was 20.5%. Book value per share was $64. The company repurchased about 2.5 million shares for $150 million at roughly $61 per share. [1]
+
+Analytical distinction: a large customer base is not itself proof of a moat. The relevant test is whether customers keep paying enough to cover the full cost of serving them, including reinvestment and risk. Product descriptions and reported segment economics below are observations; a prediction that their advantages persist is an underwriting judgment. No terminal growth rate, private management forecast, or guaranteed future market share is supplied. Historical success must be tested against the specific competitive threats, not substituted for that test.
+
+Sources and publication dates:
+[1] https://s27.q4cdn.com/448041563/files/doc_earnings/2026/q1/earnings-result/TMHC-1Q26-Earnings-Release_Final.pdf (published 2026-04-22)

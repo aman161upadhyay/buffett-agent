@@ -1,0 +1,237 @@
+{
+ "pack": "ctl_2020_ba_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2020-03-20",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Boeing is a global manufacturer of large commercial aircraft, with integrated defense, space and services businesses [D01]. The company's competitive position is anchored by formidable entry barriers related to certification, engineering, installed fleets and airline training requirements [D01].",
+   "products_customers_and_why_they_buy": [
+    "Commercial aircraft, defense products, space systems and aviation services; customers are global airlines and government entities [D01]. Demand is supported by a $463 billion backlog [D01]."
+   ],
+   "economics": [
+    "Capital intensity is high, with $1.834 billion in capital expenditures reported for the full year [D01]. Cash flow is cyclical and dependent on deliveries and contract performance [D01]. Margins have been impacted by abnormal production costs related to the MAX grounding [D01]."
+   ],
+   "earnings_record": [
+    "Full-year 2019 revenue was $76.559 billion (down 24%) with a net loss of $636 million [D01]. Prior profitable year showed $101.127 billion in revenue, $10.460 billion profit, and $13.6 billion free cash flow [D01]."
+   ],
+   "competitive_position": [
+    "One of two global manufacturers of large commercial aircraft [D01]. Moat includes regulatory and engineering barriers to entry, though it faces current operational and certification challenges with the MAX [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Consolidated debt of $27.3 billion and cash/marketable securities of $10.0 billion at year-end [D01]. The company faces liquidity demands from negative operating cash flow and production costs [D01, D07]."
+   ],
+   "management_and_capital_allocation": [
+    "Not in pack regarding specific CEO tenure or detailed capital allocation philosophy beyond observing that dividends were maintained at $1.2 billion in Q4 despite negative operating cash flow [D01]."
+   ],
+   "price_and_valuation": [
+    "March 20 closing price of $95.01 [D02]. P/E is meaningless due to negative earnings; 5.32x P/E based on prior peak earnings [D02]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Simultaneous collapse in airline finances and safety-certification delays [D05].",
+    "Potential for repeated external financing or dilution [D05].",
+    "Negative cash flow and high production costs resulting from MAX grounding [D01, D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "January 29, 2020: Full-year results released detailing financial impact of MAX grounding [D07].",
+    "March 2020: Travel restrictions and market stress increase liquidity concerns [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds approximately $128 billion in cash [D08]. Ownership of Precision Castparts and airline stocks creates existing, correlated aviation exposure [D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Specific maintenance-capex figures, detailed management compensation and incentive structures, and precise breakdown of debt maturities."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "Boeing operates as one of two dominant global manufacturers in a duopoly with high barriers to entry [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The business possesses formidable entry barriers related to certification, engineering, and installed fleet requirements [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company reported a net loss in 2019, reflecting significant cyclicality and production disruptions [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company holds $27.3 billion in debt against $10.0 billion in cash and faces liquidity pressures from negative operating cash flow [D01, D07]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "Capital intensity is high with substantial capital expenditures, and the company is not a regulated utility [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Information regarding specific capital allocation philosophy and management's incentive structures is not in the pack [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "As a major global aerospace manufacturer, the business is of a scale that can impact Berkshire's results [D01]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "Earnings are currently negative, and the lack of normalized owner earnings makes a 10% pre-tax yield assessment impossible [D01, D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 3,
+   "n_fail": 4,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a high-barrier duopoly facing severe cyclical distress, negative earnings, and liquidity pressure"
+  },
+  "gate2": {
+   "templates": [
+    "B2"
+   ],
+   "why_available": "The market is reacting to the simultaneous collapse in airline demand and the 737 MAX grounding, which have severely pressured Boeing's cash flow and balance sheet [D05]. While these events have created significant short-term liquidity risks, the business retains its duopoly position and high barriers to entry in a critical industry [D01].",
+   "evidence": [
+    "Boeing is one of two dominant global aircraft manufacturers [D01].",
+    "Negative net earnings in 2019 due to production disruptions [D01].",
+    "High debt of $27.3 billion relative to cash [D01].",
+    "Market fear of external financing or dilution [D05]."
+   ],
+   "market_narrative_we_disagree_with": "The market currently prices Boeing as if the present operational crisis and liquidity squeeze are permanent impairments to its competitive franchise rather than temporary, albeit severe, cyclical and self-inflicted challenges [D05].",
+   "what_must_be_true": [
+    "The 737 MAX is successfully recertified.",
+    "Global airline demand recovers over the long term.",
+    "Boeing successfully navigates its immediate liquidity pressures without permanent destruction of shareholder value through excessive dilution."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack; 2019 net loss of $636M [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "Recovery of 737 MAX [D05]",
+     "Long-term airline demand stability [D05]",
+     "Normalization of cash flow to prior peak of $13.6B [D01]"
+    ],
+    "discount_rate_used": "not in pack; assumed 10% for valuation hurdle"
+   },
+   "price_vs_value": "not in pack; unable to quantify given negative 2019 earnings [D01]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Berkshire buyback or T-bills are superior; we have $128B in cash and existing exposure to aviation through Precision Castparts [D08].",
+   "downside_case": "Permanent loss of capital through severe dilution or insolvency if liquidity pressures remain unmanaged [D05].",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "No specific owner earnings calculated due to current negative cash flow [D01].",
+    "Discount rate for intrinsic value estimated at 10% based on Berkshire standard."
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Permanent passive holder. We invest in businesses for the long pull, viewing ourselves as partners in the enterprise rather than stock speculators [D01, D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realized through the successful recertification of the 737 MAX, the recovery of long-term global airline demand, and the eventual normalization of free cash flow to prior peak levels [D01, D05]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the post-1980 era, Berkshire operates as a permanent investor in quality franchises, utilizing our patience and large cash position to ride out cyclicality that would force others to liquidate [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Failure to achieve 737 MAX recertification",
+    "Permanent loss of competitive advantage due to customer loss or regulatory intervention",
+    "Liquidity crisis leading to severe, value-destructive shareholder dilution",
+    "Long-term impairment of global airline demand"
+   ],
+   "berkshire_constraints": "Must maintain cash floor of $30B [D08]; avoid excessive leverage; avoid reputational damage from bailing out failing companies; consider existing correlated exposure through Precision Castparts [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Berkshire's own stock repurchases, which are a safer and more certain deployment of capital given the current market uncertainty [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "Boeing is a large, complex, and distressed industrial entity requiring a capital allocation judgment regarding cyclicality versus permanent impairment.",
+   "biggest_risk_in_one_sentence": "The combination of the 737 MAX crisis and the collapse in global airline demand could lead to insolvency or massive dilution, causing a permanent loss of capital."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-03-20",
+  "company": "The Boeing Company",
+  "ticker": "BA",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack; 2019 net loss of $636M [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital through severe dilution or insolvency [D05]"
+  },
+  "drivers": [
+   {
+    "driver": "The company faces a significant cyclical and operational crisis with negative earnings and negative cash flow, failing our standard for consistent, high-quality returns [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The balance sheet is under pressure with $27.3 billion in debt relative to $10.0 billion in cash, risking potential value-destructive dilution [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The current economic distress and liquidity concerns make it impossible to determine a margin of safety or a normalized pre-tax yield on owner earnings [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Berkshire has superior alternatives for capital allocation, including our own share repurchases, which offer more certainty than a distressed aviation firm [D08].",
+    "citations": [
+     "D08"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Failure to achieve 737 MAX recertification",
+   "Permanent loss of competitive advantage",
+   "Liquidity crisis leading to severe, value-destructive shareholder dilution",
+   "Long-term impairment of global airline demand"
+  ],
+  "what_would_change_our_mind": "A return to consistent, positive owner earnings, a significantly de-levered balance sheet, and a clear resolution of the 737 MAX certification and delivery challenges that demonstrates a return to normalized, high-margin operations.",
+  "memo": "Boeing operates as one of two global manufacturers of large commercial aircraft, a position secured by formidable barriers in engineering, certification, and airline requirements [D01]. While the company possesses a $463 billion backlog and a critical role in global infrastructure, its current financial condition is severely impaired by the 737 MAX grounding and a collapse in airline demand [D01, D05].\n\nHistorically, this has been a wonderful business, but the 2019 results—a net loss of $636 million—highlight the dangers of high capital intensity when cyclicality strikes [D01]. We avoid businesses that require us to hope for a return to profitability, as our preference is to pay for demonstrated earning power rather than potential recovery [D01].\n\nManagement currently faces the difficult task of navigating liquidity pressures, having ended 2019 with $27.3 billion in debt against only $10.0 billion in cash [D01, D07]. We have little insight into their long-term capital allocation philosophy beyond the decision to maintain dividends in the face of negative cash flow, which is not an approach we favor [D01].\n\nMr. Market is currently distressed, fearing that these operational failures may lead to permanent impairment or massive dilution [D05]. While the company's duopoly position remains, we cannot quantify an intrinsic value or a 10% initial yield in this environment, making any investment a speculative bet rather than an exercise in value investing [D01, D03].\n\nWe hold $128 billion in cash and have other, more certain ways to deploy it, including the repurchase of our own shares [D08]. We will continue to watch from the sidelines, as the risks of permanent capital loss here far outweigh the potential for a wonderful return.",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

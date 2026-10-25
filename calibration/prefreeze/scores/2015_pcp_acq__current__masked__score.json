@@ -1,0 +1,54 @@
+{
+ "trade_id": "2015_pcp_acq",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "PCC was an admired specialized manufacturing franchise. → Management, led by a CEO in place since 2002, is proven, honest, and aligned with our preference for maintaining stable, autonomous operations as a Berkshire subsidiary [D09].",
+   "It was the aerospace industry's preferred supplier. → The company operates as a sole or dominant source for critical aerospace components that are shielded by insurmountable certification requirements and process expertise [D01, D09]."
+  ],
+  "missed": [
+   "Its operating model and retained management fit permanent Berkshire ownership."
+  ],
+  "extra_agent_drivers": [
+   "The acquisition price of $235 per share provides an initial pre-tax earnings yield of approximately 6%, which is nearly 3x the 2.2% yield on long-term government bonds [D09].",
+   "Despite cyclical headwinds in energy and aerospace destocking, the business has maintained operating margins exceeding 20% every year since 2007, demonstrating consistent profitability and resilience [D09].",
+   "The market's fixation on short-term cyclical declines in specific sectors has obscured the long-term value of a durable, high-moat franchise that we can acquire at a fair price [D09]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company operates as a sole or dominant source for critical aerospace components.",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating margins exceeding 20% every year since 2007.",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The acquisition price of $235 per share.",
+    "citation": "D09",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 9,
+  "share": 0.75
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are pleased to acquire a business that serves as an essential, sole-source manufacturer of critical aerospace components [D01, D09].",
+ "grader_notes": "The agent correctly identified the acquisition as a buy, mirroring Buffett's decision and decision-maker. The reasoning captured the 'preferred supplier' and 'admired management' themes well, though it focused significantly more on quantitative valuation metrics than the qualitative narrative provided in the answer key.",
+ "run": "2015_pcp_acq__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

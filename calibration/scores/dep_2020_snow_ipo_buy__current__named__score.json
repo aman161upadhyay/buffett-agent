@@ -1,0 +1,49 @@
+{
+ "trade_id": "dep_2020_snow_ipo_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "BUY as a deputy-controlled IPO/private-placement allocation. Todd Combs is the named executing investment officer; do not attribute an unexplained Buffett IPO-policy reversal or software thesis to Buffett.",
+   "SEC purchase agreement dated September 7 and filed September 8 is signed by Todd A. Combs, Investment Officer. It documents execution authority, not a valuation thesis. Final $120 pricing and Q3 parent 13F verify 6,125,376 shares, combining $250M private placement and 4,042,043 secondary shares.",
+   "The signed agreement identifies Combs as Investment Officer; no public own-words valuation or growth thesis was located, so those analyst bull arguments must not be scored as manager-stated drivers."
+  ],
+  "extra_agent_drivers": [
+   "The company currently reports net losses of $348.5 million, failing to meet our requirement for an initial 10% pre-tax earnings yield.",
+   "The business operates in a highly competitive, capital-intensive sector where it relies on its primary competitors for infrastructure, undermining any potential for a sustainable moat.",
+   "There is no track record of return on equity or predictable owner earnings to justify a valuation based on intrinsic value.",
+   "We prefer to maintain our cash position of $146.6 billion rather than deploy capital into speculative IPOs that fall outside our circle of competence."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company currently reports net losses of $348.5 million.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We prefer to maintain our cash position of $146.6 billion.",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 7,
+  "share": 0.58
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have reviewed the Snowflake offering and have decided to pass.",
+ "grader_notes": "The agent missed the trade entirely by evaluating it through a traditional fundamental analysis lens, whereas the actual trade was a specific, deputy-led execution of a private placement/IPO allocation. The agent's reasoning failed to acknowledge the documented execution mandate identified in the key and instead invented a speculative thesis based on personal valuation criteria.",
+ "run": "dep_2020_snow_ipo_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

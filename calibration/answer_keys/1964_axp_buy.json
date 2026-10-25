@@ -1,0 +1,47 @@
+{
+  "id": "1964_axp_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Approximately 40% of partnership at the later concentration checkpoint; about $13 million, not an initial-February allocation",
+  "first_action_date": null,
+  "disclosure_date": "1995-03-07",
+  "reason_class": null,
+  "opportunity_template": [
+    "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "size_basis": "partnership",
+  "drivers": [
+    {
+      "driver": "The fiscal injury did not destroy the exceptional economics of the payments franchise.",
+      "source": "https://www.berkshirehathaway.com/letters/1980.html (1981-02-27; hindsight explanation)",
+      "quote": "Both were one-of-a-kind companies, temporarily reeling from the effects of a fiscal blow that did not destroy their exceptional underlying economics."
+    },
+    {
+      "driver": "Continued customer use of cheques and cards supported treating the franchise separately from warehousing claims.",
+      "source": "Lowenstein, Buffett: The Making of an American Capitalist, American Express episode (1995; hindsight explanation)",
+      "quote": null
+    },
+    {
+      "driver": "A large market-value decline created a business-value opportunity rather than a need for a market forecast.",
+      "source": "https://www.berkshirehathaway.com/letters/1994.html (1995-03-07; hindsight explanation)",
+      "quote": null
+    },
+    {
+      "driver": "Management's willingness to protect the name mattered because trust underpinned the operating franchise.",
+      "source": "Schroeder, The Snowball, American Express episode (chapter reference not recovered) (2008; hindsight explanation)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "February close and entry multiple unrecovered; retrospective preceding-November/December quotations are not execution prices.",
+  "outcome_note": "Successful Partnership investment. The 1994 letter confirms about 40% / $13 million in the mid-1960s; an exact dated 1966 peak and full sale ledger remain unverified.",
+  "sources": [
+    "https://www.berkshirehathaway.com/letters/1980.html (1981-02-27; hindsight explanation)",
+    "Lowenstein, Buffett: The Making of an American Capitalist, American Express episode (1995; hindsight explanation)",
+    "https://www.berkshirehathaway.com/letters/1994.html (1995-03-07; hindsight explanation)",
+    "Schroeder, The Snowball, American Express episode (chapter reference not recovered) (2008; hindsight explanation)",
+    "Reconstructed from American Express scandal histories; Lowenstein, Buffett: The Making of an American Capitalist, American Express episode (chapter numbering not recovered); Buffett Partnership letter, January 18, 1964; New York Times, January 6, 1964, https://www.nytimes.com/1964/01/06/archives/american-express-reports-gain-of-25c-a-share-irn-63-earnings.html"
+  ],
+  "pack_quality_notes": "Grade C: January preliminary earnings recovered but legal/usage evidence thin; usage reconstructed, not dated original scuttlebutt. Later settlement, June low, 1964 full-year results and peak allocation excluded from docs. Book chapter/page reference unrecovered."
+}

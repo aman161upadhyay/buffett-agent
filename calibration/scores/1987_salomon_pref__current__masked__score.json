@@ -1,0 +1,49 @@
+{
+ "trade_id": "1987_salomon_pref",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "The 9% preferred and scheduled redemption supplied the bulk of the investment's value. → We are receiving a 9% dividend yield on this preferred stock, which is competitive in a market where long-term Treasury bonds yield 9.53%.",
+   "Conversion offered additional participation without requiring a confident common-equity forecast. → In addition to this yield, we hold an equity kicker in the form of a conversion right at $38 per share, which allows us to participate in the firm's future prosperity over the next several years."
+  ],
+  "missed": [
+   "Confidence in Gutfreund's ability and integrity was explicit.",
+   "Buffett acknowledged no special insight into investment banking's future profitability."
+  ],
+  "extra_agent_drivers": [
+   "The firm is a major, leading securities dealer that requires this $700m capital to stabilize its structure during a control contest.",
+   "The investment is structured to allow us to participate in long-term equity appreciation without needing to exercise management control."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "investment of $700 million in a convertible preferred stock issue",
+    "citation": "L8",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "9% dividend yield",
+    "citation": "L99",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 0,
+  "share": 0
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "This is a classic deployment of capital where the terms, rather than the underlying business quality, dictate the attractiveness of the opportunity.",
+ "grader_notes": "The agent correctly identified the direction and captured the core economic drivers of yield and conversion terms. However, the agent failed to mention Buffett's reliance on Gutfreund's integrity or his specific disclaimer regarding lack of insight into the investment banking industry, which were primary drivers for Buffett.",
+ "run": "1987_salomon_pref__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

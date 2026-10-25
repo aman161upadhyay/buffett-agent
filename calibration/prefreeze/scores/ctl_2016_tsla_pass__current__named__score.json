@@ -1,0 +1,47 @@
+{
+ "trade_id": "ctl_2016_tsla_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned per parent 13F history",
+   "No Tesla row in parent 2010–Q2 2026 holdings census",
+   "Economic and valuation objections are analyst-reconstructable, not Buffett statements"
+  ],
+  "extra_agent_drivers": [
+   "The business lacks a consistent GAAP profit base",
+   "Massive, constant capital investment requirements",
+   "Highly competitive and capital-intensive automotive sector",
+   "High risk of permanent capital loss"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Tesla Motors is an automotive manufacturer focused on premium electric vehicles and energy storage.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The economics of the business are currently dominated by substantial capital requirements, with $1.5 billion in planned investment for the year.",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 3,
+  "share": 0.25
+ },
+ "state": "PARTIAL",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We pass on this opportunity, as capital is far better deployed in enterprises that provide clear, reliable returns and a substantial margin of safety.",
+ "grader_notes": "The agent correctly identified the PASS decision but failed to match the reasoning. Buffett's 'reasoning' for this pass was verifiable non-ownership and the lack of a public refusal, whereas the agent provided a detailed analyst-reconstructed critique of the business, which the answer key explicitly instructed not to treat as Buffett's reasoning.",
+ "run": "ctl_2016_tsla_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

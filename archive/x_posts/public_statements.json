@@ -1,0 +1,1252 @@
+{
+  "archive": "Warren Buffett / Berkshire investment-relevant public statements (not X posts)",
+  "cutoff_date": "2026-10-25",
+  "retrieved_date": "2026-10-25",
+  "method": "Exa /contents primary-source retrieval; webSearch discovery; queryWithLLM candidate extraction; each retained excerpt matched literally after whitespace normalization against retrieved primary text. CNBC video transcripts may contain visible transcription errors.",
+  "text_format": "Short continuous verbatim excerpts, NOT complete original statements. Whitespace normalized; no invented timestamps. YYYY-MM denotes known month but exact public release day unverified. Annual period is not publication date. url is source URL, never a fabricated status URL.",
+  "limitations": [
+    "Partial selection, not an exhaustive utterance or trade archive. Multiple excerpts may explain one decision; do not count them as independent trades.",
+    "Later letters explain earlier decisions retrospectively; source dates control replay eligibility.",
+    "CNBC automatic transcripts preserve exposed transcription errors such as weve. Do not silently correct into a fabricated verbatim quote.",
+    "Author/speaker Abel in 2026 is not Buffett. decider:unknown for inherited transaction discussion where individual originator is not established.",
+    "Initial Apple deputy identity not established here. 2024 Apple tax rationale is not a verified BofA sale rationale.",
+    "Month-only dates are not exact timestamps and cannot be admitted to a replay inside that month without verifying publication."
+  ],
+  "requested_topics": [
+    "Sanborn",
+    "Dempster",
+    "partnership dissolution",
+    "See’s",
+    "Capital Cities",
+    "GEICO",
+    "Salomon",
+    "USAir",
+    "Dexter",
+    "General Dynamics",
+    "Gen Re",
+    "MidAmerican",
+    "Marmon",
+    "PetroChina",
+    "ConocoPhillips",
+    "Irish banks",
+    "Goldman GE Wrigley",
+    "IBM",
+    "BofA",
+    "Energy Future",
+    "deputies",
+    "Tesco",
+    "Pilot",
+    "Apple",
+    "Precision Castparts",
+    "Japan",
+    "Occidental",
+    "Paramount",
+    "cash",
+    "buybacks",
+    "succession",
+    "OxyChem",
+    "Abel"
+  ],
+  "posts": [
+    {
+      "date": "1961-01-30",
+      "url": "https://www.buffett-letters.com/en/02-letters/partnership/1960-Partnership-Letter",
+      "topic_tags": [
+        "A",
+        "Purchase of a large block of stock from the widow of a deceased Sanborn president.",
+        "section:Sanborn Map",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.buffett-letters.com/en/02-letters/partnership/1960-Partnership-Letter",
+      "full_text": "Shortly thereafter we made a bid to his mother for her block of stock, which was accepted. At the time there were two other large holdings"
+    },
+    {
+      "date": "1961-01-30",
+      "url": "https://www.buffett-letters.com/en/02-letters/partnership/1960-Partnership-Letter",
+      "topic_tags": [
+        "A",
+        "Open market purchases to increase stake and facilitate a separation of the investment portfolio from the map business.",
+        "section:Sanborn Map",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.buffett-letters.com/en/02-letters/partnership/1960-Partnership-Letter",
+      "full_text": "Subsequently our holdings (including associates) were increased through open market purchases to about 24,000 shares and the total represented by the three groups increased to 46,000 shares."
+    },
+    {
+      "date": "1961-01-30",
+      "url": "https://www.buffett-letters.com/en/02-letters/partnership/1960-Partnership-Letter",
+      "topic_tags": [
+        "A",
+        "Strategic decision to separate the investment portfolio from the map business to unlock value.",
+        "section:Sanborn Map",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.buffett-letters.com/en/02-letters/partnership/1960-Partnership-Letter",
+      "full_text": "We hoped to separate the two businesses, realize the fair value of the investment portfolio and work to re-establish the earning power of the map business."
+    },
+    {
+      "date": "1961-01-30",
+      "url": "https://www.buffett-letters.com/en/02-letters/partnership/1960-Partnership-Letter",
+      "topic_tags": [
+        "A",
+        "Execution of an exchange plan allowing stockholders to exit at fair value using portfolio securities.",
+        "section:Sanborn Map",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.buffett-letters.com/en/02-letters/partnership/1960-Partnership-Letter",
+      "full_text": "a plan was evolved taking out all stockholders at fair value who wanted out. The SEC ruled favorably on the fairness of the plan."
+    },
+    {
+      "date": "1963-07-10",
+      "url": "https://www.buffett-letters.com/en/02-letters/partnership/1963-Partnership-Letter-(1)",
+      "topic_tags": [
+        "A",
+        "Delegated asset conversion to Harry Bottle to generate cash for reinvestment.",
+        "section:Dempster Mill Manufacturing",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": false,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.buffett-letters.com/en/02-letters/partnership/1963-Partnership-Letter-(1)",
+      "full_text": "Harry did an extraordinary job of converting unproductive assets into cash which we then, of course, began to invest in undervalued securities."
+    },
+    {
+      "date": "1963-07-10",
+      "url": "https://www.buffett-letters.com/en/02-letters/partnership/1963-Partnership-Letter-(1)",
+      "topic_tags": [
+        "A",
+        "Delegated operational management to Harry Bottle to improve asset productivity.",
+        "section:Dempster Mill Manufacturing",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.buffett-letters.com/en/02-letters/partnership/1963-Partnership-Letter-(1)",
+      "full_text": "Harry has continued this year to turn under-utilized assets into cash, but in addition, he has made the remaining needed assets productive."
+    },
+    {
+      "date": "1969-05-29",
+      "url": "https://buffettknowledge.com/letters/1969-midyear-letter",
+      "topic_tags": [
+        "A",
+        "Partnership liquidation",
+        "section:Dissolution",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://buffettknowledge.com/letters/1969-midyear-letter",
+      "full_text": "I am not attuned to this market environment and I don't want to spoil a decent record by trying to play a game I don't understand just so I can go out a hero."
+    },
+    {
+      "date": "1978-03-14",
+      "url": "https://www.berkshirehathaway.com/letters/1977.html",
+      "topic_tags": [
+        "A",
+        "Purchase of National Indemnity Company and National Fire and Marine Insurance Company",
+        "section:Insurance Underwriting",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1977.html",
+      "full_text": "It was early in 1967 that we made our entry into this industry through the purchase of National Indemnity Company and National Fire and Marine Insurance Company"
+    },
+    {
+      "date": "1978-03-14",
+      "url": "https://www.berkshirehathaway.com/letters/1977.html",
+      "topic_tags": [
+        "A",
+        "Purchase of Capital Cities Communications stock as a non-control investment",
+        "section:Insurance Investments",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1977.html",
+      "full_text": "For example, we invested $10.9 million in Capital Cities Communications during 1977. Earnings attributable to the shares we purchased totaled about $1.3 million last year."
+    },
+    {
+      "date": "1978-03-14",
+      "url": "https://www.berkshirehathaway.com/letters/1977.html",
+      "topic_tags": [
+        "A",
+        "Purchase of See's Candies by Blue Chip Stamps",
+        "section:Blue Chip Stamps",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1977.html",
+      "full_text": "Since See’s was purchased by Blue Chip Stamps at the beginning of 1972, pre-tax operating earnings have grown from $4.2 million to $12.6 million with little additional capital"
+    },
+    {
+      "date": "1984-03-14",
+      "url": "https://www.berkshirehathaway.com/letters/1983.html",
+      "topic_tags": [
+        "B",
+        "Purchase of Nebraska Furniture Mart",
+        "section:Nebraska Furniture Mart",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1983.html",
+      "full_text": "Mrs. B is wise as well as smart and, for far-sighted family reasons, was willing to sell the business last year. I had admired both the family and the business for decades"
+    },
+    {
+      "date": "1984-03-14",
+      "url": "https://www.berkshirehathaway.com/letters/1983.html",
+      "topic_tags": [
+        "B",
+        "Purchase of See’s Candies",
+        "section:Appendix",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1983.html",
+      "full_text": "In 1972 (and now) relatively few businesses could be expected to consistently earn the 25% after tax on net tangible assets that was earned by See’s – doing it, furthermore, with conservative accounting"
+    },
+    {
+      "date": "1984-03-14",
+      "url": "https://www.berkshirehathaway.com/letters/1983.html",
+      "topic_tags": [
+        "B",
+        "Sale/redemption of GEICO shares",
+        "section:Sources of Reported Earnings",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": false,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1983.html",
+      "full_text": "At GEICO’s request, we tendered a quantity of shares that kept our ownership percentage the same after the transaction as before. The proportional nature of our sale permitted us to treat the proceeds as a dividend."
+    },
+    {
+      "date": "1988-02-29",
+      "url": "https://www.berkshirehathaway.com/letters/1987.html",
+      "topic_tags": [
+        "B",
+        "Purchase of $700 million in Salomon Inc preferred stock.",
+        "section:Marketable Securities - Other",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1987.html",
+      "full_text": "By far our largest - and most publicized - investment in 1987 was a $700 million purchase of Salomon Inc 9% preferred stock."
+    },
+    {
+      "date": "1988-02-29",
+      "url": "https://www.berkshirehathaway.com/letters/1987.html",
+      "topic_tags": [
+        "B",
+        "Acquisition of a controlling interest in Fechheimer.",
+        "section:Fechheimer Bros. Company",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1987.html",
+      "full_text": "In the year that Berkshire acquired its controlling interest in Fechheimer - 1986 - profits were a record. The Heldmans didn't slow down after that."
+    },
+    {
+      "date": "1988-02-29",
+      "url": "https://www.berkshirehathaway.com/letters/1987.html",
+      "topic_tags": [
+        "B",
+        "Delegation of management to Chuck Huggins upon the purchase of See's.",
+        "section:See's Candies",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1987.html",
+      "full_text": "Chuck Huggins continues to set new records at See's, just as he has ever since we put him in charge on the day of our purchase some 16 years ago."
+    },
+    {
+      "date": "1988-02-29",
+      "url": "https://www.berkshirehathaway.com/letters/1987.html",
+      "topic_tags": [
+        "B",
+        "Delegation of strategy to perform opportunistic arbitrage on a limited scale.",
+        "section:Marketable Securities - Other",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1987.html",
+      "full_text": "We have practiced arbitrage on an opportunistic basis for decades and, to date, our results have been quite good."
+    },
+    {
+      "date": "1988-02-29",
+      "url": "https://www.berkshirehathaway.com/letters/1987.html",
+      "topic_tags": [
+        "B",
+        "Decision to avoid unfriendly takeovers in future acquisition processes.",
+        "section:Miscellaneous",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1987.html",
+      "full_text": "We will not engage in unfriendly takeovers. We can promise complete confidentiality and a very fast answer - customarily within five minutes - as to whether we're interested."
+    },
+    {
+      "date": "1990-03-02",
+      "url": "https://www.berkshirehathaway.com/letters/1989.html",
+      "topic_tags": [
+        "B",
+        "Acquisition of Berkshire Hathaway textile business.",
+        "section:Mistakes of the First Twenty-five Years (A Condensed Version)",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1989.html",
+      "full_text": "My first mistake, of course, was in buying control of Berkshire. Though I knew its business - textile manufacturing - to be unpromising, I was enticed to buy because the price looked cheap."
+    },
+    {
+      "date": "1990-03-02",
+      "url": "https://www.berkshirehathaway.com/letters/1989.html",
+      "topic_tags": [
+        "B",
+        "Purchase of USAir Group, Inc. convertible preferred stock.",
+        "section:Marketable Securities",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1989.html",
+      "full_text": "We next purchased $358 million of USAir Group, Inc. preferred stock with mandatory redemption in ten years, a dividend of 9 1/4%, and the right to convert into common at $60 per share."
+    },
+    {
+      "date": "1990-03-02",
+      "url": "https://www.berkshirehathaway.com/letters/1989.html",
+      "topic_tags": [
+        "B",
+        "Purchase of The Gillette Co. convertible preferred stock.",
+        "section:Marketable Securities",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1989.html",
+      "full_text": "In the first transaction, which took place in July, we purchased $600 million of The Gillette Co. preferred with an 8 3/4% dividend, a mandatory redemption in ten years, and the right to convert into common at $50 per share."
+    },
+    {
+      "date": "1993-03-01",
+      "url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "topic_tags": [
+        "B",
+        "General Dynamics thesis changed from tender arbitrage to long-term ownership.",
+        "section:Common Stock Investments",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "full_text": "In short order, I dumped my arbitrage thoughts and decided that Berkshire should become a long-term investor with Bill. We were helped in gaining a large position by the fact that a tender greatly swells the volume of trading in a stock."
+    },
+    {
+      "date": "1993-03-01",
+      "url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "topic_tags": [
+        "B",
+        "Purchase of USAir preferred stock.",
+        "section:Fixed-Income Securities",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "full_text": "In the case of our commitment to USAir, industry economics had soured before the ink dried on our check. As I've previously mentioned, it was I who happily jumped into the pool; no one pushed me."
+    },
+    {
+      "date": "1993-03-01",
+      "url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "topic_tags": [
+        "B",
+        "Increased investment in Wells Fargo shares.",
+        "section:Common Stock Investments",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": false,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "full_text": "We added moderately to our holdings in Guinness and Wells Fargo, we more than doubled our position in Freddie Mac, and we established a new holding in General Dynamics. We like to buy."
+    },
+    {
+      "date": "1993-03-01",
+      "url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "topic_tags": [
+        "B",
+        "Mistaken agreement to acquire a company with significant post-retirement health liabilities.",
+        "section:Two New Accounting Rules and a Plea for One More",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "full_text": "In 1982 I made a huge mistake in committing to buy a company burdened by extraordinary post-retirement health obligations. Luckily, though, the transaction fell through for reasons beyond our control."
+    },
+    {
+      "date": "1993-03-01",
+      "url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "topic_tags": [
+        "B",
+        "Acquisition of 82% of Central States Indemnity.",
+        "section:Acquisitions",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "full_text": "The purchase was 82% of Central States Indemnity, an insurer that makes monthly payments for credit-card holders who are unable themselves to pay because they have become disabled or unemployed."
+    },
+    {
+      "date": "1994-03",
+      "url": "https://www.berkshirehathaway.com/letters/1993.html",
+      "topic_tags": [
+        "B",
+        "Purchase of Dexter Shoe",
+        "section:Dexter Shoe",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1993.html",
+      "full_text": "So we promptly jumped at the chance last year to acquire Dexter Shoe of Dexter, Maine, which manufactures popular-priced men's and women's shoes."
+    },
+    {
+      "date": "1994-03",
+      "url": "https://www.berkshirehathaway.com/letters/1993.html",
+      "topic_tags": [
+        "B",
+        "Sale of Capital Cities/ABC shares",
+        "section:Look-Through Earnings",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": false,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1993.html",
+      "full_text": "For example, in 1986 we bought three million shares of Capital Cities/ABC for $172.50 per share and late last year sold one-third of that holding for $630 per share."
+    },
+    {
+      "date": "1994-03",
+      "url": "https://www.berkshirehathaway.com/letters/1993.html",
+      "topic_tags": [
+        "B",
+        "Stock issuance to fund Dexter Shoe acquisition",
+        "section:Chairman's Letter - 1993",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": false,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1993.html",
+      "full_text": "Additionally, we issued 25,203 shares when we acquired Dexter Shoe, a purchase discussed later in this report."
+    },
+    {
+      "date": "1997-02-28",
+      "url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "topic_tags": [
+        "B",
+        "Acquisition of remaining 49% of GEICO.",
+        "section:Chairman's Letter",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "full_text": "The restatement was required because GEICO became a wholly-owned subsidiary of Berkshire on January 2, 1996, whereas it was previously classified as an investment."
+    },
+    {
+      "date": "1997-02-28",
+      "url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "topic_tags": [
+        "B",
+        "Purchase of remaining 49% ownership stake in GEICO.",
+        "section:Insurance - GEICO and Other Primary Operations",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "full_text": "It is also why I felt Berkshire should pay $2.3 billion last year for the 49% of the company that we didn't then own."
+    },
+    {
+      "date": "1997-02-28",
+      "url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "topic_tags": [
+        "B",
+        "Purchase of Kansas Bankers Surety.",
+        "section:Acquisitions of 1996",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "full_text": "On February 13, I told Roy we would pay $75 million for the company - and before long we had a deal."
+    },
+    {
+      "date": "1997-02-28",
+      "url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "topic_tags": [
+        "B",
+        "Investment in USAir preferred stock.",
+        "section:USAir",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "full_text": "Unwilling to accept Branson's proposition on faith, your Chairman decided in 1989 to test it by investing $358 million in a 9.25% preferred stock of USAir."
+    },
+    {
+      "date": "2000-03-01",
+      "url": "https://www.berkshirehathaway.com/letters/1999htm.html",
+      "topic_tags": [
+        "B",
+        "Refusal to invest in technology company stocks because Berkshire lacks insights into which participants possess a truly durable competitive advantage.",
+        "section:Investments",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1999htm.html",
+      "full_text": "This explains, by the way, why we don't own stocks of tech companies, even though we share the general view that our society will be transformed by their products"
+    },
+    {
+      "date": "2000-03-01",
+      "url": "https://www.berkshirehathaway.com/letters/1999htm.html",
+      "topic_tags": [
+        "B",
+        "Acquisition policy to structure the MidAmerican Energy investment to comply with the Public Utility Holding Company Act of 1935 by limiting voting power.",
+        "section:Acquisitions of 1999",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/1999htm.html",
+      "full_text": "we had to structure a transaction that would avoid Berkshire gaining voting control. Instead we are purchasing an 11% fixed-income security, along with a combination of common stock"
+    },
+    {
+      "date": "2008-02",
+      "url": "https://www.berkshirehathaway.com/letters/2007ltr.pdf",
+      "topic_tags": [
+        "C",
+        "Mistake in purchasing U.S. Air preferred stock.",
+        "section:Businesses – The Great, the Good and the Gruesome",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2007ltr.pdf",
+      "full_text": "I, to my shame, participated in this foolishness when I had Berkshire buy U.S. Air preferred stock in 1989. As the ink was drying on our check, the company went into a tailspin"
+    },
+    {
+      "date": "2008-02",
+      "url": "https://www.berkshirehathaway.com/letters/2007ltr.pdf",
+      "topic_tags": [
+        "C",
+        "Mistake in purchasing Dexter for Berkshire stock.",
+        "section:Businesses – The Great, the Good and the Gruesome",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2007ltr.pdf",
+      "full_text": "I made an even worse mistake when I said “yes” to Dexter, a shoe business I bought in 1993 for $433 million in Berkshire stock (25,203 shares of A)."
+    },
+    {
+      "date": "2008-02",
+      "url": "https://www.berkshirehathaway.com/letters/2007ltr.pdf",
+      "topic_tags": [
+        "C",
+        "Mistake in decision to merge with General Re.",
+        "section:Insurance",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2007ltr.pdf",
+      "full_text": "This reputation, unfortunately, outlived its factual underpinnings, a flaw that I completely missed when I made the decision in 1998 to merge with General Re."
+    },
+    {
+      "date": "2008-02",
+      "url": "https://www.berkshirehathaway.com/letters/2007ltr.pdf",
+      "topic_tags": [
+        "C",
+        "Sale of PetroChina holdings.",
+        "section:Investments",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2007ltr.pdf",
+      "full_text": "In the second half of last year, the market value of the company rose to $275 billion, about what we thought it was worth compared to other giant oil companies. So we sold our holdings for $4 billion."
+    },
+    {
+      "date": "2008-02",
+      "url": "https://www.berkshirehathaway.com/letters/2007ltr.pdf",
+      "topic_tags": [
+        "C",
+        "Purchase of 60% of Marmon.",
+        "section:Acquisitions",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2007ltr.pdf",
+      "full_text": "We will soon purchase 60% of Marmon and will acquire virtually all of the balance within six years. Our initial outlay will be $4.5 billion, and the price of our later purchases will be based on a formula tied to earnings."
+    },
+    {
+      "date": "2009-02-28",
+      "url": "https://www.berkshirehathaway.com/letters/2008ltr.pdf",
+      "topic_tags": [
+        "C",
+        "Purchase of ConocoPhillips stock",
+        "section:Investments",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2008ltr.pdf",
+      "full_text": "I bought a large amount of ConocoPhillips stock when oil and gas prices were near their peak. I in no way anticipated the dramatic fall"
+    },
+    {
+      "date": "2009-02-28",
+      "url": "https://www.berkshirehathaway.com/letters/2008ltr.pdf",
+      "topic_tags": [
+        "C",
+        "Purchase of shares in two Irish banks",
+        "section:Investments",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": false,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2008ltr.pdf",
+      "full_text": "During 2008, I spent $244 million for shares of two Irish banks that appeared cheap to me. At yearend we wrote these holdings down to market"
+    },
+    {
+      "date": "2009-02-28",
+      "url": "https://www.berkshirehathaway.com/letters/2008ltr.pdf",
+      "topic_tags": [
+        "C",
+        "Purchase of fixed-income securities in Wrigley, Goldman Sachs, and General Electric",
+        "section:Investments",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2008ltr.pdf",
+      "full_text": "we made purchases totaling $14.5 billion in fixed-income securities issued by Wrigley, Goldman Sachs and General Electric. We very much like these commitments, which carry high current"
+    },
+    {
+      "date": "2012-02",
+      "url": "https://www.berkshirehathaway.com/letters/2011ltr.pdf",
+      "topic_tags": [
+        "C",
+        "Purchase of Lubrizol",
+        "section:Berkshire Hathaway Inc.",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2011ltr.pdf",
+      "full_text": "On September 16th we acquired Lubrizol, a worldwide producer of additives and other specialty chemicals. The company has had an outstanding record since James Hambrick became CEO in 2004"
+    },
+    {
+      "date": "2012-02",
+      "url": "https://www.berkshirehathaway.com/letters/2011ltr.pdf",
+      "topic_tags": [
+        "C",
+        "Purchase of Energy Future Holdings bonds",
+        "section:Berkshire Hathaway Inc.",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2011ltr.pdf",
+      "full_text": "A few years back, I spent about $2 billion buying several bond issues of Energy Future Holdings, an electric utility operation serving portions of Texas. That was a mistake – a big mistake."
+    },
+    {
+      "date": "2012-02",
+      "url": "https://www.berkshirehathaway.com/letters/2011ltr.pdf",
+      "topic_tags": [
+        "C",
+        "Delegation of portfolio management to Todd Combs and Ted Weschler",
+        "section:Berkshire Hathaway Inc.",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2011ltr.pdf",
+      "full_text": "Both of these men have outstanding investment skills and a deep commitment to Berkshire. Each will be handling a few billion dollars in 2012, but they have the brains, judgment and character to manage our entire portfolio"
+    },
+    {
+      "date": "2012-02",
+      "url": "https://www.berkshirehathaway.com/letters/2011ltr.pdf",
+      "topic_tags": [
+        "C",
+        "Implementation of share buyback program",
+        "section:Share Repurchases",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2011ltr.pdf",
+      "full_text": "Last September, we announced that Berkshire would repurchase its shares at a price of up to 110% of book value. We were in the market for only a few days – buying $67 million of stock"
+    },
+    {
+      "date": "2015-02",
+      "url": "https://www.berkshirehathaway.com/letters/2014ltr.pdf",
+      "topic_tags": [
+        "C",
+        "Sale of Tesco shares",
+        "section:Investments",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": false,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2014ltr.pdf",
+      "full_text": "In 2013, I soured somewhat on the company’s then-management and sold 114 million shares, realizing a profit of $43 million. My leisurely pace in making sales would prove expensive."
+    },
+    {
+      "date": "2015-02",
+      "url": "https://www.berkshirehathaway.com/letters/2014ltr.pdf",
+      "topic_tags": [
+        "C",
+        "Mistake in timing the sale of Tesco",
+        "section:Investments",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2014ltr.pdf",
+      "full_text": "I made a big mistake with this investment by dawdling. At the end of 2012 we owned 415 million shares of Tesco, then and now the leading food retailer in the U.K."
+    },
+    {
+      "date": "2015-02",
+      "url": "https://www.berkshirehathaway.com/letters/2014ltr.pdf",
+      "topic_tags": [
+        "C",
+        "Purchase of Van Tuyl Automotive",
+        "section:The Year at Berkshire",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2014ltr.pdf",
+      "full_text": "In October, we contracted to buy Van Tuyl Automotive, a group of 78 automobile dealerships that is exceptionally well-run. Larry Van Tuyl, the company’s owner, and I met some years ago."
+    },
+    {
+      "date": "2018-02-24",
+      "url": "https://www.berkshirehathaway.com/letters/2017ltr.pdf",
+      "topic_tags": [
+        "D",
+        "Acquisition of a 38.6% partnership interest in Pilot Flying J.",
+        "section:Acquisitions",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2017ltr.pdf",
+      "full_text": "We were able to make one sensible stand-alone purchase last year, a 38.6% partnership interest in Pilot Flying J (“PFJ”)."
+    },
+    {
+      "date": "2018-02-24",
+      "url": "https://www.berkshirehathaway.com/letters/2017ltr.pdf",
+      "topic_tags": [
+        "D",
+        "Reinsuring up to $20 billion of long-tail losses for AIG.",
+        "section:Insurance",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2017ltr.pdf",
+      "full_text": "Our 2017 volume was boosted by a huge deal in which we reinsured up to $20 billion of long-tail losses that AIG had incurred."
+    },
+    {
+      "date": "2018-02-24",
+      "url": "https://www.berkshirehathaway.com/letters/2017ltr.pdf",
+      "topic_tags": [
+        "D",
+        "Acquisition of U.S. Floors by Shaw Industries.",
+        "section:Acquisitions",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2017ltr.pdf",
+      "full_text": "Shaw Industries, our floor coverings business, acquired U.S. Floors (“USF”), a rapidly growing distributor of luxury vinyl tile. USF’s managers, Piet Dossche and Philippe Erramuzpe, came out of the gate fast"
+    },
+    {
+      "date": "2018-02-24",
+      "url": "https://www.berkshirehathaway.com/letters/2017ltr.pdf",
+      "topic_tags": [
+        "D",
+        "Acquisition of real estate brokerage operators Long and Foster, Houlihan Lawrence, and Gloria Nilson.",
+        "section:Acquisitions",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2017ltr.pdf",
+      "full_text": "We acquired the industry’s third-largest operator, Long and Foster; number 12, Houlihan Lawrence; and Gloria Nilson. With those purchases we added 12,300 agents, raising our total to 40,950."
+    },
+    {
+      "date": "2021-02-27",
+      "url": "https://www.berkshirehathaway.com/letters/2020ltr.pdf",
+      "topic_tags": [
+        "D",
+        "Berkshire share buybacks",
+        "section:The Family Jewels and How We Increase Your Share of These Gems",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2020ltr.pdf",
+      "full_text": "Last year we demonstrated our enthusiasm for Berkshire’s spread of properties by repurchasing the equivalent of 80,998 “A” shares, spending $24.7 billion in the process."
+    },
+    {
+      "date": "2021-02-27",
+      "url": "https://www.berkshirehathaway.com/letters/2020ltr.pdf",
+      "topic_tags": [
+        "D",
+        "Precision Castparts overpayment",
+        "section:Opening",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2020ltr.pdf",
+      "full_text": "No one misled me in any way – I was simply too optimistic about PCC’s normalized profit potential."
+    },
+    {
+      "date": "2021-02-27",
+      "url": "https://www.berkshirehathaway.com/letters/2020ltr.pdf",
+      "topic_tags": [
+        "D",
+        "Precision Castparts earnings forecast error",
+        "section:Opening",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2020ltr.pdf",
+      "full_text": "I was wrong, however, in judging the average amount of future earnings and, consequently, wrong in my calculation of the proper price to pay for the business."
+    },
+    {
+      "date": "2024-02-24",
+      "url": "https://www.berkshirehathaway.com/letters/2023ltr.pdf",
+      "topic_tags": [
+        "D",
+        "Buffett admits to a mistake regarding the failure to predict regulatory return changes affecting Berkshire Hathaway Energy.",
+        "section:The Scorecard in 2023",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2023ltr.pdf",
+      "full_text": "I did not anticipate or even consider the adverse developments in regulatory returns and, along with Berkshire’s two partners at BHE, I made a costly mistake in not doing so."
+    },
+    {
+      "date": "2024-02-24",
+      "url": "https://www.berkshirehathaway.com/letters/2023ltr.pdf",
+      "topic_tags": [
+        "D",
+        "Buffett and Abel decided to increase their investment in five Japanese companies following management discussions.",
+        "section:Non-controlled Businesses That Leave Us Comfortable",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2023ltr.pdf",
+      "full_text": "We increased our holdings in all five last year after Greg Abel and I made a trip to Tokyo to talk with their managements."
+    },
+    {
+      "date": "2024-02-24",
+      "url": "https://www.berkshirehathaway.com/letters/2023ltr.pdf",
+      "topic_tags": [
+        "D",
+        "Buffett decided to define the scope of Berkshire's involvement in Occidental, explicitly excluding a full purchase or management role.",
+        "section:Non-controlled Businesses That Leave Us Comfortable",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2023ltr.pdf",
+      "full_text": "Though we very much like our ownership, as well as the option, Berkshire has no interest in purchasing or managing Occidental."
+    },
+    {
+      "date": "2024-02-24",
+      "url": "https://www.berkshirehathaway.com/letters/2023ltr.pdf",
+      "topic_tags": [
+        "D",
+        "Munger identified Buffett's purchase of Berkshire as a mistake and provided guidance on how to rectify it.",
+        "section:Charlie Munger – The Architect of Berkshire Hathaway",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2023ltr.pdf",
+      "full_text": "Three years later he told me – correctly! – that I had made a dumb decision in buying control of Berkshire. But, he assured me, since I had already made the move, he would tell me how to correct my mistake."
+    },
+    {
+      "date": "2024-05-04",
+      "url": "https://buffett.cnbc.com/video/2024/05/06/morning-session---2024-meeting.html",
+      "topic_tags": [
+        "D",
+        "Apple trim tax rationale",
+        "section:Apple question",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "near-contemporaneous meeting explanation; source posted 2024-05-06",
+      "source_container_url": "https://buffett.cnbc.com/video/2024/05/06/morning-session---2024-meeting.html",
+      "full_text": "And we are paying a 21% federal rate on the gains we're taking in Apple."
+    },
+    {
+      "date": "2024-05-04",
+      "url": "https://buffett.cnbc.com/video/2024/05/06/morning-session---2024-meeting.html",
+      "topic_tags": [
+        "D",
+        "Cash retention",
+        "section:Apple question",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "near-contemporaneous meeting explanation; source posted 2024-05-06",
+      "source_container_url": "https://buffett.cnbc.com/video/2024/05/06/morning-session---2024-meeting.html",
+      "full_text": "But I don't mind at all, under current conditions, building the cash position."
+    },
+    {
+      "date": "2024-05-04",
+      "url": "https://buffett.cnbc.com/video/2024/05/06/afternoon-session---2024-meeting.html",
+      "topic_tags": [
+        "D",
+        "Paramount attribution correction",
+        "section:Paramount question",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "near-contemporaneous meeting explanation; source posted 2024-05-06",
+      "source_container_url": "https://buffett.cnbc.com/video/2024/05/06/afternoon-session---2024-meeting.html",
+      "full_text": "I was a hundred percent responsible for the Paramount decision."
+    },
+    {
+      "date": "2024-05-04",
+      "url": "https://buffett.cnbc.com/video/2024/05/06/afternoon-session---2024-meeting.html",
+      "topic_tags": [
+        "D",
+        "Paramount entire exit at loss",
+        "section:Paramount question",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "near-contemporaneous meeting explanation; source posted 2024-05-06",
+      "source_container_url": "https://buffett.cnbc.com/video/2024/05/06/afternoon-session---2024-meeting.html",
+      "full_text": "And weve sold it all, and we lost quite a bit of money."
+    },
+    {
+      "date": "2025-02-22",
+      "url": "https://www.berkshirehathaway.com/letters/2024ltr.pdf",
+      "topic_tags": [
+        "D",
+        "Purchase of Berkshire Hathaway",
+        "section:Surprise, Surprise! An Important American Record is Smashed",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2024ltr.pdf",
+      "full_text": "Though the price I paid for Berkshire looked cheap, its business – a large northern textile operation – was headed for extinction."
+    },
+    {
+      "date": "2025-02-22",
+      "url": "https://www.berkshirehathaway.com/letters/2024ltr.pdf",
+      "topic_tags": [
+        "D",
+        "Purchase of additional interest in BHE",
+        "section:Last Year’s Performance",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2024ltr.pdf",
+      "full_text": "Late in the year we increased our ownership of the utility operation from about 92% to 100% at a cost of roughly $3.9 billion"
+    },
+    {
+      "date": "2025-02-22",
+      "url": "https://www.berkshirehathaway.com/letters/2024ltr.pdf",
+      "topic_tags": [
+        "D",
+        "Purchase of Japanese company shares",
+        "section:Berkshire Increases its Japanese Investments",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": false,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2024ltr.pdf",
+      "full_text": "It’s been almost six years since Berkshire began purchasing shares in five Japanese companies that very successfully operate in a manner somewhat similar to Berkshire itself."
+    },
+    {
+      "date": "2025-02-22",
+      "url": "https://www.berkshirehathaway.com/letters/2024ltr.pdf",
+      "topic_tags": [
+        "D",
+        "Investment in short-term cash equivalents",
+        "section:Last Year’s Performance",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2024ltr.pdf",
+      "full_text": "We were aided by a predictable large gain in investment income as Treasury Bill yields improved and we substantially increased our holdings of these highly-liquid short-term securities."
+    },
+    {
+      "date": "2025-11-10",
+      "url": "https://www.berkshirehathaway.com/news/nov1025.pdf",
+      "topic_tags": [
+        "E",
+        "The acquisition of Omaha Sun Newspapers and the delegation of leadership for The Buffalo Evening News.",
+        "section:NEWS RELEASE",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "current succession decision and retrospective governance account",
+      "source_container_url": "https://www.berkshirehathaway.com/news/nov1025.pdf",
+      "full_text": "Stan sold the Omaha Sun Newspapers (weeklies) to Berkshire in 1968 and a decade later moved to Buffalo at my request. The Buffalo Evening News, owned by"
+    },
+    {
+      "date": "2025-11-10",
+      "url": "https://www.berkshirehathaway.com/news/nov1025.pdf",
+      "topic_tags": [
+        "E",
+        "Acknowledgment of a past mistake in failing to act when subsidiary or parent company CEOs succumbed to debilitating diseases.",
+        "section:NEWS RELEASE",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "current succession decision and retrospective governance account",
+      "source_container_url": "https://www.berkshirehathaway.com/news/nov1025.pdf",
+      "full_text": "Charlie and I encountered this problem several times and failed to act. This failure can be a huge mistake. The Board must be alert to this possibility"
+    },
+    {
+      "date": "2025-11-10",
+      "url": "https://www.berkshirehathaway.com/news/nov1025.pdf",
+      "topic_tags": [
+        "E",
+        "The transition plan appointing Greg Abel as the successor CEO of Berkshire Hathaway.",
+        "section:NEWS RELEASE",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "current succession decision and retrospective governance account",
+      "source_container_url": "https://www.berkshirehathaway.com/news/nov1025.pdf",
+      "full_text": "Greg Abel has more than met the high expectations I had for him when I first thought he should be Berkshire’s next CEO. He understands many of"
+    },
+    {
+      "date": "2025-11-10",
+      "url": "https://www.berkshirehathaway.com/news/nov1025.pdf",
+      "topic_tags": [
+        "E",
+        "The corporate purchase of National Indemnity in 1967 to serve as the foundation for the company's insurance operations.",
+        "section:NEWS RELEASE",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "current succession decision and retrospective governance account",
+      "source_container_url": "https://www.berkshirehathaway.com/news/nov1025.pdf",
+      "full_text": "Jack Ringwalt (class of 1923), who founded National Indemnity and sold it to Berkshire in 1967 where it became the base upon which our huge P/C operation"
+    },
+    {
+      "date": "2025-11-10",
+      "url": "https://www.berkshirehathaway.com/news/nov1025.pdf",
+      "topic_tags": [
+        "E",
+        "Greg Abel succession",
+        "section:Opening",
+        "speaker:Buffett",
+        "decider:Buffett"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "current succession decision and retrospective governance account",
+      "source_container_url": "https://www.berkshirehathaway.com/news/nov1025.pdf",
+      "full_text": "Greg Abel will become the boss at yearend. He is a great manager, a tireless worker and an honest communicator."
+    },
+    {
+      "date": "2026-02-28",
+      "url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf",
+      "topic_tags": [
+        "E",
+        "Acquisition of OxyChem and Bell Laboratories",
+        "section:Capital Discipline",
+        "speaker:Abel",
+        "decider:unknown"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf",
+      "full_text": "In 2025, our approach resulted in Berkshire announcing the acquisition of two very different businesses: OxyChem and Bell Laboratories."
+    },
+    {
+      "date": "2026-02-28",
+      "url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf",
+      "topic_tags": [
+        "E",
+        "Decision to repurchase Berkshire shares when trading below intrinsic value",
+        "section:Capital Discipline",
+        "speaker:Abel",
+        "decider:Abel"
+      ],
+      "states_buy_sell_reason": false,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf",
+      "full_text": "We will buy back Berkshire shares when they trade below our estimate of intrinsic value, conservatively determined, ensuring that repurchases enhance per-share value for continuing owners."
+    },
+    {
+      "date": "2026-02-28",
+      "url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf",
+      "topic_tags": [
+        "E",
+        "Delegation of management control concerning Pilot",
+        "section:Pilot",
+        "speaker:Abel",
+        "decider:Abel"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf",
+      "full_text": "We first invested in Pilot in 2017; however, our ability to manage it was contractually delayed until 2023. That mistake will not happen again."
+    },
+    {
+      "date": "2026-02-28",
+      "url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf",
+      "topic_tags": [
+        "E",
+        "Decision to focus on margin improvement at BNSF",
+        "section:BNSF",
+        "speaker:Abel",
+        "decider:Abel"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf",
+      "full_text": "In 2025, BNSF’s operating margin improved to 34.5% from 32.0% in 2024. It remained only modestly above its five-year average. The gap to the industry’s best remains too wide"
+    },
+    {
+      "date": "2026-02-28",
+      "url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf",
+      "topic_tags": [
+        "E",
+        "Decision regarding capital deployment for incremental growth at BHE",
+        "section:BHE",
+        "speaker:Abel",
+        "decider:Abel"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf",
+      "full_text": "BHE will pursue this incremental growth and invest our shareholders’ capital only when those risks and rewards are appropriately balanced."
+    },
+    {
+      "date": "2026-02-28",
+      "url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf",
+      "topic_tags": [
+        "E",
+        "Cash versus productive businesses",
+        "section:Financial Strength",
+        "speaker:Abel",
+        "decider:Abel"
+      ],
+      "states_buy_sell_reason": true,
+      "reason_timing": "retrospective letter explanation; source date, not trade date",
+      "source_container_url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf",
+      "full_text": "We will always aim for ownership of productive businesses over U.S. Treasuries."
+    }
+  ]
+}

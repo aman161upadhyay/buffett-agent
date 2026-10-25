@@ -1,0 +1,52 @@
+{
+ "trade_id": "2017_aapl_buffett_add",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Buffett judged the durable consumer franchise rather than predicting its next product → The integration of hardware, software, and services creates meaningful friction for users, effectively serving as a moat that encourages retention and repeat purchases [D01].",
+   "Customer stickiness made the ecosystem attractive → The integration of hardware, software, and services creates meaningful friction for users, effectively serving as a moat that encourages retention and repeat purchases [D01].",
+   "He found the price sufficiently attractive to make a large personal decision for Berkshire → At a trailing price-to-earnings multiple of roughly 14.5x, we are paying a fair price for a wonderful business [D04]."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Recent financial performance shows record quarterly revenue, validating the continued demand for the company's products [D03].",
+   "The position is still small relative to Berkshire's total capital, allowing for significant accumulation of a high-quality asset [D08]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The integration of hardware, software, and services creates meaningful friction for users, effectively serving as a moat",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Record revenue of $78.4 billion reported for the recent holiday quarter",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The stock trades at approximately 14.5x trailing earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 4,
+  "share": 0.4
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "At a trailing price-to-earnings multiple of roughly 14.5x, we are paying a fair price for a wonderful business [D04].",
+ "grader_notes": "The agent correctly identified the key drivers of consumer franchise strength and valuation attractiveness cited by Buffett. The reasoning is very close to Buffett's focus on the business's quality and the personal appeal of the investment, though the agent included extra operational performance metrics not explicitly mentioned in the Buffett interview.",
+ "run": "2017_aapl_buffett_add__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "ADD",
+ "agent_decision": "ADD",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

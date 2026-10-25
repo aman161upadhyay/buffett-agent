@@ -1,0 +1,54 @@
+{
+ "trade_id": "ctl_2024_intc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned in the tested 2024 window per parent 13F history; no public comment explaining the 2024 nonpurchase.",
+   "Corrected requested 'never bought': Berkshire DID own Intel in 2011–Q1 2012, exited Q2 2012.",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value",
+   "Capital-intensive sector outside circle of competence",
+   "Suspended dividend and GAAP net loss",
+   "Management's strategy and headcount reductions"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company has suspended its dividend and reported a GAAP net loss",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "requires massive, ongoing capital expenditures of $25-27 billion annually",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Treasuries... currently provide a superior yield",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 7,
+  "share": 0.64
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have reviewed the business and decided to pass.",
+ "grader_notes": "The agent correctly matched the 'PASS' decision but failed to incorporate the Buffett-specific reasoning provided in the answer key, which centers on ownership history and the lack of a public Berkshire-specific rejection statement. Instead, the agent synthesized its own fundamental analysis, which the rubric explicitly warns against crediting as a quote-based reason.",
+ "run": "ctl_2024_intc_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

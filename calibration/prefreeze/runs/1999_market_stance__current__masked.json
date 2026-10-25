@@ -1,0 +1,53 @@
+{
+ "pack": "1999_market_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "1999-11-22",
+ "stages": {},
+ "final": {
+  "as_of_date": "1999-11-22",
+  "market_earnings_yield_pct": 3.49,
+  "long_bond_yield_pct": 6.09,
+  "spread_points": -2.6,
+  "rule_decision": "HOLD_CASH",
+  "decision": "HOLD_CASH",
+  "override_reason": null,
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "The market earnings yield of 3.49% is substantially lower than the 6.09% yield on the 10-year Treasury bond, a negative spread of 2.6 percentage points [D04].",
+  "valuation_level": "Equity valuations are high with the market trading at approximately 28.66x trailing earnings, while government bond yields provide a more attractive and safer alternative [D04].",
+  "ideas_that_qualify": [
+   "None identified as meeting the required margin of safety [D04, D08]."
+  ],
+  "berkshire_action": "Maintain existing sound franchises and accumulate cash; avoid buying overvalued equities [D08].",
+  "drivers": [
+   {
+    "driver": "The earnings yield on equities is significantly below the yield on risk-free government bonds, making stocks unattractive relative to alternatives [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Aggregate market valuations, at nearly 29 times trailing earnings, leave little margin of safety for the investor [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Investor sentiment is exuberant, with newer market participants expecting unsustainable annual returns of 22.6% [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Berkshire's discipline requires buying only wonderful businesses at fair prices, a condition not met by current market levels [D08].",
+    "citations": [
+     "D08"
+    ]
+   }
+  ],
+  "memo": "Charlie and I find that the current environment offers little in the way of sensible investment opportunities. When the earnings yield of the market is trailing the yield on a 10-year government bond by over 2.5 percentage points, Mr. Market is clearly pricing in an optimism that we simply cannot share [D04]. We have seen this movie before; when valuations become untethered from the underlying economics of the businesses, the only prudent course is to maintain our cash position and wait for a more rational period [D01, D08].\n\nWe are not in the business of forecasting the next shift in the market, but we are in the business of demanding a margin of safety [D01]. Today, that safety is nowhere to be found among broad market indices or the popular tech-heavy valuations that seem to dominate the conversation [D04, D06]. We will continue to hold our wonderful businesses—those with durable moats and capable managers—but we will not be adding to our positions at these prices [D08]. Patience is not just a virtue in this business; it is a necessity for the preservation of capital.",
+  "uncited_claims": []
+ }
+}

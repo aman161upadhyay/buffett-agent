@@ -1,0 +1,15 @@
+Title: Free substitutes, AI distribution and the cost of journalism
+Source: https://www.sec.gov/Archives/edgar/data/71691/000007169125000117/pressrelease06302025.htm ; https://s23.q4cdn.com/152113917/files/doc_events/2025/Apr/30/The-New-York-Times-Company-2024-Annual-Report.pdf
+Date: 2025-09-30
+
+The strongest bear case is that paid digital growth becomes more expensive as the best prospects are exhausted. Promotional conversion and price increases can improve ARPU while also raising churn. The release shows sales and marketing expense rising 12.8% and media promotion expense 15.9%, faster than total revenue. Subscriber acquisition is therefore not economically free. Print subscription decline continues, even with digital growth. [1]
+
+Generative AI creates both a distribution threat and costly legal conflict. The company is litigating against Microsoft and OpenAI, and the release reports $3.5 million quarterly related legal spending. Those costs are excluded from some adjusted metrics; they are still cash claims on owners. Bundles may deepen engagement, but some subscribers might value only one low-priced product. Dual-class governance limits outside shareholder influence. No particular lawsuit payout or successful monetization contract is assumed. A high-quality newsroom and a recognizable brand do not by themselves establish that incremental subscribers create adequate returns at the quoted share price. [1,2]
+
+Evidence ledger: annual revenue was $2.308321 billion in 2022, $2.426152 billion in 2023 and $2.585919 billion in 2024. Second-quarter revenue of $685.9 million grew 9.7%; operating profit was $106.6 million, up 34.2%, and adjusted operating profit $133.8 million. Diluted EPS was $0.50, or $0.58 adjusted. Total subscribers were 11.88 million, digital-only 11.30 million, and bundle/multiproduct 6.02 million. Digital-only ARPU was $9.64, up 3.2%. Digital subscription revenue was $350.4 million, total subscription revenue $481.4 million, digital advertising $94.4 million and total advertising $134.0 million. Affiliate/licensing/other revenue was $70.5 million. Marketing costs were $69.2 million; journalism and subscriber-servicing spending remain real operating costs. [1,2]
+
+Risk distinction: a temporary earnings interruption and a permanent impairment can initially produce similar reported numbers. The test is whether the cause can be bounded without assuming that management's preferred recovery path must occur. Position liquidity limits execution risk, not business risk. The adverse mechanisms set out here are scenarios grounded in the cited contemporary evidence, not claims that every adverse outcome has occurred. No independent short-seller target or numerical probability is invented where a dated opposing valuation was not recovered.
+
+Sources and publication dates:
+[1] https://www.sec.gov/Archives/edgar/data/71691/000007169125000117/pressrelease06302025.htm (published 2025-08-06)
+[2] https://s23.q4cdn.com/152113917/files/doc_events/2025/Apr/30/The-New-York-Times-Company-2024-Annual-Report.pdf (published 2025-04-30)

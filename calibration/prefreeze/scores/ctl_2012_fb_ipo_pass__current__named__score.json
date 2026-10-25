@@ -1,0 +1,52 @@
+{
+ "trade_id": "ctl_2012_fb_ipo_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett declines new offerings because a well-informed seller chooses the timing and price; neither he nor Munger underwrote Facebook at its IPO valuation.",
+   "Buffett and Munger publicly said they would not buy the Facebook IPO at the May 5 meeting; contemporaneous May 6 coverage quotes the policy. No Facebook/Meta row in parent holdings census 2010–Q2 2026; not a claim about NEAM client portfolios.",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements; do not award reasoning-overlap credit for treating them as quotations."
+  ],
+  "extra_agent_drivers": [
+   "The initial earnings yield of 0.96% is dramatically below our 10% threshold, offering no margin of safety.",
+   "The dual-class voting structure centralizes control in the founder, preventing the owner-minded oversight we require.",
+   "The business operates in a rapidly evolving sector outside our circle of competence, making long-term economic visibility poor.",
+   "Q1 2012 results showing a profit decline despite revenue growth highlight the current unpredictability of the underlying economics."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The initial earnings yield of 0.96% is dramatically below our 10% threshold",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The dual-class voting structure... gives the founder approximately 55.9% of the voting power",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Q1 2012 net income declining to $205 million from $233 million",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 11,
+  "share": 0.92
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Comparing this opportunity to high-quality businesses with proven records or the safety of T-bills, the decision to pass is simple [D02].",
+ "grader_notes": "The agent matched the decision to PASS but failed to incorporate Buffett's specific rationale regarding IPO underwriting policy. Instead, the agent generated independent valuation and governance arguments that were not cited in the answer key. Reasoning overlap is zero because the agent treated analyst-reconstructable data as primary drivers rather than following the established refusal policy.",
+ "run": "ctl_2012_fb_ipo_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

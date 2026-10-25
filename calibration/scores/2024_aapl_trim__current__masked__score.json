@@ -1,0 +1,47 @@
+{
+ "trade_id": "2024_aapl_trim",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Realizing some gains at a 21% federal rate could be attractive if future rates rise. → While a 21% federal tax hit is significant, it is a known cost that we accept to improve our portfolio balance in a fully-priced market.",
+   "The remaining business was still highly regarded. → This decision is not a reflection of a change in the underlying business economics, which remain highly regarded, but a reflection of size and capital allocation realities."
+  ],
+  "missed": [
+   "A large residual would remain central to the equity portfolio."
+  ],
+  "extra_agent_drivers": [
+   "The position has grown to a dominant weight in the equity portfolio, requiring prudent trimming to manage concentration."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Apple remains a wonderful business with an ecosystem that continues to generate impressive returns on capital",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Services ecosystem: strengthened",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "This decision is not a reflection of a change in the underlying business economics, which remain highly regarded, but a reflection of size and capital allocation realities.",
+ "grader_notes": "The agent correctly matched the decision and acknowledged the 21% tax rate as a driver, as well as the high regard for the business. The agent failed to explicitly state that the large residual remains central to the portfolio, opting instead for a focus on concentration management, which was not cited as a driver by Buffett.",
+ "run": "2024_aapl_trim__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "TRIM",
+ "agent_decision": "TRIM",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

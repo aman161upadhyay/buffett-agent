@@ -1,0 +1,17 @@
+Title: Consumer loyalty versus hardware-cycle exposure
+Source: https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm ; https://www.apple.com/newsroom/pdfs/fy2025-q2/FY25_Q2_Consolidated_Financial_Statements.pdf ; https://www.apple.com/newsroom/2025/05/apple-reports-second-quarter-results/ ; https://www.cnbc.com/2025/05/01/apple-has-managed-tariffs-so-far-says-tough-to-predict-beyond-june.html
+Date: 2025-06-30
+
+Apple's proper comparisons include premium consumer franchises as well as device manufacturers and digital platforms. A pure hardware comparison can miss installed-base services and switching friction. A pure software comparison can ignore physical products, supply chains and replacement cycles. The March filing allows the analyst to separate product gross profit from Services gross profit: Services sales of $26.645 billion incurred cost of sales of $6.462 billion, while products required $44.030 billion against $68.714 billion sales. [2]
+
+Those margins show why business mix matters. They do not prove that Services fees face no competitive or regulatory constraint. No synchronized peer EPS/price table or customer-retention study has been independently recovered at this cutoff. Use the company's own category data to test the quality thesis, rather than claim statistical cheapness against an industry average. Reinvestment, dilution and distribution costs still have to be accounted for when comparing cash returns across consumer and technology businesses. [1,2]
+
+Evidence ledger: fiscal revenues in 2022, 2023 and 2024 were $394.328 billion, $383.285 billion and $391.035 billion. Fiscal 2024 diluted EPS was $6.08. In the March quarter, revenue was $95.359 billion, operating income $29.589 billion, net income $24.780 billion and diluted EPS $1.65. Products supplied $68.714 billion sales and Services $26.645 billion. First-half operating cash flow was $53.887 billion and capital spending $6.011 billion. March cash and marketable securities totaled $132.922 billion; commercial paper and term debt totaled $98.186 billion. The board authorized another $100 billion repurchase program and a $0.26 quarterly dividend. Cook estimated about $900 million additional tariff costs for the June quarter, conditional on unchanged policy. [1-4]
+
+Comparison discipline: industry membership does not make two businesses economically identical. Geography, customer mix, contract duration, capital intensity, leverage and accounting adjustments can dominate headline growth comparisons. No synchronized peer-price and consensus-earnings dataset was recovered for this cutoff; relative cheapness is therefore not asserted numerically. The useful comparison is between sources of durable return and exposure to common pressures. A competitor's weakness is not automatically this company's moat, and an industry recovery is not required to be uniform across participants.
+
+Sources and publication dates:
+[1] https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm (published 2024-11-01)
+[2] https://www.apple.com/newsroom/pdfs/fy2025-q2/FY25_Q2_Consolidated_Financial_Statements.pdf (published 2025-05-01)
+[3] https://www.apple.com/newsroom/2025/05/apple-reports-second-quarter-results/ (published 2025-05-01)
+[4] https://www.cnbc.com/2025/05/01/apple-has-managed-tariffs-so-far-says-tough-to-predict-beyond-june.html (published 2025-05-01)

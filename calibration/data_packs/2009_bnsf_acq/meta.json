@@ -1,0 +1,21 @@
+{
+  "id": "2009_bnsf_acq",
+  "company": "Burlington Northern Santa Fe Corporation",
+  "ticker": "BNI",
+  "aliases": [
+    "Burlington Northern Santa Fe Corporation",
+    "BNI",
+    "Burlington Northern Santa Fe",
+    "Burlington Northern",
+    "Santa Fe",
+    "BNSF",
+    "BNSF Railway"
+  ],
+  "as_of_date": "2009-11-02",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "2009-11-02 agreement; completed 2010-02-12",
+  "fund_aum_usd_bn": 25.5,
+  "decider": "Buffett",
+  "notes": "Corrects request: $34 billion was all-equity value INCLUDING already-owned shares, not incremental price for 77.4%. New means control acquisition despite existing minority. Public deal price follows cutoff and is key-only. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated."
+}

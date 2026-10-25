@@ -1,0 +1,52 @@
+{
+ "trade_id": "2008_buy_american_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Fear created attractive long-term prices for sound American businesses. → When others are fearful, the market often provides us with the opportunity to purchase such businesses at prices that offer a substantial margin of safety.",
+   "A bad near-term economy does not identify the market's turning point. → We do not attempt to forecast the bottom of the market or the near-term path of the economy, as such efforts are futile."
+  ],
+  "missed": [
+   "Cash equivalents protect nominal balances but risk purchasing power over time."
+  ],
+  "extra_agent_drivers": [
+   "The spread between normalized equity earnings yields and long government bonds provides a significant margin of safety"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "normalised earnings yield (~8%) exceeds long-bond yield (3.99%) by >2 points",
+    "citation": "D02",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "VIX at 67.61",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "We look for wonderful businesses that we can understand",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 1,
+  "share": 0.13
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "When others are fearful, the market often provides us with the opportunity to purchase such businesses at prices that offer a substantial margin of safety.",
+ "grader_notes": "The agent correctly identified the 'buy' direction and aligned with Buffett's philosophy on market fear and ignoring short-term economic forecasts. The agent's reasoning was farthest from Buffett in its reliance on specific quantitative 'spread' metrics (earnings yield vs bonds), which were not cited by Buffett in his 2008 op-ed.",
+ "run": "2008_buy_american_stance__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY_BROADLY",
+ "agent_decision": "BUY_BROADLY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2026_cash_stance",
+  "actual_decision": "HOLD_CASH",
+  "conviction": "medium",
+  "conviction_basis": "Classification inferred from observed size/action; private conviction not observable.",
+  "size_pct_nav": "Continuing portfolio liquidity stance, not a new 100%-cash allocation. December 2025 net insurance-and-other cash/Treasuries $369.0bn; corporate NAV/float/13F are not interchangeable denominators.",
+  "first_action_date": "2026-05-02 annual meeting; continuing policy, not a single trade",
+  "disclosure_date": "2026-05-02",
+  "reason_class": null,
+  "reason_class_status": "Unknown/unassigned; not inferred from price movement or generic prior comments.",
+  "opportunity_template": [
+    "B8"
+  ],
+  "opportunity_template_basis": "Analyst classification of case economics, not a verified manager label.",
+  "catalyst_role": "R0",
+  "decider": "Abel",
+  "size_basis": "cash",
+  "drivers": [
+    {
+      "driver": "Abel rejected pressure to spend all available capital merely because it exists.",
+      "source": "https://www.reuters.com/sustainability/boards-policy-regulation/berkshire-shareholders-head-greg-abels-first-annual-meeting-with-buffett-2026-05-02 (2026-05-02)",
+      "quote": "It doesn't mean you need to deploy all your capital and spend all your money",
+      "evidence_timing": "Public statement; confined to the sealed answer key."
+    },
+    {
+      "driver": "He emphasized independence rather than dependence on outside funding.",
+      "source": "https://www.reuters.com/sustainability/boards-policy-regulation/berkshire-shareholders-head-greg-abels-first-annual-meeting-with-buffett-2026-05-02 (2026-05-02)",
+      "quote": "We do not intend to be beholden to anyone. We start with that.",
+      "evidence_timing": "Public statement; confined to the sealed answer key."
+    },
+    {
+      "driver": "The pre-meeting capital framework preferred productive businesses but preserved patience for the right opportunities.",
+      "source": "https://www.berkshirehathaway.com/letters/2025ltr.pdf (2026-02-28)",
+      "quote": "We will always aim for ownership of productive businesses over U.S. Treasuries.",
+      "evidence_timing": "2026-02-28 prior letter; compatible with selective investment, not a May2 crash prediction."
+    }
+  ],
+  "entry_valuation_stated": "No announced index valuation target or required cash percentage. No independently verified May1 index forward multiple/bill yield recovered.",
+  "outcome_note": "HOLD_CASH is the rubric label for continued exceptional liquidity and refusal to deploy indiscriminately; SELECTIVE is semantically close and must not be treated as a macro-market-timing disagreement. Subsequent acquisitions show it was not a ban on investing.",
+  "sources": [
+    {
+      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/berkshire-shareholders-head-greg-abels-first-annual-meeting-with-buffett-2026-05-02",
+      "date": "2026-05-02"
+    },
+    {
+      "url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf",
+      "date": "2026-02-28"
+    },
+    {
+      "url": "https://www.berkshirehathaway.com/2025ar/202510-k.pdf",
+      "date": "2026-02-28"
+    },
+    {
+      "url": "https://www.berkshirehathaway.com/qtrly/1stqtr26.pdf",
+      "date": "2026-05-02"
+    },
+    {
+      "url": "https://www.berkshirehathaway.com/news/may3126.pdf",
+      "date": "2026-05-31"
+    }
+  ],
+  "pack_quality_notes": "Taxonomy-sensitive stance, not a precisely measurable trade. Primary Q1 balance sheet resolves May2 cash headlines: $51.478bn insurance/other cash + $6.644bn rail/utility cash + $339.261bn Treasury bills = $397.383bn consolidated gross; less $17.229bn unsettled bills = $380.154bn consolidated net. Insurance/other net alone is $373.510bn. Thus $397.4bn/$380.2bn are different settlement definitions, not an irreconcilable contradiction. None was public at the May1 pack cutoff. Current market valuation/yield table not recovered.",
+  "quality_grade": "B",
+  "reasoning_scoring": "Qualified: distinguish retrospective statements, generic criteria and pre-cutoff unavailable terms; do not score private-term prediction.",
+  "as_of_date": "2026-05-01",
+  "actual_action_window": "2026-05-02 annual meeting; continuing policy rather than single execution",
+  "acceptable_direction_equivalent_with_caveat": "SELECTIVE if it explicitly preserves liquidity, independence and willingness to buy individual sound opportunities."
+}

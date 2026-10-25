@@ -1,0 +1,15 @@
+Title: Wells Fargo & Company — Information chronology
+Source: Wells Fargo pre-cutoff operating facts reconstructed from Berkshire purchase discussion; https://www.nytimes.com/1990/10/25/business/company-news-buffett-acquires-9.8-of-wells-fargo-shares.html used only as archival chronology, not to reveal the stake; Los Angeles Times, July 18, 1990, https://www.latimes.com/archives/la-xpm-1990-07-18-fi-684-story.html
+Date: 1990-10-24
+
+## Cutoff evidence — reconstructed
+
+The present boundary is October 24 during the California bank selloff. The original investment history contains a smaller purchase during the preceding year, so the requested new mode is not literally before the first exposure. The chronology in the replay withholds the current disclosed stake and its investment outcome. A next-day newspaper is used solely to anchor the public-event window in the archival metadata. No full current-year results or future property-cycle improvement is included. The correct reconstruction is an expanded-thesis allocation review with prior exposure, not a fictitious claim that all investment began today.
+
+## Economic reading of the supplied facts
+
+Industry economics: a bank's assets consist largely of promises to repay. Small changes in the value of loans can have large effects on a leveraged common-equity base. Deposits provide funding, but do not make credit losses disappear. A bank's expense discipline matters because pre-provision earnings can absorb losses before capital is impaired. Commercial-property lending requires attention to borrower equity, collateral and refinancing rather than merely the last reported interest payment. Reported earnings can be overstated when loss provisions lag actual deterioration. Comparing banks therefore requires both operating efficiency and a conservative estimate of asset quality. These mechanics explain why a low price-to-earnings ratio alone is not sufficient evidence of a bargain, and why depositor funding is not a substitute for adequate capital.
+
+Chronology controls: the cutoff is an information boundary, not proof of an execution on that day. A negotiated commitment, a public announcement, a purchase settlement and an annual-report disclosure are distinct events. Facts about the condition of the business may be reconstructed from archival accounts without turning a later explanation into a statement available to the market.
+
+Only the events described above enter this chronology. No subsequent result is assumed when assessing the unresolved question. The absence of an original day-by-day price series prevents identification of a precise entry-day return or volume pattern. The same restriction applies to unpublished board discussions and security-specific purchase ledgers. This reconstruction does not claim access to either. Where a transaction is being considered, proposed terms are identified as proposed; regulatory approvals and operating improvements are not treated as completed. Where shares already exist in a portfolio, a request to study a new allocation must not erase that exposure.

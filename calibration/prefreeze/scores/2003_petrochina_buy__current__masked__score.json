@@ -1,0 +1,54 @@
+{
+ "trade_id": "2003_petrochina_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "A large gap between price and assessed value provided the purchase rationale. → Mr. Market is currently focused on the regulatory cloud and the risks associated with state ownership, leaving the shares trading at less than book value [D01, D04, D05]."
+  ],
+  "missed": [
+   "The price implied roughly $37 billion for a business appraised near $100 billion.",
+   "The appraisal concerned the business's earning assets rather than a country-label discount alone."
+  ],
+  "extra_agent_drivers": [
+   "The company trades at a 15.3% earnings yield and 0.97x book value, offering a compelling margin of safety compared to prevailing bond yields.",
+   "The business is a massive, cash-generative integrated petroleum operator with a proven ability to maintain profitability through cycles.",
+   "Management has demonstrated fiscal discipline by reducing total borrowings."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Normalized earnings of ~45B RMB",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "0.8x to 1.0x book value",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "reducing total borrowings from 146.5B RMB to 81.3B RMB over four years",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 5,
+  "share": 0.45
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We view this valuation as an attractive opportunity to acquire a cash-generative business at a 15.3% earnings yield, providing a substantial margin of safety that compensates us for the governance risks involved [D04].",
+ "grader_notes": "The agent correctly identified the investment as a value play predicated on a price-to-intrinsic value gap. However, it failed to utilize the specific retrospective appraisal framework (the $37B vs $100B comparison) that Buffett cited as the primary driver for this position, relying instead on conventional financial metrics like earnings yield and book value comparisons.",
+ "run": "2003_petrochina_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

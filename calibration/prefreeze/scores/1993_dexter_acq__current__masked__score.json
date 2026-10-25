@@ -1,0 +1,59 @@
+{
+ "trade_id": "1993_dexter_acq",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "The original attraction was a long, profitable record, an enduring franchise and superb management.",
+   "Berkshire and the sellers shared a long-term ownership philosophy with management retained.",
+   "Prior footwear experience supported extending a familiar operating field."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value concerns due to lack of audited financials",
+   "Industry import exposure and lack of competitive advantage",
+   "Inventory and fashion risks",
+   "Dilution concerns"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business operates in an import-exposed industry that lacks a durable competitive advantage [D01, D05].",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Price vs value — $420 million valuation cannot be reconciled with underlying economics as audited financials are not in pack [D02, D04].",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Footwear manufacturing carries significant inventory and fashion risks that hinder long-term predictability [D05].",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "At a purchase price of approximately $420 million payable in Berkshire shares, we see no clear margin of safety [D02, D04].",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 4,
+  "share": 0.36
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We prefer to pass and preserve our reputation and capital for a more certain investment [D05, D08].",
+ "grader_notes": "The agent reached the opposite conclusion of Buffett by prioritizing a lack of audited data and competitive industry risks over the contemporary rationale of management quality and operational experience. The agent failed to cite any of the drivers identified in the answer key, focusing instead on financial verification and external competitive pressures.",
+ "run": "1993_dexter_acq__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

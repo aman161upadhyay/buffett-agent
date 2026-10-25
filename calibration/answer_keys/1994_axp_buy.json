@@ -1,0 +1,40 @@
+{
+  "id": "1994_axp_buy",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav": "December 1994: 27,759,941 shares / $723.919 million cost; December 1995 ~$1.3927 billion / ~10% ownership",
+  "first_action_date": null,
+  "disclosure_date": "1995-02-15",
+  "reason_class": null,
+  "opportunity_template": [
+    "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "Berkshire enlarged a familiar franchise investment rather than repeating the original salad-oil trade.",
+      "source": "https://www.berkshirehathaway.com/letters/1994.html (1995-03-07; hindsight explanation)",
+      "quote": "enlarging our holdings"
+    },
+    {
+      "driver": "Long experience with the company and products helped evaluate business quality.",
+      "source": "https://www.berkshirehathaway.com/letters/1994.html (1995-03-07; hindsight explanation)",
+      "quote": "long-term familiarity with a company and its products is often helpful in evaluating it"
+    },
+    {
+      "driver": "Common ownership offered continuing business participation distinct from the preferred's contractual economics.",
+      "source": "https://www.berkshirehathaway.com/letters/1991.html (1992-02-28; hindsight explanation)",
+      "quote": "not a normal fixed-income security"
+    }
+  ],
+  "entry_valuation_stated": "Original common-stock valuation model not recovered; prior preferred contract not substituted for common yield.",
+  "outcome_note": "Long-term common accumulation. March 1995 writing-date cost $1.36 billion is distinct from December 1995 $1.3927 billion.",
+  "sources": [
+    "https://www.berkshirehathaway.com/letters/1994.html (1995-03-07; hindsight explanation)",
+    "https://www.berkshirehathaway.com/letters/1991.html (1992-02-28; hindsight explanation)",
+    "American Express pre-cutoff corporate and operating reconstruction; Berkshire preferred contract in https://www.berkshirehathaway.com/letters/1991.html ; prior holdings in https://www.berkshirehathaway.com/letters/1993.html"
+  ],
+  "pack_quality_notes": "Grade C: original common quote/earnings and complete issuer-specific rationale thin. New mode is an accumulation/conversion thesis review with prior exposure; exact first purchase/settlement unverified."
+}

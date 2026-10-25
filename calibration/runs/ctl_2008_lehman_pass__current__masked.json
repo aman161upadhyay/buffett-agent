@@ -1,0 +1,264 @@
+{
+ "pack": "ctl_2008_lehman_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2008-03-28",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a financial franchise combining fixed-income intermediation, equity execution, underwriting, mergers advice and asset management [D01]. It generates revenue through advisory fees, trading operations, and asset management activities with $277 billion in client assets under management [D01].",
+   "products_customers_and_why_they_buy": [
+    "Fixed-income and equity trading services, investment banking advisory, and asset management [D01].",
+    "Productive assets include client relationships, distribution, and specialist trading personnel [D01]."
+   ],
+   "economics": [
+    "Pre-tax margin of 18.9% [D01].",
+    "Quarterly ROE of 8.6% versus 24.4% in the prior year [D01].",
+    "Compensation expense absorbed 52.5% of net revenues [D01].",
+    "Capital intensity is inherent in financial operations requiring liquidity and capital to support market positions and regulatory requirements [D02]."
+   ],
+   "earnings_record": [
+    "Q1 2008: Net revenue $3.5 billion (-31% YoY); net income $489 million (-57% YoY); diluted EPS $0.81 vs $1.96 [D01].",
+    "Negative mark-to-market adjustments of $1.8 billion [D01].",
+    "Fixed income revenue fell 88% to $262 million, while equities rose 6% to $1.4 billion [D01]."
+   ],
+   "competitive_position": [
+    "Competes with firms such as Goldman Sachs, Morgan Stanley, and Merrill Lynch for advisory, underwriting, and trading flows [D06].",
+    "Market position is challenged by liquidity shocks and a loss of confidence in the credit markets [D05]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Reported book value $39.45/share; total stockholders' equity $24.8 billion [D01].",
+    "Holding-company liquidity $34 billion; unencumbered assets $64 billion (holding) and $99 billion (regulated entities) [D01].",
+    "Requires ongoing liquidity to bridge asset marks and satisfy creditors [D05]."
+   ],
+   "management_and_capital_allocation": [
+    "Not in pack regarding specific CEO tenure or detailed capital allocation history [D01, D02, D03, D04, D05, D06, D07, D08]."
+   ],
+   "price_and_valuation": [
+    "Price as of March 27, 2008: $38.71 [D02].",
+    "Market capitalization: $20.539 billion [D02].",
+    "P/B ratio: approximately 0.98 [D02].",
+    "Mechanical P/E based on annualized Q1 EPS: 11.95 [D02]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 8.37,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 1.3,
+    "long_bond_yield": 0,
+    "basis": "Trailing earnings yield derived from mechanical P/E (1/11.95) [D02]. Dividend yield stated by analyst report [D02]."
+   },
+   "what_the_market_is_worried_about": [
+    "Liquidity shocks and loss of confidence [D05].",
+    "Trading losses and fixed-income revenue declines [D05].",
+    "Talent departures and non-annuity revenue volatility [D05].",
+    "Risk that additional losses absorb common equity [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "March 18, 2008: Q1 financial release [D01].",
+    "March 27, 2008: Last trade before cutoff at $38.71 [D02].",
+    "March 28, 2008: Analyst upgrade issued [D02]."
+   ],
+   "berkshire_context": [
+    "Berkshire held $44.329 billion in cash and $74.999 billion in equity securities as of year-end 2007 [D08].",
+    "Existing large financial exposures include American Express and Wells Fargo [D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Normalized owner earnings estimate.",
+    "Detailed maintenance capex requirements.",
+    "Full 5-10 year historical record.",
+    "Specific management compensation and capital allocation policy details."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business model relies on complex fixed-income intermediation and trading sensitive to market confidence and liquidity shocks, making its long-term future difficult to predict with confidence [D01], [D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "Market position is currently challenged by a loss of confidence in credit markets and liquidity shocks, and the firm operates in a highly competitive environment where revenue is tied to volatile market flows [D01], [D05], [D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company reported a 57% decline in net income and an 88% collapse in fixed-income revenue in Q1 2008, indicating significant vulnerability to market cycles [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "Quarterly ROE dropped significantly to 8.6% from 24.4%, and the business faces risks that additional losses could absorb common equity [D01], [D05]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "Financial operations are inherently capital-intensive, requiring constant liquidity to satisfy creditors and support market positions [D02], [D05]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Information regarding management's capital allocation philosophy and ownership mentality is not in the pack [D01], [D02], [D03], [D04], [D05], [D06], [D07], [D08]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of $20.5 billion, the company is large enough to be meaningful for Berkshire [D02]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "Earnings are currently volatile and distressed due to the liquidity shock, making a normalized owner-earnings yield calculation unreliable without further data [D01], [D05]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 5,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a capital-intensive financial firm facing a crisis of confidence and severe earnings volatility"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is reacting to severe earnings volatility and a loss of confidence in the firm's liquidity and credit-sensitive business model [D01], [D05]. We see no durable competitive advantage or predictable earnings power here, and the business sits firmly in the 'too hard' pile due to the risk of permanent capital loss inherent in its capital-intensive financial intermediation [D01], [D05].",
+   "evidence": [
+    "Net income declined 57% and fixed-income revenue collapsed 88% in Q1 2008 [D01].",
+    "The business model relies on liquidity and market confidence, which are currently unstable [D05].",
+    "Financial operations are capital-intensive and subject to market cycles [D02]."
+   ],
+   "market_narrative_we_disagree_with": "The market may be pricing the company as a 'value' stock because it trades near book value, ignoring that in a financial crisis, book value can be rapidly eroded by mark-to-market losses and the loss of counterparty trust [D01], [D05].",
+   "what_must_be_true": [
+    "The company's liquidity position must remain stable without external bailouts.",
+    "The company's core businesses must demonstrate an ability to generate consistent, non-volatile returns through various market cycles.",
+    "Management must prove they have an owner-oriented capital allocation philosophy."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack",
+   "initial_pretax_yield_pct": 8.37,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "Liquidity and counterparty confidence are stable [D05]",
+     "Earnings power is not permanently impaired by current market volatility [D01]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "price is 0.98x book value [D02]; intrinsic value indeterminate due to lack of competitive moat",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / T-bills / existing holdings — Berkshire holds substantial cash for better opportunities [D08]",
+   "downside_case": "permanent loss of capital due to liquidity crisis or erosion of equity by mark-to-market losses [D01], [D05]",
+   "valuation_verdict": "PASS",
+   "flagged_assumptions": [
+    "Normalized owner earnings could not be calculated due to missing historical data and maintenance capex requirements [Missing Data].",
+    "Long bond yield is missing from the pack."
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Not applicable as the recommendation is to PASS [FILTER 2]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000-2015 era, we act as a permanent holder for businesses we understand, yet we avoid companies whose fundamental earnings power is impaired by liquidity crises and lack of a durable moat [FILTER 1, FILTER 2]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Liquidity crisis leading to insolvency",
+    "Continued deterioration in fixed-income revenue and market trust",
+    "Mark-to-market losses eroding common equity beyond recovery",
+    "Loss of competitive position to peers due to talent departure"
+   ],
+   "berkshire_constraints": "Cash position must remain robust to support existing operations and emergency liquidity requirements; maintain capital to protect reputation [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Cash held for better opportunities or investment in more stable, predictable franchises [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The decision involves a major financial institution outside our circle of competence, requiring a judgment on systemic risk and capital stability.",
+   "biggest_risk_in_one_sentence": "The firm's reliance on market confidence and liquidity makes it susceptible to a collapse in book value during a financial crisis."
+  }
+ },
+ "final": {
+  "as_of_date": "2008-03-28",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 8.37,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "permanent loss of capital due to liquidity crisis or erosion of equity by mark-to-market losses"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the company trades at 0.98x book value [D02], but the intrinsic value is impossible to determine given the absence of a durable moat or predictable earnings power [D01], [D05].",
+    "citations": [
+     "D01",
+     "D02",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The business lacks a durable competitive advantage and relies on unstable market confidence and liquidity to survive [D01], [D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The economics are highly cyclical, evidenced by a 57% collapse in net income and an 88% decline in fixed-income revenue in a single quarter [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Financial operations are inherently capital-intensive and subject to unpredictable liquidity shocks that could lead to a permanent loss of capital [D02], [D05].",
+    "citations": [
+     "D02",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Liquidity crisis leading to insolvency",
+   "Continued deterioration in fixed-income revenue and market trust",
+   "Mark-to-market losses eroding common equity beyond recovery",
+   "Loss of competitive position to peers due to talent departure"
+  ],
+  "what_would_change_our_mind": "Evidence of a permanent, non-volatile annuity-like income stream, a sustainable competitive moat that survives market panics, and a demonstration of management's ability to allocate capital prudently through the cycle.",
+  "memo": "We have examined the Company and determined that it does not meet our standards for investment. While the stock trades at approximately 0.98 times book value [D02], we cannot determine an intrinsic value because we lack confidence in the underlying economics of the business [D01], [D05].\n\nThe business model is heavily dependent on market liquidity and confidence, assets which can evaporate overnight during a crisis [D05]. Recent performance highlights this vulnerability, with net income falling 57% and fixed-income revenue collapsing 88% in the first quarter of 2008 [D01].\n\nFinancial intermediaries often find that in good times they are indispensable, but in bad times they are precarious [D05]. The inherent capital intensity and the potential for mark-to-market losses to rapidly erode equity mean that we face the risk of permanent capital loss, which we are unwilling to entertain [D01], [D02], [D05].\n\nCharlie and I prefer to buy businesses we can understand with consistent, predictable earnings power [D08]. This opportunity sits firmly in the 'too hard' pile, as the firm’s reliance on volatile trading flows and credit market sentiment leaves it outside our circle of competence [D01], [D05]. We will continue to hold our cash until a more certain, wonderful business is available at a fair price [D08].",
+  "uncited_claims": []
+ }
+}

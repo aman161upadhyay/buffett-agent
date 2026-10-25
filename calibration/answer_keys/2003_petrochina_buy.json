@@ -1,0 +1,42 @@
+{
+  "id": "2003_petrochina_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "$488 million total cost across 2002\u201303; about 1.3% of issuer; not a single-day allocation",
+  "first_action_date": null,
+  "disclosure_date": null,
+  "reason_class": null,
+  "opportunity_template": [
+    "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "The price implied roughly $37 billion for a business appraised near $100 billion.",
+      "source": "https://www.berkshirehathaway.com/letters/2007ltr.pdf (2008-02-29; hindsight account of 2002\u201303 purchase)",
+      "quote": null
+    },
+    {
+      "driver": "The appraisal concerned the business's earning assets rather than a country-label discount alone.",
+      "source": "https://www.berkshirehathaway.com/letters/2007ltr.pdf (2008-02-29; hindsight account of 2002\u201303 purchase)",
+      "quote": null
+    },
+    {
+      "driver": "A large gap between price and assessed value provided the purchase rationale.",
+      "source": "https://www.berkshirehathaway.com/letters/2007ltr.pdf (2008-02-29; hindsight account of 2002\u201303 purchase)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Retrospective 2007 letter: $37 billion implied company price versus approximately $100 billion appraisal.",
+  "outcome_note": "2007 letter reports $4 billion sale proceeds and $1.2 billion US tax; those facts are excluded from docs.",
+  "sources": [
+    "https://www.berkshirehathaway.com/letters/2007ltr.pdf",
+    "https://www.sec.gov/Archives/edgar/data/1108329/000114554903000349/u98443e6vk.txt",
+    "https://www.berkshirehathaway.com/letters/2002ltr.pdf",
+    "https://www.berkshirehathaway.com/letters/2004ltr.pdf"
+  ],
+  "pack_quality_notes": "Requested date is inside/after an accumulation window, not a verified first trade. New mode is a counterfactual fresh-underwriting view. The 2004 letter is an ownership checkpoint; the 2007 letter provides the retrospective appraisal. Missing dated quote and reserve-maintenance detail. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated. Key source timing: 2008-02-29; hindsight account of 2002\u201303 purchase. Unknown first execution is null; see meta.first_action_window. Fewer than three authenticated drivers means reasoning is unscorable rather than completed with invented manager claims.",
+  "quality_grade": "C"
+}

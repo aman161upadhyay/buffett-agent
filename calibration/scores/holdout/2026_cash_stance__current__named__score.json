@@ -1,0 +1,48 @@
+{
+ "trade_id": "2026_cash_stance",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "The pre-meeting capital framework preferred productive businesses but preserved patience for the right opportunities → Our preference remains firmly on the side of productive, understandable businesses that possess durable competitive advantages."
+  ],
+  "missed": [
+   "Abel rejected pressure to spend all available capital merely because it exists.",
+   "He emphasized independence rather than dependence on outside funding."
+  ],
+  "extra_agent_drivers": [
+   "Market earnings yields are currently inferior to long-term government bond yields, indicating a lack of broad value.",
+   "No widespread market panic or valuation distress is evident in the current data."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The earnings yield of 3.92% is 0.47 points lower than the 10-year Treasury yield of 4.39%",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The S&P 500 trailing P/E is 25.49x",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 1,
+  "share": 0.11
+ },
+ "state": "PARTIAL",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "Currently, with the broader equity market trading at earnings yields below that of risk-free long-term government bonds, we find ourselves in a period requiring selectivity.",
+ "grader_notes": "The agent correctly identified the 'SELECTIVE' stance consistent with the answer key's caveat, but failed to attribute the decision to Greg Abel, instead focusing on a general corporate voice. The reasoning diverged from the key by prioritizing macro-market valuation metrics (earnings yield vs. bonds) rather than the specific governance themes of independence and rejection of pressure to deploy capital cited by Buffett/Abel.",
+ "run": "2026_cash_stance__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "HOLD_CASH",
+ "agent_decision": "SELECTIVE",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

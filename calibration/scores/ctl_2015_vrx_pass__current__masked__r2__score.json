@@ -1,0 +1,49 @@
+{
+ "trade_id": "ctl_2015_vrx_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "No ownership in the window",
+   "No Valeant/VRX/Bausch predecessor position in the parent 2010–Q2 2026 13F census",
+   "Economic and valuation objections are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "GAAP P/E valuation",
+   "Debt-funded acquisition model",
+   "Net debt levels",
+   "Non-GAAP financial metrics"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at a GAAP P/E of 76.2x",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Reported net debt of $15.3 billion",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 6,
+  "share": 0.6
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have looked at the Company and concluded that its business model is fundamentally at odds with the principles we seek in a permanent investment.",
+ "grader_notes": "The agent correctly identifies the PASS decision but fails to capture Buffett's reasoning, which focused on the lack of a historical position and the absence of authenticated contemporary criticism as of the March 2, 2015 cutoff. The agent instead constructs a fundamental bear case based on valuation and debt; while these are valid analytical points, the answer key specifically identifies them as analyst-reconstructable tests rather than authenticated Buffett drivers. Consequently, the agent receives no overlap credit for its driver analysis.",
+ "run": "ctl_2015_vrx_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

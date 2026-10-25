@@ -1,0 +1,247 @@
+{
+ "pack": "2013_heinz_acq",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2013-02-13",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Heinz sells branded packaged food internationally, with ketchup and sauces central to the consumer proposition [D01]. The company operates established developed-market franchises alongside emerging-market growth [D01].",
+   "products_customers_and_why_they_buy": [
+    "Branded packaged foods including ketchup and sauces [D01].",
+    "Repeated small-ticket purchases by consumers, though retailers retain significant negotiating power and control shelf space [D01]."
+   ],
+   "economics": [
+    "Operating margin: 12.5% (FY2012) [D02]; 13.9% (Q2 FY2013) [D03].",
+    "Capital intensity: FY2012 capex was $418.7 million against $295.7 million in depreciation [D02].",
+    "Pricing power: Mixed; organic growth is reported, but management must navigate commodity inflation and foreign exchange [D02, D03]."
+   ],
+   "earnings_record": [
+    "Continuing net income (common): $846.6m (2008), $929.5m (2009), $914.5m (2010), $989.5m (2011), $923.2m (2012) [D02].",
+    "Revenue growth has been consistent, with 30 consecutive quarters of organic growth as of the Q2 FY2013 report [D03]."
+   ],
+   "competitive_position": [
+    "Ketchup holds approximately 60% of the US market; the Heinz brand is No. 1 or 2 in its categories in most markets [D09].",
+    "Peers include Campbell Soup, General Mills, and Kellogg [D04, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Total debt (as of Q2 2013): $5.036 billion [D04].",
+    "Cash (as of Q2 2013): $1.007 billion [D04].",
+    "Proposed buyout structure involves increasing leverage to approximately 5x EBITDA [D09]."
+   ],
+   "management_and_capital_allocation": [
+    "3G Capital, proposed operator, is known for zero-based budgeting and previous turnarounds like Burger King [D09].",
+    "Berkshire's proposed involvement is a capital partner providing $12 billion in financing [D09]."
+   ],
+   "price_and_valuation": [
+    "Trading close (2013-02-13): $60.48 [D04].",
+    "Proposed acquisition price: ~$72.50 per share [D09].",
+    "P/E (trailing): 19.38x [D04].",
+    "Earnings yield: 5.16% [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Slow growth in packaged foods [D05].",
+    "Pressure from private labels and retailer bargaining power [D05].",
+    "Commodity input inflation and foreign exchange/execution risks in emerging markets [D05].",
+    "Vulnerability of increased leverage on the business [D05, D09]."
+   ],
+   "deal_terms_if_any": [
+    "Proposed total commitment: $12 billion total [D09].",
+    "Common equity: ~$4 billion [D09].",
+    "Preferred stock: ~$8 billion with 9% cumulative dividend, redeemable at a premium, plus warrants for ~5% of common [D09]."
+   ],
+   "recent_events": [
+    "Proposed acquisition by 3G Capital and Berkshire Hathaway announced/discussed around December 2012-February 2013 [D09].",
+    "Q2 FY2013 results reported 23% EPS growth year-over-year [D03]."
+   ],
+   "berkshire_context": [
+    "Berkshire held approximately $37.3 billion in cash at year-end 2011 [D08].",
+    "Proposed role is as a capital partner for 3G Capital [D09]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Final deal terms were not public at the cutoff date [D04, D07]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "Heinz has a long history of selling branded packaged foods like ketchup and sauces that consumers purchase repeatedly [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "Heinz maintains the number one or two position in its categories in most markets and holds a 60% market share in US ketchup [D09]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "The company has demonstrated consistent net income over the 2008-2012 period and 30 consecutive quarters of organic growth as of Q2 2013 [D02, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "While historical performance is steady, the proposed buyout structure significantly increases leverage to 5x EBITDA, which fundamentally changes the capital structure [D09]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "The company maintains established, steady-state operations where capital expenditures are generally aligned with depreciation, typical of a mature food franchise [D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Berkshire is partnering with 3G Capital, whose operational focus and ability to drive efficiency are well-regarded for this type of long-term partnership [D09]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "A $12 billion total commitment is of sufficient scale to be meaningful for Berkshire Hathaway [D09]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The terms of the preferred stock—an $8 billion investment with a 9% cumulative dividend plus warrants—provide a very attractive return relative to prevailing long bond yields [D09]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 7,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": true,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "A premier global consumer food franchise where the negotiated terms, not the common equity alone, drive the investment."
+  },
+  "gate2": {
+   "templates": [
+    "B11"
+   ],
+   "why_available": "The market views Heinz through the lens of slow growth and competitive pressure from private labels [D05]. We view the business as a powerful global brand with durable demand, and by partnering with 3G Capital, we can unlock efficiency through operational discipline while securing a high-yielding, protected position in the capital structure [D09].",
+   "evidence": [
+    "Heinz holds a dominant 60% market share in US ketchup [D09].",
+    "Proposed investment includes an $8 billion preferred stake with a 9% cumulative dividend, providing significant income [D09].",
+    "3G Capital possesses a proven track record of driving operational efficiency in food and consumer businesses [D09]."
+   ],
+   "market_narrative_we_disagree_with": "The market is overly concerned with the challenges of the packaged food industry and the risks associated with the increased leverage required for the buyout [D05, D09].",
+   "what_must_be_true": [
+    "The core Heinz brand remains resilient to retailer and private-label pressure.",
+    "3G Capital successfully implements its efficiency programs without damaging the brand equity.",
+    "The company generates sufficient cash flow to service the debt and the 9% preferred dividend."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "negotiated_terms",
+   "owner_earnings_per_share": "Not applicable for preferred structure [D09]",
+   "initial_pretax_yield_pct": 9,
+   "intrinsic_value_range": {
+    "low": "Value defined by senior preferred claim and warrant upside [D09]",
+    "high": "Value defined by senior preferred claim and warrant upside [D09]",
+    "key_assumptions": [
+     "9% cumulative dividend [D09]",
+     "3G Capital operational efficiency [D09]",
+     "Heinz cash flow sufficiency [D09]"
+    ],
+    "discount_rate_used": "Not applicable; fixed coupon return compared against long bond [D09]"
+   },
+   "price_vs_value": "Negotiated terms provide a margin of safety via seniority [D09]",
+   "expected_return_pct": {
+    "base": 9,
+    "bear": 9,
+    "bull": 9
+   },
+   "alternatives": "Existing holdings or T-bills; preferred structure offers superior risk-adjusted income [D09]",
+   "downside_case": "Impairment of common equity; limited by senior position in capital structure [D09]",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Assumption that 3G Capital's operational discipline will successfully service the 9% preferred dividend without endangering core brand equity [D09]"
+   ]
+  },
+  "gate4": {
+   "role": "R2",
+   "role_description": "Berkshire acts as a financier, providing $8 billion in preferred stock with a 9% cumulative dividend and warrants in exchange for our capital imprimatur to support 3G Capital's acquisition [D09].",
+   "horizon": "until conversion",
+   "value_realisation_path": [
+    "Realise value through the receipt of the 9% cumulative annual preferred dividend [D09].",
+    "Participate in potential equity appreciation via warrants for approximately 5% of the common stock [D09].",
+    "Redemption of the preferred stake at a premium [D09]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the post-2000 era, we act as a provider of capital for major transactions, using our financial strength to secure superior, protected returns through preferred instruments with warrants when opportunities are at a scale that moves the needle [D09]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "3G Capital fails to drive sufficient operating efficiencies to support the high debt service requirements [D09].",
+    "Aggressive cost-cutting erodes the fundamental brand equity and consumer loyalty that underpins Heinz's pricing power [D09].",
+    "Market shifts or private-label competition accelerate beyond the company's ability to maintain its dominant 60% ketchup market share [D09]."
+   ],
+   "berkshire_constraints": "Berkshire maintains a cash floor of at least $30 billion, and this $12 billion investment remains well within liquidity requirements given the cash position exceeding $37 billion as of year-end 2011 [D08, D09].",
+   "size_pct_nav": {
+    "initial": 12000000000,
+    "target": 12000000000,
+    "max": 12000000000,
+    "basis": "equity portfolio | cash"
+   },
+   "opportunity_cost": "The 9% preferred coupon offers a superior, protected risk-adjusted return compared to prevailing long bond yields and alternative deployment into equity markets [D09].",
+   "leverage": "None at the holding level; the underlying business leverage is increased to 5x EBITDA as part of the 3G Capital buyout structure [D09].",
+   "decider": "Buffett",
+   "decider_reason": "This is a negotiated, large-scale preferred stock deal that mirrors our post-2000 strategy of providing capital to high-quality businesses in exchange for protected, attractive returns [D09].",
+   "biggest_risk_in_one_sentence": "The primary risk is that the significant increase in financial leverage, combined with potential execution missteps by 3G Capital, could impair the long-term competitive position of the core brands."
+  }
+ },
+ "final": {
+  "as_of_date": "2013-02-13",
+  "company": "H. J. Heinz Company",
+  "ticker": "HNZ",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "cash",
+  "opportunity_template": [
+   "B11"
+  ],
+  "catalyst_role": "R2",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "Not applicable for preferred structure [D09]",
+   "initial_pretax_yield_pct": 9,
+   "intrinsic_value_range": "Value defined by senior preferred claim and warrant upside [D09]",
+   "expected_return_pct": 9,
+   "downside_case": "Impairment of common equity limited by senior position [D09]"
+  },
+  "drivers": [
+   {
+    "driver": "The $8 billion preferred stock investment offers a 9% cumulative dividend, providing an attractive yield well above long-term bond rates [D09].",
+    "citations": [
+     "D09"
+    ]
+   },
+   {
+    "driver": "Heinz is a premier global consumer franchise with a 60% market share in US ketchup and a long history of brand resilience [D09].",
+    "citations": [
+     "D09"
+    ]
+   },
+   {
+    "driver": "Our partnership with 3G Capital brings proven operational discipline to a mature, understandable business model [D09].",
+    "citations": [
+     "D09"
+    ]
+   },
+   {
+    "driver": "The senior preferred structure provides a significant margin of safety and priority in the capital structure relative to common equity [D09].",
+    "citations": [
+     "D09"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "3G Capital fails to drive sufficient operating efficiencies to support the high debt service requirements [D09].",
+   "Aggressive cost-cutting erodes the fundamental brand equity and consumer loyalty that underpins Heinz's pricing power [D09].",
+   "Market shifts or private-label competition accelerate beyond the company's ability to maintain its dominant 60% ketchup market share [D09]."
+  ],
+  "what_would_change_our_mind": "Evidence that the increased financial leverage or aggressive cost-cutting measures are damaging the long-term competitive position of the core Heinz brands.",
+  "memo": "Heinz is a quintessential example of a business we understand—a global leader in branded packaged foods with an iconic ketchup franchise that maintains a 60% market share in the US [D01, D09]. Consumers purchase these products repeatedly, and the company has delivered a consistent record of growth, including 30 consecutive quarters of organic growth as of mid-2013 [D01, D03].\n\nOur investment is not merely in the common equity, but a preferred stake that offers us a 9% cumulative annual dividend [D09]. By partnering with 3G Capital, we combine our capital with an operator known for exceptional efficiency and operational discipline [D09]. This structure provides Berkshire with a high-yielding, protected position that is significantly more attractive than prevailing long-term bond yields [D09].\n\nWhile the market expresses concern regarding the packaged food industry's slow growth and the leverage associated with this buyout, we see a durable business with inherent pricing power [D05, D09]. The total investment of $12 billion is meaningful for Berkshire, and the senior nature of our preferred claim serves as a critical margin of safety against the 5x EBITDA leverage [D09].\n\nWe do not expect to manage the day-to-day operations, leaving that to our partners at 3G [D09]. Our primary risks involve potential execution missteps or an erosion of brand equity through excessive cost-cutting, though we are confident that the core appeal of the Heinz brand remains robust [D09]. We are pleased to provide the financing that secures this outcome for our shareholders.",
+  "uncited_claims": []
+ }
+}

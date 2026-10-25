@@ -1,0 +1,54 @@
+{
+ "trade_id": "2024_aapl_trim",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Realizing some gains at a 21% federal rate could be attractive if future rates rise.",
+   "The remaining business was still highly regarded.",
+   "A large residual would remain central to the equity portfolio."
+  ],
+  "extra_agent_drivers": [
+   "Apple remains a wonderful business with durable competitive advantages and a powerful consumer ecosystem.",
+   "Services revenue continues to show strong, double-digit growth, reinforcing the strength of the customer relationship.",
+   "Tax consequences of selling a large, low-basis position are substantial and require high conviction in a better alternative.",
+   "Management remains rational and continues to return significant capital to shareholders through buybacks."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Apple remains a wonderful business with durable competitive advantages and a powerful consumer ecosystem",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Services, which grew 14.2% year-over-year",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "board's recent authorization of $110 billion in repurchases",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 6,
+  "share": 0.55
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "As long as management remains rational and the competitive moat is intact, we prefer to let our capital compound rather than incur a significant 21% federal tax hit by liquidating a position we intend to hold for the long term [D04, D06].",
+ "grader_notes": "The agent reached a HOLD decision, missing the actual TRIM action. The agent focused on business quality and the tax cost of selling, whereas Buffett explicitly cited the opportunity to realize gains at a 21% rate ahead of potential future tax hikes as a driver for the trim.",
+ "run": "2024_aapl_trim__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "TRIM",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

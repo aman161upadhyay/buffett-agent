@@ -1,0 +1,14 @@
+Title: Universal-bank scale and different earnings mixes
+Source: https://d1io3yog0oux5.cloudfront.net/_70c8fb58fd3bea7a80c281a02cf2c22d/bankofamerica/db/806/10171/earnings_release/The+Press+Release_1Q25_ADA.pdf
+Date: 2025-06-30
+
+JPMorgan, Wells Fargo and Citigroup are relevant broad comparisons, but their business mix, funding cost, capital requirements and legal histories differ. A single price/book ranking would not establish which has the most valuable franchise. Bank of America's first-quarter release supplies its own segment economics and return of capital; no synchronized peer-valuation matrix is recovered. All peer discussion here is analytical rather than a numerical relative-value recommendation. [1]
+
+Consumer Banking's average deposits of $948 billion and average loans of $315 billion show why the deposit franchise matters. Global Banking average deposits were $575 billion, while wealth clients supply another channel for relationships and fees. The comparison to industrial companies is particularly hazardous because financial leverage and capital requirements are integral to the product. For an insurer allocating permanent capital, concentration in one large bank and the regulatory consequences of ownership also matter independently of the bank's earnings outlook. A good franchise does not remove the need to value its risk-bearing capital.
+
+Evidence ledger from the April 15 release: first-quarter net income was $7.4 billion, versus $6.7 billion a year earlier; diluted EPS was $0.90, versus $0.76. Revenue net of interest expense was $27.4 billion, or $27.5 billion fully tax equivalent. Net interest income was $14.4 billion, or $14.6 billion FTE, up 3%. Noninterest expense was $17.8 billion and credit provision $1.5 billion; net charge-offs of $1.5 billion were flat versus both comparison quarters. Ending deposits were approximately $2 trillion. Standardized CET1 was 11.8%, backed by $201 billion common equity tier 1 capital. Book value per common share was $36.39. Capital returned totaled $6.5 billion, comprising $2.0 billion common dividends and $4.5 billion repurchases. [1]
+
+Comparison discipline: industry membership does not make two businesses economically identical. Geography, customer mix, contract duration, capital intensity, leverage and accounting adjustments can dominate headline growth comparisons. No synchronized peer-price and consensus-earnings dataset was recovered for this cutoff; relative cheapness is therefore not asserted numerically. The useful comparison is between sources of durable return and exposure to common pressures. A competitor's weakness is not automatically this company's moat, and an industry recovery is not required to be uniform across participants.
+
+Sources and publication dates:
+[1] https://d1io3yog0oux5.cloudfront.net/_70c8fb58fd3bea7a80c281a02cf2c22d/bankofamerica/db/806/10171/earnings_release/The+Press+Release_1Q25_ADA.pdf (published 2025-04-15)

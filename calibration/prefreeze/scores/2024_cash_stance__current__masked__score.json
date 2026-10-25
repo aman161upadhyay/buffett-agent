@@ -1,0 +1,49 @@
+{
+ "trade_id": "2024_cash_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Capital should wait for a sufficiently attractive and adequately sized business opportunity.",
+   "Financial independence and insurance liquidity take precedence over forced deployment.",
+   "Own shares should only be repurchased below conservatively determined intrinsic value."
+  ],
+  "extra_agent_drivers": [
+   "Broad equity earnings yields are below the yield on safe, liquid government bills and bonds",
+   "The Company's massive scale limits the number of individual ideas that can meaningfully impact results",
+   "We have not identified businesses with durable competitive advantages at prices providing an adequate margin of safety",
+   "Cash and short-term bills offer a competitive, risk-free nominal return while we wait for more attractive opportunities"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "3.51% equity earnings yield is lower than the 4.37% long-term government bond yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "S&P 500 trading at roughly 28 times earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 1,
+  "share": 0.1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We will continue to hold our cash and short-term bills, waiting for a time when Mr. Market becomes more pessimistic and offers us assets at prices that reflect a true margin of safety [D01, D04].",
+ "grader_notes": "The agent arrived at the correct decision but utilized macroeconomic valuation metrics (earnings yields vs bond yields) that are not the drivers Buffett cited in his standing policy for cash management. While the agent correctly mentions the need for a margin of safety and disciplined capital allocation, the specific reasoning framework provided by the agent introduces market-timing rhetoric that Buffett explicitly disclaims.",
+ "run": "2024_cash_stance__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "HOLD_CASH",
+ "agent_decision": "HOLD_CASH",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

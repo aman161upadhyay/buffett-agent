@@ -1,0 +1,57 @@
+{
+ "pack": "2008_buy_american_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "hedge",
+ "as_of_date": "2008-10-16",
+ "stages": {},
+ "final": {
+  "as_of_date": "2008-10-16",
+  "trailing_earnings_yield_pct": 4.86,
+  "normalised_earnings_yield_pct": 7.5,
+  "normalisation_basis": "prior 5-10y average because reported earnings are depressed [D02]",
+  "long_bond_yield_pct": 3.99,
+  "spread_points": "3.51",
+  "drawdown_from_high_pct": 0,
+  "panic_indicators": [
+   "VIX at 67.61 [D04]",
+   "September nonfarm payroll change of -159,000 [D03]",
+   "Financial crisis, bank failures, and credit impairment [D03]"
+  ],
+  "rule_decision": "BUY_BROADLY",
+  "decision": "BUY_BROADLY",
+  "override_reason": null,
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "The normalised earnings yield of ~7.5% significantly exceeds the 10-year Treasury yield of 3.99% [D02], [D04].",
+  "valuation_level": "Prices offer value as the normalised earnings yield spread above bonds exceeds the 2-point threshold [D02], [D04].",
+  "ideas_that_qualify": [
+   "Understandable US businesses with durable competitive advantages and strong balance sheets [D01], [D05]."
+  ],
+  "berkshire_action": "Deploy cash into wonderful businesses at attractive prices while maintaining necessary liquidity for insurance and operating obligations [D01], [D08].",
+  "drivers": [
+   {
+    "driver": "The spread between normalised equity earnings yields and long-term interest rates provides a compelling margin of safety [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "Broad market pessimism and systemic financial stress have created significant discounts in the prices of durable, high-quality businesses [D03], [D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Berkshire's financial strength and stable float allow for long-term capital deployment even when credit availability for others is impaired [D01], [D08].",
+    "citations": [
+     "D01",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "We are currently witnessing a period of extreme fear, evidenced by a VIX reading of 67.61 and pervasive credit impairment throughout the financial system [D03], [D04]. While reported earnings are currently depressed due to writedowns and cyclical weakness, a normalization against prior-year averages reveals that equities are significantly more attractive than long-term government bonds [D02].\n\nOur approach remains unchanged: we seek to own wonderful businesses with durable competitive advantages and honest, capable management [D01]. Market volatility does not alter the underlying economics of such companies, and the current price levels present an opportunity to deploy capital into businesses we understand at prices that offer a substantial margin of safety [D01], [D04]. We are being greedy while others are fearful, focused on long-term owner earnings rather than the market's immediate, distressed quotations [D01].",
+  "uncited_claims": []
+ }
+}

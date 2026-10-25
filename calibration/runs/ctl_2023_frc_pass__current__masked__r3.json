@@ -1,0 +1,261 @@
+{
+ "pack": "ctl_2023_frc_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2023-03-16",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The bank specializes in relationship banking and wealth management for affluent clients, combining mortgages, deposits and advisory services [D01]. It operates as a lending franchise that historically reports low credit losses and record customer satisfaction [D01].",
+   "products_customers_and_why_they_buy": [
+    "Affluent clients utilize the bank for mortgages, deposits, and advisory services; high customer lifetime value is supported by referrals [D01]."
+   ],
+   "economics": [
+    "Fourth-quarter net interest margin was 2.45%, down from 2.71% in the preceding quarter [D01].",
+    "Annual net charge-offs were $2.9 million; nonperforming assets were five basis points of total assets [D01].",
+    "Wealth-management assets are $271.2 billion (not bank liquidity) with $877 million in wealth revenues [D01].",
+    "Capital intensity and owner-earnings inputs: not in pack."
+   ],
+   "earnings_record": [
+    "2022 full-year revenue: $5.9 billion (up 16.5%) [D01].",
+    "2022 full-year net income: $1.7 billion (up 12.7%) [D01].",
+    "2022 diluted EPS: $8.25 (up 7.4%) [D01].",
+    "Fourth-quarter 2022 EPS: $1.88 (down 3.6% year-on-year) [D01]."
+   ],
+   "competitive_position": [
+    "The bank is a lending franchise experiencing a regional-bank confidence shock [D01].",
+    "Peers: Silicon Valley Bank and Signature (noted for closures) [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Tier 1 leverage ratio: 8.51% [D01].",
+    "Loans: $166.9 billion; deposits: $176.4 billion [D01].",
+    "$30 billion in new deposits announced by eleven large banks on March 16 as a liquidity bridge [D03]."
+   ],
+   "management_and_capital_allocation": [
+    "Management record: not in pack.",
+    "Buybacks/dividends/acquisitions: not in pack."
+   ],
+   "price_and_valuation": [
+    "Price: $34.27 (2023-03-16) [D04].",
+    "Common book value per share: $75.38; tangible book value per share: $74.19 [D01].",
+    "P/E: 4.15x [D04].",
+    "Common P/B: 0.455x; price-to-tangible-book: 0.462x [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 24.07,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "Earnings yield calculated as $8.25 EPS / $34.27 price [D04]. Other yields: not in pack."
+   },
+   "what_the_market_is_worried_about": [
+    "Flight of uninsured affluent deposits [D05].",
+    "Earnings compression due to replacement of cheap deposits with expensive wholesale funding [D05].",
+    "Mark-to-market losses on long-duration mortgage assets [D05].",
+    "Potential inadequacy of tangible book value as a floor if asset sales or permanent funding costs are required [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "2023-01-13: Annual results published [D07].",
+    "2023-03-16: Eleven large banks announce $30 billion in deposits to provide a liquidity bridge [D07]."
+   ],
+   "berkshire_context": [
+    "Cash: $128.6 billion; equity securities: $308.8 billion [D08].",
+    "Existing financial exposure: Bank of America and American Express [D08].",
+    "Idea originator: Not in pack."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Maintenance capex, normalized owner earnings, specific management incentives, and precise post-liquidity-crisis balance sheet details."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The business operates as a straightforward lending and wealth management franchise, which is a model we have long understood [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While the bank historically reports high customer satisfaction, the current liquidity crisis and reliance on an industry-wide deposit bridge raise questions about its immediate competitive stability [D01, D03, D07]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "The company demonstrated revenue and net income growth in 2022, indicating a stable core franchise before the recent confidence shock [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "In the current environment, the bank faces a flight of uninsured deposits and potential asset-value impairment that suggests a lack of sufficient capital and funding stability [D05]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "Banking is a core business where we assess capital-allocation and balance-sheet strength rather than traditional industrial capital intensity [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Specific management incentives and records of capital allocation are not in the pack [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With assets exceeding $166 billion in loans, the potential investment is large enough to be meaningful for Berkshire [D01]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The stock trades at a significant discount to tangible book value, which provides a margin of safety if the bank survives the liquidity crisis [D01, D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 1,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a traditional banking franchise facing a severe, industry-wide liquidity shock that clouds its near-term earning power."
+  },
+  "gate2": {
+   "templates": [
+    "B2"
+   ],
+   "why_available": "The market is reacting to a regional-bank liquidity crisis, causing a flight of uninsured deposits and concerns over mark-to-market losses on mortgage assets [D05]. We disagree with the market's panic-driven valuation because the bank's core franchise, which serves affluent clients with historically low credit losses, remains intact [D01]. The $30 billion industry liquidity bridge provides the necessary window for stability, and the current valuation at less than half of tangible book value offers a significant margin of safety if the deposit base stabilizes [D01, D03, D04].",
+   "evidence": [
+    "The bank reports historically low credit losses and nonperforming assets of only five basis points [D01].",
+    "Eleven large banks provided a $30 billion liquidity bridge to support the system [D03].",
+    "The stock trades at a significant discount, with a price-to-tangible-book ratio of 0.462x [D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market believes that the flight of uninsured deposits and unrealized losses on assets will render the tangible book value an unreliable floor for the company's long-term worth [D05].",
+   "what_must_be_true": [
+    "Customer relationships remain stable despite the liquidity shock [D01].",
+    "The deposit bridge successfully prevents a terminal run on the bank [D03].",
+    "Mark-to-market losses on assets do not require a forced liquidation that would erode the tangible book value base [D05]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack (using 2022 EPS of $8.25 [D01])",
+   "initial_pretax_yield_pct": 24.07,
+   "intrinsic_value_range": {
+    "low": "Tangible Book Value ($74.19) [D01]",
+    "high": "Earnings power assuming stabilization ($8.25 EPS capitalized at ~8-10x)",
+    "key_assumptions": [
+     "Deposit base remains stable [D01]",
+     "Liquidity bridge is successful [D03]",
+     "No forced asset liquidations [D05]"
+    ],
+    "discount_rate_used": "long bond rate not in pack; assumption 4-5%"
+   },
+   "price_vs_value": "price is ~46% of tangible book value; significant margin of safety if earnings power persists",
+   "expected_return_pct": {
+    "base": 15,
+    "bear": -100,
+    "bull": 25
+   },
+   "alternatives": "T-bills at current risk-free rates are safer, but the bank offers potential to earn a premium if the liquidity crisis is temporary and the core franchise is intact [D01]",
+   "downside_case": "Permanent loss of capital if uninsured deposits flee and mark-to-market losses on mortgage assets force a liquidation of the bank",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Normalization of earnings yield",
+    "Long bond rate",
+    "Management capability",
+    "Specific liquidity-crisis impact on tangible book value"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are a permanent passive holder. Our edge is patience and the ability to deploy permanent capital into high-quality franchises during periods of market panic, allowing the business to compound value over the long term [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Business compounding and rational capital allocation [D01]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "Following our 1980-2015 approach, we act as a patient investor in financial institutions with underlying core franchise value, relying on the intrinsic strength of the business rather than requiring a near-term exit or management control [D01]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Flight of uninsured deposits exceeds the bank's available liquidity and the provided $30 billion bridge [D05]",
+    "Forced liquidation of long-duration mortgage assets at depressed market prices, eroding tangible book value [D05]",
+    "Permanent loss of the affluent customer deposit base and associated wealth-management franchise [D01]"
+   ],
+   "berkshire_constraints": "Must maintain at least $30B cash [D08]; avoid regulatory thresholds for bank ownership [D08].",
+   "size_pct_nav": {
+    "initial": 0.5,
+    "target": 1,
+    "max": 2,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Allocating capital to T-bills or adding to established financial franchises like Bank of America or American Express [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "While this is a smaller financial position, it involves a fundamental assessment of a banking franchise's survival during a liquidity shock, a classic domain for my direct involvement.",
+   "biggest_risk_in_one_sentence": "The risk is that the bank experiences a classic run on deposits necessitating a fire sale of assets, thereby confirming the market's fear that tangible book value is not a reliable floor."
+  }
+ },
+ "final": {
+  "as_of_date": "2023-03-16",
+  "company": "the Company (XXX)",
+  "ticker": "FRC",
+  "decision": "BUY",
+  "conviction": "low",
+  "target_size_pct_nav": 1,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "not in pack; 2022 EPS $8.25",
+   "initial_pretax_yield_pct": 24.07,
+   "intrinsic_value_range": "Tangible Book Value ($74.19) as a floor",
+   "expected_return_pct": 15,
+   "downside_case": "Permanent loss of capital if deposit flight necessitates fire sale of mortgage assets"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the stock trades at $34.27, representing ~46% of tangible book value, against a historically high-quality franchise [D01, D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The bank maintains an affluent client base with historically low credit losses of five basis points, suggesting the core earnings engine remains fundamentally sound despite current noise [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The $30 billion industry-wide liquidity bridge provides the necessary window for the bank's deposit base to stabilize, mitigating the immediate threat of a run [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Market panic has decoupled the share price from the underlying tangible asset base, offering a margin of safety that compensates for the temporary liquidity risk [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Flight of uninsured deposits exceeds available liquidity and the $30 billion bridge [D05].",
+   "Forced liquidation of long-duration assets eroding tangible book value [D05].",
+   "Permanent loss of the affluent client relationship franchise [D01]."
+  ],
+  "what_would_change_our_mind": "Evidence that the deposit flight is terminal rather than a temporary reaction to industry-wide panic, or the erosion of the tangible book value floor through forced asset sales.",
+  "memo": "We are making a small investment in a banking franchise that has historically demonstrated exceptional service and loyalty among its affluent client base [D01]. The business model, focusing on mortgages and wealth management, is one we understand well [D01].\n\nWhile the bank is currently caught in a regional-bank confidence shock, its record of credit quality is exemplary, with nonperforming assets at a mere five basis points [D01]. This is a fundamentally sound institution that has delivered solid revenue and income growth, and we believe the panic is transitory [D01].\n\nThe $30 billion liquidity bridge provided by eleven large banks serves as an important backstop, giving the institution time to stabilize its deposit base [D03]. We trust that this industry cooperation will prevent a terminal run on an otherwise viable franchise [D03].\n\nMr. Market is currently pricing the shares at roughly 46% of tangible book value [D04]. We are buying at this level because we believe the tangible book value provides a significant margin of safety, assuming the deposit base remains intact [D01, D04].\n\nThis position is small, reflecting the reality that we are operating in a fluid environment where the bank must navigate liquidity pressures [D05, D08]. If the bank can retain its core affluent customers, the long-term value will far exceed the current distressed price [D01].\n\nWe would change our mind if the deposit flight proved to be a permanent impairment of the franchise or if forced asset liquidations destroyed the book value [D05]. We are acting as permanent holders, trusting the core economics will reassert themselves once the current clouds dissipate [D01].",
+  "uncited_claims": []
+ }
+}

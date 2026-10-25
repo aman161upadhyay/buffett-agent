@@ -1,0 +1,263 @@
+{
+ "pack": "2025_unh_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2025-06-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "UnitedHealth Group operates through UnitedHealthcare, which provides health-benefit underwriting, and Optum, which offers care delivery, pharmacy, and information services [D01]. The company's business model relies on integrating these services to coordinate care and manage medical costs [D01].",
+   "products_customers_and_why_they_buy": [
+    "Health insurance plans and managed-care services to diverse consumers and organizations [D01].",
+    "Pharmacy and information-service operations through Optum [D01].",
+    "Customers seek care coordination and administrative efficiency, though demand for membership does not guarantee pricing adequacy [D01]."
+   ],
+   "economics": [
+    "Profitability is driven by the ability to price premiums and services above actual physician, outpatient, and pharmacy expenditures [D01].",
+    "Utilization trends in Medicare Advantage and reimbursement issues in Optum Health represent current pressures on underwriting margins [D01, D03].",
+    "Specific maintenance-capital split and statutory-capital details are not in pack [D02]."
+   ],
+   "earnings_record": [
+    "2024 revenue was $400.3 billion with $32.3 billion in operating earnings [D01, D02].",
+    "2024 GAAP EPS was $15.51 and adjusted EPS was $27.66 [D01, D02].",
+    "First-quarter 2025 revenue was $109.6 billion, with GAAP EPS of $6.85 and adjusted EPS of $7.20 [D01, D02]."
+   ],
+   "competitive_position": [
+    "Large scale across insurance and healthcare services [D01].",
+    "Integration is a potential advantage, though it exposes the company to conflicts and regulatory scrutiny [D01, D06].",
+    "A large customer base does not confirm a moat; durability depends on covering all costs including reinvestment and risk [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Full subsidiary debt schedule and insurer statutory-capital roll-forward are not in pack [D02].",
+    "Operating cash flow was $24.2 billion in 2024 [D01, D02]."
+   ],
+   "management_and_capital_allocation": [
+    "CEO transition: Stephen Hemsley was appointed CEO on May 13, 2025, following Andrew Witty [D03].",
+    "Management suspended annual earnings guidance in May 2025 due to accelerating care activity [D03].",
+    "Insider ownership and specific capital allocation policy details are not in pack."
+   ],
+   "price_and_valuation": [
+    "June 30, 2025 closing price: $311.97 [D04].",
+    "P/E ratios based on 2024 results: 11.28x adjusted EPS ($27.66) and 20.11x reported GAAP EPS ($15.51) [D04].",
+    "No verified consensus forecast or historical multiple range is in pack [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 4.97,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "Trailing earnings yield calculated as 2024 GAAP EPS ($15.51) divided by June 30 closing price ($311.97) [D04]. Other yield figures not in pack."
+   },
+   "what_the_market_is_worried_about": [
+    "Inability to forecast near-term medical costs and accelerating care activity [D03, D05].",
+    "Medicare Advantage utilization and Optum Health reimbursement pressures [D03, D05].",
+    "Possible investigation and governance concerns, including leadership transition [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "April 17, 2025: Reported Q1 results and reduced annual guidance [D03, D07].",
+    "May 13, 2025: CEO transition to Stephen Hemsley [D03, D07].",
+    "May 14, 2025: Outlook suspended; company disputed report of criminal investigation [D03, D07]."
+   ],
+   "berkshire_context": [
+    "UnitedHealth is not listed in the latest Berkshire 13F filing as of March 31, 2025 [D08].",
+    "Not in pack who would originate the idea."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Maintenance-capital expenditure split, detailed subsidiary debt schedule, insurer statutory-capital roll-forward, and current consensus earnings estimates."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "UNSURE",
+     "evidence": "While the integrated model is described, the recent suspension of earnings guidance and uncertainty surrounding utilization trends make long-term predictability difficult [D01, D03]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "The company possesses scale, but the pack explicitly states that a large customer base does not confirm a moat and that durability depends on covering all costs, which is currently challenged by reimbursement pressures [D01, D03]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Despite recent pressures, the company reported substantial operating earnings of $32.3 billion in 2024 and maintains a long-term record of large-scale operations [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "Necessary data such as a detailed subsidiary debt schedule and insurer statutory-capital roll-forward are missing from the pack [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "As a large-scale provider of health-benefit underwriting and services, the model generates significant operating cash flow ($24.2 billion in 2024) [D01, D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "The company is undergoing a leadership transition to a new CEO in May 2025 and is currently navigating regulatory scrutiny and governance concerns [D03, D05, D07]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With 2024 revenue of $400.3 billion, the company is sufficiently large to move the needle for Berkshire [D01]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "The long bond yield is not in the pack, and normalization of earnings is prevented by the current suspension of guidance and high uncertainty [D03, D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 0,
+   "n_unsure": 6,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a large-scale, integrated healthcare business whose near-term earnings stability is clouded by management transition and uncertain utilization trends."
+  },
+  "gate2": {
+   "templates": [
+    "B2"
+   ],
+   "why_available": "The market is reacting with uncertainty to a leadership transition and the suspension of earnings guidance amidst rising medical care utilization [D03]. We view these as temporary clouds; provided the core business model of coordinating care remains effective at covering costs, the drop in valuation presents an opportunity to acquire a market leader at a lower price point [D01, D03].",
+   "evidence": [
+    "CEO transition to Stephen Hemsley occurred on May 13, 2025 [D03].",
+    "Annual earnings guidance was suspended in May 2025 due to accelerating care activity [D03].",
+    "2024 operating earnings of $32.3 billion demonstrate the scale and earnings power of the business [D01]."
+   ],
+   "market_narrative_we_disagree_with": "The market fears that regulatory scrutiny and unpredictable utilization trends indicate a fundamental breakdown in the company's competitive advantage [D03, D05, D07].",
+   "what_must_be_true": [
+    "The core insurance underwriting remains profitable over the long term despite current utilization volatility.",
+    "The company's scale and integration allow it to maintain administrative efficiency relative to competitors.",
+    "The regulatory and leadership transition issues prove to be manageable rather than existential threats."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "Not in pack; 2024 GAAP EPS $15.51 used as proxy for normalized earnings [D01].",
+   "initial_pretax_yield_pct": 4.97,
+   "intrinsic_value_range": {
+    "low": "Not in pack",
+    "high": "Not in pack",
+    "key_assumptions": [
+     "Core insurance underwriting remains profitable [D03]",
+     "Integration advantage allows for administrative efficiency [D03]"
+    ],
+    "discount_rate_used": "Not in pack; long bond yield not provided [D04]."
+   },
+   "price_vs_value": "Cannot be determined; insufficient data on long-term normalized owner earnings and required discount rate.",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "T-bills / existing holdings / Berkshire buyback. We hold cash when nothing qualifies as a wonderful business at a fair price [D04].",
+   "downside_case": "Permanent loss of capital if competitive advantage is structurally broken by regulatory or utilization pressures [D03].",
+   "valuation_verdict": "FULL",
+   "flagged_assumptions": [
+    "Normalization of earnings based on 2024 GAAP EPS [D01]",
+    "Exclusion of maintenance capital due to lack of pack data [D02]",
+    "Long bond rate assumed for discount not in pack [D04]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital [D04].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Compounding of underlying owner earnings and business growth over the long term [D01]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "As of 2025, our strategy for marketable securities remains R0; we hold positions in high-quality, large-scale franchises for the long term, relying on the company's ability to navigate temporary headwinds through sound capital allocation and operational discipline."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Regulatory intervention caps reimbursement rates below cost of capital [D03, D05]",
+    "Medical cost utilization trends permanently impair insurance underwriting margins [D03]",
+    "Management demonstrates an inability to integrate Optum and health-benefit underwriting efficiently [D01]",
+    "Corporate governance failures or regulatory investigations lead to significant reputational or financial damage [D05, D07]"
+   ],
+   "berkshire_constraints": "Must maintain cash floor of $30B [D04].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Available capital is better deployed in higher-certainty existing holdings or Berkshire stock buybacks, given the current lack of clarity on normalized owner earnings [D04].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The company's scale and complexity make this a potential whole-business consideration, but the current uncertainty renders it a pass.",
+   "biggest_risk_in_one_sentence": "A structural breakdown in the company's ability to maintain a profitable spread between insurance premiums and medical costs due to accelerating utilization and regulatory pressures."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-06-30",
+  "company": "UnitedHealth Group",
+  "ticker": "UNH",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "era_a_bargain": false,
+  "negotiated_terms": false,
+  "valuation": {
+   "owner_earnings": "Not in pack; 2024 GAAP EPS $15.51 used as proxy [D01].",
+   "initial_pretax_yield_pct": 4.97,
+   "intrinsic_value_range": "Not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital if competitive advantage is structurally broken by regulatory or utilization pressures [D03]."
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the trailing earnings yield of 4.97% provides an insufficient margin of safety given current uncertainties [D01, D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Management transition and the suspension of guidance create an unpredictable environment that clouds our ability to assess intrinsic value [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The durability of the competitive advantage is currently challenged by reimbursement pressures and accelerating medical utilization trends [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Reliable calculation of owner earnings is impossible without long-term visibility into normalized insurance underwriting margins [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Regulatory intervention caps reimbursement rates below cost of capital [D03, D05]",
+   "Medical cost utilization trends permanently impair insurance underwriting margins [D03]",
+   "Management demonstrates an inability to integrate Optum and health-benefit underwriting efficiently [D01]",
+   "Corporate governance failures or regulatory investigations lead to significant reputational or financial damage [D05, D07]"
+  ],
+  "what_would_change_our_mind": "Evidence that the integrated model can consistently maintain underwriting profitability through stable utilization trends, alongside a clear, reliable path for normalized owner earnings growth.",
+  "memo": "UnitedHealth Group is a large-scale enterprise that operates through its UnitedHealthcare insurance arm and Optum services [D01]. While the company's sheer scale is evident from its 2024 revenue of $400.3 billion, understanding the true long-term economics of an integrated model requires clarity on how it manages utilization trends and reimbursement [D01].\n\nWe have historically looked for businesses with a durable competitive advantage, but current reimbursement pressures and unpredictable medical cost trends make it difficult to confirm if the company’s moat is currently being maintained [D01, D03]. While the 2024 operating earnings of $32.3 billion demonstrate historical capacity, our confidence in future durability is currently undermined by shifting utilization patterns [D01, D03].\n\nManagement is currently navigating a significant leadership transition with Stephen Hemsley taking the helm in May 2025, a period further complicated by the suspension of annual earnings guidance [D03]. We prefer to invest where we have a high degree of certainty in the ability of management to act as owners, and currently, the clouds surrounding regulatory scrutiny and internal governance are too thick [D03, D05, D07].\n\nAt a trailing earnings yield of 4.97%, the price does not offer the margin of safety we require for a business facing such material uncertainty [D01, D04]. We have no need to reach for returns when the risks are ill-defined, and we are content to hold cash until a more compelling opportunity presents itself [D04].",
+  "uncited_claims": []
+ }
+}

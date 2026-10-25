@@ -1,0 +1,11 @@
+Title: Information chronology
+Source: https://www.berkshirehathaway.com/letters/2019ltr.pdf (published 2020-02-22)
+Date: 2020-08-30
+
+The information boundary is the US date August 30, before the next Tokyo trading session. Public annual company filings and Berkshire's previously issued yen bonds can be examined, but the forthcoming stake announcement is excluded. Exact first accumulation dates are not public inputs in this replay. A year's trading cannot be collapsed into a single invented August execution price. [Source above.]
+
+Technical context: general trading houses combine operating assets, financial stakes and joint ventures. Equity-accounted earnings, commodity gains and asset dispositions require reconciliation with dividends actually received. Net debt must be evaluated alongside the liquidity and risk of the underlying holdings, not offset indiscriminately against all reported investments. Conglomerate discounts can reflect governance or cross-holdings, not just market error. Yen debt matched against yen assets limits one currency mismatch while leaving operating currency exposures and interest costs. A basket should use ordinary-share prices, consistent fiscal dates and the correct local units. Diversification does not by itself establish a superior return on capital. [Source above; analytical framework.]
+
+Chronology discipline: distinguish operating period, publication date, transaction date and disclosure date. An ownership report describes a historical balance and does not establish the exact day a trade was executed or the reason it was made. A cutoff within a quarter also does not make that quarter's unreleased earnings public. This digest contains only the developments described above and the technical implications that can be drawn from them. It does not use a later return, revised investment thesis, completed transaction or eventual portfolio weight. The absence of a specific date means the date is unresolved, not that the next convenient calendar day is the execution.
+
+Evidence boundary: missing figures are not available in contemporaneous sources recovered for this digest. Analytical questions are not additional reported facts or claims about the investor's private thinking. Read the financial, risk and fund-context documents together; no individual accounting ratio supplies a complete investment conclusion.

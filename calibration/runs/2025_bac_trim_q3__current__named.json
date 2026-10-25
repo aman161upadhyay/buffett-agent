@@ -1,0 +1,55 @@
+{
+ "pack": "2025_bac_trim_q3",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2025-06-30",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-06-30",
+  "company": "Bank of America",
+  "ticker": "BAC",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Broad customer franchise: intact [D01]",
+   "Large low-cost distribution base: intact [D01]",
+   "Multiple fee engines: intact [D01, D03]"
+  ],
+  "price_vs_value_now": "13.14x earnings and 1.30x book value [D04]",
+  "after_tax_hurdle": "Significant capital gains tax liability on a long-held position [D04, D08]; current earnings yield remains satisfactory",
+  "drivers": [
+   {
+    "driver": "The business continues to demonstrate solid earnings power with a stable deposit franchise and diversified revenue streams.",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Management maintains capital sufficiency and continues to return significant capital to shareholders through dividends and repurchases.",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The position is no longer at the 10% regulatory reporting threshold, removing that specific pressure to trim.",
+    "citations": [
+     "D08"
+    ]
+   },
+   {
+    "driver": "We do not sell wonderful, well-managed businesses simply because the market price has moved higher.",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "memo": "We continue to regard Bank of America as a strong, well-managed institution with a durable customer franchise [D01]. Brian Moynihan and his team have demonstrated consistent performance, supported by a significant scale advantage in deposits and diversified fee-generating businesses [D01, D03]. The bank’s ability to return substantial capital to shareholders, including $6.5 billion in the first quarter, remains a testament to its financial strength [D01, D03].\n\nWhile the market price has reached $47.32, we do not view this as a reason to exit a business that we understand and value as a long-term holding [D04]. Our threshold for selling is high, particularly when considering the significant tax impact on a position with a low cost basis [D04, D08]. We prefer to allow our winners to compound, provided the underlying economics remain sound [D04].\n\nWe are mindful of the risks inherent in any large financial institution, including credit cycles, interest-rate sensitivity, and regulatory requirements [D05]. However, the company's 11.8% CET1 ratio provides a necessary margin of safety against these uncertainties [D01, D02]. Having already addressed our concentration levels by selling down to below the 10% regulatory threshold, we are content to maintain our current position [D08]. We will continue to monitor the bank's operational performance and capital allocation, but for now, we HOLD.",
+  "uncited_claims": []
+ }
+}

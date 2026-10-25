@@ -1,0 +1,15 @@
+Title: Wells Fargo & Company — Business economics
+Source: Wells Fargo pre-cutoff operating facts reconstructed from Berkshire purchase discussion; https://www.nytimes.com/1990/10/25/business/company-news-buffett-acquires-9.8-of-wells-fargo-shares.html used only as archival chronology, not to reveal the stake; Los Angeles Times, July 18, 1990, https://www.latimes.com/archives/la-xpm-1990-07-18-fi-684-story.html
+Date: 1990-10-24
+
+## Cutoff evidence — reconstructed
+
+Wells Fargo is a large California bank led by Carl Reichardt and Paul Hazen. Deposits fund a substantial loan portfolio, including exposures affected by California property conditions. The management record emphasizes expense discipline rather than growth for its own sake. In a bank, efficient operations and careful lending are complementary: low costs can generate earnings available to absorb credit losses, while aggressive lending can eliminate that cushion. The reconstructed facts concern the pre-cutoff business. They do not assume a benign California economy, a property recovery or a guarantee against a credit shock.
+
+## Economic reading of the supplied facts
+
+Industry economics: a bank's assets consist largely of promises to repay. Small changes in the value of loans can have large effects on a leveraged common-equity base. Deposits provide funding, but do not make credit losses disappear. A bank's expense discipline matters because pre-provision earnings can absorb losses before capital is impaired. Commercial-property lending requires attention to borrower equity, collateral and refinancing rather than merely the last reported interest payment. Reported earnings can be overstated when loss provisions lag actual deterioration. Comparing banks therefore requires both operating efficiency and a conservative estimate of asset quality. These mechanics explain why a low price-to-earnings ratio alone is not sufficient evidence of a bargain, and why depositor funding is not a substitute for adequate capital.
+
+Economic interpretation, not a management forecast: the important distinction is between demand for the product and cash available to its owners. A recognizable name is not sufficient evidence of an economic franchise. The relevant tests are repeat purchasing, the customer's alternatives, the seller's ability to maintain price, and the capital needed to preserve those advantages. Physical assets can be copied; a durable customer relationship may be harder to reproduce. Conversely, an apparently entrenched relationship can disappear if customers obtain better service or lower prices elsewhere.
+
+The business description therefore does not assume that historical profitability persists indefinitely. Separate ordinary operations from unusual charges and separate a good product from a good investment at the offered price. Management's operating record and the financing of the enterprise belong in the same assessment. No value is assigned here to an unannounced acquisition, hypothetical takeover premium, or an improvement that requires a new owner to change the basic business.

@@ -1,0 +1,39 @@
+{
+  "id": "1998_genre_acq",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav": "Approximately $22 billion all-stock acquisition; not percentage of cash",
+  "first_action_date": "1998-06-19",
+  "disclosure_date": "1998-06-19",
+  "reason_class": null,
+  "opportunity_template": [
+    "B4"
+  ],
+  "catalyst_role": "R3",
+  "decider": "Buffett",
+  "size_basis": "cash",
+  "drivers": [
+    {
+      "driver": "The acquisition added a major reinsurance franchise and substantial investable assets.",
+      "source": "https://www.berkshirehathaway.com/letters/1998htm.html (1999-03-01; hindsight explanation)",
+      "quote": null
+    },
+    {
+      "driver": "Buffett's original assessment viewed the acquired businesses and managers as first-class.",
+      "source": "https://www.berkshirehathaway.com/letters/1998htm.html (1999-03-01; hindsight explanation)",
+      "quote": "first-class in every way"
+    },
+    {
+      "driver": "Berkshire's capital and ownership structure could support the insurance operations while broadening investments per share.",
+      "source": "https://www.berkshirehathaway.com/letters/1998htm.html (1999-03-01; hindsight explanation)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "0.0035 Berkshire A / 0.105 B per General Re share; ~$22 billion announcement value, not fixed cash.",
+  "outcome_note": "Closed December 21, 1998. Later reserve/underwriting problems and $409 million cumulative pretax financial-products runoff losses by 2005 are hindsight; derivatives exit is not an original BUY driver.",
+  "sources": [
+    "https://www.berkshirehathaway.com/letters/1998htm.html (1999-03-01; hindsight explanation)",
+    "Proposed June 19 merger terms and pre-cutoff issuer business; archival June 19 agreement in https://www.sec.gov/Archives/edgar/data/317745/000089882298000658/0000898822-98-000658.txt (filed later; only agreement-date terms reconstructed); fund reference https://www.berkshirehathaway.com/letters/1997.html"
+  ],
+  "pack_quality_notes": "No original press-conference transcript or fully reconstructed reserve/derivatives model. Agreement filed June 26 used only for June 19 terms. 1998 letter is a post-close explanation. $36.2477 billion prior common-equity total verified; $46 billion broader investment figure is distinct."
+}

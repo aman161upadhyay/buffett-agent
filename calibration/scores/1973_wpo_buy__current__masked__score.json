@@ -1,0 +1,58 @@
+{
+ "trade_id": "1973_wpo_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Public shares offered the whole collection of businesses at no more than roughly a quarter of conservatively appraised business value.",
+   "Profitable media franchises mattered more than quoted price volatility.",
+   "Independent business appraisal and attitude, rather than private information, supplied the advantage."
+  ],
+  "extra_agent_drivers": [
+   "The Post holds a commanding 63% share of local advertising linage and has effectively secured a local monopoly following the closing of the Daily News",
+   "The business consistently grows operating income",
+   "Management has shown shareholder awareness by doubling the quarterly dividend rate"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Price vs value — the company sells for ~$27 per share against an appraised intrinsic value of $35–$45",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Operating income has climbed steadily from $17.346 million in 1968 to $21.806 million in 1972",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The Post holds a commanding 63% share of local advertising linage",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management has shown shareholder awareness by doubling the quarterly dividend rate to $0.10 in January 1973",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 16,
+  "cited": 7,
+  "share": 0.44
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We believe these worries are misplaced and ignore the underlying strength and permanence of the company's local franchises.",
+ "grader_notes": "The agent correctly identifies the buy decision but fails to mirror the specific drivers articulated by Buffett in his retrospective analysis. While the agent provides thorough fundamental analysis of the business's operating metrics and local monopoly status, it misses the thematic drivers regarding the deep discount to intrinsic value (1/4th) and the attitudinal advantage that defined Buffett's actual rationale.",
+ "run": "1973_wpo_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

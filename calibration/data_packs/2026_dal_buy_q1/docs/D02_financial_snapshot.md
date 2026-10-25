@@ -1,0 +1,14 @@
+Title: Profitability with leases, debt and heavy reinvestment
+Source: https://ir.delta.com/news/news-details/2025/Delta-Air-Lines-Announces-September-Quarter-2025-Financial-Results/default.aspx
+Date: 2025-12-31
+
+The latest quarter is profitable on both reported and adjusted bases, but the distinction is material: $2.17 GAAP EPS versus $1.71 adjusted. Investment gains and third-party refinery sales complicate straight comparisons. The release reports $14.9 billion debt and finance-lease obligations, while adjusted net debt is $15.6 billion under a broader definition. They cannot be added together as independent claims or interchanged without checking definitions. [1]
+
+Quarterly operating cash flow of $1.8 billion and approximately $1.1 billion gross capital expenditure produced $833 million reported free cash flow under the company's reconciliations. The difference from simple rounded subtraction reflects adjustments, so exact arithmetic should use the full schedules. Gross leverage was 2.4 times; most debt was fixed rate with a 4.5% weighted average interest rate. Liquidity includes undrawn revolving credit and is not all cash. A profitable quarter and debt repayment improve resilience but do not make an airline immune to an extended demand interruption. [1]
+
+Evidence ledger from the October 9 release: September-quarter GAAP revenue was $16.673 billion, operating income $1.684 billion, pre-tax income $1.777 billion, net income $1.417 billion and diluted EPS $2.17. Adjusted revenue was $15.2 billion, pre-tax income approximately $1.5 billion and EPS $1.71. Operating cash flow was $1.8 billion; reported free cash flow $833 million; gross capital spending approximately $1.1 billion. Debt and finance-lease obligations were $14.9 billion, adjusted net debt $15.6 billion, and liquidity $6.9 billion including $3.1 billion undrawn revolvers. Premium revenue grew 9%, loyalty revenue 9% and American Express remuneration 12% to $2 billion. Full-year adjusted EPS guidance was approximately $6 and free cash flow $3.5-$4.0 billion. [1]
+
+Accounting discipline: all dollar amounts in this document retain the period and basis given in the evidence ledger. Revenue is not owner earnings; neither adjusted profit nor operating cash flow alone measures distributable cash. Maintenance investment, working capital, compensation dilution and financing claims must be considered separately. A quarter is not a full economic cycle. Where a stand-alone balance sheet, maintenance-capital split or historical consensus series is absent, it is unavailable rather than assumed to be zero or inferred from a later filing.
+
+Sources and publication dates:
+[1] https://ir.delta.com/news/news-details/2025/Delta-Air-Lines-Announces-September-Quarter-2025-Financial-Results/default.aspx (published 2025-10-09)

@@ -1,0 +1,42 @@
+{
+ "trade_id": "2023_tsm_sell",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Geopolitical location risk outweighed admiration for the business. → However, even a wonderful business becomes a questionable holding if the geographic concentration of its assets exposes the company—and its shareholders—to a potential catastrophic interruption [D01, D05].",
+   "The company was well managed; the reassessment was not a condemnation of its operations. → the Company is a business of immense technical capability and scale, earning impressive returns on capital [D01, D02]."
+  ],
+  "missed": [
+   "Buffett preferred other places to allocate capital."
+  ],
+  "extra_agent_drivers": [
+   "Recent results indicate a cooling demand environment and inventory adjustments, moving away from the peak-margin performance of 2022 [D03]."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Geographic concentration risk: intact / identified as primary tail risk [D01, D05]",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 5,
+  "share": 0.45
+ },
+ "state": "PARTIAL",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We are therefore trimming our position to a level that balances our respect for the business's current economics against the reality of its location [D05, D08].",
+ "grader_notes": "The agent correctly identified the primary driver of geographic risk and acknowledged the business's quality, mirroring Buffett's reasoning. The grade is PARTIAL because the agent labeled the decision as 'TRIM' with 'medium' conviction and identified the decider as 'deputy', whereas the key identifies the actual decider as Buffett with 'high' conviction and an '86% cut' (effectively a near-total exit).",
+ "run": "2023_tsm_sell__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "SELL",
+ "agent_decision": "TRIM",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

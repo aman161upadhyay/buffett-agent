@@ -1,0 +1,57 @@
+{
+ "trade_id": "1990_wfc_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 4,
+  "matched": [
+   "Reichardt and Hazen were outstanding, cost-conscious bank managers. → Carl Reichardt and Paul Hazen run this business with the mindset of owners rather than bureaucrats [D01].",
+   "Buffett wanted well-managed banks at fair prices, not poorly managed banks merely because they were cheap. → We believe this discount is unwarranted given the quality of the franchise and the management team's proven track record [D01].",
+   "A severe California loan-loss stress could be absorbed by earning power without assuming a favorable economy. → Their focus on efficiency ensures that the bank is well-positioned to navigate the inevitable credit cycles that confront the industry [D01, D02].",
+   "Less than five times after-tax earnings supplied a substantial valuation cushion. → Currently, Mr. Market is fearful of the commercial real estate sector and has lumped Wells Fargo in with less efficient banks, offering us a valuation of less than 5x earnings [D04, D05]."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The market has incorrectly conflated Wells Fargo's well-run business with struggling industry peers due to broader commercial real-estate fears [D01, D05]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company sells for less than 5x after-tax earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Carl Reichardt and Paul Hazen run this business with the mindset of owners",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Historically, the bank has achieved excellent returns on equity exceeding 20%",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "current common equity/assets ratio is 5.04%",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 10,
+  "share": 0.77
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Currently, Mr. Market is fearful of the commercial real estate sector and has lumped Wells Fargo in with less efficient banks, offering us a valuation of less than 5x earnings [D04, D05].",
+ "grader_notes": "The agent perfectly captured all four of Buffett's primary drivers regarding management quality, the requirement for a well-managed business, the capacity of earnings to absorb cyclical stress, and the valuation cushion. The reasoning is identical to the post-hoc explanations provided in the 1990 Berkshire letter.",
+ "run": "1990_wfc_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

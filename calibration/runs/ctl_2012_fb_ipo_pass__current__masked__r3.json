@@ -1,0 +1,261 @@
+{
+ "pack": "ctl_2012_fb_ipo_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2012-05-17",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The social network enables users to maintain identity, relationships, messages, and content, while generating revenue by allowing advertisers to reach targeted audiences [D01]. It operates as a global advertising platform characterized by habitual user engagement and a difficult-to-replicate social graph [D01].",
+   "products_customers_and_why_they_buy": [
+    "Advertising services sold to businesses targeting specific audiences [D01]",
+    "Payments and other fees [D01]",
+    "Users engage for identity management and social connectivity, which increases in utility as more connections are added [D01]"
+   ],
+   "economics": [
+    "Significant operating leverage due to a digital platform model where extra impressions do not require additional physical infrastructure [D01]",
+    "Revenue grew to $3.711 billion in 2011 from $1.974 billion in 2010 [D01]",
+    "Not in pack: specific maintenance capex or depreciation/amortization splits for owner earnings calculation [D02]"
+   ],
+   "earnings_record": [
+    "2010 net income: $606 million; 2011 net income: $1.000 billion [D01]",
+    "Q1 2012 net income: $205 million vs $233 million in Q1 2011 [D01]"
+   ],
+   "competitive_position": [
+    "901 million monthly active users and 488 million mobile users as of March 31, 2012 [D01]",
+    "Competitive landscape includes Google in digital advertising and various social services for user time [D06]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Not in pack: detailed debt or cash position analysis [D02]",
+    "IPO proceeds are largely secondary, meaning they do not flow to the company as new cash [D01]"
+   ],
+   "management_and_capital_allocation": [
+    "Dual-class voting structure with Zuckerberg controlling approximately 55.9% of votes post-offering [D01]",
+    "Not in pack: specific incentive structures or historical capital allocation track record beyond current offering"
+   ],
+   "price_and_valuation": [
+    "IPO price: $38 per share [D01]",
+    "Implied equity value: approximately $104 billion [D02]",
+    "Implied 2011 P/E: approximately 104x [D02]"
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0.96,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "Implied 2011 P/E of 104 yields a 0.96% earnings yield based on 2011 net income [D02]"
+   },
+   "what_the_market_is_worried_about": [
+    "Mobile monetization lagging behind mobile usage growth [D05]",
+    "First-quarter profit decline despite revenue growth [D05]",
+    "Dependency on user preferences, privacy restrictions, and platform competition [D05]",
+    "Lack of minority control over capital allocation [D05]"
+   ],
+   "deal_terms_if_any": [
+    "421,233,615 Class A shares offered at $38 per share [D01]",
+    "Most shares sold are secondary by existing holders [D01]"
+   ],
+   "recent_events": [
+    "February 2012: Initial registration statement [D07]",
+    "March 31, 2012: Financial/user measurement date [D07]",
+    "April 2012: Announced the Company agreement [D07]",
+    "May 17, 2012: Final prospectus and pricing [D01]"
+   ],
+   "berkshire_context": [
+    "Berkshire held approximately $37.3 billion in cash and $77 billion in equity investments as of 2011 [D08]",
+    "Not in pack: any current stake in the company or specific Buffett verdict"
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Detailed maintenance capex figures",
+    "Specific debt/liquidity data",
+    "Long-term consistent record of returns on capital"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "UNSURE",
+     "evidence": "While the social network platform has high user engagement, the long-term durability of its advertising model against shifting user preferences and platform competition remains to be proven [D01], [D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "The business possesses a difficult-to-replicate social graph, but it is too early to determine if its pricing power can withstand significant competition from rivals like Google [D01], [D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company lacks a long, consistent history of returns, and net income declined in Q1 2012 compared to the prior year [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "Specific debt and long-term capital data are not in the pack to assess the sustainability of the balance sheet [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "The digital platform model exhibits significant operating leverage, as incremental impressions do not require proportional physical infrastructure [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "FAIL",
+     "evidence": "The dual-class voting structure places absolute control in the hands of one individual, which limits minority owner oversight of capital allocation [D01], [D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "An implied equity value of $104 billion is of a sufficient scale to move the needle for Berkshire Hathaway [D02], [D08]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "The earnings yield of approximately 0.96% based on a 104x P/E is far below the requirements for a margin of safety [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 3,
+   "n_unsure": 4,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a high-growth digital advertising platform with uncertain long-term competitive durability and governance structures that preclude owner-minded oversight."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is valuing the company at an extreme premium based on future growth expectations rather than current earning power. We see no reason to expect a bargain when the valuation requires paying a 104x multiple for a business that lacks a consistent history of returns and is currently experiencing a profit decline [D01], [D02].",
+   "evidence": [
+    "Implied 2011 P/E of approximately 104x results in an earnings yield of only 0.96% [D02]",
+    "Net income declined to $205 million in Q1 2012 from $233 million in Q1 2011 [D01]",
+    "Dual-class voting structure provides no oversight for minority shareholders regarding capital allocation [D01]"
+   ],
+   "market_narrative_we_disagree_with": "The market narrative assumes that user scale and engagement will inevitably translate into sustainable, high-margin advertising dominance that justifies a $104 billion valuation regardless of the current lack of a long-term earnings record or owner-friendly governance [D01], [D05].",
+   "what_must_be_true": [
+    "The platform must demonstrate an ability to monetize mobile users significantly better than current levels [D05].",
+    "The company must prove that its advertising model can defend against intense competition from entrenched players like Google [D06].",
+    "Management must show an ability to maintain profitability and scale earnings consistently over a long period [D01]."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack [D02]",
+   "initial_pretax_yield_pct": 0.96,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "requires earnings growth to justify 104x multiple [D02]",
+     "management must demonstrate ability to monetize mobile users [D05]",
+     "advertising model must withstand competition [D06]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "valuation represents a significant premium; margin of safety is non-existent",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / existing holdings / Berkshire buyback — all provide more predictable returns than a speculative 104x earnings multiple [D08]",
+   "downside_case": "loss of capital due to valuation compression if growth expectations are not met; risk is high given lack of consistent earnings record [D02]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Maintenance capex data missing [D02]",
+    "Debt/liquidity data missing [D02]",
+    "No historical track record of consistent returns on capital [D02]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We act as a permanent passive holder when acquiring marketable securities, relying on the underlying business to compound value through rational capital allocation and the natural growth of its economic franchise [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realized through the long-term compounding of owner earnings and the durability of the business's competitive advantage [D01], [D08]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the post-1980 era, our standard approach to large, public-market equity positions is to act as a permanent, passive owner of wonderful businesses that meet our criteria for durability and earning power [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "pricing power lost to competition from players like Google",
+    "inability to monetize mobile users effectively",
+    "management demonstrates poor capital allocation due to lack of minority oversight",
+    "long-term advertising model fails to maintain margins"
+   ],
+   "berkshire_constraints": "Cash floor requires maintaining >$30B [D08]. Investment size must be manageable within the equity portfolio [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed into existing holdings or repurchasing Berkshire shares, as the current 0.96% earnings yield is inadequate [D02], [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business operates in an area (social media/technology IPO) that falls outside of my circle of competence as of 2012, and the valuation is speculative.",
+   "biggest_risk_in_one_sentence": "Paying a 104x earnings multiple for a company with an unproven long-term record, lack of minority governance, and significant competitive threats leads to a high probability of permanent capital loss."
+  }
+ },
+ "final": {
+  "as_of_date": "2012-05-17",
+  "company": "The Company (Facebook)",
+  "ticker": "FB",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack [D02]",
+   "initial_pretax_yield_pct": 0.96,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital due to valuation compression if growth expectations are not met [D02], [D05]."
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at a 104x price-to-earnings multiple, implying an earnings yield of only 0.96% [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "We have no ability to predict the long-term durability of the advertising model against competitors like Google [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "The lack of a long, consistent history of returns makes it impossible to determine the quality of the franchise [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The dual-class voting structure removes any oversight by minority owners over capital allocation [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "pricing power lost to competition from players like Google",
+   "inability to monetize mobile users effectively",
+   "management demonstrates poor capital allocation due to lack of minority oversight",
+   "long-term advertising model fails to maintain margins"
+  ],
+  "what_would_change_our_mind": "A demonstrated long-term record of sustainable earnings growth through varying economic cycles, coupled with a valuation that provides a significant margin of safety.",
+  "memo": "Charlie and I have looked at the offering for this social network, but we find the business falls outside our circle of competence [D01]. While the company has achieved rapid user growth, it lacks the long, consistent record of returns on capital that we require before committing Berkshire's capital [D01], [D02].\n\nWe are particularly concerned by the competitive landscape, where entrenched players like Google contest the advertising dollars the company seeks to capture [D06]. Furthermore, the dual-class voting structure places absolute control in the hands of one individual, leaving minority shareholders without any meaningful oversight of capital allocation [D01], [D05].\n\nMost importantly, the price being asked today is disconnected from the business's current earning power [D02]. At a valuation of $104 billion and an implied P/E of 104x, the initial earnings yield is a mere 0.96% [D02]. This offers no margin of safety for the investor, particularly when net income has recently shown signs of decline [D01], [D02].\n\nInvesting in this company would be akin to betting on a race where the horse has never run a full mile, at a price that assumes it will win every race for the next decade. We prefer to hold cash or invest in businesses we can understand and value with confidence [D08].",
+  "uncited_claims": []
+ }
+}

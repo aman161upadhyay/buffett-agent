@@ -1,0 +1,16 @@
+Title: High margins, net liquidity and rising physical capital
+Source: https://www.sec.gov/Archives/edgar/data/1652044/000165204425000056/googexhibit991q22025.htm ; https://www.justice.gov/opa/pr/department-justice-wins-significant-remedies-against-google ; https://www.congress.gov/crs_external_products/LSB/PDF/LSB11362/LSB11362.1.pdf
+Date: 2025-09-30
+
+The quarter's 32.4% operating margin is a consolidated figure after central expenses and loss-making Other Bets. Adding only Services and Cloud earnings would overstate what common shareholders own. First-half revenue of $186.662 billion produced operating income of $61.877 billion and net income of $62.736 billion. The latter includes investment gains, making reported net income a less clean operating measure. [1]
+
+Cash and marketable securities substantially exceed long-term debt, but not all financial assets are cash: non-marketable investments are separately classified. Net property and equipment rose from $171.036 billion at the previous year end to $203.231 billion. First-half capital expenditures of $39.643 billion absorbed a large part of $63.897 billion operating cash flow. This is a profitable business with significant liquidity, not a no-reinvestment annuity. A normalized owner-earnings estimate must decide how much of infrastructure investment is necessary to preserve its position, and must recognize stock compensation as an economic cost. [1]
+
+Evidence ledger: the July 23 release reports second-quarter revenue of $96.428 billion, up 14%; operating income of $31.271 billion; net income of $28.196 billion; and diluted EPS of $2.31. Services revenue was $82.543 billion, Cloud $13.624 billion and Other Bets $373 million. Services operating income was $33.063 billion, Cloud $2.826 billion, Other Bets a $1.246 billion loss and central activities a $3.372 billion cost. Cash plus marketable securities totaled $95.148 billion, versus $23.607 billion long-term debt. Trailing operating cash flow was $133.708 billion, capital expenditures $66.980 billion and free cash flow $66.728 billion. Management increased planned annual capital spending to approximately $85 billion. September court remedies prohibit specified exclusivity arrangements and require access to certain data/services. [1-3]
+
+Accounting discipline: all dollar amounts in this document retain the period and basis given in the evidence ledger. Revenue is not owner earnings; neither adjusted profit nor operating cash flow alone measures distributable cash. Maintenance investment, working capital, compensation dilution and financing claims must be considered separately. A quarter is not a full economic cycle. Where a stand-alone balance sheet, maintenance-capital split or historical consensus series is absent, it is unavailable rather than assumed to be zero or inferred from a later filing.
+
+Sources and publication dates:
+[1] https://www.sec.gov/Archives/edgar/data/1652044/000165204425000056/googexhibit991q22025.htm (published 2025-07-23)
+[2] https://www.justice.gov/opa/pr/department-justice-wins-significant-remedies-against-google (published 2025-09-02)
+[3] https://www.congress.gov/crs_external_products/LSB/PDF/LSB11362/LSB11362.1.pdf (published 2025-09-10)

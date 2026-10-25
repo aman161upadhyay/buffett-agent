@@ -1,0 +1,45 @@
+{
+ "trade_id": "2022_tsm_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The company trades at an earnings yield of 8.1% which fails to offer a sufficient margin of safety given the extreme, non-discretionary capital requirements and geopolitical risks.",
+   "The business model is essentially a commodity-like foundry service that requires continuous, massive reinvestment of capital.",
+   "Geopolitical tensions surrounding Taiwan create a non-quantifiable risk of permanent loss.",
+   "We lack sufficient insight into the long-term owner earnings due to the opaque nature of maintenance capex versus growth capex."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at an earnings yield of 8.1%",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Geopolitical disruption resulting in permanent loss of capital",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 5,
+  "share": 0.56
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We prefer businesses where the path to future earnings is clear and within our circle of competence; here, the uncertainty regarding the environment in which the company operates places it firmly in the 'too hard' pile.",
+ "grader_notes": "The agent reached the opposite decision of Warren Buffett (PASS vs BUY). Furthermore, the answer key explicitly notes that there were no publicly stated entry drivers, meaning the agent's attempt to attribute specific reasons to Buffett is entirely fabricated.",
+ "run": "2022_tsm_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

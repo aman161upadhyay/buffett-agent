@@ -1,0 +1,55 @@
+{
+ "trade_id": "2024_bac_trim",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Regulatory reporting burden from >10% ownership threshold",
+   "Most liquid source of cash in a fully priced market",
+   "Historical preference for staying just under 10% threshold",
+   "Position size management"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The bank stake exceeds the 10% ownership threshold, creating regulatory reporting burdens that are best managed by reducing the position.",
+    "citation": "D08",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The holding is the most liquid source of cash in a fully priced market.",
+    "citation": "D08",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Trading at 1.73x tangible book value.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management execution and return on tangible equity (13.6% in Q2 2024).",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 7,
+  "share": 0.88
+ },
+ "state": "MATCH",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "This is a move of convenience and regulatory management, not a commentary on the underlying quality of the bank's earnings or its management team.",
+ "grader_notes": "The agent correctly identified the trim action; however, the answer key provides no authenticated drivers for this trade, making the agent's specific reasoning non-verifiable against Buffett's actual motives. The agent fabricated 'Buffett' as the decision-maker despite the key specifying the decider as 'unknown'.",
+ "run": "2024_bac_trim__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "TRIM",
+ "agent_decision": "TRIM",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

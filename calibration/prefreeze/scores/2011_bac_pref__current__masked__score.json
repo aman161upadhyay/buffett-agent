@@ -1,0 +1,48 @@
+{
+ "trade_id": "2011_bac_pref",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Buffett believed the underlying bank remained large and attractive → The Company possesses the premier US deposit franchise, an essential utility that we have long admired for its durability and scale",
+   "Preferred income and ten-year equity optionality made the structure attractive → By acting as a provider of capital through a negotiated preferred investment, we ensure seniority and obtain warrant coverage, providing us with a margin of safety that common shareholders currently lack"
+  ],
+  "missed": [
+   "He trusted Moynihan's rebuilding effort."
+  ],
+  "extra_agent_drivers": [
+   "The company trades at 0.553x tangible book value, providing a significant margin of safety",
+   "Market fear surrounding legacy mortgage claims is driving a temporary, existential-level discount"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company possesses the premier US deposit franchise",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The bank's massive deposit base provides a low-cost, sticky funding advantage",
+    "citation": "D09",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "By acting as a provider of capital through a negotiated preferred investment, we ensure seniority and obtain warrant coverage, providing us with a margin of safety that common shareholders currently lack.",
+ "grader_notes": "The agent correctly matched the decision to invest in preferred shares and the structural reasoning regarding seniority and warrants. The agent failed to explicitly cite trust in Moynihan's leadership as a primary driver, focusing instead on valuation metrics and the franchise moat. The reasoning is closest to Buffett's in its emphasis on the durability of the deposit franchise and the negotiated security structure.",
+ "run": "2011_bac_pref__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

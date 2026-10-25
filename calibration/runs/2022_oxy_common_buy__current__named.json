@@ -1,0 +1,263 @@
+{
+ "pack": "2022_oxy_common_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2022-02-28",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Occidental is a US-centered oil and gas producer with interests in chemicals and midstream operations [D01]. The company is the largest acreage holder in the Permian Basin and operates globally with assets in the Rockies, Gulf of Mexico, Oman, Algeria, and the UAE [D01].",
+   "products_customers_and_why_they_buy": [
+    "Oil and gas produced at 1.17 million boe/d [D01].",
+    "Chlorine and caustic soda produced by OxyChem, the largest US merchant producer [D01]."
+   ],
+   "economics": [
+    "Company cash flow breaks even at approximately $40 WTI including sustaining capital and common dividend [D01].",
+    "Permian well costs fell ~30% from 2019 to 2021 [D01].",
+    "2022 sustaining capital guided at ~$3.9 billion [D01].",
+    "EBIT proxy / sales % was 20.5% in 2021 [D02].",
+    "Simplified return-on-tangible-capital proxy is approximately 12.7% [D02]."
+   ],
+   "earnings_record": [
+    "Net income: $1.31bn (2017), $4.13bn (2018), -$0.99bn (2019), -$14.83bn (2020), $2.32bn (2021) [D02].",
+    "Earnings are highly cyclical due to commodity price dependence [D02, D05]."
+   ],
+   "competitive_position": [
+    "Largest acreage holder in the Permian Basin [D01].",
+    "Largest US merchant producer of chlorine and caustic soda [D01].",
+    "Peer set includes Exxon Mobil, Chevron, and ConocoPhillips [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Total debt was $29.0 billion at year-end 2021 [D01, D02].",
+    "Management goal is to reduce net debt toward $20 billion [D01].",
+    "Inherited significant acquisition obligations from 2019 [D03, D07]."
+   ],
+   "management_and_capital_allocation": [
+    "CEO: Vicki Hollub [D03].",
+    "Capital allocation priorities: 1) Debt reduction to $20bn, 2) $3bn share repurchase authorization and dividend, 3) modest production growth [D01].",
+    "2021 debt repayment of $6.7 billion [D01]."
+   ],
+   "price_and_valuation": [
+    "Share price: $43.73 [D04].",
+    "Market cap: $40.84bn [D04].",
+    "Trailing P/E: 27.7x [D04].",
+    "EV/EBITDA proxy: ~5.6x [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 3.61,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 18.5,
+    "dividend_yield": 1.19,
+    "long_bond_yield": 1.83,
+    "basis": "Trailing earnings yield based on $1.58 diluted EPS [D04]. FCF yield of 18.5% based on cash-statement FCF of $7.56bn [D04]. Dividend yield based on $0.13/quarter run rate [D04]. Long bond yield is 10-year Treasury [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "War-related oil strength may be temporary [D05].",
+    "Company remains financially leveraged [D05].",
+    "High commodity prices may encourage uneconomic drilling or acquisitions [D05].",
+    "Preferred claims consume cash before common dividends [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Preferred stock and warrants issued in 2019 for Anadarko acquisition financing [D07]."
+   ],
+   "recent_events": [
+    "FY2021 earnings released 2022-02-24 [D01].",
+    "Quarterly dividend raised to $0.13/share 2022-02-24 [D03]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds Occidental preferred shares and warrants [D08].",
+    "Berkshire cash position ~$146.7 billion at year-end 2021 [D08]."
+   ],
+   "document_conflicts": [
+    "Reported FCF $7.56bn vs company-defined FCF $8.809bn [D02, D04]."
+   ],
+   "missing_data": [
+    "Normalized owner earnings yield [D02, D116].",
+    "Through-cycle maintenance capex estimate [D02, D116].",
+    "Dated forward P/E consensus [D04]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "Occidental is a major oil and gas producer with well-defined, albeit commodity-dependent, operations in the Permian and global assets [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The company maintains a low-cost position in the Permian, with well costs falling ~30% from 2019 to 2021 [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "While cyclical, the company demonstrates the ability to generate significant cash flow at normalized oil prices and showed operational discipline in 2021 [D01, D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "Management is committed to aggressive deleveraging, having repaid $6.7 billion in debt in 2021 with a clear path to a $20bn net debt goal [D01]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "As a low-cost producer with a free-cash-flow yield of 18.5%, Occidental meets the criteria for a resource-advantaged commodity producer [D01, D04]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "CEO Vicki Hollub has demonstrated rational capital allocation by prioritizing debt reduction and shareholder returns over production growth [D01, D03]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market cap of $40.84bn, the company is sufficiently large to move the needle for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The free-cash-flow yield of 18.5% far exceeds 1.5x the 1.83% long bond yield, providing an ample margin of safety [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "Reported FCF $7.56bn vs company-defined FCF $8.809bn → relied on $7.56bn as the more conservative figure provided in the valuation summary [D04]."
+   ],
+   "n_pass": 8,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a low-cost Permian-focused oil and gas producer with disciplined management committed to deleveraging and high free cash flow generation"
+  },
+  "gate2": {
+   "templates": [
+    "B1"
+   ],
+   "why_available": "The market is wary of Occidental's historical leverage and the cyclical volatility of commodity prices [D02, D05]. We believe the market under-rates management's demonstrated discipline in debt reduction and the company's superior low-cost position in the Permian, which provides a significant margin of safety at an 18.5% free-cash-flow yield [D01, D04].",
+   "evidence": [
+    "Management repaid $6.7 billion in debt during 2021 [D01].",
+    "Permian well costs declined ~30% from 2019 to 2021 [D01].",
+    "Free-cash-flow yield of 18.5% offers substantial value relative to the long bond [D04].",
+    "Company breaks even at $40 WTI, providing durability [D01]."
+   ],
+   "market_narrative_we_disagree_with": "The belief that high commodity prices are merely temporary or will inevitably lead to undisciplined capital allocation [D05].",
+   "what_must_be_true": [
+    "Management continues to prioritize debt reduction over production growth",
+    "Permian assets maintain their low-cost competitive advantage",
+    "Oil prices remain at levels sufficient to support free cash flow generation above sustaining capital requirements"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "b13_cheap_giant",
+   "owner_earnings_per_share": "Not in pack; assuming FCF as proxy of $8.10/share [D02, D04]",
+   "initial_pretax_yield_pct": 18.5,
+   "intrinsic_value_range": {
+    "low": "70.00",
+    "high": "90.00",
+    "key_assumptions": [
+     "Normalized WTI price of $65-$70 [D01]",
+     "Debt reduction to $20bn goal [D01]"
+    ],
+    "discount_rate_used": "1.83% long bond [D04]"
+   },
+   "price_vs_value": "Price $43.73 is ~62% of low-end; significant margin of safety",
+   "expected_return_pct": {
+    "base": 12,
+    "bear": 5,
+    "bull": 20
+   },
+   "alternatives": "T-bills/Cash yielding 1.83% [D04] are inferior to 18.5% FCF yield [D04]; buying Occidental provides superior capital allocation relative to low-yielding bonds.",
+   "downside_case": "Commodity price crash to <$40 WTI; loss is not permanent provided debt reduction continues [D01].",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Maintenance capex assumed equal to reported sustaining capex of $3.9bn [D01]",
+    "FCF yield used as proxy for owner earnings yield [D02, D04]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Dividends and debt reduction increasing per-share value [D01], coupled with long-term compounding of the business's low-cost Permian assets [D01]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "As of 2022, Berkshire acts as a permanent, patient holder of equity in businesses we understand and trust to allocate capital rationally; Occidental’s focus on debt reduction and FCF generation fits our long-term investment horizon [D01, D03]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Oil prices fall below $40/bbl for an extended period, preventing debt reduction [D01]",
+    "Management abandons disciplined capital allocation for aggressive debt-funded production growth [D01, D03]",
+    "Permian assets lose their relative cost-advantage compared to industry peers [D01]"
+   ],
+   "berkshire_constraints": "Must maintain a cash floor of at least $30B [D08]. Regulatory ownership thresholds apply to exceeding 10% [D08].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 15,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "T-bills yielding 1.83% [D04] or existing high-quality holdings in the equity portfolio.",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "Occidental is an energy business of sufficient scale and understanding that allows for a significant position under Buffett's leadership.",
+   "biggest_risk_in_one_sentence": "The inherent cyclicality of commodity prices could lead to volatility in earnings and cash flow, impacting the pace of required deleveraging."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-02-28",
+  "company": "Occidental Petroleum Corporation",
+  "ticker": "OXY",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "estimated via $7.56bn FCF [D04]",
+   "initial_pretax_yield_pct": 18.5,
+   "intrinsic_value_range": "$70.00 - $90.00",
+   "expected_return_pct": 12,
+   "downside_case": "commodity price crash to <$40 WTI"
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at an initial free-cash-flow yield of 18.5% compared to 1.83% for the long bond, representing a compelling margin of safety [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Management led by Vicki Hollub has demonstrated exemplary capital discipline by prioritizing aggressive debt reduction, repaying $6.7 billion in 2021 [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Occidental possesses a low-cost competitive advantage in the Permian Basin, where well costs have declined by approximately 30% since 2019 [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The business possesses structural durability with a cash flow break-even point of approximately $40 WTI, allowing it to generate significant cash across typical cycles [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Oil prices fall below $40/bbl for an extended period, preventing debt reduction [D01]",
+   "Management abandons disciplined capital allocation for aggressive debt-funded production growth [D01, D03]",
+   "Permian assets lose their relative cost-advantage compared to industry peers [D01]"
+  ],
+  "what_would_change_our_mind": "Evidence that management has shifted away from the debt-reduction mandate or that the structural cost-advantage of the Permian assets has been compromised by industry-wide changes or mismanagement.",
+  "memo": "Occidental is a major oil and gas producer with significant operations in the Permian Basin and globally, a business that we understand well after years of observing the energy industry [D01]. We have long held an interest in the company through our existing preferred shares and warrants, and the current operational performance confirms the strength of these underlying assets [D08].\n\nThe company maintains a formidable position as the largest acreage holder in the Permian Basin, where operational efficiency has improved dramatically, with well costs falling roughly 30% from 2019 to 2021 [D01]. This cost-advantaged position, combined with a break-even price of approximately $40 WTI, provides a durable foundation for generating cash flow through volatile commodity cycles [D01].\n\nUnder the leadership of Vicki Hollub, management has acted as true owners, prioritizing the reduction of debt over growth in production [D01, D03]. Their commitment was made clear in 2021 when they repaid $6.7 billion in debt, demonstrating the fiscal discipline necessary to steward capital effectively in a cyclical industry [D01].\n\nThe market currently appears fixated on commodity price volatility and historical leverage, offering us the opportunity to buy a cash-generating giant at a price that significantly undervalues its long-term potential [D02, D05]. With the company yielding 18.5% in free cash flow, we are acquiring a stream of earnings that compares favorably to any alternative available in the current interest rate environment [D04].\n\nWe value Occidental conservatively based on its normalized FCF, placing its intrinsic value between $70 and $90 per share [D03, D04]. At a share price of $43.73, we benefit from a substantial margin of safety while receiving an initial yield that is more than ten times the current long bond yield [D04].\n\nOur primary risk remains the inherent volatility of oil prices, which could slow the necessary deleveraging process [D01]. However, provided the company continues to reduce debt and maintain its low-cost efficiency, we are content to act as permanent holders of this business [D01, D04].",
+  "uncited_claims": []
+ }
+}

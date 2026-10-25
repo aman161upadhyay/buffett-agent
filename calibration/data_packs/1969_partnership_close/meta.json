@@ -1,0 +1,28 @@
+{
+  "id": "1969_partnership_close",
+  "company": "US equity market / Buffett Partnership",
+  "ticker": "n/a",
+  "aliases": [
+    "US equity market / Buffett Partnership",
+    "Buffett Partnership",
+    "Buffett Partnership Ltd.",
+    "BPL",
+    "Dow",
+    "DJIA",
+    "Dow Jones Industrial Average",
+    "Berkshire Hathaway",
+    "Diversified Retailing",
+    "DRC",
+    "Massachusetts Investors Trust",
+    "Investors Stock",
+    "Lehman Corporation",
+    "Tri-Continental"
+  ],
+  "as_of_date": "1969-05-29",
+  "mode": "hedge",
+  "era": "A",
+  "first_action_window": "May 29, 1969 winding-down letter; orderly implementation afterward.",
+  "fund_aum_usd_bn": 0.1,
+  "decider": "Buffett",
+  "notes": "Historical reconstruction: doc Date is effective information cutoff, not archival publication date. Only pre-cutoff business conditions are reconstructed; later investor explanations/outcomes appear in key only. Approximately $100 million Partnership assets discussed in May partner communication; not unrestricted cash. Same-day decision paragraph withheld; pre-decision facts reconstructed from the letter. Personal retirement utility matters, so grading as pure macro timing is inappropriate. Exact cash and security values unrecovered."
+}

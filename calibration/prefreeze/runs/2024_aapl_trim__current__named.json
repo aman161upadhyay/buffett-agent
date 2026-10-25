@@ -1,0 +1,47 @@
+{
+ "pack": "2024_aapl_trim",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2024-05-04",
+ "stages": {},
+ "final": {
+  "as_of_date": "2024-05-04",
+  "company": "Apple Inc.",
+  "ticker": "AAPL",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Consumer-device ecosystem and services growth: intact [D01]",
+   "Pricing power and customer retention: intact [D01]",
+   "Management capital allocation: intact [D02]"
+  ],
+  "price_vs_value_now": "Market cap ~$2.8 trillion; P/E 28.5x; price is at a premium to historical norms but reflects a durable, high-quality franchise [D04]",
+  "after_tax_hurdle": "Substantial; 21% federal corporate tax rate on large unrealized gains makes selling expensive unless the thesis is broken [D04, D08]",
+  "drivers": [
+   {
+    "driver": "Apple remains a wonderful business with a durable consumer-ecosystem moat [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The tax cost of selling would be substantial, requiring a very high hurdle to justify liquidation [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Management continues to act in the interest of owners through share repurchases and dividends [D02].",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "memo": "We regard Apple as a wonderful business that maintains a significant competitive advantage through its consumer-device and services ecosystem [D01]. The latest quarterly results show a resilient business, with record services revenue offsetting temporary hardware weakness [D03]. We do not sell businesses of this quality simply because Mr. Market is enthusiastic or because we face short-term revenue fluctuations [D04, D05].\n\nOur holding period is indefinite, and we remain satisfied with the underlying economics of the business [D01, D07]. Apple's ability to drive repeat purchases and recurring software spending provides a durable moat that protects its pricing power [D01]. Management continues to allocate capital rationally, demonstrated by the recent dividend increase and significant share repurchase authorization [D02].\n\nWe must remain mindful of our substantial tax cost in the event of a sale [D04, D08]. With a 21% federal corporate tax rate, a sale must clear a high after-tax hurdle, and we see no reason to trigger such a cost when the business thesis remains intact [D04]. We hold our position, confident in the company's long-term prospects as an integral part of our equity portfolio [D08].",
+  "uncited_claims": []
+ }
+}

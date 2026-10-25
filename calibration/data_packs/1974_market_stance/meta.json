@@ -1,0 +1,25 @@
+{
+  "id": "1974_market_stance",
+  "company": "US equity market",
+  "ticker": "n/a",
+  "aliases": [
+    "US equity market",
+    "US equities",
+    "Dow",
+    "DJIA",
+    "Dow Jones Industrial Average",
+    "Berkshire Hathaway",
+    "Blue Chip Stamps",
+    "San Jose Water Works",
+    "General Motors",
+    "U.S. Steel",
+    "Polaroid"
+  ],
+  "as_of_date": "1974-11-01",
+  "mode": "hedge",
+  "era": "A",
+  "first_action_window": "November 1, 1974 interview publication; no index transaction claimed.",
+  "fund_aum_usd_bn": 0.037344241,
+  "decider": "Buffett",
+  "notes": "Historical reconstruction: doc Date is effective information cutoff, not archival publication date. Only pre-cutoff business conditions are reconstructed; later investor explanations/outcomes appear in key only. Unaffiliated common stocks at 1973 year-end market value from Berkshire financial statements; excludes Blue Chip equity-method interest and controlled businesses; not cash or total business NAV. Exact publication-day quote, cash and aggregate valuation table missing. Mirror has editorial substitution discussion; key avoids the disputed harem/whorehouse wording."
+}

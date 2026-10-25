@@ -1,0 +1,52 @@
+{
+ "pack": "2020_wfc_sell",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2020-11-01",
+ "stages": {},
+ "final": {
+  "as_of_date": "2020-11-01",
+  "company": "the Company (Wells Fargo)",
+  "ticker": "WFC",
+  "decision": "SELL",
+  "reason_class": "S1",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Original thesis of banking discipline: broken [D07]",
+   "Low-cost operations and customer relationships: broken by sales-practices failures [D01]",
+   "Regulatory status: restricted by ongoing asset-growth limitations [D03]"
+  ],
+  "price_vs_value_now": "Shares trade at a discount to tangible book (approx. 0.67x), but current earnings power is impaired by remediation and regulatory constraints [D03, D04]",
+  "after_tax_hurdle": "The permanent loss of earning power and cultural integrity outweighs the benefit of holding for recovery [D01, D05]",
+  "drivers": [
+   {
+    "driver": "The institution's culture and governance failures have caused durable damage to the competitive franchise [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Persistent regulatory asset caps and ongoing remediation costs structurally constrain future earnings [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The original thesis of a sound, disciplined banking franchise is no longer supported by observable customer or operating outcomes [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   }
+  ],
+  "memo": "When we look at a business, we look for an enduring economic advantage and honest management that acts like an owner. In the case of this bank, the facts have changed fundamentally. The sales-practices scandal and the subsequent years of governance failures demonstrate that the institution lost its way, and restoring trust is a long, expensive, and uncertain process [D01, D05]. \n\nWe do not hold businesses when the competitive advantage—the 'moat'—has been compromised by institutional rot [D01]. The regulatory asset restriction imposed in 2018 is not merely a temporary market fluctuation, but a binding constraint on our ability to grow our capital effectively [D03, D07]. We have seen significant management turnover and declining margins compared to our other financial holdings, which confirms that the business we thought we bought is not the business that exists today [D01, D03, D06]. \n\nWe have already been reducing our stake, and it is time to conclude the exit [D07, D08]. We do not anchor on our original cost or wait for a price recovery when the underlying economic reality has deteriorated this significantly [D04, D05]. We prefer to allocate our capital to businesses where the future is more knowable and the managers are beyond reproach [D01, D04].",
+  "uncited_claims": [
+   "We do not hold businesses when the competitive advantage—the 'moat'—has been compromised by institutional rot.",
+   "We prefer to allocate our capital to businesses where the future is more knowable and the managers are beyond reproach."
+  ]
+ }
+}

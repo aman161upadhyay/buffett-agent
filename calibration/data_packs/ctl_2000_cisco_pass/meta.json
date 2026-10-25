@@ -1,0 +1,25 @@
+{
+  "id": "ctl_2000_cisco_pass",
+  "company": "Cisco Systems",
+  "ticker": "CSCO",
+  "aliases": [
+    "Cisco Systems, Inc.",
+    "Cisco Systems",
+    "Cisco",
+    "CSCO",
+    "Catalyst",
+    "Cisco IOS",
+    "Cerent",
+    "WebLine",
+    "Calista",
+    "V-Bits",
+    "Linksys"
+  ],
+  "as_of_date": "2000-03-01",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "Nonpurchase observation window containing 2000-03-01; not a dated execution",
+  "fund_aum_usd_bn": 37.49,
+  "decider": "Buffett",
+  "notes": "Research pack is an affirmative analyst case, not an investor endorsement. Cutoff is end of the as_of_date, including same-date evening releases. fund_aum_usd_bn is the explicitly dated cash/T-bill benchmark in D08, except Cisco where it is 1998 common-stock market value. Not consolidated assets or fee-paying AUM. Exact March 1/February 29 price unavailable; no invented bubble-peak multiple. 1999 annual letter is retrospective key evidence only. Original Q1 2000 report and all three recovered confidential-treatment supplements were checked; Cisco absent."
+}

@@ -1,0 +1,56 @@
+{
+ "pack": "1979_market_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "1979-08-06",
+ "stages": {},
+ "final": {
+  "as_of_date": "1979-08-06",
+  "trailing_earnings_yield_pct": 13.83,
+  "normalised_earnings_yield_pct": 13.83,
+  "normalisation_basis": "trailing (no distortion)",
+  "long_bond_yield_pct": 8.91,
+  "spread_points": 4.92,
+  "drawdown_from_high_pct": 0,
+  "panic_indicators": [
+   "private pension equity purchases at just 9% of net funds in 1978, continuing into Q1 1979 [D03]"
+  ],
+  "rule_decision": "BUY_BROADLY",
+  "decision": "BUY_BROADLY",
+  "override_reason": null,
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "earnings yield of 13.83% significantly exceeds the 8.91% ten-year Treasury yield [D04]",
+  "valuation_level": "equities offer approximately 13% earning power on book value purchased at or below book [D04]",
+  "ideas_that_qualify": [
+   "diversified package of large businesses [D06]",
+   "financial and service businesses where replacement cost adjustment is less significant [D01]"
+  ],
+  "berkshire_action": "aggressively allocate available capital to undervalued equities given the superior earnings yield versus bonds",
+  "drivers": [
+   {
+    "driver": "The earnings yield on equities (13.83%) provides a compelling spread of nearly 5 percentage points over long-term government bonds (8.91%) [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Investor sentiment is notably bearish, with private pension funds directing only 9% of net new funds into equities, indicating widespread fear [D03].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "High-quality businesses can be purchased at or below book value, offering a significant margin of safety [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   }
+  ],
+  "memo": "Mr. Market is currently offering us an exceptional opportunity to acquire ownership in established American businesses at prices that make bonds look distinctly unattractive. While bondholders are locking in 9-10% yields, we can secure an earnings yield of nearly 14% by purchasing productive assets at or below book value [D02, D04]. History teaches us that the best time to invest is when others are avoiding the market, and the current 9% allocation of pension funds to equities confirms that the appetite for ownership is historically depressed [D03, D06].\n\nWe do not concern ourselves with the short-term path of market indices, but rather the durable earning power of the businesses we hold [D01, D08]. While inflation poses a risk to replacement costs, we are focusing our attention on financial and service-oriented businesses where this adjustment is less punitive [D01, D06]. We will continue to deploy our capital into these wonderful businesses as rapidly as the market allows, knowing that a patient investor who buys at a discount to intrinsic value will be well-rewarded over the long term [D04, D08].",
+  "uncited_claims": []
+ }
+}

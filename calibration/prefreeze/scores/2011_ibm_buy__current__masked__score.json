@@ -1,0 +1,60 @@
+{
+ "trade_id": "2011_ibm_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Enterprise IT departments have sticky supplier relationships verified through Berkshire subsidiaries. → High switching costs—arising from the risks of migration, retraining, and operational disruption—ensure that customers stay with our services [D01]."
+  ],
+  "missed": [
+   "Management laid out a roadmap and delivered on it.",
+   "Capital allocation respected continuing owners.",
+   "Business earnings and repurchases were preferable to near-zero cash or low-yield bonds."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value comparison to long bonds",
+   "ROE and operating cash flow metrics",
+   "Historical EPS growth"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The shares sell at $163.07, providing an initial earnings yield of 7.06% against 3.47% long bonds",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "High switching costs—arising from the risks of migration, retraining, and operational disruption—ensure that customers stay with our services",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "66.8% ROE",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "EPS increasing from $6.10 in 2006 to $11.52 in 2010",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 9,
+  "share": 0.64
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We understand this business because it is built upon essential relationships with large organizations that rely on deeply integrated, long-term architecture [D01].",
+ "grader_notes": "The agent correctly identified the stickiness of the IT business as a primary driver, which was the central thesis for Buffett's purchase. However, the agent failed to capture Buffett's specific focus on management's roadmap and their treatment of shareholders, relying instead on quantitative valuation metrics and historical financial performance that were not the primary drivers cited by Buffett in his post-entry explanation.",
+ "run": "2011_ibm_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

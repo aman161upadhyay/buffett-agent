@@ -1,0 +1,45 @@
+{
+ "trade_id": "2025_nyt_buy_q4",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Valuation concerns regarding earnings multiple and yield",
+   "Perpetual reinvestment requirements in journalism/acquisition",
+   "Competitive threats from AI and free information",
+   "Dual-class governance structure concerns"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at a 24-28x earnings multiple.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Berkshire holding significant liquidity in risk-free Treasuries.",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 6,
+  "share": 0.55
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We will continue to watch from the sidelines.",
+ "grader_notes": "The agent reached a decision (PASS) that contradicts the actual decision (BUY). As the answer key specifies no verified rationale for the actual investment, the agent's extensive reasoning is treated as entirely extraneous and cannot be scored for overlap.",
+ "run": "2025_nyt_buy_q4__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

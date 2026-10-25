@@ -1,0 +1,54 @@
+{
+ "pack": "2017_aapl_buffett_add",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2017-01-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2017-01-31",
+  "company": "the Company",
+  "ticker": "AAPL",
+  "decision": "ADD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Consumer ecosystem moat: intact [D01]",
+   "Pricing power and customer retention: intact [D01]",
+   "Earnings generation: strengthened by return to growth [D03]"
+  ],
+  "price_vs_value_now": "14.46x trailing P/E [D04], representing a fair price for a dominant consumer franchise [D01]",
+  "after_tax_hurdle": "35% federal capital gains rate necessitates a significant margin of safety; current price offers an attractive entry for a long-term compounder [D04]",
+  "drivers": [
+   {
+    "driver": "The business exhibits a durable consumer franchise with high switching costs and recurring service potential [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Latest quarterly results show renewed revenue and EPS growth, validating the ongoing demand for the platform [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The valuation at 14.46x earnings remains modest for a business of this quality relative to long-term interest rates [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The initial stake was small, and we prefer to build significant positions in wonderful businesses over several quarters [D07, D08].",
+    "citations": [
+     "D07",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "We have reviewed our initial position in the Company, which was originated by one of our deputies, and find the business to be a compelling consumer franchise [D01, D07]. The ecosystem created by the company’s hardware, software, and services creates friction for users that functions as a moat, providing us with confidence in the durability of its future returns [D01].\n\nWhile the company faced some headwinds in the prior spring, the most recent fiscal first-quarter results show a return to growth with record revenue [D03]. We do not view this as a transitory success, but as evidence of the continued relevance of the platform to its global customer base [D03].\n\nAt a trailing P/E of roughly 14.5x, the stock is reasonably priced for a business that generates such substantial cash flows [D04]. Given that this position remains small relative to our total portfolio, we are adding to our investment to reach a weight more consistent with our conviction in the business's long-term economic power [D07, D08].",
+  "uncited_claims": []
+ }
+}

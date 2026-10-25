@@ -1,0 +1,53 @@
+{
+ "trade_id": "2008_buy_american_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Fear created attractive long-term prices for sound American businesses. → We are being greedy while others are fearful, focused on long-term owner earnings rather than the market's immediate, distressed quotations [D01]."
+  ],
+  "missed": [
+   "A bad near-term economy does not identify the market's turning point.",
+   "Cash equivalents protect nominal balances but risk purchasing power over time."
+  ],
+  "extra_agent_drivers": [
+   "The spread between normalised equity earnings yields and long-term interest rates provides a compelling margin of safety.",
+   "Berkshire's financial strength and stable float allow for long-term capital deployment even when credit availability for others is impaired."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "VIX at 67.61",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "September nonfarm payroll change of -159,000",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "normalised earnings yield of ~7.5% significantly exceeds the 10-year Treasury yield of 3.99%",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 6,
+  "cited": 6,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are being greedy while others are fearful, focused on long-term owner earnings rather than the market's immediate, distressed quotations [D01].",
+ "grader_notes": "The agent correctly identified the 'be greedy when others are fearful' sentiment. However, it failed to capture Buffett's specific arguments regarding purchasing power risk in cash and the irrelevance of near-term economic indicators to market turning points, instead substituting its own proprietary quantitative valuation metrics.",
+ "run": "2008_buy_american_stance__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY_BROADLY",
+ "agent_decision": "BUY_BROADLY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

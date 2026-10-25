@@ -1,0 +1,50 @@
+{
+ "trade_id": "1999_market_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Starting valuations, interest rates and profits constrained aggregate returns far below popular expectations → With the 10-year Treasury yielding over 6% and the aggregate market offering an earnings yield of less than 3.5%, the 'new era' enthusiasm has pushed valuations to a point where the margin of safety—our most critical tool—is effectively non-existent"
+  ],
+  "missed": [
+   "Technological transformation did not automatically produce attractive shareholder economics.",
+   "High prices and uncertainty about winners supported withholding new equity capital rather than predicting the next market move.",
+   "Existing sound franchises were not automatically sold because the aggregate market was expensive."
+  ],
+  "extra_agent_drivers": [
+   "The earnings yield of equities is substantially lower than the risk-free rate provided by long-term government bonds, rendering stocks unattractive by our standard",
+   "Broad market valuations, with trailing P/Es near 29x, leave little margin of safety and imply that investors are betting on sustained, rapid earnings growth rather than existing value",
+   "Public sentiment displays high return expectations of up to 22.6% annually, contrasting sharply with underlying economic realities and prudent investment logic"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The market earnings yield of 3.49% is significantly lower than the 6.09% yield on the 10-year Treasury bond",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Equities appear expensive at a trailing P/E of 28.66x",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 2,
+  "share": 0.22
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "For now, we will hold our wonderful businesses and wait for Mr. Market to offer us prices that reflect business value rather than speculative fervor [D04, D08].",
+ "grader_notes": "The agent correctly identified the 'HOLD_CASH' stance. Reasoning overlap was limited (k=1); while the agent correctly focused on valuation and interest rate spreads, it failed to incorporate the specific Berkshire-articulated drivers regarding technological transformation and the explicit distinction between holding existing franchises versus withholding new capital.",
+ "run": "1999_market_stance__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "HOLD_CASH",
+ "agent_decision": "HOLD_CASH",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,57 @@
+{
+ "pack": "2025_aapl_trim_q3",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2025-06-30",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-06-30",
+  "company": "Apple",
+  "ticker": "AAPL",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Consumer franchise and loyalty: intact [D01]",
+   "Cash generation: intact [D01, D03]",
+   "Installed base: record levels, strengthened [D01]"
+  ],
+  "price_vs_value_now": "Market price $205.17 at ~31-34x trailing EPS; business remains a high-quality consumer franchise but at a full valuation [D04]",
+  "after_tax_hurdle": "Selling would trigger a 21% federal tax liability; given the enduring quality of the business, the gap to intrinsic value does not currently justify the tax friction of a further reduction [D04, D08]",
+  "drivers": [
+   {
+    "driver": "The business continues to demonstrate exceptional cash-generation capabilities and strong consumer attachment via its installed base.",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Apple remains a premier consumer franchise, which we do not sell simply because Mr. Market is enthusiastic about the price.",
+    "citations": [
+     "D04",
+     "D08"
+    ]
+   },
+   {
+    "driver": "Tax considerations provide a significant hurdle to liquidating a large position in a wonderful business, even if the current valuation is full.",
+    "citations": [
+     "D04",
+     "D08"
+    ]
+   },
+   {
+    "driver": "Reported near-term tariff costs and regulatory challenges are manageable risks that do not impair the long-term economics of the ecosystem.",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "Apple remains a business of extraordinary quality, characterized by a loyal installed base and a services ecosystem that reinforces its competitive position [D01]. While the stock currently trades at a full valuation of approximately 31 to 34 times reported trailing earnings, we do not sell wonderful businesses simply because Mr. Market has reached a state of enthusiasm [D04]. Our holding period remains indefinite for businesses that possess durable advantages and pricing power [D08].\n\nWe acknowledge the near-term costs associated with potential trade-policy shifts, such as the estimated $900 million in June-quarter tariff impacts, but these do not change our long-term underwriting of the company's earning power [D03, D05]. A sale would also require us to settle a 21% federal tax bill, creating a significant hurdle that is not currently justified by the perceived gap between the market price and our estimate of intrinsic value [D04, D08].\n\nBerkshire has already significantly reduced its stake in prior periods to manage concentration and lock in gains, but our remaining position reflects our continued high regard for the business [D08]. We will continue to monitor the company's ability to maintain margins and navigate regulatory environments, but for now, the thesis of an installed-base consumer franchise remains intact [D01, D05].",
+  "uncited_claims": []
+ }
+}

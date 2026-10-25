@@ -1,0 +1,56 @@
+{
+ "trade_id": "2019_oxy_pref",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "The investment was a financing transaction with unusually attractive terms, not an acquisition bid for the oil company → This is a classic Berkshire capital allocation: using our liquidity to step in as a lender of last resort when others are hesitant.",
+   "The preferred provided an $800 million annual cash-income claim → In an environment where cash yields are merely 2.51%, securing an 8% preferred coupon offers a superior risk-adjusted return.",
+   "Warrants added long-duration upside to the financing package → Equity upside participation through warrants on 80 million shares at a $62.50 strike, offering significant gain potential if the business scales."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Seniority and contractual protection provided by the preferred security status, which grants us priority over common equity"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "8% cumulative perpetual yield against 2.51% long-term bond yields",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Seniority and contractual protection provided by the preferred security",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Warrants for 80 million shares at a $62.50 strike",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Lender of last resort in a complex transaction",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 9,
+  "share": 1
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "This is a classic Berkshire capital allocation: using our liquidity to step in as a lender of last resort when others are hesitant.",
+ "grader_notes": "The agent correctly identified the nature of the transaction as a financing deal rather than an equity acquisition, matching the core drivers of yield and warrant upside. Reasoning was highly aligned with the contractual economics provided in the answer key. The agent included an extra driver regarding seniority/priority, which is a logical component of the preferred security package but not explicitly listed in the limited drivers key.",
+ "run": "2019_oxy_pref__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

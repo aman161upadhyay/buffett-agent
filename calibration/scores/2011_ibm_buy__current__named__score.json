@@ -1,0 +1,53 @@
+{
+ "trade_id": "2011_ibm_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Enterprise IT departments have sticky supplier relationships verified through Berkshire subsidiaries. → We understand it well because these clients are effectively 'locked in' by the high friction, operational risk, and retraining costs involved in switching providers [D01].",
+   "Management laid out a roadmap and delivered on it. → Management has proven themselves to be capable and honest stewards of capital [D03]. They focus on a multiyear roadmap that emphasizes disciplined capital allocation [D03].",
+   "Business earnings and repurchases were preferable to near-zero cash or low-yield bonds. → At a price of $163.07, IBM offers an earnings yield of 7.06%, which is double the 3.47% yield on the long bond [D04]."
+  ],
+  "missed": [
+   "Capital allocation respected continuing owners."
+  ],
+  "extra_agent_drivers": [
+   "Historical financial performance consistent with revenue and net income growth."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at an earnings yield of 7.06% against the 3.47% long bond yield.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Integrated IT infrastructure is difficult and costly for large enterprise clients to replace.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Revenue grew from $91.4bn to $99.9bn and net income from $9.5bn to $14.8bn between 2006 and 2010.",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 17,
+  "cited": 12,
+  "share": 0.71
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "At a price of $163.07, IBM offers an earnings yield of 7.06%, which is double the 3.47% yield on the long bond [D04].",
+ "grader_notes": "The agent correctly matched the investment direction and identified the primary qualitative drivers regarding switching costs and the quantitative driver comparing IBM's earnings yield to bond yields. The agent missed the specific nuance of capital allocation as a form of reverence for shareholders, though it captured the mechanism of share repurchases. The conviction level was sized at 5%, which is notably lower than the multi-billion dollar, high-conviction entry made by Berkshire.",
+ "run": "2011_ibm_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

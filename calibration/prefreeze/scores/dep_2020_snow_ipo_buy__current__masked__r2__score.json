@@ -1,0 +1,52 @@
+{
+ "trade_id": "dep_2020_snow_ipo_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "BUY as a deputy-controlled IPO/private-placement allocation. Todd Combs is the named executing investment officer; do not attribute an unexplained Buffett IPO-policy reversal or software thesis to Buffett.",
+   "SEC purchase agreement dated September 7 and filed September 8 is signed by Todd A. Combs, Investment Officer. It documents execution authority, not a valuation thesis. Final $120 pricing and Q3 parent 13F verify 6,125,376 shares, combining $250M private placement and 4,042,043 secondary shares.",
+   "The signed agreement identifies Combs as Investment Officer; no public own-words valuation or growth thesis was located, so those analyst bull arguments must not be scored as manager-stated drivers."
+  ],
+  "extra_agent_drivers": [
+   "The company lacks a record of profitability, reporting a $348.5 million net loss for the fiscal year.",
+   "The business is highly capital-intensive, relying on third-party cloud infrastructure that prevents the achievement of stable, proprietary margins.",
+   "There is no evidence of a durable moat, as the firm faces intense competition from established technology incumbents like Amazon, Google, and Microsoft.",
+   "The dual-class share structure concentrates control, and we have no visibility into management's long-term capital allocation record."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company lacks a record of profitability, reporting a $348.5 million net loss for the fiscal year",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business is highly capital-intensive, relying on third-party cloud infrastructure",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "There is no evidence of a durable moat, as the firm faces intense competition from established technology incumbents like Amazon, Google, and Microsoft",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 9,
+  "share": 0.75
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have reviewed the proposed investment in the Company and have decided to pass.",
+ "grader_notes": "The agent completely missed the nature of the transaction, which was a deputy-led IPO allocation rather than a traditional fundamental value-investing decision. The agent fabricated a fundamental 'pass' thesis based on its own analysis of company financials, whereas the actual decision was a purchase executed by Todd Combs as an investment officer.",
+ "run": "dep_2020_snow_ipo_buy__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS"
+}

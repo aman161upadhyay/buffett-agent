@@ -1,0 +1,232 @@
+{
+ "pack": "2009_bnsf_acq",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2009-11-02",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company operates a major western US rail network transporting agricultural, industrial, coal, and consumer freight [D01]. The network is difficult to replicate and supports national commerce through significant investment in track and terminal infrastructure [D01].",
+   "products_customers_and_why_they_buy": [
+    "Rail transportation services for consumer products, coal, agricultural and industrial freight [D01]; repeat-purchase/loyalty evidence not in pack [D01]"
+   ],
+   "economics": [
+    "Margins: 21.7% operating margin in 2008 [D02]; return on year-end equity: 19.0% in 2008 [D02]; capital intensity: high, with recurring investment in track and terminals [D01, D02]; owner-earnings inputs: D&A $1.397bn in 2008, Capex $2.175bn in 2008 [D02]; pricing history not in pack [D01]"
+   ],
+   "earnings_record": [
+    "Revenue grew from $10,946m (2004) to $18,018m (2008) [D02]; diluted EPS grew from $2.14 (2004) to $6.08 (2008) [D02]; earnings are cyclical and subject to traffic density and fuel costs [D01, D03]"
+   ],
+   "competitive_position": [
+    "Possesses a difficult-to-replicate rail network moat [D01]; major western US competitor is Union Pacific [D06]; other peers include CSX and Norfolk Southern [D06]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Gross debt: $10,385m (as of 2009-09-30) [D03]; cash: $1,161m (as of 2009-09-30) [D03]; capital needs: substantial ongoing investment in track, locomotives and terminals [D01]"
+   ],
+   "management_and_capital_allocation": [
+    "CEO and record not in pack [D01]; management quality not in pack [D01]; dividends per share: $1.44 in 2008 [D02]"
+   ],
+   "price_and_valuation": [
+    "Price: $76.07 [D04]; market cap: $25.89bn [D04]; P/E: 14.49x [D04]; P/B: 2.11x [D04]; earnings yield: 6.90% vs US 10-year Treasury 3.45% [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Prolonged weak freight, secular pressure on coal volumes, large capital needs, and regulatory constraints on rates [D05]"
+   ],
+   "deal_terms_if_any": [
+    "Not in pack [D07]"
+   ],
+   "recent_events": [
+    "Q3 2009 net income declined 29.8% year-over-year [D03]; 2009-10-22 earnings release published [D01]"
+   ],
+   "berkshire_context": [
+    "Existing minority interest in the railroad [D07]; Berkshire year-end 2008 cash: approx. $25.5bn [D08]; Berkshire insurance float: approx. $58.5bn (2008) [D08]"
+   ],
+   "document_conflicts": [
+    "Not in pack"
+   ],
+   "missing_data": [
+    "Maintenance-only owner earnings, management assessment, and specific forward pricing power evidence"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "Railroads provide an essential service for the transportation of bulk and industrial freight with a network that is difficult to replicate [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The company possesses a significant moat due to its difficult-to-replicate rail network and regulatory franchise in the western US [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Revenue and EPS showed consistent growth from 2004 to 2008 despite the cyclical nature of the industry [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company maintained a strong 19.0% return on year-end equity in 2008 [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "While capital intensive, railroads are regulated, capital-intensive businesses which are considered an acceptable home for capital for an AS_OF_DATE of 2009 [D01, D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Specific management assessment and performance history are not in the pack [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market cap of $25.89bn, this business is large enough to move the needle for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The 6.90% earnings yield is exactly 2x the 3.45% yield of the 10-year Treasury, meeting the criteria for a satisfactory margin of safety [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 7,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a vital, capital-intensive rail franchise with a durable competitive advantage and significant scale"
+  },
+  "gate2": {
+   "templates": [
+    "B7"
+   ],
+   "why_available": "The market is currently preoccupied with cyclical weakness in freight volumes and secular concerns regarding coal dependency, leading to a temporary depression in earnings [D05]. We view this as a durable, essential rail franchise that will serve as a long-term compounder of capital, with earnings power that will normalize and grow as the economy recovers [D01, D02].",
+   "evidence": [
+    "Net income declined 29.8% year-over-year in Q3 2009 due to cyclical traffic density issues [D03].",
+    "Market participants are concerned about secular pressure on coal volumes and regulatory rate constraints [D05].",
+    "The company maintains a significant moat through a difficult-to-replicate rail network [D01]."
+   ],
+   "market_narrative_we_disagree_with": "The market is over-extrapolating short-term cyclical declines in freight and coal as permanent impairments to the franchise's long-term utility [D05].",
+   "what_must_be_true": [
+    "The US rail industry maintains capacity discipline as it has post-2004",
+    "The business retains its regulatory franchise and pricing power over time",
+    "The core network continues to function as an essential artery for national commerce"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "EPS 2008: $6.08; D&A: $1.397bn; Capex: $2.175bn [D02]. Normalised owner earnings assumption: $5.00/share (adjusting for maintenance capex vs expansion)",
+   "initial_pretax_yield_pct": 6.9,
+   "intrinsic_value_range": {
+    "low": "$95.00",
+    "high": "$120.00",
+    "key_assumptions": [
+     "Normalization of freight volumes and coal demand [D05]",
+     "Capital spending remains essential for network integrity [D01]",
+     "10x multiple for a durable infrastructure franchise [D02, D06]"
+    ],
+    "discount_rate_used": "3.45% (US 10-year Treasury) [D04]"
+   },
+   "price_vs_value": "Price ($76.07) is 80% of low-end value; provides margin of safety against cyclical troughs [D04, D05]",
+   "expected_return_pct": {
+    "base": 10,
+    "bear": 5,
+    "bull": 14
+   },
+   "alternatives": "Existing holdings or Berkshire cash (yielding little) [D08]; acquisition provides better long-term compounding than T-bills",
+   "downside_case": "Permanent loss unlikely due to network essentiality; risk is prolonged stagnation of volumes and regulatory rate compression [D01, D05]",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Normalization of owner earnings per share to $5.00",
+    "Maintenance-only capex estimate",
+    "Terminal value beyond 10 years estimated at long-term GDP growth"
+   ]
+  },
+  "gate4": {
+   "role": "R3",
+   "role_description": "We intend to acquire the entire business to integrate it into our permanent collection of subsidiaries, allowing us to oversee its long-term capital allocation and provide a secure home for our float [D01, D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "The value is realised through the compounding of owner earnings over a very long period as the railroad serves as an essential artery for the US economy [D01, D03]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000-2015 era, we focus on acquiring whole companies at scale, particularly regulated, capital-intensive businesses that serve as durable homes for our growing insurance float."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Regulator caps returns below the cost of capital [D05]",
+    "Secular decline in coal volumes exceeds the ability to offset with other freight [D05]",
+    "Failure to maintain network integrity due to inadequate capital reinvestment [D01]"
+   ],
+   "berkshire_constraints": "Must maintain sufficient cash to support insurance operations and regulatory requirements; we already hold a minority stake [D07, D08].",
+   "size_pct_nav": {
+    "initial": 100,
+    "target": 100,
+    "max": 100,
+    "basis": "whole company"
+   },
+   "opportunity_cost": "Cash sitting in T-bills earning minimal returns; this acquisition offers superior long-term compounding [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a whole-company acquisition of a capital-intensive, durable rail franchise that provides a productive home for our insurance float.",
+   "biggest_risk_in_one_sentence": "The primary risk is a prolonged stagnation in rail freight volumes combined with aggressive regulatory intervention on pricing power."
+  }
+ },
+ "final": {
+  "as_of_date": "2009-11-02",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 100,
+  "size_basis": "whole company",
+  "opportunity_template": [
+   "B7"
+  ],
+  "catalyst_role": "R3",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "$5.00/share normalized",
+   "initial_pretax_yield_pct": 6.9,
+   "intrinsic_value_range": "$95.00 - $120.00",
+   "expected_return_pct": 10,
+   "downside_case": "prolonged stagnation of volumes"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the shares trade at $76.07 against an intrinsic value of $95-$120, offering a significant margin of safety [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The business operates a vital, difficult-to-replicate rail network in the western US that serves as an essential artery for the national economy [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "This acquisition represents an all-in wager on the economic future of the United States, providing a productive home for our insurance float [D01, D08].",
+    "citations": [
+     "D01",
+     "D08"
+    ]
+   },
+   {
+    "driver": "The market is incorrectly extrapolating short-term cyclical declines in freight and coal as permanent impairments to long-term utility [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Regulator caps returns below the cost of capital [D05]",
+   "Secular decline in coal volumes exceeds the ability to offset with other freight [D05]",
+   "Failure to maintain network integrity due to inadequate capital reinvestment [D01]"
+  ],
+  "what_would_change_our_mind": "A sustained regulatory shift that permanently compresses returns below the cost of capital or a fundamental, irreversible secular decline in rail-dependent freight volumes that the network cannot offset.",
+  "memo": "We are agreeing to acquire the entire business because it operates an essential, difficult-to-replicate rail network that forms the backbone of the United States' freight infrastructure [D01]. We understand this business well, as its role in moving agricultural, industrial, and consumer goods across the western US is fundamental to the nation's commerce [D01].\n\nThis railroad possesses a significant moat, protected by its extensive network and regulatory position, which has allowed it to achieve strong historical returns on capital [D01, D02]. Despite being capital intensive, the business consistently requires the reinvestment of earnings to maintain its competitive utility, a requirement we view as a strength given the long-term necessity of the service [D01, D02].\n\nThe market is currently pricing this asset as if recent cyclical pressures on freight volumes and secular concerns regarding coal were permanent [D05]. At $76.07 per share, the company offers a 6.90% initial earnings yield, which provides a compelling margin of safety relative to the 3.45% yield on 10-year Treasuries [D04].\n\nWe value this company at $95 to $120 per share, assuming a normalized growth trajectory for the US economy [D03, D05]. By acquiring this business, we are making an all-in wager on the economic future of the United States, utilizing our float to own a permanent compounder that will benefit from the nation's long-term growth [D01, D08].",
+  "uncited_claims": []
+ }
+}

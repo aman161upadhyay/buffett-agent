@@ -1,0 +1,50 @@
+{
+ "trade_id": "2022_tsm_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Inadequate margin of safety relative to bond yields",
+   "Capital-intensive business model limiting owner earnings",
+   "Geopolitical risk in Taiwan",
+   "Preference for more predictable economics"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company's trailing earnings yield of 8.1% and free cash flow yield of 2.3% offer an inadequate margin of safety against the 3.88% long bond yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business model is exceptionally capital-intensive, requiring massive reinvestment that consistently outstrips depreciation",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The concentration of critical production in a geopolitically sensitive region presents a risk of permanent capital loss",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 6,
+  "share": 0.5
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Finally, the price offered by Mr. Market does not provide an adequate margin of safety [D04].",
+ "grader_notes": "The agent reached the opposite decision of Berkshire Hathaway, which initiated a position in TSM in Q3 2022. Because there were no publicly stated entry drivers from Buffett in the provided pack, the reasoning overlap is zero and the discipline is graded NO, as the agent failed to reproduce the actual market action.",
+ "run": "2022_tsm_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

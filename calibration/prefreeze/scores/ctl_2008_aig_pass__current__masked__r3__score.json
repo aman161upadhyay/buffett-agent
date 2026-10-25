@@ -1,0 +1,47 @@
+{
+ "trade_id": "ctl_2008_aig_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "He distinguished desirable operating businesses from financial-products obligations management did not adequately understand → We have examined the business and concluded that it falls squarely into our 'too hard' pile."
+  ],
+  "missed": [
+   "Buffett considered but could not undertake roughly $25B for the property/casualty unit on the crisis weekend.",
+   "The pressure and depth of the funding hole prevented a workable transaction despite interest in selected units."
+  ],
+  "extra_agent_drivers": [
+   "Uncontrollable liquidity risks from super-senior credit-default-swap portfolio",
+   "Unbounded collateral demands under stress",
+   "Meaningless earnings metrics due to reported net losses"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company reported a $13.16 billion net loss for the first six months of 2008",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Book value, at $29.04 per share, is a stale and unreliable metric in the current liquidity crisis",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 11,
+  "share": 0.85
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have examined the business and concluded that it falls squarely into our 'too hard' pile.",
+ "grader_notes": "The agent correctly identifies the decision as a PASS based on the 'too hard' nature of the opaque liabilities, matching Buffett's core sentiment regarding his inability to understand the financial risks. However, the agent's reasoning is heavily focused on fundamental analysis and quantitative insolvency arguments, whereas Buffett's stated rationale specifically emphasizes the practical failure to execute a deal during the crisis weekend due to the magnitude and complexity of the funding hole.",
+ "run": "ctl_2008_aig_pass__current__masked__r3",
+ "state_llm": "PARTIAL",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

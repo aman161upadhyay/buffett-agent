@@ -1,0 +1,48 @@
+{
+ "trade_id": "2024_cash_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Capital should wait for a sufficiently attractive and adequately sized business opportunity. → We have built a substantial cash and Treasury bill position, which serves as a necessary buffer for our insurance operations and as fuel for when Mr. Market eventually offers us more sensible entry points.",
+   "Financial independence and insurance liquidity take precedence over forced deployment. → The firm maintains a disciplined focus on preserving liquidity for insurance obligations and future, more attractive opportunistic deployment."
+  ],
+  "missed": [
+   "Own shares should only be repurchased below conservatively determined intrinsic value."
+  ],
+  "extra_agent_drivers": [
+   "The earnings yield of the S&P 500 (3.51%) is currently lower than the 10-year Treasury yield (4.37%), offering no equity risk premium.",
+   "Broad equity valuations remain elevated at approximately 28.45x trailing earnings, failing to provide a margin of safety for new capital."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "S&P 500 trading at roughly 28.45 times earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "earnings yield of 3.51% is below the 10-year Treasury yield of 4.37%",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 2,
+  "share": 0.22
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "When we cannot find businesses that we understand, with durable moats and pricing power, at prices that offer a clear margin of safety, we prefer to wait [D01, D04].",
+ "grader_notes": "The agent correctly matches the decision and the primary drivers regarding liquidity and opportunistic waiting. It departs from the key by focusing on quantitative market-timing metrics (earnings yields vs. bonds) which are not part of Buffett's standing policy drivers provided in the key. The agent successfully captured the policy on insurance liquidity and patience but missed the specific policy constraint on repurchasing own shares.",
+ "run": "2024_cash_stance__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "HOLD_CASH",
+ "agent_decision": "HOLD_CASH",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

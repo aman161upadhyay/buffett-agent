@@ -1,0 +1,52 @@
+{
+ "trade_id": "ctl_2008_aig_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "He distinguished desirable operating businesses from financial-products obligations management did not adequately understand. → While the company owns insurance franchises that would normally attract our interest, these operations are inextricably linked to a web of opaque financial guarantees and credit-default-swap exposures that make the business impossible to model."
+  ],
+  "missed": [
+   "Buffett considered but could not undertake roughly $25B for the property/casualty unit on the crisis weekend.",
+   "The pressure and depth of the funding hole prevented a workable transaction despite interest in selected units."
+  ],
+  "extra_agent_drivers": [
+   "Liquidity calls from derivative exposures exceed reported equity.",
+   "Inability to assess normalized earnings power or margin of safety.",
+   "Prioritizing the preservation of Berkshire's reputation and capital."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company's core operations are rendered impossible to understand due to opaque, interconnected financial-guarantee risks [D01].",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Potential liquidity calls arising from derivative exposures are unbounded, creating an unacceptable risk of permanent capital impairment [D01].",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business has reported significant losses, and there is no reliable way to assess normalized earnings power or a margin of safety [D01], [D02].",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 6,
+  "share": 0.67
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "While the company owns insurance franchises that would normally attract our interest, these operations are inextricably linked to a web of opaque financial guarantees and credit-default-swap exposures that make the business impossible to model.",
+ "grader_notes": "The agent correctly identified the 'too hard' rationale regarding the inability to parse the insurance business from financial liabilities. However, it missed the specific historical context that Buffett's pass was driven by a direct, time-sensitive refusal of a specific $25B capital injection request during the crisis weekend.",
+ "run": "ctl_2008_aig_pass__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

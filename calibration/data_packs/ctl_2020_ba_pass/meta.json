@@ -1,0 +1,24 @@
+{
+  "id": "ctl_2020_ba_pass",
+  "company": "The Boeing Company",
+  "ticker": "BA",
+  "aliases": [
+    "The Boeing Company",
+    "Boeing",
+    "BA",
+    "Boeing Commercial Airplanes",
+    "Boeing Capital",
+    "737 MAX",
+    "737",
+    "787",
+    "777X",
+    "McDonnell Douglas"
+  ],
+  "as_of_date": "2020-03-20",
+  "mode": "new",
+  "era": "D",
+  "first_action_window": "Nonpurchase observation window containing 2020-03-20; not a dated execution",
+  "fund_aum_usd_bn": 128.0,
+  "decider": "Buffett",
+  "notes": "Research pack is an affirmative analyst case, not an investor endorsement. Cutoff is end of the as_of_date, including same-date evening releases. fund_aum_usd_bn is the explicitly dated cash/T-bill benchmark in D08, except Cisco where it is 1998 common-stock market value. Not consolidated assets or fee-paying AUM. No authenticated Boeing-specific private approach or rejected term sheet. May comments are market-level hindsight, not proof of an issuer-specific discussion. Historical close recovered; no current-year consensus substituted."
+}

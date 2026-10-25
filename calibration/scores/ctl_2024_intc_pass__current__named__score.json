@@ -1,0 +1,59 @@
+{
+ "trade_id": "ctl_2024_intc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned in the tested 2024 window per parent 13F history",
+   "Berkshire DID own Intel in 2011–Q1 2012, exited Q2 2012",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "Lack of positive owner earnings or dividend yield",
+   "Capital-intensive business in a turnaround violating moat requirement",
+   "Lack of edge in forecasting restructuring success",
+   "Superiority of cash/T-bill returns"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company currently has no positive owner earnings or dividend yield.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Intel is a capital-intensive business in a difficult turnaround.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We have no edge in forecasting the success of the company's complex restructuring.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Berkshire's $189 billion in cash and T-bills provides a superior, risk-free alternative.",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 9,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have looked at Intel, a business that designs and manufactures semiconductors, but we find it to be squarely in our 'too hard' pile [D01].",
+ "grader_notes": "The agent correctly arrived at a PASS decision, but failed to ground the reasoning in the actual silence/historical refusal record provided in the answer key. Instead, the agent fabricated a fundamental analysis thesis which the answer key explicitly notes should not be treated as a Buffett-authenticated statement.",
+ "run": "ctl_2024_intc_pass__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

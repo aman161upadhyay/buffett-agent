@@ -1,0 +1,37 @@
+{
+  "id": "2020_wfc_sell",
+  "actual_decision": "SELL",
+  "conviction": "high",
+  "size_pct_nav": "Multi-quarter wind-down; TRIM at intermediate 2020 checkpoints, complete exit Q1 2022",
+  "first_action_date": null,
+  "disclosure_date": "2020-11-16",
+  "reason_class": "S1",
+  "opportunity_template": [
+    "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "Buffett criticized the incentive system and delayed response to misconduct.",
+      "source": "https://www.cnbc.com/2020/02/24/full-transcript-billionaire-investor-warren-buffett-speaks-with-cnbcs-becky-quick-on-squawk-box-today.html (2020-02-24 critique; security-specific rationale for each subsequent sale not explicitly disclosed)",
+      "quote": null
+    },
+    {
+      "driver": "The failure to address known problems was more serious than the first error.",
+      "source": "https://www.cnbc.com/2020/02/24/full-transcript-billionaire-investor-warren-buffett-speaks-with-cnbcs-becky-quick-on-squawk-box-today.html (2020-02-24 critique; security-specific rationale for each subsequent sale not explicitly disclosed)",
+      "quote": "The big thing is they ignored it when they found out about it."
+    }
+  ],
+  "entry_valuation_stated": "Not publicly stated.",
+  "outcome_note": "Absent Q1 2022 13F; not completely sold on November 1, 2020.",
+  "sources": [
+    "https://www.cnbc.com/2020/02/24/full-transcript-billionaire-investor-warren-buffett-speaks-with-cnbcs-becky-quick-on-squawk-box-today.html",
+    "https://www.sec.gov/Archives/edgar/data/72971/000007297120000332/wfc3qer10-14x20ex991.htm",
+    "https://www.berkshirehathaway.com/qtrly/2ndqtr20.pdf",
+    "https://www.bizjournals.com/philadelphia/news/2022/05/16/wells-fargo-warren-buffett-berkshire-hathaway-bank.html"
+  ],
+  "pack_quality_notes": "Requested SELL/TRIM encoded SELL for full exit episode; intermediate TRIM is defensible. Culture comments are authentic but not a verified explanation of each execution. Two drivers only rather than invent three. Public September stake reduction sourced in research notes. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated. Key source timing: 2020-02-24 critique; security-specific rationale for each subsequent sale not explicitly disclosed. Unknown first execution is null; see meta.first_action_window. Fewer than three authenticated drivers means reasoning is unscorable rather than completed with invented manager claims.",
+  "quality_grade": "C"
+}

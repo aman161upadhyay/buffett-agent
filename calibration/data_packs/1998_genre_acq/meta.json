@@ -1,0 +1,29 @@
+{
+  "id": "1998_genre_acq",
+  "company": "General Re Corporation",
+  "ticker": "GRN",
+  "aliases": [
+    "General Re Corporation",
+    "GRN",
+    "General Re",
+    "General Re Corp.",
+    "Gen Re",
+    "GenRe",
+    "Cologne Re",
+    "Cologne Reinsurance",
+    "Kölnische Rück",
+    "Kolnische Ruck",
+    "General Re Financial Products",
+    "GRFP",
+    "Ron Ferguson",
+    "Ronald Ferguson",
+    "National Re"
+  ],
+  "as_of_date": "1998-06-19",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "June 19, 1998 agreement; December completion is not an entry input.",
+  "fund_aum_usd_bn": 36.2477,
+  "decider": "Buffett",
+  "notes": "Historical reconstruction: doc Date is effective information cutoff, not archival publication date. Only pre-cutoff business conditions are reconstructed; later investor explanations/outcomes appear in key only. December 31, 1997 total common-stock market value $36,247.7 million, February 27, 1998 annual letter; not cash. No original press-conference transcript or fully reconstructed reserve/derivatives model. Agreement filed June 26 used only for June 19 terms. 1998 letter is a post-close explanation. $36.2477 billion prior common-equity total verified; $46 billion broader investment figure is distinct."
+}

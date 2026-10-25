@@ -1,0 +1,65 @@
+{
+ "trade_id": "1964_axp_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "The fiscal injury did not destroy the exceptional economics of the payments franchise → The company has historically demonstrated consistent earning power and high returns on equity in the 14-15% range"
+  ],
+  "missed": [
+   "Continued customer use of cheques and cards supported treating the franchise separately from warehousing claims.",
+   "A large market-value decline created a business-value opportunity rather than a need for a market forecast.",
+   "Management's willingness to protect the name mattered because trust underpinned the operating franchise."
+  ],
+  "extra_agent_drivers": [
+   "The company trades at $37 per share, an earnings yield of 6.81%, while the legal liability from the salad-oil scandal remains unquantified.",
+   "The company has maintained a strong earnings record, growing from $8.4m in 1959 to $11.264m in 1963.",
+   "Management's oversight of the subsidiary involved in the commodities fraud leaves us unable to fully trust the capital allocation process during this period of uncertainty."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "American Express operates a dominant payment franchise through its travelers-cheque and charge-card services",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company has historically demonstrated consistent earning power and high returns on equity in the 14-15% range",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business possesses a formidable moat defined by a network of over 81,000 establishments",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market price of $37 implies a fair valuation relative to our $2.52 per share earnings",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The warehousing subsidiary has created a severe... cloud of doubt regarding the firm's overall solvency",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 5,
+  "share": 0.56
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We believe in waiting for further information before committing capital.",
+ "grader_notes": "The agent correctly identified the core franchise quality but failed to view the market-value decline as a buying opportunity, instead choosing to pass due to uncertainty. The agent was overly focused on near-term reputational risk and management's past oversight, directly contradicting Buffett's willingness to lean into the uncertainty of the salad-oil scandal.",
+ "run": "1964_axp_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

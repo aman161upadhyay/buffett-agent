@@ -1,0 +1,240 @@
+{
+ "pack": "2022_atvi_arb",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2022-02-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Activision Blizzard is a developer and publisher of major game franchises across console, PC, and mobile platforms [D01]. The business is currently the subject of a definitive, all-cash acquisition agreement by Microsoft [D01, D03].",
+   "products_customers_and_why_they_buy": [
+    "Game franchises across console, PC, and mobile; customers include global gaming consumers [D01]"
+   ],
+   "economics": [
+    "FY2021 operating margin 37.0% [D02]; capital intensity low as evidenced by low capex/revenue [D02]; FY2021 FCF $2.334bn [D02]",
+    "FY2021 tangible book value $7.35bn [D02]; software amortization must be included in maintenance investment [D02]"
+   ],
+   "earnings_record": [
+    "Revenue grew from $7.017bn (2017) to $8.803bn (2021) [D02]; diluted EPS grew from $0.36 (2017) to $3.44 (2021) [D02]",
+    "ROE proxy (Net income / year-end book equity) ranged from 2.9% to 15.9% (2017-2021) [D02]"
+   ],
+   "competitive_position": [
+    "Owns major game franchises; competitive moat depends on enduring economic advantage vs. assets that are merely expensive to build [D01]",
+    "Peers include Electronic Arts, Take-Two Interactive, and Microsoft [D04, D06]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "FY2021 debt $3.61bn and cash/equivalents $10.42bn [D02]; net cash position [D02]"
+   ],
+   "management_and_capital_allocation": [
+    "Workplace-conduct controversy and management scrutiny cited [D03]",
+    "Dividends paid annually ($0.47 per share in 2021) [D02]"
+   ],
+   "price_and_valuation": [
+    "Price $81.50 as of 2022-02-15 [D04]; acquisition price $95 cash per share [D02, D04]",
+    "Trailing P/E 23.7x (based on 2021 EPS of $3.44) [D04]; EV/EBITDA proxy 15.3x [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Regulatory authorities blocking or materially delaying the acquisition [D05, D06]",
+    "Impaired stand-alone sentiment, litigation risk, and slower game releases if the deal breaks [D05]"
+   ],
+   "deal_terms_if_any": [
+    "$95 cash per share; Microsoft buyer; expected completion in Microsoft fiscal year ending June 2023 [D02, D03, D04]"
+   ],
+   "recent_events": [
+    "2022-01-18: Definitive merger agreement announced [D03, D07]",
+    "2022-02-03: Q4 2021 earnings reported [D03]",
+    "2022-02-14: Berkshire 13F filing confirms pre-bid position of ~15 million shares [D07]"
+   ],
+   "berkshire_context": [
+    "Existing stake of ~15 million shares (pre-bid) [D07]; latest public Berkshire cash baseline ~$144.1bn at year-end 2020 [D08]"
+   ],
+   "document_conflicts": [
+    "Not in pack"
+   ],
+   "missing_data": [
+    "Exact 2022-02-15 closing price [D04]; exact 52-week range as of 2022-02-15 [D04]; forward P/E consensus [D04]; precise Berkshire position size as of 2022-02-15 [D07]"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "Activision is a developer and publisher of major game franchises, which represents a clear business model [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The company owns major, enduring game franchises [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Revenue and diluted EPS have both shown consistent growth from 2017 to 2021 [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company maintains a net cash position with $10.42bn in cash against $3.61bn in debt [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "Capital intensity is low as demonstrated by low capex/revenue [D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Despite workplace-conduct scrutiny, the company has a track record of consistent earnings and dividend payments [D02, D03]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a significant acquisition price and Berkshire's existing stake, this position is meaningful [D02, D07]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The $81.50 market price offers an attractive spread against the $95 cash acquisition price [D02, D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 8,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": true,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "an arbitrage opportunity involving a definitive cash-for-stock acquisition by Microsoft."
+  },
+  "gate2": {
+   "templates": [
+    "B5"
+   ],
+   "why_available": "The market is discounting the stock price relative to the $95 all-cash offer due to concerns regarding regulatory approval [D05, D06]. We believe the probability of deal completion remains high, and even if the merger fails, the underlying business is a high-quality franchise with a strong balance sheet [D01, D02]. The spread between the current price and the acquisition price provides an attractive return if the transaction closes as expected [D02, D04].",
+   "evidence": [
+    "Microsoft has entered into a definitive all-cash acquisition agreement at $95 per share [D01, D03].",
+    "Activision maintains a solid net cash position with $10.42bn in cash against $3.61bn in debt [D02].",
+    "The spread between the $81.50 market price and $95 offer price represents the market's assessment of regulatory risk [D04, D05]."
+   ],
+   "market_narrative_we_disagree_with": "The market fears that regulatory authorities will successfully block the acquisition or cause significant delays that impair the value of the deal [D05, D06].",
+   "what_must_be_true": [
+    "The merger agreement remains legally binding and enforceable [D03].",
+    "Microsoft remains committed to the acquisition despite regulatory scrutiny [D03].",
+    "The underlying business performance remains stable throughout the pendency of the deal [D02]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "arbitrage",
+   "owner_earnings_per_share": "Not applicable for arbitrage strategy [D04]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "$81.50 (current market price)",
+    "high": "$95.00 (acquisition price)",
+    "key_assumptions": [
+     "Microsoft acquisition closes [D03]",
+     "No regulatory blockage [D05]"
+    ],
+    "discount_rate_used": "Not applicable to arbitrage spread"
+   },
+   "price_vs_value": "Price is 85.8% of the $95 acquisition value; margin of safety is the spread between $81.50 and $95.00 [D04]",
+   "expected_return_pct": {
+    "base": 16.56,
+    "bear": -10,
+    "bull": 16.56
+   },
+   "alternatives": "Existing holdings or Berkshire buybacks are preferred for long-term compounding; this is a tactical arbitrage position [D07, D08]",
+   "downside_case": "If the deal breaks, the stock may trade back to pre-announcement levels, representing a potential loss of capital, though the strong balance sheet limits permanent loss [D02, D05]",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Probability of regulatory approval estimated at >80% based on deal structure",
+    "Downside risk estimated at ~10% if merger is blocked"
+   ]
+  },
+  "gate4": {
+   "role": "R5",
+   "role_description": "arbitrage_with_timetable — announced deal; horizon = time to close [D03, D04].",
+   "horizon": "until close",
+   "value_realisation_path": [
+    "Microsoft acquires Activision for $95 cash per share [D03, D04]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000-2015 and onward eras, we occasionally employ arbitrage when we see a high probability of deal completion at a spread that compensates for the risk, distinct from our long-term equity holdings [D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Regulatory authorities move to block the acquisition based on antitrust concerns [D05, D06]",
+    "Microsoft terminates the merger agreement due to unforeseen legal or regulatory obstacles [D03]",
+    "Material adverse change occurs within Activision's business operations prior to deal completion [D02, D05]"
+   ],
+   "berkshire_constraints": "We must maintain sufficient liquidity for our operations and potential crisis-period opportunities, keeping cash well above our $30bn floor [D08]. Arbitrage positions must not jeopardise our reputation or conflict with regulatory ownership thresholds [D07].",
+   "size_pct_nav": {
+    "initial": 1,
+    "target": 2,
+    "max": 3,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital can be deployed into higher-conviction long-term equity holdings or share repurchases, which offer superior compounding potential if the arbitrage spread narrows significantly [D07, D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a tactical arbitrage situation involving a definitive cash merger, which I oversee directly as part of our capital allocation process [D07].",
+   "biggest_risk_in_one_sentence": "The primary risk is a regulatory intervention that prevents the deal from closing at the $95 per share cash price, potentially causing the stock to trade back to lower stand-alone valuation levels [D05, D06]."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-02-15",
+  "company": "Activision Blizzard",
+  "ticker": "ATVI",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 2,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B5"
+  ],
+  "catalyst_role": "R5",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "N/A - Arbitrage",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "$81.50 - $95.00",
+   "expected_return_pct": 16.56,
+   "downside_case": "Price declines to pre-announcement levels (~$65-$70 range)."
+  },
+  "drivers": [
+   {
+    "driver": "The current market price of $81.50 sits against a definitive $95.00 cash acquisition price, offering a clear spread of approximately 16.56% [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Microsoft has entered into a binding all-cash agreement to acquire the business, creating a high-probability event for capital realization [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Activision maintains a robust balance sheet with $10.42bn in cash against $3.61bn in debt, providing a cushion should the regulatory environment force the deal to terminate [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "The market's concern regarding regulatory approval has created a pricing discrepancy that allows us to allocate capital at an attractive risk-adjusted return [D05, D06].",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Regulatory authorities block the acquisition.",
+   "Microsoft terminates the merger agreement.",
+   "Material adverse change occurs in the underlying business."
+  ],
+  "what_would_change_my_mind": "Evidence that the regulatory hurdles are insurmountable or that Microsoft seeks to exit the merger agreement, which would shift the investment thesis from arbitrage to a stand-alone assessment of the business.",
+  "memo": "Activision Blizzard is a leading developer and publisher of major interactive entertainment franchises that command strong, enduring appeal across global platforms [D01]. We have followed the business for some time and understand its model of creating and monetizing intellectual property, which has consistently generated significant revenue [D01, D02].\n\nDespite workplace-conduct scrutiny, the company has historically delivered solid operating margins, reaching 37.0% in 2021 [D02, D03]. The business requires little in the way of capital investment to grow, and it maintains a fortress-like balance sheet with $10.42bn of cash, which significantly outweighs its $3.61bn of debt [D02].\n\nMicrosoft has entered into a definitive agreement to acquire Activision for $95 per share in cash [D01, D03]. The market, however, is currently pricing the shares at $81.50, reflecting widespread skepticism about the likelihood of regulatory approval [D04, D05]. We believe the spread represents a classic arbitrage opportunity where the market is overly focused on regulatory noise rather than the terms of the binding agreement [D03, D04].\n\nOur return on this position is effectively the difference between the $81.50 purchase price and the $95.00 cash consideration [D04]. Should the deal close as anticipated, we expect a return of approximately 16.56% [D04]. While we prefer to hold wonderful businesses for the long term, this tactical allocation is appropriate given the high probability of completion and our conviction in the underlying quality of the firm [D02, D07].\n\nThe primary risk we face is that regulators successfully block the transaction, in which case the stock would likely trade down to its stand-alone value [D05, D06]. We have sized this position at roughly 2% of our equity portfolio, ensuring that any regulatory setback does not result in a permanent or material loss of capital for Berkshire [D02, D05, D07].",
+  "uncited_claims": []
+ }
+}

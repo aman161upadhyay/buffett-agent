@@ -1,0 +1,53 @@
+{
+ "pack": "2024_bac_trim",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2024-07-17",
+ "stages": {},
+ "final": {
+  "as_of_date": "2024-07-17",
+  "company": "Bank of America Corporation",
+  "ticker": "BAC",
+  "decision": "TRIM",
+  "reason_class": "S3",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Original thesis of a deposit-funded US banking franchise: intact [D01]",
+   "Management execution and return on tangible equity (13.6% in Q2 2024): intact [D03], [D06]",
+   "Regulatory reporting burden from >10% ownership threshold: active [D08]"
+  ],
+  "price_vs_value_now": "Trading at 1.73x tangible book value [D04]; intrinsic value remains a conservative estimate of discounted owner earnings based on normalized ROTCE",
+  "after_tax_hurdle": "21% federal tax rate on realized gains vs. the objective of rational capital allocation and managing regulatory complexity [D04]",
+  "drivers": [
+   {
+    "driver": "The bank stake exceeds the 10% ownership threshold, creating regulatory reporting burdens that are best managed by reducing the position [D08].",
+    "citations": [
+     "D08"
+    ]
+   },
+   {
+    "driver": "The holding is the most liquid source of cash in a fully priced market where we have accumulated a record cash position [D08].",
+    "citations": [
+     "D08"
+    ]
+   },
+   {
+    "driver": "We have previously demonstrated a preference for staying just under the 10% regulatory threshold for major bank holdings [S3].",
+    "citations": [
+     "D08"
+    ]
+   },
+   {
+    "driver": "The business remains a high-quality franchise, making this a management of position size rather than an exit from the investment [D01], [D03].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "memo": "Bank of America remains a strong, deposit-funded franchise with a demonstrated ability to earn attractive returns on tangible capital [D01], [D03]. We continue to admire the business, and our view of its long-term competitive position is unchanged [D01].\n\nHowever, our position has reached a scale where we are subject to significant regulatory reporting requirements due to exceeding the 10% ownership threshold [D08]. Charlie and I have long preferred to operate without the complications that attend these reporting burdens, and we have historically adjusted our holdings to remain just under the 10% limit when ownership approaches those levels [S3]. \n\nFurthermore, in a market where attractive, reasonably priced opportunities are scarce, maintaining a high level of liquidity is prudent [D08]. By trimming our position, we satisfy the regulatory objective while generating cash to bolster our resources, accepting the 21% tax cost as a necessary component of disciplined capital allocation [S3], [D04]. This is a move of convenience and regulatory management, not a commentary on the underlying quality of the bank's earnings or its management team [D03].",
+  "uncited_claims": []
+ }
+}

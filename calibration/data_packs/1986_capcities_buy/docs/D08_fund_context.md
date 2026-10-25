@@ -1,0 +1,15 @@
+Title: Capital Cities/ABC — Investor's capital and constraints
+Source: Capital Cities/ABC transaction announced March 18, 1985; Berkshire 1984 letter subsequent-event appendix, https://www.berkshirehathaway.com/letters/1984.html
+Date: 1986-01-03
+
+## Cutoff evidence — reconstructed
+
+Berkshire's last recovered pre-cutoff common-stock portfolio reference is $1.268886 billion market value at the end of 1984, disclosed in the February 1985 letter. It is stale and cannot be treated as cash available in January. Berkshire holds major media and insurance interests and has prior experience with Capital Cities and its management. A $517.5 million financing is material relative to that reference, but a mechanically calculated percentage would mix dates and asset categories. Exact funding cash and insurance-entity allocations are unrecovered. Existing insurance and media holdings provide an opportunity-cost comparison without supplying a subscription recommendation, target portfolio weight or prediction of the network's eventual earnings.
+
+## Economic reading of the supplied facts
+
+Industry economics: newspapers and broadcasters sell audiences to advertisers while supplying news and entertainment to readers or viewers. An established local position can be difficult to replicate because a new entrant must build both audience and advertising support. Broadcast licenses add regulatory obligations and are not equivalent to perpetual unregulated monopolies. Advertising is sensitive to business conditions; labor, programming and newsprint costs need not decline when advertising weakens. The distinction between a valuable local franchise and the price paid for it is essential. Scale across properties can help administration, but no unverified synergy is counted in the economics presented here. This paragraph describes the competitive mechanism rather than assigning a private-market valuation to any individual property.
+
+Capital-allocation interpretation: a portfolio allocation must fit the legal entity that supplies the money. An insurance subsidiary's invested assets are not all cash available for an acquisition. Premiums collected before claims are paid provide investment funds but also create obligations. Consolidated equity, publicly traded holdings, cash and insurance float are different denominators.
+
+No target weight follows mechanically from the fund-size reference. Available cash at this exact cutoff, where unrecovered, remains unknown rather than being equated with the reference figure. Existing concentrated holdings create opportunity costs; selling them may incur tax and surrender durable earning power. A commitment involving stock also transfers a continuing fraction of the buyer's future economics. The investor has no obligation to purchase simply to remain fully invested. Conversely, waiting has a cost when a sound business is offered below conservative value. This context describes available choices and constraints without specifying an allocation or revealing a decision.

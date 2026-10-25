@@ -1,0 +1,50 @@
+{
+ "pack": "2024_bac_trim",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2024-07-17",
+ "stages": {},
+ "final": {
+  "as_of_date": "2024-07-17",
+  "company": "Bank of America",
+  "ticker": "BAC",
+  "decision": "TRIM",
+  "reason_class": "S3",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Original thesis: negotiated preferred and warrants provided defensive entry with upside [D01], [D07].",
+   "Current status: thesis has transitioned to common equity ownership [D01].",
+   "Business health: the company maintains a large deposit-funded franchise with a ROTCE of 13.6% in Q2 2024 [D01], [D03]."
+  ],
+  "price_vs_value_now": "Trading at 1.73x tangible book value of $25.37 per share [D04].",
+  "after_tax_hurdle": "Selling incurs a 21% federal tax on capital gains [S3]; the position is being reduced to manage regulatory reporting burdens associated with 10%+ ownership [D08].",
+  "drivers": [
+   {
+    "driver": "Regulatory ownership threshold management for common equity holdings above 10%.",
+    "citations": [
+     "D08"
+    ]
+   },
+   {
+    "driver": "Excessive reporting and regulatory burden for positions exceeding 10% beneficial ownership.",
+    "citations": [
+     "D08"
+    ]
+   },
+   {
+    "driver": "Portfolio concentration and liquidity management in a fully priced market.",
+    "citations": [
+     "S3",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "We have long admired the franchise built by Bank of America, which serves as a significant depository institution with durable scale [D01]. Our initial investment, secured through preferreds and warrants, served us well, but our current common equity position is a residual claim [D01]. \n\nWith our stake exceeding 10%, we are subject to rigorous insider transaction reporting requirements [D08]. Reducing this holding toward the 10% threshold simplifies our regulatory footprint and reporting obligations, a prudent step regardless of our high regard for the underlying business [D08]. \n\nWe do not sell wonderful businesses without cause, but we are mindful of the tax costs—currently 21% federal—associated with pruning a position that has appreciated since our initial investment [S3]. This reduction is a matter of administrative and portfolio management rather than a change in the fundamental economics of the bank, which continues to generate respectable returns on tangible equity [D03].",
+  "uncited_claims": [
+   "The decision to trim is driven by the desire to stay just under the 10% regulatory ownership threshold, consistent with past practice in major bank holdings like Wells Fargo."
+  ]
+ }
+}

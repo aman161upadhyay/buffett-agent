@@ -1,0 +1,55 @@
+{
+ "pack": "2017_aapl_buffett_add",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2017-01-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2017-01-31",
+  "company": "Apple Inc.",
+  "ticker": "AAPL",
+  "decision": "ADD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Consumer franchise: intact; integrated devices and services continue to create strong customer relationships [D01].",
+   "Pricing power: intact; ability to maintain premium positioning despite competition [D05].",
+   "Financial strength: strengthened; large net cash position and continued robust cash generation [D03], [D04]."
+  ],
+  "price_vs_value_now": "The stock trades at a trailing P/E of approximately 14.5x, which remains attractive for a business with these economics and competitive advantages [D04].",
+  "after_tax_hurdle": "Not applicable as the decision is to add; the current valuation provides a sufficient margin of safety relative to our assessment of intrinsic value [D04].",
+  "drivers": [
+   {
+    "driver": "The business possesses a durable consumer franchise with high switching costs derived from an integrated ecosystem of hardware and services [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Financial performance remains strong, with massive cash generation and a significant net cash balance providing substantial flexibility [D03], [D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The current valuation, at approximately 14.5x trailing earnings, is conservative for a business of this quality and offers a solid margin of safety [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The position is currently a deputy-originated stake that warrants being built into a larger, Buffett-scale position over time [D07], [D08].",
+    "citations": [
+     "D07",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "Charlie and I have watched the evolution of this business closely. It has become clear that the Company’s integrated ecosystem—linking hardware, software, and services—creates significant friction for users who might otherwise leave, forming a formidable moat [D01]. Despite the skeptics who worry about upgrade cycles or saturation, the Company has demonstrated an impressive ability to maintain premium pricing power and generate remarkable returns on capital [D01], [D05].\n\nAt a trailing price-to-earnings multiple of roughly 14.5x, we are not paying a premium price for this wonderful business [D04]. When you look at the cash generation capabilities and the enormous net cash position of over $150 billion, it is evident that the Company is well-positioned to navigate any cyclical headwinds [D03], [D04]. We do not need a catalyst; we simply want to own more of a business that is run by able managers and possesses such durable economic characteristics [D04].\n\nWhile this began as a deputy’s position, the strength of the franchise justifies our commitment to building it into a significant holding for Berkshire [D07], [D08]. We will continue to add to our position over time, as we have done with other core franchises in the past, comfortable in the knowledge that we are buying a business that understands the importance of the long-term owner's perspective [D08].",
+  "uncited_claims": []
+ }
+}

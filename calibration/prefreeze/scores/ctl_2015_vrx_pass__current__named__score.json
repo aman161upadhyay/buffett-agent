@@ -1,0 +1,57 @@
+{
+ "trade_id": "ctl_2015_vrx_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "No ownership in the window",
+   "No Valeant/VRX/Bausch predecessor position in the parent 2010–Q2 2026 13F census",
+   "Economic and valuation objections are analyst-reconstructable discipline tests, not authenticated Buffett statements"
+  ],
+  "extra_agent_drivers": [
+   "Reliance on serial-acquisition strategy",
+   "Aggressive non-GAAP accounting",
+   "High leverage and credit-market dependence",
+   "Lack of sustainable competitive advantage"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company functions as a serial acquirer of pharmaceutical assets, a model that relies on financial engineering rather than the development of a stable, long-term franchise.",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The use of non-GAAP figures that exclude recurring integration costs is a practice we avoid.",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The business is highly leveraged and depends on continuous access to credit markets to fund its acquisition model.",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "We have $63.27 billion in cash.",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 5,
+  "share": 0.42
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have looked at Valeant and determined it does not meet our standards for a durable business.",
+ "grader_notes": "The agent correctly reached the PASS decision but failed to mirror Buffett's actual reasoning process. Buffett's stated position on Valeant at the time was defined by his lack of ownership and a refusal to comment on specific issuers, whereas the agent constructed a detailed (and speculative) bear case that Buffett did not explicitly articulate as his own in the provided key.",
+ "run": "ctl_2015_vrx_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

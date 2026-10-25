@@ -1,0 +1,250 @@
+{
+ "pack": "ctl_2020_ba_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2020-03-20",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company is one of two global manufacturers of large commercial aircraft, with additional businesses in defense, space, and services [D01]. Its operations are protected by formidable entry barriers related to certification, engineering, and established fleet/training requirements [D01].",
+   "products_customers_and_why_they_buy": [
+    "Large commercial aircraft sold to airlines and global customers, supported by a $463 billion backlog [D01, D03]."
+   ],
+   "economics": [
+    "Capital intensive; historically generated positive free cash flow (e.g., $13.6 billion in the preceding profitable year) but recently reported negative operating cash flow of $2.446 billion and negative free cash flow of $4.280 billion [D01, D03].",
+    "Pricing power is implied by the duopoly structure, though offset by current operational crises [D01, D05]."
+   ],
+   "earnings_record": [
+    "Revenue of $76.559 billion (down 24%) and a net loss of $636 million in the latest year, compared to a prior-year profit of $10.460 billion [D01, D03].",
+    "Commercial deliveries declined from 806 to 380 year-over-year [D01, D03]."
+   ],
+   "competitive_position": [
+    "Operates in a global duopoly with Airbus; protected by significant regulatory and technological moats [D01, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Consolidated debt of $27.3 billion against $10.0 billion in cash and marketable securities [D01, D03].",
+    "Anticipated $4 billion in abnormal production costs related to MAX resumption [D01, D03]."
+   ],
+   "management_and_capital_allocation": [
+    "Not in pack regarding specific CEO tenure or detailed incentive structures [not in pack]."
+   ],
+   "price_and_valuation": [
+    "March 20, 2020 closing price of $95.01 [D02, D04].",
+    "P/E is 5.32x based on prior year's $17.85 EPS, but current year earnings are negative [D02, D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "No normalized earnings yield is provided; the pack notes current negative cash flow makes standard yield calculations meaningless [D02, D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Simultaneous collapse in airline finances and safety-certification delays [D05].",
+    "The need for external financing or dilution [D05].",
+    "The impact of pandemic restrictions on demand [D01, D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "January 29, 2020: Full-year results released [D07].",
+    "March 2020: Travel restrictions and market stress impact industry liquidity [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds significant cash (~$128 billion) and existing exposure to the aviation industry through Precision Castparts and airline equity positions [D08].",
+    "Rescue financing would increase concentrated aviation exposure [D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Maintenance capex figures, debt maturity schedules, and specific post-pandemic demand impact forecasts."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The company operates in a stable global duopoly with formidable entry barriers related to engineering and certification [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The business benefits from a significant regulatory and technological moat as one of two global manufacturers [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company reported a net loss of $636 million in the latest year and significant declines in deliveries, breaking its record of steady returns [D01, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The balance sheet shows $27.3 billion in debt against only $10.0 billion in cash, and recent operations are cash-flow negative [D01, D03]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is capital-intensive and currently generating negative free cash flow, requiring abnormal production costs [D01, D03]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Specific information regarding CEO tenure and incentive structures is not in pack [not in pack]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "As a global manufacturer with a massive backlog, the company is of sufficient scale to be meaningful for Berkshire [D01]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "Earnings and cash flow are negative, making it impossible to meet the 10% pre-tax earnings yield requirement [D02, D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 3,
+   "n_fail": 4,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a duopoly with a deep moat currently hampered by operational and financial distress."
+  },
+  "gate2": {
+   "templates": [
+    "B2"
+   ],
+   "why_available": "The market is panicking over the simultaneous collapse of global airline travel, the grounding of the company's primary commercial aircraft, and the threat of liquidity insolvency [D05]. Buffett would view this as a temporary cloud over a critical global duopolist, provided the business does not face a permanent loss of its regulatory license to operate [D01, D06].",
+   "evidence": [
+    "Operates in a global duopoly protected by formidable entry barriers [D01]",
+    "Supported by a massive $463 billion backlog [D01, D03]",
+    "The loss is identified as a one-time operational crisis related to certification and production [D01, D03]"
+   ],
+   "market_narrative_we_disagree_with": "The market assumes the current negative cash flow and financial distress are permanent impairments to the business's intrinsic value rather than temporary cyclical and operational setbacks [D01, D05].",
+   "what_must_be_true": [
+    "The regulatory authorities (FAA/international equivalents) will not permanently strip the company of its certification capabilities",
+    "Global commercial aviation demand will eventually recover to levels that sustain the two-player duopoly",
+    "The company can secure sufficient liquidity to survive the current production and pandemic-related cash crunch without destroying long-term shareholder value through excessive dilution"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack; current earnings are negative [D01, D03]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "requires normalization of commercial delivery volumes and resolution of the MAX production crisis [D01, D03]",
+     "long-term demand for aviation returns to duopoly levels [D01]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "not in pack; insufficient data to establish normalised earning power",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Berkshire has significant existing exposure to aviation through Precision Castparts [D08]; at this time of extreme uncertainty, preservation of the $128 billion cash position is preferred to adding concentrated industry risk [D08].",
+   "downside_case": "Liquidity insolvency and potential equity dilution or permanent impairment of the franchise if certification is delayed indefinitely [D01, D05].",
+   "valuation_verdict": "PASS",
+   "flagged_assumptions": [
+    "Maintenance capex is assumed to be required for business continuity [D01]",
+    "No specific long-bond rate provided in the current pack for valuation discounting",
+    "Market price of $95.01 [D02, D04]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Berkshire's standard approach for marketable securities is to act as a permanent, passive holder, relying on the underlying business's ability to compound value over the long term through rational capital allocation [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realized through the eventual normalization of commercial delivery volumes and the resolution of the current production crisis, allowing the duopoly's intrinsic economics to re-emerge [D01, D03]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the post-1980 era, Berkshire operates as a permanent investor in businesses it understands, favoring patience and the strength of the balance sheet over active intervention unless a direct control transaction is required [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent revocation of regulatory certification for key aircraft models [D01, D06]",
+    "Inability to secure sufficient liquidity, leading to significant equity dilution or bankruptcy [D05]",
+    "Long-term structural shift in global aviation demand preventing return to duopoly-level profitability [D01]"
+   ],
+   "berkshire_constraints": "Maintaining the $30B+ cash floor and limiting concentrated exposure to the aviation sector already represented by Precision Castparts [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Preservation of $128 billion cash pile and avoiding further concentration in the distressed airline supply chain [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "While the business has a wide moat, the current financial distress and concentrated industry exposure make this a pass for Berkshire capital allocation.",
+   "biggest_risk_in_one_sentence": "The simultaneous impact of a production crisis and a global collapse in travel demand creates a liquidity trap that could lead to permanent loss of capital."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-03-20",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack; current earnings are negative",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Liquidity insolvency and potential equity dilution or permanent impairment of the franchise."
+  },
+  "drivers": [
+   {
+    "driver": "The company reported a net loss of $636 million in the latest year and is currently cash-flow negative, making it impossible to calculate a meaningful earnings yield [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "While the company operates in a stable global duopoly with formidable entry barriers, it faces a simultaneous collapse in travel demand and a severe production crisis [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Berkshire already has significant exposure to the aviation sector through Precision Castparts and other investments, and we prefer to preserve our $128 billion cash position rather than increase concentrated industry risk [D08].",
+    "citations": [
+     "D08"
+    ]
+   },
+   {
+    "driver": "The company's balance sheet carries $27.3 billion in debt against $10.0 billion in cash, creating a liquidity trap that threatens long-term shareholder value through potential dilution [D01, D03, D05].",
+    "citations": [
+     "D01",
+     "D03",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent revocation of regulatory certification for key aircraft models",
+   "Inability to secure sufficient liquidity, leading to significant equity dilution or bankruptcy",
+   "Long-term structural shift in global aviation demand preventing return to duopoly-level profitability"
+  ],
+  "what_would_change_our_mind": "A stabilization of commercial delivery volumes, a clear path to resolving the production crisis without excessive dilution, and a sustained recovery in global aviation demand.",
+  "memo": "The Company is one of two global manufacturers of large commercial aircraft, and we have long understood the durability of a duopoly protected by formidable barriers to entry in engineering and certification [D01]. Despite this, the business currently faces a perfect storm: the grounding of its primary commercial aircraft and a global collapse in travel demand [D05].\n\nWhile the business historically generated substantial free cash flow, it is currently operating at a loss with negative free cash flow of $4.280 billion [D01, D03]. The company faces significant production costs and a strained balance sheet, with $27.3 billion in debt against only $10.0 billion in cash [D01, D03].\n\nWe cannot see why we should get a bargain when we are unable to establish a normalized earning power or a margin of safety [D02, D04]. Berkshire already possesses significant exposure to the aerospace industry through Precision Castparts, and we are not inclined to increase our concentration in this sector during a period of extreme uncertainty [D08].\n\nWe prefer to keep our powder dry. Our primary objective is to protect our cash position of $128 billion rather than risk permanent loss of capital in a business facing a liquidity trap and structural headwinds [D08]. We will continue to watch from the sidelines, as the current situation does not meet our requirements for a wonderful business at a fair price [D01, D08].",
+  "uncited_claims": []
+ }
+}

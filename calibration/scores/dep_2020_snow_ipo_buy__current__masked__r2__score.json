@@ -1,0 +1,54 @@
+{
+ "trade_id": "dep_2020_snow_ipo_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "BUY as a deputy-controlled IPO/private-placement allocation. Todd Combs is the named executing investment officer; do not attribute an unexplained Buffett IPO-policy reversal or software thesis to Buffett.",
+   "SEC purchase agreement dated September 7 and filed September 8 is signed by Todd A. Combs, Investment Officer. It documents execution authority, not a valuation thesis. Final $120 pricing and Q3 parent 13F verify 6,125,376 shares, combining $250M private placement and 4,042,043 secondary shares.",
+   "The signed agreement identifies Combs as Investment Officer; no public own-words valuation or growth thesis was located, so those analyst bull arguments must not be scored as manager-stated drivers."
+  ],
+  "extra_agent_drivers": [
+   "The company has a negative earnings yield",
+   "The business lacks a track record of owner earnings",
+   "The model relies on infrastructure owned by direct competitors",
+   "The absence of a durable competitive advantage and proven profitability places this opportunity outside our circle of competence"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company has a negative earnings yield",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "reporting a net loss of approximately $348.5 million",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The model relies on infrastructure owned by direct competitors",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 7,
+  "share": 0.64
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We have no interest in turnarounds or speculative IPOs where the fundamental economics remain to be proven [D08].",
+ "grader_notes": "The agent completely missed the nature of the investment as a deputy-led IPO allocation, instead fabricating a 'Buffett' thesis based on a value-investing framework that was not applied in this actual transaction. The reasoning is entirely orthogonal to the documented execution-driven reality of this trade.",
+ "run": "dep_2020_snow_ipo_buy__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

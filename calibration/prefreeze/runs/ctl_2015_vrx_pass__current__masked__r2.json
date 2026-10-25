@@ -1,0 +1,245 @@
+{
+ "pack": "ctl_2015_vrx_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2015-03-02",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The company owns branded pharmaceutical, dermatology and eye-care businesses and purchases additional products and distribution [D01]. It operates a decentralized platform combining established medicines and consumer-health brands with disciplined overhead and selective development spending [D01].",
+   "products_customers_and_why_they_buy": [
+    "Branded medicines and consumer-health products sold to customers with durable demand [D01]"
+   ],
+   "economics": [
+    "Margins/ROE/Tangible Capital: not in pack",
+    "Capital intensity: acquisition-heavy with integration costs [D01]",
+    "Owner-earnings inputs: GAAP operating cash flow of $816 million (includes $287 million gain) vs $624 million adjusted operating cash flow in Q4; management cash EPS of $2.58 [D01]",
+    "Pricing history: not in pack"
+   ],
+   "earnings_record": [
+    "Q4 revenue $2.3 billion vs $2.1 billion (up 10%); annual organic growth 11% [D01]",
+    "Management cash EPS $2.58 vs $2.15 (up 20%) [D01]"
+   ],
+   "competitive_position": [
+    "Recognizable repeat-purchase consumer/medical franchise; competitive position dependent on product durability and acquisition strategy [D01]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "High acquisition debt; relies on operating cash for debt reduction [D01]",
+    "Integration costs of $47 million [D01]"
+   ],
+   "management_and_capital_allocation": [
+    "Decentralized ownership model; focuses on rational capital allocation and cost-saving integration [D01]"
+   ],
+   "price_and_valuation": [
+    "Price/Market Cap: not in pack",
+    "P/E, P/B, Yield: not in pack"
+   ],
+   "what_the_market_is_worried_about": [
+    "Leveraged acquisition model depends on credit-market access and future target pricing [D05]",
+    "Reliance on acquisitions to replace internally developed assets [D05]",
+    "Inability to reconcile forward non-GAAP guidance [D05]",
+    "Risks of drug exclusivity loss and payer resistance to price increases [D05]"
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Feb 23, 2015: Results presentation and the Company acquisition proposal announced [D07]"
+   ],
+   "berkshire_context": [
+    "Berkshire cash of $63.27 billion and equity securities of $117.47 billion as of 2014 year-end [D08]",
+    "Combs and Weschler may consider smaller healthcare investments [D08]"
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Contemporaneous stock price/market cap",
+    "Normalized maintenance capex",
+    "Long-term ROE and debt-to-equity ratios",
+    "Full-year GAAP earnings"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "UNSURE",
+     "evidence": "While the business has consumer-health brands, the reliance on continuous external acquisitions to replace assets makes long-term predictability difficult [D01][D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "The company relies on product durability and an acquisition-heavy model, but actual pricing power data is not in pack [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "UNSURE",
+     "evidence": "Recent quarterly growth is shown, but a long-term track record of organic earnings through economic cycles is not in pack [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company carries high acquisition debt and relies on operating cash for debt reduction, rather than showing a record of high returns on unlevered tangible capital [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The model is acquisition-heavy with constant integration costs, which requires significant capital deployment rather than efficient organic growth [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management focuses on cost-saving and capital allocation, but the market is concerned about the inability to reconcile non-GAAP guidance [D01][D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "Market cap is not in pack, though the scale of operations may be better suited for deputy-level investment [D08]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "The stock price and market capitalization are not in pack, making it impossible to calculate an earnings yield [D01]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 0,
+   "n_fail": 2,
+   "n_unsure": 6,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": true,
+   "one_line_business_quality_verdict": "an acquisition-dependent business model with high leverage and recurring integration costs."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is appropriately concerned about the high leverage and reliance on continuous acquisitions to maintain growth, which contrasts with our requirement for durable, internally generated earnings [D01][D05]. There is no compelling evidence of a wonderful business being mispriced; instead, the business model exhibits structural risks regarding debt and asset replacement that fall into our 'too hard' pile [D01][D05].",
+   "evidence": [
+    "High acquisition debt and reliance on cash for debt reduction [D01]",
+    "Integration-heavy model requires constant external deployment rather than efficient organic growth [D01]",
+    "Market concerns regarding non-GAAP reconciliation and drug exclusivity risks [D05]"
+   ],
+   "market_narrative_we_disagree_with": "The market likely views the aggressive acquisition strategy as a viable path for persistent EPS growth despite the underlying leverage and reliance on future target pricing [D05].",
+   "what_must_be_true": [
+    "Evidence of sustainable, non-acquisition driven organic growth",
+    "Significant reduction in acquisition-related leverage",
+    "Clearer transparency in non-GAAP versus GAAP earnings reconciliation"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "Company relies on continuous debt-funded acquisitions [D01]",
+     "Lack of transparent GAAP/non-GAAP reconciliation [D05]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "not in pack",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "We hold $63.27 billion in cash and $117.47 billion in equity securities [D08]; given the high acquisition-related debt and integration risks [D01], these alternatives provide far greater safety and liquidity.",
+   "downside_case": "Permanent loss of capital risk due to high debt load and potential drug exclusivity expiration [D05].",
+   "valuation_verdict": "FULL",
+   "flagged_assumptions": [
+    "Price and market capitalization data missing from pack",
+    "Maintenance capex missing from pack",
+    "Long-term earnings stability is assumed to be poor due to acquisition-dependency"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are permanent, passive holders. We seek businesses with durable competitive advantages and consistent returns on capital that we can understand and hold indefinitely [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "The business must demonstrate sustainable, organic growth and a reduction in acquisition-related leverage to compound value over the long term [D01][D05]."
+   ],
+   "decider": "deputy",
+   "why_this_role_fits_the_era": "In the 2000-2015 era, our deputies (Combs and Weschler) manage smaller, sector-specific positions within their circle of competence, while we reserve Berkshire's capital for businesses that meet our high standards for earnings durability and low leverage [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Continued reliance on debt-funded acquisitions to replace maturing assets",
+    "Inability to achieve consistent organic growth without external capital deployment",
+    "Failure to provide transparent GAAP reconciliations and credible financial guidance",
+    "Loss of pricing power due to payer resistance or loss of drug exclusivity"
+   ],
+   "berkshire_constraints": "Must maintain cash above $30 billion; avoid investments that risk permanent capital loss or compromise Berkshire's reputation [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 1,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "We hold $63.27 billion in cash and $117.47 billion in equity securities, which offer far greater safety and liquidity than this highly leveraged acquisition-dependent model [D08].",
+   "leverage": "none",
+   "decider": "deputy",
+   "decider_reason": "The business model relies on debt-funded acquisitions and integration, which sits outside of Buffett's preference for simple, durable franchises with minimal debt.",
+   "biggest_risk_in_one_sentence": "The company's heavy reliance on debt to fund continuous acquisitions creates a significant risk of permanent capital loss if credit-market access tightens or if integration efforts fail to generate sufficient cash flows."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-03-02",
+  "company": "the Company (XXX)",
+  "ticker": "N/A",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "deputy",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital risk due to high debt load and potential drug exclusivity expiration [D05]."
+  },
+  "drivers": [
+   {
+    "driver": "The company relies on a high-leverage, acquisition-dependent business model rather than stable, organic growth [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "There is a significant reliance on debt to fund continuous acquisitions, increasing the risk of permanent capital loss [D01].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The lack of transparent GAAP/non-GAAP reconciliation makes it difficult to assess true owner earnings [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "Exposure to drug exclusivity expiration and potential payer resistance threatens the long-term durability of the franchise [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Continued reliance on debt-funded acquisitions to replace maturing assets",
+   "Inability to achieve consistent organic growth without external capital deployment",
+   "Failure to provide transparent GAAP reconciliations and credible financial guidance",
+   "Loss of pricing power due to payer resistance or loss of drug exclusivity"
+  ],
+  "what_would_change_our_mind": "Evidence of sustainable, non-acquisition driven organic growth, significant reduction in acquisition-related leverage, and clear transparency in non-GAAP versus GAAP earnings reconciliation.",
+  "memo": "We have reviewed the business and decided to pass. While the company owns various pharmaceutical and consumer-health brands, its business model relies heavily on a continuous cycle of debt-funded acquisitions to replace maturing assets [D01]. This integration-heavy approach requires constant external capital deployment, which is a far cry from the durable, internally generated earnings power we seek in our investments [D01][D05].\n\nThe company’s balance sheet is burdened by high acquisition-related debt, and its reliance on operating cash to service this leverage limits our comfort [D01]. Furthermore, we are concerned by the lack of transparency in financial reporting, specifically the inability to consistently reconcile non-GAAP guidance with GAAP figures [D05]. When management's path to growth is obscured by complex adjustments, we prefer to stay in the 'too hard' pile.\n\nThe market’s current focus on aggressive EPS growth fails to account for the structural risks regarding drug exclusivity and payer resistance [D05]. Given our substantial cash position, we have the luxury of waiting for businesses that offer clear, durable economics without the risks inherent in a serial-acquisition strategy [D08]. We prefer to avoid situations that threaten the permanent loss of capital or Berkshire's reputation [D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

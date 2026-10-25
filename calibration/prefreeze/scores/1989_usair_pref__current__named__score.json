@@ -1,0 +1,51 @@
+{
+ "trade_id": "1989_usair_pref",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Admiration for Ed Colodny and the airline's past profits underlay the original favorable assessment. → Ed Colodny is a capable leader, and we are backing his ability to navigate the integration of Piedmont and Pacific Southwest",
+   "The preferred structure was intended to compensate for lack of strong convictions about airline economics. → While we have historically avoided the airline industry due to its difficult economics, we are acting here as a financier rather than a participant in the underlying business",
+   "The dividend, redemption and conversion rights appeared to provide downside protection plus participation. → We believe these fears are better managed by the seniority of our position, which provides a margin of safety not enjoyed by common shareholders."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The 9.25% coupon provides an attractive yield that acts as a superior fixed-income substitute compared to long-term government bonds."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The 9.25% coupon provides an attractive yield that acts as a superior fixed-income substitute compared to long-term government bonds",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are making a $358 million investment in USAir Group",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Ed Colodny is a capable leader",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 7,
+  "share": 0.54
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "While we have historically avoided the airline industry due to its difficult economics, we are acting here as a financier rather than a participant in the underlying business.",
+ "grader_notes": "The agent correctly identified the 'financier' role intended to mitigate weak convictions about the airline industry. The agent also accurately captured the importance of Ed Colodny and the protective nature of the preferred structure. No reasoning was significantly missed.",
+ "run": "1989_usair_pref__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

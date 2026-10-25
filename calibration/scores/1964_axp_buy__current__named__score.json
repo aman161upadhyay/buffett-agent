@@ -1,0 +1,55 @@
+{
+ "trade_id": "1964_axp_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "The fiscal injury did not destroy the exceptional economics of the payments franchise → the underlying economics of the payment business, which requires little capital to grow, remain robust",
+   "A large market-value decline created a business-value opportunity rather than a need for a market forecast → We are buying this company because the market is pricing a temporary crisis as if it were a permanent destruction of the franchise"
+  ],
+  "missed": [
+   "Continued customer use of cheques and cards supported treating the franchise separately from warehousing claims.",
+   "Management's willingness to protect the name mattered because trust underpinned the operating franchise."
+  ],
+  "extra_agent_drivers": [
+   "The company sells at a 6.81% earnings yield against a 4.14% long bond yield",
+   "American Express maintains a powerful network effect",
+   "The company has demonstrated a consistent earnings trajectory"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company sells at a 6.81% earnings yield against a 4.14% long bond yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "American Express maintains a powerful network effect through over 80,000 service establishments",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Net income rising from $8.4m in 1959 to $11.264m in 1963",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 15,
+  "cited": 15,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are buying this company because the market is pricing a temporary crisis as if it were a permanent destruction of the franchise [D05].",
+ "grader_notes": "The agent correctly identified the core Buffett thesis regarding the separation of the salad-oil scandal from the underlying franchise economics and the opportunistic nature of the market sell-off. However, it missed the specific emphasis on management's role in protecting the reputation and the specific observation of continued customer usage as a validation of the core business.",
+ "run": "1964_axp_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2026_googl_add_q2",
+  "actual_decision": "ADD",
+  "conviction": "high",
+  "conviction_basis": "Classification inferred from observed size/action; private conviction not observable.",
+  "size_pct_nav": "Q2 combined ending A+C mark $37,764,088,383 / $299,253,556,246 = 12.6194% of 13F equities, not cash deployed. A: 54,249,798 -> 78,791,167; C: 3,585,215 -> 27,188,433; total +48,144,587 shares. Separately announced placement commitment $10bn.",
+  "first_action_date": "2026-Q2; placement agreement first announced 2026-06-01; exact open-market execution dates unknown",
+  "disclosure_date": "2026-06-01",
+  "reason_class": null,
+  "reason_class_status": "Unknown/unassigned; not inferred from price movement or generic prior comments.",
+  "opportunity_template": [
+    "B1"
+  ],
+  "opportunity_template_basis": "Analyst classification of case economics, not a verified manager label.",
+  "catalyst_role": "R0",
+  "decider": "Abel",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "Abel said operating-company experience showed AI would materially affect American businesses.",
+      "source": "https://www.cnbc.com/2026/09/05/abel-two-ways-berkshire-hopes-in-cash-in-on-ai.html (2026-09-05)",
+      "quote": "going to have a significant impact on America and businesses",
+      "evidence_timing": "RETROSPECTIVE interview spoken 2026-09-02, reported 2026-09-05."
+    },
+    {
+      "driver": "He identified Google as a significant participant in that opportunity.",
+      "source": "https://www.cnbc.com/2026/09/05/abel-two-ways-berkshire-hopes-in-cash-in-on-ai.html (2026-09-05)",
+      "quote": "we saw Google as a significant player",
+      "evidence_timing": "RETROSPECTIVE interview spoken 2026-09-02; not evidence that all Q2 open-market orders were his."
+    },
+    {
+      "driver": "Abel and Buffett were comfortable committing $10bn to a significant block at a 6.5% discount.",
+      "source": "https://www.cnbc.com/2026/09/05/abel-two-ways-berkshire-hopes-in-cash-in-on-ai.html (2026-09-05)",
+      "quote": "They hadn’t set the size but recommended that we consider 10 billion.",
+      "evidence_timing": "RETROSPECTIVE 2026-09-02 account; block size/discount reported in the article, discount wording is paraphrase rather than this quotation."
+    }
+  ],
+  "entry_valuation_stated": "June 1 disclosed $5bn Class A at $351.81 and $5bn Class C at $348.20. September account states 6.5% discount. These terms were not known at the March cutoff. No stated owner-earnings multiple.",
+  "outcome_note": "Abel authorized the negotiated placement after consulting Buffett. Q2 13F aggregates that and other purchases; exact author of every quarterly order remains unknown. Combined mark is $37.764bn, not a $36.6bn cost figure.",
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526226661/0001193125-26-226661.txt",
+      "date": "2026-05-15"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/0001193125-26-352200.txt",
+      "date": "2026-08-14"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/06/01/berkshire-hathaway-alphabet-investment.html",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/09/05/abel-two-ways-berkshire-hopes-in-cash-in-on-ai.html",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/07/15/warren-buffett-tells-cnbc-he-initiated-berkshire-hathaways-investment-in-alphabet.html",
+      "date": "2026-07-15"
+    }
+  ],
+  "pack_quality_notes": "Attribution is firm for the negotiated block, not every aggregated Q2 trade. March 31 public starting position is only 17,846,142 A shares; March-ending A/C counts remain secret until May. Private terms cannot be predicted from this pack; discount driver and original entry cost are not causally scoreable.",
+  "quality_grade": "B",
+  "reasoning_scoring": "Qualified: distinguish retrospective statements, generic criteria and pre-cutoff unavailable terms; do not score private-term prediction.",
+  "as_of_date": "2026-03-31",
+  "actual_action_window": "2026-Q2; primary placement first announced 2026-06-01",
+  "quarterly_disclosure_date": "2026-08-14",
+  "decider_scope": "Abel: negotiated $10bn placement after consulting Buffett; other aggregated Q2 purchases not individually attributable."
+}

@@ -1,0 +1,237 @@
+{
+ "pack": "ctl_2016_tsla_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2016-02-11",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Tesla sells premium electric vehicles, software-enabled features, and energy-storage products, while vertically integrating its own sales, service, and charging network [D01]. The company targets market share in the luxury sedan segment with a focus on customer enthusiasm and a differentiated product experience [D01, D06].",
+   "products_customers_and_why_they_buy": [
+    "Premium electric vehicles (Model S, Model X), software-enabled features, and energy-storage products [D01]. Customers reportedly emphasize performance, technology, safety, and style over fuel savings [D01]."
+   ],
+   "economics": [
+    "Margins: Targeted Model S gross margin near 30% by year-end [D01, D03].",
+    "Capital intensity: Planned $1.5 billion in capital investment for the current year [D01, D03].",
+    "Owner-earnings: GAAP operating cash flow is not positive; 'core operational cash flow' of $179 million includes leasing proceeds [D01, D02, D03]."
+   ],
+   "earnings_record": [
+    "No consistent GAAP profit base; full-year non-GAAP profitability planned, with modest GAAP profitability forecast only for Q4 [D02, D03]."
+   ],
+   "competitive_position": [
+    "Competes with established luxury brands like Mercedes-Benz, BMW, Audi, and Porsche [D06]. Moat cited as unusual customer enthusiasm and a vertically integrated charging/software system [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Increased asset-based credit commitments to $1 billion [D01, D07]. Business requires ongoing capital for manufacturing ramps and new factory capacity [D05]."
+   ],
+   "management_and_capital_allocation": [
+    "Management focuses on vehicle sales growth (60-80% planned) and capacity expansion [D01, D03]. Record includes quality-related production limits [D01, D03]."
+   ],
+   "price_and_valuation": [
+    "February 11 unadjusted close: $150.47 [D02, D04]. Profitable historical P/E unavailable due to lack of consistent GAAP profit [D02, D05]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Lack of consistent GAAP profits [D05].",
+    "Significant capital requirements ($1.5 billion) and production/quality risks [D05].",
+    "Competitiveness in a mass-market context [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "February 9: Asset-based credit facility increased to $1 billion [D07].",
+    "February 10: Shareholder update reported >107,000 vehicles on the road and Q4 delivery growth of >76% [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire owns an interest in BYD, but no direct stake in Tesla [D08]. Investment would require deputy attribution/sizing for a speculative position or predictable owner earnings for a Buffett-scale commitment [D08]."
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Standardized maintenance capex, long-term consistent GAAP earnings record, and peer cash-earnings comparison tables."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business operates in a rapidly evolving, capital-intensive automotive sector with significant production and quality risks [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While customer enthusiasm is noted, the business faces intense competition from established luxury incumbents like Mercedes-Benz and BMW [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company lacks a consistent GAAP profit base and relies on future projections rather than historical results [D02, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "Operating cash flow is not positive and the company is actively expanding debt commitments to fund operations [D01, D07]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business requires massive, constant capital investment for manufacturing ramps, which is inconsistent with our preference for low-intensity earners [D01, D05]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management demonstrates an aggressive growth focus, but their record includes quality-related production limits [D01, D03]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "An investment would require deputy attribution or sizing for a speculative position, as it does not yet produce predictable owner earnings [D08]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "There is no positive pre-tax owner-earnings yield, making it impossible to meet our 10% threshold [D02, D05]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 0,
+   "n_fail": 5,
+   "n_unsure": 3,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": true,
+   "one_line_business_quality_verdict": "a capital-intensive automotive manufacturer lacking consistent profitability and a proven, durable competitive advantage"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is appropriately cautious because the business lacks a consistent GAAP profit base and operates with significant, ongoing capital requirements [D02, D05]. We see no reason to expect a bargain because the company fails our fundamental requirements for predictable owner earnings and a proven, durable competitive advantage [D02, D03, D05].",
+   "evidence": [
+    "No consistent GAAP profit base [D02, D03]",
+    "Planned $1.5 billion in capital investment for the current year [D01, D03]",
+    "Business requires ongoing capital for manufacturing ramps [D05]"
+   ],
+   "market_narrative_we_disagree_with": "The market's concern regarding the lack of GAAP profitability and high capital intensity is entirely rational and aligned with our own assessment of the business risks [D05].",
+   "what_must_be_true": [
+    "The company must demonstrate sustained, multi-year GAAP profitability",
+    "Capital intensity must significantly decrease as production scales",
+    "The product must prove it can maintain market share against established luxury incumbents over a full economic cycle"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "Not calculable; negative operating cash flow excluding leasing [D01, D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "Not estimable",
+    "high": "Not estimable",
+    "key_assumptions": [
+     "Lack of consistent GAAP profit [D02, D05]",
+     "High capital intensity ($1.5B investment) [D01, D03, D05]"
+    ],
+    "discount_rate_used": "Not applicable due to lack of stable owner earnings"
+   },
+   "price_vs_value": "Price $150.47 [D02, D04]; value cannot be determined as owner earnings are not yet positive",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "T-bills or existing Berkshire holdings are superior as they provide predictable, cash-generative returns compared to the speculative nature of this enterprise [D08].",
+   "downside_case": "High probability of permanent loss of capital given the requirement for massive ongoing capital investment without a proven, consistent profit base [D02, D05].",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "No consistent GAAP profit record exists to calculate owner earnings",
+    "Maintenance capex is inseparable from growth capex at this stage of the company's lifecycle"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We act as a permanent passive holder, relying on the long-term compounding of the business's intrinsic value and rational capital allocation, which is our standard approach for marketable securities after 1980 [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value would be realised through the long-term growth of owner earnings and competitive positioning as the company matures into a stable, cash-generative enterprise [D01, D05]."
+   ],
+   "decider": "deputy",
+   "why_this_role_fits_the_era": "For a speculative, capital-intensive company lacking a consistent record of GAAP profitability and predictable owner earnings, any position would be sized as a deputy-led venture, consistent with our post-2011 approach to specialized or speculative equity stakes [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent impairment of the business's ability to self-fund operations due to persistent negative operating cash flow [D01, D02]",
+    "Failure to achieve sustained GAAP profitability after scaling production [D02, D05]",
+    "Loss of competitive differentiation against established luxury incumbents in a capital-intensive automotive market [D01, D06]"
+   ],
+   "berkshire_constraints": "The business fails our criteria for a durable competitive advantage and predictable owner earnings, and our cash floor policy requires avoiding speculative ventures that lack a margin of safety [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed in predictable, cash-generative enterprises that offer a margin of safety rather than speculative automotive manufacturing [D08].",
+   "leverage": "none",
+   "decider": "deputy",
+   "decider_reason": "The company operates outside of my circle of competence in speculative, capital-intensive technology and lacks the predictable owner earnings required for a Buffett-scale commitment [D08].",
+   "biggest_risk_in_one_sentence": "The company requires massive, constant capital investment to fund operations and growth without a proven, consistent record of GAAP profitability, creating a high risk of permanent capital loss [D01, D02, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2016-02-11",
+  "company": "Tesla Motors",
+  "ticker": "TSLA",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "deputy",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Not calculable; negative operating cash flow excluding leasing [D01, D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Not estimable",
+   "expected_return_pct": 0,
+   "downside_case": "High probability of permanent loss of capital given the requirement for massive ongoing capital investment without a proven, consistent profit base [D02, D05]"
+  },
+  "drivers": [
+   {
+    "driver": "The business lacks a consistent GAAP profit base and predictable owner earnings, failing our primary requirement for a durable, cash-generative investment [D02, D05].",
+    "citations": [
+     "D02",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Massive, constant capital investment is required for manufacturing ramps, which is fundamentally at odds with our preference for low-intensity earners [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The company operates in a highly competitive and capital-intensive automotive sector, making it difficult to rely on a sustainable moat against established luxury incumbents [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Management's aggressive expansion and capital requirements create a high risk of permanent capital loss, which we are unwilling to accept [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent impairment of the business's ability to self-fund operations due to persistent negative operating cash flow [D01, D02]",
+   "Failure to achieve sustained GAAP profitability after scaling production [D02, D05]",
+   "Loss of competitive differentiation against established luxury incumbents in a capital-intensive automotive market [D01, D06]"
+  ],
+  "what_would_change_our_mind": "The company must demonstrate sustained, multi-year GAAP profitability, significantly lower capital intensity as production scales, and proof that it can maintain market share against established luxury incumbents over a full economic cycle.",
+  "memo": "Tesla Motors is an automotive manufacturer focused on premium electric vehicles and energy storage [D01]. While the company displays significant customer enthusiasm and a vertically integrated model, it operates in a capital-intensive industry that we find inherently difficult to assess with the certainty we require [D01, D06]. We generally prefer businesses that have already proven their ability to generate predictable cash flows through varied economic cycles [D05, D08].\n\nThe economics of the business are currently dominated by substantial capital requirements, with $1.5 billion in planned investment for the year [D01, D03]. Because the company lacks a consistent GAAP profit base and relies on ongoing credit facilities to fund growth, it does not meet our standards for financial strength or capital efficiency [D01, D02, D07]. We view the necessity for constant capital infusions as a significant barrier to the kind of owner earnings we seek [D01, D05].\n\nManagement is clearly focused on ambitious growth and capacity expansion, but this aggressive approach carries risks that fall outside our circle of competence [D01, D03, D08]. When an enterprise is still in the stage of proving its basic profit model, the risk of permanent capital loss is far too high for our taste [D02, D05]. We have no interest in participating in a speculative venture where the path to long-term profitability remains unproven [D05, D08].\n\nWe pass on this opportunity, as capital is far better deployed in enterprises that provide clear, reliable returns and a substantial margin of safety [D08]. Choosing to invest here would be an exercise in speculation rather than disciplined investing, and we are content to hold cash until a more wonderful business is available at a fair price [D05, D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

@@ -1,0 +1,53 @@
+{
+ "trade_id": "2008_gs_pref",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Negotiated income and warrants combined a satisfactory yield with equity participation. → This 10% return provides an immediate and attractive yield... Beyond the dividend, we receive warrants for $5 billion of common stock with a strike price of $115."
+  ],
+  "missed": [
+   "Goldman's global franchise was unusually strong.",
+   "The investment rested on confidence in a deep management team."
+  ],
+  "extra_agent_drivers": [
+   "The company's transition to a bank holding company provides a regulatory safety net.",
+   "The investment secures senior preferred status."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The preferred terms provide a 10% coupon",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "warrants for $5 billion of common stock with a strike price of $115",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "company's transition to a bank holding company",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 4,
+  "share": 0.36
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are today committing $5 billion to a company that represents one of the most prominent institutional trading and investment banking franchises in the world [D01].",
+ "grader_notes": "The agent correctly identified the investment direction and captured the hybrid income/warrant structure. However, it missed Buffett's specific qualitative drivers regarding the strength of the global franchise and the quality of the management team, focusing instead on regulatory mechanics and systemic status.",
+ "run": "2008_gs_pref__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

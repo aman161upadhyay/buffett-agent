@@ -1,0 +1,25 @@
+{
+  "id": "1972_sees_acq",
+  "company": "See's Candies",
+  "ticker": "n/a",
+  "aliases": [
+    "See's Candies",
+    "See’s Candies",
+    "Sees",
+    "See's",
+    "See’s",
+    "See's Candy Shops",
+    "See’s Candy Shops",
+    "Blue Chip Stamps",
+    "Chuck Huggins",
+    "Charles Huggins",
+    "See family"
+  ],
+  "as_of_date": "1972-01-03",
+  "mode": "new",
+  "era": "A",
+  "first_action_window": "Early January 1972 acquisition boundary; cutoff January 3.",
+  "fund_aum_usd_bn": 0.0,
+  "decider": "Buffett",
+  "notes": "Historical reconstruction: doc Date is effective information cutoff, not archival publication date. Only pre-cutoff business conditions are reconstructed; later investor explanations/outcomes appear in key only. Cutoff Blue Chip investable equity/cash figure not recovered; numeric 0 is an unavailable-data sentinel, not zero assets. January 3 exact signing/settlement unverified. Original seller financials and Blue Chip cash unavailable. Rounded entry figures have reporting-period uncertainty; deliberately exclude full-year 1972 table. Book references and original deal agreement missing."
+}

@@ -1,0 +1,49 @@
+{
+ "trade_id": "ctl_2012_fb_ipo_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett declines new offerings because a well-informed seller chooses the timing and price; neither he nor Munger underwrote Facebook at its IPO valuation.",
+   "Buffett and Munger publicly said they would not buy the Facebook IPO at the May 5 meeting; contemporaneous May 6 coverage quotes the policy.",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements; do not award reasoning-overlap credit for treating them as quotations."
+  ],
+  "extra_agent_drivers": [
+   "The company trades at an earnings yield of 0.96%, which is fundamentally unattractive compared to the safety of our cash equivalents.",
+   "We require a predictable 10-20 year track record of durable earnings to evaluate a franchise, which this business currently lacks.",
+   "The valuation implies a massive growth trajectory that we cannot verify, moving the idea firmly into our 'too hard' pile.",
+   "Advertising revenue, which comprises 85% of the business, faces significant competitive and platform risks that make its long-term pricing power uncertain."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "At an initial earnings yield of 0.96%, the price offers no margin of safety for the investor [D02].",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We have $37.3 billion in cash and equivalent alternatives that offer far more certainty than this speculative valuation [D08].",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 11,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "In the world of investing, it is not necessary to swing at every pitch; we prefer to wait for the one that is squarely in our circle of competence [D02].",
+ "grader_notes": "The agent correctly matched the decision to pass, but the reasoning process failed to reference the actual documented reasons Buffett provided for the IPO refusal (his general policy against IPOs and specific public comments). Instead, the agent generated its own fundamental analysis, which aligns with the discipline of the Berkshire investment process but misses the specific drivers identified in the answer key.",
+ "run": "ctl_2012_fb_ipo_pass__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

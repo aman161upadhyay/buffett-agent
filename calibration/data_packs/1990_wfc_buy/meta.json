@@ -1,0 +1,20 @@
+{
+  "id": "1990_wfc_buy",
+  "company": "Wells Fargo & Company",
+  "ticker": "WFC",
+  "aliases": [
+    "Wells Fargo & Company",
+    "WFC",
+    "Wells Fargo",
+    "Wells Fargo Bank",
+    "Carl Reichardt",
+    "Paul Hazen"
+  ],
+  "as_of_date": "1990-10-24",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "One-sixth of eventual 1990 position already bought in 1989; larger 1990 build.",
+  "fund_aum_usd_bn": 0.0,
+  "decider": "Buffett",
+  "notes": "Historical reconstruction: doc Date is effective information cutoff, not archival publication date. Only pre-cutoff business conditions are reconstructed; later investor explanations/outcomes appear in key only. Current equity-portfolio and cash denominator not independently recovered; 0 sentinel. Rounded financial/stress anchors reconstructed from following-year explanation; original October regulatory schedules missing. New mode retained per assignment although this is accumulation. March 1 signing date is historical letter date, not claim of earliest disclosure."
+}

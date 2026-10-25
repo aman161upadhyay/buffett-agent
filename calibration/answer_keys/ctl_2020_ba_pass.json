@@ -1,0 +1,49 @@
+{
+  "id": "ctl_2020_ba_pass",
+  "actual_decision": "PASS",
+  "conviction": "high",
+  "size_pct_nav": 0,
+  "first_action_date": null,
+  "disclosure_date": "2020-05-02",
+  "reason_class": null,
+  "opportunity_template": [
+    "B2",
+    "B3"
+  ],
+  "catalyst_role": "R2",
+  "decider": "Buffett",
+  "decider_identity": "Buffett",
+  "size_basis": "cash",
+  "drivers": [
+    {
+      "driver": "Buffett said Berkshire had not acted because nothing was sufficiently attractive; calls before Federal Reserve action did not offer appealing terms, and firms subsequently borrowed more cheaply in public markets.",
+      "source": "https://www.cnbc.com/2020/05/02/buffett-on-why-he-hasnt-made-any-big-investments-we-dont-see-anything-that-attractive.html (2020-05-02; later evidence where after cutoff)",
+      "quote": "We have not done anything, because we don't see anything that attractive to do.",
+      "evidence_type": "documented_action_or_comment"
+    },
+    {
+      "driver": "No Boeing in Berkshire parent 13F census, including Q4 2019, Q1 and Q2 2020. May 2 meeting documents no attractive large crisis financing. Direct Boeing-to-Buffett approach not independently authenticated; do not claim he rejected a specified Boeing term sheet.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1067983/000095012320005345/0000950123-20-005345.txt",
+      "quote": null,
+      "evidence_type": "ownership_or_refusal_verification"
+    },
+    {
+      "driver": "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements; do not award reasoning-overlap credit for treating them as quotations.",
+      "source": "https://investors.boeing.com/investors/news/press-release-details/2020/Boeing-Reports-Fourth-Quarter-Results/default.aspx (2020-01-29)",
+      "quote": null,
+      "evidence_type": "grading_boundary_not_stated_reason"
+    }
+  ],
+  "entry_valuation_stated": "No issuer-specific investor-stated intrinsic value or entry multiple recovered; pack valuation is analyst reconstruction.",
+  "outcome_note": "No Boeing in Berkshire parent 13F census, including Q4 2019, Q1 and Q2 2020. May 2 meeting documents no attractive large crisis financing. Direct Boeing-to-Buffett approach not independently authenticated; do not claim he rejected a specified Boeing term sheet. This is a direction/discipline test, not a return forecast. Nonholding evidence is scoped to the parent discretionary portfolio and the tested window; quarterly 13Fs cannot prove absence of every intraperiod trade, nonreportable instrument, subsidiary client holding or personal investment.",
+  "sources": [
+    "https://www.cnbc.com/2020/05/02/buffett-on-why-he-hasnt-made-any-big-investments-we-dont-see-anything-that-attractive.html",
+    "https://www.sec.gov/Archives/edgar/data/1067983/000095012320005345/0000950123-20-005345.txt",
+    "https://investors.boeing.com/investors/news/press-release-details/2020/Boeing-Reports-Fourth-Quarter-Results/default.aspx",
+    "buffett-agent/compendium/all_positions_index.md",
+    "buffett-agent/compendium/filings_2010_2026.md"
+  ],
+  "pack_quality_notes": "No authenticated Boeing-specific private approach or rejected term sheet. May comments are market-level hindsight, not proof of an issuer-specific discussion. Historical close recovered; no current-year consensus substituted. Silent controls do not have three authentic stated reasons; the three slots distinguish action, ownership verification and grading boundary rather than fabricate quotes. Deputy keys use user-requested decider='deputy'; meta retains the allowed named/unknown identity. PASS label is nonpurchase/refusal evidence, not proof a presented bull thesis was publicly evaluated.",
+  "verification_window": "No Boeing in Berkshire parent 13F census, including Q4 2019, Q1 and Q2 2020. May 2 meeting documents no attractive large crisis financing. Direct Boeing-to-Buffett approach not independently authenticated; do not claim he rejected a specified Boeing term sheet.",
+  "control_quality_grade": "B"
+}

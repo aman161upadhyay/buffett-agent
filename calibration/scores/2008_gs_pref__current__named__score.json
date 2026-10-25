@@ -1,0 +1,52 @@
+{
+ "trade_id": "2008_gs_pref",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Goldman's global franchise was unusually strong → Goldman Sachs is a premier global institution in investment banking, trading, and asset management",
+   "Negotiated income and warrants combined a satisfactory yield with equity participation → This investment is structured as a $5 billion perpetual preferred security paying a 10% annual dividend... Beyond the coupon, we receive warrants to purchase $5 billion of common stock at $115 per share"
+  ],
+  "missed": [
+   "The investment rested on confidence in a deep management team."
+  ],
+  "extra_agent_drivers": [
+   "The market's panic over wholesale funding and counterparty risk has created a unique opportunity for Berkshire to act as a lender of last resort on favorable terms"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Goldman Sachs is a premier global institution in investment banking, trading, and asset management",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "This investment is structured as a $5 billion perpetual preferred security paying a 10% annual dividend",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market's panic over wholesale funding and counterparty risk has created a unique opportunity",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 4,
+  "share": 0.36
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are essentially acting as a lender of last resort at a moment of extreme market fear, allowing us to deploy capital on terms that provide a wide margin of safety.",
+ "grader_notes": "The agent accurately identified the direction and the primary structural drivers of the investment (franchise strength and the preferred/warrant package). The agent missed the explicit emphasis on the 'deep management team' as a primary driver, although it captured the 'lender of last resort' narrative effectively.",
+ "run": "2008_gs_pref__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

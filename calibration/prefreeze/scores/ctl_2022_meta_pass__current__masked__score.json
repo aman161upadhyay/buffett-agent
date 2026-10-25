@@ -1,0 +1,52 @@
+{
+ "trade_id": "ctl_2022_meta_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned per parent 13F history in the tested window; no public comment explaining this nonpurchase.",
+   "No Facebook or Meta position in the 2010–Q2 2026 parent 13F census.",
+   "Economic and valuation objections are analyst-reconstructable discipline tests, not Buffett's stated rationale."
+  ],
+  "extra_agent_drivers": [
+   "Core advertising franchise suffering from declining pricing power.",
+   "Management prioritizing speculative investments in virtual reality.",
+   "Business becoming increasingly capital-intensive.",
+   "Operating and net income seeing severe declines."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "average price per ad fell 18% in the most recent quarter",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "projected capital expenditures for 2023 reaching as high as $39 billion",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "headcount growth of 28% while profits are halved",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 7,
+  "share": 0.64
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Like a leaky bucket, it matters little how much water you pour in if the holes remain unplugged; we prefer to keep our capital in Treasury bills where it earns a safe return while we wait for a wonderful business at a fair price [D08].",
+ "grader_notes": "The agent arrived at the correct 'PASS' decision but failed the reasoning test entirely. Instead of citing the factual historical absence of the stock in Buffett's portfolio, the agent invented a detailed fundamental bear thesis. The agent's reasoning is farthest from Buffett's because it substitutes independent analyst-style valuation work for Buffett's documented non-investment status.",
+ "run": "ctl_2022_meta_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

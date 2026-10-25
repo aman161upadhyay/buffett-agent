@@ -1,0 +1,264 @@
+{
+ "pack": "2011_bac_pref",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2011-08-24",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company combines a large US consumer deposit and lending franchise with wealth management and capital-markets operations [D01]. It operates a nationwide customer base and is currently managing extensive mortgage exposures and legacy claims [D01].",
+   "products_customers_and_why_they_buy": [
+    "Consumer deposit and lending services [D01]",
+    "Wealth management and capital-markets operations [D01]",
+    "Customer loyalty/retention evidence: not in pack [D01]"
+   ],
+   "economics": [
+    "Margins: not in pack (industrial margins not applicable) [D06]",
+    "ROE: negative in 2010 and 2009 [D02]",
+    "Capital intensity: banking institution requiring regulatory capital [D01, D04]",
+    "Owner-earnings inputs: D&A not in pack; maintenance capex not in pack [D02]",
+    "Pricing history: not in pack [D01]"
+   ],
+   "earnings_record": [
+    "2006-2010 net income: $21.1B, $15.0B, $4.0B, $6.3B, -$2.2B [D02]",
+    "2006-2010 common ROE: 16.27%, 11.08%, 1.80%, loss, loss [D02]",
+    "Revenue is non-organic due to merger-related changes [D02]"
+   ],
+   "competitive_position": [
+    "Rank: No. 1 US deposit share [D09]",
+    "Moat evidence: nationwide customer base and deposit franchise [D01, D09]",
+    "Peers: Citigroup, Wells Fargo, JPMorgan Chase [D04]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Debt: Average long-term debt $490.5B (2010) [D02]",
+    "Cash: Global excess liquidity $402B [D03, D04]",
+    "Leverage: Tier 1 common ratio 8.60% (2010) [D02]",
+    "Float: not in pack (this is a bank, not an insurer) [D01]"
+   ],
+   "management_and_capital_allocation": [
+    "CEO tenure: not in pack",
+    "Candour: not in pack",
+    "Buybacks/dividends: common dividend $0.04/share (2010) [D02]",
+    "Insider ownership: not in pack",
+    "Incentives: not in pack"
+   ],
+   "price_and_valuation": [
+    "Price: $6.99 (as of 2011-08-24) [D04]",
+    "Market cap: approximately $70.81B [D04]",
+    "P/B: 0.344x [D04]",
+    "P/TBV: 0.553x [D04]",
+    "Earnings yield: negative [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Open-ended mortgage repurchase claims and litigation [D05, D09]",
+    "Weak housing market prolonging credit costs [D05]",
+    "European financial stress restricting funding [D05]",
+    "Dilution from a potential forced capital raise [D09]"
+   ],
+   "deal_terms_if_any": [
+    "Not in pack (no offer made) [D09]"
+   ],
+   "recent_events": [
+    "2011-07-19: Q2 earnings release reporting $8.8B net loss [D02, D03]",
+    "August 2011: Public management statements that the bank does not need to raise common equity [D09]"
+   ],
+   "berkshire_context": [
+    "Cash: $38.2B (year-end 2010) [D08]",
+    "Existing stake: not in pack (not disclosed) [D08]",
+    "Who originated the idea: not in pack [D08]"
+   ],
+   "document_conflicts": [
+    "None identified"
+   ],
+   "missing_data": [
+    "Maintenance capex; customer retention/loyalty evidence; complete equity-portfolio concentration; definitive deal terms; CEO tenure/record"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "UNSURE",
+     "evidence": "While the core deposit franchise is understandable, the impact of ongoing mortgage litigation and legacy claims creates high uncertainty [D01, D05, D09]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The company holds the No. 1 US deposit share and maintains a nationwide customer base, providing a significant competitive moat [D01, D09]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company reported losses in 2009, 2010, and a $8.8B loss in Q2 2011, breaking any consistency in the earnings record [D02, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "ROE was negative in 2009 and 2010, and the institution is currently facing severe capital pressures from mortgage exposures [D02, D05, D09]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "As a large regulated banking institution, it is capital-intensive by nature, which is permissible under criteria for the post-2000 era [D01, D04]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Key data points regarding CEO tenure, candour, and owner-minded incentives are not in the pack [D06]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market cap of approximately $70.81B, this investment is large enough to move the needle for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "Trading at 0.344x book value and 0.553x tangible book value represents a significant discount to historical valuations for a major deposit franchise [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 4,
+   "n_fail": 2,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "A high-moat deposit franchise currently impaired by severe legacy mortgage issues and operational losses."
+  },
+  "gate2": {
+   "templates": [
+    "B2",
+    "B3"
+   ],
+   "why_available": "The market is pricing the company as if the ongoing mortgage litigation and potential capital requirements constitute an existential threat, driving the stock to a significant discount to tangible book value [D04, D09]. I would disagree, as the underlying deposit franchise remains intact and the loss is a finite, manageable consequence of historical errors rather than a permanent impairment of the core business [D01, D09]. By structuring a negotiated preferred investment similar to our Bank of America deal, we can provide the necessary capital, extract an attractive yield, and protect ourselves with warrants against the uncertainty of the legacy claims [D09].",
+   "evidence": [
+    "Trading at 0.344x book value and 0.553x tangible book value [D04]",
+    "No. 1 US deposit share providing a durable competitive moat [D09]",
+    "Public management statements denying the need for a common equity raise [D09]",
+    "Market narrative focused on open-ended mortgage litigation and European stress [D05, D09]"
+   ],
+   "market_narrative_we_disagree_with": "The market fears that legacy mortgage litigation and potential capital calls will result in massive dilution or insolvency, rendering the current equity worthless [D09].",
+   "what_must_be_true": [
+    "The core deposit franchise remains stable and does not experience a run on deposits [D01]",
+    "Management's claim that no common equity raise is needed is accurate [D09]",
+    "The ultimate cost of mortgage litigation is quantifiable and does not exceed the institution's capacity to absorb losses over time [D05]",
+    "Berkshire can negotiate a preferred deal that provides seniority and warrant coverage [D09]"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "negotiated_terms",
+   "owner_earnings_per_share": "not in pack [D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "Not calculable without normalized earnings or book value growth [D02]",
+    "high": "Not calculable without normalized earnings [D02]",
+    "key_assumptions": [
+     "Core deposit franchise remains stable [D01]",
+     "Mortgage litigation costs are finite [D05]",
+     "Management's claim of no common equity raise is accurate [D09]"
+    ],
+    "discount_rate_used": "Not in pack"
+   },
+   "price_vs_value": "Trading at 0.553x tangible book value; suggests potential margin of safety if litigation risks are overstated [D04, D09]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "T-bills or existing Berkshire holdings are currently safer as the bank's earnings are negative and volatile [D02, D08]",
+   "downside_case": "Continued losses from mortgage litigation and potential for heavy dilution if management is forced to raise capital [D05, D09]",
+   "valuation_verdict": "COMPELING",
+   "flagged_assumptions": [
+    "D&A not in pack",
+    "Maintenance capex not in pack",
+    "Normalization of earnings is based on management statements rather than historical stability [D02, D09]"
+   ]
+  },
+  "gate4": {
+   "role": "R2",
+   "role_description": "We act as a financier providing capital in exchange for preferred equity, coupons, and warrants, securing our principal while obtaining an equity-like kicker to reward us for providing the liquidity others fear to offer [D09].",
+   "horizon": "until conversion",
+   "value_realisation_path": [
+    "Receive recurring dividend payments from the preferred security [D09]",
+    "Exercise warrants to participate in common equity appreciation as the franchise stabilizes [D09]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000-2015 era, we frequently leverage Berkshire’s strong balance sheet to act as a lender of last resort, providing capital to distressed but fundamentally sound institutions at favorable terms when the market is gripped by panic [D09]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Mortgage litigation costs exceed current capital buffers and reserves [D05, D09]",
+    "Management is forced to dilute shareholders through a common equity raise, contradicting their public assertions [D09]",
+    "A sustained run on core deposits destabilizes the funding franchise [D01]",
+    "Continued deterioration in the housing market forces persistent operating losses beyond a manageable horizon [D05]"
+   ],
+   "berkshire_constraints": "Must maintain a cash floor of at least $30B [D08]; deal must be structured as preferred equity to ensure seniority and mitigate regulatory capital risks [D09].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 15,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital could be deployed into high-quality existing holdings or preserved as cash for more certain distressed opportunities, though the scale and moat of this deposit franchise are rare [D04, D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "As a negotiated preferred investment at scale with warrant coverage, this aligns with my strategy of acting as a lender of last resort for systemic institutions [D09].",
+   "biggest_risk_in_one_sentence": "The open-ended nature of legacy mortgage litigation could prove larger than our estimates, resulting in capital impairment."
+  }
+ },
+ "final": {
+  "as_of_date": "2011-08-24",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B3"
+  ],
+  "catalyst_role": "R2",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "Not calculable, relying on franchise stability",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Discount to tangible book value of 0.553x",
+   "expected_return_pct": 0,
+   "downside_case": "Persistent mortgage litigation losses leading to forced equity dilution"
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at 0.553x tangible book value, providing a significant margin of safety if litigation risks are overstated [D04, D09].",
+    "citations": [
+     "D04",
+     "D09"
+    ]
+   },
+   {
+    "driver": "The institution maintains the No. 1 US deposit share, which creates a durable competitive moat regardless of current legacy issues [D01, D09].",
+    "citations": [
+     "D01",
+     "D09"
+    ]
+   },
+   {
+    "driver": "By negotiating a preferred security, we can secure a senior position with warrant participation, mirroring our successful Bank of America approach [D09].",
+    "citations": [
+     "D09"
+    ]
+   },
+   {
+    "driver": "Market fear surrounding legacy mortgage claims is driving a temporary, existential-level discount on a fundamentally sound deposit franchise [D04, D09].",
+    "citations": [
+     "D04",
+     "D09"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Mortgage litigation costs exceed current capital buffers and reserves",
+   "Management is forced to dilute shareholders through a common equity raise",
+   "A sustained run on core deposits destabilizes the funding franchise"
+  ],
+  "what_would_change_our_mind": "Evidence that the mortgage litigation claims are truly open-ended and will exceed the bank's capacity to absorb them, or any signs that core depositors are fleeing the franchise.",
+  "memo": "The Company possesses the premier US deposit franchise, an essential utility that we have long admired for its durability and scale [D01, D09]. While the institution is currently navigating a difficult period of legacy mortgage claims and recent operating losses, the core business of gathering deposits and serving a nationwide customer base remains firmly intact [D01, D05, D09].\n\nWe see a moat here that is wider than the current market price suggests [D09]. The bank's massive deposit base provides a low-cost, sticky funding advantage that is difficult to replicate, even if the current balance sheet is obscured by litigation noise [D01, D09].\n\nBy acting as a provider of capital through a negotiated preferred investment, we ensure seniority and obtain warrant coverage, providing us with a margin of safety that common shareholders currently lack [D09]. This is an opportunity to act as a lender of last resort, a role that fits our preference for supporting sound businesses during periods of irrational market panic [D09].\n\nWe recognize the risks; the legacy mortgage litigation is a cloud over the company, and we must be correct in our assessment that these are finite costs rather than a permanent impairment of the business [D05, D09]. If the management's commitment regarding capital levels holds true, the current discount to tangible book value represents a compelling entry point [D04, D09].",
+  "uncited_claims": []
+ }
+}

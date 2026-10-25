@@ -1,0 +1,49 @@
+{
+ "pack": "2024_aapl_trim",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2024-05-04",
+ "stages": {},
+ "final": {
+  "as_of_date": "2024-05-04",
+  "company": "Apple Inc.",
+  "ticker": "AAPL",
+  "decision": "TRIM",
+  "reason_class": "S3",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Consumer franchise: intact [D01]",
+   "Services ecosystem: strengthened [D03]",
+   "Capital allocation: strengthened [D03]",
+   "Pricing power: intact [D01]"
+  ],
+  "price_vs_value_now": "28.5x P/E; fully priced relative to historical norms [D04]",
+  "after_tax_hurdle": "21% federal tax cost on realized gains versus the need to manage concentration risk [D04, D08]",
+  "drivers": [
+   {
+    "driver": "The position has grown to a dominant weight in the equity portfolio, requiring prudent trimming to manage concentration [D08].",
+    "citations": [
+     "D08"
+    ]
+   },
+   {
+    "driver": "Tax planning in a high-valuation market warrants realizing gains on a portion of the holding [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The business remains a wonderful franchise, but the stock is fully priced, making it a logical source of liquidity [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "Apple remains a wonderful business with an ecosystem that continues to generate impressive returns on capital and growing service revenues [D01, D03]. We do not sell businesses that we admire because Mr. Market is enthusiastic, but we must remain disciplined regarding the concentration of our portfolio and the tax consequences of our holdings [D04, D08]. \n\nWith the position representing roughly half of our listed equity portfolio, prudence dictates that we trim our exposure [D08]. While a 21% federal tax hit is significant, it is a known cost that we accept to improve our portfolio balance in a fully-priced market [D04]. This decision is not a reflection of a change in the underlying business economics, which remain highly regarded, but a reflection of size and capital allocation realities [D01, D05, D08]. \n\nWe continue to hold a substantial residual position in what we consider an outstanding consumer franchise [D01, D08]. Our goal is to ensure that Berkshire maintains the liquidity and diversification necessary to navigate whatever the future may bring, without risking permanent loss of capital or reputation [D04].",
+  "uncited_claims": []
+ }
+}

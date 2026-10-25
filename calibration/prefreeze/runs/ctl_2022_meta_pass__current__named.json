@@ -1,0 +1,236 @@
+{
+ "pack": "ctl_2022_meta_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2022-11-04",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Meta Platforms operates global social and messaging networks monetized primarily through advertising, alongside a loss-making virtual and augmented reality hardware and software operation [D01]. The company leverages repeated user attention and its ability to match advertisers with specific audiences [D01].",
+   "products_customers_and_why_they_buy": [
+    "Social and messaging applications; advertisers purchase access to specific audiences [D01]"
+   ],
+   "economics": [
+    "Operating margin fell from 36% to 20% in the third quarter of 2022 [D01]. High planned capital expenditure ($32-33 billion for 2022, $34-39 billion projected for 2023) and growing Reality Labs losses require significant investment [D01]. Maintenance capex is not explicitly split [D02]."
+   ],
+   "earnings_record": [
+    "Q3 2022 revenue was $27.714 billion (down 4%), operating income was $5.664 billion (down 46%), and net income was $4.395 billion (down 52%) [D01]."
+   ],
+   "competitive_position": [
+    "Competes with Alphabet, Snap, and TikTok for advertisers and user time; Apple and mobile operating systems impact targeting and distribution [D06]. Holds a massive user base with 3.71 billion family monthly active people [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Cash and marketable securities of $41.78 billion against $9.92 billion in long-term debt [D01]. High ongoing capital requirements for infrastructure and new platforms [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Founder-led; management has guided for significant increases in expenses ($96-101 billion projected for next year) and capital expenditures [D01]. $6.55 billion consumed by buybacks in the quarter [D01]."
+   ],
+   "price_and_valuation": [
+    "November 4, 2022 closing price was $90.79 [D02]. Approximate trailing reported EPS through September was $10.46, implying roughly 8.68x earnings; annualizing the latest quarterly EPS ($1.64) gives ~13.84x earnings [D02]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Rising costs (up 19%) and headcount (up 28%), declining profits, and Reality Labs losses [D05]. Concerns over ad-price weakness due to competition and targeting changes [D05]. Inability of minority owners to curb founder-led long-duration spending [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "October 26, 2022: Q3 2022 results and increased spending projections published [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire held approximately $105.4 billion in cash and Treasury bills as of the last half-year report (August 2022) [D08]. No existing stake in Meta mentioned [D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Independent maintenance capex estimate; post-cutoff operating results; harmonized peer valuation metrics"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business faces rapid technological change and binary science risks in its Reality Labs division, and its core advertising model is subject to shifting platform distribution rules [D01], [D06]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "Increasing competition from TikTok and targeting limitations imposed by Apple suggest the moat is not durable and pricing power is pressured [D05], [D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "Operating income declined 46% and net income 52% in Q3 2022 compared to the prior period [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong balance sheet with $41.78 billion in cash against only $9.92 billion in long-term debt [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "Planned capital expenditures of $32-33 billion in 2022 and rising to $34-39 billion in 2023 indicate a highly capital-intensive business model [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "FAIL",
+     "evidence": "Management is aggressively increasing expenses and capital expenditures despite declining profits, raising concerns about rational capital allocation and the inability of minority owners to influence spending [D01], [D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "At a market capitalization reflecting its earnings scale, Meta is large enough to move the needle for Berkshire [D01]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "At roughly 8.68x to 13.84x earnings, the stock trades at an earnings yield well above the 10% threshold [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 5,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a media business suffering from declining profitability, high capital intensity, and management pursuing speculative investments at the expense of owners."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is reacting rationally to a business facing significant headwinds, including declining profitability, heightened competition for user attention, and a pivot toward speculative, capital-intensive investments that undermine current returns [D01], [D05]. We see no reason to expect a bargain when management's capital allocation strategy actively erodes the cash flow and earnings that define intrinsic value for minority owners [D01], [D05].",
+   "evidence": [
+    "Operating income down 46% and net income down 52% in Q3 2022 [D01]",
+    "Projected annual capital expenditures rising to $34-39 billion [D01]",
+    "Management guidance on significantly increasing expenses despite earnings pressure [D01], [D05]",
+    "Direct competitive threats from TikTok and platform-level targeting constraints [D05], [D06]"
+   ],
+   "market_narrative_we_disagree_with": "The market views the decline as a potential value opportunity based on low trailing earnings multiples; however, we believe the business quality has fundamentally deteriorated and the capital intensity is structurally impairing the company's long-term earning power [D01], [D02].",
+   "what_must_be_true": [
+    "Management must demonstrate discipline by pivoting away from loss-making speculative divisions [D01]",
+    "The company must prove it can retain its user base and ad-pricing power against TikTok and platform policy changes [D05], [D06]",
+    "Capital expenditure growth must stabilize to allow free cash flow generation to recover [D01]"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "$1.64 per quarter annualized to $6.56 per share (assuming flat quarterly results to serve as maintenance-level earnings given lack of explicit maintenance capex split) [D01], [D02]",
+   "initial_pretax_yield_pct": 7.22,
+   "intrinsic_value_range": {
+    "low": "Insufficient evidence to calculate reliable terminal value due to management's capital allocation pivot",
+    "high": "Insufficient evidence to calculate reliable terminal value due to management's capital allocation pivot",
+    "key_assumptions": [
+     "Operating margin decline [D01]",
+     "Capital expenditure growth to $34-39 billion [D01]",
+     "Loss-making Reality Labs investment [D01]"
+    ],
+    "discount_rate_used": "Not applicable due to lack of sustainable owner earnings growth visibility"
+   },
+   "price_vs_value": "Unknown; margin of safety cannot be determined due to structural impairment of earning power",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "T-bills / existing holdings; Berkshire's cash yields are safer and management capital allocation is superior to Meta's current speculative pivot [D08]",
+   "downside_case": "Permanent loss of capital if the core advertising franchise continues to lose pricing power and user engagement while capital spending persists without return",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Annualized earnings based on Q3 2022 performance",
+    "Maintenance capex assumed equal to total capex due to lack of explicit split",
+    "Assumption that management-led capital intensity will continue to undermine earnings"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "The investment would rely on the business generating superior, predictable cash returns on capital over time [D01]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities post-1980, we act as a permanent passive holder, evaluating businesses based on their ability to grow intrinsic value through rational capital allocation [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Continued decline in core advertising pricing power due to TikTok competition [D05], [D06].",
+    "Further erosion of ad-targeting efficacy following platform-level policy changes [D06].",
+    "Management persists with capital-intensive, speculative investments in Reality Labs despite deteriorating core operating margins [D01].",
+    "Inability to curb expense growth that significantly outpaces revenue [D01], [D05]."
+   ],
+   "berkshire_constraints": "Maintain liquidity above $30 billion floor; avoid investments where governance structure prevents effective minority owner oversight [D01], [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed in T-bills or existing, more stable holdings where capital allocation is rational and earnings power is predictable [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The decision to avoid an investment in a business with structurally deteriorating capital allocation and uncertain future earnings power is a fundamental judgment for Berkshire.",
+   "biggest_risk_in_one_sentence": "Permanent loss of capital may occur if the core advertising franchise continues to lose pricing power while management continues to bleed cash on speculative, high-cost projects."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-11-04",
+  "company": "Meta Platforms",
+  "ticker": "META",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "$6.56 per share (annualized)",
+   "initial_pretax_yield_pct": 7.22,
+   "intrinsic_value_range": "Indeterminate due to capital allocation uncertainty",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital due to structural impairment of core franchise and wasteful capital spending"
+  },
+  "drivers": [
+   {
+    "driver": "The business faces a deteriorating moat as it contends with shifting platform rules and intense competition for user attention [D05], [D06].",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Management is aggressively increasing capital expenditures and operating expenses despite a 46% decline in operating income, signaling poor capital allocation [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The speculative pivot toward high-cost, uncertain projects in Reality Labs creates a risk that current owner earnings will be systematically eroded [D01], [D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Minority owners possess no mechanism to influence management's spending, leaving capital allocation entirely in the hands of leadership that has proven indifferent to current returns [D01], [D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Continued decline in core advertising pricing power due to TikTok competition [D05], [D06].",
+   "Further erosion of ad-targeting efficacy following platform-level policy changes [D06].",
+   "Management persists with capital-intensive, speculative investments in Reality Labs despite deteriorating core operating margins [D01].",
+   "Inability to curb expense growth that significantly outpaces revenue [D01], [D05]."
+  ],
+  "what_would_change_our_mind": "Evidence that management has abandoned its current high-cost speculative pivot in favor of a disciplined focus on maintaining the profitability and pricing power of its core advertising business.",
+  "memo": "Meta Platforms operates a large social network that historically served as a strong advertising franchise, but we do not find the business understandable in its current state [D01]. When a business pivots its primary focus from a proven, high-return model to speculative and capital-intensive ventures, the predictability of its future earnings becomes far too murky for our taste [D01].\n\nThe economics of the business are under significant strain, with operating income declining 46% in the third quarter of 2022 [D01]. We are seeing clear signs that the moat is narrowing, as targeting limitations and competitors like TikTok pressure the pricing power that once defined this company [D05], [D06].\n\nManagement has committed to a path of aggressive spending, with capital expenditures projected to rise to $34-39 billion in 2023 [D01]. As owners, we require management to be prudent with our capital; currently, we see cash being diverted into ventures that offer little assurance of a decent return on investment [D01], [D05].\n\nWhile the market may look at trailing earnings multiples and see a bargain, we believe the business quality has structurally deteriorated [D01], [D02]. Investing here would be akin to buying a leaky bucket; no matter how cheap the bucket appears, it is a poor vessel for our capital [D01], [D03].\n\nWe prefer to deploy our capital into stable, predictable businesses where we can count on management to act as rational stewards of shareholder wealth [D08]. Meta currently lacks the clarity and discipline we demand, and we see no margin of safety that would protect us from the risk of permanent capital loss [D01], [D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

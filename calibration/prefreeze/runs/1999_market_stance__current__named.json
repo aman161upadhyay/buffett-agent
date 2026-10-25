@@ -1,0 +1,47 @@
+{
+ "pack": "1999_market_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "hedge",
+ "as_of_date": "1999-11-22",
+ "stages": {},
+ "final": {
+  "as_of_date": "1999-11-22",
+  "market_earnings_yield_pct": 3.49,
+  "long_bond_yield_pct": 6.09,
+  "spread_points": -2.6,
+  "rule_decision": "HOLD_CASH",
+  "decision": "HOLD_CASH",
+  "override_reason": null,
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "The market earnings yield of 3.49% is significantly lower than the 6.09% yield on the 10-year Treasury bond, a negative spread of 2.6 percentage points [D04].",
+  "valuation_level": "Equities appear expensive at a trailing P/E of 28.66x and a dividend yield of only 1.28%, suggesting a demanding growth hurdle [D04].",
+  "ideas_that_qualify": [
+   "None identified; aggregate market conditions show high prices relative to earnings and interest rates [D04]."
+  ],
+  "berkshire_action": "Maintain existing concentrated positions in sound franchises; prioritize preservation of capital; allow cash to accumulate while awaiting opportunities that meet our stringent criteria.",
+  "drivers": [
+   {
+    "driver": "The earnings yield of equities is substantially lower than the risk-free rate provided by long-term government bonds, rendering stocks unattractive by our standard [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Broad market valuations, with trailing P/Es near 29x, leave little margin of safety and imply that investors are betting on sustained, rapid earnings growth rather than existing value [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Public sentiment displays high return expectations of up to 22.6% annually, contrasting sharply with underlying economic realities and prudent investment logic [D03].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "memo": "Charlie and I have always believed that an investor should act only when the odds are heavily in their favor. Today, we find ourselves in a market where the institutional imperative seems to be driving prices to levels that ignore the fundamental relationship between business earnings and interest rates. With the 10-year Treasury yielding over 6% and the aggregate market offering an earnings yield of less than 3.5%, the 'new era' enthusiasm has pushed valuations to a point where the margin of safety—our most critical tool—is effectively non-existent [D04].\n\nWe do not forecast the market, nor do we attempt to time its inevitable shifts. However, we also do not feel compelled to participate in an auction where the entry price fails to justify the expected return on capital [D01, D06]. Our cash and insurance float provide us with the patience to wait for sanity to return. For now, we will hold our wonderful businesses and wait for Mr. Market to offer us prices that reflect business value rather than speculative fervor [D04, D08].",
+  "uncited_claims": []
+ }
+}

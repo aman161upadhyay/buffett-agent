@@ -1,0 +1,17 @@
+Title: Managed-care competition is underwriting competition
+Source: https://www.sec.gov/Archives/edgar/data/731766/000073176625000022/a2024q4exhibit991.htm ; https://www.sec.gov/Archives/edgar/data/731766/000073176625000123/a2025q1exhibit991.htm ; https://www.sec.gov/Archives/edgar/data/731766/000073176625000134/exhibit991.htm ; https://www.unitedhealthgroup.com/newsroom/2025/2025-05-14-response-may-14-wsj-article.html
+Date: 2025-06-30
+
+The economically relevant comparisons are health insurers and managed-care service providers, not drug-discovery companies. Humana is more exposed to Medicare Advantage; CVS combines insurance and pharmacy assets; Elevance has a different benefit and services mix. Those descriptions identify comparison dimensions, not a claim that synchronized peer valuations have been recovered. UnitedHealth's own release supplies the direct evidence of care-cost and reimbursement pressure. [1,2]
+
+The industry mechanism is a timing mismatch: benefit prices and expected utilization are set before actual care expenditures are known. Distribution scale and provider relationships can help, yet a reimbursement change or sustained utilization increase can overwhelm administrative efficiencies. Integration may create a service advantage while also drawing regulatory attention. The relevant questions are normalized underwriting margins, cash requirements and the ability to reprice without losing the franchise. No peer medical-loss-ratio table or purported sector consensus is manufactured from data published after the cutoff. [2-4]
+
+Evidence ledger, with dollar amounts in billions unless stated otherwise: the January 16 release reports 2024 revenue of $400.3, versus $371.6 in 2023, operating earnings of $32.3, operating cash flow of $24.2, GAAP EPS of $15.51 and adjusted EPS of $27.66. The April 17 release reports first-quarter revenue of $109.6, up $9.8, GAAP EPS of $6.85 and adjusted EPS of $7.20. UnitedHealthcare added 780,000 consumers year to date. April's reduced adjusted annual EPS range was $26.00-$26.50; the May leadership announcement suspended the outlook, so that range is no longer current guidance. The May statement disputes the press characterization of a supposed criminal investigation. These are issuer statements, not independent legal findings. [1-4]
+
+Comparison discipline: industry membership does not make two businesses economically identical. Geography, customer mix, contract duration, capital intensity, leverage and accounting adjustments can dominate headline growth comparisons. No synchronized peer-price and consensus-earnings dataset was recovered for this cutoff; relative cheapness is therefore not asserted numerically. The useful comparison is between sources of durable return and exposure to common pressures. A competitor's weakness is not automatically this company's moat, and an industry recovery is not required to be uniform across participants.
+
+Sources and publication dates:
+[1] https://www.sec.gov/Archives/edgar/data/731766/000073176625000022/a2024q4exhibit991.htm (published 2025-01-16)
+[2] https://www.sec.gov/Archives/edgar/data/731766/000073176625000123/a2025q1exhibit991.htm (published 2025-04-17)
+[3] https://www.sec.gov/Archives/edgar/data/731766/000073176625000134/exhibit991.htm (published 2025-05-14)
+[4] https://www.unitedhealthgroup.com/newsroom/2025/2025-05-14-response-may-14-wsj-article.html (published 2025-05-14)

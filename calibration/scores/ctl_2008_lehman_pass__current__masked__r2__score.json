@@ -1,0 +1,54 @@
+{
+ "trade_id": "ctl_2008_lehman_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett required executives to commit meaningful new cash on the same terms; Fuld's reluctance was an immediate negative.",
+   "Fuld's complaints about short sellers suggested a failure to recognize management's own problems.",
+   "Review of the 10-K raised asset and risk concerns; a $100M Japan problem learned after March 28 reinforced refusal, and must not be scored as cutoff-date pack evidence."
+  ],
+  "extra_agent_drivers": [
+   "Business lacks a durable moat.",
+   "Volatility in financial earnings/revenue.",
+   "Structural dependence on market confidence.",
+   "Low return on equity."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business operates without a durable moat or stable earnings power, evidenced by a 31% revenue decline and 57% drop in net income.",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The firm is a volatile financial intermediary prone to liquidity shocks, which makes it impossible to define a margin of safety.",
+    "citation": "D05",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Quarterly return on equity is a meager 8.6%, failing to compensate for the significant risk of permanent capital loss.",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have looked at this business and placed it firmly in our \"too hard\" pile.",
+ "grader_notes": "The agent correctly identified the pass decision but failed to cite any of the specific qualitative drivers Buffett actually articulated (management reluctance, failure to recognize internal problems, and specific asset concerns). The agent instead constructed a generic valuation-based thesis not supported by the specific historical account of the decision provided in the answer key.",
+ "run": "ctl_2008_lehman_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

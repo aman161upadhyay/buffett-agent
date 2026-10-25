@@ -1,0 +1,64 @@
+{
+ "pack": "2024_cash_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "hedge",
+ "as_of_date": "2024-11-02",
+ "stages": {},
+ "final": {
+  "as_of_date": "2024-11-02",
+  "trailing_earnings_yield_pct": 3.51,
+  "normalised_earnings_yield_pct": 3.51,
+  "normalisation_basis": "trailing (no distortion) [D04]",
+  "long_bond_yield_pct": 4.37,
+  "spread_points": "-0.86",
+  "drawdown_from_high_pct": 2.32,
+  "panic_indicators": [
+   "VIX 21.88 [D04]",
+   "high-yield OAS 283bp [D04]",
+   "modest retreat from recent high is not crisis pricing [D06]"
+  ],
+  "rule_decision": "HOLD_CASH",
+  "decision": "HOLD_CASH",
+  "override_reason": null,
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "equity earnings yield of 3.51% is below the 10-year Treasury yield of 4.37% [D04]",
+  "valuation_level": "broad US equities at approximately 28.45x earnings [D04]",
+  "ideas_that_qualify": [
+   "none identified at current prices [D01, D07]"
+  ],
+  "berkshire_action": "maintain substantial liquidity; preserve capital; continue to hold existing businesses and equities; buy back Berkshire stock only if below conservatively estimated intrinsic value [D01, D04, D08]",
+  "drivers": [
+   {
+    "driver": "The earnings yield of the S&P 500 (3.51%) is currently lower than the 10-year Treasury yield (4.37%), offering no equity risk premium [D04, D06].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Berkshire's scale requires opportunities that can meaningfully move the needle, which are currently scarce in the present valuation environment [D01, D08].",
+    "citations": [
+     "D01",
+     "D08"
+    ]
+   },
+   {
+    "driver": "Broad equity valuations remain elevated at approximately 28.45x trailing earnings, failing to provide a margin of safety for new capital [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The firm maintains a disciplined focus on preserving liquidity for insurance obligations and future, more attractive opportunistic deployment [D01, D05, D08].",
+    "citations": [
+     "D01",
+     "D05",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "We find ourselves in a period where the market offers little in the way of bargains that meet our standards for wonderful businesses at attractive prices. With the S&P 500 trading at roughly 28.45 times earnings, the yields available from equities are not only unappealing relative to their historical norms but are inferior to the returns available on risk-free government instruments [D04]. When we cannot find businesses that we understand, with durable moats and pricing power, at prices that offer a clear margin of safety, we prefer to wait [D01, D04].\n\nOur current stance is one of patience. We have built a substantial cash and Treasury bill position, which serves as a necessary buffer for our insurance operations and as fuel for when Mr. Market eventually offers us more sensible entry points [D01, D08]. We do not forecast market directions, nor do we feel any institutional imperative to deploy capital simply because our cash balance has grown [D05, D06]. We will continue to hold our existing wonderful businesses and maintain our discipline, waiting for the day when the spread between equity earnings yields and bond yields turns in our favor [D01, D06].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "trade_id": "dep_2021_atvi_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "BUY by an unnamed deputy, not Buffett and not merger arbitrage.",
+   "Buffett's signed February 17, 2022 clarification: one of two independent investment managers bought about 85% in October, completed in November, average cost about $77.",
+   "Buffett explicitly said the investment manager operated independently of him and Berkshire had no prior knowledge of Microsoft's proposal."
+  ],
+  "extra_agent_drivers": [
+   "Business requires constant, unpredictable creative reinvestment.",
+   "Management and cultural instability risks franchise value.",
+   "Declines in net bookings.",
+   "Business operates outside circle of competence."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 6,
+  "share": 0.6
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have looked at the Company and decided to pass.",
+ "grader_notes": "The agent failed to capture the trade as a buy initiated by a deputy, choosing to pass entirely based on fundamental analysis. The reasoning is completely unrelated to the actual decision-making process Buffett described, which was an independent purchase by a deputy rather than an assessment of the company's business model.",
+ "run": "dep_2021_atvi_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS"
+}

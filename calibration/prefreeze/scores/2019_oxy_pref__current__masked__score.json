@@ -1,0 +1,52 @@
+{
+ "trade_id": "2019_oxy_pref",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "The preferred provided an $800 million annual cash-income claim → By purchasing these cumulative perpetual preferred shares, we secure an 8% annual dividend",
+   "Warrants added long-duration upside to the financing package → In addition to the 8% yield, we have negotiated the right to acquire 80 million shares of common stock at $62.50 per share",
+   "The investment was a financing transaction with unusually attractive terms, not an acquisition bid for the oil company. → While we generally shy away from commodity producers due to their inherent volatility and capital intensity, this is not a bet on the price of oil, but a negotiated investment in the capital stack"
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Our $10bn commitment acts as necessary financing to facilitate the company's acquisition, a role we are uniquely positioned to fill given our cash position",
+   "We secure a senior position in the capital stack that provides a margin of safety against commodity cycle volatility"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "By purchasing these cumulative perpetual preferred shares, we secure an 8% annual dividend",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "we have negotiated the right to acquire 80 million shares of common stock at $62.50 per share",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We have $112 billion in cash available",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 1,
+  "share": 0.09
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "While we generally shy away from commodity producers due to their inherent volatility and capital intensity, this is not a bet on the price of oil, but a negotiated investment in the capital stack.",
+ "grader_notes": "The agent correctly identified the core economic drivers of the deal (8% dividend, warrants, and the nature of the financing). The reasoning is consistent with the provided key, though the agent included additional context regarding their cash position and senior status which were not explicitly listed in the minimal key.",
+ "run": "2019_oxy_pref__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

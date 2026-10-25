@@ -1,0 +1,54 @@
+{
+ "trade_id": "1999_market_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Starting valuations... constrained aggregate returns → Aggregate market valuations, at nearly 29 times trailing earnings, leave little margin of safety for the investor",
+   "Existing sound franchises were not automatically sold → We will continue to hold our wonderful businesses—those with durable moats and capable managers—but we will not be adding to our positions at these prices"
+  ],
+  "missed": [
+   "Technological transformation did not automatically produce attractive shareholder economics.",
+   "High prices and uncertainty about winners supported withholding new equity capital rather than predicting the next market move."
+  ],
+  "extra_agent_drivers": [
+   "The earnings yield on equities is significantly below the yield on risk-free government bonds, making stocks unattractive relative to alternatives",
+   "Investor sentiment is exuberant, with newer market participants expecting unsustainable annual returns of 22.6%"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "market earnings yield of 3.49% is substantially lower than the 6.09% yield on the 10-year Treasury bond",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "market trading at approximately 28.66x trailing earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "investor sentiment is exuberant, with newer market participants expecting unsustainable annual returns of 22.6%",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We will continue to hold our wonderful businesses—those with durable moats and capable managers—but we will not be adding to our positions at these prices.",
+ "grader_notes": "The agent correctly identifies the 'HOLD_CASH' stance and captures the discipline of maintaining existing franchises while refusing new purchases. Reasoning overlap is moderate, as the agent focuses more on the quantitative earnings-yield-to-bond-yield spread than the specific qualitative drivers Buffett cited regarding technological economics and the refusal to predict market movements.",
+ "run": "1999_market_stance__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "HOLD_CASH",
+ "agent_decision": "HOLD_CASH",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

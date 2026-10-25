@@ -1,0 +1,61 @@
+{
+ "trade_id": "1986_capcities_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Murphy and Burke supplied exceptional managerial ability and character. → Management, led by Murphy and Burke, has maintained an owner-oriented, low-cost approach that we find highly attractive [D01]."
+  ],
+  "missed": [
+   "Excellent properties and people could justify a full price at meaningful scale.",
+   "Berkshire could remain patient through initially unexciting ABC economics.",
+   "Voluntary voting and disposition restrictions gave the managers stable ownership rather than a threatening block."
+  ],
+  "extra_agent_drivers": [
+   "Earnings yield insufficiency vs Treasury rates",
+   "Lack of margin of safety due to high P/E ratio",
+   "Execution risk of network integration",
+   "Advertising revenue cyclicality"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "earnings yield of 6.03% relative to 9.05% Treasury rate",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "valuation at 16.59x earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "predecessor business demonstrated returns on average equity near 20%",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "operating margins consistently around 28%",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 9,
+  "share": 1
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "However, we must insist on a price that provides a margin of safety, and at 16.59x current earnings, the current offering falls short [D04].",
+ "grader_notes": "The agent correctly identified the high quality of management but missed the fundamental investment thesis, which was that Berkshire was willing to pay a 'full price' for exceptional assets managed by exceptional people. The agent relied on a rigid quantitative hurdle rate approach that ignored Buffett's qualitative assessment of the franchise value and his willingness to ignore short-term market-based valuation metrics in this specific case.",
+ "run": "1986_capcities_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,241 @@
+{
+ "pack": "ctl_2024_intc_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2024-08-02",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company designs processors and manufactures semiconductors, with an ambition to expand its foundry business for outside customers [D01]. It operates a strategic American manufacturing franchise supported by an installed x86 software base and enterprise qualification processes [D01].",
+   "products_customers_and_why_they_buy": [
+    "Processors and semiconductor products for client and server customers [D01, D03]; customers value the x86 software base and enterprise qualification processes [D01]."
+   ],
+   "economics": [
+    "GAAP gross margin of 35.4% [D01, D07]; adjusted operating margin of 0.2% [D01, D07]. Business requires heavy capital investment, with 2024 gross capex guidance of $25–27 billion and net capex of $11–13 billion [D01, D07].",
+    "Pricing history is not in pack."
+   ],
+   "earnings_record": [
+    "Q2 revenue $12.8 billion (down 1% YoY); GAAP net loss of $1.6 billion; GAAP EPS negative $0.38; non-GAAP EPS positive $0.02 [D01, D07]."
+   ],
+   "competitive_position": [
+    "Competes as an integrated processor designer and manufacturer; TSMC is a foundry specialist, while AMD and Nvidia are fabless designers [D06]. Success depends on 18A process roadmap execution and foundry adoption [D01, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Dividend suspended starting Q4 to protect liquidity [D01, D07]. Significant ongoing capital needs with $10 billion in planned spending reductions [D01, D07]."
+   ],
+   "management_and_capital_allocation": [
+    "Management has announced headcount reductions exceeding 15% and a suspension of the dividend [D01, D07]. Capital allocation is focused on protecting liquidity to support strategic manufacturing investments [D01, D07]."
+   ],
+   "price_and_valuation": [
+    "August 2, 2024 closing price of $21.48, down approximately 26% in one session [D02, D07]. Standard trailing P/E is not meaningful due to net loss [D02, D07]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "Not in pack; earnings are negative [D02, D07]."
+   },
+   "what_the_market_is_worried_about": [
+    "Continued heavy spending despite losses [D05]; sustainability of competitive advantage [D05]; risk that cost cutting undermines R&D [D05]; potential for technical obsolescence [D05]; liquidity constraints necessitating dividend suspension [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "August 1, 2024: Q2 results published with loss and dividend suspension [D07]; August 2, 2024: Stock price fell ~26% [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire held approximately $189 billion in cash, cash equivalents, and Treasuries as of Q1 2024 [D08]. Berkshire previously owned the company in an earlier episode [D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Normalized owner earnings; specific maintenance capex figures; current debt levels."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business is undergoing significant technological transition and binary foundry execution risks that make long-term stability difficult to predict [D01, D06]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "The company faces intense competition from both fabless designers and foundry specialists, and it lacks the pricing power to maintain margins amidst heavy investment needs [D01, D06, D07]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company recently reported a GAAP net loss and has suspended its dividend, indicating a lack of consistent, cycle-tested profitability [D01, D07]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "Profitability is negative and the balance sheet is strained, as evidenced by the suspension of dividends to protect liquidity [D01, D07]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is extremely capital-intensive, requiring massive ongoing capex that consumes significant cash and undermines shareholder returns [D01, D07]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "While management is taking defensive measures like headcount reductions and dividend cuts, the efficacy of this strategy in restoring the competitive position is unproven [D01, D07]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The company's market capitalization is sufficient to be meaningful for Berkshire's portfolio [D02]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "Earnings are negative, and there is no evidence of a sufficient earnings yield or a clear margin of safety against intrinsic value [D02, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 6,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a capital-intensive technology business struggling with profitability and heavy reinvestment requirements"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is reacting to a significant miss in earnings, a suspension of dividends, and severe concerns regarding the company's ability to fund its massive capital requirements while maintaining technological relevance [D01, D07]. We see no reason to expect a bargain as this does not fit our model of a durable, cash-generative franchise, but rather a distressed, capital-intensive business in the midst of a difficult transition [D01].",
+   "evidence": [
+    "GAAP net loss of $1.6 billion and dividend suspension [D01, D07].",
+    "Heavy capital investment requirements of $25-27 billion in gross capex [D01, D07].",
+    "Stock price decline of ~26% in one session reflecting intense market concern [D02, D07]."
+   ],
+   "market_narrative_we_disagree_with": "The market may be viewing this as a cyclical downturn or a temporary cloud, whereas the fundamental erosion of the competitive position and lack of consistent profitability suggest a more profound issue [D01, D05].",
+   "what_must_be_true": [
+    "The company must return to a state of sustained, high-margin profitability that justifies its capital-intensive model.",
+    "The 18A process roadmap and foundry strategy must demonstrate clear, competitive success against established peers.",
+    "Management must prove that liquidity preservation strategies will lead to long-term value creation rather than further capital impairment."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "Not in pack; GAAP EPS negative $0.38 [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "Not in pack",
+    "high": "Not in pack",
+    "key_assumptions": [
+     "Requires sustained, high-margin profitability",
+     "18A process success",
+     "Liquidity preservation [D01]"
+    ],
+    "discount_rate_used": "Not in pack"
+   },
+   "price_vs_value": "Indeterminate; business is currently in a loss-making state requiring massive capital [D01]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "T-bills yielding significantly more with no risk of permanent capital loss [D08]",
+   "downside_case": "Continued erosion of competitive position and permanent impairment of capital through failed foundry transition",
+   "valuation_verdict": "FULL",
+   "flagged_assumptions": [
+    "Normalization of earnings is impossible with current provided data"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are a permanent passive holder; we look for businesses with durable competitive advantages and consistent earnings, allowing our capital to compound over long periods [D04].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "The business must return to a state of sustained, high-margin profitability that justifies its capital-intensive model [D01, D07].",
+    "Successful execution of the 18A process and foundry strategy [D01]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in this era, we act as permanent owners of the underlying business, relying on the company's own capital allocation to build intrinsic value over time [D04]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "failure to execute the 18A process roadmap",
+    "sustained negative operating margins",
+    "liquidity crisis forcing further erosion of the competitive position",
+    "inability to compete effectively against pure-play foundries and fabless designers"
+   ],
+   "berkshire_constraints": "Must maintain $30B+ cash floor [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "T-bills yielding significantly more with no risk of permanent capital loss [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business operates in a highly capital-intensive sector outside of our preferred circle of competence, and the current distress makes it unsuitable for a meaningful position.",
+   "biggest_risk_in_one_sentence": "The company may suffer permanent impairment of capital if its massive capital-intensive foundry transition fails to achieve profitability."
+  }
+ },
+ "final": {
+  "as_of_date": "2024-08-02",
+  "company": "Intel Corporation",
+  "ticker": "INTC",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Not in pack; GAAP EPS negative $0.38 [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Continued erosion of competitive position and permanent impairment of capital through failed foundry transition [D01]"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the current price of $21.48 [D02] provides no earnings yield against a net loss [D01], offering no margin of safety compared to risk-free alternatives [D08]."
+   },
+   {
+    "driver": "The business operates in a highly capital-intensive sector that falls outside of our circle of competence, requiring constant, massive reinvestment to maintain a precarious competitive position [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The company has suspended its dividend and reported a GAAP net loss, failing to meet our requirement for a consistent record of cycle-tested profitability [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Management's current strategy involves significant headcount reductions and defensive liquidity measures, which have yet to prove effective in restoring long-term competitive advantage [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "failure to execute the 18A process roadmap",
+   "sustained negative operating margins",
+   "liquidity crisis forcing further erosion of the competitive position",
+   "inability to compete effectively against pure-play foundries and fabless designers"
+  ],
+  "what_would_change_our_mind": "Evidence of sustained, high-margin profitability and successful execution of the foundry strategy that demonstrates a durable competitive moat.",
+  "memo": "We have reviewed the business and decided to pass. This company is a capital-intensive manufacturer struggling with a difficult technological transition, evidenced by a recent GAAP net loss of $1.6 billion and a suspension of its dividend to preserve liquidity [D01, D07]. We find it impossible to determine an intrinsic value when the business lacks consistent, cycle-tested profitability and requires massive, ongoing capital expenditures of $25-27 billion annually [D01, D07].\n\nThe company is attempting to pivot its business model while competing against both established fabless designers and foundry specialists [D06]. We see no clear, durable competitive advantage that would protect our capital from permanent loss in this environment [D01]. Success depends on the execution of a complex process roadmap, which remains unproven at this stage [D01].\n\nIn our view, this is not a business that offers the predictability or the margin of safety we require for our shareholders [D01, D02]. We are content to hold our cash in Treasuries, which currently provide a superior yield with no risk of permanent capital loss [D08]. We do not engage in turnarounds or bets on unproven foundry strategies, as we prefer to own businesses where the economics are near-certain [D01].",
+  "uncited_claims": []
+ }
+}

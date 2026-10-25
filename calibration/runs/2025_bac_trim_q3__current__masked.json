@@ -1,0 +1,57 @@
+{
+ "pack": "2025_bac_trim_q3",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2025-06-30",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-06-30",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Consumer franchise: intact [D01]",
+   "Earnings power: strengthened, with Q1 net income of $7.4 billion [D01, D03]",
+   "Capital sufficiency: maintained with 11.8% CET1 ratio [D01, D02]"
+  ],
+  "price_vs_value_now": "1.30x book value and 13.14x earnings; value remains sufficient to support a permanent holding [D04]",
+  "after_tax_hurdle": "21% federal tax cost on realized gains; sale is not warranted as the business remains a high-quality franchise [D04, D08]",
+  "drivers": [
+   {
+    "driver": "The bank maintains a strong competitive position with massive, sticky deposits and diversified fee engines [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Financial results show profitable performance and continued capital returns to shareholders via dividends and repurchases [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The regulatory and capital position remains robust, providing a foundation for resilience through economic cycles [D02, D05].",
+    "citations": [
+     "D02",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Selling would trigger a significant tax liability without a compelling change in the fundamental economics of the franchise [D04, D08].",
+    "citations": [
+     "D04",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "We view this position as a durable franchise that continues to demonstrate its value through consistent profitability and substantial deposit scale [D01]. The first-quarter performance, showing improved net income and earnings per share, confirms that the underlying business engines—consumer banking, wealth management, and global banking—are operating effectively [D01, D03]. \n\nWhile we remain mindful of credit cycles, funding costs, and the duration exposure inherent in the banking industry, the company maintains capital ratios and liquidity that meet our standard for strength [D02, D05]. We do not attempt to time the market or trade around quarterly earnings fluctuations; our focus remains on the long-term earning power of the business [D03, D07]. \n\nAt the current valuation, there is no catalyst to trigger a sale [D04]. We consider the tax consequences of exiting such a substantial position and prefer to retain our ownership in a business that provides attractive returns on capital [D04, D08]. We will continue to monitor the company's ability to navigate the credit environment and manage its capital allocation prudently [D05, D08].",
+  "uncited_claims": []
+ }
+}

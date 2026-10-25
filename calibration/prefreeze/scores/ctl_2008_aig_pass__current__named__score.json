@@ -1,0 +1,47 @@
+{
+ "trade_id": "ctl_2008_aig_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett considered but could not undertake roughly $25B for the property/casualty unit on the crisis weekend.",
+   "He distinguished desirable operating businesses from financial-products obligations management did not adequately understand.",
+   "The pressure and depth of the funding hole prevented a workable transaction despite interest in selected units."
+  ],
+  "extra_agent_drivers": [
+   "The company's complex financial-product subsidiary and credit-default-swap portfolio are opaque and fall outside our circle of competence.",
+   "We cannot verify the margin of safety because liquidity requirements in a collateral stress scenario are unbounded.",
+   "The firm reported a six-month net loss of $13.16 billion, indicating a lack of consistent, cycle-tested earnings.",
+   "The potential for contagion across the consolidated entity poses a risk to Berkshire's capital and reputation that we refuse to accept."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "AIG reported a six-month net loss of $13.16 billion.",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The company requires massive liquidity to support consolidated assets of $1.050 trillion.",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 13,
+  "share": 0.93
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We do not invest in businesses where the interconnectedness of liabilities makes it impossible to determine the true economic health of the core operations [D01].",
+ "grader_notes": "The agent arrived at the correct 'PASS' decision but failed to cite any of the specific drivers identified in Buffett's post-crisis reflections regarding the failed $25B rescue attempt. The agent focused on fundamental analysis and valuation metrics (margins of safety, net losses), whereas Buffett's actual reasons for passing were based on the inability to structure a deal during the crisis weekend due to the depth of the funding hole and management's own lack of understanding.",
+ "run": "ctl_2008_aig_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

@@ -1,0 +1,58 @@
+{
+ "trade_id": "1976_geico_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "The fundamental direct-distribution business advantage remained intact beneath the financial and operating troubles. → This direct distribution capability represents a durable moat that remains despite the company's current difficulties [D01, D06].",
+   "The exceptional manager and exceptional franchise made this a rare turnaround worth attempting. → Jack Byrne has been brought in to lead the rehabilitation, and we are encouraged by the initial steps taken to adjust rates and restore discipline [D03, D07]."
+  ],
+  "missed": [
+   "Minority securities offered earning power far below the cost of acquiring equivalent controlled operations."
+  ],
+  "extra_agent_drivers": [
+   "Market cap relative to statutory surplus",
+   "Market mispricing due to liquidity crisis"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company sells for $62.1m market cap against a statutory surplus of $39.3m",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "expense ratio of 14.4% compared to 27.6% for agency competitors",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "statutory surplus at $39.3m",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "authorized rate relief of $111.175m",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 19,
+  "cited": 7,
+  "share": 0.37
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We view this as a classic opportunity to buy a wonderful franchise at a distressed price, assuming the insolvency risk can be managed [D05].",
+ "grader_notes": "The agent correctly identified the key drivers regarding the business's structural moat and the critical importance of Jack Byrne's leadership. It fell short by missing the specific driver related to the relative value of minority securities versus controlled operations and significantly under-sized the position compared to Buffett's eventual high-conviction aggregate investment.",
+ "run": "1976_geico_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,55 @@
+{
+ "trade_id": "1986_capcities_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Murphy and Burke supplied exceptional managerial ability and character. → Tom Murphy and Dan Burke have built an extraordinary record, demonstrating consistent growth and high returns on equity [D02]."
+  ],
+  "missed": [
+   "Excellent properties and people could justify a full price at meaningful scale.",
+   "Berkshire could remain patient through initially unexciting ABC economics.",
+   "Voluntary voting and disposition restrictions gave the managers stable ownership rather than a threatening block."
+  ],
+  "extra_agent_drivers": [
+   "Earnings yield below risk-free rate",
+   "Debt-funded risk not compensated",
+   "Market skepticism on scalability"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "initial earnings yield is approximately 6.03%",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "long-term Treasury bonds offer 9.05%",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "significant debt load incurred to finance this acquisition",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 10,
+  "share": 0.83
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Paying a premium for the hope of future synergies, while accepting a yield significantly lower than the risk-free rate, does not meet our standard for a margin of safety [D04].",
+ "grader_notes": "The agent correctly identifies the high quality of management but misses all three other core drivers regarding the strategic rationale, long-term patience, and voting structure. The reasoning is farthest from Buffett's in its emphasis on short-term yield spreads and debt-risk aversion, which Buffett explicitly subordinated to the long-term character of the managers.",
+ "run": "1986_capcities_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

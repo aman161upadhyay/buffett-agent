@@ -1,0 +1,45 @@
+{
+ "trade_id": "2025_nyt_buy_q4",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Low initial earnings yield",
+   "Structural headwinds from AI and free information",
+   "High capital intensity",
+   "Dual-class stock structure"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company earns an initial pre-tax yield of just 4.04% [D04]",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the company has successfully grown its digital subscriber base to 11.3 million [D01]",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 6,
+  "share": 0.6
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We have looked at The New York Times and decided to pass.",
+ "grader_notes": "The agent provided a PASS decision while Berkshire Hathaway purchased the stock. As the answer key contains no stated drivers for the actual purchase, the reasoning overlap is non-scorable and the direction is a clear miss.",
+ "run": "2025_nyt_buy_q4__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

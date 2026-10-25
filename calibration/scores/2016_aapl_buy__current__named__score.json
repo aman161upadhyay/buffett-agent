@@ -1,0 +1,58 @@
+{
+ "trade_id": "2016_aapl_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "The initial investment was a deputy's decision, not Buffett's."
+  ],
+  "extra_agent_drivers": [
+   "Valuation based on P/E and FCF yield",
+   "Consumer franchise and brand loyalty",
+   "Exceptional balance sheet with net cash",
+   "Owner-oriented capital allocation",
+   "Market fixation on cyclical contraction"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "FY2015 FCF of $53.4B",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Returns on equity ranged from 30.0% to 44.7% between 2011 and 2015",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Returned $163 billion to shareholders",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "$153.1 billion in net cash",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 9,
+  "share": 0.69
+ },
+ "state": "PARTIAL",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We believe the market is misjudging the durability of Apple's ecosystem, allowing us to acquire a wonderful business at a fair price [D01, D04].",
+ "grader_notes": "The agent correctly identifies the buy decision but fails to acknowledge that the 2016 initiation was a deputy's decision, instead attributing the analysis to Buffett. The reasoning provided by the agent is entirely distinct from the answer key, which notes that Berkshire's action was not a direct decision by Buffett at that time.",
+ "run": "2016_aapl_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

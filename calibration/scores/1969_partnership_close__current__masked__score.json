@@ -1,0 +1,64 @@
+{
+ "trade_id": "1969_partnership_close",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Quantitative opportunities had largely disappeared at the capital scale now required. → We are currently finding such opportunities to be in extremely short supply, and we are unwilling to chase more speculative securities simply to remain fully invested",
+   "Buffett would not play an unfamiliar speculative game merely to preserve his record. → Today, the market environment is increasingly dominated by speculative, performance-oriented methods that are entirely foreign to our approach",
+   "The attempt to reduce effort without stopping had failed. → The effort required to uncover bargains in this environment is becoming disproportionate to the likely returns, and it is my judgment that we can no longer place meaningful capital at satisfactory prospective returns"
+  ],
+  "missed": [
+   "He refused to grope for luck with partners' money."
+  ],
+  "extra_agent_drivers": [
+   "The earnings yield of equities is inferior to the risk-free long-term government bond yield.",
+   "The inherent complexity and potential tax consequences of managing existing controlled businesses suggest a orderly exit is more rational than continued forced searching."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "market increasingly dominated by performance-oriented and speculative methods",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "scarcity of suitable individual situations",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "ten-year Treasury offering a yield of 6.56%",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "S&P 500 earnings yield of just 5.75%",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "individual situations of at least $3 million to make a meaningful difference",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 4,
+  "share": 0.4
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Consequently, the rational course of action is to stop trying to force results in an environment that does not suit our methods.",
+ "grader_notes": "The agent correctly identified the primary drivers regarding market environment and the disappearance of opportunities at the required scale. The agent's reasoning was closest to Buffett's in its recognition that persistence in an unsuited market was a risk to capital and record. The reasoning was farthest in its reliance on an explicit earnings-yield-to-bond-spread calculation, which was not the explicit primary driver Buffett cited in his 1969 decision to dissolve the partnership.",
+ "run": "1969_partnership_close__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "SELL_DOWN",
+ "agent_decision": "SELL_DOWN",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

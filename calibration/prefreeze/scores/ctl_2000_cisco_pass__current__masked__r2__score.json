@@ -1,0 +1,52 @@
+{
+ "trade_id": "ctl_2000_cisco_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Outside Buffett's demonstrated technology circle and no demonstrated margin of safety",
+   "No Cisco in the parent 13F-era holdings window around 2000",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "Technological obsolescence and competitive volatility",
+   "Instability of long-term earnings",
+   "Uncertainty of profit share",
+   "Reliance on acquisitions"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business operates in a field of rapid technological change requiring constant engineering or acquisitions to remain relevant",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "There is a risk that bandwidth demand may not translate into sustained vendor profit share",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The reliance on constant acquisitions to fill product gaps creates uncertainty regarding long-term competitive advantage",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 7,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Consequently, this investment sits firmly in our 'too hard' pile, and we prefer to keep our capital in assets with more certain long-term prospects [D05], [D08].",
+ "grader_notes": "The agent correctly matched the PASS decision, but failed to ground its reasoning in Buffett's specific, stated drivers (technology circle, non-ownership), instead generating its own analyst-style investment thesis based on the provided documents. While the discipline is technically aligned ('too hard' pile), the reasoning overlap is zero because the agent treated analyst-reconstructable arguments as Buffett's own, whereas the key explicitly instructs not to award credit for these.",
+ "run": "ctl_2000_cisco_pass__current__masked__r2",
+ "state_llm": "PARTIAL",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

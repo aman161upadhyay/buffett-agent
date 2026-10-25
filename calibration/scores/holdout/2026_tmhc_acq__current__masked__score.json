@@ -1,0 +1,49 @@
+{
+ "trade_id": "2026_tmhc_acq",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Abel emphasized a best-in-class national homebuilder with an exceptional team.",
+   "He linked the purchase to Berkshire's long-standing housing commitment, including Clayton and building-products businesses.",
+   "He described a long-term plan to combine site-built operations into a larger homeownership platform."
+  ],
+  "extra_agent_drivers": [
+   "The business lacks a durable competitive advantage and displays highly cyclical earnings.",
+   "The company faces persistent year-on-year declines in revenue, closings, and margins.",
+   "High capital intensity poses a risk of permanent capital loss during market downturns.",
+   "Superior alternatives exist for capital allocation."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company’s economics are hampered by high capital intensity, requiring constant, significant investment in land and inventory to maintain operations.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company faces persistent year-on-year declines in revenue, closings, and margins as of 1Q26.",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We have no interest in this investment as we cannot discern a clear margin of safety, and we find better uses for our capital in existing operations or by repurchasing Berkshire shares.",
+ "grader_notes": "The agent reached the opposite conclusion of the actual decision, leading to a MISS in direction and state. Reasoning overlap is zero as the agent focused on cyclical risks and lack of moat, whereas the actual decision was a strategic acquisition motivated by platform building and management quality.",
+ "run": "2026_tmhc_acq__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

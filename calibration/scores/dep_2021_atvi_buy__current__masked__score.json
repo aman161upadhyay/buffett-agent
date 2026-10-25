@@ -1,0 +1,59 @@
+{
+ "trade_id": "dep_2021_atvi_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "BUY by an unnamed deputy, not Buffett and not merger arbitrage.",
+   "Buffett's signed February 17, 2022 clarification: one of two independent investment managers bought about 85% in October, completed in November, average cost about $77.",
+   "Buffett explicitly said the investment manager operated independently of him and Berkshire had no prior knowledge of Microsoft's proposal."
+  ],
+  "extra_agent_drivers": [
+   "Unquantifiable risks regarding margin of safety.",
+   "Workplace and cultural allegations.",
+   "Unstable royalty stream due to creative investment requirements.",
+   "Platform operator control limiting competitive position."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business faces unquantifiable risks that preclude a margin of safety [D01], [D05].",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company faces severe cultural and management allegations that create a 'cloud' over the firm's integrity and long-term viability [D01], [D05].",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Software production is not a stable royalty stream but requires continuous, unpredictable creative investment [D01].",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Platform operators retain significant control over distribution economics, limiting the company's competitive position [D06].",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 9,
+  "share": 0.9
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "Charlie and I have evaluated the Company and have placed it firmly in our 'too hard' pile.",
+ "grader_notes": "The agent missed the trade entirely, recommending a PASS based on fundamental concerns rather than identifying the purchase made by a deputy. Reasoning does not overlap with the answer key's drivers regarding deputy autonomy and Berkshire's specific ownership timeline.",
+ "run": "dep_2021_atvi_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

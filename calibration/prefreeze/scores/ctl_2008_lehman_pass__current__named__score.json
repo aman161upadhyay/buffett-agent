@@ -1,0 +1,62 @@
+{
+ "trade_id": "ctl_2008_lehman_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett required executives to commit meaningful new cash on the same terms; Fuld's reluctance was an immediate negative.",
+   "Fuld's complaints about short sellers suggested a failure to recognize management's own problems.",
+   "Review of the 10-K raised asset and risk concerns; a $100M Japan problem learned after March 28 reinforced refusal, and must not be scored as cutoff-date pack evidence."
+  ],
+  "extra_agent_drivers": [
+   "The firm's business model relies on the confidence of short-term creditors, creating a risk of liquidity-driven insolvency",
+   "The company lacks a durable economic moat and pricing power",
+   "Earnings are highly cyclical and volatile",
+   "The potential for asset mark-to-market write-downs represents a significant risk of permanent capital loss"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "fixed-income revenue plummeted 88%",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "overall net income fell 57%",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "ROE dropping to 8.6% from 24.4%",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "$1.8 billion in negative mark-to-market adjustments",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "trading near its $39.45 book value",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 11,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Investing in a firm that is one liquidity shock away from insolvency is not a game we play; we would rather hold cash than risk permanent loss of capital [D05], [D08].",
+ "grader_notes": "The agent correctly identified the pass decision but failed to cite any of the specific, retrospective drivers provided by Buffett (the executive's reluctance and the refusal to admit problems). The agent instead constructed a generic fundamental analysis of Lehman's business model. While logically sound based on the pack, it lacks the specific qualitative/managerial reasons Buffett cited in his later testimony.",
+ "run": "ctl_2008_lehman_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

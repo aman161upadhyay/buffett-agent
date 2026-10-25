@@ -1,0 +1,256 @@
+{
+ "pack": "2022_tsm_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2022-11-14",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "TSMC is a dedicated semiconductor foundry producing chips designed by customers rather than competing with them through a broad branded chip portfolio [D01]. Advanced process technology, manufacturing yield, scale and customer trust support the franchise [D01].",
+   "products_customers_and_why_they_buy": [
+    "Semiconductor foundry services for customers who design their own chips [D01].",
+    "Value proposition includes advanced process technology, manufacturing yield, scale, and customer trust [D01]."
+   ],
+   "economics": [
+    "Gross margin is not owner earnings after fabs, equipment, research and working capital [D01, D02, D03].",
+    "Foundry manufacturing has scale and process barriers but requires continual expensive reinvestment [D01, D02, D03].",
+    "Q3 2022 gross margin was 60.4% and operating margin was 50.6% [D02, D03].",
+    "Historical ROE ranged from 20.94% to 29.84% between 2019 and 2021 [D02].",
+    "Capex was NT$839bn in 2021; FY2022 capex guidance is approximately US$36bn [D02, D03]."
+   ],
+   "earnings_record": [
+    "Revenue grew from NT$977.45bn in 2017 to NT$1,587.42bn in 2021 [D02].",
+    "Parent net income grew from NT$343.11bn in 2017 to NT$596.54bn in 2021 [D02].",
+    "Q3 2022 net income was NT$280.87bn, up 79.7% year-on-year [D03]."
+   ],
+   "competitive_position": [
+    "Leading-edge process technology, manufacturing yield, and scale provide barriers to entry [D01].",
+    "Foundry services are highly capital intensive and technologically demanding [D01].",
+    "Combined revenue mix of 54% from 5nm and 7nm nodes as of Q3 2022 [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Interest-bearing debt was approximately NT$730bn as of end-2021 [D02].",
+    "Net cash of approximately NT$426bn (US$13.5bn) as of 2022-09-30 [D04].",
+    "Fabrication facilities require continual expensive reinvestment [D01, D02, D03]."
+   ],
+   "management_and_capital_allocation": [
+    "Not in pack regarding specific CEO tenure, record, or incentive details [D01, D02].",
+    "Dividends paid per ordinary share grew from NT$7.00 in 2017 to NT$10.25 in 2021 [D02]."
+   ],
+   "price_and_valuation": [
+    "ADR price: $72.80 as of 2022-11-14 [D04].",
+    "Market cap: $377.6bn [D04].",
+    "Trailing P/E: approximately 12.3x [D04].",
+    "Earnings yield: approximately 8.1% (TTM) [D04].",
+    "US ten-year government yield: 3.88% as of 2022-11-14 [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Geopolitical interruption to Taiwan-based production [D05].",
+    "Demand cyclicality and potential semiconductor downturn [D03, D05].",
+    "Customer inventory adjustment and export restrictions [D03, D05].",
+    "High capital intensity of overseas expansion [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "Q3 2022 earnings released 2022-10-13, showing strong growth [D01, D03].",
+    "US$36bn FY2022 capex guidance announced 2022-10-13 [D03]."
+   ],
+   "berkshire_context": [
+    "Approximately $146.7 billion cash at year-end 2021 [D08].",
+    "Float of $147 billion reported in 2021 letter [D08].",
+    "Specific position information for Berkshire Hathaway is not in pack [D07, D08]."
+   ],
+   "document_conflicts": [
+    "None identified."
+   ],
+   "missing_data": [
+    "Independent forward earnings consensus estimates [D04].",
+    "Detailed management compensation and incentive structure [D01].",
+    "Complete owner earnings calculation [D01, D02]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business relies on rapid technological change in semiconductor manufacturing and faces significant geopolitical risks that make long-term outcomes highly uncertain [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "Advanced process technology, manufacturing yield, and scale create significant barriers to entry and customer loyalty [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Revenue and net income have shown consistent, strong growth over the 2017-2021 period [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "Historical ROE remained strong between 20.94% and 29.84% from 2019 to 2021, supported by a healthy balance sheet with net cash [D02, D04]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is extremely capital intensive, requiring constant, massive reinvestment in fabrication facilities and equipment to remain competitive [D01, D03]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Specific details regarding management's incentive structure and long-term owner mentality are not in the pack [D01, D02]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of $377.6 billion, the company is large enough to move the needle for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "An earnings yield of approximately 8.1% against a 10-year treasury yield of 3.88% meets the requirement for a margin of safety [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 2,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a dominant foundry with impressive returns on capital, but hindered by extreme capital intensity and geopolitical risk."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market appears to be discounting the stock due to significant concerns regarding geopolitical stability and the inherent cyclicality of the semiconductor industry [D03, D05]. While the company maintains a dominant market position, the extreme and constant capital intensity required to remain at the leading edge makes it difficult to define the true 'owner earnings' with the required margin of safety [D01, D03].",
+   "evidence": [
+    "Geopolitical risks and potential production interruptions are primary market concerns [D05].",
+    "Capex requirements are massive, with US$36bn guided for 2022 alone [D03].",
+    "The business model requires continuous, expensive reinvestment, complicating the assessment of long-term free cash flow [D01, D03]."
+   ],
+   "market_narrative_we_disagree_with": "The market may be overreacting to near-term cyclical inventory adjustments or geopolitical tensions, failing to account for the company's entrenched manufacturing advantage [D03, D05].",
+   "what_must_be_true": [
+    "Geopolitical stability in the region remains sufficient to support long-term operations.",
+    "The company maintains its technological lead despite the massive capital requirements.",
+    "The demand for high-end semiconductor foundry services continues to grow secularly."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "Not in pack; US$36bn capex in 2022 [D03] consumes significant portion of operating cash flow, making durable owner earnings difficult to define [D01]",
+   "initial_pretax_yield_pct": 8.1,
+   "intrinsic_value_range": {
+    "low": "Not calculable",
+    "high": "Not calculable",
+    "key_assumptions": [
+     "Capex intensity remains high [D01, D03]",
+     "Geopolitical environment stabilizes [D05]"
+    ],
+    "discount_rate_used": "3.88% [D04]"
+   },
+   "price_vs_value": "Not in pack; insufficient clarity on maintenance capex prevents reliable valuation",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "T-bills or Berkshire stock; cash is safer given the commodity-like capital intensity of foundry work [D01, D08]",
+   "downside_case": "Geopolitical disruption to Taiwan operations or structural overcapacity, potentially leading to permanent loss of capital [D05]",
+   "valuation_verdict": "PASS",
+   "flagged_assumptions": [
+    "Maintenance capex cannot be reliably estimated from provided data [D01]",
+    "Geopolitical risks are too great for a core investment [D05]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Berkshire's edge is patience and the ability to deploy permanent capital in marketable securities without needing control or management intervention [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realised through the long-term compounding of the business's intrinsic value and the eventual market recognition of its dominant manufacturing franchise [D01]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the modern era, Berkshire frequently acts as a permanent, passive holder of significant minority stakes in high-quality franchises, particularly when seeking a home for excess cash [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Geopolitical disruption to Taiwan operations resulting in a permanent loss of manufacturing capability [D05]",
+    "Persistent failure of the foundry to maintain its leading-edge technological advantage against well-capitalized competitors [D01]",
+    "Structural decline in foundry-model profitability due to excessive and non-discretionary capital intensity [D01, D03]"
+   ],
+   "berkshire_constraints": "Cash floor requirements ($30B+) and the necessity to avoid significant impact on share price while accumulating a position [D08]",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better allocated to higher-certainty businesses or repurchasing Berkshire shares, as the foundry's capital intensity makes durable owner earnings difficult to assess [D01, D08]",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "Buffett makes decisions on large-cap, high-profile equity stakes that require evaluation of geopolitical risks and commodity-like capital intensity.",
+   "biggest_risk_in_one_sentence": "The extreme capital intensity and geographic concentration of the business create a risk of permanent loss that is inconsistent with a long-term, compounding investment."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-11-14",
+  "company": "Taiwan Semiconductor Manufacturing Company",
+  "ticker": "TSM",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "Not calculable due to extreme, non-discretionary capex requirements [D01, D03]",
+   "initial_pretax_yield_pct": 8.1,
+   "intrinsic_value_range": "Not calculable",
+   "expected_return_pct": 0,
+   "downside_case": "Geopolitical disruption resulting in permanent loss of capital [D05]"
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at an earnings yield of 8.1% [D04], which fails to offer a sufficient margin of safety given the extreme, non-discretionary capital requirements and geopolitical risks inherent in the business [D01, D03, D05].",
+    "citations": [
+     "D01",
+     "D03",
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The business model is essentially a commodity-like foundry service that requires continuous, massive reinvestment of capital just to maintain its competitive position [D01].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Geopolitical tensions surrounding Taiwan create a non-quantifiable risk of permanent loss that is incompatible with our requirement for predictable, long-term economic outcomes [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "We lack sufficient insight into the long-term owner earnings due to the opaque nature of maintenance capex versus growth capex in an industry characterized by rapid, disruptive technological change [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Geopolitical disruption to Taiwan operations resulting in a permanent loss of manufacturing capability [D05]",
+   "Persistent failure of the foundry to maintain its leading-edge technological advantage against well-capitalized competitors [D01]",
+   "Structural decline in foundry-model profitability due to excessive and non-discretionary capital intensity [D01, D03]"
+  ],
+  "what_would_change_our_mind": "A fundamental shift in the geopolitical landscape reducing the risk of regional conflict, combined with a demonstrated ability to generate durable, excess free cash flow after accounting for massive, mandatory capital expenditures.",
+  "memo": "TSMC is a remarkably efficient and dominant foundry that has built an impressive manufacturing franchise based on advanced process technology and scale [D01]. However, the business model is inherently tied to a requirement for constant, massive reinvestment in fabrication facilities, which complicates our ability to define reliable owner earnings [D01, D03]. While the company has shown strong historical growth and high returns on capital, these outcomes are perpetually at risk due to the capital-intensive nature of the semiconductor industry [D01, D02].\n\nOur assessment is further hindered by the significant geopolitical risks associated with the company's concentration in Taiwan [D05]. In our view, the potential for catastrophic disruption makes it impossible to gain the comfort necessary for a core, long-term commitment [D05]. We prefer businesses where the path to future earnings is clear and within our circle of competence; here, the uncertainty regarding the environment in which the company operates places it firmly in the 'too hard' pile [D01, D05].\n\nAt a market capitalization of $377.6 billion and an earnings yield of 8.1%, the price does not provide the margin of safety we require given these substantial risks [D04]. We choose to keep our capital in more predictable, less capital-intensive enterprises or in cash equivalents, which remain a safer home while we wait for more attractive opportunities [D01, D08].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "1989_usair_pref",
+  "company": "USAir Group",
+  "ticker": "U",
+  "aliases": [
+    "USAir Group",
+    "U",
+    "USAir",
+    "USAir Group Inc.",
+    "US Airways",
+    "USAIR",
+    "Piedmont",
+    "Piedmont Aviation",
+    "Pacific Southwest Airlines",
+    "PSA",
+    "Ed Colodny",
+    "Edward Colodny"
+  ],
+  "as_of_date": "1989-08-07",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "August 7, 1989 preferred transaction, reported August 8.",
+  "fund_aum_usd_bn": 0.0,
+  "decider": "Buffett",
+  "notes": "Historical reconstruction: doc Date is effective information cutoff, not archival publication date. Only pre-cutoff business conditions are reconstructed; later investor explanations/outcomes appear in key only. Current cash and complete comparable equity denominator not recovered; 0 sentinel, not zero capital. Original cost table and agreements incomplete; later self-criticism confined to outcome_note, not taught as an original BUY driver. Next-day report reconstructs same-day terms."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "dep_2021_atvi_buy",
+  "company": "Activision Blizzard",
+  "ticker": "ATVI",
+  "aliases": [
+    "Activision Blizzard, Inc.",
+    "Activision Blizzard",
+    "Activision",
+    "Blizzard Entertainment",
+    "Blizzard",
+    "ATVI",
+    "King",
+    "King Digital Entertainment",
+    "Call of Duty",
+    "Warzone",
+    "World of Warcraft",
+    "Candy Crush",
+    "Diablo",
+    "Overwatch",
+    "Hearthstone",
+    "Bobby Kotick"
+  ],
+  "as_of_date": "2021-10-31",
+  "mode": "new",
+  "era": "D",
+  "first_action_window": "2021-10 (85%); completed 2021-11",
+  "fund_aum_usd_bn": 144.1,
+  "decider": "unknown",
+  "notes": "Research pack is an affirmative analyst case, not an investor endorsement. Cutoff is end of the as_of_date, including same-date evening releases. fund_aum_usd_bn is the explicitly dated cash/T-bill benchmark in D08, except Cisco where it is 1998 common-stock market value. Not consolidated assets or fee-paying AUM. October close unavailable. Individual deputy identity and own-words security-selection rationale are undisclosed; only attribution/timing/cost are graded as stated evidence. Full cost exceeded $1B; <=$1B refers to approximate October initial tranche, not the $975M December market value."
+}

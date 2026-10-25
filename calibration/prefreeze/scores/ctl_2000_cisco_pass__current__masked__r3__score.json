@@ -1,0 +1,52 @@
+{
+ "trade_id": "ctl_2000_cisco_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Outside Buffett's demonstrated technology circle and no demonstrated margin of safety",
+   "No Cisco in the parent 13F-era holdings window around 2000",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "Rapid technological change and product cycles",
+   "Lack of a durable, cost-free moat",
+   "Reliance on complex accounting (pooling)",
+   "Inability to assess capital structure due to missing data"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business operates in an industry defined by rapid technological change",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company relies on complex accounting, such as pooling",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Success here requires constant, heavy R&D spending and a steady stream of acquisitions",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Given the uncertainty surrounding the company's long-term economics and the high risk of permanent capital loss from technological displacement, we have no basis to value the enterprise [D01, D05].",
+ "grader_notes": "The agent reached the correct 'PASS' decision but failed to ground its reasoning in Buffett's actual cited logic of circle-of-competence exclusion and verified historical absence. Instead, the agent generated independent fundamental analysis based on provided documents. The reasoning overlap is zero because the agent prioritized specific company performance metrics over Buffett's stated mandate-based discipline.",
+ "run": "ctl_2000_cisco_pass__current__masked__r3",
+ "state_llm": "PARTIAL",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

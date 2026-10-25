@@ -1,0 +1,48 @@
+{
+ "trade_id": "2020_wfc_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 2,
+  "matched": [],
+  "missed": [
+   "Buffett criticized the incentive system and delayed response to misconduct.",
+   "The failure to address known problems was more serious than the first error."
+  ],
+  "extra_agent_drivers": [
+   "The institutional culture failed, resulting in widespread misconduct that has proven difficult and expensive to remediate.",
+   "Long-term earnings power is structurally impaired by ongoing regulatory restrictions on asset growth.",
+   "The bank's competitive advantage in customer retention has been damaged, rendering the future of the deposit franchise unknowable.",
+   "Management turnover and the necessity of massive trust repair absorb capital and focus, diverting resources from core banking activities."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The stock trades at approximately 0.67x tangible book value",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The Federal Reserve's asset-growth restriction serves as a tangible marker of this deterioration",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 5,
+  "share": 0.5
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "This is not merely a cyclical downturn or a temporary setback; it is an institutional failure that has made the future of the bank's earning power unknowable.",
+ "grader_notes": "The agent correctly identified the SELL decision. However, it failed to cite the specific drivers Buffett emphasized in his 2020 commentary regarding the culture and failure to address known problems, opting instead for a broad fundamental analysis. The reasoning overlap is poor because it replaces Buffett's specific critiques with general business-school style analysis.",
+ "run": "2020_wfc_sell__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "SELL",
+ "agent_decision": "SELL",
+ "key_driver_count": 2,
+ "reasoning_scorable": false
+}

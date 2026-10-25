@@ -1,0 +1,52 @@
+{
+ "trade_id": "ctl_2020_ba_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett said Berkshire had not acted because nothing was sufficiently attractive; calls before Federal Reserve action did not offer appealing terms, and firms subsequently borrowed more cheaply in public markets.",
+   "No Boeing in Berkshire parent 13F census, including Q4 2019, Q1 and Q2 2020. May 2 meeting documents no attractive large crisis financing. Direct Boeing-to-Buffett approach not independently authenticated; do not claim he rejected a specified Boeing term sheet.",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements; do not award reasoning-overlap credit for treating them as quotations."
+  ],
+  "extra_agent_drivers": [
+   "The company faces a combination of MAX production groundings and an industry-wide demand collapse, creating existential liquidity risks.",
+   "The business is currently cash-flow negative, with $27.3 billion in debt and mounting abnormal production costs.",
+   "While the duopoly position is durable, the current inability to reliably estimate future owner earnings prevents the calculation of a margin of safety.",
+   "Berkshire's capital is better deployed into share buybacks or maintaining cash reserves given the present uncertainty."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business is currently cash-flow negative, with $27.3 billion in debt",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the latest results showing negative operating cash flow of $2.446 billion",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Berkshire's capital is better deployed into share buybacks or maintaining cash reserves",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 7,
+  "share": 0.7
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We prefer to invest in companies where the path to long-term owner earnings is clear [D08].",
+ "grader_notes": "The agent correctly reached the PASS decision but provided a fundamental analysis thesis instead of referencing Buffett's actual stated reasons for passivity (lack of attractive opportunities/no 13F holdings/boundary discipline). The agent's reasoning relies on issuer-specific fundamental risks rather than the macro-level capital allocation criteria Buffet cited for his inactivity during this period.",
+ "run": "ctl_2020_ba_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

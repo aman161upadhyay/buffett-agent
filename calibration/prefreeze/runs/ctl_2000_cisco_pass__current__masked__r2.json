@@ -1,0 +1,250 @@
+{
+ "pack": "ctl_2000_cisco_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2000-03-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company supplies routers and switches that manage Internet traffic and corporate data [D01]. It operates as an established, profitable infrastructure provider with an installed network base and broad product line [D01].",
+   "products_customers_and_why_they_buy": [
+    "Routers and switches sold to enterprise, service-provider, and smaller-business customers [D01].",
+    "Customers benefit from compatibility, software familiarity, and the value of standardizing networks, supporting potential repeat purchases [D01]."
+   ],
+   "economics": [
+    "Revenue grew 53% in the second quarter and 52% over six months [D01].",
+    "Reported GAAP net income was $825 million for the quarter; pro-forma net income was $906 million, excluding certain acquisition-related costs and non-cash items [D01].",
+    "Pricing history not in pack.",
+    "Capital intensity and maintenance capex not in pack."
+   ],
+   "earnings_record": [
+    "Six-month revenue of $8.26 billion [D01].",
+    "Six-month GAAP net income of $1.25 billion; pro-forma income of $1.73 billion [D01].",
+    "Historical record beyond current year not in pack."
+   ],
+   "competitive_position": [
+    "Broad product line and customer familiarity provide advantages [D01].",
+    "Peers include Lucent, Nortel, and Juniper [D06].",
+    "Market share rank not in pack."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Cash and debt levels not in pack.",
+    "Company utilizes acquisitions to fill product gaps [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Management focuses on broadening the demand base and acquiring adjacent technologies [D01].",
+    "Two-for-one stock split announced [D01].",
+    "Insider ownership and specific compensation incentives not in pack."
+   ],
+   "price_and_valuation": [
+    "Price and market cap not in pack.",
+    "Earnings yield not in pack.",
+    "P/E and P/B not in pack.",
+    "Drawdown and history not in pack."
+   ],
+   "what_the_market_is_worried_about": [
+    "Rapid technological change requiring constant engineering or acquisitions [D05].",
+    "Risk of bandwidth demand not ensuring continued vendor profit share [D05].",
+    "Complexity of accounting (pooling restatements, acquired R&D) [D05].",
+    "Potential for competition or capital-spending slowdown to compress margins and multiples [D05]."
+   ],
+   "deal_terms_if_any": "not in pack",
+   "recent_events": [
+    "Fiscal second-quarter earnings reported on February 8, 2000 [D01].",
+    "Two-for-one stock split announced with February 22 record date [D01]."
+   ],
+   "berkshire_context": [
+    "Berkshire's 1998 year-end common stock portfolio was $37.49 billion [D08].",
+    "Existing stake not in pack."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Contemporaneous stock price for valuation.",
+    "Detailed balance sheet, including cash and debt levels.",
+    "Maintenance capex figures for owner earnings calculation.",
+    "Long-term multi-year earnings and ROE record."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business operates in a field of rapid technological change requiring constant engineering or acquisitions to remain relevant [D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While compatibility and customer familiarity offer some advantages, it is unclear if these outweigh the risk of bandwidth demand failing to ensure continued vendor profit share [D01], [D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "UNSURE",
+     "evidence": "Historical earnings records beyond the current year are not in the pack [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "Cash, debt levels, and historical ROE data are not in the pack [D01]."
+    },
+    "capital_intensity": {
+     "score": "UNSURE",
+     "evidence": "Maintenance capex and capital intensity data are not in the pack [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Insider ownership and specific compensation incentives are not provided, and the reliance on acquisitions to fill product gaps raises questions about capital allocation [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "Market capitalization is not in the pack, preventing a determination of whether this investment could move the needle [D01]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "Price, earnings yield, and valuation metrics are not in the pack [D01]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 0,
+   "n_fail": 1,
+   "n_unsure": 7,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a technology-dependent business facing rapid change and significant competitive uncertainty"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The business operates in a field of rapid technological change that necessitates constant engineering and reliance on acquisitions to maintain relevance [D05]. We avoid such businesses because their economics are inherently unstable and difficult to forecast over the long term, placing them firmly in our 'too hard' pile [D05].",
+   "evidence": [
+    "The business requires constant acquisitions to fill product gaps [D01].",
+    "Technology is rapidly changing, creating ongoing uncertainty regarding long-term competitive advantage [D05].",
+    "Risk exists that bandwidth demand may not translate into sustained vendor profit share [D05]."
+   ],
+   "market_narrative_we_disagree_with": "The market may value the rapid revenue growth and the company's current position as a network infrastructure provider, ignoring the risk of technological obsolescence and the capital-intensive nature of perpetual acquisition-based growth [D01], [D05].",
+   "what_must_be_true": [
+    "The company's technology remains the industry standard despite rapid changes",
+    "Profit margins remain stable despite the reliance on acquisitions",
+    "The accounting complexity is resolved without reflecting underlying operational failures"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "Not applicable due to 'too hard' classification [D05]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "not in pack",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / T-bills / existing holdings / Berkshire buyback — which is better and why [D08]",
+   "downside_case": "potential permanent loss of capital due to technological obsolescence and competitive volatility [D05]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Company rejected due to inability to forecast economics [D05]",
+    "Missing maintenance capex, historical earnings record, and stock price [D01]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital (default for marketable securities after 1980) [D08]",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "the company's ability to maintain its industry standard position while translating bandwidth demand into sustained, compounding vendor profit share [D05]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in the 1980-1999 era, our role is that of a permanent, passive holder of wonderful businesses [D08]. However, as noted in the filters, this business fails our standards and falls into the 'too hard' pile due to technological instability [D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "rapid technological obsolescence rendering current product suite irrelevant [D05]",
+    "failure of bandwidth demand to convert into sustained vendor profit share [D05]",
+    "inability to maintain margins due to reliance on perpetual acquisitions [D01], [D05]"
+   ],
+   "berkshire_constraints": "we maintain a fortress balance sheet with substantial cash, avoiding businesses that risk permanent capital loss or require constant, unpredictable capital expenditures [D05], [D08]",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "capital is better deployed into existing, understandable businesses with durable competitive advantages or held in T-bills while awaiting appropriate opportunities [D05], [D08]",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business falls into the 'too hard' pile due to technological instability and lack of a predictable long-term moat, rendering it unsuitable for Berkshire regardless of size.",
+   "biggest_risk_in_one_sentence": "The requirement for constant technological innovation and acquisition to remain competitive creates an unstable economic foundation that precludes a reliable estimate of intrinsic value."
+  }
+ },
+ "final": {
+  "as_of_date": "2000-03-01",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "era_a_bargain": false,
+  "negotiated_terms": false,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "potential permanent loss of capital due to technological obsolescence and competitive volatility"
+  },
+  "drivers": [
+   {
+    "driver": "The business operates in a field of rapid technological change requiring constant engineering or acquisitions to remain relevant [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "Economics are inherently unstable and difficult to forecast over the long term, placing the company firmly in our 'too hard' pile [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "There is a risk that bandwidth demand may not translate into sustained vendor profit share [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "The reliance on constant acquisitions to fill product gaps creates uncertainty regarding long-term competitive advantage [D01], [D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "rapid technological obsolescence rendering current product suite irrelevant [D05]",
+   "failure of bandwidth demand to convert into sustained vendor profit share [D05]",
+   "inability to maintain margins due to reliance on perpetual acquisitions [D01], [D05]"
+  ],
+  "what_would_change_our_mind": "Evidence of a sustainable, durable competitive moat that is independent of rapid technological cycles, along with a predictable multi-year record of high returns on capital.",
+  "memo": "We have examined the company and its role in supplying network infrastructure [D01]. While the company is currently profitable, its business model requires constant technological innovation and frequent acquisitions to remain relevant in a rapidly changing industry [D01], [D05].\n\nWe prioritize businesses with durable competitive advantages that we can understand and project with high confidence over the long term [D05]. Because this company's economics are tied to a volatile technological cycle, we are unable to determine its long-term intrinsic value [D05].\n\nWe avoid businesses that require constant, unpredictable capital expenditures or perpetual acquisitions to maintain their position [D05]. Consequently, this investment sits firmly in our 'too hard' pile, and we prefer to keep our capital in assets with more certain long-term prospects [D05], [D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

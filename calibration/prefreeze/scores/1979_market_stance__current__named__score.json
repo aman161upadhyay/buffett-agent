@@ -1,0 +1,51 @@
+{
+ "trade_id": "1979_market_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "At approximately book value, diversified American equities with roughly 13% ROE offered better long-term value than 9.5% bonds → The earnings yield of equities significantly exceeds the long government bond yield by nearly 5 percentage points, offering superior long-term owner returns",
+   "Pension buying followed past price pleasure rather than prospective value → Institutional sentiment is notably pessimistic, with private pension allocations to equities at a record low of 9%, signaling widespread fear"
+  ],
+  "missed": [
+   "Replacement-cost concerns did not invalidate attractive returns in financial and service industries.",
+   "Waiting for certainty forces the investor to pay for consensus."
+  ],
+  "extra_agent_drivers": []
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The market earnings yield of 13.83% provides a spread of 4.92 percentage points over the 8.91% ten-year Treasury yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Stocks are broadly attractive, with the Dow trading at approximately 0.894 times book value",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Institutional sentiment is notably pessimistic, with private pension allocations to equities at a record low of 9%",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 6,
+  "cited": 1,
+  "share": 0.17
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "When the earnings yield of the market exceeds the long bond yield by such a wide margin, we need not concern ourselves with the near-term path of the market index, which remains a distraction from the fundamental business economics [D01, D04].",
+ "grader_notes": "The agent correctly identifies the long-term value proposition of equities relative to bonds and the contrarian opportunity presented by institutional fear. It misses Buffett's specific nuanced points regarding the replacement-cost resilience of service industries and the danger of waiting for a consensus. The logic is sound and matches the overarching investment stance.",
+ "run": "1979_market_stance__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY_BROADLY",
+ "agent_decision": "BUY_BROADLY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

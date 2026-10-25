@@ -1,0 +1,54 @@
+{
+ "trade_id": "ctl_2000_cisco_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Outside Buffett's demonstrated technology circle and no demonstrated margin of safety",
+   "No Cisco in the parent 13F-era holdings window around 2000",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "High valuation multiples",
+   "Technological obsolescence risks",
+   "Reliance on acquisitions",
+   "Reliance on pro-forma accounting"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company trades at 131x-212x earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "business faces rapid technological change and competitive substitution risks",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market is currently valuing this business at an extreme multiple of 131x to 212x earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Charlie and I have looked at this business and concluded that it sits firmly outside our circle of competence.",
+ "grader_notes": "The agent correctly identified the pass decision and attributed the rationale to Buffett's circle of competence. However, the agent failed to capture the specific drivers identified in the answer key, instead providing detailed fundamental analysis (valuation, acquisition strategy) that was categorized in the key as analyst-reconstructable rather than authenticated issuer-specific Buffett statements.",
+ "run": "ctl_2000_cisco_pass__current__masked__r2",
+ "state_llm": "PARTIAL",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

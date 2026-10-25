@@ -1,0 +1,64 @@
+{
+ "pack": "1974_market_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "1974-11-01",
+ "stages": {},
+ "final": {
+  "as_of_date": "1974-11-01",
+  "trailing_earnings_yield_pct": 13.02,
+  "normalised_earnings_yield_pct": 13.02,
+  "normalisation_basis": "trailing (no distortion)",
+  "long_bond_yield_pct": 7.8,
+  "spread_points": "5.22",
+  "drawdown_from_high_pct": 41.4,
+  "panic_indicators": [
+   "Forbes reports interest in gold and fears of depression [D03]",
+   "Decline of 41.4% from January 1973 average [D04]",
+   "Pervasive pessimism noted in Forbes interview [D03]"
+  ],
+  "rule_decision": "BUY_BROADLY",
+  "decision": "BUY_BROADLY",
+  "override_reason": null,
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "The S&P 500 earnings yield of 13.02% significantly exceeds the 7.80% yield on ten-year US Treasuries, providing a positive spread of 5.22 percentage points [D04].",
+  "valuation_level": "The market has experienced a substantial decline of 41.4% from its January 1973 average, with trailing P/E ratios compressing to 7.68x [D04].",
+  "ideas_that_qualify": [
+   "Simple, understandable businesses such as water utilities, newspapers and retailers [D01]",
+   "Businesses with durable customer relationships that can maintain pricing power [D01]"
+  ],
+  "berkshire_action": "Aggressively deploy available cash into high-quality, understandable businesses that pass our conservative valuation filters, as the current market environment offers exceptional value relative to bonds.",
+  "drivers": [
+   {
+    "driver": "The earnings yield on equities (13.02%) offers a superior return compared to the 7.80% available on long-term government bonds [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "A market decline of over 40% has created a broad set of opportunities to purchase businesses at prices well below their intrinsic going-concern value [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Current market sentiment is characterized by pervasive fear and pessimism, which typically marks an attractive entry point for long-term investors [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The opportunity set remains focused on simple, understandable businesses with strong competitive advantages, unaffected by the broader market's emotional volatility [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "memo": "Charlie and I view the current market climate as one of those rare times when stocks in general are undeniably cheap. With the market having fallen over 40% from its peak and earnings yields sitting significantly above bond yields, we are being presented with the kind of value that does not require us to forecast macro-economic turns or guess at the path of the index. Our approach remains anchored in finding understandable businesses—those with durable moats and pricing power—that we can buy at a significant margin of safety [D01, D04].\n\nWhile the headlines are dominated by fears of depression, inflation, and resource scarcity, these are precisely the times when a patient investor can build wealth by focusing on the underlying economics of individual businesses rather than the mood of the market [D03, D05]. We have no interest in predicting whether the current rebound will hold or if the bottom is truly in; we simply know that when the price of a dollar of earnings is this low relative to alternative safe investments, our duty is to be aggressive buyers of wonderful businesses at fair prices [D01, D03].",
+  "uncited_claims": [
+   "Charlie and I view the current market climate as one of those rare times when stocks in general are undeniably cheap."
+  ]
+ }
+}

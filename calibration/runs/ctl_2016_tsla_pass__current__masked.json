@@ -1,0 +1,257 @@
+{
+ "pack": "ctl_2016_tsla_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2016-02-11",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The company produces premium electric vehicles, software-enabled features, and energy-storage products [D01]. It operates a vertically integrated model encompassing manufacturing, sales, service, and charging infrastructure [D01].",
+   "products_customers_and_why_they_buy": [
+    "Premium electric vehicles, software features, and energy storage [D01].",
+    "Customers exhibit high enthusiasm, prioritizing performance, technology, safety, and style over fuel savings [D01, D03]."
+   ],
+   "economics": [
+    "Margins: Targeted gross margin near 30% by year-end [D01, D03].",
+    "Capital intensity: Planned $1.5 billion of capital investment for the current year [D01, D03].",
+    "Owner-earnings: Not positive; company lacks a consistent GAAP profit base [D02, D04].",
+    "Cash flow: Core operational cash flow was $179 million in Q4, but GAAP operating cash flow was negative ($30 million used in operations) [D01, D03]."
+   ],
+   "earnings_record": [
+    "No consistent GAAP profit base in the evidence [D02, D04].",
+    "Fourth-quarter deliveries grew 76% year-on-year; global orders grew 35% [D01, D03]."
+   ],
+   "competitive_position": [
+    "Claims luxury-sedan share gains against established incumbents like Mercedes-Benz, BMW, Audi, and Porsche [D01, D06].",
+    "Differentiated through unique charging/software ecosystem [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Debt: Asset-based credit commitments increased to $1 billion [D01, D03].",
+    "Capital needs: High requirements for production ramp, new factory capacity, and lower-priced vehicle development [D01, D05]."
+   ],
+   "management_and_capital_allocation": [
+    "Management reports strong order growth and provides specific, non-GAAP profitability targets [D01, D03].",
+    "Capital allocation focused on aggressive growth rather than current dividends or buybacks [D01, D03]."
+   ],
+   "price_and_valuation": [
+    "Price: $150.47 per share as of February 11, 2016 [D02, D04].",
+    "Valuation: Profitable historical EPS multiple unavailable; valuation dependent on speculative future scale [D02, D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "No profitable historical GAAP earnings base exists [D02, D04]. Pack does not provide FCF yield or other standard valuation ratios [D02]."
+   },
+   "what_the_market_is_worried_about": [
+    "Lack of consistent GAAP profitability [D05].",
+    "High capital intensity ($1.5 billion planned) and funding needs [D05].",
+    "Production quality limits [D05].",
+    "Competitive pressures in the mass market [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Feb 9: Asset-based credit commitments increased to $1 billion [D07].",
+    "Feb 10: Shareholder letter reporting Q4 growth and 2016 targets [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds a prior interest in BYD but has no stated stake in this company [D08].",
+    "Buffett-scale investment requires predictable owner earnings [D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Consistent GAAP profit history, maintenance capex figures, debt/equity ratios, and long-term owner-earnings projections."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The company operates in a rapidly evolving, capital-intensive industry with binary technology outcomes and lacks a long-term track record of profitability [D01, D04]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While the company has differentiated software and charging infrastructure, it faces intense competition from established luxury incumbents and lacks proven long-term pricing power [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company does not have a consistent GAAP profit base, making it a speculative growth venture rather than a proven franchise [D02, D04]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company lacks positive earnings and is increasing its reliance on credit facilities, which does not meet our standard for unlevered capital strength [D01, D03]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business requires aggressive, high levels of capital investment ($1.5 billion planned) for production and expansion, which is antithetical to our preference for low-capital-intensity models [D01, D03]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management focuses on aggressive growth and non-GAAP targets rather than the conservative capital allocation and owner-earnings focus we require [D01, D03]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "While the company is large, it remains a growth-stage entity without the predictable earnings required for a core Berkshire investment [D02, D08]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "The company has no earnings yield, failing our requirement for a 10% pre-tax earnings yield and a margin of safety [D02, D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 0,
+   "n_fail": 6,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a capital-intensive, pre-profit growth venture that falls outside our circle of competence"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is valuing this company based on speculative future growth in a capital-intensive industry where no consistent GAAP profit base has been established [D02, D04, D05]. There is no bargain here because the business lacks the predictable owner earnings and margin of safety required for a Berkshire investment [D02, D08].",
+   "evidence": [
+    "No consistent GAAP profit base exists [D02, D04]",
+    "Company requires $1.5 billion in capital investment, antithetical to our preference for low-capital-intensity models [D01, D03]",
+    "Valuation is dependent on speculative future scale rather than tangible earnings [D02, D04]"
+   ],
+   "market_narrative_we_disagree_with": "The market appears to be pricing the stock based on aggressive growth and non-GAAP targets rather than the conservative capital allocation and owner-earnings focus we require [D01, D03].",
+   "what_must_be_true": [
+    "The company would need to transition from a speculative growth venture to a durable franchise with proven, predictable owner earnings.",
+    "The business would need to demonstrate the ability to generate returns on capital while significantly reducing its capital intensity.",
+    "The company would need to achieve consistent GAAP profitability to provide a margin of safety against intrinsic value."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "Not applicable/negative [D02, D04]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "Not calculable",
+    "high": "Not calculable",
+    "key_assumptions": [
+     "No consistent GAAP profit base [D02, D04]",
+     "High capital intensity required to grow [D01, D03]"
+    ],
+    "discount_rate_used": "Not applicable"
+   },
+   "price_vs_value": "N/A - business lacks predictable owner earnings",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Existing holdings or cash remain superior as this business lacks the predictable owner earnings required for our standards [D08].",
+   "downside_case": "Significant risk of permanent loss of capital given the lack of GAAP profitability and high capital requirements [D01, D02, D03, D04].",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "No data provided to estimate owner earnings or intrinsic value."
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We act as a permanent, passive holder when we acquire marketable securities, relying on the long-term compounding of the business and rational capital allocation by management [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realised through the long-term growth of owner earnings and the durable compounding of capital within the business [D08]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the post-1980 era, our standard approach for marketable securities is to hold positions indefinitely, as we seek wonderful businesses that do not require our direct management intervention [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Inability to generate consistent GAAP profitability",
+    "Persistent reliance on external financing to fund operations",
+    "Failure to achieve scale without excessive capital intensity",
+    "Entry of well-capitalized incumbents into the electric vehicle space"
+   ],
+   "berkshire_constraints": "We maintain a minimum cash floor of $30 billion and avoid businesses that risk the permanent loss of capital or our reputation [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed in established businesses with durable competitive advantages and predictable owner earnings [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business operates outside our circle of competence as it lacks a long-term track record of profitability and requires high capital intensity.",
+   "biggest_risk_in_one_sentence": "There is a significant risk of permanent loss of capital due to the company's lack of GAAP profitability and its reliance on high capital investment to support speculative growth."
+  }
+ },
+ "final": {
+  "as_of_date": "2016-02-11",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Negative/Not calculable [D02, D04]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Not calculable [D03]",
+   "expected_return_pct": 0,
+   "downside_case": "Significant risk of permanent loss of capital due to lack of GAAP profitability and high capital requirements [D01, D02, D03, D04]."
+  },
+  "drivers": [
+   {
+    "driver": "The company has no earnings yield, failing our requirement for a 10% pre-tax earnings yield and a margin of safety [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The business operates in a capital-intensive industry with aggressive investment requirements of $1.5 billion that are antithetical to our preference for low-capital-intensity models [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The company lacks a consistent GAAP profit base and relies on external financing, which does not meet our standard for unlevered capital strength [D01, D02, D03].",
+    "citations": [
+     "D01",
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Management focuses on non-GAAP targets and speculative future growth rather than the conservative capital allocation and owner-earnings focus we require [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Inability to generate consistent GAAP profitability",
+   "Persistent reliance on external financing to fund operations",
+   "Failure to achieve scale without excessive capital intensity",
+   "Entry of well-capitalized incumbents into the electric vehicle space"
+  ],
+  "what_would_change_our_mind": "The company would need to transition from a speculative growth venture to a durable franchise with proven, predictable GAAP owner earnings and significantly reduced capital intensity.",
+  "memo": "Charlie and I have looked at this business, and it is firmly in our 'too hard' pile. While the company produces premium vehicles and has generated enthusiasm among its customers [D01, D03], it lacks the consistent GAAP earnings record that we require to assess intrinsic value [D02, D04].\n\nWe look for wonderful businesses that generate strong returns on capital with little debt [D08]. This company, by contrast, requires aggressive capital investment, with $1.5 billion planned for the current year, and it continues to rely on external credit facilities [D01, D03].\n\nAt present, the company does not provide the owner earnings or the 10% initial pre-tax earnings yield we seek [D02, D04]. Investing here would be a speculation on future scale rather than an investment in a proven franchise, and we have no interest in risking capital where the economics are not near-certain [D02, D03].\n\nOur capital is better deployed in established businesses with durable competitive advantages and predictable cash flows [D08]. We will continue to hold cash until an opportunity presents itself that meets our standards for safety and return.",
+  "uncited_claims": []
+ }
+}

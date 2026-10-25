@@ -1,0 +1,260 @@
+{
+ "pack": "2026_tmhc_acq",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2026-05-29",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The company is a homebuilder developing communities for entry-level, move-up, and resort-lifestyle buyers, while also providing mortgage and related financial services [D01]. The platform utilizes a diversified strategy across submarkets and maintains a portfolio of owned and controlled lots [D01].",
+   "products_customers_and_why_they_buy": [
+    "Homes for entry-level, move-up, and resort-lifestyle buyers [D01]",
+    "Mortgage and financial services [D01]"
+   ],
+   "economics": [
+    "Home closings gross margin was 20.0% (adjusted 20.6%) in 1Q26, down from 24.0% (adjusted 24.8%) in the prior year [D01, D02]",
+    "Capital intensity is driven by land and homes under construction; $503 million invested in land/development in 1Q26 [D01, D02]",
+    "Net homebuilding debt/capital was 20.5% [D01, D02]"
+   ],
+   "earnings_record": [
+    "1Q26 total revenue $1.387 billion; net income $98.625 million [D01]",
+    "1Q26 diluted EPS $1.01; adjusted EPS $1.12 [D01]",
+    "Year-on-year closings, revenue, and margins declined in 1Q26 [D03]"
+   ],
+   "competitive_position": [
+    "Maintains 75,626 lots, with 51% controlled off balance sheet [D01, D06]",
+    "Total lot supply is approximately 6.2 years at trailing closing rates [D06]",
+    "Resort-lifestyle segment was the only segment to grow year-on-year in 1Q26 [D03]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "$6.239 billion in real estate inventory plus $388 million in land deposits [D02]",
+    "Liquidity of approximately $1.6 billion, including $653 million in cash [D01]",
+    "Net homebuilding debt/capital is 20.5% [D01]"
+   ],
+   "management_and_capital_allocation": [
+    "Repurchased 2.5 million shares for $150 million (~$61/share) in 1Q26 [D01]",
+    "Management reaffirmed annual guidance of ~11,000 home closings and ~$2 billion in land investment [D03]"
+   ],
+   "price_and_valuation": [
+    "Book value per share is $64 [D01]",
+    "1Q26 repurchases occurred at approximately $61 per share [D01]",
+    "Market price on 2026-05-29 is not in pack [D04]"
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "No annualized, normalized, or FCF yields stated in pack; [D01, D02, D04]"
+   },
+   "what_the_market_is_worried_about": [
+    "Interest-rate sensitivity of demand [D05]",
+    "Inventory impairment risks for land acquired in stronger environments [D05]",
+    "Year-on-year declines in orders, closings, and margins [D05]"
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2026-04-22: 1Q26 earnings release [D01, D07]"
+   ],
+   "berkshire_context": [
+    "Berkshire holds no common stock of the Company as of 13F dated 2026-03-31 [D08]",
+    "Berkshire owns Clayton Homes and other building-products operations [D08]"
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Normalized full-cycle owner earnings",
+    "Maintenance vs. growth capital expenditure split",
+    "Current market price on 2026-05-29",
+    "Warranty-liability stress test"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The business builds and sells residential homes, a predictable, slow-changing industry Berkshire already understands through Clayton Homes [D01, D08]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While the company maintains a large lot supply, the homebuilding industry is highly cyclical and fragmented, making durable pricing power difficult to ascertain without evidence of a sustained cost advantage [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company is experiencing year-on-year declines in revenue, closings, and margins as of 1Q26 [D03, D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "Net homebuilding debt/capital is 20.5%, suggesting a conservative capital structure [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is highly capital-intensive, requiring constant, significant investment in land and inventory to maintain operations, which is prone to impairment risks [D01, D02, D05]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Management demonstrates an owner-minded approach by repurchasing shares at a discount to book value [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "The pack provides no market capitalization data to assess if it is large enough to move the needle for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "The current market price is not in the pack, and there are no normalized owner earnings to calculate a yield [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 3,
+   "n_fail": 2,
+   "n_unsure": 3,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a capital-intensive homebuilder with a cyclical earnings record and no clear, durable competitive advantage."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no compelling reason to expect a bargain here as the business lacks a durable competitive advantage and displays highly cyclical earnings prone to inventory impairment risks [D01, D05]. Without clear evidence of pricing power or a protected market position, the current decline in margins and revenue suggests this is a commodity-like homebuilder rather than the wonderful business we seek [D01, D03, D06].",
+   "evidence": [
+    "Year-on-year declines in revenue, closings, and margins in 1Q26 [D03]",
+    "High capital intensity requiring constant investment in land and inventory [D01, D02]",
+    "Highly cyclical and fragmented industry with no evidence of durable pricing power [D01, D06]"
+   ],
+   "market_narrative_we_disagree_with": "The market may be focused on short-term valuation relative to book value or cyclical recovery, but we remain concerned about the lack of a permanent moat in a capital-intensive industry [D01, D03].",
+   "what_must_be_true": [
+    "Proof of a sustainable competitive advantage beyond mere land ownership",
+    "Evidence that earnings are normalized across a full cycle rather than reflecting a peak-to-trough decline",
+    "Greater clarity on the margin of safety relative to normalized owner earnings"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack [D01, D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "requires normalized cycle earnings which are not provided [D01, D05, D06]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "not in pack",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / T-bills / existing holdings / Berkshire buyback — superior options exist as this business lacks a durable competitive advantage [D01, D06]",
+   "downside_case": "potential inventory impairment and margin compression during housing downturns; risk is material in cyclical, capital-intensive businesses [D01, D05]",
+   "valuation_verdict": "PASS",
+   "flagged_assumptions": [
+    "No market price provided for 2026-05-29",
+    "No normalized owner earnings provided",
+    "No long bond rate provided"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We prefer to act as a permanent, passive holder, allowing the business to compound through rational capital allocation while we maintain patience [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realized through the company's long-term business performance and ability to generate superior returns on capital, rather than through exit or catalyst [D01, D06]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For a marketable security, we act as a permanent holder; however, given the business lacks a durable moat and consistent earnings record, we have chosen to PASS [D01, D03, D06]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "cyclical nature of homebuilding leading to earnings volatility",
+    "lack of a durable competitive advantage/moat",
+    "high capital intensity with susceptibility to inventory impairment",
+    "persistent year-on-year declines in revenue and margins"
+   ],
+   "berkshire_constraints": "Berkshire must maintain significant liquidity and avoid investments lacking a durable moat [D01].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed into existing wonderful businesses or Berkshire stock repurchases [D01].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business lacks the durable competitive advantage and consistent earnings required for a Berkshire investment.",
+   "biggest_risk_in_one_sentence": "The cyclical, capital-intensive nature of the homebuilding industry creates a high risk of permanent capital loss during market downturns."
+  }
+ },
+ "final": {
+  "as_of_date": "2026-05-29",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "potential inventory impairment and margin compression during cyclical downturns"
+  },
+  "drivers": [
+   {
+    "driver": "The business lacks a durable competitive advantage and displays highly cyclical earnings, making it a commodity-like operation rather than a wonderful business [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The company faces persistent year-on-year declines in revenue, closings, and margins as of 1Q26, indicating a lack of consistent performance [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "High capital intensity requiring significant, constant investment in land and inventory poses a risk of permanent capital loss during market downturns [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Superior alternatives exist for capital allocation, including reinvestment in Berkshire's existing businesses or repurchasing our own stock [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "cyclical nature of homebuilding leading to earnings volatility",
+   "lack of a durable competitive advantage/moat",
+   "high capital intensity with susceptibility to inventory impairment",
+   "persistent year-on-year declines in revenue and margins"
+  ],
+  "what_would_change_our_mind": "Evidence of a sustainable, durable competitive advantage that persists across a full economic cycle, combined with clear, normalized owner earnings and a reliable margin of safety.",
+  "memo": "We have reviewed the business, which operates as a homebuilder serving various buyer segments and providing financial services [D01]. While we are familiar with the industry through our ownership of Clayton Homes, this particular entity lacks the durable competitive advantage that defines a wonderful business [D01, D08].\n\nThe company’s economics are hampered by high capital intensity, requiring constant, significant investment in land and inventory to maintain operations [D01, D02]. This cyclical nature, combined with recent year-on-year declines in revenue, closings, and margins, makes the earnings record inconsistent and the business prone to potential inventory impairments during downturns [D01, D03, D05].\n\nManagement has demonstrated an owner-minded approach, notably through share repurchases [D01]. However, a manager’s good intentions cannot overcome a lack of pricing power in a fragmented, cyclical industry [D01, D06].\n\nWe have no interest in this investment as we cannot discern a clear margin of safety, and we find better uses for our capital in existing operations or by repurchasing Berkshire shares [D01]. We prefer to avoid situations where the risk of permanent capital loss is heightened by structural industry volatility [D01, D05].",
+  "uncited_claims": []
+ }
+}

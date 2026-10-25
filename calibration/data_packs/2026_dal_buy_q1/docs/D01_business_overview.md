@@ -1,0 +1,14 @@
+Title: A network, a premium product and a loyalty relationship
+Source: https://ir.delta.com/news/news-details/2025/Delta-Air-Lines-Announces-September-Quarter-2025-Financial-Results/default.aspx
+Date: 2025-12-31
+
+Delta operates a global airline network with premium cabins, corporate travel relationships and a loyalty business. Passenger travel is a repeat service, but the seat inventory expires every departure and the operating model has high fixed costs. The current release attributes strength to premium, corporate and loyalty revenues, with American Express remuneration of $2 billion in the quarter. That supports examining a differentiated customer relationship rather than treating every ticket as identical commodity revenue. [1]
+
+The business is nevertheless not capital light. Aircraft, engines, maintenance, labor and airport operations require ongoing investment and reliability. The group's refinery also complicates the revenue denominator: GAAP sales include third-party refinery activity that is removed from adjusted airline revenue. Ed Bastian's claim of differentiation is an issuer assertion, not proof that the economics are insulated from recessions, fuel shocks or intense competition. Berkshire's old airline experience is a separate historical episode discussed in D08, not evidence of a current holding. [1]
+
+Evidence ledger from the October 9 release: September-quarter GAAP revenue was $16.673 billion, operating income $1.684 billion, pre-tax income $1.777 billion, net income $1.417 billion and diluted EPS $2.17. Adjusted revenue was $15.2 billion, pre-tax income approximately $1.5 billion and EPS $1.71. Operating cash flow was $1.8 billion; reported free cash flow $833 million; gross capital spending approximately $1.1 billion. Debt and finance-lease obligations were $14.9 billion, adjusted net debt $15.6 billion, and liquidity $6.9 billion including $3.1 billion undrawn revolvers. Premium revenue grew 9%, loyalty revenue 9% and American Express remuneration 12% to $2 billion. Full-year adjusted EPS guidance was approximately $6 and free cash flow $3.5-$4.0 billion. [1]
+
+Analytical distinction: a large customer base is not itself proof of a moat. The relevant test is whether customers keep paying enough to cover the full cost of serving them, including reinvestment and risk. Product descriptions and reported segment economics below are observations; a prediction that their advantages persist is an underwriting judgment. No terminal growth rate, private management forecast, or guaranteed future market share is supplied. Historical success must be tested against the specific competitive threats, not substituted for that test.
+
+Sources and publication dates:
+[1] https://ir.delta.com/news/news-details/2025/Delta-Air-Lines-Announces-September-Quarter-2025-Financial-Results/default.aspx (published 2025-10-09)

@@ -1,0 +1,47 @@
+{
+ "trade_id": "ctl_2016_tsla_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned per parent 13F history",
+   "No Tesla row in parent 2010–Q2 2026 holdings census",
+   "Economic/valuation objections are analyst-reconstructable tests, not Buffett quotes"
+  ],
+  "extra_agent_drivers": [
+   "Lack of consistent GAAP profitability",
+   "Outside circle of competence",
+   "Production quality issues",
+   "Inability to determine margin of safety"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company requires massive, ongoing capital investment of approximately $1.5 billion.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business operates outside of our circle of competence.",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Because we cannot calculate an intrinsic value or find a margin of safety, we will leave this in the 'too hard' pile and remain disciplined with our cash [D01, D05, D08].",
+ "grader_notes": "The agent correctly reached the PASS decision but failed to address the specific ownership-verification and grading-boundary drivers mandated by the key. Instead, the agent provided its own fundamental analysis, which the rubric explicitly excludes from reasoning overlap credit.",
+ "run": "ctl_2016_tsla_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

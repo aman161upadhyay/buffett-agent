@@ -1,0 +1,16 @@
+Title: The same franchise, a more capital-intensive next stage
+Source: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm ; https://www.justice.gov/opa/pr/department-justice-wins-significant-remedies-against-google ; https://www.congress.gov/crs_external_products/LSB/PDF/LSB11362/LSB11362.1.pdf
+Date: 2026-03-31
+
+Alphabet's advertising, subscription and Cloud businesses now produce more than $400 billion annual revenue. Search is still the principal advertising engine; YouTube has both paid subscriptions and advertising, while Cloud serves enterprise infrastructure and software customers. Pichai reports more than 325 million paid consumer subscriptions and Gemini app monthly users exceeding 750 million. These are issuer usage and subscription metrics, not independently audited incremental profit measures. [1]
+
+An existing owner's original plausible thesis is a durable high-return distribution franchise with a profitable second engine in Cloud. That does not automatically extend to the economics of every AI infrastructure dollar. The next-stage capital budget is enormous and physical assets become a larger component of the business. The owner must compare improved sales and profitability with the cost of defending and extending the franchise. Original portfolio attribution and any later stock transaction are outside this business description; what matters is the prospective earning power of the enterprise. [1-3]
+
+Evidence ledger: February 4 results show 2025 revenue of $402.836 billion versus $350.018 billion in 2024; operating income $129.039 billion versus $112.390 billion; net income $132.170 billion; diluted EPS $10.81. Fourth-quarter revenue was $113.828 billion, operating income $35.934 billion and EPS $2.82. Services revenue was $95.862 billion and Cloud $17.664 billion, up 48%; segment operating income was $40.132 billion and $5.313 billion respectively. Other Bets lost $3.617 billion, including a Waymo compensation charge, and central activities cost $5.894 billion. Cash/marketable securities totaled $126.843 billion. Management expects 2026 capital expenditures of $175-$185 billion. These plans are forward-looking; no second-quarter capital commitment by an outside investor is included. [1-3]
+
+Analytical distinction: a large customer base is not itself proof of a moat. The relevant test is whether customers keep paying enough to cover the full cost of serving them, including reinvestment and risk. Product descriptions and reported segment economics below are observations; a prediction that their advantages persist is an underwriting judgment. No terminal growth rate, private management forecast, or guaranteed future market share is supplied. Historical success must be tested against the specific competitive threats, not substituted for that test.
+
+Sources and publication dates:
+[1] https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm (published 2026-02-04)
+[2] https://www.justice.gov/opa/pr/department-justice-wins-significant-remedies-against-google (published 2025-09-02)
+[3] https://www.congress.gov/crs_external_products/LSB/PDF/LSB11362/LSB11362.1.pdf (published 2025-09-10)

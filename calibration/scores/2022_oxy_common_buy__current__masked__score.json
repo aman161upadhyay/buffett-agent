@@ -1,0 +1,58 @@
+{
+ "trade_id": "2022_oxy_common_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett read the fourth-quarter call and agreed with Hollub's capital-allocation choices.",
+   "Hollub was executing the operating and financial priorities he would choose.",
+   "Available market liquidity allowed a large minority common position."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value comparison to long bond yields",
+   "Permian Basin acreage/cost advantage",
+   "Chemical segment diversification and operational scale"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "company is available at an 18.5% free cash flow yield against a 1.83% long bond yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "largest acreage holder in the Permian Basin, where costs have fallen ~30% since 2019",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "net debt to $20 billion rather than chasing uneconomic production growth",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "business possesses significant operational scale and chemical segment diversification",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 8,
+  "share": 0.67
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We find this owner-minded discipline to be exactly what is needed in a capital-intensive industry [D01].",
+ "grader_notes": "The agent correctly identified the direction and the decider, but failed to capture Buffett's specific qualitative drivers regarding his assessment of CEO Vicki Hollub and his reading of the earnings call. The agent's reasoning relies on independent fundamental analysis (valuation and cost structure) rather than the idiosyncratic decision-making process described in the answer key.",
+ "run": "2022_oxy_common_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,257 @@
+{
+ "pack": "1964_axp_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "1964-02-20",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company operates travelers-cheque and charge-card services, which rely on consumer confidence and merchant acceptance of its payment promise [D01]. It also maintains a warehousing subsidiary currently implicated in a commodities fraud, which presents both a direct financial claim and a potential threat to the reputation of its payments business [D01].",
+   "products_customers_and_why_they_buy": [
+    "Travelers cheques: purchased as a recognized payment promise [D01].",
+    "Charge-card services: used by customers and accepted by merchants because the product is a trusted payment method [D01]."
+   ],
+   "economics": [
+    "Industry economics: Revenue is generated from service charges and funds held (float) between receipt and settlement [D01].",
+    "Margins: Operating margins were 10.6% (1959), 11.8% (1960), 10.7% (1961), 11.5% (1962), and 14.5% (1963) [D02].",
+    "ROE: Reported annual ROE ranged from 14.3% to 15.0% between 1959 and 1963 [D02]."
+   ],
+   "earnings_record": [
+    "Net income grew from $8.4m in 1959 to $11.264m in 1963 [D02].",
+    "EPS grew from $1.89 in 1959 to $2.52 in 1963 [D02].",
+    "Earnings for 1963 include a securities-sale component of $0.23/share [D03]."
+   ],
+   "competitive_position": [
+    "The core assets are durable customer and merchant relationships rather than physical property [D01].",
+    "Network breadth: Card-accepting establishments grew from 70,471 in 1961 to 81,989 in 1962 [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "As of December 1962: Cash was $187.307m, securities were $463.480m, outstanding payment instruments were $421.063m, and customer balances were $337.238m [D02].",
+    "Customer funds are not surplus corporate cash [D02]."
+   ],
+   "management_and_capital_allocation": [
+    "President Howard L. Clark provided the preliminary 1963 earnings estimate [D02].",
+    "No specific information provided on buybacks, dividends, or insider ownership [not in pack]."
+   ],
+   "price_and_valuation": [
+    "Price: Approximately $37 (January 1964 proxy) [D04].",
+    "P/E: 14.7x based on $2.52 EPS [D04].",
+    "P/B: 2.42x as of December 1962 [D04].",
+    "Earnings yield: 6.81% [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 6.81,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 3.78,
+    "long_bond_yield": 4.14,
+    "basis": "Earnings yield calculated from $2.52 preliminary EPS and $37 price [D04]. Dividend yield of 3.78% based on $1.40 FY1963 DPS [D04]. Long bond yield is February 20, 1964, FRED DGS10 [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Potential legal liabilities and financial losses resulting from the warehousing subsidiary's fraud [D05].",
+    "Potential impairment of the payments franchise if trust is lost, leading to redemptions or reduced merchant acceptance [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "November 1963: Salad-oil fraud becomes public [D07].",
+    "January 6, 1964: Preliminary 1963 earnings estimate released [D03].",
+    "January 18, 1964: Buffett Partnership letter mentions $17.4549m in starting net assets [D08]."
+   ],
+   "berkshire_context": [
+    "The vehicle is Buffett Partnership, not Berkshire Hathaway [D08].",
+    "Existing stake and specific cash commitments are not in pack [not in pack]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Final warehouse liability amount, full legal-liability range, parent-versus-subsidiary legal exposure, and verified February 20, 1964 market close."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The company operates a core payment services franchise based on enduring consumer confidence and merchant acceptance [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The business relies on durable customer and merchant relationships with a widespread, expanding network [D01], [D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Net income grew consistently from $8.4m in 1959 to $11.264m in 1963, demonstrating a steady core franchise record [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "Reported annual ROE was strong, ranging from 14.3% to 15.0% between 1959 and 1963 [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "The business generates returns on float and service charges rather than requiring significant physical capital investment [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Information on insider ownership or specific capital allocation philosophy is not in pack [not in pack]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The business is sufficiently large for the Partnership's capital base [D08]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The earnings yield of 6.81% is comfortably above the 4.14% long bond yield for 1964 [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 7,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a powerful payment franchise with strong returns on capital, currently facing a temporary reputational cloud due to a subsidiary fraud"
+  },
+  "gate2": {
+   "templates": [
+    "B2"
+   ],
+   "why_available": "The market is reacting in a panic to a major commodities fraud within the company's warehousing subsidiary [D01], [D07]. The market fears this will destroy the core payment services franchise through loss of trust, but we believe the damage is a one-time, bounded financial loss that the underlying powerful franchise can easily absorb over a few years [D01], [D05].",
+   "evidence": [
+    "The core travelers-cheque and charge-card services rely on enduring customer and merchant relationships [D01].",
+    "Net income has shown a steady record of growth from $8.4m to $11.264m over the last five years [D02].",
+    "The fear is tied to a specific subsidiary incident rather than the core business model [D01], [D05]."
+   ],
+   "market_narrative_we_disagree_with": "The market believes the subsidiary fraud threatens the viability and reputation of the entire payments network [D05].",
+   "what_must_be_true": [
+    "Customers continue to use the travelers cheques and cards through the scandal period [D05].",
+    "Merchant acceptance remains stable despite the subsidiary's troubles [D05].",
+    "The total legal and financial liability from the fraud is finite and can be covered by a few years of normal earnings [D05]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "$2.52 [D04]",
+   "initial_pretax_yield_pct": 6.81,
+   "intrinsic_value_range": {
+    "low": "Earnings power intact after one-time loss",
+    "high": "Growth of payments franchise resumes",
+    "key_assumptions": [
+     "Fraud liability is bounded [D01], [D05]",
+     "Payment services franchise remains trusted [D01], [D05]",
+     "Merchant acceptance remains stable [D05]"
+    ],
+    "discount_rate_used": "4.14% [D04]"
+   },
+   "price_vs_value": "Price of $37 trades at 14.7x 1963 EPS; attractive if current earnings are depressed by non-recurring fraud charges.",
+   "expected_return_pct": {
+    "base": 10,
+    "bear": 0,
+    "bull": 15
+   },
+   "alternatives": "Existing holdings or T-bills; we only buy if we are confident the franchise is not permanently impaired [D01].",
+   "downside_case": "If the reputational damage is terminal to the payments business, the loss could be permanent. We rely on the core franchise resilience [D01].",
+   "valuation_verdict": "FAIR",
+   "flagged_assumptions": [
+    "Actual normalized owner earnings (D&A and maintenance capex not provided, used reported EPS)",
+    "Full extent of the legal and financial liability from the salad-oil fraud [D07]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are acting as a permanent_passive_holder, taking advantage of Mr. Market's irrational fear regarding the warehousing subsidiary to acquire a wonderful payment franchise at a price that provides a margin of safety [D01], [D05].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Business compounding of the core payment services franchise [D01]",
+    "Recovery of the market valuation as the bounded nature of the fraud liability is confirmed [D01], [D05]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In 1964, we operate as the Buffett Partnership; we look for significant, undervalued situations where we can deploy capital into businesses with durable advantages, holding them as the underlying economics improve over time [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Market loss of trust in the core payment services franchise leading to a decline in travelers cheque usage [D01], [D05].",
+    "Legal liabilities from the warehousing subsidiary fraud prove to be systemic and exceed the capacity of the company's financial resources [D05].",
+    "Merchant acceptance of the charge-card network declines due to the reputational hit [D05]."
+   ],
+   "berkshire_constraints": "As a Partnership, we maintain a concentrated portfolio; we must ensure the position does not breach our threshold for individual exposure while maintaining enough liquidity to honor potential redemption requests [D08].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 20,
+    "max": 40,
+    "basis": "partnership"
+   },
+   "opportunity_cost": "Capital could be deployed into other undervalued situations or net-nets, but the rare combination of a powerful franchise available at a temporary discount due to a bounded event makes this a superior choice [D01].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The opportunity involves a simple, understandable consumer franchise where the risk is a mispriced, non-recurring event, fitting squarely within my circle of competence.",
+   "biggest_risk_in_one_sentence": "The potential for the salad-oil scandal to permanently damage the brand trust necessary to support the company's payment network."
+  }
+ },
+ "final": {
+  "as_of_date": "1964-02-20",
+  "company": "the Company (XXX)",
+  "ticker": "N/A",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 20,
+  "size_basis": "partnership",
+  "opportunity_template": [
+   "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "$2.52 per share",
+   "initial_pretax_yield_pct": 6.81,
+   "intrinsic_value_range": "Undervalued due to temporary reputational cloud; recovery expected once fraud liability is bounded",
+   "expected_return_pct": 10,
+   "downside_case": "Permanent loss of brand trust leading to impairment of payment franchise"
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at an earnings yield of 6.81% against the 4.14% long bond yield, providing an attractive margin of safety [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The core payment franchise remains a powerful, capital-light business with consistent earnings growth and high returns on capital [D01], [D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "Mr. Market has irrationally conflated a bounded commodities fraud in a subsidiary with the viability of the entire payment network [D01], [D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The business possesses a durable moat built on widespread merchant acceptance and customer trust that is not easily replicated [D01], [D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Market loss of trust in the core payment services franchise leading to a decline in travelers cheque usage [D01], [D05].",
+   "Legal liabilities from the warehousing subsidiary fraud prove to be systemic and exceed the capacity of the company's financial resources [D05].",
+   "Merchant acceptance of the charge-card network declines due to the reputational hit [D05]."
+  ],
+  "what_would_change_our_mind": "Evidence that the subsidiary fraud has compromised the fundamental trust required for the payments business, or that legal liabilities are uncapped and threaten the solvency of the core franchise.",
+  "memo": "We are initiating a position in the Company because we believe Mr. Market has severely mispriced a wonderful business due to a temporary, non-recurring event [D01], [D05]. The Company operates a preeminent payment services network, which functions as an indispensable utility for consumers and merchants alike [D01].\n\nThis business is characterized by durable, network-driven economics that require minimal capital expenditure, allowing for strong returns on capital that have consistently ranged between 14.3% and 15.0% over the last five years [D01], [D02]. While the recent commodities fraud at a warehousing subsidiary is a regrettable distraction, it does not alter the fundamental value of the core payment franchise [D01], [D05].\n\nAt a current price of approximately $37, the stock trades at an earnings yield of 6.81%, which offers a compelling margin of safety compared to the 4.14% return available on long-term bonds [D04]. We view the market's current panic as an opportunity to purchase a high-quality franchise at a discount, as the liability from the fraud is finite and will be absorbed by the company's earning power over time [D01], [D05].\n\nOur investment rests on the conviction that the reputation of the core payment network is robust enough to survive this event [D01], [D05]. We intend to hold this position indefinitely, as we expect the business to continue compounding its value as the cloud of the current scandal dissipates [D01].",
+  "uncited_claims": []
+ }
+}

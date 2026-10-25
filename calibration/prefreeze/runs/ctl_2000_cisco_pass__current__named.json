@@ -1,0 +1,258 @@
+{
+ "pack": "ctl_2000_cisco_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2000-03-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Cisco supplies the routers and switches that facilitate Internet traffic and corporate data networking [D01]. It operates as an infrastructure-oriented business that seeks to benefit from increased network capacity and bandwidth demand [D01].",
+   "products_customers_and_why_they_buy": [
+    "Routers and switches sold to enterprise, service-provider, and smaller-business customers [D01].",
+    "Customers buy based on performance, compatibility, reliability, and support; repeat purchases are supported by installed networks, trained administrators, channel relationships, and broad product lines [D01, D06]."
+   ],
+   "economics": [
+    "Profitability is established, though accounting is complicated by acquisition costs, pooling restatements, and the exclusion of purchased in-process R&D [D01, D05].",
+    "The business requires ongoing R&D and acquisitions to maintain competitiveness and product family relevance [D05, D06].",
+    "Owner-earnings estimation is hindered by lack of maintenance-capex/working-capital detail and the impact of frequent acquisitions [D02, D05]."
+   ],
+   "earnings_record": [
+    "Fiscal second-quarter revenue $4.35 billion (up 53%); GAAP net income $825 million ($0.23/share) [D01].",
+    "Six-month revenue $8.26 billion (up 52%); GAAP net income $1.25 billion ($0.34/share) [D01].",
+    "Revenue growth is demonstrated, but comparability is impacted by seven acquisitions [D01]."
+   ],
+   "competitive_position": [
+    "Advantaged by breadth, customer familiarity, and installed infrastructure [D06].",
+    "Competitors include Lucent, Nortel, and Juniper [D06].",
+    "Moat is tested by the need to continuously re-engineer or acquire products to address technological substitution [D05, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Not in pack: specific debt, cash, and leverage figures [D02].",
+    "Capital needs are driven by the requirement to fund R&D and acquisitions to preserve franchise value [D05, D06]."
+   ],
+   "management_and_capital_allocation": [
+    "Uses acquisitions to fill adjacent product gaps and standardize customer networks [D01].",
+    "Announced a two-for-one stock split [D01].",
+    "Not in pack: specific insider ownership or incentive details."
+   ],
+   "price_and_valuation": [
+    "Not in pack: March 1 desk-date price, P/E, or initial earnings yield [D02, D04].",
+    "Mechanical annualization of quarterly EPS is $0.92 (GAAP) or $1.00 (adjusted), but these are scale benchmarks rather than forecasts [D02]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Rapid technological change requiring constant engineering/acquisitions [D05].",
+    "Competition or spending slowdowns could compress earnings and multiples [D05].",
+    "Accounting complications from pooling restatements, acquired R&D, and share issuance [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2000-01-29: Fiscal quarter end [D07].",
+    "2000-02-08: Results and two-for-one split announced [D07].",
+    "2000-02-22: Split record date [D07]."
+   ],
+   "berkshire_context": [
+    "Benchmark is the 1998 portfolio of $37.49 billion in common stocks [D08].",
+    "Existing portfolio includes Coca-Cola, American Express, and Gillette [D08].",
+    "Allocation requires comparing the proposal against existing portfolio opportunities and needs for whole-business purchases [D08]."
+   ],
+   "document_conflicts": [
+    "No figures disagree, but documents emphasize that GAAP income ($825M/$1.25B) and pro-forma income ($906M/$1.73B) differ due to excluded costs [D01, D02]."
+   ],
+   "missing_data": [
+    "March 1 share price",
+    "Detailed balance sheet (debt/cash)",
+    "Maintenance capex figures",
+    "Working-capital requirements",
+    "Insider ownership and compensation data"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business relies on rapid technological innovation and constant acquisitions to maintain relevance, making it impossible to predict its competitive position in 10-20 years [D05, D06]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "The moat is constantly challenged by technological substitution, requiring heavy, continuous reinvestment and acquisitions to avoid obsolescence [D05, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "UNSURE",
+     "evidence": "While revenue is growing, GAAP earnings are obscured by frequent acquisitions, pooling restatements, and excluded in-process R&D costs [D01, D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "The pack contains no specific figures regarding debt, leverage, or return on tangible capital [D02]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is capital-intensive due to the necessity of constant R&D and acquisition spending to preserve its franchise value [D05, D06]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "The pack lacks information on insider ownership, compensation, or clear evidence of rational capital allocation beyond acquisition-led growth [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "Cisco is a massive entity consistent with potential acquisition or investment scale for Berkshire in this era [D01, D08]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "No market price is provided for the AS_OF_DATE to calculate an earnings yield [D02, D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "GAAP vs pro-forma income → GAAP figures used for conservative assessment of historical performance [D01, D02]."
+   ],
+   "n_pass": 1,
+   "n_fail": 3,
+   "n_unsure": 4,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a technologically-dependent business requiring constant, expensive reinvestment to stave off obsolescence"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no reason to expect a bargain, as the business fails the core requirement of being within the circle of competence due to rapid technological change [D05, D06]. The constant need for acquisitions and heavy R&D to prevent obsolescence suggests the competitive advantage is not durable enough for a long-term investment [D05, D06].",
+   "evidence": [
+    "Business relies on constant technological innovation and acquisitions to maintain relevance [D05, D06].",
+    "Moat is perpetually challenged by technological substitution, requiring continuous, heavy reinvestment [D05, D06].",
+    "GAAP earnings are obscured by accounting complexities related to acquisition-led growth [D01, D05]."
+   ],
+   "market_narrative_we_disagree_with": "The market may value Cisco for its high growth and dominant role in internet infrastructure, but this ignores the high risk of permanent capital loss inherent in technology-dependent businesses that lack a durable moat [D05].",
+   "what_must_be_true": [
+    "The competitive position must be predictable over a 10-20 year period.",
+    "The company must prove its franchise can thrive without constant, expensive acquisitions.",
+    "Owner earnings must be clearly identifiable and stable, rather than obscured by frequent pooling and R&D restatements."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "market_stance",
+   "owner_earnings_per_share": "Not in pack; unable to calculate due to missing maintenance capex and working capital details [D02, D05]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "Not in pack",
+    "high": "Not in pack",
+    "key_assumptions": [
+     "Competitive position remains predictable over 10-20 years [D05]",
+     "Franchise thrives without constant, expensive acquisitions [D05, D06]"
+    ],
+    "discount_rate_used": "Not in pack"
+   },
+   "price_vs_value": "Price data missing; unable to determine margin of safety [D02, D04]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Existing holdings (Coca-Cola, American Express, Gillette) or cash are preferred as they fall within our circle of competence [D08]",
+   "downside_case": "Permanent loss of capital if technological substitution renders current infrastructure obsolete and acquisition strategy fails [D05, D06]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "March 1 share price is missing [D02, D04]",
+    "Detailed balance sheet, maintenance capex, and working capital requirements are missing [D02, D05]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital (default for marketable securities after 1980) [D08]",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "business compounding [D08]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in the 2000-2015 era, we act as a permanent passive holder, relying on the underlying business economics rather than control to drive long-term returns [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Technological substitution renders current network infrastructure obsolete [D05, D06]",
+    "The necessity of constant, expensive acquisitions to maintain product relevance fails to generate sufficient returns [D05, D06]",
+    "Pricing power is lost to competitors like Juniper, Lucent, or Nortel [D06]"
+   ],
+   "berkshire_constraints": "Must maintain adequate cash levels and avoid investments that risk permanent loss of capital or Berkshire's reputation [D08]",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed in established consumer franchises like Coca-Cola, American Express, or Gillette, which fall within our circle of competence [D08]",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business falls outside my circle of competence due to the rapid technological change and the company's reliance on constant acquisition-led growth [D05, D06].",
+   "biggest_risk_in_one_sentence": "The requirement for continuous, heavy reinvestment and acquisition to stave off technological obsolescence makes the long-term economic outcome unpredictable."
+  }
+ },
+ "final": {
+  "as_of_date": "2000-03-01",
+  "company": "Cisco Systems",
+  "ticker": "CSCO",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital if technological substitution renders current infrastructure obsolete and acquisition strategy fails"
+  },
+  "drivers": [
+   {
+    "driver": "The business operates outside my circle of competence due to rapid technological change.",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Constant, heavy reinvestment and acquisitions are required to prevent technological obsolescence.",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Accounting is obscured by frequent pooling restatements and excluded in-process R&D costs.",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The competitive advantage is not durable enough to provide long-term predictability.",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Technological substitution renders current network infrastructure obsolete",
+   "The necessity of constant, expensive acquisitions to maintain product relevance fails to generate sufficient returns",
+   "Pricing power is lost to competitors like Juniper, Lucent, or Nortel"
+  ],
+  "what_would_change_our_mind": "Evidence that the company can maintain its competitive position over a 10-20 year period without constant, expensive acquisitions and R&D cycles.",
+  "memo": "Cisco is a significant provider of internet infrastructure, supplying the routers and switches that facilitate global data networking [D01]. While the company has demonstrated strong revenue growth, I find the business impossible to evaluate with the certainty required for a Berkshire investment [D01, D05].\n\nUnlike the wonderful businesses we prefer, Cisco's moat is under constant threat from technological substitution [D06]. To remain relevant, the company must engage in a continuous cycle of expensive R&D and acquisitions, which obscures the true economics of the operation [D05, D06].\n\nI am unable to determine owner earnings because maintenance capital expenditures and working capital requirements are not clear [D05]. Furthermore, GAAP earnings are frequently muddied by pooling restatements and the exclusion of in-process research and development costs [D01, D05].\n\nCharlie and I prefer to stick to businesses we can understand. Technology companies that must run on a treadmill just to stay in the same place are not for us. We will keep our cash and look for opportunities within our circle of competence [D08].",
+  "uncited_claims": [
+   "Cisco is a significant provider of internet infrastructure",
+   "Technology companies that must run on a treadmill just to stay in the same place are not for us"
+  ]
+ },
+ "elapsed_s": 0
+}

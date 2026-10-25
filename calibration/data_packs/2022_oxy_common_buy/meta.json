@@ -1,0 +1,27 @@
+{
+  "id": "2022_oxy_common_buy",
+  "company": "Occidental Petroleum Corporation \u2014 common shares",
+  "ticker": "OXY",
+  "aliases": [
+    "Occidental Petroleum Corporation \u2014 common shares",
+    "OXY",
+    "Occidental",
+    "Occidental Petroleum",
+    "Occidental Petroleum Corporation",
+    "OxyChem",
+    "Anadarko",
+    "Anadarko Petroleum",
+    "Western Midstream",
+    "Oxy Low Carbon Ventures",
+    "Vicki Hollub",
+    "Hollub",
+    "WES"
+  ],
+  "as_of_date": "2022-02-28",
+  "mode": "new",
+  "era": "D",
+  "first_action_window": "2022-02-28 first purchases per March 7 CNBC remarks",
+  "fund_aum_usd_bn": 146.7,
+  "decider": "Buffett",
+  "notes": "Common re-entry is new relative to prior common episode, but preferred/warrants already owned. March 7 remarks, preserved in August 19 reporting, explicitly date buying to February 28. Later carbon-capture rationale not backdated. Exact quotation 'She was saying all the right things' not independently authenticated here; corrected to preserved wording. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated."
+}

@@ -1,0 +1,264 @@
+{
+ "pack": "1973_wpo_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "1973-05-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company comprises a leading daily newspaper, other publishing properties, and broadcasting stations [D01]. It operates primarily as a provider of news and entertainment, selling audiences to advertisers [D01, D06].",
+   "products_customers_and_why_they_buy": [
+    "Newspapers: 516,000 daily circulation; advertising space sold to local/national advertisers [D01, D06].",
+    "Broadcasting: Entertainment and news programming; audience sold to advertisers [D06].",
+    "Magazine/books: Publishing properties [D02]."
+   ],
+   "economics": [
+    "FY1972 operating margin: 10.0% [D02].",
+    "Segment margins: Newspapers 10.24%, Magazines/books 6.03%, Broadcasting 24.42% [D06].",
+    "Capital intensity: $8.820m plant purchases in 1972; $30m newspaper capital-improvement program cited [D02, D06].",
+    "Pricing power: Established local positions may limit competition, though advertising is cyclically sensitive [D01, D05]."
+   ],
+   "earnings_record": [
+    "FY1968–1972 EPS: $1.83, $2.14, $1.27, $1.61, $2.02 [D02].",
+    "Operating income: $17.346m (1968) to $21.806m (1972) [D02].",
+    "1972 earnings growth: Comparable earnings before extraordinary items rose 47.6% [D03]."
+   ],
+   "competitive_position": [
+    "Newspapers: Post holds nearly 63% of metropolitan advertising linage; Sunday circulation more than twice the remaining competitor [D01, D06].",
+    "Broadcasting: High-margin segment (24.42%) but faces regulatory license renewal challenges [D05, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Debt: $35.436m long-term debt as of FY1972 [D02].",
+    "Cash: $29.850m (cash plus commercial notes) as of FY1972 [D02].",
+    "Net debt: $7.320m [D02].",
+    "Financial needs: Heavy ongoing capital requirements for plant/office projects [D02, D06]."
+   ],
+   "management_and_capital_allocation": [
+    "Management: Family influence and leadership noted; limited outside control [D01].",
+    "Dividends: Doubled quarterly rate to $0.10 ($0.40 annual) in January 1973 [D03]."
+   ],
+   "price_and_valuation": [
+    "Price: Approximate $27 (range $24–30) [D04].",
+    "P/E: ~13.4x FY1972 EPS [D04].",
+    "P/B: ~1.6x [D04].",
+    "Earnings yield: ~16% pre-tax (based on operating income) [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 7.48,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 1.48,
+    "long_bond_yield": 6.72,
+    "basis": "Trailing earnings yield = 2.02/27; dividend yield = 0.40/27; long bond = 10-year Treasury yield [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Television license renewal challenges in Miami and Jacksonville [D05].",
+    "Rising costs at the Post (labor, materials, services) [D05].",
+    "Cyclicality of advertising [D05].",
+    "Minority shareholder inability to influence policy or force asset sales [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "July 1972: Daily News closed, reducing newspaper competition [D07].",
+    "January 1973: Dividend increased [D03].",
+    "March 17, 1973: Annual report released disclosing license challenges and proposed Hartford station purchase [D07]."
+   ],
+   "berkshire_context": [
+    "No existing the Company stake; purchase ledger unavailable [D08]."
+   ],
+   "document_conflicts": [
+    "None identified in provided documents."
+   ],
+   "missing_data": [
+    "Exact May 1, 1973 market price; maintenance versus growth capital expenditure breakdown; exact current cash position."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The business operates a dominant daily newspaper and local broadcasting stations, which are understandable, durable businesses that provide news and entertainment to local audiences [D01, D06]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The newspaper holds a 63% share of metropolitan advertising linage and has effectively reduced local competition, demonstrating a clear local monopoly position [D01, D06, D07]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Operating income has shown consistent growth from $17.346m in 1968 to $21.806m in 1972, reflecting a strong core franchise [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company maintains a very strong balance sheet with $29.850m in cash versus $35.436m in long-term debt, resulting in minimal net debt [D02]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business requires heavy, ongoing capital expenditures for plant and office projects, which dilutes the return on capital [D02, D06]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Management has demonstrated shareholder awareness through dividend increases and successful navigation of competitive landscapes [D03, D07]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The business is of a size that allows for a meaningful position in the current era of the partnership [D01, D02]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The pre-tax earnings yield of ~16% is significantly higher than the ~1.5x requirement relative to the 6.72% long bond yield [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 7,
+   "n_fail": 1,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a dominant local media franchise with high returns and a strong balance sheet, notwithstanding its capital-intensive newspaper operations"
+  },
+  "gate2": {
+   "templates": [
+    "B1",
+    "B2"
+   ],
+   "why_available": "The market is currently fixated on temporary regulatory headwinds concerning broadcasting license renewals and general cyclical anxiety regarding advertising spend [D05]. We believe these factors ignore the underlying dominance of the newspaper franchise, which has recently benefited from the elimination of its primary local competitor [D07]. Value will be realized through continued high-margin cash generation and the durability of its monopolistic local advertising position [D01, D06].",
+   "evidence": [
+    "Post holds 63% of metropolitan advertising linage and has seen competition decrease with the closing of the Daily News [D01, D07].",
+    "Operating income grew significantly to $21.806m in 1972 [D02].",
+    "Pre-tax earnings yield of ~16% provides a significant margin of safety relative to the long bond [D04].",
+    "Broadcasting license challenges are standard regulatory hurdles rather than structural impairments to the core business [D05]."
+   ],
+   "market_narrative_we_disagree_with": "The market views the company as a cyclical, capital-intensive newspaper operator facing regulatory risk in its broadcasting segment, justifying a modest P/E multiple [D04, D05].",
+   "what_must_be_true": [
+    "The core newspaper franchise retains its pricing power despite cyclical advertising sensitivity.",
+    "Broadcasting license renewals in Miami and Jacksonville are successfully navigated.",
+    "The management remains disciplined in capital allocation despite family control."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "Approximately $2.02 based on 1972 EPS, assuming maintenance capex is reflected in historical operating performance [D02].",
+   "initial_pretax_yield_pct": 16,
+   "intrinsic_value_range": {
+    "low": "$35",
+    "high": "$45",
+    "key_assumptions": [
+     "Newspaper franchise maintains dominant 63% ad market share [D01].",
+     "Broadcasting licenses in Miami and Jacksonville are renewed [D05].",
+     "Operating income sustains growth from 1972 level of $21.806m [D02]."
+    ],
+    "discount_rate_used": "6.72% long bond rate [D04]"
+   },
+   "price_vs_value": "Price of ~$27 is roughly 77% of $35 low-end valuation; provides reasonable margin of safety for a dominant franchise.",
+   "expected_return_pct": {
+    "base": 12,
+    "bear": 5,
+    "bull": 18
+   },
+   "alternatives": "Long bonds at 6.72% [D04] are inferior to the prospective 16% pre-tax yield on a dominant local newspaper franchise [D04].",
+   "downside_case": "Regulatory loss of broadcasting licenses or severe advertising downturn; downside is limited by dominant print franchise and net cash position [D02, D05].",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Normalization of owner earnings uses trailing 1972 EPS [D02].",
+    "Maintenance capex is assumed to be fully captured in 1972 operating results [D02]."
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — We are buying a stake in a wonderful business at a fair price, and we intend to hold our shares for the long pull, benefiting from the compounding of the business's intrinsic value [D01, D06].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Business compounding [D02]",
+    "Rational capital allocation by management [D03, D07]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In 1973, we are looking to accumulate high-quality franchises with durable competitive advantages; as we do not seek to control the company, we act as permanent passive holders relying on the strength of the business's local monopoly [D01]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Broadcasting license renewal is denied by the FCC in Miami or Jacksonville [D05].",
+    "Newspaper advertising linage share drops materially below the current 63% monopoly position [D01].",
+    "Capital expenditure requirements for the newspaper plant escalate beyond cash flow generation capacity [D06].",
+    "Management fails to maintain disciplined capital allocation or dividend policy [D03, D07]."
+   ],
+   "berkshire_constraints": "Must maintain enough cash to ensure the insurance operations and any unforeseen contingencies are protected [D02].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 15,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Comparison with holding long-term bonds yielding 6.72% or retaining cash for future bargains [D04].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The investment represents a high-quality, durable media franchise within my circle of competence that I can evaluate as a whole business.",
+   "biggest_risk_in_one_sentence": "Regulatory action by the FCC regarding broadcasting licenses could impair the value of our most profitable segment [D05, D06]."
+  }
+ },
+ "final": {
+  "as_of_date": "1973-05-01",
+  "company": "The Washington Post Company",
+  "ticker": "WPO",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "Approximately $2.02 per share based on 1972 results [D02].",
+   "initial_pretax_yield_pct": 16,
+   "intrinsic_value_range": "$35 - $45 per share",
+   "expected_return_pct": 12,
+   "downside_case": "Regulatory impairment of broadcast licenses or sustained advertising downturn mitigated by dominant newspaper franchise and strong balance sheet [D02, D05]."
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the company sells for ~$27 per share against an appraised intrinsic value of $35–$45, providing an initial pre-tax earnings yield of ~16% compared to 6.72% for long bonds [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The Post holds a commanding 63% share of local advertising linage and has effectively secured a local monopoly following the closing of the Daily News [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The business consistently grows operating income, which rose from $17.346m in 1968 to $21.806m in 1972 [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "Management has shown shareholder awareness by doubling the quarterly dividend rate to $0.10 in January 1973 [D03].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Broadcasting license renewal is denied by the FCC in Miami or Jacksonville [D05].",
+   "Newspaper advertising linage share drops materially below the current 63% monopoly position [D01].",
+   "Capital expenditure requirements for the newspaper plant escalate beyond cash flow generation capacity [D06].",
+   "Management fails to maintain disciplined capital allocation or dividend policy [D03, D07]."
+  ],
+  "what_would_change_our_mind": "Regulatory action by the FCC stripping the company of its broadcasting licenses or a fundamental structural loss of the newspaper's advertising dominance would force us to reconsider the investment [D01, D05].",
+  "memo": "The Washington Post Company is a classic example of a wonderful business that we can understand and admire. It operates a dominant daily newspaper and a group of broadcasting stations that effectively sell audiences to advertisers [D01, D06]. The newspaper business is a local monopoly, as evidenced by its 63% share of metropolitan advertising linage, a position recently strengthened by the closure of its primary competitor [D01, D07].\n\nEconomically, the business is a powerhouse. Operating income has climbed steadily from $17.346 million in 1968 to $21.806 million in 1972, demonstrating the durability of its franchise [D02]. While the newspaper business is capital-intensive and requires ongoing investment in plant and equipment, the broadcasting segment provides high-margin cash flow, with operating margins reaching 24.42% in 1972 [D02, D06].\n\nManagement has proven to be able and shareholder-oriented, as shown by their recent decision to double the quarterly dividend rate [D03]. They continue to navigate the competitive landscape effectively while maintaining a balance sheet that carries minimal net debt [D02, D07].\n\nMr. Market is currently fixated on temporary regulatory headwinds regarding broadcasting license renewals and general cyclical anxiety about advertising spending [D05]. We believe these worries are misplaced and ignore the underlying strength and permanence of the company's local franchises [D01, D06].\n\nAt a price of approximately $27 per share, the company offers an initial pre-tax earnings yield of roughly 16%, a figure that compares quite favorably to the 6.72% yield available on long-term bonds [D04]. We estimate the intrinsic value to be between $35 and $45 per share, providing a comfortable margin of safety [D04].\n\nWe intend to act as permanent, passive holders of this business. Our primary risk is regulatory, specifically the potential for the FCC to challenge broadcasting licenses in Miami or Jacksonville [D05]. If these licenses are maintained, we expect the compounding of the business's intrinsic value to provide excellent long-term returns [D01, D06].",
+  "uncited_claims": []
+ }
+}

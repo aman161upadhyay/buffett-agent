@@ -1,0 +1,48 @@
+{
+ "trade_id": "1993_dexter_acq",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "The original attraction was a long, profitable record, an enduring franchise and superb management.",
+   "Berkshire and the sellers shared a long-term ownership philosophy with management retained.",
+   "Prior footwear experience supported extending a familiar operating field."
+  ],
+  "extra_agent_drivers": [
+   "Lack of audited financial data",
+   "Structural cost disadvantage against foreign imports",
+   "Unquantified capital intensity and retail lease risks"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The footwear industry faces a structural challenge from low-cost foreign imports.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company has maintained long-term leadership under Harold Alfond and Peter Lunder.",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 4,
+  "share": 0.4
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have decided to pass on this transaction.",
+ "grader_notes": "The agent reached the opposite investment conclusion (PASS) compared to Buffett's actual acquisition (BUY). The agent focused heavily on the lack of public financial disclosure and competitive threats from imports, whereas Buffett emphasized the historical record and management quality.",
+ "run": "1993_dexter_acq__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

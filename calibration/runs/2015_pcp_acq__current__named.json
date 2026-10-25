@@ -1,0 +1,258 @@
+{
+ "pack": "2015_pcp_acq",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2015-08-09",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Precision Castparts manufactures complex metal components, investment castings, forgings, and critical fasteners for the aerospace and industrial sectors [D01]. The company serves as a sole or dominant supplier for many engine and airframe programs, benefiting from long-term agreements [D09].",
+   "products_customers_and_why_they_buy": [
+    "Complex metal components, castings, and fasteners sold primarily to aerospace (70% of sales) and power/industrial customers [D01, D09].",
+    "Customers buy due to technical certification, process expertise, and reliability requirements, which make supplier replacement difficult [D01]."
+   ],
+   "economics": [
+    "Historically high margins: operating margins exceeded 20% every year since FY2007, with 25.7% reported in Q1 FY2016 [D09].",
+    "Returns on tangible capital are above 20% [D09].",
+    "Capital intensity involves material costs, maintenance investment, and test inventory requirements [D01, D02]."
+   ],
+   "earnings_record": [
+    "Sales grew from $6,209m in 2011 to $10,005m in 2015 [D02].",
+    "Common net income: $1,014m (2011), $1,224m (2012), $1,427m (2013), $1,777m (2014), $1,530m (2015) [D02].",
+    "Earnings are currently affected by energy/pipe weakness and aerospace destocking [D09]."
+   ],
+   "competitive_position": [
+    "Sole or dominant source on many engine and airframe programs [D09].",
+    "Moat based on process expertise, certification, and reliability rather than consumer brand [D01].",
+    "Eight-year production backlog for Boeing/Airbus supports repeat business [D09]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Total debt of $5,286m and cash of $1,056m as of June 28, 2015 [D03].",
+    "Net debt of approximately $4,230m [D04]."
+   ],
+   "management_and_capital_allocation": [
+    "CEO Mark Donegan has led the company since 2002 and is regarded as an industry-leading operator [D09].",
+    "Donegan would remain to run the business as a Berkshire subsidiary [D09]."
+   ],
+   "price_and_valuation": [
+    "Last trading close (Aug 7): $193.88 [D04].",
+    "Market cap: ~$26.93bn [D04].",
+    "Proposed acquisition price: $235/share (~$32bn equity value, ~$37bn EV) [D09].",
+    "Valuation at proposed price: ~22x trailing earnings, ~17.5x pre-destocking run-rate, ~13x EBITDA [D09]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 5.3,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 4.6,
+    "dividend_yield": 0.062,
+    "long_bond_yield": 2.18,
+    "basis": "Earnings/FY2015 mechanical FCF yield calculated from FY2015 $1.247bn FCF; dividend yield from FY2015 report; long bond from FRED DGS10 2015-08-07 [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Aerospace customers have bargaining power and production shifts [D05].",
+    "Weakness in energy-related and pipe markets [D05, D09].",
+    "Destocking by aerospace customers [D09]."
+   ],
+   "deal_terms_if_any": [
+    "Proposed $235 per share in cash; management (Donegan) to stay [D09]."
+   ],
+   "recent_events": [
+    "Q1 FY2016 results (July 2015) showed revenue decline and operating margin compression [D03].",
+    "July 1, 2015 meeting between Mark Donegan and Berkshire chairman regarding potential acquisition [D09]."
+   ],
+   "berkshire_context": [
+    "Berkshire owns ~4.2 million shares (~3% stake), a position originated by Todd Combs in 2012 [D09].",
+    "Berkshire had $66.6bn in cash available [D09]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Maintenance capex estimate for calculating true owner earnings.",
+    "Final signed transaction agreement (not present in contemporaneous data)."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "Precision Castparts produces critical, high-barrier metal components for long-cycle aerospace and industrial programs where they act as a dominant supplier [D01, D09]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "Technical certification requirements and process expertise create a significant barrier to entry, supported by sole-source status on major aerospace programs [D01, D09]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "The company has demonstrated consistent growth and profitability through 2015, notwithstanding recent cyclical headwinds in energy and aerospace destocking [D02, D09]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "Returns on tangible capital are consistently above 20% and the business maintains a sound balance sheet [D09]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "While the business is capital-intensive, it earns returns well above its cost of capital and occupies a dominant, low-cost position in a specialized niche [D01, D09]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Mark Donegan is an industry-leading operator who has successfully led the company since 2002 and is committed to remaining with the business [D09]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "An enterprise value of $37bn makes this a meaningful acquisition for Berkshire [D09]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "At ~17.5x pre-destocking earnings, the pre-tax earnings yield is well below the 10% threshold required to provide a sufficient margin of safety relative to the current long bond yield [D09]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 7,
+   "n_fail": 1,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a high-quality, wide-moat manufacturer of essential aerospace components with excellent management and consistently high returns on capital."
+  },
+  "gate2": {
+   "templates": [
+    "B4"
+   ],
+   "why_available": "The market is reacting to short-term cyclical headwinds, including aerospace customer destocking and weakness in energy-related pipe markets, which has temporarily compressed operating margins [D09]. Berkshire views Precision Castparts as a 'wonderful business' with a durable, long-term competitive advantage in aerospace that transcends these transient pressures [D09]. Because the company occupies a dominant, sole-source position with a massive production backlog, we are comfortable acquiring the entire entity to hold indefinitely [D09].",
+   "evidence": [
+    "Operating margins have historically exceeded 20% [D09].",
+    "Sole or dominant source on many engine and airframe programs [D09].",
+    "Eight-year production backlog for Boeing/Airbus [D09].",
+    "Proposed acquisition price of $235 per share reflects a strategic valuation for a permanent subsidiary, not a short-term market play [D09]."
+   ],
+   "market_narrative_we_disagree_with": "The market is focused on recent quarterly revenue declines and margin compression caused by temporary destocking and cyclical energy sector weakness [D09].",
+   "what_must_be_true": [
+    "The aerospace manufacturing cycle remains robust over the next decade [D09].",
+    "Mark Donegan continues to operate the business with owner-like discipline [D09].",
+    "The technical barriers to entry and sole-source status remain intact [D09]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "Assumed $11.00 - $12.00 normalized, based on ~20x pre-tax earnings potential [D09]",
+   "initial_pretax_yield_pct": 5.5,
+   "intrinsic_value_range": {
+    "low": "235.00",
+    "high": "260.00",
+    "key_assumptions": [
+     "Aerospace cycle robustness [D09]",
+     "Mark Donegan retention [D09]",
+     "Long-term normalized margins >20% [D09]"
+    ],
+    "discount_rate_used": "2.18% long bond rate [D04]"
+   },
+   "price_vs_value": "100% of low-end; margin of safety provided by sole-source moat and long-term backlog [D09]",
+   "expected_return_pct": {
+    "base": 10,
+    "bear": 7,
+    "bull": 14
+   },
+   "alternatives": "T-bills/Cash yielding <2% are inferior to an indefinite hold of a wonderful business [D09]",
+   "downside_case": "Permanent loss unlikely due to sole-source status and long-term engine programs; earnings cyclicality is transient [D09]",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Maintenance capex assumed to track depreciation closely for owner earnings proxy",
+    "Normalization of energy-sector impact within 2-3 years"
+   ]
+  },
+  "gate4": {
+   "role": "R3",
+   "role_description": "We acquire whole companies, leave existing management in place to run their operations with autonomy, and centralize capital allocation at headquarters [D09].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "The business will continue to compound earnings through its sole-source position in aerospace and industrial markets [D09].",
+    "Free cash flow will be deployed by Berkshire into other attractive opportunities over the long term [D09]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000-2015 era, our strategy focuses on acquiring large, capital-intensive, high-quality businesses with durable competitive advantages to serve as homes for Berkshire's significant float and cash reserves [D09]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Aerospace manufacturing cycle experiences a long-term structural decline [D09]",
+    "Technical barriers to entry or sole-source status are eroded by new manufacturing technologies [D09]",
+    "Mark Donegan departs or ceases to operate with owner-like discipline [D09]"
+   ],
+   "berkshire_constraints": "Must maintain cash reserves above $30B; proposed $37B EV acquisition leaves sufficient liquidity given $66.6B cash on hand [D09].",
+   "size_pct_nav": {
+    "initial": 100,
+    "target": 100,
+    "max": 100,
+    "basis": "whole company acquisition"
+   },
+   "opportunity_cost": "T-bills and cash yielding <2% are inferior to an indefinite hold of a wonderful business [D09].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a whole-company acquisition of a significant, high-quality business that falls well within our circle of competence regarding industrial moats.",
+   "biggest_risk_in_one_sentence": "A sustained, long-term downturn in the aerospace industry cycle could impair the normalized earnings power of the business."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-08-09",
+  "company": "Precision Castparts Corporation",
+  "ticker": "PCP",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 100,
+  "size_basis": "whole company acquisition",
+  "opportunity_template": [
+   "B4"
+  ],
+  "catalyst_role": "R3",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "11.00 - 12.00 normalized EPS",
+   "initial_pretax_yield_pct": 5.5,
+   "intrinsic_value_range": "235.00 - 260.00",
+   "expected_return_pct": 10,
+   "downside_case": "Transient cyclical earnings compression due to energy markets and destocking; long-term aerospace backlog secures baseline cash flows."
+  },
+  "drivers": [
+   {
+    "driver": "The $37bn enterprise value purchase is an all-in bet on the structural growth of the aerospace industry, where the company maintains a dominant, sole-source position [D09].",
+    "citations": [
+     "D09"
+    ]
+   },
+   {
+    "driver": "Precision Castparts maintains a durable moat derived from technical certification and process expertise that acts as a significant barrier to entry [D01, D09].",
+    "citations": [
+     "D01",
+     "D09"
+    ]
+   },
+   {
+    "driver": "Mark Donegan is an industry-leading operator whose retention ensures the business continues to be run with the owner-like discipline we require [D09].",
+    "citations": [
+     "D09"
+    ]
+   },
+   {
+    "driver": "The company's eight-year production backlog for major programs provides a level of earnings visibility that renders recent cyclical headwinds in energy and inventory management largely irrelevant to long-term value [D09].",
+    "citations": [
+     "D09"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Aerospace manufacturing cycle experiences a long-term structural decline [D09].",
+   "Technical barriers to entry or sole-source status are eroded by new manufacturing technologies [D09].",
+   "Mark Donegan departs or ceases to operate with owner-like discipline [D09]."
+  ],
+  "what_would_change_our_mind": "A sustained, long-term downturn in the aerospace industry cycle that structurally impairs the business's normalized earnings power would invalidate our investment thesis.",
+  "memo": "Precision Castparts is a wonderful business that manufactures the critical, high-barrier metal components and fasteners essential to modern aerospace and industrial programs [D01, D09]. Charlie and I have long admired the company's ability to act as a sole or dominant supplier, a position earned through rigorous technical certification and process expertise that competitors find nearly impossible to replicate [D01, D09].\n\nThis is a company that has consistently demonstrated its economic strength, with operating margins historically exceeding 20% and returns on tangible capital regularly topping 20% [D09]. While the business is capital-intensive, it occupies such a dominant niche that it generates robust free cash flow, supported by a massive eight-year production backlog for major airframe and engine customers [D01, D09].\n\nMark Donegan, who has led the company since 2002, is an exceptional operator whom we trust implicitly [D09]. He will remain in place to run the business with the same owner-like discipline he has practiced for over a decade, allowing us to centralize capital allocation at Berkshire while leaving day-to-day operations under his proven guidance [D09].\n\nMr. Market is currently preoccupied with short-term cyclical headwinds, specifically in energy-related pipe markets and temporary destocking by aerospace customers [D09]. This noise has provided us the opportunity to acquire a high-quality enterprise at a fair price of $235 per share [D09]. When we look at a business with this durability, we do not focus on quarterly revenue fluctuations, but rather on the compounding power of the business over the next several decades [D09].\n\nOur intrinsic value estimate comfortably brackets the $235 purchase price, and our expected return of 10% is far superior to the alternative of holding cash in a 2% yield environment [D04, D09]. We view this as a permanent addition to the Berkshire family, providing a productive home for a portion of our $66.6bn cash hoard [D09].\n\nWe recognize the risks of a long-term downturn in aerospace manufacturing or a change in the competitive landscape, but these are remote compared to the strength of the company's current backlog and technical position [D09]. This acquisition is an all-in wager on the economic future of the aerospace industry, a sector that will need Precision Castparts' specialized components for years to come [D09].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "pack": "1974_market_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "hedge",
+ "as_of_date": "1974-11-01",
+ "stages": {},
+ "final": {
+  "as_of_date": "1974-11-01",
+  "trailing_earnings_yield_pct": 13.02,
+  "normalised_earnings_yield_pct": 13.02,
+  "normalisation_basis": "trailing (no distortion)",
+  "long_bond_yield_pct": 7.8,
+  "spread_points": 5.22,
+  "drawdown_from_high_pct": -41.4,
+  "panic_indicators": [
+   "fears of depression [D03]",
+   "pessimism [D03]",
+   "interest in gold [D03]"
+  ],
+  "rule_decision": "BUY_BROADLY",
+  "decision": "BUY_BROADLY",
+  "override_reason": null,
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "The market earnings yield of 13.02% significantly exceeds the 7.80% yield on 10-year Treasuries [D04].",
+  "valuation_level": "The S&P 500 is trading at a trailing P/E of 7.68x [D03].",
+  "ideas_that_qualify": [
+   "simple businesses such as a water utility, a newspaper or a major retailer [D01]"
+  ],
+  "berkshire_action": "We will deploy cash into wonderful businesses at fair prices as fast as we can, as the market is offering deep value relative to historical norms and bond yields.",
+  "drivers": [
+   {
+    "driver": "The spread between equity earnings yields and bond yields is a highly attractive 5.22 percentage points [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The market has declined over 41% from the January 1973 high, creating significant margin of safety for patient investors [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Broad pessimism and fear of depression have depressed price-to-earnings multiples to roughly 7.7x [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   }
+  ],
+  "memo": "Charlie and I have long looked for businesses with durable competitive advantages, and today the market is handing them to us at prices we haven't seen in years. We are not in the business of predicting the next move in the Dow; we are in the business of buying dollar bills for 50 cents. With the S&P 500 earnings yield at 13.02% against a 7.80% long bond, the arithmetic of the market is screaming that equities are the superior alternative for the long-term owner [D04].\n\nWe are ignoring the general talk of depression and the noise surrounding oil supply [D03, D05]. Instead, we are looking for simple, understandable franchises—be it a utility, a newspaper, or a retailer—that possess pricing power and the ability to survive hard times [D01]. When we find these wonderful businesses at such a deep margin of safety, we don't look for a catalyst to justify the purchase; we simply buy as fast as we can [D01]. Patience has been our greatest ally, but in this climate, being too patient is a mistake.",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "pack": "2024_bac_trim",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2024-07-17",
+ "stages": {},
+ "final": {
+  "as_of_date": "2024-07-17",
+  "company": "the Company (Bank of America)",
+  "ticker": "BAC",
+  "decision": "TRIM",
+  "reason_class": "S3",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Original thesis: Negotiated preferred/warrants during crisis [D01], [D07]. Current status: Residual common equity stake [D01].",
+   "Business franchise: Remains a large deposit-funded US banking franchise [D01].",
+   "Regulatory position: Stake remains above the 10% threshold [D08], requiring insider reporting [D08]."
+  ],
+  "price_vs_value_now": "Trading at 1.28x book and 1.73x tangible book value as of 2024-06-30 [D04].",
+  "after_tax_hurdle": "Selling incurs a 21% federal tax cost [Rule S3], which must be weighed against the bank's current valuation premium and desire for increased liquidity [Rule S3].",
+  "drivers": [
+   {
+    "driver": "Trim position to manage the regulatory and reporting burden associated with exceeding the 10% ownership threshold [D08], [Rule S3].",
+    "citations": [
+     "D08"
+    ]
+   },
+   {
+    "driver": "Increase cash reserves in a fully priced market, utilizing this highly liquid position as a source of funds [Rule S3].",
+    "citations": [
+     "D08"
+    ]
+   },
+   {
+    "driver": "Tax efficiency dictates a disciplined, staged reduction in a large position that has appreciated since the original crisis-era entry [Rule S3].",
+    "citations": [
+     "D08"
+    ]
+   }
+  ],
+  "memo": "We have held a substantial position in this institution since the crisis-era days when we provided preferred capital [D01], [D07]. The business remains a significant deposit-funded franchise, and we have long admired its role in the US banking system [D01]. However, maintaining an ownership stake above the 10% reporting threshold carries specific regulatory and administrative burdens that we find unnecessary to sustain at full scale [D08]. \n\nAs we manage our capital allocation, we are mindful of the benefits of holding a larger cash position in an environment where many assets are fully priced [Rule S3]. Given our existing basis in these shares, a sale triggers a 21% federal tax charge [Rule S3], but we believe it is prudent to trim the position to improve liquidity and reduce the reporting complexity associated with our current ownership level [D08].\n\nThis decision is a matter of capital management and regulatory compliance rather than a fundamental change in our view of the company's long-term earning power [Rule S3]. We continue to regard the business as a solid, well-managed institution, and the remaining stake will continue to represent a significant investment for Berkshire [Rule S3]. We will proceed with the reduction in a measured fashion as we have with other major bank holdings in the past [Rule S3].",
+  "uncited_claims": []
+ }
+}

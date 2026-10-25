@@ -1,0 +1,53 @@
+{
+ "trade_id": "2011_ibm_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Enterprise IT departments have sticky supplier relationships verified through Berkshire subsidiaries. → By embedding their technology and services into the daily operations of these clients, IBM creates substantial switching costs, which effectively protect their competitive position [D01].",
+   "Management laid out a roadmap and delivered on it. → Management has shown a disciplined approach to capital allocation, meeting their stated multiyear targets while using share repurchases to significantly enhance earnings per share, which rose from $6.05 to $11.52 over the last five years [D28, D68]."
+  ],
+  "missed": [
+   "Capital allocation respected continuing owners.",
+   "Business earnings and repurchases were preferable to near-zero cash or low-yield bonds."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value — the company trades at $163.07, or roughly 102% of our low-end intrinsic value estimate, providing an insufficient margin of safety compared to the 7.06% initial yield [D86, D95]."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "IBM creates substantial switching costs, which effectively protect their competitive position.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market currently prices the business at $163.07.",
+    "citation": "D86",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The opportunity does not appear as compelling as holding cash.",
+    "citation": "D95",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 6,
+  "share": 0.6
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Therefore, we prefer to wait for a more attractive entry point that provides a clear margin of safety, adhering to our preference for buying wonderful businesses only at a fair or better price.",
+ "grader_notes": "The agent correctly identified the core qualitative drivers of sticky enterprise relationships and disciplined management execution. However, the agent failed the trade by passing due to a rigid margin of safety requirement, whereas Buffett viewed the business strength and capital allocation as sufficient justification for purchase in 2011.",
+ "run": "2011_ibm_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

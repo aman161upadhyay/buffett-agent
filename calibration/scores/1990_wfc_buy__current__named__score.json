@@ -1,0 +1,62 @@
+{
+ "trade_id": "1990_wfc_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 4,
+  "matched": [
+   "Reichardt and Hazen were outstanding, cost-conscious bank managers. → Under the leadership of Carl Reichardt and Paul Hazen, the bank has maintained a formidable competitive position defined by strict expense discipline and high credit quality.",
+   "Buffett wanted well-managed banks at fair prices, not poorly managed banks merely because they were cheap. → We have followed the bank closely and admire its focus on operational efficiency rather than growth for its own sake.",
+   "A severe California loan-loss stress could be absorbed by earning power without assuming a favorable economy. → The primary risk remains the potential for localized property-credit losses to overwhelm capital buffers, though we believe management's discipline will allow them to navigate this period successfully.",
+   "Less than five times after-tax earnings supplied a substantial valuation cushion. → With normalized owner earnings of approximately $11.00 per share, the stock trades at a multiple that provides a significant margin of safety against the 8.66% long-term bond yield."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Wells Fargo possesses a durable competitive advantage built on superior cost control and credit quality, allowing it to outperform peers during cyclical downturns"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Normalized EPS of ~$11.00",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management led by Carl Reichardt and Paul Hazen has established an extraordinary record of expense discipline",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market's fear regarding California real estate creates a temporary cloud",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The stock trades at a multiple that provides a significant margin of safety against the 8.66% long-term bond yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Establishing a 10% position in our equity portfolio",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 8,
+  "share": 0.73
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are establishing a 10% position in our equity portfolio, trusting that the bank's intrinsic value will be realized as the cyclical clouds lift.",
+ "grader_notes": "The agent accurately identified all four of Buffett's core drivers for the Wells Fargo investment. The reasoning is well-aligned with the historical record, specifically regarding the focus on management quality and the valuation cushion provided by earnings power relative to prevailing credit concerns.",
+ "run": "1990_wfc_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

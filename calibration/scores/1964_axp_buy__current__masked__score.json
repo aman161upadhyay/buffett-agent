@@ -1,0 +1,44 @@
+{
+ "trade_id": "1964_axp_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "The fiscal injury did not destroy the exceptional economics of the payments franchise → While the recent commodities fraud at a warehousing subsidiary is a regrettable distraction, it does not alter the fundamental value of the core payment franchise",
+   "A large market-value decline created a business-value opportunity rather than a need for a market forecast → We view the market's current panic as an opportunity to purchase a high-quality franchise at a discount, as the liability from the fraud is finite and will be absorbed by the company's earning power over time"
+  ],
+  "missed": [
+   "Continued customer use of cheques and cards supported treating the franchise separately from warehousing claims.",
+   "Management's willingness to protect the name mattered because trust underpinned the operating franchise."
+  ],
+  "extra_agent_drivers": [
+   "Attractive earnings yield relative to long-term bonds.",
+   "The business possesses a durable moat built on widespread merchant acceptance."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at an earnings yield of 6.81% against the 4.14% long bond yield",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 10,
+  "share": 0.91
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are initiating a position in the Company because we believe Mr. Market has severely mispriced a wonderful business due to a temporary, non-recurring event [D01], [D05].",
+ "grader_notes": "The agent correctly identified the core thesis that the fraud was a temporary event separate from the franchise's economics. However, the agent's sizing (20%) significantly differed from Buffett's eventual high-conviction 40% concentration, and it focused more on quantitative valuation metrics (yields) than the qualitative trust and brand protection factors Buffett emphasized.",
+ "run": "1964_axp_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,49 @@
+{
+ "trade_id": "ctl_2023_frc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett distinguished safe deposits from risky bank equity and criticized asset/liability mismatch and accounting incentives",
+   "No First Republic in parent filings around Q4 2022/Q1 2023 or the 2010–Q2 2026 census",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "The bank trades at 0.46x tangible book, but intrinsic value is not calculable due to the ongoing liquidity crisis",
+   "The bank faces a fundamental risk of deposit-based funding instability that may lead to permanent capital impairment",
+   "Normalised owner earnings cannot be reliably calculated to determine a margin of safety due to the liquidity shock",
+   "The bank is capital-intensive and subject to liquidity risks that threaten its operating structure"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The bank trades at 0.46x tangible book",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Today, the bank's reliance on a $30 billion liquidity bridge from other institutions highlights a fragility",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 8,
+  "share": 0.8
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We put this idea in the 'too hard' pile.",
+ "grader_notes": "The agent correctly identifies the decision (PASS) and aligns with the general philosophy of avoiding firms with unstable balance sheets. However, it fails to cite the specific institutional evidence or the actual articulated reasoning (or lack thereof) provided in the answer key, relying instead on independent financial analysis.",
+ "run": "ctl_2023_frc_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

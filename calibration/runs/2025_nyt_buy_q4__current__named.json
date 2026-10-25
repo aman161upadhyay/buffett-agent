@@ -1,0 +1,260 @@
+{
+ "pack": "2025_nyt_buy_q4",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2025-09-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The New York Times Company provides a portfolio of news, games, cooking, product recommendations, and sports coverage through a direct digital subscriber model [D01]. It operates a bundle strategy to drive habitual use and recurring digital revenue, while still maintaining legacy print operations [D01].",
+   "products_customers_and_why_they_buy": [
+    "Digital-only subscriptions (11.30 million subscribers): users pay for access to news and lifestyle products like games and cooking, evidenced by growth in bundle/multiproduct usage (6.02 million) [D01]",
+    "Advertising: digital and print inventory sold to marketers [D01]",
+    "Affiliate and licensing: revenue from content and product partnerships [D01]"
+   ],
+   "economics": [
+    "Operating margin: 15.5% (GAAP); adjusted operating margin: 19.5% [D02]",
+    "Capital intensity: journalism, product development, and customer acquisition are ongoing cash costs [D01]",
+    "Pricing: ARPU increased to $9.64, driven by moving subscribers off promotional offers and price increases [D03]",
+    "Owner-earnings inputs: D&A and special items (e.g., AI litigation costs) represent significant differences between reported and adjusted figures [D02]"
+   ],
+   "earnings_record": [
+    "Annual revenue: $2.31B (2022), $2.43B (2023), $2.59B (2024) [D01, D02]",
+    "Second-quarter revenue growth: 9.7% [D01]",
+    "Operating profit: $106.6 million (GAAP) vs $133.8 million (adjusted) [D01, D02]"
+   ],
+   "competitive_position": [
+    "Scale: 11.88 million total subscribers [D01]",
+    "Moat evidence: the bundle/multiproduct strategy aims for habitual use, though the ability to maintain returns after content and acquisition costs is a key test [D01, D06]",
+    "Peers: competes against free information, other subscription franchises, and entertainment bundles [D06]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Debt: no outstanding debt [D02]",
+    "Cash/Marketable securities: $951.5 million [D02]",
+    "Liquidity: $400 million revolving commitment available [D02]"
+   ],
+   "management_and_capital_allocation": [
+    "CEO: Meredith Kopit Levien [D01]",
+    "Candour: reports both GAAP and adjusted measures, highlighting material differences [D03]",
+    "Capital allocation: focuses on digital transformation; dual-class structure limits outside shareholder influence [D01, D05]"
+   ],
+   "price_and_valuation": [
+    "Price: $57.40 (as of 2025-09-30) [D04]",
+    "Market cap: ~$9.43 billion [D04]",
+    "P/E: ~28.70x (GAAP-based) or ~24.74x (adjusted-based) based on annualized Q2 earnings [D04]"
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 3.48,
+    "normalised_or_owner_earnings_yield": 4.04,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "Trailing earnings yield derived from $2.00 GAAP EPS ($0.50*4) / $57.40; Normalised yield derived from $2.32 adjusted EPS ($0.58*4) / $57.40 [D04]; no explicit dividend or long bond yield provided in pack"
+   },
+   "what_the_market_is_worried_about": [
+    "Digital subscriber growth exhaustion: acquisition costs are rising, potentially faster than revenue [D05]",
+    "Generative AI: threat to distribution and source of costly legal litigation [D05]",
+    "Churn: price increases and promotional roll-offs may increase subscriber attrition [D03, D05]",
+    "Legacy decline: print subscriptions continue to fall [D03, D05]"
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2025-08-06: Q2 earnings release showing 230k net digital additions and $106.6M operating profit [D03]",
+    "2025-09-30: Stock price closed at $57.40 [D04]"
+   ],
+   "berkshire_context": [
+    "13F (June 30) reports no New York Times position [D08]",
+    "Berkshire maintains $344.1B in cash/Treasury liquidity as of Q2 2025 [D08]"
+   ],
+   "document_conflicts": [
+    "None identified"
+   ],
+   "missing_data": [
+    "Maintenance vs. growth capital expenditures, detailed historical ROE, and long-term churn cohort data"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The business operates a clear subscription-based model for news and lifestyle content that has successfully transitioned to digital [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While the bundle strategy aims to create habit, the company faces intense competition from free information and must constantly invest in content and customer acquisition to maintain its position [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Revenue has grown consistently from $2.31B in 2022 to $2.59B in 2024, demonstrating stability in its digital transition [D01, D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company maintains no outstanding debt and holds a strong cash position of $951.5 million [D02]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "Journalism and customer acquisition are ongoing, significant cash costs, and the business does not grow without substantial reinvestment [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management provides transparent reporting, but the dual-class structure limits the ability of outside shareholders to influence the company [D01, D03, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "At a $9.43 billion market capitalization, this is too small to meaningfully move the needle for Berkshire Hathaway [D04]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "The normalized earnings yield of 4.04% is inadequate against the standards required for a capital-intensive business facing technological disruption [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 3,
+   "n_fail": 2,
+   "n_unsure": 3,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": true,
+   "one_line_business_quality_verdict": "A digital-transitioning media franchise with a strong balance sheet but high ongoing capital requirements and a premium valuation."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no compelling reason to expect a bargain here as the market is correctly pricing the business based on its capital-intensive nature and the significant threats posed by generative AI and rising customer acquisition costs [D01, D05]. The current earnings yield of 4.04% does not provide a margin of safety for a business where growth requires constant reinvestment and the competitive landscape remains intense [D04].",
+   "evidence": [
+    "Normalized earnings yield of 4.04% is inadequate against Berkshire's standards for capital-intensive businesses [D04].",
+    "High ongoing capital requirements for journalism and customer acquisition [D01].",
+    "Threats from generative AI and potential subscriber churn create significant uncertainty [D05]."
+   ],
+   "market_narrative_we_disagree_with": "The market may be pricing the company as a high-growth tech platform rather than a capital-intensive media business facing structural headwinds and content disruption [D01, D05].",
+   "what_must_be_true": [
+    "The business must prove it can grow without escalating customer acquisition costs.",
+    "The company must successfully navigate AI-related litigation and potential distribution disruption.",
+    "The dual-class structure must not result in capital allocation that ignores the interests of minority shareholders."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "$2.32 [D04]",
+   "initial_pretax_yield_pct": 4.04,
+   "intrinsic_value_range": {
+    "low": "Not calculable",
+    "high": "Not calculable",
+    "key_assumptions": [
+     "Maintenance capital expenditure [D01]",
+     "Long-term churn rates [D05]",
+     "Impact of AI on content value [D05]"
+    ],
+    "discount_rate_used": "Not in pack"
+   },
+   "price_vs_value": "Not in pack",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Berkshire maintains $344.1B in cash/Treasury liquidity [D08]; T-bills are superior to a 4.04% yield on a capital-intensive business with structural disruption risks [D01, D04].",
+   "downside_case": "Permanent loss of competitive position due to generative AI and rising customer acquisition costs [D05].",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Long bond yield not in pack; assumed as a standard benchmark for hurdle rates.",
+    "Maintenance vs growth capital expenditures not in pack; used adjusted EPS as a proxy for owner earnings."
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Berkshire's edge is patience and the use of permanent capital to compound value through rational capital allocation [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Long-term compounding of digital subscriber growth and bundle penetration [D01]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in the 2016-onward era, we act as a permanent passive holder, focusing on businesses that can generate durable returns over long horizons; however, this specific idea fails our quality and valuation screens [D01, D04, D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Pricing power lost to free alternative content and AI-driven aggregators [D01, D06]",
+    "Subscriber acquisition costs outpace growth in ARPU due to churn [D03, D05]",
+    "Legal costs or distribution disruption from generative AI permanently impair margins [D05]"
+   ],
+   "berkshire_constraints": "Cash floor is maintained at $30B+; any acquisition must not jeopardize Berkshire's reputation for financial conservatism [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Berkshire's own cash/Treasury liquidity yielding higher returns with zero risk compared to this capital-intensive business [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business lacks the durable competitive advantage and margin of safety required for a Buffett-led investment.",
+   "biggest_risk_in_one_sentence": "The company operates a capital-intensive model vulnerable to technological disruption and rising customer acquisition costs, offering an inadequate earnings yield."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-09-30",
+  "company": "The New York Times Company",
+  "ticker": "NYT",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "$2.32 per share [D04]",
+   "initial_pretax_yield_pct": 4.04,
+   "intrinsic_value_range": "Not calculable",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of competitive position due to generative AI and rising customer acquisition costs [D05]."
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at a normalized earnings yield of 4.04% [D04], which is inadequate for a capital-intensive business requiring constant reinvestment [D01].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The business model faces structural headwinds from generative AI and intense competition from free digital information sources [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Ongoing capital requirements for journalism and customer acquisition prevent the accumulation of excess free cash flow that could be distributed or redeployed [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The dual-class stock structure limits the influence of minority shareholders over capital allocation [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Pricing power lost to free alternative content and AI-driven aggregators [D01, D06]",
+   "Subscriber acquisition costs outpace growth in ARPU due to churn [D03, D05]",
+   "Legal costs or distribution disruption from generative AI permanently impair margins [D05]"
+  ],
+  "what_would_change_our_mind": "The business would need to demonstrate a durable competitive advantage that allows it to grow its subscriber base without escalating acquisition costs, while simultaneously proving immunity from AI-driven distribution disruption.",
+  "memo": "We have looked at The New York Times and decided to pass. While the company has successfully grown its digital subscriber base to 11.3 million [D01], the economics of the business remain unattractive for our requirements. The company earns an initial pre-tax yield of just 4.04% [D04], a figure that provides no margin of safety when weighed against the capital-intensive nature of a business that must perpetually reinvest in content and customer acquisition to maintain its position [D01].\n\nUnlike the wonderful businesses we seek, this company faces persistent and uncertain threats from generative AI and the proliferation of free information [D01, D05]. These factors put constant pressure on the moat, necessitating ongoing legal and operational costs that cloud our ability to forecast long-term owner earnings [D02, D05]. In short, the company is too small to move the needle for Berkshire [D04], and its current price fails to compensate for the significant risks of technological disruption [D05].\n\nWe prefer to hold our cash, which currently yields more in risk-free Treasury instruments than we could expect from a business facing such structural headwinds [D08]. We do not engage in turnarounds or businesses where the competitive position is under constant siege by rapid technological change [D01]. Our capital will remain deployed in ventures where the durability of the competitive advantage is clear and the price offers us a significant margin of safety.",
+  "uncited_claims": []
+ }
+}

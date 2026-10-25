@@ -1,0 +1,15 @@
+Title: The Coca-Cola Company — Investor's capital and constraints
+Source: Coca-Cola pre-cutoff annual operating record; management actions reconstructed from Berkshire acquisition-history narrative, with later opinion and purchase disclosures withheld; fund reference https://www.berkshirehathaway.com/letters/1986.html
+Date: 1988-09-30
+
+## Cutoff evidence — reconstructed
+
+The last fully reconciled common-stock total recovered for this reconstruction is $1.874033 billion market value at December 31, 1986, from the already public annual letter. It is stale, not a September cash or NAV figure. Major interests include Capital Cities/ABC, GEICO and Washington Post. Their business familiarity supplies alternatives to a new beverage investment, not a prediction that one must perform better. Exact September liquidity and the current denominator are unrecovered. Each established holding represents an opportunity cost for another investment, but familiarity alone does not make the price of an additional interest attractive. No beverage allocation, intended size or recommendation is supplied by the fund-context evidence.
+
+## Economic reading of the supplied facts
+
+Industry economics: a concentrate producer sells a small part of the finished beverage's physical volume but supplies a large part of its consumer identity. Bottlers and retailers supply production, packaging and access to the customer. The division of capital and margin among these participants matters when judging returns. A strong brand can support repeat demand, but advertising, product quality and route-to-market access still require resources. Growth abroad may use a local partner's capital, yet the producer remains exposed to execution, currency and regulation. These are implications of the concentrate-and-bottler model, not an assertion that every incremental dollar of revenue becomes owner cash or that consumption can grow without limit.
+
+Capital-allocation interpretation: a portfolio allocation must fit the legal entity that supplies the money. An insurance subsidiary's invested assets are not all cash available for an acquisition. Premiums collected before claims are paid provide investment funds but also create obligations. Consolidated equity, publicly traded holdings, cash and insurance float are different denominators.
+
+No target weight follows mechanically from the fund-size reference. Available cash at this exact cutoff, where unrecovered, remains unknown rather than being equated with the reference figure. Existing concentrated holdings create opportunity costs; selling them may incur tax and surrender durable earning power. A commitment involving stock also transfers a continuing fraction of the buyer's future economics. The investor has no obligation to purchase simply to remain fully invested. Conversely, waiting has a cost when a sound business is offered below conservative value. This context describes available choices and constraints without specifying an allocation or revealing a decision.

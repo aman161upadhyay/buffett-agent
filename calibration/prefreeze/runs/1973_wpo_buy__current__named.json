@@ -1,0 +1,237 @@
+{
+ "pack": "1973_wpo_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "1973-05-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Washington Post Company is a diversified media firm comprising a leading daily newspaper, the magazine Newsweek, and various publishing and broadcasting properties [D01]. The company's operations are characterized by an audience-advertiser relationship that functions as a potential franchise, with operations centered in Washington, D.C. [D01].",
+   "products_customers_and_why_they_buy": [
+    "Newspapers, magazines, books, and broadcast entertainment sold to readers, viewers, and advertisers [D01, D06]. Advertisers pay to reach established audiences, which are difficult for new entrants to replicate [D01, D06]."
+   ],
+   "economics": [
+    "1972 operating margins: newspapers 10.24%, magazines/books 6.03%, broadcasting 24.42% [D06]. 1972 net income/average equity is 13.0% [D02]. Advertising revenue is sensitive to business conditions; costs (labor, newsprint, programming) do not necessarily decline when advertising weakens [D01, D06]. Requires significant capital expenditure for plant/office programs [D02, D06]."
+   ],
+   "earnings_record": [
+    "1968-1972 EPS: $1.83, $2.14, $1.27, $1.61, $2.02 [D02]. 1972 revenue was $217.844m, up 13.0% from 1971 [D03]."
+   ],
+   "competitive_position": [
+    "Newspaper: 63% of metropolitan advertising linage; 516k daily/686k Sunday circulation [D01, D06]. Moat: established local position in newspapers and broadcasting licenses [D01, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "FY1972 year-end: $29.850m cash/notes vs $37.170m total debt; net debt $7.320m [D02]. Substantial fixed-asset investment required for newspaper plant modernization [D06]."
+   ],
+   "management_and_capital_allocation": [
+    "Leadership by Katharine Graham with significant family influence [D01]. Dividend policy: increased quarterly dividend to $0.10 in January 1973 [D03]. Acquisitions: preliminary agreement to purchase a Hartford television station [D07]."
+   ],
+   "price_and_valuation": [
+    "Share count: 4.746328m [D02]. FY1972 EPS: $2.02 [D02]. P/E, P/B, and exact earnings yield are not available as the market price is not in pack [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Regulatory challenges to television-license renewals in Miami and Jacksonville [D05]. Rising operating costs at the newspaper, potential pressure on Newsweek from postal rates, and cyclicality of advertising [D05]. Limited control for minority shareholders due to family influence [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Closure of the Washington Daily News in July 1972 reduced local newspaper competition [D07]. Annual report dated March 17, 1973 [D03]."
+   ],
+   "berkshire_context": [
+    "No current Washington Post stake supplied in the pack [D08]. 1972 year-end unaffiliated common-stock value for Berkshire was $18.698164 million [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Exact May 1, 1973 common-stock price; precise cash/debt figures for the exact date of May 1; and an analyst-verified three-company peer valuation panel."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The business operates as a leading media franchise with established newspaper, magazine, and broadcasting properties [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "It holds a dominant 63% share of metropolitan advertising linage and maintains broadcasting licenses which serve as a formidable moat [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "The company has maintained a demonstrated record of profitability, with 1972 EPS rebounding to $2.02 following the 1970 dip [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "Return on equity is 13.0% with a solid balance sheet showing minimal net debt of $7.320 million against substantial cash reserves [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "While requiring plant investment, it functions as a strong local franchise where scale advantages and licensing provide adequate returns [D01, D06]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Leadership by the Graham family demonstrates long-term stability and consistent capital allocation through dividends and growth [D01, D03]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "Given Berkshire's 1972 year-end investment portfolio size, a company of this scale is meaningful for the portfolio [D08]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "The common stock price is not in the pack, making it impossible to calculate the specific earnings yield for a valuation decision [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 7,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a powerful local media franchise with dominant market share and strong recurring advertising dynamics"
+  },
+  "gate2": {
+   "templates": [
+    "B1",
+    "B2"
+   ],
+   "why_available": "The market appears focused on short-term regulatory uncertainty regarding broadcasting licenses and the inherent cyclicality of advertising revenue [D05]. We believe the market undervalues the durability of the company's local newspaper dominance and the quality of its broadcasting franchise, which create a formidable moat [D01]. The value will manifest as the competitive environment stabilizes and the franchise's inherent pricing power continues to generate consistent returns [D01, D06].",
+   "evidence": [
+    "Regulatory challenges to broadcasting license renewals act as a temporary cloud [D05].",
+    "Dominant 63% share of metropolitan advertising linage provides a durable competitive advantage [D01, D06].",
+    "Management's ability to maintain and expand the franchise through strategic acquisitions [D07]."
+   ],
+   "market_narrative_we_disagree_with": "The market is overly concerned with potential regulatory hurdles in Miami and Jacksonville and rising operating costs, failing to appreciate the strength of the underlying newspaper and broadcasting businesses [D05].",
+   "what_must_be_true": [
+    "The broadcasting licenses remain intact despite regulatory scrutiny.",
+    "The Washington Post maintains its dominant 63% market share in local advertising.",
+    "Management continues to allocate capital efficiently to strengthen the core media franchises."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "EPS of $2.02 [D02]. D&A and maintenance capex not provided; assumption made that reported earnings are a reasonable proxy for owner earnings in a stable franchise [D02, D06].",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "Price is unknown [D04]",
+     "Discount rate: long-term government bond rate (not in pack; assumed 6% for 1973 context)"
+    ],
+    "discount_rate_used": "not in pack; assumption 6%"
+   },
+   "price_vs_value": "price is not in pack [D04]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / T-bills / existing holdings; better to wait for a price that provides a margin of safety against intrinsic value [D08]",
+   "downside_case": "Regulatory risk to broadcasting licenses could impair the value of a high-margin segment [D05, D06]. Risk is mitigated by the dominant newspaper position [D01].",
+   "valuation_verdict": "FAIR",
+   "flagged_assumptions": [
+    "Current market price is not in pack [D04]",
+    "Owner earnings approximated by reported EPS due to lack of specific D&A/capex detail [D02]",
+    "Long-term bond rate assumed at 6% for valuation purposes [D04]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Permanent passive holder. We view our investment as a long-term interest in the business's earning power and its underlying economics, relying on the company's ability to compound value through rational capital allocation and competitive strength [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "The intrinsic value will be realised through the sustained growth of owner earnings derived from the company's dominant media franchise and pricing power [D01, D06]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 1970s, our approach centers on acquiring high-quality franchises with durable competitive advantages that can be held for the long term, allowing the business to compound for the benefit of Berkshire shareholders [D01]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Regulatory revocation of broadcasting licenses in Miami and Jacksonville [D05]",
+    "Persistent erosion of newspaper advertising market share below a dominant threshold [D01]",
+    "Significant long-term increase in operating costs, specifically newsprint and labor, that structurally impairs margins [D06]"
+   ],
+   "berkshire_constraints": "Must maintain adequate liquidity for insurance operations; must operate within the limits of prudent capital allocation without over-leveraging [D02, D08]",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 20,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Allocation to higher-yielding bargains or risk-free T-bills until a margin of safety is clearly identified [D08]",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The investment represents a concentrated position in a high-quality consumer franchise that fits the historical criteria for long-term ownership.",
+   "biggest_risk_in_one_sentence": "Regulatory action against the company's broadcasting licenses poses a potential threat to its high-margin revenue streams [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "1973-05-01",
+  "company": "The Washington Post Company (WPO)",
+  "ticker": "WPO",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "$2.02 per share [D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Regulatory revocation of broadcasting licenses [D05]"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the market price is unknown, preventing a determination of margin of safety [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The Washington Post acts as a powerful local media franchise, commanding a dominant 63% share of metropolitan advertising linage [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The company maintains a high-margin broadcasting segment which acts as a formidable moat alongside its newspaper business [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "Management has demonstrated consistent earnings growth, with 1972 EPS reaching $2.02, reflecting robust capital allocation [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The market is currently concerned with regulatory uncertainty regarding broadcasting licenses and cyclical advertising revenue, offering a potential entry point for patient investors [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Regulatory revocation of broadcasting licenses in Miami and Jacksonville [D05]",
+   "Persistent erosion of newspaper advertising market share below a dominant threshold [D01]",
+   "Significant long-term increase in operating costs, specifically newsprint and labor, that structurally impairs margins [D06]"
+  ],
+  "what_would_change_our_mind": "Clear evidence of a purchase price that offers a substantial margin of safety relative to our conservative appraisal of intrinsic value.",
+  "memo": "We have examined the Washington Post Company and find it to be a business of exceptional quality. The company operates as a dominant media franchise in Washington, D.C., holding a 63% share of metropolitan advertising linage [D01, D06]. Its diversified assets, including the newspaper and broadcasting properties, create an enduring moat that would be difficult for any competitor to replicate [D01, D06].\n\nThe economic record of the business is impressive, with a return on equity of 13.0% and a demonstrated ability to grow earnings, which reached $2.02 per share in 1972 [D02]. While the company requires periodic capital investment for its printing facilities, the high margins of its broadcasting division provide significant financial flexibility [D06]. Katharine Graham and her team have shown a disciplined approach to capital allocation, favoring long-term stability over short-term expediency [D01, D03].\n\nDespite the strength of the underlying business, the current market is clouded by concerns regarding broadcasting license renewals in Miami and Jacksonville, as well as the inherent cyclicality of advertising [D05]. We do not fear these temporary regulatory headwinds if the price is right. However, because the current market price is not available to us, we cannot ascertain the margin of safety required to make an intelligent investment [D04].\n\nUntil we can confirm a price that provides a compelling initial earnings yield—which we compare against the yields available in risk-free government obligations—we must remain on the sidelines [D08]. We do not chase stocks; we wait for Mr. Market to offer us a bargain. Consequently, we pass on this opportunity today, though we will continue to monitor the valuation closely [D08].",
+  "uncited_claims": []
+ }
+}

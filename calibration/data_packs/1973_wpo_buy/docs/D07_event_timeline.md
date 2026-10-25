@@ -1,0 +1,15 @@
+Title: The Washington Post Company — Information chronology
+Source: Washington Post 1972 annual report, letter dated March 17, 1973, http://stuff.maxolson.com/annual-reports/WPO-1972.pdf ; reconstructed current quotation unavailable; Berkshire financial statements, unaffiliated common-stock reference https://ia803100.us.archive.org/10/items/berkshirehathawayannualreports/berkshirehathaway1973_text.pdf
+Date: 1973-05-01
+
+## Cutoff evidence — reconstructed
+
+The company becomes publicly held in 1971. In July 1972 the Daily News closes, reducing direct metropolitan newspaper competition. The 1972 report is signed March 17, 1973 and describes January dividend action, challenges to two television licenses and a preliminary Hartford station acquisition agreement. Those facts precede the May 1 cutoff. A specific day of the investor's first purchase and a May quotation were not recovered. The well-known mid-year appraisal is not backdated into this chronology. No later board appointment, repurchase or labor event is treated as current. The analyst has audited prior-year business evidence but still lacks the exact current price needed for a complete value comparison.
+
+## Economic reading of the supplied facts
+
+Industry economics: newspapers and broadcasters sell audiences to advertisers while supplying news and entertainment to readers or viewers. An established local position can be difficult to replicate because a new entrant must build both audience and advertising support. Broadcast licenses add regulatory obligations and are not equivalent to perpetual unregulated monopolies. Advertising is sensitive to business conditions; labor, programming and newsprint costs need not decline when advertising weakens. The distinction between a valuable local franchise and the price paid for it is essential. Scale across properties can help administration, but no unverified synergy is counted in the economics presented here. This paragraph describes the competitive mechanism rather than assigning a private-market valuation to any individual property.
+
+Chronology controls: the cutoff is an information boundary, not proof of an execution on that day. A negotiated commitment, a public announcement, a purchase settlement and an annual-report disclosure are distinct events. Facts about the condition of the business may be reconstructed from archival accounts without turning a later explanation into a statement available to the market.
+
+Only the events described above enter this chronology. No subsequent result is assumed when assessing the unresolved question. The absence of an original day-by-day price series prevents identification of a precise entry-day return or volume pattern. The same restriction applies to unpublished board discussions and security-specific purchase ledgers. This reconstruction does not claim access to either. Where a transaction is being considered, proposed terms are identified as proposed; regulatory approvals and operating improvements are not treated as completed. Where shares already exist in a portfolio, a request to study a new allocation must not erase that exposure.

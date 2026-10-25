@@ -1,0 +1,241 @@
+{
+ "pack": "2016_aapl_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2016-04-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Apple sells consumer devices integrated with proprietary software and services [D01]. The iPhone is the central product, supported by a broad installed base, applications, accessories, and customer accounts [D01].",
+   "products_customers_and_why_they_buy": [
+    "Consumer devices (iPhone) and services; customers include the general consumer base [D01]. Ecosystem convenience can drive repeat purchases and switching costs, though product desirability requires constant innovation [D01]."
+   ],
+   "economics": [
+    "Operating margins: 31.2% (2011), 35.3% (2012), 28.7% (2013), 28.7% (2014), 30.5% (2015) [D02]. Economics are driven by customer retention, replacement frequency, pricing, and required innovation costs [D01, D02]. Revenue mix between hardware and services is a key determinant of owner economics [D06]."
+   ],
+   "earnings_record": [
+    "Net income (2011-2015): $25.9B, $41.7B, $37.0B, $39.5B, $53.4B [D02]. Latest quarter (Q2 2016) shows revenue of $50.6B and net income of $10.5B, down from $58B and $13.6B respectively in the prior year [D03]."
+   ],
+   "competitive_position": [
+    "Maintains a consumer franchise with switching costs through an integrated ecosystem [D01]. Competitors include Android-based phones and Samsung [D06]. Moat is defined by ecosystem lock-in, but faces risks from smartphone market saturation and competition [D05, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Debt (including commercial paper): $64.328B (FY2015) [D02]. Cash and marketable securities: $232.928B (as of 2016-03-26) [D04]. Net cash: $153.056B (as of 2016-03-26) [D04]."
+   ],
+   "management_and_capital_allocation": [
+    "Capital return program expanded to $250 billion, with $163 billion returned to holders through March 2016 [D03]. Management uses buybacks and dividends to return cash [D02, D03]."
+   ],
+   "price_and_valuation": [
+    "Price: $93.74 (as of 2016-04-29) [D04]. P/E (trailing): ~10.39x [D04]. Market cap: ~$513.55B [D04]. P/B: 3.94x [D04]. Earnings yield: 9.62% [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Smartphone market saturation [D05]. Reliance on a single upgrade cycle [D05]. Competitive alternatives at lower price points [D05]. Exposure to China demand, foreign exchange rates, and carrier behavior [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Q2 FY2016 results (published 2016-04-26) showed revenue decline and contraction in iPhone sales compared to prior year [D03]."
+   ],
+   "berkshire_context": [
+    "Berkshire held ~$61.2 billion in cash at year-end 2015 [D08]. The company has a mandate for large-scale commitments but also uses investment deputies for smaller positions [D08]. Not in pack: current ownership stake."
+   ],
+   "document_conflicts": [
+    "Price estimate: D04 corrects a prior estimate of $93.76 to $93.74 [D04]."
+   ],
+   "missing_data": [
+    "Current ownership stake for Berkshire; normalized owner-earnings forecast; detailed breakdown of maintenance capex vs growth capex."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "Apple maintains a strong consumer franchise through an integrated ecosystem of devices, software, and services that creates significant switching costs [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The business benefits from an ecosystem lock-in that drives repeat purchases, forming a durable competitive advantage [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Apple has demonstrated a consistent record of substantial net income growth from $25.9B in 2011 to $53.4B in 2015 [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company holds a massive net cash position of $153.056B, indicating extremely strong capital stability [D04]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "While hardware manufacturing is capital intensive, Apple's high margins and cash generation allow it to fund operations and return massive capital to shareholders [D02], [D03]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Management demonstrates an owner-oriented approach by returning $163 billion to shareholders through dividends and buybacks [D03]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market cap of approximately $513.55B, Apple is sufficiently large to move the needle for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The earnings yield of 9.62% is highly attractive compared to the long-term bond environment and offers a significant margin of safety at a P/E of ~10.39x [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "Price estimate: D04 used over prior estimates as it is the most recent and precise figure [D04]."
+   ],
+   "n_pass": 8,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a powerful consumer franchise with high returns on capital, an fortress balance sheet, and a shareholder-friendly management team."
+  },
+  "gate2": {
+   "templates": [
+    "B1"
+   ],
+   "why_available": "The market is currently fixated on short-term hardware sales declines and fears of smartphone market saturation, leading to a depressed valuation [D03], [D05]. We view Apple as a powerful consumer franchise with a sticky ecosystem that will continue to generate significant cash over the long term, allowing us to acquire it at an attractive earnings yield [D01], [D04].",
+   "evidence": [
+    "Market concerns regarding smartphone saturation and reliance on upgrade cycles [D05]",
+    "Q2 2016 results showing revenue and iPhone sales contraction year-over-year [D03]",
+    "Strong 9.62% earnings yield and P/E of ~10.39x [D04]",
+    "Extensive cash reserves and consistent capital return program [D03], [D04]"
+   ],
+   "market_narrative_we_disagree_with": "The market believes Apple's growth has peaked due to hardware saturation and increased competition, failing to value the durability of the ecosystem [D05], [D06].",
+   "what_must_be_true": [
+    "The ecosystem remains sticky, keeping customers within the Apple product fold despite hardware-centric fluctuations",
+    "Innovation remains sufficient to justify premium pricing and maintain high margins",
+    "The massive net cash position continues to be managed in an owner-oriented manner",
+    "The iPhone remains a central, essential product for the majority of the existing user base"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "$9.02 [D04]",
+   "initial_pretax_yield_pct": 9.62,
+   "intrinsic_value_range": {
+    "low": "$115.00",
+    "high": "$150.00",
+    "key_assumptions": [
+     "Stable ecosystem retention [D01]",
+     "Effective capital allocation of net cash [D04]",
+     "Continued demand for premium hardware [D01]"
+    ],
+    "discount_rate_used": "2.5% (assumed based on 10-year Treasury range for 2016)"
+   },
+   "price_vs_value": "81% of low-end value; margin of safety provided by earnings yield and net cash",
+   "expected_return_pct": {
+    "base": 10,
+    "bear": 5,
+    "bull": 15
+   },
+   "alternatives": "Berkshire buyback or T-bills; Apple provides a higher potential yield on tangible business operations than current low-yielding cash equivalents [D08]",
+   "downside_case": "Significant contraction in hardware demand resulting in multiple compression; limited permanent loss risk due to $153B net cash position [D04]",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Maintenance capex assumed to be a minor portion of total capex",
+    "Discount rate based on 2016 prevailing long-term treasury yields",
+    "Normalized earnings growth rate"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We act as a permanent, passive holder of marketable securities, relying on the underlying business to compound value through rational capital allocation and the inherent durability of its consumer franchise [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realized through the company's compounding earnings and disciplined capital allocation program, including dividends and share repurchases [D02], [D03]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the post-1980 era, Berkshire prioritizes investments in powerful consumer franchises where we can hold indefinitely, benefiting from the company's own capital allocation rather than seeking active control or board-level interference [D01]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Ecosystem lock-in fails, leading to rapid decline in iPhone user retention [D01]",
+    "Persistent innovation failure results in sustained loss of pricing power and margin compression [D01]",
+    "Management ceases capital return program or misallocates the massive cash reserves [D03]"
+   ],
+   "berkshire_constraints": "Must maintain cash floor of at least $30B [D08]. Investment size must allow accumulation without adverse market impact; Apple is sufficiently liquid for large-scale purchase [D04].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 15,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Higher than current returns on short-term cash equivalents [D08] and preferable to repurchasing Berkshire shares if trading at a material premium to intrinsic value.",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "Apple qualifies as a durable consumer franchise at a compelling earnings yield that can scale to a multi-billion dollar position consistent with Berkshire's mandate.",
+   "biggest_risk_in_one_sentence": "The primary risk is the potential for the iPhone to lose its central role in the ecosystem due to saturation or loss of competitive relevance, though the fortress balance sheet provides significant protection against permanent loss of capital [D04], [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2016-04-30",
+  "company": "Apple Inc.",
+  "ticker": "AAPL",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 10,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "$9.02 per share [D04]",
+   "initial_pretax_yield_pct": 9.62,
+   "intrinsic_value_range": "$115.00 - $150.00",
+   "expected_return_pct": 10,
+   "downside_case": "Significant contraction in hardware demand, though mitigated by $153B in net cash [D04]"
+  },
+  "drivers": [
+   {
+    "driver": "Apple sells for an earnings yield of 9.62% at a P/E of ~10.39x against a $153B net cash position, offering a margin of safety that far exceeds current low-yielding cash equivalents [D04], [D08].",
+    "citations": [
+     "D04",
+     "D08"
+    ]
+   },
+   {
+    "driver": "The company maintains a durable consumer franchise defined by an integrated ecosystem that creates significant switching costs and customer loyalty [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Apple has demonstrated a consistent record of earnings growth, with net income rising from $25.9B in 2011 to $53.4B in 2015 [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "Management has proven itself to be owner-minded, returning $163 billion to shareholders through dividends and buybacks as of early 2016 [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The market is overly focused on short-term iPhone sales contraction and smartphone saturation, allowing us to purchase a wonderful business at a fair price [D03], [D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Ecosystem lock-in fails, leading to rapid decline in iPhone user retention [D01]",
+   "Persistent innovation failure results in sustained loss of pricing power and margin compression [D01]",
+   "Management ceases capital return program or misallocates the massive cash reserves [D03]"
+  ],
+  "what_would_change_our_mind": "Evidence that the iPhone is no longer central to the consumer’s daily life or that the ecosystem has lost its stickiness, resulting in a permanent erosion of the company's competitive advantage.",
+  "memo": "Apple is a business we understand well: it sells consumer devices, software, and services that have become central to the lives of a massive global user base [D01]. The company has built a sticky ecosystem that creates significant switching costs, a hallmark of a durable consumer franchise [D01].\n\nEconomically, Apple is a powerhouse. It has grown net income from $25.9 billion in 2011 to $53.4 billion in 2015, while maintaining high margins and a fortress balance sheet [D02]. With $153.056 billion in net cash, the business is effectively insulated from the risks that typically plague hardware manufacturers [D04].\n\nManagement has demonstrated excellent capital allocation skills, returning $163 billion to shareholders as of March 2016 through buybacks and dividends [D03]. They act like owners, focusing on the long-term compounding of the business rather than quarterly fluctuations [D03].\n\nMr. Market is currently fixated on minor hardware sales contractions and irrational fears regarding smartphone saturation [D03], [D05]. Because of this short-termism, we are able to acquire a stake at an earnings yield of 9.62% [D04]. This is a rare opportunity to buy a wonderful business at a fair price.\n\nWe estimate the intrinsic value of the company to be between $115 and $150 per share based on normalized earnings expectations [D04]. While hardware cycles can be lumpy, the underlying utility of the ecosystem provides a margin of safety that makes the downside risk look minimal [D01], [D04].\n\nWe intend to build a position starting at 5% of our equity portfolio, with a target of 10% [D04]. We will hold this indefinitely, relying on the company’s own internal compounding and shareholder-friendly capital return program to drive our returns [D01], [D02].",
+  "uncited_claims": []
+ }
+}

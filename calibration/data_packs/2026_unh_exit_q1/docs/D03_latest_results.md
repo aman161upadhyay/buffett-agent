@@ -1,0 +1,17 @@
+Title: A raised floor is not restoration of the old trajectory
+Source: https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/unh-reports-third-quarter-2025-results-and-raises-full-year-2025-earnings-outlook.pdf ; https://www.unitedhealthgroup.com/newsroom/2025/2025-07-24-uhg-responds-to-doj-investigation.html ; https://www.sec.gov/Archives/edgar/data/731766/000073176625000022/a2024q4exhibit991.htm ; https://www.sec.gov/Archives/edgar/data/731766/000073176625000123/a2025q1exhibit991.htm
+Date: 2025-12-31
+
+The October 28 release raises the annual earnings floor to $14.90 GAAP and $16.25 adjusted. It also reports $2.92 adjusted quarterly EPS, $2.59 GAAP EPS and $5.9 billion operating cash flow. The increase in the floor is a positive management update, yet the comparison with last year's earnings and the original annual expectation remains severe. Both facts belong in the assessment. [1,3,4]
+
+Management attributes results to executing operational and strategic changes. Those measures can support repair, but the release does not establish that the prior margin structure has been fully restored. July's formal Department of Justice requests add a verified regulatory development to what had initially been a disputed press report. The company says it is cooperating and confident in its practices; confidence is not a judicial outcome. No completed year-end result, new-year guidance or finalized investigation is included at December 31. The evidence permits an assessment of progress and remaining risk, not certainty about a completed turnaround. [1,2]
+
+Evidence ledger: the October 28 release reports third-quarter revenue of $113.2 billion, up 12%; operating earnings of $4.3 billion, down approximately 50% year on year; net margin of 2.1%; GAAP EPS of $2.59; adjusted EPS of $2.92; and operating cash flow of $5.9 billion. Management increased its annual floor to $14.90 GAAP EPS and $16.25 adjusted EPS. That floor is substantially below April's superseded $26.00-$26.50 adjusted range and 2024 adjusted EPS of $27.66. On July 24 the company said it was complying with formal criminal and civil Department of Justice requests and expressed confidence in its practices. No legal settlement or completed annual financial result is assumed. [1-4]
+
+Interpretation: the issuer's latest released quarter is the information boundary, not the quarter containing this assessment date. Forward guidance is management's expectation, not a realized result. Growth percentages must be matched to the stated comparison period and accounting basis. Where adjusted measures differ from GAAP, both are retained rather than mixing the favorable numerator from one with the denominator from the other. A favorable quarter does not settle the durability question; the operational causes and cash conversion still require scrutiny.
+
+Sources and publication dates:
+[1] https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/unh-reports-third-quarter-2025-results-and-raises-full-year-2025-earnings-outlook.pdf (published 2025-10-28)
+[2] https://www.unitedhealthgroup.com/newsroom/2025/2025-07-24-uhg-responds-to-doj-investigation.html (published 2025-07-24)
+[3] https://www.sec.gov/Archives/edgar/data/731766/000073176625000022/a2024q4exhibit991.htm (published 2025-01-16)
+[4] https://www.sec.gov/Archives/edgar/data/731766/000073176625000123/a2025q1exhibit991.htm (published 2025-04-17)

@@ -1,0 +1,14 @@
+Title: Powerful brands inside a weakening category
+Source: https://ml.globenewswire.com/Resource/Download/3ef69300-da43-4e07-9468-985051ddf0ed
+Date: 2026-03-31
+
+Constellation produces and markets beer, wine and spirits. Its imported Mexican beer portfolio is the economic center, led by Modelo and Corona. The current release reports nearly $2.01 billion beer sales out of $2.223 billion total. Wine divestitures make the group's reported growth comparison less representative of continuing operations. Pricing and brand mix can support profit even when physical volume declines. [1]
+
+The original plausible investment thesis is durable brand preference and distribution, not an alcoholic beverage consumption forecast. That thesis is an analyst reconstruction; no security-specific Berkshire explanation has been recovered. The release shows dollar and volume share gains relative to a weak industry, but absolute depletions still fall. Brewing, packaging and distribution consume capital and are exposed to raw-material, water, labor and cross-border costs. The company can be a better operator than competitors while earning less than in its own recent past. The ownership decision must consider both business quality and the price for reduced earning power. [1]
+
+Evidence ledger from the January 7 release, covering the November quarter: total net sales were $2.223 billion, down 10% reported but 2% organically; reported EPS $2.88 and comparable EPS $3.06. Beer net sales of $2.0097 billion fell 1%; shipments fell 2.2%, depletions 3.0%, and beer operating income was $763.5 million. Beer operating margin was 38.0%. Modelo Especial depletions fell about 4%, Corona Extra nearly 9%, while Pacifico and Victoria grew over 15% and 13%. Year-to-date operating cash flow was $2.1 billion and free cash flow $1.45 billion. Annual comparable EPS guidance remained $11.30-$11.60; reported guidance was $9.72-$10.02. Guided capital spending was approximately $1.2 billion, including approximately $1.0 billion for Mexican beer operations. Comparable net leverage target was approximately 3.0 times. [1]
+
+Analytical distinction: a large customer base is not itself proof of a moat. The relevant test is whether customers keep paying enough to cover the full cost of serving them, including reinvestment and risk. Product descriptions and reported segment economics below are observations; a prediction that their advantages persist is an underwriting judgment. No terminal growth rate, private management forecast, or guaranteed future market share is supplied. Historical success must be tested against the specific competitive threats, not substituted for that test.
+
+Sources and publication dates:
+[1] https://ml.globenewswire.com/Resource/Download/3ef69300-da43-4e07-9468-985051ddf0ed (published 2026-01-07)

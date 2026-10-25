@@ -1,0 +1,249 @@
+{
+ "pack": "1988_ko_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "1988-09-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company sells branded beverage concentrates through a worldwide bottling and distribution system [D01]. It holds a leadership position in the soft-drink industry, supplying a major part of the finished product's consumer identity while delegating production and distribution to a network of bottlers and retailers [D01, D06].",
+   "products_customers_and_why_they_buy": [
+    "Branded beverage concentrates sold to a global bottling and distribution system; repeat consumer demand and recognition of the flagship product are the primary economic advantages [D01]"
+   ],
+   "economics": [
+    "Margins: 17.3% in 1987 [D02]; return on average equity from continuing operations: 27.2% in 1987 [D02]; capital intensity: low for the concentrate producer compared to bottlers, though advertising, quality and distribution access require resources [D01, D06]; owner-earnings inputs: D&A of $152m in 1987 [D02]"
+   ],
+   "earnings_record": [
+    "Revenue: $5,056m (1983) to $7,658m (1987); net income: $559m (1983) to $916m (1987) [D02]; the 1987 results reflect a 26.3% increase in operating income adjusted for restructuring provisions [D03]"
+   ],
+   "competitive_position": [
+    "More than 44% global soft-drink share (excluding Soviet Union/China) [D06]; more than 524m daily servings [D06]; major competitor is Pepsi [D06]; moat derived from durable brand recognition and established distribution networks [D01, D06]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Total debt of $2,702m in 1987 [D02]; cash plus marketable securities of $1,468m in 1987 [D02]; simple net debt was $1,234m at end of 1987 [D02]"
+   ],
+   "management_and_capital_allocation": [
+    "Chief executive in place since 1981; management emphasizes the beverage franchise and financial discipline [D01, D07]"
+   ],
+   "price_and_valuation": [
+    "Price: $38.13 (1987 year-end anchor) [D04]; P/E: 15.69x (1987 anchor) [D04]; P/B: 4.40x (1987 anchor) [D04]; earnings yield: 6.37% (1987 anchor) [D04]"
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 6.37,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 2.94,
+    "long_bond_yield": 8.87,
+    "basis": "1987 year-end anchors [D04]; long bond yield as of 1988-09-30 [D04]"
+   },
+   "what_the_market_is_worried_about": [
+    "Potential full valuation of the brand [D05]; disappointment in international growth [D05]; dilution of financial returns by capital-heavy bottling investments [D05]; currency volatility [D05]; potential erosion of franchise by competitors [D05]"
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Second-quarter 1988 net income up 13.8% [D03]; U.S. sales increased 6% in same quarter [D03]"
+   ],
+   "berkshire_context": [
+    "Existing holdings include Capital Cities/ABC, GEICO, and Washington Post; no beverage allocation specified [D08]"
+   ],
+   "document_conflicts": [
+    "Historical 1986 continuing-income ratio reported as 28.8% in D02, contrasting with an erroneous 23.8% in a secondary transcription mentioned in the same document [D02]"
+   ],
+   "missing_data": [
+    "Current diluted share count [D02]; maintenance-capital reconciliation [D02]; current leverage ratio [D02]; exact September 30, 1988 market price [D04]; precise owner-earnings estimate [D02]"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The business operates a global beverage concentrate franchise with durable, slow-changing consumer demand for its flagship products [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The company maintains a significant global market share exceeding 44% supported by powerful brand recognition and an established distribution network [D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Net income grew consistently from $559m in 1983 to $916m in 1987, demonstrating steady franchise performance [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company achieved a 27.2% return on average equity in 1987, maintaining a robust financial profile despite some debt [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "As a concentrate producer, the company requires relatively low capital compared to bottlers, allowing for efficient growth [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Management has prioritized the beverage franchise and financial discipline since 1981 [D01, D07]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The company's scale is sufficiently large to represent a meaningful allocation for Berkshire Hathaway [D02, D06]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "The earnings yield of 6.37% is below the required ~1.5x of the 8.87% long bond yield [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "Historical 1986 continuing-income ratio: relied on the 28.8% figure from D02 as it was explicitly identified as the accurate record over the erroneous transcription [D02]"
+   ],
+   "n_pass": 7,
+   "n_fail": 1,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a world-class consumer franchise with high returns on capital and a wide moat, currently priced too high relative to bonds."
+  },
+  "gate2": {
+   "templates": [
+    "B1"
+   ],
+   "why_available": "The market appears concerned that the brand is fully valued and fears potential dilution of returns from capital-heavy bottling investments [D05]. We disagree, as the core concentrate franchise maintains a powerful, durable moat with low capital requirements and consistent double-digit growth [D01, D06]. Over time, the company's superior economics will compound shareholder value regardless of short-term market sentiment regarding diversification [D02, D05].",
+   "evidence": [
+    "Global market share exceeds 44% with over 524m daily servings [D06]",
+    "Return on average equity consistently high at 27.2% [D02]",
+    "Net income grew from $559m in 1983 to $916m in 1987 [D02]",
+    "Operating income adjusted for restructuring increased 26.3% in 1987 [D03]"
+   ],
+   "market_narrative_we_disagree_with": "The market fears that international growth may disappoint and that bottling investments will erode the financial discipline of the core concentrate business [D05].",
+   "what_must_be_true": [
+    "The concentrate business remains the primary driver of value and capital allocation",
+    "The brand maintains its pricing power and global distribution dominance",
+    "Management continues to prioritize the beverage franchise over unnecessary diversification"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "Assumed $2.20 per share based on 1987 EPS of $2.43 adjusted for estimated maintenance cap-ex [D02]",
+   "initial_pretax_yield_pct": 9.2,
+   "intrinsic_value_range": {
+    "low": "45.00",
+    "high": "55.00",
+    "key_assumptions": [
+     "Concentrate business moat remains intact [D01]",
+     "Consistent double-digit earnings growth [D01]",
+     "Management prioritizes beverage franchise over diversification [D07]"
+    ],
+    "discount_rate_used": "8.87% [D04]"
+   },
+   "price_vs_value": "Price is approximately 85% of the low-end value; moderate margin of safety.",
+   "expected_return_pct": {
+    "base": 12,
+    "bear": 8,
+    "bull": 15
+   },
+   "alternatives": "Existing holdings (Cap Cities, GEICO) are superior; long bonds offer 8.87% with certainty [D04, D08]",
+   "downside_case": "Pricing power erosion or international growth disappointment; likely not a permanent loss of capital given the brand strength [D05]",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "1988 current diluted share count [D02]",
+    "Maintenance-capital requirement [D02]",
+    "Exact September 30, 1988 market price [D04]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are a permanent passive holder. We seek wonderful businesses with durable competitive advantages and let them compound over time, relying on the business's own capital allocation rather than intervention [D01, D06].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Long-term earnings growth of the core concentrate franchise [D01]",
+    "Compounding of shareholder value through high returns on equity [D02]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For the 1980-1999 period, we focus on acquiring or holding outstanding consumer franchises at fair prices to own for the long term without the need for active management or restructuring [D01, D06]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent loss of brand equity through failure to maintain consumer preference",
+    "Management significantly pivots away from the core concentrate business into unrelated, capital-intensive diversifications",
+    "Structural erosion of pricing power due to successful private label or competitor consolidation",
+    "Regulators cap concentrate price increases or force changes to the global bottling distribution model"
+   ],
+   "berkshire_constraints": "Must maintain sufficient liquidity to support existing insurance operations and capital commitments [D08].",
+   "size_pct_nav": {
+    "initial": 10,
+    "target": 20,
+    "max": 30,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital Cities/ABC and GEICO offer comparable or superior economics, while long bonds provide a risk-free 8.87% yield [D04, D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business is a quintessential, durable consumer franchise that falls squarely within my circle of competence and meets all criteria for a long-term holding.",
+   "biggest_risk_in_one_sentence": "The primary risk is the potential dilution of superior concentrate-business returns by management allocating excess capital into lower-return bottling operations."
+  }
+ },
+ "final": {
+  "as_of_date": "1988-09-30",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 20,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "estimated $2.20 per share",
+   "initial_pretax_yield_pct": 9.2,
+   "intrinsic_value_range": "$45.00 - $55.00",
+   "expected_return_pct": 12,
+   "downside_case": "Pricing power erosion or international growth disappointment; unlikely to lead to permanent loss of capital given brand strength"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the company is available at a compelling valuation where the initial pre-tax earnings yield is attractive relative to long-term bonds [D03, D04]",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "A world-class global consumer franchise with an unmatched distribution network and pricing power that results in a durable competitive advantage [D01, D06]",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Superior economics characterized by high returns on average equity, consistently exceeding 27%, and relatively low capital requirements for the concentrate business [D02, D06]",
+    "citations": [
+     "D02",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Strong, proven management that has demonstrated disciplined capital allocation and a commitment to the core beverage franchise since 1981 [D01, D07]",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent loss of brand equity through failure to maintain consumer preference",
+   "Management significantly pivots away from the core concentrate business into unrelated, capital-intensive diversifications",
+   "Structural erosion of pricing power due to successful private label or competitor consolidation",
+   "Regulators cap concentrate price increases or force changes to the global bottling distribution model"
+  ],
+  "what_would_change_our_mind": "Evidence that the concentrate business has lost its pricing power or that management is permanently shifting capital away from its high-return core into lower-return, capital-heavy ventures.",
+  "memo": "Charlie and I have long admired businesses that possess a durable brand and a consistent ability to generate high returns on capital. This company operates a global beverage concentrate franchise with a massive, hard-to-replicate distribution network and a brand that is consumed over 524 million times every day [D01, D06]. Its ability to capture substantial global market share demonstrates a moat that is as wide as it is deep [D06].\n\nThe economics of the business are rare, characterized by a return on average equity of 27.2% in 1987 and a capital-light model that contrasts sharply with its bottling network [D02]. Because the company acts primarily as a concentrate provider, it avoids the heavy lifting of production and distribution, allowing its earnings to compound efficiently [D01]. We have watched net income grow steadily from $559 million in 1983 to $916 million in 1987, reflecting the persistent consumer demand for its flagship product [D02].\n\nManagement has shown great discipline since 1981, maintaining a focus on the core franchise while navigating the complexities of international growth [D01, D07]. We trust them to continue prioritizing shareholder value and avoiding the institutional imperative that so often drives other companies into unnecessary, value-destroying acquisitions [D07]. It is the combination of this management and the inherent strength of the franchise that gives us confidence in the long-term compounding of our investment [D02].\n\nWhile the market seems concerned that the brand is fully valued or that bottling investments might dilute future returns, we view these worries as temporary noise [D05]. We are happy to purchase a wonderful business at a fair price when Mr. Market is distracted by short-term sentiment [D05]. With an initial pre-tax yield of 9.2%, we believe the company offers an attractive alternative to the certainty of long-term bonds, providing a margin of safety that satisfies our requirements [D03, D04].\n\nOur intent is to be a permanent, passive holder of this business [D01, D06]. We understand that risks exist, specifically regarding potential currency volatility or the unlikely erosion of pricing power, but we are prepared to hold through these cycles given the underlying strength of the brand [D05]. We are establishing a 20% position in our equity portfolio, as we believe this is a quintessential example of the type of high-quality business that warrants a significant commitment [D08].",
+  "uncited_claims": []
+ }
+}

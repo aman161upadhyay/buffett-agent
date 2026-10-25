@@ -1,0 +1,54 @@
+{
+ "trade_id": "1989_usair_pref",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "The dividend, redemption and conversion rights appeared to provide downside protection plus participation. → The conversion option at $60 per share offers participation in potential upside should the company successfully integrate its network and improve its competitive standing [D02, D04]."
+  ],
+  "missed": [
+   "Admiration for Ed Colodny and the airline's past profits underlay the original favorable assessment.",
+   "The preferred structure was intended to compensate for lack of strong convictions about airline economics."
+  ],
+  "extra_agent_drivers": [
+   "The 9.25% coupon provides a satisfactory return of 122 basis points over the 8.03% long bond yield, offering superior risk-adjusted income [D04].",
+   "The investment is a credit-oriented instrument with seniority and a cumulative dividend, allowing us to bypass the operational volatility and commodity-like economics of the airline industry [D04].",
+   "Mandatory ten-year redemption provides a defined backstop for capital recovery, reducing the duration of our exposure to the company's business cycle [D02, D04]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The 9.25% coupon provides a satisfactory return of 122 basis points over the 8.03% long bond yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Mandatory ten-year redemption provides a defined backstop for capital recovery",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The investment is a credit-oriented instrument with seniority and a cumulative dividend",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 6,
+  "share": 0.6
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "While we view the underlying airline industry as a difficult, capital-intensive commodity business, the specific terms of this issuance allow us to function as a financier rather than a business owner [D01, D02, D04].",
+ "grader_notes": "The agent correctly identified the investment as a preferred stock purchase, but failed to capture Buffett's primary personal motivation: admiration for management (Ed Colodny). The agent focused heavily on credit-spread analysis and yield, whereas Buffett emphasized that the structure was chosen specifically because of his lack of conviction in the airline business itself.",
+ "run": "1989_usair_pref__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

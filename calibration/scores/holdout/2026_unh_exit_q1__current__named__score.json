@@ -1,0 +1,60 @@
+{
+ "trade_id": "2026_unh_exit_q1",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The company maintains a significant, scaled franchise despite recent operational challenges [D01].",
+   "Management is actively addressing margin deterioration, and a lowered earnings floor has been established [D01, D03].",
+   "The company remains highly cash-generative despite current headwinds [D01, D02].",
+   "Regulatory investigations present ongoing uncertainty, but do not yet constitute a permanent impairment of the business [D03, D05]."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The essential franchise remains intact",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating earnings have been significantly impacted—falling by approximately 50% year-on-year",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company continues to express confidence in its practices regarding Medicare inquiries",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Stock trades at roughly 20 times the management-provided adjusted earnings floor of $16.25",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Any sale would trigger a 21% federal tax liability",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 3,
+  "share": 0.27
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We do not jump ship simply because a wonderful business faces a difficult stretch; the management team's effort to repair operational performance is a normal part of the corporate cycle [D01, D03].",
+ "grader_notes": "The agent opted for a 'HOLD' decision, which directly contradicts the actual 'SELL' action taken by Berkshire Hathaway. As there were no stated drivers in the answer key, reasoning overlap is not scorable; the agent's attempt to justify a hold based on business fundamentals is disconnected from the actual outcome.",
+ "run": "2026_unh_exit_q1__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "SELL",
+ "agent_decision": "HOLD",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

@@ -1,0 +1,59 @@
+{
+ "trade_id": "2020_japan_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Yen bonds limited net currency mismatch → By utilizing low-cost yen-denominated debt to fund this investment, we effectively hedge our currency exposure while capturing an earnings yield of 14.6%, far exceeding the near-zero return available on government bonds [D04, D08]."
+  ],
+  "missed": [
+   "Buffett wanted long-term participation in Japan and the five chosen businesses.",
+   "Their worldwide joint ventures offered possibilities of mutual benefit."
+  ],
+  "extra_agent_drivers": [
+   "Attractive P/E valuation relative to JGB yields",
+   "Purchasing established assets at a discount to intrinsic value",
+   "Consistent dividend growth"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at a P/E of 6.85x",
+    "citation": "D04",
+    "verdict": "unsupported"
+   },
+   {
+    "claim": "Intrinsic value range: ¥2,300 - ¥3,500",
+    "citation": "D04",
+    "verdict": "unsupported"
+   },
+   {
+    "claim": "Yen-denominated debt allows us to finance the acquisition at very low interest rates",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management has demonstrated a commitment to shareholders through consistent dividend growth",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 4,
+  "share": 0.4
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "By utilizing low-cost yen-denominated debt to fund this investment, we effectively hedge our currency exposure while capturing an earnings yield of 14.6%, far exceeding the near-zero return available on government bonds [D04, D08].",
+ "grader_notes": "The agent correctly identified the direction and the currency hedging rationale. However, it failed to capture Buffett's stated drivers regarding long-term participation and potential joint ventures, substituting instead a proprietary valuation analysis that was explicitly cautioned against in the answer key.",
+ "run": "2020_japan_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

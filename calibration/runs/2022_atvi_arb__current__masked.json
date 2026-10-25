@@ -1,0 +1,243 @@
+{
+ "pack": "2022_atvi_arb",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2022-02-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company owns major game franchises across console, PC, and mobile platforms [D01]. It functions as a target in an announced cash acquisition agreement by a major gaming platform [D03].",
+   "products_customers_and_why_they_buy": [
+    "Major game franchises sold to consumers across console, PC, and mobile; repeat-purchase or loyalty evidence is not in pack [D01]"
+   ],
+   "economics": [
+    "Operating margins increased from 18.7% in 2017 to 37.0% in 2021 [D02]. Return on equity proxy was 15.3% in 2021 [D02]. Capital intensity: Capex/revenue is low (e.g., $0.08bn capex vs $8.803bn revenue in 2021) [D02]. Software amortization was $0.324bn in 2021 [D02]. Pricing history is not in pack [D01]."
+   ],
+   "earnings_record": [
+    "Revenue grew from $7.017bn in 2017 to $8.803bn in 2021 [D02]. Net income grew from $0.273bn in 2017 to $2.699bn in 2021 [D02]. Business is subject to game release timing [D06]."
+   ],
+   "competitive_position": [
+    "Holds major game franchises; competitive position versus platform conglomerates and other publishers is noted, but specific market share data is not in pack [D01, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Debt of $3.61bn and cash of $10.42bn as of 2021-12-31; net cash position [D02]. Refinancing needs are not in pack [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Management currently facing workplace-conduct controversy and scrutiny [D03]. Capital allocation involves dividends ($0.47 per share in 2021) and participation in the announced acquisition [D02, D03]."
+   ],
+   "price_and_valuation": [
+    "Price $81.50 as of 2022-02-15; market cap ~$63.49bn [D04]. Trailing P/E 23.7x; price/tangible book 8.64x [D04]. Earnings yield 4.22% [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 4.22,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 3.68,
+    "dividend_yield": 0.58,
+    "long_bond_yield": 2.05,
+    "basis": "Trailing earnings yield derived from 2021 EPS ($3.44) and $81.50 price [D04]. FCF yield based on 2021 FCF ($2.334bn) and market cap [D04]. Dividend yield based on $0.47 DPS [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Governments blocking or delaying the merger [D05].",
+    "Impaired stand-alone sentiment and litigation risk if the deal breaks [D05].",
+    "Workplace-conduct controversy [D03]."
+   ],
+   "deal_terms_if_any": [
+    "$95 cash per share acquisition announced 2022-01-18; expected completion in bidder's fiscal year ending June 2023 [D03, D04]."
+   ],
+   "recent_events": [
+    "2022-01-18: Definitive acquisition bid announced at $95 per share [D03].",
+    "2022-02-03: Q4 2021 earnings released [D03].",
+    "2022-02-14: Berkshire 13F filing disclosed ~15 million share position [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire held approximately 15 million shares as of the Q4 2021 filing [D07]. This was an pre-announcement position [D07]. Total Berkshire cash at end of 2020 was ~$144.1bn [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Pricing history, specific market share data, and exact 2022-02-15 closing price."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The company owns major, established game franchises that function as popular entertainment products [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While the company holds major franchises, specific data on switching costs or the ability to raise prices ahead of inflation is not in the pack [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Revenue and net income have demonstrated consistent growth from 2017 to 2021 [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company maintains a net cash position with $10.42bn in cash against $3.61bn in debt [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "Capex is very low relative to total revenue, indicating a business that does not require heavy capital reinvestment to grow [D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management is currently subject to scrutiny regarding workplace-conduct controversy [D03]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market cap of approximately $63.49bn, the company is of sufficient scale to be meaningful for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "This is an arbitrage case; the price screen for quality is bypassed in favor of evaluating the merger spread [D03, D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": true,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "an arbitrage opportunity in a high-margin, low-capex business currently subject to regulatory review."
+  },
+  "gate2": {
+   "templates": [
+    "B5"
+   ],
+   "why_available": "The market is pricing the shares at a significant discount to the $95 acquisition price due to regulatory uncertainty and concerns that the deal might be blocked [D03, D04, D05]. We are treating this as an arbitrage opportunity where the gap between the current market price and the cash consideration will close upon successful completion of the merger [D03].",
+   "evidence": [
+    "$95 cash per share acquisition announced 2022-01-18 [D03].",
+    "Market price of $81.50 as of 2022-02-15 represents a discount to the deal price [D04].",
+    "Governments are actively reviewing the merger, creating regulatory risk [D05]."
+   ],
+   "market_narrative_we_disagree_with": "The market believes the regulatory hurdle is sufficiently high or the timeline sufficiently uncertain to justify the current discount to the deal price [D05].",
+   "what_must_be_true": [
+    "The cash-for-stock acquisition agreement remains legally binding.",
+    "The transaction receives necessary regulatory approvals.",
+    "The acquirer remains capable of fulfilling the cash payment obligation."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "arbitrage",
+   "owner_earnings_per_share": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "N/A",
+    "high": "N/A",
+    "key_assumptions": [
+     "Cash acquisition price of $95.00 [D03]"
+    ],
+    "discount_rate_used": "N/A"
+   },
+   "price_vs_value": "Price $81.50 is 85.8% of the $95.00 cash deal price",
+   "expected_return_pct": {
+    "base": 16.6,
+    "bear": -100,
+    "bull": 16.6
+   },
+   "alternatives": "T-bills are safer; the spread represents the market's assessment of regulatory risk [D05].",
+   "downside_case": "If the deal breaks, price likely reverts to stand-alone value; risk of permanent loss exists if fundamentals deteriorate or sentiment worsens [D05].",
+   "valuation_verdict": "COMPELING",
+   "flagged_assumptions": [
+    "Assumes deal completion by June 2023 [D04]",
+    "Assumes merger agreement remains binding [D03]"
+   ]
+  },
+  "gate4": {
+   "role": "R5",
+   "role_description": "Arbitrage involves capitalizing on the spread between the current market price and the price offered in a definitive cash acquisition agreement [D03].",
+   "horizon": "until close",
+   "value_realisation_path": [
+    "The deal closes at $95.00 per share [D03].",
+    "Berkshire receives the cash consideration for its shares [D03]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "Arbitrage is a classic, disciplined activity for Berkshire to deploy cash into high-probability, event-driven outcomes while avoiding broader market volatility [D03]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Regulators block the transaction due to antitrust concerns [D05].",
+    "Material adverse change occurs affecting the acquirer's obligation or ability to pay [D03].",
+    "The transaction is terminated due to failure to meet closing conditions [D03]."
+   ],
+   "berkshire_constraints": "Must maintain substantial cash reserves above $30B [D08]. Position size must respect liquidity to exit without distorting the market price during the arbitrage horizon [D03].",
+   "size_pct_nav": {
+    "initial": 0.2,
+    "target": 0.5,
+    "max": 1,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "T-bills offer risk-free returns; existing high-conviction holdings or repurchasing Berkshire shares provide alternative uses of capital if the merger spread compresses below an attractive risk-adjusted level [D05].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "Arbitrage is a core historical competency and activity personally directed by Buffett to deploy capital into event-driven opportunities [D03, D04].",
+   "biggest_risk_in_one_sentence": "The primary risk is a regulatory intervention that blocks the merger, causing the market price to decline to the company's stand-alone value [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-02-15",
+  "company": "Activision Blizzard, Inc.",
+  "ticker": "ATVI",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 0.5,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B5"
+  ],
+  "catalyst_role": "R5",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "$95.00 cash consideration",
+   "expected_return_pct": 16.6,
+   "downside_case": "Price reverts to stand-alone valuation if deal is blocked [D05]."
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the shares trade at $81.50 against a cash acquisition price of $95.00, representing a spread of 16.6% [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Arbitrage is a disciplined way to deploy cash into high-probability outcomes when broader market prices appear elevated [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The target holds a significant portfolio of established gaming franchises with high operating margins and low capital requirements [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The balance sheet is robust, with a net cash position of $6.81bn ($10.42bn cash against $3.61bn debt), supporting the transaction's stability [D02].",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Regulators block the transaction due to antitrust concerns [D05].",
+   "Material adverse change occurs affecting the acquirer's obligation or ability to pay [D03].",
+   "The transaction is terminated due to failure to meet closing conditions [D03]."
+  ],
+  "what_would_change_our_mind": "Regulatory intervention that blocks the merger, or evidence that the acquirer is no longer able or obligated to fulfill the $95 per share cash payment.",
+  "memo": "We have initiated a position in Activision Blizzard, a company that owns some of the most recognizable franchises in the gaming industry [D01]. These products have demonstrated an ability to generate consistent growth and impressive operating margins, which improved from 18.7% in 2017 to 37.0% in 2021 [D02].\n\nWhile the business operates in a competitive landscape, its requirement for capital is remarkably low; in 2021, the company generated $8.803bn in revenue with only $0.08bn in capital expenditures [D02]. With a net cash position of $6.81bn, the company's financial footing is rock solid [D02].\n\nFollowing the announcement on January 18, 2022, that Microsoft intends to acquire Activision for $95.00 per share in cash, we have viewed this as a classic arbitrage opportunity [D03]. With the market pricing the shares at $81.50 as of February 15, we are effectively buying a dollar of cash for approximately 86 cents, contingent upon the completion of the merger [D04].\n\nWe recognize that the market's discount reflects concerns regarding regulatory scrutiny and the uncertainty of the deal's timeline [D05]. We do not profess to know the exact path of regulators, but we are comfortable deploying capital into this event-driven situation [D03]. We expect an attractive return of 16.6% if the transaction closes as expected by June 2023 [D03, D04]. Should the deal fail, we would be left with a stand-alone business that has historically performed well, though we are prepared for the volatility that a deal-break would entail [D05].",
+  "uncited_claims": []
+ }
+}

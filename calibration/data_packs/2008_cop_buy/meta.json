@@ -1,0 +1,22 @@
+{
+  "id": "2008_cop_buy",
+  "company": "ConocoPhillips",
+  "ticker": "COP",
+  "aliases": [
+    "ConocoPhillips",
+    "COP",
+    "Conoco",
+    "Phillips Petroleum",
+    "Burlington Resources",
+    "Lukoil",
+    "LUKOIL",
+    "Phillips 66"
+  ],
+  "as_of_date": "2008-09-30",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "Large additions during 2008; exact execution dates unknown",
+  "fund_aum_usd_bn": 44.3,
+  "decider": "Buffett",
+  "notes": "ERROR CASE. Requested new mode conflicts with authentic pre-existing COP ownership; retained as fresh-underwriting counterfactual, disclosed in D08. All error commentary is key-only. No invented pre-entry Buffett price model. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated."
+}

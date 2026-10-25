@@ -1,0 +1,26 @@
+{
+  "id": "2023_tsm_sell",
+  "company": "Taiwan Semiconductor Manufacturing Company",
+  "ticker": "TSM / 2330.TW",
+  "aliases": [
+    "Taiwan Semiconductor Manufacturing Company",
+    "TSM / 2330.TW",
+    "Taiwan Semiconductor Manufacturing",
+    "Taiwan Semiconductor",
+    "TSMC",
+    "TSM",
+    "2330",
+    "2330.TW",
+    "TPE:2330",
+    "WaferTech",
+    "Japan Advanced Semiconductor Manufacturing",
+    "JASM"
+  ],
+  "as_of_date": "2023-02-14",
+  "mode": "existing",
+  "era": "D",
+  "first_action_window": "Q4 2022 initial reduction; Q1 2023 full exit",
+  "fund_aum_usd_bn": 109.0,
+  "decider": "Buffett",
+  "notes": "February 14 is first reduction disclosure, not first execution. April explanation is hindsight relative to this cutoff; no future quotes in docs. Metadata uses last public Q3 liquidity rather than not-yet-published annual report. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated."
+}

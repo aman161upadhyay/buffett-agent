@@ -1,0 +1,49 @@
+{
+ "trade_id": "2020_japan_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Yen bonds limited net currency mismatch. → We are utilizing our ability to issue low-cost, yen-denominated debt to hedge our currency risk, an advantage that helps us maintain our margin of safety [D08]."
+  ],
+  "missed": [
+   "Buffett wanted long-term participation in Japan and the five chosen businesses.",
+   "Their worldwide joint ventures offered possibilities of mutual benefit."
+  ],
+  "extra_agent_drivers": [
+   "The trading houses are priced at significant discounts to book value",
+   "These companies are massive, diversified global entities that allow for a meaningful deployment of capital at scale",
+   "The market's preoccupation with cyclicality and complexity has created a price-to-book valuation that provides a margin of safety"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "10-year Japanese government bond yield of 0.01%",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "price-to-book ratios to levels between 0.57x and 1.14x",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 14,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are utilizing our ability to issue low-cost, yen-denominated debt to hedge our currency risk, an advantage that helps us maintain our margin of safety [D08].",
+ "grader_notes": "The agent correctly matched the decision and the specific driver regarding yen-denominated debt. However, it failed to capture the primary motivation stated by Buffett, which was the desire for long-term participation in the future of Japan and these five businesses, relying instead on its own valuation-based drivers.",
+ "run": "2020_japan_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

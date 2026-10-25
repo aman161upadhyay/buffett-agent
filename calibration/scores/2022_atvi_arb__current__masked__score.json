@@ -1,0 +1,63 @@
+{
+ "trade_id": "2022_atvi_arb",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "The spread to the $95 cash consideration created a workout opportunity. → With the market pricing the shares at $81.50 as of February 15, we are effectively buying a dollar of cash for approximately 86 cents, contingent upon the completion of the merger [D04].",
+   "Completion probability, including government intervention, had to justify the downside risk. → We recognize that the market's discount reflects concerns regarding regulatory scrutiny and the uncertainty of the deal's timeline [D05]."
+  ],
+  "missed": [
+   "Buffett personally made the arbitrage decision, distinct from the deputy's pre-bid purchase."
+  ],
+  "extra_agent_drivers": [
+   "The target holds a significant portfolio of established gaming franchises with high operating margins and low capital requirements.",
+   "The balance sheet is robust, with a net cash position of $6.81bn."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Microsoft intends to acquire Activision for $95.00 per share in cash.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Market pricing the shares at $81.50 as of February 15.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "2021 revenue was $8.803bn with $0.08bn in capital expenditures.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Net cash position of $6.81bn.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating margins improved from 18.7% in 2017 to 37.0% in 2021.",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 10,
+  "share": 0.91
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Following the announcement on January 18, 2022, that Microsoft intends to acquire Activision for $95.00 per share in cash, we have viewed this as a classic arbitrage opportunity [D03].",
+ "grader_notes": "The agent correctly identified the deal arbitrage and the regulatory risk as primary drivers. It correctly credited Buffett as the decision-maker. The agent's reasoning diverged by focusing on fundamental business quality and balance sheet health, which were not cited by Buffett in the provided key as primary drivers for this specific arbitrage trade.",
+ "run": "2022_atvi_arb__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

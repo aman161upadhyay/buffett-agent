@@ -1,0 +1,53 @@
+{
+ "trade_id": "1972_sees_acq",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "The brand provided durable competitive advantage and pricing power rather than merely cheap physical assets. → See's possesses a durable brand and pricing power that allows for consistent price increases without volume loss [D01, D05].",
+   "Earnings of about $2 million on $8 million tangible assets demonstrated economic goodwill. → The business achieves exceptional after-tax returns on tangible capital of 25–29% with minimal capital requirements [D02].",
+   "Paying for quality was justified even though the price exceeded Buffett's old tangible-asset anchor. → The $25 million purchase price represents a compelling valuation at 6x pre-tax earnings, providing a margin of safety [D04, D09]."
+  ],
+  "missed": [
+   "Growth in earnings required relatively little incremental operating capital."
+  ],
+  "extra_agent_drivers": [
+   "Chuck Huggins provides capable management that we intend to retain to continue the existing successful operations [D01]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "See's possesses a durable brand and pricing power",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business achieves exceptional after-tax returns on tangible capital of 25–29%",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The $25 million purchase price represents a compelling valuation at 6x pre-tax earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 6,
+  "share": 0.46
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We view these concerns as overblown, as the company's pricing power is its primary safeguard against such pressures [D01, D05].",
+ "grader_notes": "The agent correctly identified the primary economic drivers (brand power, return on tangible capital, and valuation) that justified the See's acquisition. It missed the specific nuance regarding the low requirement for incremental capital as a future growth enabler, substituting it with a point on management retention which was not among Buffett's primary drivers in the answer key.",
+ "run": "1972_sees_acq__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

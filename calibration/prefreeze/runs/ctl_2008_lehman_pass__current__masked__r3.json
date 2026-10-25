@@ -1,0 +1,249 @@
+{
+ "pack": "ctl_2008_lehman_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2008-03-28",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The franchise combines fixed-income intermediation, equity execution, underwriting, mergers advice and asset management [D01]. Productive assets consist of client relationships, distribution networks and specialist trading personnel [D01].",
+   "products_customers_and_why_they_buy": [
+    "Fixed-income and equity services, underwriting, advisory, and asset management [D01, D03, D06].",
+    "Customers include institutional and other clients relying on advisory services and assets under management [D01, D03]."
+   ],
+   "economics": [
+    "Pre-tax margin of 18.9% [D01, D03].",
+    "Quarterly ROE of 8.6% (down from 24.4% year-over-year) [D01, D03].",
+    "Compensation absorbs 52.5% of net revenues [D01, D03].",
+    "Owner earnings inputs: Reported figures include $1.8 billion in negative mark-to-market adjustments [D01, D03]. Maintenance capex and exact working-capital needs are not in pack [D02, D04]."
+   ],
+   "earnings_record": [
+    "Q1 net revenue $3.5 billion (down 31%); net income $489 million (down 57%); diluted EPS $0.81 (vs $1.96) [D01, D03]."
+   ],
+   "competitive_position": [
+    "Competitors include Goldman Sachs, Morgan Stanley and Merrill Lynch for advisory, underwriting and trading [D06].",
+    "Competitive advantages rely on client relationships and specialist personnel [D01, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Common book value $39.45 per share; total stockholders' equity $24.8 billion [D01, D03].",
+    "Holding-company liquidity $34 billion; $64 billion other unencumbered assets; $99 billion unencumbered assets at regulated entities [D01, D03].",
+    "Liquidity and capital requirements constrain distributions [D02]."
+   ],
+   "management_and_capital_allocation": [
+    "Not in pack."
+   ],
+   "price_and_valuation": [
+    "Price $38.71 (March 27 close) [D02, D04, D05].",
+    "Market cap $20.539 billion [D02, D04, D05].",
+    "Price-to-book ratio ~0.98 [D02, D04, D05].",
+    "Mechanical P/E ~11.95 based on annualized Q1 EPS [D02, D04, D05]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Liquidity shocks and loss of confidence [D05].",
+    "Trading losses and volatility in fixed-income revenues (down 88%) [D05].",
+    "Ability to sell unencumbered assets at carrying value during industry liquidation [D05].",
+    "Potential for talent departures [D05].",
+    "Concerns that additional losses may absorb common equity [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "March 18: Q1 results reported [D01, D07].",
+    "March 28: Citi analyst upgrade issued [D01, D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire cash and equivalents: $44.329 billion; equity securities: ~$74.999 billion [D08].",
+    "Existing financial exposures: American Express, Wells Fargo [D08].",
+    "Idea originated by the market/analysts, not in pack as a specific internal proposal [D01, D07]."
+   ],
+   "document_conflicts": [
+    "Not in pack."
+   ],
+   "missing_data": [
+    "CEO tenure and track record, detailed maintenance capex, long-term normalized earnings, specific insider ownership details, and definitive deal terms for any potential negotiated investment."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business relies on complex, volatile trading, underwriting, and advisory activities that are subject to liquidity shocks and industry-wide instability [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "Competitive advantage depends on specialist personnel and relationships, which are inherently fragile and vulnerable to talent departures during market volatility [D01, D05, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "Earnings are highly cyclical and volatile, with recent net income dropping 57% and fixed-income revenues falling 88% year-over-year [D01, D03, D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "While ROE has dropped to 8.6%, the pack lacks sufficient long-term data on debt levels and normalized returns to evaluate financial stability [D01, D03]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is capital-intensive, requiring high liquidity and unencumbered assets to maintain operations, with distributions constrained by regulatory capital needs [D01, D02, D03]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Information regarding management tenure, track record, and capital allocation philosophy is not in pack [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market cap of $20.5 billion, the company is of sufficient scale to impact Berkshire [D02, D04, D05]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "Annualized Q1 earnings are distorted by $1.8 billion in mark-to-market adjustments, making a reliable owner-earnings yield calculation impossible [D01, D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 4,
+   "n_unsure": 3,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a highly cyclical and fragile financial services firm where success is too dependent on volatile markets and transient human capital."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is pricing the shares at a discount to book value due to acute fears regarding liquidity, mark-to-market losses, and the sustainability of the business model during a sector-wide crisis [D05]. We see no reason to engage because the franchise lacks the durable, predictable earnings power we require, making the 'bargain' price merely a reflection of underlying fragility rather than a misjudged opportunity [D01, D05].",
+   "evidence": [
+    "Net income declined 57% and fixed-income revenues dropped 88% year-over-year [D01, D03].",
+    "Market concerns focus on liquidity shocks, talent retention, and potential erosion of common equity [D05].",
+    "The business model depends on volatile trading and fragile human capital, failing our test for a durable moat [D01, D05, D06]."
+   ],
+   "market_narrative_we_disagree_with": "The market may view this as a potential recovery play or a deep value opportunity based on a sub-1.0 price-to-book ratio, but this ignores the high probability of permanent capital impairment in such a cyclical, opaque institution [D02, D04, D05].",
+   "what_must_be_true": [
+    "The firm must demonstrate an ability to preserve capital during systemic shocks.",
+    "The earnings stream must become predictable rather than dependent on market volatility.",
+    "Management must prove they can operate with a sustainable cost structure that does not rely on transient personnel."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "market_stance",
+   "owner_earnings_per_share": "Not calculable; Q1 EPS $0.81 [D01, D03] is volatile and reflects non-cash mark-to-market losses [D01].",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "Indeterminate",
+    "high": "Indeterminate",
+    "key_assumptions": [
+     "Business model lacks durable competitive advantage [D01, D05]",
+     "Earnings are dependent on volatile market cycles [D01, D05]"
+    ],
+    "discount_rate_used": "Not applicable"
+   },
+   "price_vs_value": "N/A; business does not meet quality criteria",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "T-Bills or Berkshire's existing holdings; these offer predictable returns without the risk of permanent capital impairment inherent in this institution [D08].",
+   "downside_case": "Permanent loss of capital due to liquidity shocks and potential erosion of common equity [D05].",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Maintenance capex and working capital requirements are unknown [D02, D04]",
+    "Management quality and owner-alignment are unknown [D02, D04]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are a permanent passive holder. We do not seek to manage or influence, as we only invest in businesses we understand and trust to compound over time [D01, D05, D06].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Compound earnings growth [D01]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000-2015 era, our default for marketable securities is R0, though this opportunity fails our quality criteria for purchase [D01, D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Liquidity shocks leading to the erosion of common equity [D05]",
+    "Persistent loss of key personnel undermining the franchise [D01, D06]",
+    "Inability to sustain earnings during cyclical market downturns [D01, D05]"
+   ],
+   "berkshire_constraints": "The position must not risk Berkshire's reputation or liquidity; insurance capital must be preserved [D01, D02].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "T-Bills or adding to existing, high-quality, predictable financial holdings like Wells Fargo or American Express [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a financial services institution with an opaque earnings stream that falls outside our circle of competence regarding durable, predictable competitive advantage.",
+   "biggest_risk_in_one_sentence": "The business model is inherently fragile and susceptible to a permanent loss of capital during liquidity-driven market crises."
+  }
+ },
+ "final": {
+  "as_of_date": "2008-03-28",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Indeterminate; Q1 figures heavily distorted by $1.8 billion in mark-to-market losses [D01, D03].",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Indeterminate",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent impairment of capital due to liquidity shocks and erosion of book value [D05]."
+  },
+  "drivers": [
+   {
+    "driver": "The business lacks a durable competitive advantage, relying instead on transient human capital and market relationships that are highly fragile during periods of volatility [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Earnings are intensely cyclical and unpredictable, with fixed-income revenues plummeting 88% and net income falling 57% year-over-year [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The firm's capital-intensive nature and reliance on liquidity make it vulnerable to systemic shocks that could jeopardize Berkshire's conservative capital preservation standards [D01, D02, D05].",
+    "citations": [
+     "D01",
+     "D02",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The apparent discount to book value does not represent a margin of safety, but rather a reflection of the market's justified concern regarding liquidity and asset quality in a sector-wide crisis [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Liquidity shocks leading to the erosion of common equity [D05]",
+   "Persistent loss of key personnel undermining the franchise [D01, D06]",
+   "Inability to sustain earnings during cyclical market downturns [D01, D05]"
+  ],
+  "what_would_change_our_mind": "A fundamental shift to a model with predictable, recurring earnings, significantly reduced reliance on volatile trading markets, and proven resilience of the capital base through a full economic cycle.",
+  "memo": "We have looked at this institution and concluded that it falls well outside our circle of competence. We seek businesses with durable moats that generate predictable earnings, whereas this firm's success depends on volatile market cycles and the continuous retention of specialist personnel who may leave at the first sign of trouble [D01, D05, D06].\n\nWhen we invest, we look for a business with the pricing power to withstand competition and the financial stability to thrive without constant reliance on market liquidity [D01, D05]. Here, fixed-income revenues fell 88% and net income dropped 57% year-over-year, which is the antithesis of the consistency we demand [D01, D03]. Such volatility makes calculating normalized owner earnings impossible [D01, D03].\n\nWhile some may see an opportunity in a stock price trading near book value, we view this simply as a reflection of the fragility inherent in the model [D02, D05]. We have no interest in buying into a business model where a liquidity shock can lead to the permanent impairment of capital [D05]. We prefer to hold our cash in T-Bills or invest in high-quality institutions we understand and trust, rather than risk Berkshire's reputation on a opaque, cyclical entity [D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

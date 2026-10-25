@@ -1,0 +1,63 @@
+{
+ "trade_id": "2026_googl_add_q2",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Abel said operating-company experience showed AI would materially affect American businesses.",
+   "He identified Google as a significant participant in that opportunity.",
+   "Abel and Buffett were comfortable committing $10bn to a significant block at a 6.5% discount."
+  ],
+  "extra_agent_drivers": [
+   "Core advertising and Cloud business revenue/profit growth",
+   "High cash generation covering increased capital expenditures",
+   "Regulatory/antitrust challenges do not impair economic viability"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Durable distribution franchise: intact",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Profitable Cloud engine: strengthened",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Capital intensity: increased",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Price 26.6x 2025 EPS",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Selling would incur a 21% federal tax liability",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We do not sell high-quality, growing businesses simply because the market is enthusiastic, particularly when the company maintains such substantial cash and marketable securities liquidity [D02, D08].",
+ "grader_notes": "The agent incorrectly decided to HOLD while the actual investor (Abel/Buffett) ADDED significantly to the position. The agent's reasoning focused on traditional fundamental analysis and valuation metrics, whereas the actual investment decision was driven by an opportunistic large-block purchase based on Abel's specific perspective on AI's impact on American business.",
+ "run": "2026_googl_add_q2__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "ADD",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

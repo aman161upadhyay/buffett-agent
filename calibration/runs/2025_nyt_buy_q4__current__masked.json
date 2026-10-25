@@ -1,0 +1,262 @@
+{
+ "pack": "2025_nyt_buy_q4",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2025-09-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The New York Times Company creates a journalism-based product bundle including games, cooking, product recommendations, and sports coverage. It has transitioned from a print-advertising model to a direct digital subscriber relationship, though it maintains legacy print operations. [D01]",
+   "products_customers_and_why_they_buy": [
+    "Digital-only subscriptions (11.30 million subscribers) and legacy print subscriptions. [D01, D02]",
+    "Bundle/multiproduct offerings (6.02 million users) encourage habitual use and pricing opportunities. [D01]"
+   ],
+   "economics": [
+    "Second-quarter operating margin of 15.5%, adjusted operating margin 19.5%. [D02]",
+    "Digital-only ARPU is $9.64, up 3.2%. [D01, D02]",
+    "Operating costs include journalism, product development, and customer acquisition. [D01]",
+    "No maintenance/growth-capital split recovered. [D02]"
+   ],
+   "earnings_record": [
+    "Annual revenue: $2.31 billion (2022), $2.43 billion (2023), $2.59 billion (2024). [D01, D02]",
+    "Q2 revenue $685.9 million (+9.7% y/y), operating profit $106.6 million (+34.2%), adjusted operating profit $133.8 million. [D01, D02]"
+   ],
+   "competitive_position": [
+    "Direct digital subscriber relationship serves as a potential defensible franchise. [D01]",
+    "Competes with free news and entertainment bundles. [D06]",
+    "Journalism must be renewed continually, and subscriber acquisition costs are rising. [D05, D06]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Cash and marketable securities of $951.5 million. [D02]",
+    "No outstanding debt; $400 million revolving commitment available. [D02]"
+   ],
+   "management_and_capital_allocation": [
+    "Dual-class governance structure limits outside shareholder influence. [D01, D05]",
+    "Capital allocation includes marketing, journalism reinvestment, and managing print-to-digital transition. [D01, D05]"
+   ],
+   "price_and_valuation": [
+    "September 30 Class A close: $57.40. [D04]",
+    "Mechanical P/E based on Q2 annualization: 28.70x (GAAP) or 24.74x (adjusted). [D04]"
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "No specific yield figures are stated in the pack; the analyst is instructed to use provided figures only. [D01, D02, D04]"
+   },
+   "what_the_market_is_worried_about": [
+    "Rising subscriber acquisition costs (marketing expenses up 12.8% and media promotion up 15.9%). [D05]",
+    "Generative AI creating distribution threats and legal conflicts. [D05]",
+    "Churn risk as subscribers exit promotional periods. [D05]",
+    "Continued decline of print subscriptions. [D03, D05]"
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "August 6, 2025: Q2 results reported showing 230,000 net digital additions. [D03]"
+   ],
+   "berkshire_context": [
+    "Berkshire holds no the Company position as of the latest 13F. [D08]",
+    "Berkshire had $344.1 billion in cash/Treasury liquidity as of August 2, 2025. [D08]"
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Maintenance vs. growth capital expenditure split",
+    "Full historical multiple range",
+    "Consensus forward earnings estimates",
+    "Churn cohort data"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "UNSURE",
+     "evidence": "While the transition to a digital subscriber model is clear, the long-term impact of generative AI and competition from free bundles on a journalism-based product creates significant uncertainty about the business model in 10-20 years [D01, D05, D06]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "The direct digital subscriber relationship is a potential franchise, but rising subscriber acquisition costs and competition from free alternatives suggest a moat that requires constant, increasing reinvestment [D01, D05, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Revenue has grown steadily from $2.31 billion in 2022 to $2.59 billion in 2024, demonstrating consistent performance during the transition from print to digital [D01, D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong balance sheet with no outstanding debt and $951.5 million in cash and marketable securities [D02]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business requires ongoing, escalating investment in journalism, product development, and customer acquisition to maintain its subscriber base, suggesting high capital intensity for growth [D01, D05]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "The dual-class governance structure limits outside shareholder influence, which complicates an assessment of whether management is fully aligned with all owners [D01, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "At a market capitalization significantly lower than the $5 billion threshold, this would be considered a deputy position for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "With a trailing P/E of approximately 25-29x, the implied earnings yield is well below the required threshold for a business facing significant competitive and technological headwinds [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 2,
+   "n_unsure": 4,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": true,
+   "one_line_business_quality_verdict": "a media enterprise undergoing a difficult digital transition with high reinvestment needs and structural competitive threats."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market correctly identifies this as a business undergoing a difficult digital transition with high, non-discretionary reinvestment needs. There is no evidence of a temporary cloud that masks a durable, low-maintenance franchise; rather, the economics suggest a permanent requirement for heavy spending on journalism and marketing to fend off free digital competition [D01, D05, D06].",
+   "evidence": [
+    "Journalism must be renewed continually with rising subscriber acquisition costs [D05, D06].",
+    "P/E ratio of ~25-29x is too expensive for a business requiring constant, escalating reinvestment [D04].",
+    "Digital-only ARPU growth of 3.2% is modest relative to the competitive threats and marketing spend [D01, D02, D05]."
+   ],
+   "market_narrative_we_disagree_with": "That the digital bundle provides a sufficient, low-maintenance moat to justify a ~25-29x earnings multiple despite rising churn risk and AI-driven distribution threats [D04, D05, D06].",
+   "what_must_be_true": [
+    "The business must demonstrate that marketing and journalism reinvestment will eventually stabilize as a lower percentage of revenue.",
+    "The digital subscriber base must prove resilient to AI-generated free alternatives.",
+    "The valuation must reach a level that provides a margin of safety against the ongoing decline of legacy print operations."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack; adjusted operating profit per share approx $0.83 based on Q2 2025 results [D02, D04]",
+   "initial_pretax_yield_pct": 3.48,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "requires assumption on maintenance capital expenditure [D02]",
+     "requires assumption on long-term growth vs print decline [D05]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "price is 24-28x earnings, significantly above the 10x target for ordinary businesses [D04]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Berkshire has $344.1 billion in cash/Treasuries yielding a risk-free return; this is superior to an expensive, capital-intensive media business [D08]",
+   "downside_case": "Permanent loss of competitive advantage due to rising subscriber acquisition costs and AI-driven distribution threats [D05, D06]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Maintenance capital expenditure assumed to be a significant portion of total capex due to journalistic requirements",
+    "Long-term normalized earnings power is not clearly defined in the pack"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Berkshire's edge is patience and permanent capital, allowing value to be realized through business compounding and rational capital allocation [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Compounding of digital subscriber revenue and efficient management of the print-to-digital transition [D01, D05]."
+   ],
+   "decider": "deputy",
+   "why_this_role_fits_the_era": "For marketable securities, Berkshire operates as a permanent passive holder; this is a deputy-sized position given it does not meet the scale requirements to move the needle for Berkshire [D04]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent loss of pricing power due to AI-driven, free information alternatives [D06]",
+    "Subscriber acquisition costs increasing faster than ARPU growth, indicating an eroding moat [D05]",
+    "Management allocates capital toward non-journalistic growth initiatives outside the core competency [D01]",
+    "Structural decline in digital engagement leads to higher churn rates than currently modeled [D05]"
+   ],
+   "berkshire_constraints": "Cash position remains robust at $344.1B [D08]; this position is too small to move the needle and does not meet Berkshire's stringent requirements for durable competitive advantage and valuation [D04].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed in risk-free Treasuries or retained as cash given the lack of a sufficient margin of safety in this business [D08].",
+   "leverage": "none",
+   "decider": "deputy",
+   "decider_reason": "The business fails the scale and valuation screens required for a direct Buffett investment and resides in an area of high structural uncertainty.",
+   "biggest_risk_in_one_sentence": "The requirement for escalating, perpetual reinvestment in a competitive digital landscape makes it difficult to ascertain a durable moat or stable intrinsic value."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-09-30",
+  "company": "The New York Times Company",
+  "ticker": "NYT",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "deputy",
+  "gate1_hard_fail": false,
+  "era_a_bargain": false,
+  "negotiated_terms": false,
+  "valuation": {
+   "owner_earnings": "not in pack; approx $0.83/share based on Q2 2025 [D02, D04]",
+   "initial_pretax_yield_pct": 3.48,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of competitive advantage due to rising subscriber acquisition costs and AI-driven distribution threats [D05, D06]"
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at a 24-28x earnings multiple [D04], offering an initial yield of 3.48% [D03] that is inadequate relative to the risks and the risk-free return available on our cash [D08].",
+    "citations": [
+     "D03",
+     "D04",
+     "D08"
+    ]
+   },
+   {
+    "driver": "The business model demands escalating, perpetual reinvestment in journalism and customer acquisition to sustain its subscriber base, which undermines the quality of its economics [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Competitive threats from free digital alternatives and generative AI create significant uncertainty regarding the long-term durability of the company's pricing power and moat [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "The dual-class governance structure limits outside shareholder influence, complicating our ability to assess alignment between management and the owners we represent [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent loss of pricing power due to AI-driven, free information alternatives [D06]",
+   "Subscriber acquisition costs increasing faster than ARPU growth, indicating an eroding moat [D05]",
+   "Management allocates capital toward non-journalistic growth initiatives outside the core competency [D01]",
+   "Structural decline in digital engagement leads to higher churn rates than currently modeled [D05]"
+  ],
+  "what_would_change_our_mind": "We would need to see evidence that the company's journalism and marketing reinvestment requirements stabilize as a percentage of revenue, and that the digital subscriber base proves resilient to free, AI-generated alternatives at a valuation providing a clear margin of safety [D05, D06].",
+  "memo": "We have reviewed The New York Times Company, a business focused on a journalism-based bundle including games, cooking, and news [D01]. While the company has shown a steady revenue trend of $2.59 billion in 2024 [D01, D02], the underlying economics remain challenging due to the constant need to reinvest in journalism and customer acquisition [D01, D05]. \n\nA durable competitive advantage in this digital landscape is difficult to identify because the product competes against an ocean of free, AI-distributed information [D06]. Rising subscriber acquisition costs indicate that maintaining growth requires ever-increasing capital, a characteristic we typically avoid [D01, D05]. \n\nManagement has navigated the transition from print to digital effectively thus far, yet the dual-class governance structure leaves us with questions regarding the alignment of management with all owners [D01, D05]. We prefer to invest in businesses where we can clearly discern the long-term earnings power and the capital required to sustain it [D01]. \n\nAt a valuation of roughly 25-29 times earnings, the price currently offered by Mr. Market does not provide the margin of safety we demand [D04]. With Berkshire holding significant liquidity in risk-free Treasuries, we find no reason to commit capital to a business facing such high structural uncertainty [D08]. We will continue to watch from the sidelines.",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "trade_id": "ctl_2023_frc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett distinguished safe deposits from risky bank equity and criticized asset/liability mismatch and accounting incentives",
+   "No First Republic in parent filings around Q4 2022/Q1 2023 or the 2010–Q2 2026 census",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "The institution faces an existential liquidity crisis",
+   "The reliance on a $30 billion emergency liquidity bridge signals a broken business model",
+   "Severe asset-liability mismatches and earnings compression render the franchise's long-term economic durability highly uncertain",
+   "The risks of further deposit flight and regulatory intervention outweigh any potential value in the banking franchise"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The reliance on a $30 billion emergency liquidity bridge from peers signals a broken business model that lacks fundamental stability.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business is currently suffering from structural asset-liability mismatches and an unstable deposit base.",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 9,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "First Republic does not meet these standards, and we prefer to hold cash and Treasury bills, which offer safety and liquidity in periods of uncertainty [D08].",
+ "grader_notes": "The agent correctly identified the PASS decision. However, the reasoning is entirely based on independent analyst reconstruction of the company's liquidity crisis rather than citing Buffett's actual stated reasoning or nonholding status, as specified in the answer key.",
+ "run": "ctl_2023_frc_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

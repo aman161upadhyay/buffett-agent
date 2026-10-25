@@ -1,0 +1,253 @@
+{
+ "pack": "dep_2021_atvi_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2021-10-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a publisher of recurring entertainment franchises across consoles, personal computers, and mobile devices [D01]. It generates revenue through premium games, subscriptions, in-game content, and advertising [D01].",
+   "products_customers_and_why_they_buy": [
+    "Premium games, subscriptions, in-game content, and advertising [D01].",
+    "408 million monthly active users [D01, D03, D05].",
+    "Customers engage due to habitual interaction with established franchises and accumulated development libraries [D01, D06]."
+   ],
+   "economics": [
+    "High operating margins, with GAAP at 42% and non-GAAP at 44% in the second quarter [D01, D03, D05].",
+    "Trailing-twelve-month operating cash flow of $2.57 billion [D01, D03, D05].",
+    "Software production requires continuing creative investment rather than being a self-maintaining royalty stream [D01, D06].",
+    "Net bookings metrics are used alongside GAAP revenue [D01, D03, D05]."
+   ],
+   "earnings_record": [
+    "Second-quarter GAAP revenue $2.296 billion versus $1.932 billion [D01, D03, D05].",
+    "Second-quarter diluted EPS $1.12 versus $0.75 [D01, D03, D05].",
+    "Trailing-twelve-month operating cash flow $2.57 billion [D01, D03, D05]."
+   ],
+   "competitive_position": [
+    "Portfolio of established, recurring entertainment franchises [D06].",
+    "Competes with other publishers for play time and developer talent [D06].",
+    "Faces competition from platform and distribution fees [D05, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Cash-rich balance sheet, though precise debt/cash figures are not in pack [D04].",
+    "Requires ongoing creative investment and maintenance of legal/regulatory permissions [D01, D02, D04]."
+   ],
+   "management_and_capital_allocation": [
+    "Management acknowledged serious employment, compensation and workplace allegations [D01, D03, D05].",
+    "Management raised outlook despite controversy [D01, D03, D05].",
+    "Need to repair culture and management credibility identified as a risk [D05]."
+   ],
+   "price_and_valuation": [
+    "Precise desk-date market price or multiple not in pack [D02, D04, D05].",
+    "Latest quarterly GAAP EPS annualizes to $4.48 [D02, D04, D05]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Serious workplace allegations and need for cultural repair [D01, D05].",
+    "Potential harm to employee retention and creative pipeline [D05].",
+    "Predictability concerns given reliance on free-to-play engagement and new competitors [D05].",
+    "Lower year-on-year net bookings despite higher GAAP revenue [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "June 30: latest quarterly measurement date [D07].",
+    "July: workplace allegations controversy [D07].",
+    "August 3: earnings release [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire cash/equivalents approximately $144.1 billion as of June 2021 report [D08].",
+    "Position would be a deputy-scale investment [D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Authenticated October 29/31 stock price [D02, D04].",
+    "Normalized maintenance capex figures [D02, D04].",
+    "Detailed debt and balance sheet composition [D02, D04]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business relies on constant creative investment and faces significant risks from changing consumer engagement and high competitive pressure [D01, D05, D06]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While the company has established franchises, it must continuously invest to maintain relevance and faces competition for developer talent and playtime [D05, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "The company shows growth in recent quarterly revenue and EPS figures [D01, D03, D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "Precise debt levels and return on capital metrics are not in the pack [D04]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "Software production is not a self-maintaining royalty stream and requires continuing creative investment [D01, D06]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "FAIL",
+     "evidence": "Serious employment, compensation, and workplace allegations pose significant risks to management credibility and culture [D01, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "The investment would be considered a deputy-scale position rather than one moving the needle for Berkshire [D08]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "Precise market price and owner earnings yield are not available in the pack [D02, D04, D05]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 3,
+   "n_unsure": 4,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": true,
+   "one_line_business_quality_verdict": "a business requiring constant creative reinvestment with significant management and cultural risks"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The business operates in an industry where creative talent and software development are the primary assets, which inherently conflicts with our preference for stable, self-maintaining moats [D01, D06]. Significant management and cultural controversies create risks to the stability of the creative pipeline and leadership credibility, which are non-quantifiable factors we avoid [D01, D05].",
+   "evidence": [
+    "Software production requires continuing creative investment rather than being a self-maintaining royalty stream [D01, D06].",
+    "Management acknowledged serious employment, compensation and workplace allegations [D01, D03, D05].",
+    "Company competes with other publishers for play time and developer talent [D06]."
+   ],
+   "market_narrative_we_disagree_with": "The market may be pricing the company based on recent GAAP revenue growth and EPS figures, whereas we view the underlying structural requirements for constant creative reinvestment and the cultural management risks as fundamental barriers to a durable competitive advantage [D01, D05, D06].",
+   "what_must_be_true": [
+    "Management successfully resolves internal cultural and workplace allegations without permanent damage to talent retention.",
+    "The business model transitions to a more predictable, less capital-intensive structure.",
+    "Competitive pressures do not erode the value of the current library or future engagement."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "Not in pack; annualizing $1.12 Q2 EPS suggests $4.48 [D01, D03, D05], but maintenance capex is missing [D02, D04].",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "Creative investment needs are high and non-discretionary [D01, D06]",
+     "Cultural risks may impact future earnings power [D05]"
+    ],
+    "discount_rate_used": "long bond rate not in pack"
+   },
+   "price_vs_value": "not in pack",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Berkshire has $144.1 billion in cash [D08]; alternatives include buying whole businesses, treasury bills, or repurchasing Berkshire shares which provide higher certainty [D08].",
+   "downside_case": "Permanent loss of capital if cultural controversies erode the creative pipeline and competitive moats permanently [D01, D05].",
+   "valuation_verdict": "FULL",
+   "flagged_assumptions": [
+    "No market price provided for valuation [D02, D04]",
+    "Maintenance capex is unknown [D02, D04]",
+    "Debt/cash breakdown is missing [D02, D04]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Berkshire's edge is patience and the use of permanent capital to allow investments to compound over time [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realised through business compounding and rational capital allocation by management [D01, D06]."
+   ],
+   "decider": "deputy",
+   "why_this_role_fits_the_era": "For marketable securities in the current era, we act as a permanent passive holder; however, given the business quality concerns and cultural risks identified, this would be a small deputy-scale position rather than a core Berkshire holding [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Serious employment, compensation, and workplace allegations lead to the departure of key creative talent [D01, D05].",
+    "Competitive pressures or platform fee changes erode the value of the current library and franchise engagement [D05, D06].",
+    "Creative reinvestment costs rise such that they structurally impair operating margins [D01, D06]."
+   ],
+   "berkshire_constraints": "Must maintain a cash floor of at least $30B [D08]. Regulatory ownership thresholds apply if exceeding 10% [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 1,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Berkshire has $144.1 billion in cash; alternatives include buying whole businesses or repurchasing Berkshire shares, which offer greater certainty [D08].",
+   "leverage": "none",
+   "decider": "deputy",
+   "decider_reason": "The business falls outside Buffett's historical circle of competence in software entertainment and is considered a sub-scale position.",
+   "biggest_risk_in_one_sentence": "The combination of a business model requiring constant creative reinvestment and significant cultural management risk makes the future earnings power highly unpredictable."
+  }
+ },
+ "final": {
+  "as_of_date": "2021-10-31",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "deputy",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital if cultural controversies erode the creative pipeline and competitive moats permanently [D01, D05]."
+  },
+  "drivers": [
+   {
+    "driver": "The business model relies on constant, non-discretionary creative reinvestment rather than serving as a self-maintaining royalty stream [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Serious and ongoing employment and workplace allegations pose non-quantifiable risks to management credibility and the stability of the creative workforce [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Intense competition for both developer talent and consumer playtime makes future earnings power highly unpredictable [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "The lack of clarity regarding maintenance capital expenditures and normalized owner earnings precludes a confident assessment of a margin of safety [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Serious employment, compensation, and workplace allegations lead to the departure of key creative talent [D01, D05].",
+   "Competitive pressures or platform fee changes erode the value of the current library and franchise engagement [D05, D06].",
+   "Creative reinvestment costs rise such that they structurally impair operating margins [D01, D06]."
+  ],
+  "what_would_change_our_mind": "Management must resolve internal cultural and workplace allegations without permanent damage to talent retention, and the business must transition to a more predictable, less capital-intensive structure.",
+  "memo": "We have examined the company and have concluded that it does not meet our requirements for a durable, understandable business. While the firm possesses a portfolio of established entertainment franchises, the model requires constant creative reinvestment to maintain relevance rather than functioning as a self-maintaining royalty stream [D01, D06]. This continuous need to innovate, combined with significant competitive pressure for developer talent and consumer attention, makes the long-term earnings power difficult to predict [D06].\n\nFurthermore, we are deeply concerned by the serious employment and workplace allegations currently facing the company [D01, D05]. These controversies present significant risks to management credibility and the stability of the creative pipeline, which are factors we cannot quantify and choose to avoid [D01, D05]. When we invest, we look for honest, able managers who act as owners of the business; the current uncertainties regarding culture and leadership suggest that such stability is currently lacking [D05].\n\nFinally, we do not have sufficient visibility into the company's maintenance capital expenditures or debt structure to calculate owner earnings with any degree of confidence [D02, D04]. Given our $144.1 billion cash position, we have the luxury of patience and prefer to deploy capital into businesses that offer higher certainty and clear competitive advantages [D08]. We prefer to put this idea in our 'too hard' pile rather than risk Berkshire’s reputation and capital on an uncertain outcome [D01].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

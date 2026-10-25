@@ -1,0 +1,52 @@
+{
+ "trade_id": "2022_atvi_arb",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "The spread to the $95 cash consideration created a workout opportunity. → We believe the spread represents a classic arbitrage opportunity where the market is overly focused on regulatory noise rather than the terms of the binding agreement [D03, D04].",
+   "Completion probability, including government intervention, had to justify the downside risk. → The primary risk we face is that regulators successfully block the transaction, in which case the stock would likely trade down to its stand-alone value [D05, D06]."
+  ],
+  "missed": [
+   "Buffett personally made the arbitrage decision, distinct from the deputy's pre-bid purchase."
+  ],
+  "extra_agent_drivers": [
+   "Activision maintains a robust balance sheet with $10.42bn in cash against $3.61bn in debt, providing a cushion should the regulatory environment force the deal to terminate."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Microsoft has entered into a binding all-cash agreement to acquire the business",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The current market price of $81.50",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Activision maintains a robust balance sheet with $10.42bn in cash against $3.61bn in debt",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 5,
+  "share": 0.38
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We believe the spread represents a classic arbitrage opportunity where the market is overly focused on regulatory noise rather than the terms of the binding agreement [D03, D04].",
+ "grader_notes": "The agent correctly identified the arbitrage nature of the trade and the core logic regarding the spread and regulatory risk. However, the agent's sizing (2% of portfolio) represents a material difference from the high-conviction (~9.5%) stake taken by Buffett, resulting in a PARTIAL direction grade. The agent also included balance sheet analysis which, while accurate, was not a primary driver cited by Buffett in his explanation of the arbitrage decision.",
+ "run": "2022_atvi_arb__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

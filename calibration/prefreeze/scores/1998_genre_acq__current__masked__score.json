@@ -1,0 +1,59 @@
+{
+ "trade_id": "1998_genre_acq",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "The acquisition added a major reinsurance franchise and substantial investable assets.",
+   "Buffett's original assessment viewed the acquired businesses and managers as first-class.",
+   "Berkshire's capital and ownership structure could support the insurance operations while broadening investments per share."
+  ],
+  "extra_agent_drivers": [
+   "valuation/price-to-earnings",
+   "combined ratio",
+   "price-to-book multiple",
+   "reserve inadequacy risk"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at 22.57x earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The combined ratio consistently exceeds 100%",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The purchase price of $22 billion represents a 2.53x price-to-book multiple",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Risk of reserve inadequacy on long-tail claims",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 6,
+  "share": 0.43
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Charlie and I have reviewed the proposed acquisition, and we have decided to pass.",
+ "grader_notes": "The agent reached a decision (PASS) that directly contradicts the actual historical decision (BUY). Consequently, the agent failed to identify the strategic motivations cited by Buffett, such as the acquisition of a major franchise and the quality of management, focusing instead on quantitative valuation hurdles and underwriting metrics.",
+ "run": "1998_genre_acq__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

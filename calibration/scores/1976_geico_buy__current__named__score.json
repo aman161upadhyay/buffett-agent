@@ -1,0 +1,53 @@
+{
+ "trade_id": "1976_geico_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "The fundamental direct-distribution business advantage remained intact beneath the financial and operating troubles. → GEICO is a business we have known for decades, defined by a direct-to-consumer insurance model that bypasses the high costs of the traditional agency system [D01, D08].",
+   "The exceptional manager and exceptional franchise made this a rare turnaround worth attempting. → Jack Byrne has been brought in to lead the turnaround, and his arrival provides the necessary leadership to correct pricing errors and instill underwriting discipline [D01, D07]."
+  ],
+  "missed": [
+   "Minority securities offered earning power far below the cost of acquiring equivalent controlled operations."
+  ],
+  "extra_agent_drivers": [
+   "The business model is within my circle of competence, allowing me to look past current underwriting losses to the underlying economic potential"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "GEICO possesses a structural expense advantage in automobile insurance through its direct-distribution, non-agency model",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Insolvency and total loss of equity [downside case]",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "New CEO Jack Byrne has been brought in to rectify pricing and underwriting failures",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 5,
+  "share": 0.42
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We believe the price offers a significant margin of safety relative to the long-term potential of the franchise, assuming the reserve issues can be contained and rectified [D04, D05].",
+ "grader_notes": "The agent correctly identified the key qualitative drivers—the structural expense advantage and the quality of the turnaround manager—that Buffett later cited. However, the agent failed to capture the arbitrage/valuation logic regarding the pricing of minority securities versus control and arrived at a PASS decision, which misses the historical BUY.",
+ "run": "1976_geico_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true,
+ "enforced_hard_fail": true
+}

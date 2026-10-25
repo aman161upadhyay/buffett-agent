@@ -1,0 +1,49 @@
+{
+ "trade_id": "2020_japan_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Yen bonds limited net currency mismatch. → By issuing yen-denominated debt, we have effectively hedged our currency risk, allowing us to capture the attractive 4-5% dividend yields in an environment where Japanese government bond yields are near 0% [D04, D08]."
+  ],
+  "missed": [
+   "Buffett wanted long-term participation in Japan and the five chosen businesses.",
+   "Their worldwide joint ventures offered possibilities of mutual benefit."
+  ],
+  "extra_agent_drivers": [
+   "Price versus value/Margin of safety",
+   "Diversified, cash-generative conglomerates",
+   "Capital allocation through dividends and buybacks"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "price-to-book ratios as low as 0.57x",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "initial yield of 4-5% compared to near 0% Japanese bond yields",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 6,
+  "share": 0.5
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "By issuing yen-denominated debt, we have effectively hedged our currency risk, allowing us to capture the attractive 4-5% dividend yields in an environment where Japanese government bond yields are near 0% [D04, D08].",
+ "grader_notes": "The agent correctly identified the currency hedging strategy but failed to capture the primary motivations Buffett explicitly stated: long-term partnership and potential for mutual benefit in joint ventures. The agent instead prioritized valuation-based drivers (P/B ratios, yield) which were not cited as the core drivers in Buffett's official announcement. Sizing conviction was 'medium', whereas the actual was 'high'.",
+ "run": "2020_japan_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

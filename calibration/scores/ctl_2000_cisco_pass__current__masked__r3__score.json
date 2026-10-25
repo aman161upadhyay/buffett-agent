@@ -1,0 +1,64 @@
+{
+ "trade_id": "ctl_2000_cisco_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Outside Buffett's demonstrated technology circle and no demonstrated margin of safety",
+   "No Cisco in the parent 13F-era holdings window",
+   "Economic and valuation objections are analyst-reconstructable, not authenticated Buffett statements"
+  ],
+  "extra_agent_drivers": [
+   "Price vs value / margin of safety",
+   "Technological obsolescence and reinvestment requirements",
+   "Difficulty in determining owner earnings due to accounting",
+   "Lack of predictable/durable franchise"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "company commands a market capitalization of $450.54bn at a P/E of approximately 131x-143x",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "business operates in a sector defined by rapid technological change",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "company's earnings record is obscured by pooling-of-interests accounting",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "company trading at over 130 times its earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We prefer to keep our capital in cash rather than risk permanent loss in situations we do not fully understand",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 7,
+  "share": 0.7
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Charlie and I have looked at the Company, but we find ourselves unable to get comfortable with the economics of the business [D05].",
+ "grader_notes": "The agent correctly matched the PASS decision and the Buffett persona but failed to align with Buffett's specific, limited reasoning. The agent created a detailed analytical critique of the company's valuation and business model, whereas the actual Buffett stance (per the key) is a broader exclusion based on his 'circle of competence' and lack of historic ownership rather than an issuer-specific fundamental valuation exercise.",
+ "run": "ctl_2000_cisco_pass__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

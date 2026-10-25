@@ -1,0 +1,17 @@
+Title: Cost trends and formal investigative requests
+Source: https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/unh-reports-third-quarter-2025-results-and-raises-full-year-2025-earnings-outlook.pdf ; https://www.unitedhealthgroup.com/newsroom/2025/2025-07-24-uhg-responds-to-doj-investigation.html ; https://www.sec.gov/Archives/edgar/data/731766/000073176625000022/a2024q4exhibit991.htm ; https://www.sec.gov/Archives/edgar/data/731766/000073176625000123/a2025q1exhibit991.htm
+Date: 2025-12-31
+
+The bear case now has two directly observed anchors: operating earnings have fallen sharply, and the company is complying with formal criminal and civil requests concerning Medicare. July's statement is materially different from May's statement that it had not been notified of the supposed investigation. Neither statement proves misconduct, but the regulatory exposure cannot be dismissed as merely an anonymous headline. [1,2]
+
+The operating risk is that cost pressure and reimbursement constraints reflect a structurally lower return rather than a temporary quarter. A large company can reprice benefits and still lose profitable members, face adverse selection or require more capital. Management's raised annual floor is encouraging, but does not erase the gap from old earnings. No later legal finding or guidance reset is imported. A skeptic would ask what observable combination of claims trends, margins, retention and regulatory clarity establishes that the business is again predictable enough to capitalize over many years. A low original entry price would not answer that question. [1-4]
+
+Evidence ledger: the October 28 release reports third-quarter revenue of $113.2 billion, up 12%; operating earnings of $4.3 billion, down approximately 50% year on year; net margin of 2.1%; GAAP EPS of $2.59; adjusted EPS of $2.92; and operating cash flow of $5.9 billion. Management increased its annual floor to $14.90 GAAP EPS and $16.25 adjusted EPS. That floor is substantially below April's superseded $26.00-$26.50 adjusted range and 2024 adjusted EPS of $27.66. On July 24 the company said it was complying with formal criminal and civil Department of Justice requests and expressed confidence in its practices. No legal settlement or completed annual financial result is assumed. [1-4]
+
+Risk distinction: a temporary earnings interruption and a permanent impairment can initially produce similar reported numbers. The test is whether the cause can be bounded without assuming that management's preferred recovery path must occur. Position liquidity limits execution risk, not business risk. The adverse mechanisms set out here are scenarios grounded in the cited contemporary evidence, not claims that every adverse outcome has occurred. No independent short-seller target or numerical probability is invented where a dated opposing valuation was not recovered.
+
+Sources and publication dates:
+[1] https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/unh-reports-third-quarter-2025-results-and-raises-full-year-2025-earnings-outlook.pdf (published 2025-10-28)
+[2] https://www.unitedhealthgroup.com/newsroom/2025/2025-07-24-uhg-responds-to-doj-investigation.html (published 2025-07-24)
+[3] https://www.sec.gov/Archives/edgar/data/731766/000073176625000022/a2024q4exhibit991.htm (published 2025-01-16)
+[4] https://www.sec.gov/Archives/edgar/data/731766/000073176625000123/a2025q1exhibit991.htm (published 2025-04-17)

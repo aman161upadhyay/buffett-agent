@@ -1,0 +1,62 @@
+{
+ "pack": "2026_cash_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "hedge",
+ "as_of_date": "2026-05-01",
+ "stages": {},
+ "final": {
+  "as_of_date": "2026-05-01",
+  "trailing_earnings_yield_pct": 3.92,
+  "normalised_earnings_yield_pct": 3.92,
+  "normalisation_basis": "trailing (no distortion)",
+  "long_bond_yield_pct": 4.39,
+  "spread_points": "-0.47",
+  "drawdown_from_high_pct": 0,
+  "panic_indicators": [
+   "VIX close 16.99 [D04]",
+   "High-yield OAS 2.77 points [D04]"
+  ],
+  "rule_decision": "SELECTIVE",
+  "decision": "SELECTIVE",
+  "override_reason": null,
+  "conviction": "medium",
+  "earnings_yield_vs_bonds": "The earnings yield of 3.92% is 0.47 points lower than the 10-year Treasury yield of 4.39% [D04].",
+  "valuation_level": "The S&P 500 trailing P/E is 25.49x [D04].",
+  "ideas_that_qualify": [
+   "None identified in pack"
+  ],
+  "berkshire_action": "Maintain significant liquidity, monitor for opportunities that meet the criteria of understandable economics and durable advantages, and evaluate buybacks strictly against conservative intrinsic value.",
+  "drivers": [
+   {
+    "driver": "Market earnings yields are currently inferior to long-term government bond yields, indicating a lack of broad value.",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Berkshire maintains a high level of liquidity and financial strength, providing the patience to wait for attractive terms.",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The company prefers the ownership of productive businesses over passive assets, but strictly at sensible prices.",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "No widespread market panic or valuation distress is evident in the current data.",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "memo": "At Berkshire, we continue to prioritize the long-term health of our business, which necessitates a patient approach to capital allocation. Our preference remains firmly on the side of productive, understandable businesses that possess durable competitive advantages. When market prices do not offer an adequate margin of safety, we are perfectly content to hold cash—even when that decision invites questions about the 'drag' of our liquidity. We do not forecast markets, but we do pay close attention to the return we can expect from our cash relative to the opportunities available in equity markets.\n\nCurrently, with the broader equity market trading at earnings yields below that of risk-free long-term government bonds, we find ourselves in a period requiring selectivity. Our substantial cash balance is not a signal of retreat or a prediction of a crash, but a reflection of our unwillingness to compromise on the standards of value we demand for our shareholders. We will continue to evaluate potential acquisitions and our own share price with the same discipline that has always guided us. As we have noted before, patience is not a weakness; it is a vital component of our investment strategy, ensuring that when we do act, we are deploying capital into businesses that will serve us well for decades to come.",
+  "uncited_claims": []
+ }
+}

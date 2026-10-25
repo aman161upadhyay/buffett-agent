@@ -1,0 +1,49 @@
+{
+ "trade_id": "ctl_2016_tsla_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned per parent 13F history in the tested window",
+   "No Tesla row in parent 2010–Q2 2026 holdings census",
+   "Economic and valuation objections are analyst-reconstructable discipline tests, not authenticated issuer-specific Buffett statements"
+  ],
+  "extra_agent_drivers": [
+   "Lack of positive earnings yield",
+   "Lack of consistent GAAP profitability",
+   "High capital intensity",
+   "Reliance on external credit facilities"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company requires heavy capital investment of $1.5 billion, preventing predictable owner earnings",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business lacks a consistent record of GAAP profitability",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 9,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We require businesses that produce predictable owner earnings to ensure a margin of safety and protect against the permanent loss of capital [D08].",
+ "grader_notes": "The agent correctly matched the PASS decision but failed to adopt the reasoning required by the answer key. The key emphasizes that since there is no public Buffett commentary on Tesla, the reasoning should focus on ownership verification and the boundary of analyst-reconstructed discipline; the agent instead fabricated a detailed fundamental analysis as if it were a Buffett-style evaluation.",
+ "run": "ctl_2016_tsla_pass__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

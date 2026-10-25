@@ -1,0 +1,54 @@
+{
+ "trade_id": "dep_2021_atvi_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "BUY by an unnamed deputy, not Buffett and not merger arbitrage.",
+   "Buffett's signed February 17, 2022 clarification: one of two independent investment managers bought about 85% in October, completed in November, average cost about $77; no prior knowledge of Microsoft's January proposal.",
+   "Buffett explicitly said the investment manager operated independently of him and Berkshire had no prior knowledge of Microsoft's proposal; the October purchase is not merger arbitrage."
+  ],
+  "extra_agent_drivers": [
+   "The company requires constant, significant creative reinvestment to remain relevant, lacking the durable, self-maintaining economics of a true consumer franchise.",
+   "Serious and ongoing workplace, compensation, and cultural allegations raise significant concerns regarding management's ability to steward the organization and retain essential talent.",
+   "Business performance is subject to hit-driven volatility, making long-term earnings predictability difficult to ascertain.",
+   "The lack of clear data on intrinsic value, maintenance capital requirements, and balance sheet strength prevents any margin-of-safety calculation."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company requires constant, significant creative reinvestment to remain relevant, lacking the durable, self-maintaining economics of a true consumer franchise.",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Serious and ongoing workplace, compensation, and cultural allegations raise significant concerns regarding management's ability to steward the organization and retain essential talent.",
+    "citation": "D05",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Business performance is subject to hit-driven volatility, making long-term earnings predictability difficult to ascertain.",
+    "citation": "D05",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 2,
+  "share": 0.29
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We prefer to put such opportunities in the 'too hard' pile, choosing to preserve our capital for businesses where the economics and management are beyond reproach [D01, D08].",
+ "grader_notes": "The agent missed the trade entirely, opting to 'pass' based on fundamental analysis of the business, whereas the actual decision was a buy executed by an independent deputy. The agent failed to identify that the investment was a deputy-led action and incorrectly attributed the decision-making process to Buffett's standard valuation criteria.",
+ "run": "dep_2021_atvi_buy__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

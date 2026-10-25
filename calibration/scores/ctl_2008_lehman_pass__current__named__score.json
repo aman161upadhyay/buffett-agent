@@ -1,0 +1,53 @@
+{
+ "trade_id": "ctl_2008_lehman_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett required executives to commit meaningful new cash on the same terms; Fuld's reluctance was an immediate negative.",
+   "Fuld's complaints about short sellers suggested a failure to recognize management's own problems.",
+   "Review of the 10-K raised asset and risk concerns; a $100M Japan problem learned after March 28 reinforced refusal, and must not be scored as cutoff-date pack evidence."
+  ],
+  "extra_agent_drivers": [
+   "Fragility of business model relying on short-term funding",
+   "Decline in net income and fixed-income revenue",
+   "Significant leverage and liquidity requirements"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "market price of 0.98x book",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "57% decline in net income",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "88% collapse in fixed-income revenue",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 15,
+  "cited": 8,
+  "share": 0.53
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We avoid businesses where survival depends entirely on the confidence of market participants and the availability of short-term funding [D05, D06].",
+ "grader_notes": "The agent reached the correct decision (PASS) but relied entirely on external fundamental analysis of the firm's balance sheet and business model rather than the specific behavioral and management-related reasons Buffett actually cited. The agent failed to identify the key driver involving Fuld's management reactions and the specific negotiation failures documented in the examiner's report.",
+ "run": "ctl_2008_lehman_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2013_heinz_acq",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Announced commitment $12.12 billion: $8 billion preferred and $4.12 billion common; final common investment approximately $4.25 billion",
+  "first_action_date": "2013-02-13",
+  "disclosure_date": "2013-02-14",
+  "reason_class": null,
+  "opportunity_template": [
+    "B4",
+    "B3"
+  ],
+  "catalyst_role": "R3",
+  "decider": "Buffett",
+  "size_basis": "cash",
+  "drivers": [
+    {
+      "driver": "Heinz was an enduring branded-food business suited to long ownership.",
+      "source": "https://www.berkshirehathaway.com/letters/2013ltr.pdf (2014-03-01; hindsight explanation)",
+      "quote": null
+    },
+    {
+      "driver": "The 3G partnership paired operating expertise with Berkshire capital.",
+      "source": "https://www.berkshirehathaway.com/letters/2013ltr.pdf (2014-03-01; hindsight explanation)",
+      "quote": null
+    },
+    {
+      "driver": "The preferred supplied a 9% contractual yield alongside common ownership.",
+      "source": "https://www.berkshirehathaway.com/letters/2013ltr.pdf (2014-03-01; hindsight explanation)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "$72.50 a share; approximately $28 billion enterprise value; $8 billion 9% preferred.",
+  "outcome_note": "Separate from the 2015 Kraft combination and its later overpayment admission.",
+  "sources": [
+    "https://www.berkshirehathaway.com/letters/2013ltr.pdf",
+    "https://www.sec.gov/Archives/edgar/data/46640/000004664012000029/hnz8k102812ex991.htm",
+    "https://www.berkshirehathaway.com/letters/2011ltr.pdf"
+  ],
+  "pack_quality_notes": "Announcement commitment $12.12 billion differs from final $12.25 billion capitalization. Final terms are after cutoff. Metadata scale must use public baseline; corrected in generator to 2011 cash. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated. Key source timing: 2014-03-01; hindsight explanation. Unknown first execution is null; see meta.first_action_window. Fewer than three authenticated drivers means reasoning is unscorable rather than completed with invented manager claims.",
+  "quality_grade": "B"
+}

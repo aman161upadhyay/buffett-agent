@@ -1,0 +1,53 @@
+{
+ "trade_id": "2013_heinz_acq",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Heinz was an enduring branded-food business suited to long ownership. → Heinz is a quintessential example of a business we understand—a global leader in branded packaged foods",
+   "The 3G partnership paired operating expertise with Berkshire capital. → By partnering with 3G Capital, we combine our capital with an operator known for exceptional efficiency and operational discipline",
+   "The preferred supplied a 9% contractual yield alongside common ownership. → Our investment is not merely in the common equity, but a preferred stake that offers us a 9% cumulative annual dividend"
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The senior preferred structure provides a significant margin of safety and priority in the capital structure relative to common equity"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Heinz maintains a 60% market share in the US.",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The preferred stake offers a 9% cumulative annual dividend.",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Berkshire combines capital with 3G Capital's operational discipline.",
+    "citation": "D09",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [
+   "the company has delivered a consistent record of growth, including 30 consecutive quarters of organic growth as of mid-2013 [D01, D03]."
+  ],
+  "sentences": 11,
+  "cited": 7,
+  "share": 0.64
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "By partnering with 3G Capital, we combine our capital with an operator known for exceptional efficiency and operational discipline [D09].",
+ "grader_notes": "The agent correctly identified the core deal drivers: the brand strength, the partnership with 3G, and the preferred yield. The reasoning aligns perfectly with Buffett's hindsight explanations. The memo contains a leakage flag regarding performance data dated 'as of mid-2013' which post-dates the Feb 2013 AS_OF_DATE.",
+ "run": "2013_heinz_acq__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

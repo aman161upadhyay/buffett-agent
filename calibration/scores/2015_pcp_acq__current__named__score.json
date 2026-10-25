@@ -1,0 +1,56 @@
+{
+ "trade_id": "2015_pcp_acq",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "PCC was an admired specialized manufacturing franchise. → Charlie and I have long admired the company's ability to act as a sole or dominant supplier",
+   "It was the aerospace industry's preferred supplier. → Precision Castparts is a wonderful business that manufactures the critical, high-barrier metal components and fasteners essential to modern aerospace and industrial programs",
+   "Its operating model and retained management fit permanent Berkshire ownership. → Mark Donegan, who has led the company since 2002, is an exceptional operator whom we trust implicitly... He will remain in place to run the business with the same owner-like discipline he has practiced for over a decade"
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The company's eight-year production backlog for major programs provides a level of earnings visibility"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Precision Castparts is a wonderful business that manufactures the critical, high-barrier metal components",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Mark Donegan... will remain in place to run the business",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Mr. Market is currently preoccupied with short-term cyclical headwinds",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "our expected return of 10% is far superior to the alternative of holding cash in a 2% yield environment",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 10,
+  "share": 0.71
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Charlie and I have long admired the company's ability to act as a sole or dominant supplier, a position earned through rigorous technical certification and process expertise that competitors find nearly impossible to replicate [D01, D09].",
+ "grader_notes": "The agent correctly identified the acquisition decision and the three core drivers specified in the answer key. The reasoning matches the Buffett rationale regarding admiration of the franchise, aerospace positioning, and retention of management. The agent included an additional driver regarding the production backlog, which is consistent with the provided materials but not explicitly in the summary key.",
+ "run": "2015_pcp_acq__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

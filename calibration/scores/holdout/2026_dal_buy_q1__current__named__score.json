@@ -1,0 +1,45 @@
+{
+ "trade_id": "2026_dal_buy_q1",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The company trades at approximately 11.57 times adjusted earnings, failing to provide an adequate margin of safety for a capital-intensive commodity business.",
+   "The airline industry is a capital-intensive commodity business prone to cyclicality, high operating leverage, and significant debt that we have previously determined does not meet our investment standards.",
+   "The business carries $14.9 billion in debt and finance-lease obligations, creating meaningful risk during demand downturns.",
+   "Continuous, massive reinvestment in aircraft and infrastructure is required, which precludes the low-capital-intensity profile we seek."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at approximately 11.57 times adjusted earnings.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business carries $14.9 billion in debt and finance-lease obligations.",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We have reviewed Delta Air Lines and determined it does not meet our standards for inclusion in the Berkshire Hathaway portfolio [D01, D08].",
+ "grader_notes": "The agent missed the trade direction entirely, choosing to PASS while the actual decision was a BUY. Because the answer key provides no stated drivers for the actual purchase, reasoning overlap and discipline are not scorable, leading to a state of MISS.",
+ "run": "2026_dal_buy_q1__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

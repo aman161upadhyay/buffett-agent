@@ -1,0 +1,45 @@
+{
+  "id": "2026_stz_exit_q2",
+  "actual_decision": "SELL",
+  "conviction": "medium",
+  "conviction_basis": "Classification inferred from observed size/action; private conviction not observable.",
+  "size_pct_nav": "Q2 2026 residual 632,890 -> 0, complete exit. Prior March mark $94,933,500 = 0.0361% of Q1 13F equities; actual proceeds unknown.",
+  "first_action_date": "2026-Q2; exact first execution unknown",
+  "disclosure_date": "2026-08-14",
+  "reason_class": null,
+  "reason_class_status": "Unknown/unassigned; not inferred from price movement or generic prior comments.",
+  "opportunity_template": [
+    "B1"
+  ],
+  "opportunity_template_basis": "Analyst classification of case economics, not a verified manager label.",
+  "catalyst_role": "R0",
+  "decider": "unknown",
+  "size_basis": "equity portfolio",
+  "drivers": [],
+  "entry_valuation_stated": "No stated sale multiple or execution price. March 31 close $150.00, not proven proceeds.",
+  "outcome_note": "Q1 had already reduced 13,000,000 to 632,890 (-95.13%); Q2 removes the final 632,890. Do not label the whole 13m liquidation as a Q2 transaction.",
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054580/0001193125-26-054580.txt",
+      "date": "2026-02-17"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526226661/0001193125-26-226661.txt",
+      "date": "2026-05-15"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/0001193125-26-352200.txt",
+      "date": "2026-08-14"
+    }
+  ],
+  "pack_quality_notes": "No security-specific stated investor rationale or stock-picker attribution was verified. drivers=[] is intentional: a 13F proves a reported holding/share-count change, not a thesis. Do not invent 3-6 motives, assign S1/S3, or count plausible analyst inferences as own-words evidence. Direction/size replay only; reasoning overlap is NOT SCORABLE. The current generic grader treats n=0 as a vacuous match, so these cases must be excluded from reasoning-match percentages or manually labeled direction-only. The March cutoff public holding is still 13m from December, not the then-unreleased 632,890. Comparable annual EPS guidance was affirmed in January, not freshly cut.",
+  "quality_grade": "C",
+  "reasoning_scoring": "NOT SCORABLE: no stated drivers; direction-only",
+  "as_of_date": "2026-03-31",
+  "actual_action_window": "2026-Q2; exact execution day unknown",
+  "inferred_drivers_not_ground_truth": [
+    "Volume pressure and lower industry consumption can challenge the brand-growth thesis; unconfirmed investor reason.",
+    "Reinvestment and tariff costs can constrain cash returns; unconfirmed investor reason.",
+    "The final residual exit may reflect portfolio housekeeping, but this is not established."
+  ]
+}

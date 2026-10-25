@@ -1,0 +1,257 @@
+{
+ "pack": "2025_googl_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2025-09-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Alphabet's Services segment monetizes Search, YouTube, applications, devices and subscriptions, while its Cloud segment provides infrastructure and platform services [D01]. Advertising remains the primary revenue driver, supplemented by enterprise-focused cloud computing [D01].",
+   "products_customers_and_why_they_buy": [
+    "Search and advertising services for users and advertisers, relying on distribution breadth and user habits [D01].",
+    "Cloud infrastructure and platform tools for enterprise customers, characterized by longer sales cycles and physical-infrastructure requirements [D01]."
+   ],
+   "economics": [
+    "Operating margins are approximately 32.4% [D02].",
+    "Significant reinvestment is required, with annual capital spending increasing to approximately $85 billion [D01, D03].",
+    "Operating cash flow reached $133.708 billion, with $66.728 billion in free cash flow, though stock compensation is an economic cost [D02]."
+   ],
+   "earnings_record": [
+    "Second-quarter 2025 revenue was $96.428 billion (up 14%), with operating income of $31.271 billion and net income of $28.196 billion [D01, D02]."
+   ],
+   "competitive_position": [
+    "Dominant search position faces scrutiny regarding distribution advantages; AI adoption shifts requirements toward higher physical-infrastructure spending [D01, D05].",
+    "Competitors include Meta (advertising), Microsoft (Cloud/AI) and Amazon (computing/commerce) [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Strong liquidity position with $95.148 billion in cash and marketable securities against $23.607 billion in long-term debt [D01, D02].",
+    "Capital intensity is rising due to AI infrastructure needs [D02, D05]."
+   ],
+   "management_and_capital_allocation": [
+    "Sundar Pichai serves as CEO; management is aggressively scaling capital expenditure to approximately $85 billion annually [D01, D03].",
+    "Capital allocation focus includes maintaining search dominance while funding the cloud and AI transition [D01, D05]."
+   ],
+   "price_and_valuation": [
+    "Price: $243.10 (Class A, Sept 30) [D04].",
+    "Market capitalization: approximately $2.943 trillion [D04].",
+    "Trailing P/E: 26.31 (based on annualized quarterly EPS of $9.24) [D04].",
+    "Free cash flow yield: approximately 2.27% [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 3.8,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 2.27,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "Trailing earnings yield calculated as 1 / 26.31 [D04]; FCF yield based on $66.728B FCF and ~$2.943T market cap [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "AI substitution threatening search advertising surfaces [D05].",
+    "Rising data-center/infrastructure costs reducing returns [D05].",
+    "Regulatory/antitrust behavioral remedies restricting distribution [D05, D06]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "July 23: Q2 2025 results reported [D01].",
+    "Sept 2: Court-ordered search remedies published [D05].",
+    "Sept 10: Congressional Research Service analysis of remedies published [D05]."
+   ],
+   "berkshire_context": [
+    "No Alphabet position listed in Berkshire's June 30 13F [D08].",
+    "Berkshire maintains approximately $344.1 billion in cash/Treasury liquidity [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Independent AI query contribution margins, long-run search market share, normalized maintenance capital expenditure, and complete historical earnings multiples."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "Rapid technological change and the binary uncertainty of AI substitution for search advertising make the business model's 10-20 year outlook difficult to predict with confidence [D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While search remains a dominant franchise, regulatory scrutiny regarding distribution and the threat of AI disruption to core advertising surfaces cloud the durability of the moat [D01, D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "The company maintains a consistent record of high revenue and income growth, including $96.428 billion in revenue for Q2 2025 [D01, D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company carries a strong liquidity position with $95.148 billion in cash against only $23.607 billion in long-term debt [D01, D02]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "Annual capital spending is aggressively scaling to approximately $85 billion, reflecting a shift toward high physical-infrastructure requirements that burdens returns [D01, D02, D03]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "While capital is being allocated to strategic priorities, the aggressive $85 billion annual capital expenditure reflects a pivot to intense infrastructure investment rather than historical low-capital growth [D01, D03, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of $2.943 trillion, the business is of sufficient size to move the needle for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "The free cash flow yield of approximately 2.27% is insufficient relative to our requirement of an earnings yield significantly higher than the long bond yield [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 3,
+   "n_fail": 3,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a dominant search franchise currently facing high capital intensity and existential technological disruption"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is currently wrestling with legitimate concerns regarding long-term competitive durability and a fundamental shift toward high capital intensity, which pressures returns on capital. We do not see an identifiable margin of safety, as the current valuation does not compensate for the binary risks of AI substitution and regulatory intervention [D01, D05].",
+   "evidence": [
+    "Annual capital expenditures have surged to approximately $85 billion, significantly altering the company's historical capital-light profile [D01, D03].",
+    "Court-ordered search remedies create structural uncertainty regarding future distribution and advertising dominance [D05, D06].",
+    "The free cash flow yield of 2.27% is far below our requirements for a business facing significant technological transition [D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market appears to be pricing the stock as a stable, high-growth franchise despite clear evidence that the business is entering a period of massive, uncertain capital commitment and existential competitive threats [D01, D05].",
+   "what_must_be_true": [
+    "Search advertising remains resilient against AI-based alternatives.",
+    "Capital intensity stabilizes and generates a superior return on invested capital.",
+    "Regulatory remedies do not structurally impair core profitability."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "EPS of $9.24 adjusted for D&A and maintenance capex; maintenance capex is not explicitly provided in pack but implied high by $85B total spend [D01, D03, D04]",
+   "initial_pretax_yield_pct": 3.8,
+   "intrinsic_value_range": {
+    "low": "Not provided",
+    "high": "Not provided",
+    "key_assumptions": [
+     "Search advertising resilience",
+     "Stabilization of capital intensity",
+     "No structural impairment from antitrust remedies [D05]"
+    ],
+    "discount_rate_used": "Not provided in pack; long bond yield missing"
+   },
+   "price_vs_value": "Indeterminate; no margin of safety identified [D04]",
+   "expected_return_pct": {
+    "base": 2.27,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Berkshire's $344.1 billion in cash/Treasury liquidity [D08] provides superior risk-adjusted returns compared to a 2.27% FCF yield business facing existential regulatory and competitive transition risks [D04, D05].",
+   "downside_case": "Permanent impairment of competitive advantage and margin compression due to AI substitution and loss of distribution dominance; loss would be permanent if moat is breached [D05, D06].",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Long-term government bond rate is missing from the pack",
+    "Normalized maintenance capital expenditure is missing",
+    "Terminal growth rate and discount rate are assumptions not present in the pack"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital (default for marketable securities after 1980) [D01, D08]",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Not applicable; the investment is a PASS due to lack of margin of safety and existential uncertainty [D04, D05]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the current era, Berkshire utilizes its immense cash reserves to hold marketable securities as permanent passive investments only when they meet our strict criteria for durable competitive advantage and fair price [D04, D08]. Alphabet fails this threshold due to technological and regulatory risks combined with a high capital-intensive pivot [D01, D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Pricing power and search advertising dominance are eroded by AI-based competitive alternatives [D05].",
+    "Court-ordered structural or behavioral remedies permanently impair distribution advantage [D05, D06].",
+    "Capital intensity requirements continue to escalate, preventing the realization of superior returns on invested capital [D01, D05].",
+    "Management fails to maintain adequate margins while pivoting the cost base toward high physical-infrastructure needs [D01, D03]."
+   ],
+   "berkshire_constraints": "Berkshire must maintain a cash floor of at least $30 billion [D08]. Investment would be subject to potential tax on realized gains, though this is a PASS decision [D04].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Berkshire's $344.1 billion in cash and Treasury liquidity provides superior, risk-free returns compared to this business's 2.27% free cash flow yield [D04, D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business operates in an area of high technological and regulatory uncertainty that falls outside a clear, durable competitive moat for long-term holding.",
+   "biggest_risk_in_one_sentence": "The combination of existential competitive threats from AI and a pivot to heavy capital intensity creates an uncertain long-term earnings trajectory that lacks a margin of safety."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-09-30",
+  "company": "Alphabet (GOOGL)",
+  "ticker": "GOOGL",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "EPS of $9.24 adjusted for maintenance capex [D01, D03, D04]",
+   "initial_pretax_yield_pct": 3.8,
+   "intrinsic_value_range": "Not provided",
+   "expected_return_pct": 2.27,
+   "downside_case": "Permanent loss of competitive advantage due to AI substitution and regulatory remedies [D05, D06]"
+  },
+  "drivers": [
+   {
+    "driver": "The free cash flow yield of 2.27% is insufficient relative to our requirement of an earnings yield significantly higher than the long bond [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The business faces binary uncertainty regarding the impact of AI on its search advertising franchise, which makes the long-term outlook difficult to predict [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "Annual capital spending is scaling to approximately $85 billion, reflecting a shift to high-infrastructure requirements that burdens returns [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Regulatory scrutiny regarding distribution channels creates structural uncertainty for the company's core profitability [D05, D06].",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Pricing power and search advertising dominance are eroded by AI-based competitive alternatives [D05].",
+   "Court-ordered structural or behavioral remedies permanently impair distribution advantage [D05, D06].",
+   "Capital intensity requirements continue to escalate, preventing the realization of superior returns on invested capital [D01, D05].",
+   "Management fails to maintain adequate margins while pivoting the cost base toward high physical-infrastructure needs [D01, D03]."
+  ],
+  "what_would_change_our_mind": "A stabilization of capital intensity at levels that allow for superior returns on capital, combined with clear evidence that search advertising remains resilient against AI-based alternatives and that regulatory remedies do not structurally impair the business.",
+  "memo": "Alphabet is a company with a dominant position in search advertising that has historically generated high returns [D01, D02]. We understand the model of monetizing search through advertising, but we find the current outlook for the business over the next 10 to 20 years to be unusually difficult to predict with confidence [D01, D05].\n\nThe business is currently pivoting toward a massive, $85 billion annual capital expenditure program to address the challenges and opportunities posed by AI [D01, D03]. This shift into high physical-infrastructure requirements changes the historical capital-light profile of the company and threatens to pressure future returns on capital [D01, D02, D05].\n\nBeyond the capital requirements, the company faces existential threats from AI-based alternatives to search and significant uncertainty from court-ordered regulatory remedies [D05, D06]. A business with these structural risks requires a significant margin of safety, which is not present here [D04, D05].\n\nWe see a free cash flow yield of 2.27%, which fails to compensate us for the risks mentioned above [D04]. Our cash and Treasury holdings provide a more certain return than what we see here, and we prefer to wait for opportunities where the future is clearer and the price is compelling [D04, D08].",
+  "uncited_claims": []
+ }
+}

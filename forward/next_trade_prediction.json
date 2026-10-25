@@ -1,0 +1,716 @@
+{
+ "as_of_date": "2026-10-25",
+ "prompt_version": "v1.6+era_e_addendum",
+ "runs": {
+  "run1_overview": {
+   "as_of_date": "2026-10-25",
+   "market_stance": "SELECTIVE",
+   "expected_new_positions_next_90_days": 0.5,
+   "candidates": [
+    {
+     "rank": 1,
+     "company": "Itochu",
+     "ticker": "8001.T",
+     "action": "ADD",
+     "probability_90d": 0.6,
+     "template": "B7",
+     "decider": "Abel",
+     "trigger": "Publicly discussed interest in increasing stakes towards 15% [F06]",
+     "valuation": "7.48% pretax yield [F03]",
+     "size_pct_nav": 1,
+     "thesis_paragraph": "We have long admired the Japanese trading houses for their economic moats, sophisticated capital allocation, and global networks. Greg Abel's recent visit and the public commentary from Itochu's leadership confirm our intent to strengthen these durable, long-term relationships where valuation and opportunity allow. We are not bound by a fixed 10% ceiling and continue to view these holdings as comparable in importance to our core U.S. franchises [F02, F06].",
+     "what_would_confirm": "Form 4 or Japanese equivalent ownership filings"
+    },
+    {
+     "rank": 2,
+     "company": "Lennar",
+     "ticker": "LEN",
+     "action": "ADD",
+     "probability_90d": 0.5,
+     "template": "B2",
+     "decider": "Abel",
+     "trigger": "Ongoing accumulation strategy documented in September [F01]",
+     "valuation": "8.86% pretax yield [F03]",
+     "size_pct_nav": 1,
+     "thesis_paragraph": "Lennar's land-light housing platform provides us with scale and operational familiarity that fits well within our existing circle of competence. While mortgage affordability and housing cycles present macro headwinds, we remain focused on the business's long-term competitive position and the underlying demand for site-built homes. We continue to selectively increase our stake as management executes their model [F01, F03].",
+     "what_would_confirm": "Form 4 filings"
+    },
+    {
+     "rank": 3,
+     "company": "Bank of America",
+     "ticker": "BAC",
+     "action": "TRIM",
+     "probability_90d": 0.4,
+     "template": "B9",
+     "decider": "Abel",
+     "trigger": "Regulatory performance concerns and recent selling trend [F03]",
+     "valuation": "11.59% pretax yield [F03]",
+     "size_pct_nav": -1,
+     "thesis_paragraph": "While our deposit franchise investments remain significant, we are mindful of the evolving regulatory and operational environment. Recent quarterly earnings reports showing profit declines and regulatory penalties necessitate a cautious approach to our position size. When the facts regarding long-term economic prospects change, we do not hesitate to adjust our concentration accordingly [F02, F03].",
+     "what_would_confirm": "13F filings"
+    }
+   ],
+   "existing_position_changes": [
+    {
+     "company": "Apple",
+     "action": "HOLD",
+     "probability_90d": 0.8,
+     "reason_class": "S2",
+     "why": "Management reaffirmed the status of core holdings following H1 sales; no new instructions to exit [F02]."
+    }
+   ],
+   "uncited_claims": [],
+   "most_likely_single_action": {
+    "description": "Continued incremental purchases of Japanese trading houses following Abel's September visit.",
+    "probability_90d": 0.6
+   },
+   "scoring_plan": "Evaluate against Q3 2026 13F (due Nov 16) and Q4 2026 13F (due Feb 16). Additions in Lennar or Japan houses will be identified via Form 4s. Trims in BAC will be measured against the existing sell trend. Berkshire's 2026 annual letter will provide the final narrative on Abel's capital allocation approach."
+  },
+  "run2_existing_focus": {
+   "as_of_date": "2026-10-25",
+   "market_stance": "SELECTIVE",
+   "expected_new_positions_next_90_days": 1,
+   "candidates": [
+    {
+     "rank": 1,
+     "company": "Lennar Corporation",
+     "ticker": "LEN",
+     "action": "ADD",
+     "probability_90d": 0.8,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "continued housing market participation [F01]",
+     "valuation": "8.86% yield [F03]",
+     "size_pct_nav": 1,
+     "thesis_paragraph": "Lennar's land-light housing platform provides us with operating familiarity in a critical sector [F04]. Recent purchases demonstrate our confidence in the platform's ability to navigate mortgage rate fluctuations [F01].",
+     "what_would_confirm": "Form 4 filings"
+    },
+    {
+     "rank": 2,
+     "company": "Alphabet Inc.",
+     "ticker": "GOOGL",
+     "action": "HOLD",
+     "probability_90d": 0.2,
+     "template": "B1",
+     "decider": "Buffett",
+     "trigger": "long-term capital return potential [F02]",
+     "valuation": "7.63% yield [F03]",
+     "size_pct_nav": 12,
+     "thesis_paragraph": "Alphabet possesses a durable search and advertising franchise, though we remain mindful of the enormous capital commitments required for AI [F02]. We initiated this position to capture high returns on capital over an extended period [F01].",
+     "what_would_confirm": "13F-HR"
+    },
+    {
+     "rank": 3,
+     "company": "Apple Inc.",
+     "ticker": "AAPL",
+     "action": "HOLD",
+     "probability_90d": 0.1,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "installed base ecosystem strength [F02]",
+     "valuation": "3.08% yield [F03]",
+     "size_pct_nav": 22,
+     "thesis_paragraph": "Apple remains a favorite franchise with an unparalleled installed base and recurring service revenues [F02]. Our position has remained stable throughout 2026, and we continue to evaluate its long-term prospects [F01].",
+     "what_would_confirm": "13F-HR"
+    },
+    {
+     "rank": 4,
+     "company": "American Express",
+     "ticker": "AXP",
+     "action": "HOLD",
+     "probability_90d": 0.05,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "premium card relationships [F03]",
+     "valuation": "7.31% yield [F03]",
+     "size_pct_nav": 17,
+     "thesis_paragraph": "American Express maintains a powerful brand and distribution network within the payments industry. We view this as a concentrated core holding with sound economic prospects [F02].",
+     "what_would_confirm": "13F-HR"
+    },
+    {
+     "rank": 5,
+     "company": "Coca-Cola",
+     "ticker": "KO",
+     "action": "HOLD",
+     "probability_90d": 0.05,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "enduring global brand strength [F03]",
+     "valuation": "4.32% yield [F03]",
+     "size_pct_nav": 11,
+     "thesis_paragraph": "Coca-Cola's global distribution and repeat-purchase model exemplify the characteristics we seek in permanent holdings. We have no current intention to adjust this stake [F02].",
+     "what_would_confirm": "13F-HR"
+    },
+    {
+     "rank": 6,
+     "company": "Bank of America",
+     "ticker": "BAC",
+     "action": "TRIM",
+     "probability_90d": 0.5,
+     "template": "B7",
+     "decider": "Abel",
+     "trigger": "regulatory and operating execution worries [F03]",
+     "valuation": "11.59% yield [F03]",
+     "size_pct_nav": 9,
+     "thesis_paragraph": "While the deposit franchise is significant, recent regulatory penalties and earnings misses warrant caution [F03]. We have been trimming this position and will continue to monitor the bank's operational controls [F01].",
+     "what_would_confirm": "13F-HR"
+    },
+    {
+     "rank": 7,
+     "company": "Japanese Trading Houses",
+     "ticker": "Various",
+     "action": "ADD",
+     "probability_90d": 0.4,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "long-term economic moat [F06]",
+     "valuation": "7.12%-8.79% yields [F03]",
+     "size_pct_nav": 11,
+     "thesis_paragraph": "We view these trading houses as comparable to our major U.S. holdings in their capacity for capital allocation and global network utility [F02]. Discussions regarding potential increases in our stakes reflect our enduring confidence in these businesses [F06].",
+     "what_would_confirm": "Issuer announcements"
+    },
+    {
+     "rank": 8,
+     "company": "Chevron",
+     "ticker": "CVX",
+     "action": "HOLD",
+     "probability_90d": 0.1,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "scale and long-lived reserves [F03]",
+     "valuation": "6.70% yield [F03]",
+     "size_pct_nav": 5,
+     "thesis_paragraph": "Chevron provides critical energy scale and reserves. We manage this position based on long-term cyclical expectations rather than short-term commodity price volatility [F03].",
+     "what_would_confirm": "13F-HR"
+    },
+    {
+     "rank": 9,
+     "company": "Occidental Petroleum",
+     "ticker": "OXY",
+     "action": "HOLD",
+     "probability_90d": 0.05,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "resource portfolio integration [F02]",
+     "valuation": "8.89% yield [F03]",
+     "size_pct_nav": 4,
+     "thesis_paragraph": "Our investment in Occidental's common shares is separate from our OxyChem operational acquisition. We continue to hold this position based on its reserve profile and management [F02].",
+     "what_would_confirm": "13F-HR"
+    },
+    {
+     "rank": 10,
+     "company": "Chubb",
+     "ticker": "CB",
+     "action": "HOLD",
+     "probability_90d": 0.05,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "underwriting discipline [F03]",
+     "valuation": "10.15% yield [F03]",
+     "size_pct_nav": 4,
+     "thesis_paragraph": "Chubb is an exceptionally managed insurer with underwriting discipline that fits well within our portfolio. We remain satisfied with this holding [F01].",
+     "what_would_confirm": "13F-HR"
+    },
+    {
+     "rank": 11,
+     "company": "Moody's",
+     "ticker": "MCO",
+     "action": "HOLD",
+     "probability_90d": 0.05,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "essential financial infrastructure [F03]",
+     "valuation": "4.44% yield [F03]",
+     "size_pct_nav": 4,
+     "thesis_paragraph": "Moody's ratings and indices are embedded in the financial workflows of the global economy. It remains a high-quality, long-term business [F03].",
+     "what_would_confirm": "13F-HR"
+    },
+    {
+     "rank": 12,
+     "company": "Kraft Heinz",
+     "ticker": "KHC",
+     "action": "HOLD",
+     "probability_90d": 0.05,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "equity-method stability [F01]",
+     "valuation": "Not applicable",
+     "size_pct_nav": 3,
+     "thesis_paragraph": "We hold Kraft Heinz as an equity-method investment. Our focus remains on the long-term economic prospects of this core food business [F01].",
+     "what_would_confirm": "13F-HR"
+    }
+   ],
+   "existing_position_changes": [
+    {
+     "company": "Apple",
+     "action": "HOLD",
+     "probability_90d": 0.1,
+     "reason_class": "S1",
+     "why": "No verified economic change"
+    },
+    {
+     "company": "American Express",
+     "action": "HOLD",
+     "probability_90d": 0.05,
+     "reason_class": "S1",
+     "why": "Thesis intact"
+    },
+    {
+     "company": "Bank of America",
+     "action": "TRIM",
+     "probability_90d": 0.5,
+     "reason_class": "S2",
+     "why": "Regulatory and performance concerns"
+    },
+    {
+     "company": "Coca-Cola",
+     "action": "HOLD",
+     "probability_90d": 0.05,
+     "reason_class": "S1",
+     "why": "Thesis intact"
+    },
+    {
+     "company": "Chevron",
+     "action": "HOLD",
+     "probability_90d": 0.1,
+     "reason_class": "S1",
+     "why": "Thesis intact"
+    },
+    {
+     "company": "Occidental",
+     "action": "HOLD",
+     "probability_90d": 0.05,
+     "reason_class": "S1",
+     "why": "Thesis intact"
+    },
+    {
+     "company": "Moody's",
+     "action": "HOLD",
+     "probability_90d": 0.05,
+     "reason_class": "S1",
+     "why": "Thesis intact"
+    },
+    {
+     "company": "Chubb",
+     "action": "HOLD",
+     "probability_90d": 0.05,
+     "reason_class": "S1",
+     "why": "Thesis intact"
+    },
+    {
+     "company": "Kraft Heinz",
+     "action": "HOLD",
+     "probability_90d": 0.05,
+     "reason_class": "S1",
+     "why": "Thesis intact"
+    },
+    {
+     "company": "Japanese Trading Houses",
+     "action": "ADD",
+     "probability_90d": 0.4,
+     "reason_class": "S1",
+     "why": "Long-term allocation opportunity"
+    },
+    {
+     "company": "Alphabet",
+     "action": "HOLD",
+     "probability_90d": 0.2,
+     "reason_class": "S1",
+     "why": "Thesis intact"
+    },
+    {
+     "company": "UnitedHealth",
+     "action": "HOLD",
+     "probability_90d": 0,
+     "reason_class": "S5",
+     "why": "Exited Q1"
+    },
+    {
+     "company": "Lennar",
+     "action": "ADD",
+     "probability_90d": 0.8,
+     "reason_class": "S1",
+     "why": "Continued accumulation signal"
+    }
+   ],
+   "uncited_claims": [],
+   "most_likely_single_action": {
+    "description": "Continued trimming of Bank of America and potential modest additions to Japanese trading houses",
+    "probability_90d": 0.6
+   },
+   "scoring_plan": "Evaluate against Q3 13F (mid-Nov) and Q4 13F (mid-Feb). Actions are scored by whether a filing confirms the direction of the change (e.g., net shares reduced for BAC, increased for LEN/Japan). Accuracy of probability_90d will be assessed based on whether the expected disclosure occurs within the designated timeframe."
+  },
+  "run3_new_names": {
+   "as_of_date": "2026-10-25",
+   "market_stance": "SELECTIVE",
+   "expected_new_positions_next_90_days": 1,
+   "candidates": [
+    {
+     "rank": 1,
+     "company": "JPMorgan Chase & Co.",
+     "ticker": "JPM",
+     "action": "NEW_BUY",
+     "probability_90d": 0.4,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "Strong earnings yield [F03] and historical leadership status",
+     "valuation": "9.69% pretax yield [F03]",
+     "size_pct_nav": 2,
+     "thesis_paragraph": "JPMorgan possesses an enduring banking franchise with scale and consistent earnings power that fits our requirements for a business we understand [F03]. At a 9.69% pretax earnings yield, it offers a margin of safety while we continue to evaluate the long-term credit and regulatory environment [F03].",
+     "what_would_confirm": "SEC 13F filing"
+    },
+    {
+     "rank": 2,
+     "company": "Adobe Inc.",
+     "ticker": "ADBE",
+     "action": "NEW_BUY",
+     "probability_90d": 0.2,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "High earnings yield [F03] despite temporary AI-related market concern",
+     "valuation": "9.04% pretax yield [F03]",
+     "size_pct_nav": 1,
+     "thesis_paragraph": "Adobe maintains a dominant position in creative and document workflows, providing a moat that we believe can withstand technological shifts [F03, F04]. The current valuation, driven by concerns over capital-intensive AI competition, provides an entry point that meets our long-term return objectives [F03, F04].",
+     "what_would_confirm": "SEC 13F filing"
+    },
+    {
+     "rank": 3,
+     "company": "PepsiCo, Inc.",
+     "ticker": "PEP",
+     "action": "NEW_BUY",
+     "probability_90d": 0.2,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "Strong franchise brands [F03] and temporary volume cloud",
+     "valuation": "7.42% pretax yield [F03]",
+     "size_pct_nav": 1,
+     "thesis_paragraph": "PepsiCo is a wonderful consumer franchise with vast distribution power that we have long admired [F03]. While North American volumes face near-term headwinds, we believe the brand's pricing power and global reach remain durable economic assets [F03, F04].",
+     "what_would_confirm": "SEC 13F filing"
+    },
+    {
+     "rank": 4,
+     "company": "Visa",
+     "ticker": "V",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "Filter 1 fail: 3.60% pretax yield is insufficient [F03]",
+     "valuation": "3.60% pretax yield [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "Visa is a fine business, but the current price does not meet our required margin of safety or earnings yield [F03].",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 5,
+     "company": "Mastercard",
+     "ticker": "MA",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "Filter 1 fail: 3.69% pretax yield is insufficient [F03]",
+     "valuation": "3.69% pretax yield [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "While Mastercard is a proven network franchise, its current market valuation does not offer the pretax earnings yield we demand [F03].",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 6,
+     "company": "Procter & Gamble",
+     "ticker": "PG",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "Filter 1 fail: 5.45% pretax yield is inadequate for current risk [F03]",
+     "valuation": "5.45% pretax yield [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "Procter & Gamble is a classic consumer staple, but it is currently priced at a level that does not provide an attractive initial earnings yield [F03].",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 7,
+     "company": "Costco",
+     "ticker": "COST",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "Filter 1 fail: 2.76% pretax yield is insufficient [F03]",
+     "valuation": "2.76% pretax yield [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "We admire Costco's business model, but its current stock price reflects little margin of safety relative to its earnings yield [F03].",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 8,
+     "company": "McDonald's",
+     "ticker": "MCD",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "Filter 1 fail: 6.36% pretax yield does not compensate for traffic risks [F03]",
+     "valuation": "6.36% pretax yield [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "McDonald's is a powerful franchisor, but current consumer headwinds and valuation do not meet our threshold for a bargain [F03, F04].",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 9,
+     "company": "Deere",
+     "ticker": "DE",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "Filter 1 fail: 3.71% pretax yield is inadequate [F03]",
+     "valuation": "3.71% pretax yield [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "Deere is a high-quality manufacturer, but the current earnings yield is too low given the cyclical nature of the farm equipment industry [F03].",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 10,
+     "company": "Union Pacific",
+     "ticker": "UNP",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "Filter 3 fail: Regulatory and consolidation policy opposition [F02, F03]",
+     "valuation": "5.70% pretax yield [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "We own BNSF and have clearly stated we are not interested in acquiring another Class I railroad; therefore, we pass on Union Pacific [F02].",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 11,
+     "company": "Duke Energy",
+     "ticker": "DUK",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "Filter 1 fail: 6.35% pretax yield and debt requirements [F03]",
+     "valuation": "6.35% pretax yield [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "Duke is a regulated utility, but it does not provide the asset-light franchise economics or the initial earnings yield we typically seek [F03].",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 12,
+     "company": "Canadian Pacific Kansas City",
+     "ticker": "CP",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "B1",
+     "decider": "Abel",
+     "trigger": "Filter 3 fail: Regulatory/consolidation policy [F02, F03]",
+     "valuation": "4.61% pretax yield [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "Consistent with our stance against acquiring additional Class I railroads, we pass on Canadian Pacific [F02].",
+     "what_would_confirm": "N/A"
+    }
+   ],
+   "existing_position_changes": [
+    {
+     "company": "Bank of America",
+     "action": "TRIM",
+     "probability_90d": 0.7,
+     "reason_class": "S5",
+     "why": "Continuing the trend of reducing concentration in the banking sector amid regulatory and operational scrutiny [F01, F03]."
+    },
+    {
+     "company": "Apple",
+     "action": "HOLD",
+     "probability_90d": 0.9,
+     "reason_class": "S1",
+     "why": "Management remains positive on the franchise; sales have stabilized and there is no active directive to exit [F01, F02]."
+    },
+    {
+     "company": "Japanese Trading Houses",
+     "action": "ADD",
+     "probability_90d": 0.5,
+     "reason_class": "S1",
+     "why": "Long-term affinity and potential for opportunistic increases within the relaxed 10% ceiling [F02, F06]."
+    },
+    {
+     "company": "Lennar",
+     "action": "ADD",
+     "probability_90d": 0.6,
+     "reason_class": "S1",
+     "why": "Active accumulation signal based on recent SEC filings and market housing dynamics [F01, F03]."
+    },
+    {
+     "company": "Alphabet",
+     "action": "HOLD",
+     "probability_90d": 0.8,
+     "reason_class": "S1",
+     "why": "Core position initiated by Buffett; holding to monitor capital-intensive AI developments [F01, F02]."
+    },
+    {
+     "company": "UnitedHealth",
+     "action": "SELL",
+     "probability_90d": 0,
+     "reason_class": "S2",
+     "why": "Exited in Q1 2026; no longer a Berkshire position [F01]."
+    },
+    {
+     "company": "Occidental",
+     "action": "HOLD",
+     "probability_90d": 0.7,
+     "reason_class": "S1",
+     "why": "Core energy holding; management focus on integration rather than further common equity accumulation [F01, F02]."
+    }
+   ],
+   "uncited_claims": [],
+   "most_likely_single_action": {
+    "description": "Additional purchases of Lennar common stock",
+    "probability_90d": 0.7
+   },
+   "scoring_plan": "We will score this against the Q3-2026 13F (due mid-November 2026) and Q4-2026 13F (due mid-February 2027), tracking new equity purchases, trims of existing names like BAC, and any 8-Ks documenting corporate activity. We will specifically observe if JPM or ADBE appear as new positions, while checking for the expected continuation of Lennar accumulation."
+  },
+  "run4_remaining_names_and_deals": {
+   "as_of_date": "2026-10-25",
+   "market_stance": "HOLD_CASH",
+   "expected_new_positions_next_90_days": 0.5,
+   "candidates": [
+    {
+     "rank": 1,
+     "company": "S&P Global",
+     "ticker": "SPGI",
+     "action": "NEW_BUY",
+     "probability_90d": 0.2,
+     "template": "B1",
+     "decider": "Buffett",
+     "trigger": "Franchise quality and durability [F03]",
+     "valuation": "5.18% earnings yield [F03]",
+     "size_pct_nav": 1,
+     "thesis_paragraph": "S&P Global occupies an indispensable position in global capital markets, benefiting from the same powerful network effects and workflow integration that define our existing investments in Moody's. While the current earnings yield is modest compared to risk-free rates, the business possesses a rare moat and pricing power that we have long admired for its durability.",
+     "what_would_confirm": "Form 13F filing"
+    },
+    {
+     "rank": 2,
+     "company": "PayPal",
+     "ticker": "PYPL",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "B1",
+     "decider": "Buffett",
+     "trigger": "Filter 1 (Competitive Advantage)",
+     "valuation": "12.01% earnings yield [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "While the company trades at an attractive earnings yield, the recurring competitive pressure from network rivals and evolving payment technologies makes the long-term sustainability of its moat difficult to project with the certainty we require.",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 3,
+     "company": "Mondelez",
+     "ticker": "MDLZ",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "B1",
+     "decider": "Buffett",
+     "trigger": "Filter 1 (Competitive Advantage/Pricing Power)",
+     "valuation": "5.55% earnings yield [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "The food sector faces ongoing challenges from private label encroachment and volume elasticity that dampen our confidence in long-term pricing power for this specific franchise at current valuation levels.",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 4,
+     "company": "Target",
+     "ticker": "TGT",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "B1",
+     "decider": "Buffett",
+     "trigger": "Filter 1 (Durable Competitive Advantage)",
+     "valuation": "8.16% earnings yield [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "Retail remains a brutal business. Despite Target's effective distribution and store network, it lacks the permanent, unassailable competitive advantage necessary for a core Berkshire position.",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 5,
+     "company": "Nike",
+     "ticker": "NKE",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "B1",
+     "decider": "Buffett",
+     "trigger": "Filter 1 (Durable Competitive Advantage)",
+     "valuation": "7.04% earnings yield [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "Nike is currently navigating a difficult turnaround, and the erosion of its market position due to changing consumer preferences suggests its moat is not as durable as we require.",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 6,
+     "company": "Lululemon",
+     "ticker": "LULU",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "B1",
+     "decider": "Buffett",
+     "trigger": "Filter 1 (Scale/Needle-mover)",
+     "valuation": "18.34% earnings yield [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "While the earnings yield is high, the market capitalization is insufficient to move the needle for Berkshire, and the premium apparel market is subject to fashion cycles that risk permanent capital loss.",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 7,
+     "company": "Industrial Components Platform",
+     "ticker": "N/A",
+     "action": "ACQUIRE",
+     "probability_90d": 0.1,
+     "template": "B4",
+     "decider": "Abel",
+     "trigger": "Owner-operator succession needs [F04]",
+     "valuation": "N/A",
+     "size_pct_nav": 2,
+     "thesis_paragraph": "We remain interested in acquiring high-quality, family-owned industrial platforms where management seeks the permanence Berkshire offers. We look for businesses with strong market positions and honest managers who will continue to run the operation as if they own it, without the pressure of an auction environment.",
+     "what_would_confirm": "8-K filing"
+    },
+    {
+     "rank": 8,
+     "company": "Regulated Infrastructure",
+     "ticker": "N/A",
+     "action": "ACQUIRE",
+     "probability_90d": 0.05,
+     "template": "B3",
+     "decider": "Abel",
+     "trigger": "Stable regulatory compact/capital demand [F04]",
+     "valuation": "N/A",
+     "size_pct_nav": 3,
+     "thesis_paragraph": "Our focus in regulated infrastructure is on businesses that offer durable, long-duration returns supported by a clear regulatory compact. We are prepared to deploy significant capital for the right utility or infrastructure asset if the economics are balanced and the regulatory environment remains functional.",
+     "what_would_confirm": "8-K filing"
+    },
+    {
+     "rank": 9,
+     "company": "Distressed Industrial/Financial",
+     "ticker": "N/A",
+     "action": "PREFERRED",
+     "probability_90d": 0.05,
+     "template": "B3",
+     "decider": "Abel",
+     "trigger": "Liquidity event/crisis financing [F04]",
+     "valuation": "8-10% coupon",
+     "size_pct_nav": 2,
+     "thesis_paragraph": "Should a high-quality business encounter a temporary liquidity squeeze, we are positioned to act as a lender of last resort. We require senior terms, a coupon in the 8-10% range, and equity warrants to provide a margin of safety appropriate for Berkshire's reputation.",
+     "what_would_confirm": "8-K filing"
+    }
+   ],
+   "existing_position_changes": [],
+   "uncited_claims": [],
+   "most_likely_single_action": {
+    "description": "Continued opportunistic T-bill accumulation and internal capital allocation to existing subsidiaries.",
+    "probability_90d": 0.7
+   },
+   "scoring_plan": "We will score this against subsequent 13F-HR filings (Q3 due Nov 16, Q4 due Feb 16), 8-Ks documenting material acquisitions, and the 2026 annual letter. Performance is assessed based on whether equity purchases remain restricted to high-conviction, understandable franchises and whether Abel's capital allocation follows the established criteria for permanence and intrinsic value."
+  }
+ }
+}

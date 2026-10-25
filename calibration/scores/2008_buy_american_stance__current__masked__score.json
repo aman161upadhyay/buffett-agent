@@ -1,0 +1,46 @@
+{
+ "trade_id": "2008_buy_american_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Fear created attractive long-term prices for sound American businesses. → Economic fear is extreme, creating the conditions to be 'greedy when others are fearful' while avoiding distressed or leveraged entities that risk permanent loss of capital [D05].",
+   "A bad near-term economy does not identify the market's turning point. → We are not predicting an economic recovery or a market bottom; we are simply observing that the prices of many wonderful businesses are now detached from their intrinsic value [D01][D03].",
+   "Cash equivalents protect nominal balances but risk purchasing power over time. → Long-term ownership of productive businesses remains the superior path to wealth compared to the nominal claims of government instruments [D01]."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The normalized earnings yield of equities significantly exceeds the long-bond yield, presenting a superior risk-adjusted return profile [D02][D04]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "VIX at 67.61",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "September nonfarm payroll change of -159,000",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 7,
+  "share": 0.88
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are not predicting an economic recovery or a market bottom; we are simply observing that the prices of many wonderful businesses are now detached from their intrinsic value [D01][D03].",
+ "grader_notes": "The agent correctly matched the investment stance and the core behavioral philosophy (being greedy when fearful). The reasoning overlap is high as the agent captured the three primary drivers from the answer key while maintaining a focus on long-term ownership over short-term market timing.",
+ "run": "2008_buy_american_stance__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY_BROADLY",
+ "agent_decision": "BUY_BROADLY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

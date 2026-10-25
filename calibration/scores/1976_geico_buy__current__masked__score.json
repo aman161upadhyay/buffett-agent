@@ -1,0 +1,62 @@
+{
+ "trade_id": "1976_geico_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "The fundamental direct-distribution business advantage remained intact beneath the financial and operating troubles. → We have long understood the economics of this business, which relies on a permanent structural expense advantage rather than the expensive distribution networks used by most competitors.",
+   "The exceptional manager and exceptional franchise made this a rare turnaround worth attempting. → In May 1976, the company appointed Jack Byrne as CEO to lead a massive rehabilitation."
+  ],
+  "missed": [
+   "Minority securities offered earning power far below the cost of acquiring equivalent controlled operations."
+  ],
+  "extra_agent_drivers": [
+   "The market is currently paralyzed by the fear of imminent insolvency, providing an opportunity for Berkshire to act as a source of stability for a franchise that remains inherently sound."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "GEICO possesses a durable structural expense advantage from its direct-to-consumer distribution model.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The arrival of Jack Byrne provides the necessary management change to enforce underwriting discipline.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market is currently paralyzed by the fear of imminent insolvency.",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "At a market price of $3.50, we are buying a stake in a recovery that will be worth substantially more than the current $2.08 book value.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "A premium-to-surplus ratio of 13.40:1.",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 7,
+  "share": 0.54
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We trust that an owner-minded manager with a clear mandate for underwriting discipline and rate adequacy can restore the profitability that this franchise previously demonstrated.",
+ "grader_notes": "The agent correctly identified the core business advantage and the impact of the new management team, which align closely with Buffett's later assessment. However, the agent's sizing (10% of partnership) is significantly lower than Buffett's high conviction allocation (half of the eventual $47 million aggregate cost in the first year), and the agent missed the specific driver regarding the valuation discrepancy of minority securities.",
+ "run": "1976_geico_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

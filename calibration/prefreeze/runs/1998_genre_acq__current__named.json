@@ -1,0 +1,261 @@
+{
+ "pack": "1998_genre_acq",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "1998-06-19",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "General Re is a major reinsurer providing risk capacity to insurers in the United States and internationally, including interests in Cologne Re [D01]. Its business combines underwriting with a large invested-asset pool and includes a financial-products operation with exposures differing from traditional property-casualty reinsurance [D01].",
+   "products_customers_and_why_they_buy": [
+    "Provides risk capacity to other insurers [D01].",
+    "Product includes traditional property-casualty reinsurance and financial-products/derivatives [D01, D05].",
+    "Repeat-purchase/loyalty evidence: Reinsurance relationships can appear entrenched but may disappear if customers find better service or lower prices elsewhere [D01]."
+   ],
+   "economics": [
+    "Investment balance is only valuable if underwriting cost is acceptable; inadequate pricing or underestimated reserves can create non-existent reported profits [D01].",
+    "Combined ratios: 100.5% (1996) and 100.6% (1997) [D02].",
+    "Operating ROE: 15.4% (1993), 14.5% (1994), 16.5% (1995), 16.2% (1996), 16.9% (1997) [D02].",
+    "Capital intensity: Highly capital-intensive; regulatory capital and claims-paying ability constrain investment in equities or distributions to owners [D01, D06]."
+   ],
+   "earnings_record": [
+    "Net Income (USD millions): 711 (1993), 665 (1994), 825 (1995), 894 (1996), 968 (1997) [D02].",
+    "Cyclicality: Underwriting performance is subject to industry cycles; international premium growth reflected consolidation [D06]."
+   ],
+   "competitive_position": [
+    "Major reinsurer, not a new venture [D03].",
+    "Durable competitive advantage is not guaranteed; a recognizable name is not sufficient evidence of an economic franchise [D01].",
+    "Competes on price, expertise, reliability, and financial strength [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Invested insurance assets: $24,576 million (1997) [D02].",
+    "Long-term debt: $285 million (1997) [D02].",
+    "Float/Obligations: Premiums received before claims are paid create investment funds but also carry future obligations [D02, D08]."
+   ],
+   "management_and_capital_allocation": [
+    "CEO: Ron Ferguson [D01].",
+    "Record: Maintained high operating ROE in recent years [D06].",
+    "Capital allocation: Utilizes float from reinsurance operations for investment [D01]."
+   ],
+   "price_and_valuation": [
+    "Proposed consideration: $276.50 per share based on announcement terms [D04].",
+    "P/E ratio: 22.57x (TTM) [D04].",
+    "Price/Book: 2.53x [D04].",
+    "Earnings yield: 4.43% [D04].",
+    "10-year Treasury: 5.47% [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Reserve estimates may be insufficient and underpricing may surface slowly [D05].",
+    "Financial-products book introduces valuation and liquidity risks [D05].",
+    "International subsidiaries add currency, legal, and counterparty complexity [D05]."
+   ],
+   "deal_terms_if_any": [
+    "All-stock transaction valued at approximately $22 billion [D02, D09].",
+    "Exchange ratio: 0.0035 Berkshire Class A shares or 0.105 Class B shares for each General Re share [D02, D09]."
+   ],
+   "recent_events": [
+    "June 19, 1998: Announcement of proposed merger with Berkshire Hathaway [D01, D07].",
+    "May 15, 1998: Filing of Q1 10-Q [D03]."
+   ],
+   "berkshire_context": [
+    "Proposed acquisition is a whole-company purchase through Berkshire stock [D01].",
+    "Berkshire has significant existing stock portfolio, though not cash for merger [D08].",
+    "The idea of an internal comparison is noted, though Berkshire's own insurance lines/capital needs differ [D06]."
+   ],
+   "document_conflicts": [
+    "None identified."
+   ],
+   "missing_data": [
+    "Fully reconciled latest loss-reserve schedule [D02, D09].",
+    "Current derivatives-exposure reconciliation [D03].",
+    "Clean stand-alone owner-earnings multiple [D04].",
+    "Consistent three-peer market-multiple grid [D04, D06]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The business is a major, long-established reinsurer whose core function of providing risk capacity is well-understood, despite risks inherent in the financial products book [D01, D03, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "As a major player with high financial strength, it possesses the necessary scale and capital to compete effectively in reinsurance, even if the advantage is not guaranteed [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Net income has grown consistently from $711 million in 1993 to $968 million in 1997 [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company has maintained strong operating ROE in the 14.5% to 16.9% range with very low long-term debt relative to its invested asset base [D02, D06]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is highly capital-intensive and regulatory requirements constrain the deployment of its capital [D01, D06]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Management has successfully maintained high operating returns and effective float utilization [D06]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The $22 billion transaction size is clearly meaningful for Berkshire Hathaway [D02, D09]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "The earnings yield of 4.43% is significantly below the 1.5x long-term bond yield benchmark (approx. 8.2%) and lower than the 5.47% 10-year Treasury yield [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 2,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a high-quality, capital-intensive reinsurance franchise with strong underwriting records but limited pricing protection at the current valuation"
+  },
+  "gate2": {
+   "templates": [
+    "B4"
+   ],
+   "why_available": "The market views this as a standard corporate merger at a premium to book value, rather than a bargain opportunity. We see the value in acquiring a massive, high-quality float generator that fits perfectly into the Berkshire model of permanent capital, despite the immediate earnings yield appearing high relative to our typical valuation targets [D01, D08].",
+   "evidence": [
+    "Proposed all-stock merger valued at approximately $22 billion [D02, D09]",
+    "General Re possesses a large, durable pool of investable float [D01, D02]",
+    "Consistent operating ROE exceeding 14% over the last five years [D02]"
+   ],
+   "market_narrative_we_disagree_with": "The market focuses on the short-term earnings yield of 4.43% and the potential volatility within the financial-products book [D04, D05].",
+   "what_must_be_true": [
+    "Reserve estimates for claims must be conservative and accurate",
+    "The financial-products book must not contain hidden, catastrophic tail risk",
+    "The combined entity must maintain its underwriting discipline to ensure the cost of float remains low over the long term"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "Not strictly applicable due to insurer float model; 1997 net income $968M [D02] / 78.4M shares = $12.35 EPS [D04]",
+   "initial_pretax_yield_pct": 4.43,
+   "intrinsic_value_range": {
+    "low": "Book value $109.11/share [D04] plus franchise value of float",
+    "high": "Estimated value of recurring float generation and underwriting power",
+    "key_assumptions": [
+     "Float grows at or above long bond rate [D01]",
+     "Underwriting remains break-even or better [D01]",
+     "Reserve adequacy is maintained [D05]"
+    ],
+    "discount_rate_used": "5.47% [D04]"
+   },
+   "price_vs_value": "Price 2.53x book [D04]; justified if float exceeds 2.5x book in value and underwriting risk is managed",
+   "expected_return_pct": {
+    "base": 10,
+    "bear": 5,
+    "bull": 14
+   },
+   "alternatives": "Existing stock portfolio or T-bills; this deal provides unique permanent float which Berkshire can deploy at higher rates than Gen Re [D01, D08]",
+   "downside_case": "Overestimation of reserve adequacy leading to capital impairment; permanent loss if underwriting discipline fails [D01, D05]",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Assumed float value equals face value for long-term holders",
+    "Assumed Berkshire stock used as currency is undervalued at exchange time"
+   ]
+  },
+  "gate4": {
+   "role": "R3",
+   "role_description": "We are acquiring General Re as a whole company, leaving management in place to continue their underwriting discipline while redirecting their significant float to Omaha for more effective capital allocation [D01, D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Acquisition of high-quality, durable insurance float [D01]",
+    "Improved capital deployment of Gen Re's assets through Berkshire's investment expertise [D01, D08]",
+    "Synergistic underwriting integration over the long term [D01]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 1980-1999 era, we focus on purchasing whole companies at scale to secure reliable long-term insurance float, which serves as a vital engine for Berkshire's compounding [D01, D02]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Underwriting discipline fails, leading to recurring underwriting losses and expensive float",
+    "Reserve estimates prove significantly inadequate, leading to capital impairment",
+    "Financial-products book contains hidden, catastrophic tail risk",
+    "Management expands outside of reinsurance and core insurance-related competencies"
+   ],
+   "berkshire_constraints": "The acquisition is a $22 billion whole-company merger using Berkshire stock, which must not compromise our reputation for financial strength or prudent underwriting [D01, D02, D09].",
+   "size_pct_nav": {
+    "initial": 100,
+    "target": 100,
+    "max": 100,
+    "basis": "whole company acquisition"
+   },
+   "opportunity_cost": "Comparison with alternative deployments of capital into the equity market or internal growth; however, this deal provides permanent access to General Re's massive, high-quality float that cannot be replicated through simple stock purchases [D01, D08].",
+   "leverage": "None beyond the implicit leverage associated with insurance float and minor long-term debt [D02].",
+   "decider": "Buffett",
+   "decider_reason": "This is a major, negotiated whole-company acquisition of a significant insurance franchise that fits perfectly within Berkshire's circle of competence and capital-allocation strategy.",
+   "biggest_risk_in_one_sentence": "The primary risk is a latent, large-scale misestimation of loss reserves or an unforeseen disaster in the financial-products book that could impair capital and reputation."
+  }
+ },
+ "final": {
+  "as_of_date": "1998-06-19",
+  "company": "General Re Corporation",
+  "ticker": "GRN",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 100,
+  "size_basis": "whole company acquisition",
+  "opportunity_template": [
+   "B4"
+  ],
+  "catalyst_role": "R3",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "$12.35 EPS (1997)",
+   "initial_pretax_yield_pct": 4.43,
+   "intrinsic_value_range": "Book value of $109.11/share plus the capitalized value of durable, low-cost insurance float.",
+   "expected_return_pct": 10,
+   "downside_case": "Significant underestimation of loss reserves or catastrophic failure in the financial-products book leading to capital impairment."
+  },
+  "drivers": [
+   {
+    "driver": "The acquisition offers a permanent, massive pool of insurance float that far exceeds our ability to replicate in the open market, providing the fundamental engine for Berkshire’s long-term compounding [D01, D08].",
+    "citations": [
+     "D01",
+     "D08"
+    ]
+   },
+   {
+    "driver": "General Re is a premier global reinsurer with an excellent record of underwriting discipline and operating ROEs consistently between 14.5% and 16.9% [D02, D06].",
+    "citations": [
+     "D02",
+     "D06"
+    ]
+   },
+   {
+    "driver": "By acquiring the entire business, we gain the ability to redirect the massive investable asset base into our own superior investment allocation strategy, creating value beyond the standalone reinsurance entity [D01, D08].",
+    "citations": [
+     "D01",
+     "D08"
+    ]
+   },
+   {
+    "driver": "Management has proven its ability to operate effectively within a capital-intensive industry while maintaining a balance sheet with very little long-term debt [D02, D06].",
+    "citations": [
+     "D02",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Underwriting discipline fails, leading to recurring underwriting losses and expensive float",
+   "Reserve estimates prove significantly inadequate, leading to capital impairment",
+   "Financial-products book contains hidden, catastrophic tail risk",
+   "Management expands outside of reinsurance and core insurance-related competencies"
+  ],
+  "what_would_change_our_mind": "Evidence that General Re's loss reserves are fundamentally inadequate or that the financial-products book contains hidden risks that threaten the permanence of their float.",
+  "memo": "Charlie and I have long admired General Re, and we are pleased to welcome them into the Berkshire family. This business is a giant in the reinsurance industry, providing the essential risk capacity that global insurers rely upon to operate [D01, D03]. We understand this industry well, and in General Re, we see a company that has built a formidable reputation for financial strength and underwriting expertise [D01, D06].\n\nGeneral Re has delivered a stellar record, with operating returns on equity consistently in the 14.5% to 16.9% range over the past five years [D02, D06]. Their business is highly capital-intensive, which is exactly why they have maintained such a disciplined balance sheet with very little long-term debt [D02, D06]. By combining this operational excellence with our own investment approach, we believe we can utilize their massive float far more effectively than it has been in the past [D01, D08].\n\nThe market currently views this transaction through the narrow lens of short-term earnings multiples and a 4.43% earnings yield [D04, D05]. What the market misses is that we are not buying a simple stream of quarterly earnings; we are acquiring a permanent source of low-cost capital [D01, D08]. The price we are paying, at 2.53 times book value, is fair when one considers the durable, long-term value of the float this franchise generates [D04].\n\nWe recognize the risks: reinsurance is a cyclical business, and the financial-products book requires constant vigilance [D01, D05, D06]. We are not looking for a quick turnaround; we are looking for a business that we can hold indefinitely [D01, D04]. Our commitment to General Re is absolute, provided their underwriting discipline remains as sharp as it has been throughout their history [D01, D05].",
+  "uncited_claims": []
+ }
+}

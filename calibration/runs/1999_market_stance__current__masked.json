@@ -1,0 +1,58 @@
+{
+ "pack": "1999_market_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "1999-11-22",
+ "stages": {},
+ "final": {
+  "as_of_date": "1999-11-22",
+  "trailing_earnings_yield_pct": 3.49,
+  "normalised_earnings_yield_pct": 3.49,
+  "normalisation_basis": "trailing (no distortion) [D04]",
+  "long_bond_yield_pct": 6.09,
+  "spread_points": "-2.60",
+  "drawdown_from_high_pct": 0,
+  "panic_indicators": [],
+  "rule_decision": "HOLD_CASH",
+  "decision": "HOLD_CASH",
+  "override_reason": null,
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "The earnings yield of 3.49% is significantly below the 6.09% yield on 10-year Treasury bonds, resulting in a negative spread of 2.60 percentage points [D04].",
+  "valuation_level": "Prices are extreme relative to corporate earnings and interest rates, creating a demanding hurdle for future equity returns [D04].",
+  "ideas_that_qualify": [
+   "None identified; the market environment reflects high expectations that are difficult to justify against current business economics [D03, D04]"
+  ],
+  "berkshire_action": "Maintain liquidity, focus on existing high-quality franchises, and avoid purchasing overpriced securities.",
+  "drivers": [
+   {
+    "driver": "The earnings yield on equities is substantially lower than the risk-free long-term government bond yield [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Current market prices discount significant future success, leaving little margin of safety for investors [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "Investor expectations for annual returns are historically high, suggesting irrational exuberance rather than underlying business reality [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Cash serves as a superior alternative to deploying capital into overpriced securities where the opportunity cost is high [D01, D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   }
+  ],
+  "memo": "Charlie and I find the current investment landscape exceptionally challenging. When we compare the earnings yield of the market—a meager 3.49%—against the 6.09% available from a risk-free 10-year Treasury, the math simply does not work in favor of the equity investor [D04]. We are not in the business of forecasting market swings, but we are in the business of demanding a margin of safety, which is currently non-existent at these valuations [D04, D05].\n\nRecent sentiment suggests that many participants expect double-digit returns to continue indefinitely [D03]. History, however, teaches us that profitability cannot outpace the economy forever, and a recognizable name is not a substitute for an economic franchise [D01, D05]. We prefer to hold cash and wait for the inevitable moment when Mr. Market becomes discouraged and offers us wonderful businesses at sensible prices, rather than chasing growth that may not be supported by durable cash generation [D04, D08].",
+  "uncited_claims": []
+ }
+}

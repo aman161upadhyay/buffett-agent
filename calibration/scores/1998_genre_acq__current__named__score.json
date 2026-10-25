@@ -1,0 +1,47 @@
+{
+ "trade_id": "1998_genre_acq",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "The acquisition added a major reinsurance franchise and substantial investable assets. → The acquisition offers a massive, stable pool of float [D01], providing Berkshire with a low-cost capital base for long-term investment",
+   "Buffett's original assessment viewed the acquired businesses and managers as first-class. → Ron Ferguson and his team have built an exceptional organization that we trust to continue managing these operations"
+  ],
+  "missed": [
+   "Berkshire's capital and ownership structure could support the insurance operations while broadening investments per share."
+  ],
+  "extra_agent_drivers": [
+   "The market's obsession with short-term reserve volatility and the complexity of the financial-products division obscures the immense, durable value of the underlying float."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "General Re is a premier global reinsurer with superior financial strength and a consistent record of ROE between 14.5% and 16.9% [D01, D02].",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Potential reserve inadequacy requiring future capital top-ups [D05]",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 19,
+  "cited": 5,
+  "share": 0.26
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Charlie and I are delighted to announce our agreement to acquire General Re, a premier global reinsurer that brings a massive, low-cost pool of float into the Berkshire family [D01, D07, D09].",
+ "grader_notes": "The agent correctly identified the acquisition and the strategic value of the float and the management team, which were central to Buffett's reasoning. The reasoning deviated slightly by focusing more on the market's perception of volatility and specific risk factors (derivatives) than Buffett's general emphasis on capital support and share value. The sizing and decision-maker were accurately reflected.",
+ "run": "1998_genre_acq__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

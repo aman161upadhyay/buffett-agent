@@ -1,0 +1,54 @@
+{
+ "trade_id": "2025_googl_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett framed long-lived high returns on capital as the central investing attraction when explaining Alphabet.",
+   "He limited relative enthusiasm: several existing holdings ranked ahead of Alphabet.",
+   "He distinguished the former software economics from the very large new AI capital commitments."
+  ],
+  "extra_agent_drivers": [
+   "Free cash flow yield compared to risk-free Treasury returns",
+   "Existential threats from AI and regulatory remedies",
+   "Escalating capital intensity",
+   "Valuation premium and lack of margin of safety"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business sells for a free cash flow yield of 2.27%",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "annual capital expenditures scaling to approximately $85 billion",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "return on our $344.1 billion in Treasury liquidity",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 6,
+  "share": 0.46
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "In an environment where we can earn a safe, certain return on our $344.1 billion in Treasury liquidity, paying such a premium for a business facing structural headwinds is not a sensible use of Berkshire's capital.",
+ "grader_notes": "The agent reached the opposite conclusion of Buffett (PASS vs BUY) and provided entirely different reasoning drivers. While the agent correctly identified the decider as Buffett, the fundamental analysis and decision outcome did not align with the historical facts.",
+ "run": "2025_googl_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

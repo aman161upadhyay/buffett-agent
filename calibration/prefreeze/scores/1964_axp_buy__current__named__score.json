@@ -1,0 +1,59 @@
+{
+ "trade_id": "1964_axp_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "The fiscal injury did not destroy the exceptional economics of the payments franchise. → American Express possesses a powerful, high-utility payment network and brand that remains essential to consumers and merchants despite the current, isolated Salad Oil scandal [D01, D05].",
+   "A large market-value decline created a business-value opportunity rather than a need for a market forecast. → The market has panicked over the warehousing subsidiary’s fraud, mispricing the stock by ignoring the core franchise's resilience and the likelihood that total liabilities are finite [D02, D05].",
+   "Management's willingness to protect the name mattered because trust underpinned the operating franchise. → Management fails to contain the fraud or loses control of the core payment service reputation [D01, D05]."
+  ],
+  "missed": [
+   "Continued customer use of cheques and cards supported treating the franchise separately from warehousing claims."
+  ],
+  "extra_agent_drivers": [
+   "The business historically generates excellent returns on equity, consistently ranging between 14.3% and 15.0% from 1959 to 1963, with relatively low capital intensity in its core operations [D02].",
+   "The company sells for approximately $37, representing a significant discount to our conservatively appraised value of $50-$65, providing a substantial margin of safety [D03, D04]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "American Express operates a remarkable payment network and travelers cheque business.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Net income rising from $8.4 million in 1959 to $11.264 million in 1963.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market is currently pricing American Express as if the warehousing subsidiary fraud threatens the existence of the parent company.",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are sizing our position at 40% of the partnership.",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 7,
+  "share": 0.54
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We believe this is an overreaction; the panic creates a rare opportunity to acquire a wonderful business at a price of $37, which is well below our intrinsic value estimate of $50 to $65 per share [D03, D04, D05].",
+ "grader_notes": "The agent correctly identified the key drivers regarding the separation of the franchise from the fiscal injury, the opportunistic nature of the market panic, and the importance of brand trust. It provided additional quantitative support regarding ROE and valuation that was not explicitly in the Buffett driver set but aligns with his analytical style. The reasoning is very close to the historical record.",
+ "run": "1964_axp_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

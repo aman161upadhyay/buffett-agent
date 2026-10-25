@@ -1,0 +1,51 @@
+{
+ "trade_id": "2020_airlines_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "The industry facts changed, invalidating his previous assessment. → Today, the world has changed in a way that makes the future of the travel industry essentially unknowable.",
+   "Passenger demand and the amount of future fleet capacity became uncertain. → I do not know how long the demand will remain depressed or what the industry will look like on the other side of this crisis.",
+   "New financing would leave existing owners with weaker economics even if carriers survived. → While the CARES Act provides a potential lifeline, this support often comes at the cost of dilution or restrictive conditions for the common shareholder."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Airlines carry heavy fixed costs and debt burdens, which, in the absence of travel demand, threaten to cause permanent impairment of shareholder equity"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The economic thesis of a disciplined, profitable airline industry has been invalidated by an unforeseeable, systemic demand shock.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Airlines carry heavy fixed costs and debt burdens, which, in the absence of travel demand, threaten to cause permanent impairment of shareholder equity.",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Public assistance under the CARES Act, while providing liquidity, may impose restrictions or dilution that fundamentally alter the rights of existing common owners.",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 8,
+  "share": 0.89
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Today, the world has changed in a way that makes the future of the travel industry essentially unknowable.",
+ "grader_notes": "The agent correctly matched the decision and all key drivers identified in the answer key. The agent provided a thoughtful synthesis of the economic environment within the bounds of the provided documents, though it included an extra driver regarding fixed costs/debt that was not in the key.",
+ "run": "2020_airlines_sell__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "SELL",
+ "agent_decision": "SELL",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

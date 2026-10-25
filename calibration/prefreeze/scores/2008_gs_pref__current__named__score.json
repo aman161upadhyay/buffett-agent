@@ -1,0 +1,63 @@
+{
+ "trade_id": "2008_gs_pref",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Goldman's global franchise was unusually strong. → Goldman Sachs is a premier global institution in investment banking, trading, and asset management [D01].",
+   "Negotiated income and warrants combined a satisfactory yield with equity participation. → Beyond the yield, the warrants provide us with the opportunity to participate in the long-term equity recovery of the business with a strike price of $115 [D04, D09]."
+  ],
+  "missed": [
+   "The investment rested on confidence in a deep management team."
+  ],
+  "extra_agent_drivers": [
+   "Goldman Sachs' transition to a bank holding company provides the institutional stability required for its survival during this liquidity crisis",
+   "The terms of the preferred stock—including the 10% coupon and the 110% call premium—provide a significant margin of safety that traditional equity does not offer"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Goldman Sachs is a premier global institution in investment banking, trading, and asset management",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are receiving a 10% annual dividend on a $5 billion perpetual preferred investment",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Goldman Sachs' transition to a bank holding company provides the institutional stability required for its survival",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The warrants allow us to participate in the equity upside of a premier financial franchise at a strike price of $115 per share",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The terms of the preferred stock—including the 10% coupon and the 110% call premium—provide a significant margin of safety",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 3,
+  "share": 0.23
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are essentially lending our reputation and capital to a strong franchise at a moment of distress, a classic setup where the terms compensate us well for the temporary uncertainty in the financial system [D01, D04].",
+ "grader_notes": "The agent correctly identified the investment and the primary deal structure of preferred yield plus warrants. It captured the franchise quality and yield/warrant combination drivers but missed the specific explicit driver regarding the strength of the management team. The agent provided additional relevant context regarding the bank holding company transition and margin of safety.",
+ "run": "2008_gs_pref__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

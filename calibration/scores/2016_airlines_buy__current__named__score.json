@@ -1,0 +1,53 @@
+{
+ "trade_id": "2016_airlines_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "The bet was an industry judgment across the four major carriers.",
+   "Consolidation and greater capacity discipline changed the industry's economics.",
+   "The 21st-century earnings outlook could differ from the poor 20th-century record."
+  ],
+  "extra_agent_drivers": [
+   "The business fails our criteria for an understandable, durable moat with low capital intensity and little debt.",
+   "We lack the normalized owner earnings data required to calculate an earnings yield.",
+   "The history of the industry is one of aggregate value destruction."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business fails our criteria for an understandable, durable moat with low capital intensity and little debt",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The history of the industry is one of aggregate value destruction",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Berkshire’s history with airlines has been poor",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Berkshire’s history with airlines has been poor, and given that our cash and share repurchases offer more certainty, we prefer to keep these ideas in the 'too hard' pile.",
+ "grader_notes": "The agent reached the opposite conclusion of Buffett, relying on traditional value-investing criteria (moat, capital intensity, historical earnings) rather than the industry-level transformation thesis Buffett actually articulated. The agent's reasoning reflects a 'too hard' mindset that stands in direct contrast to Buffett's actual decision to initiate a large-scale basket position based on improved industry structure.",
+ "run": "2016_airlines_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

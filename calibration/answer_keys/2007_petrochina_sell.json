@@ -1,0 +1,41 @@
+{
+  "id": "2007_petrochina_sell",
+  "actual_decision": "SELL",
+  "conviction": "high",
+  "size_pct_nav": "Entire 1.3% stake; $4 billion proceeds over the full disposal window",
+  "first_action_date": null,
+  "disclosure_date": "2007-10-18",
+  "reason_class": "S2",
+  "opportunity_template": [
+    "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "The market value reached the comparative appraisal of other giant oil companies.",
+      "source": "https://www.berkshirehathaway.com/letters/2007ltr.pdf (2008-02-29; hindsight sale post-mortem)",
+      "quote": "about what we thought it was worth compared to other giant oil companies."
+    },
+    {
+      "driver": "Higher oil prices and reserve development raised intrinsic value since purchase.",
+      "source": "https://www.berkshirehathaway.com/letters/2007ltr.pdf (2008-02-29; hindsight sale post-mortem)",
+      "quote": null
+    },
+    {
+      "driver": "The sale was price-driven, not a Sudan divestment decision.",
+      "source": "https://www.berkshirehathaway.com/letters/2007ltr.pdf (2008-02-29; hindsight sale post-mortem)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Retrospective letter: capitalization around $275 billion in sale window.",
+  "outcome_note": "Full disposal completed in 2007; $4 billion is proceeds, not profit.",
+  "sources": [
+    "https://www.berkshirehathaway.com/letters/2007ltr.pdf",
+    "https://www.sec.gov/Archives/edgar/data/1108329/000114554907000420/h01096e6vk.txt",
+    "https://www.berkshirehathaway.com/letters/2006ltr.pdf"
+  ],
+  "pack_quality_notes": "Exact first-sale day unresolved. $275 billion appraisal in the 2007 letter concerns the later sale window, not an authenticated July 12 quotation. October 18 interview reported October 19 supports valuation-only explanation. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated. Key source timing: 2008-02-29; hindsight sale post-mortem. Unknown first execution is null; see meta.first_action_window. Fewer than three authenticated drivers means reasoning is unscorable rather than completed with invented manager claims.",
+  "quality_grade": "B"
+}

@@ -1,0 +1,49 @@
+{
+ "trade_id": "1993_dexter_acq",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "The original attraction was a long, profitable record, an enduring franchise and superb management.",
+   "Berkshire and the sellers shared a long-term ownership philosophy with management retained.",
+   "Prior footwear experience supported extending a familiar operating field."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value concerns due to lack of audited financials",
+   "Threat from lower-cost imports",
+   "Lack of essential earnings and cash flow metrics",
+   "Risk of permanent capital loss"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "fundamental financial records required to assess the business are entirely missing from the pack",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "footwear industry faces persistent pressure from lower-cost imports",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Because we cannot determine if this $420 million investment offers a margin of safety or will result in the permanent loss of capital, we have decided to pass [D02, D04, D05].",
+ "grader_notes": "The agent completely missed the stated rationale of Buffett, who focused on Dexter's historical profitability, management, and long-term fit rather than the technical availability of financials. The agent's output is an entirely different investment analysis focusing on the lack of data and import risks, failing to capture the qualitative factors that motivated the actual acquisition.",
+ "run": "1993_dexter_acq__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

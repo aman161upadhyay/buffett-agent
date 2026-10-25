@@ -1,0 +1,24 @@
+{
+  "id": "2025_oxychem_acq",
+  "company": "OxyChem",
+  "ticker": "private",
+  "aliases": [
+    "OxyChem",
+    "Occidental Chemical",
+    "Occidental Chemical Corporation",
+    "Occidental Petroleum",
+    "Occidental",
+    "OXY",
+    "Vicki Hollub",
+    "Wade Alleman",
+    "Glenn Springs",
+    "oxy.com"
+  ],
+  "as_of_date": "2025-10-01",
+  "mode": "new",
+  "era": "E",
+  "first_action_window": "Agreement dated 2025-10-01; announced 2025-10-02; closing subsequent",
+  "fund_aum_usd_bn": 257.521776925,
+  "decider": "Abel",
+  "notes": "SEALED hold-out. Dates are public-information cutoffs, not asserted private decision days. The original stock-picker rationale is unknown where not expressly sourced in the sealed key; the docs do not invent attribution. Financial inputs retain period/basis; illustrative annualization is not consensus. Exact entry costs and tax lots are unknown. Independent dated peer multiples, full maintenance-capital splits and many consensus estimates were not recovered; opposing scenarios are analyst synthesis grounded in dated issuer disclosures. Late attribution and all outcome evidence are confined to the sealed answer key. fund_aum_usd_bn is the latest publicly released 13F equity-portfolio total at cutoff, not corporate NAV or current cash. Pre-announcement control case: actual negotiated terms and later management statements are excluded. Precise purchase-return scoring is unavailable from the pre-cutoff public record."
+}

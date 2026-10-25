@@ -1,0 +1,44 @@
+{
+  "id": "1987_salomon_pref",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "$700 million preferred; 9% dividend; $38 conversion after three years; initial weight unknown",
+  "first_action_date": null,
+  "disclosure_date": "1987-09-28",
+  "reason_class": null,
+  "opportunity_template": [
+    "B3"
+  ],
+  "catalyst_role": "R2",
+  "decider": "Buffett",
+  "size_basis": "cash",
+  "drivers": [
+    {
+      "driver": "The 9% preferred and scheduled redemption supplied the bulk of the investment's value.",
+      "source": "https://www.berkshirehathaway.com/letters/1987.html (1988-02-29; hindsight explanation)",
+      "quote": null
+    },
+    {
+      "driver": "Conversion offered additional participation without requiring a confident common-equity forecast.",
+      "source": "https://www.berkshirehathaway.com/letters/1987.html (1988-02-29; hindsight explanation)",
+      "quote": null
+    },
+    {
+      "driver": "Confidence in Gutfreund's ability and integrity was explicit.",
+      "source": "https://www.berkshirehathaway.com/letters/1987.html (1988-02-29; hindsight explanation)",
+      "quote": "What we do have a strong feeling about is the ability and integrity of John Gutfreund, CEO of Salomon Inc."
+    },
+    {
+      "driver": "Buffett acknowledged no special insight into investment banking's future profitability.",
+      "source": "https://www.berkshirehathaway.com/letters/1987.html (1988-02-29; hindsight explanation)",
+      "quote": "We, of course, have no special insights regarding the direction or future profitability of investment banking."
+    }
+  ],
+  "entry_valuation_stated": "9% contractual yield with conversion; ratable redemptions beginning October 31, 1995.",
+  "outcome_note": "Later crisis required major Buffett intervention; subsequent merger improved the financial outcome. Trust judgment was not vindicated simply by eventual recovery.",
+  "sources": [
+    "https://www.berkshirehathaway.com/letters/1987.html (1988-02-29; hindsight explanation)",
+    "Proposed September financing terms reconstructed from transaction account; period report https://www.nytimes.com/1987/09/28/business/salomon-to-sell-12-to-buffett.html used only for preceding-day terms, not later market reaction; fund reference https://www.berkshirehathaway.com/letters/1986.html"
+  ],
+  "pack_quality_notes": "Sunday cutoff: prior-day deal terms reconstructed from Monday press. Exact settlement, covenants, prior close and dealer liquidity model unavailable. Perelman threat is context, not one of Buffett's stated economic drivers."
+}

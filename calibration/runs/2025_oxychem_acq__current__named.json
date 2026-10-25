@@ -1,0 +1,256 @@
+{
+ "pack": "2025_oxychem_acq",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2025-10-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "OxyChem is the chemical subsidiary of Occidental, producing essential industrial and building-related products including chlorine, caustic soda, and PVC [D01]. The business relies on physical assets and energy-intensive production, with results influenced by feedstock costs, operating reliability, and export demand [D01].",
+   "products_customers_and_why_they_buy": [
+    "Chlorine, caustic soda, and PVC sold for essential industrial and building-related uses; customers buy based on product necessity and availability, though these products do not grant inherent pricing power [D01]"
+   ],
+   "economics": [
+    "Pre-tax earnings have shown significant cyclicality, with segment margins (pretax income/sales) fluctuating between 17.8% and 37.1% from 2020 to 2024 [D02].",
+    "Capital intensity is significant, with capital expenditures ranging from $255 million to $685 million annually between 2020 and 2024 [D02].",
+    "Segment economics are highly sensitive to feedstock/energy costs, operating reliability, and product spreads [D01].",
+    "Pricing history is not explicitly provided beyond observation of export demand as a variable [D01]."
+   ],
+   "earnings_record": [
+    "Pre-tax segment earnings: $664m (2020), $1,544m (2021), $2,508m (2022), $1,531m (2023), and $1,124m (2024) [D02].",
+    "Recent quarterly pre-tax income: $436m (Q2 2023), $260m (Q1 2024), and $213m (Q2 2025) [D01, D03]."
+   ],
+   "competitive_position": [
+    "Market rank/share: not in pack.",
+    "Moat evidence: a large customer base does not prove a moat; product necessity does not guarantee pricing power [D01].",
+    "Low-cost position: not in pack.",
+    "Peers: Olin, Westlake, and Dow operate in related chemical spaces but differ in mix and integration [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Debt/Cash: No stand-alone balance sheet or segment-specific debt/cash figures exist [D02].",
+    "Leverage: not in pack.",
+    "Capital needs: Assets require continuous spending on maintenance, safety, and environmental compliance [D01].",
+    "Float: not in pack (financial service inapplicable to this segment) [D02]."
+   ],
+   "management_and_capital_allocation": [
+    "CEO tenure: not in pack.",
+    "Candour: not in pack.",
+    "Buybacks/dividends/acquisitions: not in pack for segment.",
+    "Insider ownership/incentives: not in pack."
+   ],
+   "price_and_valuation": [
+    "Price/Market Cap: No publicly traded stock or established stand-alone acquisition price [D04].",
+    "P/E, P/B, Earnings Yield: Not available for stand-alone segment; index earnings yield is 3.55% as of 2025-10-01 [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 4.12,
+    "basis": "10-year Treasury yield [D04]. No segment earnings yield computed due to lack of defined stand-alone acquisition price and non-distributable nature of segment pre-tax profit [D02, D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Cyclicality and volatility of commodity spreads [D05].",
+    "Environmental and legacy safety liabilities [D05].",
+    "Capital intensity and the risk that reported pre-tax income overstates distributable cash due to necessary reinvestment [D02, D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2025-08-06: Reported Q2 2025 pre-tax income of $213 million [D01, D03].",
+    "2025-08-07: Management discussed prospective reduction of approximately $300 million in OxyChem capital spending for the following year [D03]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds 264,941,431 Occidental common shares as of 2025-06-30 [D08].",
+    "Berkshire has no control over the OxyChem subsidiary and no announced acquisition agreement [D01, D08]."
+   ],
+   "document_conflicts": [
+    "None; documents are consistent in stating no stand-alone financials or deal exists [D01, D02, D09]."
+   ],
+   "missing_data": [
+    "Stand-alone balance sheet, maintenance-capital schedule, specific environmental/legacy liability allocation, and an established acquisition price."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The business produces essential, slow-changing industrial chemicals like chlorine and caustic soda [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "The products are commodities with no inherent pricing power and no documented low-cost advantage [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "Pre-tax segment earnings exhibit significant cyclicality, dropping from $2,508m in 2022 to $1,124m in 2024 [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "No stand-alone balance sheet or debt figures are provided for the segment [D02]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is capital-intensive, requiring continuous spending on maintenance, safety, and environmental compliance [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Information regarding management's candor, capital allocation, or ownership mentality is not in the pack [D01, D02]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "No acquisition price or stand-alone valuation is available to determine if it is large enough for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "There is no established stand-alone acquisition price or earnings yield to compare against the 4.12% long bond yield [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 4,
+   "n_unsure": 3,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a cyclical commodity business with significant capital requirements and no documented moat."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no reason to expect a bargain because this business is a cyclical commodity producer with significant capital requirements and no identifiable competitive advantage [D01, D02]. As a commodity segment within a larger parent company, it lacks the pricing power and durable economics necessary to justify Berkshire's interest, and there is no stand-alone acquisition price to evaluate [D01, D04].",
+   "evidence": [
+    "Pre-tax earnings have shown significant cyclicality, fluctuating between $664m and $2,508m between 2020 and 2024 [D02].",
+    "The business is capital-intensive, requiring continuous spending on maintenance and environmental compliance [D01].",
+    "Products like chlorine and caustic soda are commodities without inherent pricing power [D01].",
+    "There is no stand-alone acquisition price or defined earnings yield available for the segment [D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market may be attempting to value this as a steady industrial producer, but we view it as a capital-intensive commodity business subject to volatile spreads and high reinvestment needs [D01, D02, D05].",
+   "what_must_be_true": [
+    "The segment would need to demonstrate a sustainable, durable competitive advantage that is currently absent.",
+    "The business would need to show consistent, non-cyclical owner earnings that exceed its significant capital expenditure requirements.",
+    "A clear, discounted purchase price would need to be established that provides an adequate margin of safety."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack [D02, D04]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "no stand-alone acquisition price [D04]",
+     "cyclical commodity business [D01, D02]"
+    ],
+    "discount_rate_used": "4.12% [D04]"
+   },
+   "price_vs_value": "not in pack",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds/T-bills are superior; this business is a commodity with no moat [D01, D04]",
+   "downside_case": "permanent loss of capital if bought at an inflated price without a margin of safety",
+   "valuation_verdict": "FULL",
+   "flagged_assumptions": [
+    "No stand-alone financial data or purchase price exists to evaluate [D04]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Berkshire serves as a permanent, passive holder of marketable securities when we choose to invest in a business without seeking control or influence over daily operations [D08]. Our edge is the patience to allow the business to compound over time while we remain detached from short-term market volatility [R0 definition].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realised through the underlying business's ability to generate cash and grow earnings over the long term, which eventually reflects in the stock price [R0 definition]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the modern era, Berkshire holds large equity stakes in major companies, including Occidental, as passive investments; we do not seek to manage non-controlled subsidiaries or engage in restructuring [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Cyclicality of earnings renders long-term cash flow predictability unreliable [D02].",
+    "High capital expenditure requirements for maintenance and environmental compliance limit free cash flow [D01, D02].",
+    "Lack of competitive advantage or pricing power in a commodity market [D01]."
+   ],
+   "berkshire_constraints": "Berkshire maintains a cash floor of at least $30B [Instructions Rule 2], and any investment must avoid risks to the company's reputation or the permanent loss of capital [Instructions Rule 4].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio | partnership | cash"
+   },
+   "opportunity_cost": "Capital is better deployed in marketable securities with durable moats or held in cash given the 4.12% long bond yield and the commodity nature of this business [D04].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "Buffett would pass on this opportunity because the business lacks a durable competitive advantage and fails to meet the threshold for a wonderful business at a fair price.",
+   "biggest_risk_in_one_sentence": "The primary risk is the permanent loss of capital through exposure to a cyclical, capital-intensive commodity business that lacks the pricing power to maintain stable owner earnings."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-10-01",
+  "company": "OxyChem (private)",
+  "ticker": "N/A",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "permanent loss of capital due to cyclical commodity exposure and high capital intensity"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — no stand-alone acquisition price exists to compare against the 4.12% long bond yield [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The business is a cyclical commodity producer with no pricing power and no documented durable competitive advantage [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Significant capital requirements for maintenance and environmental compliance limit the consistency of free cash flow [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "Earnings are highly cyclical, with pre-tax segment income falling from $2,508m in 2022 to $1,124m in 2024 [D02].",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Cyclicality of earnings renders long-term cash flow predictability unreliable [D02].",
+   "High capital expenditure requirements for maintenance and environmental compliance limit free cash flow [D01, D02].",
+   "Lack of competitive advantage or pricing power in a commodity market [D01]."
+  ],
+  "what_would_change_my_mind": "Evidence of a sustainable, durable competitive advantage that decouples the business from commodity price cycles, combined with a verifiable record of consistent owner earnings that significantly exceed reinvestment needs at an attractive entry price.",
+  "memo": "We have looked at the OxyChem business and decided it does not meet our standards for a wonderful business [D01]. While the company produces essential chemicals like chlorine and caustic soda, these products are commodities that provide no inherent pricing power [D01].\n\nWe require businesses that possess a durable competitive advantage and the ability to maintain stable returns on capital [D01, D04]. OxyChem’s results are highly cyclical, with segment earnings dropping by more than half between 2022 and 2024 [D02]. This volatility, combined with the continuous, heavy capital expenditures required for maintenance and environmental compliance, makes the business an unattractive home for our capital [D01, D02].\n\nFurthermore, there is no stand-alone acquisition price or clear path to value that would provide the margin of safety we demand [D04]. We prefer to hold cash at a 4.12% bond yield rather than risk our capital in an industry that requires constant reinvestment just to maintain its position [D04].\n\nIn our view, this is not a business we can understand with the certainty required for a permanent investment [D01, D04]. We hold a significant position in the parent company, Occidental, but we see no reason to seek ownership of this specific subsidiary [D08].",
+  "uncited_claims": []
+ }
+}

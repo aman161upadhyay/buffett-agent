@@ -1,0 +1,48 @@
+{
+ "pack": "2024_bac_trim",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2024-07-17",
+ "stages": {},
+ "final": {
+  "as_of_date": "2024-07-17",
+  "company": "Bank of America Corporation",
+  "ticker": "BAC",
+  "decision": "TRIM",
+  "reason_class": "S3",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Original thesis of a high-quality, deposit-funded franchise remains intact [D01]",
+   "Management has demonstrated rational capital allocation [D02]",
+   "Regulatory reporting burden for positions exceeding 10% ownership is a material consideration [D08]"
+  ],
+  "price_vs_value_now": "The stock trades at a 73.4% premium to tangible book value [D04], which is a full valuation for a mature banking business",
+  "after_tax_hurdle": "Any sale triggers a 21% federal tax liability [S3], but the regulatory burden of maintaining a position above the 10% threshold is a significant non-valuation factor [D08]",
+  "drivers": [
+   {
+    "driver": "Regulatory threshold compliance is a standard priority for Berkshire's banking positions [S3]",
+    "citations": [
+     "D08"
+    ]
+   },
+   {
+    "driver": "The position is a large holding that currently exceeds the 10% beneficial ownership reporting requirement [D08]",
+    "citations": [
+     "D08"
+    ]
+   },
+   {
+    "driver": "Trimming reduces the regulatory and reporting burden while maintaining a significant residual investment in a solid franchise [S3]",
+    "citations": [
+     "D01",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "Bank of America remains a strong, well-managed institution with a massive, deposit-funded franchise that we admire [D01]. However, our ownership stake has reached a level that invokes the regulatory and reporting burdens associated with being a greater-than-10% beneficial owner [D08]. We have historically managed such positions to ensure they stay just under these thresholds to simplify our reporting obligations [S3].\n\nWhile the business earns satisfactory returns on tangible common equity, the current market valuation at 1.73x tangible book value is reflective of a fully-priced asset [D04]. We prefer to own businesses indefinitely, but our discipline requires that we manage our regulatory footprint alongside our tax considerations [S3].\n\nWe will trim this position to bring our ownership below the 10% trigger, accepting the 21% federal tax hit [S3] as the cost of maintaining a more efficient and less burdensome oversight structure for our portfolio. We remain long-term owners of the business, but we do not need to be the largest or most heavily regulated shareholder to benefit from its success [D01].",
+  "uncited_claims": []
+ }
+}

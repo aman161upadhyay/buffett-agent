@@ -1,0 +1,61 @@
+{
+ "pack": "2024_cash_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "2024-11-02",
+ "stages": {},
+ "final": {
+  "as_of_date": "2024-11-02",
+  "trailing_earnings_yield_pct": 3.51,
+  "normalised_earnings_yield_pct": 3.51,
+  "normalisation_basis": "trailing (no distortion) [D04]",
+  "long_bond_yield_pct": 4.37,
+  "spread_points": "-0.86",
+  "drawdown_from_high_pct": 2.32,
+  "panic_indicators": [
+   "VIX 21.88 [D04]",
+   "US high-yield credit spread 2.83% [D04]"
+  ],
+  "rule_decision": "SELECTIVE",
+  "decision": "HOLD_CASH",
+  "override_reason": "The spread between equity earnings yields and risk-free long-term rates is unattractive [D04], and at our scale, we do not see enough wonderful businesses available at prices that provide a sufficient margin of safety [D03, D08].",
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "Equity earnings yield (3.51%) is below the long-term Treasury yield (4.37%) [D04].",
+  "valuation_level": "Prices are high relative to value, with the S&P 500 trading at approximately 28.45x trailing earnings [D04].",
+  "ideas_that_qualify": [
+   "None identified at current scale and valuation [D03]"
+  ],
+  "berkshire_action": "Maintain high cash and bill balances while remaining patient; repurchase own shares only if priced below intrinsic value [D04, D08].",
+  "drivers": [
+   {
+    "driver": "Equity earnings yields remain uncompetitive relative to short-term risk-free rates and long bonds [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Market valuations are elevated with a trailing P/E of approximately 28.45x [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Berkshire's massive scale limits the pool of opportunities that can meaningfully move the needle [D03, D08].",
+    "citations": [
+     "D03",
+     "D08"
+    ]
+   },
+   {
+    "driver": "We refuse to force purchases simply to reduce our headline cash balance when prices offer an inadequate margin of safety [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "memo": "Charlie and I have always believed that the size of our cash balance is a consequence of our inability to find wonderful businesses at sensible prices, not a forecast of the next market decline [D01, D07]. At current levels, the S&P 500 offers an earnings yield of approximately 3.51%, which compares poorly to the 4.37% available on ten-year Treasury bonds and the 4.61% available on short-term bills [D04]. When risk-free instruments provide a superior yield to the residual earnings of equities, the margin of safety is simply insufficient for our requirements [D04, D06].\n\nWe are not in the business of predicting the market, but we are in the business of waiting for the market to offer us a bargain [D06, D07]. As it stands, we remain disciplined, holding our liquidity in short-term instruments that preserve our capacity to act when better opportunities arise [D01, D08]. We continue to hold our existing wonderful businesses, but incremental capital will remain in T-bills until the price of productive assets adjusts to reflect a more favorable risk-adjusted return [D06, D08].",
+  "uncited_claims": []
+ }
+}

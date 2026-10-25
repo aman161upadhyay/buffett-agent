@@ -1,0 +1,235 @@
+{
+ "pack": "1999_tech_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "1999-03-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Microsoft sells widely used personal-computer operating systems and application software [D01]. The company benefits from an installed base of users, application compatibility, and developer support [D01].",
+   "products_customers_and_why_they_buy": [
+    "Windows and Office software; customers include personal computer users who value compatibility, application availability, and user familiarity [D01]."
+   ],
+   "economics": [
+    "Software business model has low physical reproduction cost and very high current profitability [D01]. FY1998 operating margin was 44.3% and net margin was 31.0% [D02]. D&A for FY1998 was $1,024 million, and property/equipment additions were $656 million [D02]. Capital intensity is low regarding physical manufacturing, but substantial development and selling expenses are required [D02, D03]."
+   ],
+   "earnings_record": [
+    "FY1994-FY1998 revenue grew from $4.649 billion to $14.484 billion [D02]. Net income grew from $1.146 billion to $4.490 billion [D02]. Diluted EPS (pre-split basis) grew from $0.47 to $1.67 [D02]."
+   ],
+   "competitive_position": [
+    "Microsoft holds an entrenched platform position with Windows and Office [D01]. Competitive advantage is supported by network effects (installed base, developer support) [D01, D03]. Position is subject to legal antitrust proceedings and potential changes in computing architecture or distribution [D01, D03]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "The balance sheet lists no interest-bearing borrowings [D02]. As of June 30, 1998, cash and short-term investments totaled $13.927 billion [D02]."
+   ],
+   "management_and_capital_allocation": [
+    "Bill Gates leads the organization [D01]. No common cash dividends are paid; preferred dividends were $28 million in FY1998 [D02]. FY1998 common shares outstanding: 2,470 million [D02]."
+   ],
+   "price_and_valuation": [
+    "Common share close on March 1, 1999, was $151.75 [D04]. P/E ratio based on FY1998 diluted EPS of $1.67 is 90.87x [D04]. Historical earnings yield is 1.10% [D04]. Price/FY1998 common book is 23.96x [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Antitrust trial and legal restrictions on business practices [D05, D07]. Potential disruption from Internet distribution and new computing architectures [D05]. Sustainability of current high margins and stock-based compensation dilution [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "January 19, 1999: Announced record quarterly revenue and income for quarter ended December 31, 1998 [D03]. Federal antitrust trial began in October 1998 [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire reported $37.265 billion in common-stock market value and over $15 billion in cash equivalents as of December 31, 1998 [D08]."
+   ],
+   "document_conflicts": [
+    "Historical market cap and peer valuation multiples in D04 and D06 rely on mixed-date sensitivities and are not synchronized with the March 1, 1999, cutoff [D04, D06]."
+   ],
+   "missing_data": [
+    "Synchronized current diluted share count, stock-compensation-adjusted owner-earnings calculation, and full fiscal 1999 results."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "Despite the current platform dominance, the potential for rapid disruption from new computing architectures and legal challenges makes predicting the business 10-20 years out too uncertain [D01, D03, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The company possesses a significant moat rooted in network effects from its installed user base and developer support [D01, D03]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "The company has demonstrated rapid and consistent growth in revenue and net income from FY1994 to FY1998 [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The balance sheet has no interest-bearing debt and substantial cash reserves [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "The software business model requires minimal capital for physical reproduction [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "While growth has been stellar, the pack does not provide sufficient insight into whether management acts as conservative owners regarding capital allocation or shareholder dilution [D02, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market valuation significantly into the billions, this is a company large enough to be meaningful for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "An earnings yield of 1.10% is extremely low compared to the required margin of safety and the 10% hurdle rate for the current era [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "D04 and D06 valuations → relied on D04 as it provides the specific March 1, 1999, market close data."
+   ],
+   "n_pass": 5,
+   "n_fail": 2,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a highly profitable software platform with strong network effects, currently trading at a price that leaves no margin of safety."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no reason to expect a bargain here. The current market price reflects a 90.87x P/E ratio, which implies the market is pricing in an extraordinary and long-lasting growth trajectory that leaves no margin of safety for the investor [D04].",
+   "evidence": [
+    "Earnings yield is only 1.10%, significantly below our 10% hurdle rate [D04].",
+    "The business faces significant, unpredictable risks from antitrust litigation and technological disruption [D01, D03, D05].",
+    "The valuation metrics, such as a 23.96x price-to-book ratio, indicate high market expectations rather than a bargain [D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market appears to be paying for the company's current platform dominance and growth without accounting for the high probability of permanent impairment due to legal/regulatory intervention and technological shifts [D01, D05].",
+   "what_must_be_true": [
+    "The legal and antitrust issues would need to be resolved with zero impact on the core business model.",
+    "The company would need to maintain its dominant market position against rapid technological shifts for decades.",
+    "The price would need to drop precipitously to provide an adequate margin of safety."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "1.42 [D02]",
+   "initial_pretax_yield_pct": 1.1,
+   "intrinsic_value_range": {
+    "low": "Not calculable at current price",
+    "high": "Not calculable at current price",
+    "key_assumptions": [
+     "FY1998 earnings $4,490M [D02]",
+     "FY1998 D&A $1,024M [D02]",
+     "FY1998 Capex $656M [D02]",
+     "Diluted shares 2,470M [D02]"
+    ],
+    "discount_rate_used": "Assumed 6% based on long-term government bond proxies"
+   },
+   "price_vs_value": "Price is 90.87x earnings [D04]; margin of safety is non-existent.",
+   "expected_return_pct": {
+    "base": 1,
+    "bear": -5,
+    "bull": 3
+   },
+   "alternatives": "Berkshire holdings or T-bills are superior; Microsoft's current valuation requires growth rates that are unsustainable given the antitrust and technological risks [D01, D05].",
+   "downside_case": "Significant capital impairment due to regulatory/antitrust forced changes to business model; permanent loss of capital is highly probable at this entry price.",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Owner earnings calculated as (Net Income + D&A - Capex) / Shares",
+    "Discount rate assumed at 6% as no specific long-term bond rate provided in pack"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital (default for marketable securities after 1980) [D08]",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "the business generates earnings which are either reinvested at high returns or result in value accretion through long-term compounding of the underlying franchise [D01, D02]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in the 1980-1999 era, our approach is to act as a permanent owner, relying on the quality of the business and the integrity of management to compound our capital over the long term without requiring active intervention [D01, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Antitrust or regulatory rulings force a breakup or prohibit bundling of core software products [D05, D07].",
+    "Rapid transition to web-based computing architectures renders the Windows platform advantage obsolete [D05].",
+    "Pricing power is structurally eroded by the emergence of competitive open-source or browser-centric software ecosystems [D01].",
+    "Management fails to manage shareholder dilution effectively, undermining long-term per-share value [D05]."
+   ],
+   "berkshire_constraints": "Berkshire must maintain significant cash reserves for insurance obligations and avoid positions that trigger antitrust scrutiny or regulatory interventions [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed into existing core holdings or held in short-term T-bills until a business with a 10% earnings yield and a clear margin of safety appears [D04].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The technology sector falls outside my circle of competence as of 1999, making it impossible to confidently project the 10-20 year durability of the competitive advantage [D01].",
+   "biggest_risk_in_one_sentence": "Paying 90x earnings for a business facing significant regulatory and technological disruption creates a high probability of permanent capital loss."
+  }
+ },
+ "final": {
+  "as_of_date": "1999-03-01",
+  "company": "Microsoft Corporation",
+  "ticker": "MSFT",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "1.42 per share",
+   "initial_pretax_yield_pct": 1.1,
+   "intrinsic_value_range": "Not calculable at current price",
+   "expected_return_pct": 1,
+   "downside_case": "Significant capital impairment due to regulatory/antitrust forced changes to business model"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the company trades at 90.87x earnings [D04], providing an initial earnings yield of only 1.10% [D04] against a 10% hurdle rate.",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The technology sector and the long-term durability of Microsoft's software platform fall outside my circle of competence [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The business faces material risks from ongoing antitrust litigation and potential shifts in computing architecture [D01, D05, D07].",
+    "citations": [
+     "D01",
+     "D05",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Current market valuation assumes extraordinary growth and leaves no margin of safety for the investor [D04].",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Antitrust or regulatory rulings force a breakup or prohibit bundling of core software products [D05, D07].",
+   "Rapid transition to web-based computing architectures renders the Windows platform advantage obsolete [D05].",
+   "Pricing power is structurally eroded by the emergence of competitive open-source or browser-centric software ecosystems [D01].",
+   "Management fails to manage shareholder dilution effectively, undermining long-term per-share value [D05]."
+  ],
+  "what_would_change_our_mind": "A precipitous decline in share price to a level providing an adequate margin of safety and a clearer, long-term resolution of the regulatory environment that preserves the core franchise.",
+  "memo": "Microsoft has built a formidable business, centered on its Windows and Office franchises, which benefit from significant network effects and a vast installed base [D01]. We understand the model’s appeal; software is a business with low physical reproduction costs and historically high profitability [D01].\n\nThe company has demonstrated a consistent record of growth in revenue and net income over the past five years [D02]. It operates with a strong balance sheet, characterized by a lack of interest-bearing debt and substantial cash reserves [D02]. However, our requirement for a durable competitive advantage and high predictability over the next decade is challenged by the rapid pace of technological change in computing [D01, D05].\n\nManagement, led by Bill Gates, has achieved stellar growth, though we lack sufficient evidence to judge their long-term capital allocation philosophy as conservative owners [D02, D05]. More importantly, the company is currently involved in significant antitrust litigation, which creates a level of uncertainty that makes it difficult to anchor a valuation [D05, D07].\n\nAt a market price of $151.75 per share, the company is priced at 90.87 times earnings, implying an initial earnings yield of just 1.10% [D04]. This is a far cry from the 10% hurdle rate we apply to prospective investments [D04]. Paying this price requires us to assume that the current dominance will continue unabated for decades despite clear legal and technological headwinds [D01, D04, D05].\n\nIn investing, we seek a margin of safety that protects us from the unexpected, and we simply cannot find one here. The current valuation is based on optimism that far exceeds a conservative estimate of intrinsic value, and we are content to look elsewhere [D04].",
+  "uncited_claims": []
+ }
+}

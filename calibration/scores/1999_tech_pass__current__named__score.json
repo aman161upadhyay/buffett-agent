@@ -1,0 +1,60 @@
+{
+ "trade_id": "1999_tech_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett did not understand Microsoft's business well enough to underwrite it despite admiring its success.",
+   "The relevant skill is identifying predictable economics, not benefiting from every successful technology company.",
+   "Avoiding technology forecasts outside his circle was discipline, not a negative prediction about the company's products."
+  ],
+  "extra_agent_drivers": [
+   "Valuation/P/E ratio",
+   "Margin of safety",
+   "Market narrative",
+   "Antitrust litigation",
+   "Industry architecture uncertainty"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "P/E of 90.87x",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Initial pre-tax FCF yield of 1.66%",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Fiscal 1998 ROE of 32.8%",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Federal antitrust litigation creates risk of structural intervention",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 6,
+  "share": 0.67
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We prefer to hold cash rather than pay such a steep premium, especially while the company faces material threats from antitrust litigation and shifting industry architectures.",
+ "grader_notes": "The agent arrived at the correct 'PASS' decision but used entirely different reasoning than Buffett. Buffett's stated reason was a lack of understanding of the business (circle of competence), whereas the agent justified the pass based on valuation multiples and antitrust risk.",
+ "run": "1999_tech_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

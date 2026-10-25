@@ -1,0 +1,64 @@
+{
+ "trade_id": "1999_tech_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Avoiding technology forecasts outside his circle was discipline, not a negative prediction about the company's products → The technology sector and the long-term durability of Microsoft's software platform fall outside my circle of competence [D01]."
+  ],
+  "missed": [
+   "Buffett did not understand Microsoft's business well enough to underwrite it despite admiring its success.",
+   "The relevant skill is identifying predictable economics, not benefiting from every successful technology company."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value — the company trades at 90.87x earnings [D04], providing an initial earnings yield of only 1.10% [D04] against a 10% hurdle rate.",
+   "The business faces material risks from ongoing antitrust litigation and potential shifts in computing architecture [D01, D05, D07].",
+   "Current market valuation assumes extraordinary growth and leaves no margin of safety for the investor [D04]."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at 90.87x earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "software is a business with low physical reproduction costs",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company is currently involved in significant antitrust litigation",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "It operates with a strong balance sheet, characterized by a lack of interest-bearing debt",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "At a market price of $151.75 per share",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 8,
+  "share": 0.62
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "The technology sector and the long-term durability of Microsoft's software platform fall outside my circle of competence [D01].",
+ "grader_notes": "The agent correctly matched the 'circle of competence' discipline, which was Buffett's primary stated reason for passing. However, the agent deviated significantly by anchoring its rejection in quantitative valuation metrics (price-to-earnings, margin of safety) and antitrust risk, whereas Buffett's rationale was fundamentally about the inability to understand the business economics, regardless of price.",
+ "run": "1999_tech_pass__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

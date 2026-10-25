@@ -1,0 +1,256 @@
+{
+ "pack": "1994_axp_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "1994-08-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company operates a travel-payments franchise connecting cardholders, merchants, and a service promise, while also engaging in financial-services activities [D01]. It is currently undergoing a strategic refocusing away from an unfocused financial conglomerate toward its core payments and financial-services franchises [D03].",
+   "products_customers_and_why_they_buy": [
+    "Charge-card and payment services connecting cardholders and merchants, relying on customer confidence and merchant acceptance [D01, D03, D06]."
+   ],
+   "economics": [
+    "Travel payments combine service charges with funds held between receipt and settlement; fee income and balances are not free capital if obligations grow [D01, D06].",
+    "Pretax margins for segment activities: travel-related services (14.6%), investment/advisory (19.8%), and banking (17.3%) [D06].",
+    "Return on equity: travel-related services 23.8% (vs 12.2% prior), bank 10.03% (vs 11.97% prior) [D06]."
+   ],
+   "earnings_record": [
+    "Net income for 1989-1993: $1,157/$181/$789/$461/$1,478 million; 1993 continuing income included a $433 million gain [D02].",
+    "Adjusted continuing EPS for 1991-1993: $1.21/$0.23/$2.30 [D02].",
+    "Q2 1994 continuing net income $359 million vs $301 million in Q2 1993 [D03]."
+   ],
+   "competitive_position": [
+    "Recognized travel-payments brand; competitive pressure exists in merchant charges, cardholder benefits, and funding costs [D01, D06].",
+    "Merchant locations: 3.7 million (up from 3.5 million) [D03]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Short and long debt (1993): $21,050 million [D02].",
+    "Tier-1 capital (Bank): 6.6% [D06].",
+    "Assets include customer settlement funding, which is not unencumbered industrial cash [D02, D04]."
+   ],
+   "management_and_capital_allocation": [
+    "Leadership is refocusing the company away from an unfocused financial conglomerate [D01, D03].",
+    "History of dividend payments (1993: $1.00/share) [D02]."
+   ],
+   "price_and_valuation": [
+    "Price: $26.50 (July 1994 month-end) [D04].",
+    "Market cap: approximately $13.12 billion [D04].",
+    "Historical normalized P/E: 11.52x based on $2.30 FY1993 adjusted continuing EPS [D04].",
+    "Post-distribution P/B: 2.24x [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 8.68,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 3.4,
+    "long_bond_yield": 7.13,
+    "basis": "Earnings yield calculated as $2.30 (FY1993 adjusted EPS) / $26.50 [D04]. Dividend yield based on $0.225 quarterly dividend [D04]. Treasury yield from FRED DGS10 [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Competitive card networks, merchant resistance to fees, consumer credit exposure, and the difficulty of reversing an unfocused conglomerate strategy [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Existing $300 million 8.85% preferred investment originated in 1991; agreement calls for conversion after three years, subject to extension [D02]."
+   ],
+   "recent_events": [
+    "July 25, 1994: Release of Q2 1994 results showing 16.7% growth in continuing EPS [D03]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds a $300 million preferred investment [D02].",
+    "Existing economic exposure noted; current decision concerns potential additional common ownership [D07, D08]."
+   ],
+   "document_conflicts": [
+    "Revenue figures differ between original presentation and later net-revenue presentations [D02]."
+   ],
+   "missing_data": [
+    "Complete current cash-flow and tangible-capital reconciliation; current-year full earnings guidance; dated external peer valuation grid [D03, D04, D06]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The company operates a core travel-payments franchise connecting cardholders and merchants, a business model that is long-standing and easy to understand [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The company possesses a recognized travel-payments brand and a vast network of 3.7 million merchant locations, which creates a competitive advantage [D01, D03]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "While historical net income has fluctuated, the company has shown a rebound in continuing earnings, including 16.7% growth in Q2 1994, and is successfully shedding non-core conglomerate assets [D02, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The travel-related services segment demonstrates a strong 23.8% return on equity, and for financial institutions of this type, deposits and float are standard funding, not debt [D06]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "The business generates high returns on capital and, as a payments franchise, is not inherently capital-intensive in the manner of industrial manufacturing [D06]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Leadership is explicitly refocusing the company away from an unfocused conglomerate toward its core, value-creating payments franchise [D01, D03]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market cap of approximately $13.12 billion, the company is sufficiently large to meaningfully impact Berkshire's portfolio [D04]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The trailing earnings yield of 8.68% against a long bond yield of 7.13% represents a reasonable entry point for a quality franchise in this era [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "Revenue figures differ between original presentation and later net-revenue presentations [D02] -> I relied on the adjusted continuing EPS and normalized earnings yield provided in D04 for valuation, as these are the primary metrics used to assess the core franchise's profitability."
+   ],
+   "n_pass": 8,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a recognizable travel-payments franchise successfully returning to its core strengths with high returns on capital"
+  },
+  "gate2": {
+   "templates": [
+    "B1"
+   ],
+   "why_available": "The market remains skeptical due to the company's past struggles as an unfocused conglomerate and fears regarding competitive pressures in the payments industry [D05]. We believe the market under-rates the durability of the core travel-payments franchise, which is successfully shedding non-core assets to refocus on its high-ROE strengths [D01, D03, D06]. As management executes this refocusing, the earnings power of the core franchise will become increasingly apparent to the market [D03].",
+   "evidence": [
+    "Q2 1994 continuing net income grew 16.7% compared to the prior year [D03].",
+    "The travel-related services segment currently maintains a 23.8% return on equity [D06].",
+    "The company has expanded its merchant network to 3.7 million locations [D03].",
+    "Strategic shift away from conglomerate structure is explicitly underway [D01, D03]."
+   ],
+   "market_narrative_we_disagree_with": "The market fears that merchant resistance to fees and competitive card networks will permanently impair the company's ability to generate value, while remaining unconvinced by the turnaround efforts [D05].",
+   "what_must_be_true": [
+    "The core travel-payments brand remains the primary utility for its cardholders and merchants despite competition.",
+    "Management continues to successfully divest non-core assets and reduce organizational complexity.",
+    "The travel-payments franchise maintains its pricing power despite merchant resistance to fees."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "Normalised earnings approximated at $2.30 [D04]",
+   "initial_pretax_yield_pct": 8.68,
+   "intrinsic_value_range": {
+    "low": "$25.00",
+    "high": "$30.00",
+    "key_assumptions": [
+     "Core travel-payments franchise retains pricing power [D06]",
+     "Successful divestiture of non-core conglomerate assets [D01]"
+    ],
+    "discount_rate_used": "7.13% long bond rate [D04]"
+   },
+   "price_vs_value": "Price of $26.50 [D04] is roughly fair value; limited margin of safety at current market levels.",
+   "expected_return_pct": {
+    "base": 10,
+    "bear": 5,
+    "bull": 14
+   },
+   "alternatives": "Existing holdings or Berkshire buybacks are preferred as they offer more certainty than the current turnaround execution [D07, D08].",
+   "downside_case": "Failure to successfully refocus the conglomerate results in continued margin compression from competitive card networks; permanent loss is unlikely given the underlying franchise value.",
+   "valuation_verdict": "FAIR",
+   "flagged_assumptions": [
+    "Owner earnings estimated using reported continuing EPS as a proxy for maintenance capital requirements [D04]",
+    "7.13% yield used for bond benchmark [D04]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital (default for marketable securities after 1980) [D07, D08]",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "the company's core travel-payments franchise continues to compound through its merchant network and cardholder utility [D01, D03, D06]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 1980-1999 era, Berkshire prioritizes wonderful consumer franchises; as a non-controlling equity position, a passive holding role allows us to benefit from the turnaround without the risks of operational restructuring [D01, D03]"
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Pricing power lost to competing card networks or merchant resistance to fee structures",
+    "Management fails to divest remaining non-core conglomerate assets",
+    "Significant deterioration in credit quality of the cardholder base",
+    "Capital adequacy ratios fall below regulatory requirements"
+   ],
+   "berkshire_constraints": "Must maintain sufficient liquidity for insurance obligations; must avoid concentrated positions that cannot be exited without impacting market price [D07, D08].",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 5,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed in existing holdings or Berkshire stock buybacks if available, as the company remains in a turnaround phase [D07, D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "Buffett makes decisions on significant equity positions in recognizable consumer franchises within his circle of competence.",
+   "biggest_risk_in_one_sentence": "The turnaround execution fails to restore the franchise's historical pricing power and margins against growing competitive pressures."
+  }
+ },
+ "final": {
+  "as_of_date": "1994-08-01",
+  "company": "the Company (XXX)",
+  "ticker": "AXP",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B1"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "Normalised earnings approximated at $2.30 per share [D04]",
+   "initial_pretax_yield_pct": 8.68,
+   "intrinsic_value_range": "$25.00 - $30.00",
+   "expected_return_pct": 10,
+   "downside_case": "Failure to successfully refocus the conglomerate results in continued margin compression from competitive card networks; permanent loss is unlikely given the underlying franchise value."
+  },
+  "drivers": [
+   {
+    "driver": "The stock trades at $26.50 against an estimated intrinsic value of $25.00 to $30.00, providing insufficient margin of safety [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "While the travel-payments franchise has a durable moat, the company is still in the midst of a turnaround from being an unfocused conglomerate [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Capital is better deployed in our existing holdings or Berkshire stock buybacks, which offer higher certainty than this turnaround execution [D07, D08].",
+    "citations": [
+     "D07",
+     "D08"
+    ]
+   },
+   {
+    "driver": "The travel-related services segment demonstrates high returns on capital of 23.8%, yet the overall business remains burdened by organizational complexity [D06].",
+    "citations": [
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Pricing power lost to competing card networks or merchant resistance to fee structures",
+   "Management fails to divest remaining non-core conglomerate assets",
+   "Significant deterioration in credit quality of the cardholder base",
+   "Capital adequacy ratios fall below regulatory requirements"
+  ],
+  "what_would_change_our_mind": "A significant reduction in price providing a wider margin of safety, or evidence that the divestiture of non-core assets is substantially complete and margin growth is accelerating.",
+  "memo": "The Company operates a core travel-payments franchise connecting cardholders and merchants, a business model that is long-standing and easy to understand [D01]. We have long admired the utility the brand provides to its 3.7 million merchant locations [D01, D03].\n\nThe travel-related services segment currently maintains a 23.8% return on equity, reflecting the significant power of the payments network [D06]. While competitive pressures exist, the core business remains a strong franchise [D01, D06].\n\nLeadership is currently focused on divesting non-core conglomerate assets to return the business to its roots [D01, D03]. We trust management to execute this refocusing, though it is a process that takes time [D03].\n\nCurrently, the market values the company at $26.50, which is roughly fair value compared to our intrinsic value estimate of $25.00 to $30.00 [D04]. With only a limited margin of safety, we find the opportunity lacks the compelling upside we require [D04].\n\nCapital is better deployed in existing holdings or Berkshire stock buybacks, where we see more certainty in the outcome [D07, D08]. We will continue to watch the execution of the turnaround, but we pass on initiating a new position at this price [D04, D08].",
+  "uncited_claims": []
+ }
+}

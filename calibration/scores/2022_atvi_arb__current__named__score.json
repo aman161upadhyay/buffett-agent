@@ -1,0 +1,48 @@
+{
+ "trade_id": "2022_atvi_arb",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "The spread to the $95 cash consideration created a workout opportunity. → We view this as a straightforward arbitrage opportunity that serves as an attractive alternative to holding short-term cash instruments.",
+   "Completion probability, including government intervention, had to justify the downside risk. → The market is currently pricing the stock at $81.50, reflecting a discount driven by skepticism regarding regulatory approval."
+  ],
+  "missed": [
+   "Buffett personally made the arbitrage decision, distinct from the deputy's pre-bid purchase."
+  ],
+  "extra_agent_drivers": [
+   "Activision maintains a strong financial position, with $10.42bn in cash against $3.61bn in debt, providing a safety cushion should the transaction face unforeseen complications.",
+   "The transaction is a simple cash-for-stock exchange, eliminating the uncertainty of valuing fluctuating acquirer-stock currency."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Activision maintains a strong financial position, with $10.42bn in cash against $3.61bn in debt",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Microsoft has agreed to acquire all outstanding shares of Activision for $95 in cash",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 4,
+  "share": 0.36
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We view this as a straightforward arbitrage opportunity that serves as an attractive alternative to holding short-term cash instruments.",
+ "grader_notes": "The agent correctly identifies the merger arbitrage nature of the trade and the role of the regulatory spread in Buffett's thesis. However, the agent's sizing (3%) is materially different from the high-conviction (~9.5%) approach Buffett eventually took. The reasoning misses the explicit personal involvement of Buffett as the decision-maker versus the prior deputy accumulation.",
+ "run": "2022_atvi_arb__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

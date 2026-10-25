@@ -1,0 +1,260 @@
+{
+ "pack": "2022_oxy_common_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2022-02-28",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a US-centered oil and gas producer with interests in chemicals and midstream assets [D01]. It is the largest acreage holder in the Permian Basin and operates segments including upstream production, chemicals, and midstream [D01].",
+   "products_customers_and_why_they_buy": [
+    "Produces crude oil, natural gas, and natural gas liquids [D01].",
+    "The chemicals segment is the largest US merchant producer of chlorine and caustic soda [D01].",
+    "Specific customer-retention or loyalty evidence is not in pack [D01]."
+   ],
+   "economics": [
+    "Cash flow breaks even at approximately $40 WTI [D01].",
+    "Permian well costs fell ~30% from 2019 to 2021 [D01].",
+    "2021 EBIT margin was 20.5% [D02].",
+    "Sustaining capital is approximately $3.9 billion for 2022 [D01]."
+   ],
+   "earnings_record": [
+    "Net income (USD billions): 2017: 1.31; 2018: 4.13; 2019: -0.99; 2020: -14.83; 2021: 2.32 [D02].",
+    "Results have been impacted by 2019 acquisitions and 2020 impairments [D02]."
+   ],
+   "competitive_position": [
+    "Largest acreage holder in the Permian Basin (2.8 million net acres) [D01].",
+    "Reserve replacement ratio above 100% at year-end 2021 [D01].",
+    "Competitive advantages compared to peers are not explicitly quantified in pack [D01, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Total debt $29.0 billion at year-end 2021, with a goal to reduce toward $20 billion [D01, D04].",
+    "Existing preferred capital of $10 billion [D04].",
+    "Capital allocation priority: (1) debt reduction, (2) dividends and buybacks, (3) modest production growth [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Management states intent to avoid 'growing for growth's sake' [D01].",
+    "Dividends raised from $0.01 to $0.13 per quarter [D01].",
+    "Insider ownership and specific executive tenure details are not in pack."
+   ],
+   "price_and_valuation": [
+    "Price $43.73 per share as of 2022-02-28 [D04].",
+    "Market cap approximately $40.84 billion [D04].",
+    "Trailing P/E 27.7x [D04].",
+    "EV/EBITDA approximately 5.6x [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 3.61,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 18.5,
+    "dividend_yield": 1.19,
+    "long_bond_yield": 1.83,
+    "basis": "Trailing earnings yield from [D04]. FCF yield (18.5%) based on cash-statement FCF of $7.56bn [D04]. Dividend yield based on $0.13 quarterly run rate [D04]. Long bond yield from [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Temporary nature of war-related oil price strength [D05].",
+    "Financial leverage [D05].",
+    "Potential for uneconomic drilling or acquisitions at high prices [D05].",
+    "Preferred claims consuming cash before common holders [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2022-02-24: Released FY2021 earnings and updated capital allocation framework [D01, D03]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds existing preferred and warrants in the issuer [D08].",
+    "Berkshire reported ~$146.7 billion in cash and short-term Treasuries at year-end 2021 [D08]."
+   ],
+   "document_conflicts": [
+    "Free cash flow: $8.809 billion (company-defined) vs. $7.56 billion (cash-flow statement) [D02, D04]."
+   ],
+   "missing_data": [
+    "Consistent FY2017–2021 return-on-tangible-capital series [D02].",
+    "Forward P/E consensus [D04].",
+    "Specific customer-retention/pricing power evidence [D01]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The company operates as a large-scale oil and gas producer in the Permian Basin, a business model well within our circle of competence [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "As a large-scale, low-cost Permian producer, the company benefits from competitive resource economics and significant acreage [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "Net income has been highly volatile, including large losses in 2019 and 2020 due to impairments and acquisition-related costs [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company carries $29 billion in debt and $10 billion in preferred equity, with a stated priority to pay down debt [D01, D04]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "The company is a low-cost, Permian-class resource holder with a free-cash-flow yield of 18.5%, significantly exceeding the 10-15% threshold [D01, D04]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "Management has established a clear, rational capital allocation framework prioritizing debt reduction over uneconomic growth [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of approximately $40.8 billion, this investment is large enough to move the needle for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The free-cash-flow yield of 18.5% is highly attractive compared to the long bond yield of 1.83% [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "Free cash flow: Relied on $7.56 billion from the cash-flow statement [D04] as it represents actual cash generation rather than the company's adjusted definition [D02]."
+   ],
+   "n_pass": 6,
+   "n_fail": 2,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a large-scale, low-cost oil and gas producer with strong free-cash-flow generation potential."
+  },
+  "gate2": {
+   "templates": [
+    "B3"
+   ],
+   "why_available": "The market remains skeptical of the company's high leverage and cyclical history, leading to a valuation that ignores the significant free cash flow yield and management's disciplined shift toward debt reduction [D01, D04]. Because Berkshire already holds preferred equity and warrants, we can use our capital and reputation to expedite the company's deleveraging, securing our position as the partner of choice while the market focuses on short-term commodity price volatility [D05, D08].",
+   "evidence": [
+    "Free cash flow yield of 18.5% significantly exceeds the long bond yield [D04].",
+    "Management explicitly prioritizing debt reduction toward $20 billion over uneconomic growth [D01].",
+    "Existing Berkshire footprint via preferred and warrant holdings [D08]."
+   ],
+   "market_narrative_we_disagree_with": "The market views the current cash generation as a temporary windfall due to oil prices and remains overly concerned with historical impairments and capital structure complexity [D02, D05].",
+   "what_must_be_true": [
+    "Management adheres to the stated capital allocation priority of debt reduction.",
+    "Oil prices remain above the $40 WTI break-even level.",
+    "The company avoids value-destructive acquisitions."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "7.56 billion FCF / 934 million shares = 8.09 [D04]",
+   "initial_pretax_yield_pct": 18.5,
+   "intrinsic_value_range": {
+    "low": "70.00",
+    "high": "90.00",
+    "key_assumptions": [
+     "Sustainable FCF at $40+ WTI [D01]",
+     "Management achieves $20B debt target [D01]",
+     "Maintenance capex of $3.9B [D01]"
+    ],
+    "discount_rate_used": "1.83% long bond yield [D04]"
+   },
+   "price_vs_value": "Price $43.73 is ~62% of low-end intrinsic value; strong margin of safety.",
+   "expected_return_pct": {
+    "base": 15,
+    "bear": 5,
+    "bull": 25
+   },
+   "alternatives": "Existing holdings or Berkshire buyback — this position offers higher cash yield than treasuries [D04, D08]",
+   "downside_case": "Permanent loss unlikely if WTI remains above $40 break-even; downside limited to operational impairment if commodity prices collapse.",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Normalized earnings yield assumed to align with FCF yield due to cyclical volatility not in pack."
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital [D04, D08]",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Debt reduction and deleveraging to reach the $20 billion target [D01]",
+    "Sustainable generation of free cash flow above $40 WTI [D01]",
+    "Capital allocation toward dividends and buybacks following debt reduction [D01]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000-2015 and subsequent eras, we deploy capital into businesses with strong cash-generating capabilities at scale; given our existing position in preferred equity and warrants, we act as a patient, long-term holder to support management's rational capital allocation and debt reduction goals [D01, D04, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "WTI oil prices fall and remain below the $40/bbl break-even level [D01].",
+    "Management deviates from the capital allocation priority of debt reduction [D01].",
+    "Company engages in value-destructive, high-priced acquisitions [D01].",
+    "Pricing power is lost due to shifts in global energy commodity supply/demand dynamics [D01]."
+   ],
+   "berkshire_constraints": "Maintain liquidity to support preferred equity obligations and capital allocation discipline; comply with SEC ownership disclosure requirements [D08].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 15,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital could be deployed into existing core holdings with more predictable long-term earnings or Berkshire common stock buybacks [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "Buffett is responsible for this investment due to the substantial scale, the existing relationship through preferred shares and warrants, and the requirement for a long-term, owner-oriented capital allocation strategy [D04, D08].",
+   "biggest_risk_in_one_sentence": "A sustained collapse in energy commodity prices below the company's break-even point would impair cash generation and threaten the deleveraging thesis [D01]."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-02-28",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 10,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B3"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "7.56 billion FCF based on 2021 cash flow [D04]",
+   "initial_pretax_yield_pct": 18.5,
+   "intrinsic_value_range": "70.00 - 90.00",
+   "expected_return_pct": 15,
+   "downside_case": "Permanent loss unlikely if WTI remains above $40 break-even; downside limited to operational impairment if commodity prices collapse [D01]."
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at a free-cash-flow yield of 18.5% against a long bond yield of 1.83% [D04]."
+   },
+   {
+    "driver": "As the largest acreage holder in the Permian Basin, the company benefits from significant scale and falling production costs [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Management has implemented a disciplined capital allocation framework that prioritizes debt reduction toward a $20 billion target over uneconomic growth [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Our existing relationship through preferred equity and warrants provides us with a unique vantage point and an edge in supporting the company's deleveraging [D08].",
+    "citations": [
+     "D08"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "WTI oil prices fall and remain below the $40/bbl break-even level [D01].",
+   "Management deviates from the capital allocation priority of debt reduction [D01].",
+   "Company engages in value-destructive, high-priced acquisitions [D01]."
+  ],
+  "what_would_change_our_mind": "A sustained collapse in energy commodity prices below the $40 break-even point or a management pivot toward value-destructive growth would force us to reconsider our position [D01].",
+  "memo": "We are initiating a position in the Company, a large-scale oil and gas producer centered in the Permian Basin [D01]. We understand this business well, as it is a core resource provider that remains an essential component of the American economy [D01].\n\nThe Company possesses the largest acreage footprint in the Permian, allowing for significant scale advantages as production costs have trended lower [D01]. While historical net income has been volatile due to past impairments, the business currently generates significant free cash flow, breaking even at approximately $40 WTI [D01, D02].\n\nManagement has demonstrated a commendable shift in capital allocation, prioritizing the reduction of total debt toward a $20 billion target over the pursuit of growth for growth's sake [D01]. We trust the current leadership to maintain this discipline, especially as they balance debt repayment with dividends and modest production growth [D01].\n\nThe market appears to focus on historical cyclicality and leverage concerns, ignoring the strength of the current free-cash-flow yield of 18.5% [D01, D04]. With the long bond yield at 1.83%, the current price offers a significant margin of safety relative to our estimate of intrinsic value [D04].\n\nOur holding serves as a permanent, passive investment in a business that rides a necessary long-term economic tailwind [D04, D08]. We are building this position toward 10% of our equity portfolio, mindful that our patience provides the edge needed to navigate commodity price cycles [D04, D08].",
+  "uncited_claims": []
+ }
+}

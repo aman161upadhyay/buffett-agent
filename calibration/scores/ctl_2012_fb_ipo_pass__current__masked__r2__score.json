@@ -1,0 +1,44 @@
+{
+ "trade_id": "ctl_2012_fb_ipo_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett declines new offerings because a well-informed seller chooses the timing and price; neither he nor Munger underwrote Facebook at its IPO valuation.",
+   "Buffett and Munger publicly said they would not buy the Facebook IPO at the May 5 meeting; contemporaneous May 6 coverage quotes the policy. No Facebook/Meta row in parent holdings census 2010–Q2 2026; not a claim about NEAM client portfolios.",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements; do not award reasoning-overlap credit for treating them as quotations."
+  ],
+  "extra_agent_drivers": [
+   "The company trades at an earnings yield of 0.96% based on a $104 billion valuation, which is wholly inadequate relative to our requirements [D02, D05].",
+   "We have no circle of competence in rapidly evolving digital advertising platforms where competitive moats are unproven [D05].",
+   "The business lacks a long-term, stable history of earnings and pricing power across multiple economic cycles [D06].",
+   "The dual-class governance structure centralizes control and creates risks for minority shareholders that we cannot mitigate [D01, D05]."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at an earnings yield of 0.96% based on a $104 billion valuation",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 5,
+  "share": 0.42
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Charlie and I have reviewed the offering for this social networking platform, and we have decided to stay on the sidelines.",
+ "grader_notes": "The agent correctly matched the decision to PASS, but failed to ground its reasoning in Buffett's stated policy of not participating in IPOs due to the information asymmetry of the seller. Instead, the agent fabricated a lengthy fundamental analysis using analyst-reconstructed metrics, which the answer key explicitly identifies as not constituting Buffett's authentic stated reasoning.",
+ "run": "ctl_2012_fb_ipo_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

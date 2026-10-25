@@ -1,0 +1,246 @@
+{
+ "pack": "2013_heinz_acq",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2013-02-13",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company sells branded packaged food internationally, with a central focus on sauces and established brands [D01]. The business includes a mix of developed-market franchises and emerging-market growth [D01].",
+   "products_customers_and_why_they_buy": [
+    "Branded packaged food and sauces; customers consist of international consumers making repeated small-ticket purchases [D01]. Evidence of loyalty is tied to distribution and established brands, though retailer shelf-space control and private label alternatives exist [D01, D02]."
+   ],
+   "economics": [
+    "Operating margins were 14.9% in 2010, 15.4% in 2011, and 12.5% in 2012 [D02]. Return on capital is influenced by commodity inflation, foreign exchange, and working-capital seasonality [D01]. Owner earnings require adjustments for maintenance capex (2012 capex $418.7m vs. depreciation $295.7m) [D02]."
+   ],
+   "earnings_record": [
+    "Revenue grew from $9.88bn in 2008 to $11.65bn in 2012 [D02]. Net income (continuing) was $846.6m (2008), $929.5m (2009), $914.5m (2010), $989.5m (2011), and $923.2m (2012) [D02]."
+   ],
+   "competitive_position": [
+    "The Company holds approximately 60% of the US market and its brands are ranked No. 1 or 2 in most categories in its markets [D09]. Moat is based on brand and distribution, but retailers retain significant negotiating power [D01, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Total debt was $5.03bn as of October 2012 [D04]. Under the proposed deal, leverage would rise to approximately 5x EBITDA at closing [D09]."
+   ],
+   "management_and_capital_allocation": [
+    "3G Capital (Jorge Paulo the Company, et al.) proposes to install its own CEO and apply zero-based budgeting, targeting operating margin improvements similar to their historical record at Burger King [D09]."
+   ],
+   "price_and_valuation": [
+    "Proposed acquisition price is $72.50 per share [D09]. Market capitalization (at $60.48/share) is $19.39bn [D04]. Trailing P/E is 19.38x [D04]. The proposal represents a 20% premium to the all-time high [D09]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 5.16,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 5.54,
+    "dividend_yield": 3.41,
+    "long_bond_yield": 2.05,
+    "basis": "Earnings/FCF yields from [D04]; long bond yield from [D04]; dividend yield from [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Private label competition and retailer bargaining power [D05].",
+    "Commodity input inflation and changing consumer tastes [D05].",
+    "Currency and execution risk in emerging markets [D05].",
+    "Vulnerability of brands if leveraged excessively [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Proposed $72.50/share acquisition [D09]. Berkshire to provide $12bn total: $4bn common equity and $8bn preferred stock with a 9% cumulative dividend and warrants for ~5% of common [D09]."
+   ],
+   "recent_events": [
+    "November 2012: Q2 FY2013 results reported organic growth; 30th consecutive quarter [D03].",
+    "December 2012: Discussions initiated between 3G Capital and Berkshire regarding acquisition [D09]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds roughly $47bn cash [D09] (metadata from 2011 report indicates $37.3bn [D08]). No existing stake in the Company [D08]."
+   ],
+   "document_conflicts": [
+    "Not in pack"
+   ],
+   "missing_data": [
+    "Exact maintenance capex (as opposed to reported capex), comprehensive normalized owner earnings, and final transaction details."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The company sells branded packaged food and sauces, a slow-changing product category with established consumer loyalty [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The company holds the No. 1 or No. 2 brand position in most categories, providing a strong competitive foundation despite retailer bargaining power [D01, D09]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "The company has demonstrated steady net income over the 2008-2012 period, including 30 consecutive quarters of organic growth [D02, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "While the core business is strong, the proposed transaction would increase leverage to approximately 5x EBITDA, masking the standalone debt profile [D09]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "Packaged food brands generally require manageable capital reinvestment compared to heavy industry, allowing for consistent cash generation [D01, D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "PASS",
+     "evidence": "3G Capital has a proven record of driving operational efficiency and margin improvement through zero-based budgeting [D09]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "A $12bn total investment is significant and capable of moving the needle for Berkshire [D09]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The terms, not the business, carry the investment via a 9% preferred dividend and warrants, which satisfy the requirement for a satisfactory return [D09]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 7,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": true,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "the terms, not the business, carry the investment: we are backing a proven food franchise with a high-coupon preferred instrument and warrants."
+  },
+  "gate2": {
+   "templates": [
+    "B11"
+   ],
+   "why_available": "The market views the food industry as facing margin pressure from private labels and retailer power, creating an opportunity for a private transaction [D01, D05]. We are participating as a financier in a structured deal, securing a 9% yield on preferred stock that provides safety, while using warrants to capture upside from 3G Capital's proven ability to improve margins through zero-based budgeting [D09].",
+   "evidence": [
+    "3G Capital has a proven record of driving operational efficiency and margin improvement [D09].",
+    "The deal provides an $8bn preferred stock investment with a 9% cumulative dividend [D09].",
+    "Berkshire receives warrants for approximately 5% of the common equity as a kicker [D09]."
+   ],
+   "market_narrative_we_disagree_with": "The market focuses on the limitations of mature food brands, such as retailer bargaining power and commodity inflation, leading to valuation stagnation [D05].",
+   "what_must_be_true": [
+    "3G Capital successfully applies their operational efficiency model to improve margins [D09].",
+    "The company's strong brand position and distribution network remain resilient to private label competition [D01].",
+    "The high leverage (5x EBITDA) does not impair the core business's ability to service the 9% preferred dividend [D09]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "negotiated_terms",
+   "owner_earnings_per_share": "Not in pack",
+   "initial_pretax_yield_pct": 9,
+   "intrinsic_value_range": {
+    "low": "Not in pack",
+    "high": "Not in pack",
+    "key_assumptions": [
+     "3G Capital operational improvement [D09]",
+     "Core business resilience [D01]"
+    ],
+    "discount_rate_used": "2.05% [D04]"
+   },
+   "price_vs_value": "Preferred stock at $8bn plus warrants is secured against the business enterprise value [D09]; superior to common equity risk.",
+   "expected_return_pct": {
+    "base": 9,
+    "bear": 0,
+    "bull": 12
+   },
+   "alternatives": "Long bonds at 2.05% or T-bills are inferior; the 9% preferred coupon provides a significant spread over the long bond [D04, D09].",
+   "downside_case": "Impairment of preferred dividend if 5x leverage prevents servicing; mitigated by senior position in the capital structure [D09].",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Maintenance capex estimated as equal to depreciation due to missing data [D02].",
+    "Intrinsic value of the common equity is not calculated, as this is a preferred financing deal [D09]."
+   ]
+  },
+  "gate4": {
+   "role": "R2",
+   "role_description": "Berkshire acts as a financier, providing capital via a preferred stock investment that carries a high coupon and warrants, offering a margin of safety and upside potential while 3G Capital manages the operations [D09].",
+   "horizon": "until conversion",
+   "value_realisation_path": [
+    "receipt of 9% cumulative dividends [D09]",
+    "potential conversion of warrants to common equity for long-term capital appreciation [D09]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000-2015 era, we frequently acted as a provider of capital to businesses, utilizing our significant cash position to secure attractive preferred returns with downside protection, often partnering with skilled managers to enhance value [D09]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "3G Capital fails to achieve margin expansion, preventing the deleveraging required to secure the business [D09]",
+    "Retailer bargaining power or private label penetration permanently impairs the pricing power of the core brands [D01, D05]",
+    "Leverage of 5x EBITDA proves unsustainable, resulting in a default or impairment of the preferred dividend [D09]",
+    "Commodity cost inflation exceeds the company's ability to raise prices, eroding the cash flows backing the preferred stock [D05]"
+   ],
+   "berkshire_constraints": "Cash position of roughly $47bn [D09] easily supports the $12bn total commitment while maintaining the required liquidity floor [D09].",
+   "size_pct_nav": {
+    "initial": 12000000000,
+    "target": 12000000000,
+    "max": 12000000000,
+    "basis": "dollars"
+   },
+   "opportunity_cost": "The 9% preferred yield significantly outperforms the 2.05% long-bond yield available in the market [D04, D09].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a negotiated deal providing preferred financing at scale, fitting the era's pattern of acting as a partner of choice for capital-intensive acquisitions.",
+   "biggest_risk_in_one_sentence": "The high leverage (5x EBITDA) required to execute the deal leaves little room for operational error if 3G Capital cannot improve margins as planned."
+  }
+ },
+ "final": {
+  "as_of_date": "2013-02-13",
+  "company": "H.J. Heinz Company",
+  "ticker": "HNZ",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 12000000000,
+  "size_basis": "cash",
+  "opportunity_template": [
+   "B11"
+  ],
+  "catalyst_role": "R2",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "Not in pack",
+   "initial_pretax_yield_pct": 9,
+   "intrinsic_value_range": "Not in pack",
+   "expected_return_pct": 9,
+   "downside_case": "Impairment of preferred dividend if 5x leverage prevents servicing, though senior position mitigates risk [D09]."
+  },
+  "drivers": [
+   {
+    "driver": "The $8bn preferred stock investment offers a 9% cumulative dividend yield, which is significantly superior to the 2.05% long-bond yield [D04, D09].",
+    "citations": [
+     "D04",
+     "D09"
+    ]
+   },
+   {
+    "driver": "We are partnering with 3G Capital, a manager with a proven record of driving operational efficiency through zero-based budgeting to enhance margins [D09].",
+    "citations": [
+     "D09"
+    ]
+   },
+   {
+    "driver": "The investment provides a durable competitive foundation, as the company holds the No. 1 or No. 2 brand position in most of its categories [D01, D09].",
+    "citations": [
+     "D01",
+     "D09"
+    ]
+   },
+   {
+    "driver": "Berkshire receives warrants for approximately 5% of the common equity, providing meaningful upside participation beyond the high-coupon preferred yield [D09].",
+    "citations": [
+     "D09"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "3G Capital fails to achieve margin expansion, preventing the deleveraging required to secure the business [D09]",
+   "Retailer bargaining power or private label penetration permanently impairs the pricing power of the core brands [D01, D05]",
+   "Leverage of 5x EBITDA proves unsustainable, resulting in a default or impairment of the preferred dividend [D09]",
+   "Commodity cost inflation exceeds the company's ability to raise prices, eroding the cash flows backing the preferred stock [D05]"
+  ],
+  "what_would_change_our_mind": "A failure in the core business resilience or a breakdown in 3G Capital’s ability to execute margin improvements would force us to re-evaluate our position [D01, D09].",
+  "memo": "Charlie and I are pleased to participate in the acquisition of H.J. Heinz, a business we have long admired for its enduring brand strength. The company sells branded packaged food globally, with a focus on sauces and iconic products that consumers have relied on for generations [D01]. We understand this business well, as it involves simple, repetitive consumer purchases that form the bedrock of a steady, understandable enterprise [D01].\n\nHeinz maintains the No. 1 or No. 2 brand position in most of its markets, providing a powerful moat despite the bargaining power held by large retailers [D01, D09]. While the food industry faces periodic commodity inflation and retailer pressure, the company has consistently demonstrated its ability to maintain its market standing, evidenced by 30 consecutive quarters of organic growth through late 2012 [D01, D03, D05].\n\nWe are backing 3G Capital, led by Jorge Paulo Lemann and his partners, who have an exceptional record of driving operational efficiency and improving margins through zero-based budgeting [D09]. Their ability to act as owners, rather than mere managers, gives us great confidence in the future profitability of the business [D09].\n\nThis investment is available to us because of the complex nature of the private transaction and the market’s focus on the near-term challenges of mature consumer brands [D01, D09]. We have stepped in as a financier, securing terms that provide a 9% cumulative dividend on our $8bn preferred investment [D09]. This yield is remarkably attractive compared to the 2.05% long-bond yield currently available in the marketplace, providing us with a significant margin of safety [D04, D09].\n\nWe are committing $12bn in total—$4bn in common equity and $8bn in preferred stock—which easily fits within our current cash position of approximately $47bn [D09]. The warrants we hold for 5% of the common equity serve as a kicker, allowing us to participate in the long-term appreciation of the brand as margins improve [D09]. While the 5x leverage is high, we are comfortable with our senior position in the capital structure and the quality of the underlying business [D09].",
+  "uncited_claims": []
+ }
+}

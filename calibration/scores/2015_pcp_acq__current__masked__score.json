@@ -1,0 +1,54 @@
+{
+ "trade_id": "2015_pcp_acq",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "PCC was an admired specialized manufacturing franchise. → We have long admired The Company for its formidable competitive position in the aerospace industry."
+  ],
+  "missed": [
+   "It was the aerospace industry's preferred supplier.",
+   "Its operating model and retained management fit permanent Berkshire ownership."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value comparison to long bond yield",
+   "Cyclical headwinds in energy/pipe segments",
+   "Return on tangible capital history"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "We have long admired The Company for its formidable competitive position",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The Company possesses a durable moat due to sole-source positions and high certification barriers",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Initial pre-tax earnings yield of 5-6% against a 2.18% long bond yield",
+    "citation": "D09",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 6,
+  "share": 0.46
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have long admired The Company for its formidable competitive position in the aerospace industry.",
+ "grader_notes": "The agent correctly identified the company as a high-quality, admired franchise. However, it failed to match the actual decision to acquire, instead choosing to pass due to rigid valuation thresholds and concerns about cyclical headwinds that Buffett did not cite as reasons to avoid the acquisition at the time.",
+ "run": "2015_pcp_acq__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,244 @@
+{
+ "pack": "ctl_2008_aig_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2008-09-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The group owns international property/casualty and life-insurance franchises, retirement products, and financial-service operations [D01]. It functions as a conglomerate containing both insurance businesses and opaque financial guarantees [D06].",
+   "products_customers_and_why_they_buy": [
+    "Insurance products and retirement/financial services for international customers [D01], [D06]."
+   ],
+   "economics": [
+    "Margins and returns are not normalized due to large-scale losses [D02]. Maintenance capex and working-capital requirements are not in pack. Pricing power is not explicitly detailed [D02]."
+   ],
+   "earnings_record": [
+    "Second-quarter net loss of $5.36 billion compared to $4.28 billion profit a year earlier [D01]. Six-month net loss of $13.16 billion [D01].",
+    "Adjusted quarterly net loss was $1.32 billion [D01]."
+   ],
+   "competitive_position": [
+    "The group owns valuable insurance franchises, but these are bundled with financial guarantees [D01]. No specific market share or rank provided [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "June 30 shareholders' equity was $78.09 billion and book value was $29.04 per share [D01]. Consolidated assets were $1.050 trillion [D01].",
+    "May capital raise of approximately $20 billion [D01]. Ultimate cash required in a collateral stress is not bounded by these figures [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Management's August review promises to examine every business, reduce risk, and protect capital [D01]. No specific CEO tenure or detailed capital allocation track record provided [D01]."
+   ],
+   "price_and_valuation": [
+    "Closing price as of 2008-09-15 was $4.76 [D04]. P/B is 0.164x based on stale June book value [D04]. P/E is not meaningful due to losses [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "Earnings-based multiples are not meaningful against the reported first-half loss [D02]. No normalized earnings or FCF yield provided [D02]."
+   },
+   "what_the_market_is_worried_about": [
+    "Liquidity call on a highly interconnected guarantee book [D05].",
+    "Ratings changes or collateral term adjustments requiring immediate cash [D05].",
+    "Unrealized derivative losses and realized investment impairments [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "May: $20 billion capital raise [D07].",
+    "August 6: Second-quarter results and business-review plans released [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire cash at Dec 2007 was $44.329 billion; equity securities $74.999 billion; float $58.698 billion [D08].",
+    "Any rescue would compete with existing commitments [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Current September 15 cash requirements, sustainable underwriting earnings, maintenance capex figures, and an executable subsidiary purchase price."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business is a complex conglomerate of insurance franchises bundled with opaque financial guarantees, making it impossible to confidently project its state in 10-20 years [D06]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While the group owns valuable insurance franchises, these are inseparable from financial guarantees, and no specific market share, rank, or pricing power data is provided [D01], [D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company reported a $13.16 billion net loss for the first six months, indicating a lack of consistent earnings [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company faces extreme capital stress, evidenced by a $20 billion capital raise in May and significant, ongoing liquidity concerns surrounding its guarantee book [D01], [D05], [D07]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is highly capital-intensive and currently dependent on external capital raises to meet collateral stresses [D01], [D05]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management is currently reviewing the business to reduce risk, but no track record or tenure information is available to judge their capital allocation history [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The company's size, given its $1.05 trillion in assets, is large enough to move the needle for Berkshire [D01]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "Earnings-based yields are not meaningful due to reported losses, and the current financial distress makes the price-to-book ratio unreliable [D02], [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 5,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a distressed financial institution with opaque guarantee risks and no reliable earnings record"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is pricing the shares at a steep discount to book value because of severe liquidity concerns and the threat of catastrophic capital depletion from opaque guarantee obligations [D01], [D05]. We see no reason to expect a bargain because the potential liabilities are unbounded and the underlying economics of the insurance franchises are inseparable from the high-risk financial guarantee business [D01], [D06].",
+   "evidence": [
+    "Six-month net loss of $13.16 billion [D01].",
+    "Ultimate cash required in a collateral stress is not bounded by balance sheet figures [D01].",
+    "The business is a complex conglomerate of insurance franchises bundled with opaque financial guarantees [D06]."
+   ],
+   "market_narrative_we_disagree_with": "The market may view the 0.164x price-to-book ratio as a statistical bargain, suggesting that the core insurance assets are undervalued relative to their liquidation potential [D04].",
+   "what_must_be_true": [
+    "The guarantee book must be ring-fenced to prevent it from draining the insurance franchises' capital.",
+    "The collateral calls must be finite and manageable relative to current liquidity.",
+    "The underlying insurance operations must be proven profitable independent of the financial services segment."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "market_stance",
+   "owner_earnings_per_share": "not in pack [D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "cannot be determined",
+    "high": "cannot be determined",
+    "key_assumptions": [
+     "The business is a complex conglomerate of insurance franchises bundled with opaque financial guarantees [D06]",
+     "Ultimate cash required in a collateral stress is not bounded by balance sheet figures [D01]"
+    ],
+    "discount_rate_used": "not applicable"
+   },
+   "price_vs_value": "price is 0.164x of stated book value, but intrinsic value is indeterminate due to potential liability [D01], [D04]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": -100,
+    "bull": 0
+   },
+   "alternatives": "T-bills or cash are vastly superior; the risk of permanent capital loss here is unquantifiable [D01], [D08]",
+   "downside_case": "The business faces a potential liquidity collapse and catastrophic capital depletion from opaque guarantee obligations; permanent loss is a high probability [D01], [D05]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Normalization of earnings is impossible due to lack of data on sustainable underwriting performance [D02]",
+    "No data exists to bound potential collateral calls or liabilities [D01]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital (default for marketable securities after 1980) [D01]",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "the company is deemed uninvestable due to unquantifiable risk of permanent capital loss; we are taking no action [D01], [D03]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000-2015 era, our default stance for marketable securities is a passive role, but given this business fails our investment criteria for understanding and safety, we are not participating [D01], [D03]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Liquidity collapse driven by unquantifiable collateral calls on the guarantee book [D01], [D05]",
+    "Catastrophic capital depletion rendering equity worthless [D01]",
+    "Inability to separate the core insurance franchises from high-risk, opaque financial obligations [D06]"
+   ],
+   "berkshire_constraints": "We maintain a cash floor to ensure we never rely on the kindness of strangers or external capital markets during market panics [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "T-bills or cash are vastly superior; the risk of permanent capital loss here is unquantifiable [D01], [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a distressed financial situation that fails our fundamental investment criteria for safety and understanding.",
+   "biggest_risk_in_one_sentence": "The opaque guarantee book creates potential liabilities that are not bounded by balance sheet figures, leading to a high probability of permanent capital loss [D01]."
+  }
+ },
+ "final": {
+  "as_of_date": "2008-09-15",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "cannot be determined",
+   "expected_return_pct": 0,
+   "downside_case": "Liquidity collapse and catastrophic capital depletion"
+  },
+  "drivers": [
+   {
+    "driver": "The business is a complex conglomerate of insurance franchises bundled with opaque financial guarantees, making it impossible to project its state [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "We have no way to bound the ultimate cash required in a collateral stress, rendering intrinsic value indeterminate [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The company reported a $13.16 billion net loss for the first six months, reflecting a lack of consistent earnings [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "We maintain a cash floor to ensure we never rely on the kindness of strangers, and this opportunity presents an unquantifiable risk of permanent capital loss [D01], [D08].",
+    "citations": [
+     "D01",
+     "D08"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Liquidity collapse driven by unquantifiable collateral calls on the guarantee book [D01], [D05]",
+   "Catastrophic capital depletion rendering equity worthless [D01]",
+   "Inability to separate the core insurance franchises from high-risk, opaque financial obligations [D06]"
+  ],
+  "what_would_change_our_mind": "A ring-fencing of the guarantee book that isolates the insurance franchises from unbounded collateral calls, paired with clear evidence of sustainable, standalone underwriting profitability.",
+  "memo": "We have reviewed this business and determined it sits firmly in our \"too hard\" pile. While the group possesses insurance operations, they are inextricably bundled with a portfolio of opaque financial guarantees that we cannot model or value with any degree of certainty [D01], [D06].\n\nTo own a business, we must be able to project its earnings and risks over a decade or more. Here, the company's own results show a $13.16 billion loss for the first half of the year, and its balance sheet is subject to collateral calls that are not bounded by its stated capital [D01]. Without the ability to quantify these potential liabilities, we cannot determine an intrinsic value [D01].\n\nWe do not engage in activities where the risk of permanent capital loss is unquantifiable, nor do we attempt to guess the outcome of liquidity crises [D01], [D08]. Our standard remains to buy businesses we understand, with predictable economics, and at this time, we prefer to hold cash rather than participate in this uncertainty [D01], [D08].",
+  "uncited_claims": []
+ }
+}

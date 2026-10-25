@@ -1,0 +1,22 @@
+{
+  "id": "2020_wfc_sell",
+  "company": "Wells Fargo & Company",
+  "ticker": "WFC",
+  "aliases": [
+    "Wells Fargo & Company",
+    "WFC",
+    "Wells Fargo",
+    "Wachovia",
+    "Norwest",
+    "Wells Fargo Bank",
+    "Wells Fargo Advisors",
+    "Wells Fargo Securities"
+  ],
+  "as_of_date": "2020-11-01",
+  "mode": "existing",
+  "era": "D",
+  "first_action_window": "2020 reductions through Q1 2022 final exit",
+  "fund_aum_usd_bn": 146.6,
+  "decider": "Buffett",
+  "notes": "Requested SELL/TRIM encoded SELL for full exit episode; intermediate TRIM is defensible. Culture comments are authentic but not a verified explanation of each execution. Two drivers only rather than invent three. Public September stake reduction sourced in research notes. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated."
+}

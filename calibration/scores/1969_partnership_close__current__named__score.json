@@ -1,0 +1,49 @@
+{
+ "trade_id": "1969_partnership_close",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Quantitative opportunities had largely disappeared at the capital scale now required. → We are currently seeing a narrowing supply of quantitative bargains, and the few situations that do appear are often too small to make a meaningful difference for our $100 million asset base.",
+   "Buffett would not play an unfamiliar speculative game merely to preserve his record. → We have no interest in adopting fashionable, speculative methods just to remain fully invested, as we are unwilling to risk our partners' capital or our reputation on strategies outside our circle of competence."
+  ],
+  "missed": [
+   "The attempt to reduce effort without stopping had failed.",
+   "He refused to grope for luck with partners' money."
+  ],
+  "extra_agent_drivers": [
+   "Earnings yield vs Bond yield comparison",
+   "Unsatisfactory workout experience"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The broad-market earnings yield of 5.75% is less attractive than the 6.56% yield on the 10-year Treasury bond [D04].",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "No specific businesses identified that meet the $3 million minimum commitment scale [D03, D04]",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 5,
+  "share": 0.71
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are considering returning capital to our partners rather than forcing investments into mediocre securities, as we believe that patience in holding cash is superior to accepting subpar returns in an overpriced market [D03, D05].",
+ "grader_notes": "The agent correctly identifies the scarcity of opportunities and the refusal to engage in speculative play, but misses the core psychological and operational impetus behind the wind-down: that attempting to 'slow down' or 'manage' the partnership at this scale was fundamentally failing. The agent pivots to a macro/valuation-driven HOLD_CASH stance rather than the partnership liquidation decision required by the key.",
+ "run": "1969_partnership_close__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "SELL_DOWN",
+ "agent_decision": "HOLD_CASH",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

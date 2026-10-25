@@ -1,0 +1,15 @@
+Title: US equity market / Buffett Partnership — Investor's capital and constraints
+Source: Buffett Partnership correspondence through May 29, 1969; factual opportunity-set reconstruction with the day's disposition and instructions withheld; https://focusedcompounding.com/wp-content/uploads/2018/04/Complete_Buffett_partnership_letters-1957-70.pdf
+Date: 1969-05-29
+
+## Cutoff evidence — reconstructed
+
+The Partnership is a private managed pool rather than an insurance holding company with permanent capital. Its approximately $100 million asset base belongs to partners with differing preferences. Berkshire and Diversified Retailing exposures involve controlled businesses and practical distribution questions; they are not necessarily interchangeable with freely traded securities. Buffett's managerial effort and wish to reduce the competitive burden are part of the pre-disposition facts. Exact current cash and individual partner tax consequences are not available in the recovered record. A fund-level choice may involve returning capital without condemning every underlying business, and may leave residual assets requiring patient administration.
+
+## Economic reading of the supplied facts
+
+Portfolio economics: aggregate stock ownership is a claim on business earnings, not a claim on the path of a market index. Dividends distribute part of those earnings; retained earnings add value only if employed productively. Interest rates affect the present value of both equities and bonds. An investor who sells one financial asset must still decide what to hold instead. Cash avoids duration and business risk but is exposed to inflation and the opportunity cost of missed investments. Market averages can obscure large differences among individual businesses. Comparing aggregate prices with book value or profits is a valuation exercise, not a mechanism for forecasting next month's quotation. The financial comparisons below are conditional on earnings durability and the stated measurement dates.
+
+Capital-allocation interpretation: a portfolio allocation must fit the legal entity that supplies the money. An insurance subsidiary's invested assets are not all cash available for an acquisition. Premiums collected before claims are paid provide investment funds but also create obligations. Consolidated equity, publicly traded holdings, cash and insurance float are different denominators.
+
+No target weight follows mechanically from the fund-size reference. Available cash at this exact cutoff, where unrecovered, remains unknown rather than being equated with the reference figure. Existing concentrated holdings create opportunity costs; selling them may incur tax and surrender durable earning power. A commitment involving stock also transfers a continuing fraction of the buyer's future economics. The investor has no obligation to purchase simply to remain fully invested. Conversely, waiting has a cost when a sound business is offered below conservative value. This context describes available choices and constraints without specifying an allocation or revealing a decision.

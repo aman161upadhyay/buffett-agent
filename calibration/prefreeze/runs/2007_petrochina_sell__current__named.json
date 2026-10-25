@@ -1,0 +1,47 @@
+{
+ "pack": "2007_petrochina_sell",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2007-07-12",
+ "stages": {},
+ "final": {
+  "as_of_date": "2007-07-12",
+  "company": "PetroChina Company Limited",
+  "ticker": "0857.HK",
+  "decision": "SELL",
+  "reason_class": "S2",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Original thesis: bought as a price-to-value gap at a low price relative to earning assets [D04], [D07].",
+   "Current status: thesis gap has closed; the oil price and market value have caught up with our estimate of intrinsic value [D04], [D05]."
+  ],
+  "price_vs_value_now": "The stock trades at approximately 14.53x P/E with a 3.11% dividend yield, reflecting a valuation that has matured significantly since the 2002-03 purchase [D04], [D07].",
+  "after_tax_hurdle": "Selling will trigger a capital gains tax liability based on the difference between the current market value and the $488 million cost basis; however, given the gap to value has closed, the current holding no longer offers the required margin of safety [D04], [D07], [D08].",
+  "drivers": [
+   {
+    "driver": "The valuation gap has closed, as the market price has risen to reflect the company's earning power and commodity tailwinds [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "As a non-permanent holding bought on a price-to-value gap, the business is no longer priced at a sufficient discount to intrinsic value [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Capital allocation priorities favor deploying funds into opportunities with greater prospective margins of safety rather than holding a commodity producer at full valuation [D04], [D08].",
+    "citations": [
+     "D04",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "We purchased our stake in PetroChina in 2002 and 2003 because we were able to buy a significant interest in a large, integrated producer at a price that represented a substantial discount to the underlying value of its assets [D07]. Our original thesis was based on a price-to-value gap, not on the expectation of holding a permanent franchise [D04]. \n\nToday, the circumstances have changed. The oil price and the company's market value have risen considerably, catching up with our appraisal of intrinsic value [D04], [D05]. At current market prices, the stock no longer offers the margin of safety we require to justify continuing our investment [D04]. \n\nWe do not hold non-permanent, commodity-based positions once the market price reaches our estimate of intrinsic value [D04]. While we acknowledge the company's record profitability in recent years, we must weigh the current earning power against the tax cost of selling and the opportunity cost of redeploying that capital [D03], [D08]. Consequently, we have determined that selling our position is the appropriate course of action to lock in the gains achieved and redirect our capital toward more attractive opportunities [D04], [D08].",
+  "uncited_claims": []
+ }
+}

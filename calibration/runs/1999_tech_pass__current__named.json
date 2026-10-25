@@ -1,0 +1,259 @@
+{
+ "pack": "1999_tech_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "1999-03-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Microsoft sells widely used personal-computer operating systems and application software [D01]. The company benefits from a model with low physical reproduction costs, high profitability, and a platform protected by user familiarity, compatible applications, and developer support [D01, D05].",
+   "products_customers_and_why_they_buy": [
+    "Windows and Office: sold to PC users; customers buy based on installed base, compatibility, and application availability [D01]"
+   ],
+   "economics": [
+    "High profitability and low physical reproduction costs [D01, D05]",
+    "FY1998 operating margin was 44.3% [D02]",
+    "FY1998 net margin was 31.0% [D02]",
+    "FY1998 return on average total equity was 32.8% [D02]",
+    "Capital intensity: involves substantial development and selling expense [D01, D05]"
+   ],
+   "earnings_record": [
+    "FY1994–1998 revenue growth from $4.649B to $14.484B [D02]",
+    "FY1994–1998 net income growth from $1.146B to $4.490B [D02]",
+    "FY1999 Q2 revenue +37.6% and net income +75.2% year-over-year [D03]"
+   ],
+   "competitive_position": [
+    "Entrenched platform based on Windows and Office [D01]",
+    "Advantages (compatibility, familiarity) are not guaranteed against changes in computing architecture, distribution, or legal limits on business practices [D05, D06]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Strong balance sheet with no interest-bearing borrowings [D02]",
+    "FY1998 cash and short-term investments: $13.927 billion [D02]"
+   ],
+   "management_and_capital_allocation": [
+    "Bill Gates leads the organization [D01]",
+    "Common cash dividends are zero; FY1998 preferred dividends were $28 million [D02]",
+    "Stock-option tax benefits are significant ($1.553B in FY1998), suggesting reliance on stock-based compensation [D02]"
+   ],
+   "price_and_valuation": [
+    "Common stock close: $151.75 (March 1, 1999) [D04]",
+    "P/FY1998 diluted EPS: 90.87x [D04]",
+    "Market cap: $374.82 billion (using FY1998 share count) [D04]",
+    "P/FY1998 common book: 23.96x [D04]"
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 1.1,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 1.66,
+    "dividend_yield": 0,
+    "long_bond_yield": 5.4,
+    "basis": "Trailing earnings yield 1.10% is the inverse of the 90.87x P/E [D04]. FCF yield 1.66% calculated as FY1998 OCF-capex ($6.224B) / equity-value sensitivity ($374.82B) [D04]. US 10-year Treasury at 5.40% [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Federal antitrust trial and potential legal restrictions [D05, D07]",
+    "Long-term threat from Internet distribution and new computing architectures [D05]",
+    "Competition and sustainability of high margins [D05]"
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "January 19, 1999: Announcement of record quarterly revenue and income [D03]",
+    "October 1998: Federal antitrust trial began [D07]"
+   ],
+   "berkshire_context": [
+    "Berkshire held $15 billion in cash and equivalents at year-end 1998 [D08]",
+    "The idea of an entrenched platform is noted, but the investor must distinguish current utility from future cash flow predictability [D01, D08]"
+   ],
+   "document_conflicts": [
+    "Peer multiples in D04/D06 rely on mixed-date data and are not reconciled to current market or standardized periods [D04, D06]"
+   ],
+   "missing_data": [
+    "Current diluted share count",
+    "Stock-compensation-adjusted owner earnings",
+    "Full fiscal year 1999 results"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "UNSURE",
+     "evidence": "While the current platform is entrenched, the business faces significant uncertainty regarding long-term computing architectures and Internet distribution [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The business benefits from strong network effects via user familiarity and developer support, creating high switching costs [D01, D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Revenue and net income have shown strong, consistent growth from 1994 through 1998 [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong balance sheet with no interest-bearing debt and a high return on equity of 32.8% in FY1998 [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "The model has low physical reproduction costs and high profitability despite ongoing development expenses [D01, D05]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management's heavy reliance on stock-option compensation, which is not treated as a cash expense in standard earnings, raises questions about owner-minded accounting [D02]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market cap of $374.82 billion, the company is sufficiently large to move the needle for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "The trailing earnings yield of 1.1% is significantly below the 10% threshold and substantially lower than the 5.4% long bond yield [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "Peer multiples in D04/D06 rely on mixed-date data; excluded from analysis in favor of standardized FY1998 data in D02/D04."
+   ],
+   "n_pass": 5,
+   "n_fail": 1,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a powerful software platform with high returns on capital and no debt, but currently priced at a valuation that offers no margin of safety."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market currently assigns a 90.87x P/E ratio to the company, driven by extreme growth expectations that dwarf the business's current earnings power [D04]. The price far exceeds a conservative estimate of intrinsic value, and there is no evidence of a transient crisis that would justify a discount [D04, D08].",
+   "evidence": [
+    "Trailing earnings yield of 1.1% is far below the 5.4% long bond yield [D04].",
+    "Market capitalization of $374.82 billion reflects optimistic future growth assumptions [D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market implicitly assumes that current high growth rates will continue indefinitely and that the company will successfully navigate all future technological and regulatory challenges without margin erosion [D05].",
+   "what_must_be_true": [
+    "Significant, sustained growth in cash earnings to justify the current valuation.",
+    "Successful navigation of federal antitrust litigation without material impact on the core platform's profitability.",
+    "Continued relevance of the current operating system architecture in the face of Internet distribution shifts."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "Not in pack (Requires adjustment for stock-based compensation [D02])",
+   "initial_pretax_yield_pct": 1.66,
+   "intrinsic_value_range": {
+    "low": "Not in pack",
+    "high": "Not in pack",
+    "key_assumptions": [
+     "Market cap $374.82B [D04]",
+     "FCF $6.224B [D04]",
+     "10-year Treasury 5.40% [D04]"
+    ],
+    "discount_rate_used": "5.40% [D04]"
+   },
+   "price_vs_value": "Price far exceeds conservative intrinsic value; negligible margin of safety [D04]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Long bonds at 5.4% [D04] or holding cash [D08] are superior given current valuations.",
+   "downside_case": "Permanent loss of capital risk due to extreme valuation multiples and antitrust uncertainties [D04, D05].",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Owner earnings per share calculation is not possible without full stock-compensation adjustment data [D02, missing_data].",
+    "Assumed FCF calculation as proxy for owner earnings [D04]."
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Compounding of owner earnings and future share repurchases [D02, D08]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in this era, we act as permanent owners of the businesses we hold, trusting in their long-term economic franchise rather than seeking short-term catalysts [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Antitrust rulings resulting in structural break-up or severe constraints on bundling practices [D05, D07]",
+    "Shift in industry architecture rendering the Windows/Office platform legacy [D05]",
+    "Management dilution of shareholder interest through excessive stock-based compensation [D02]"
+   ],
+   "berkshire_constraints": "Must maintain liquidity and capital for existing insurance commitments; reputation risk from owning a company under active federal antitrust litigation [D05, D08]",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Long-term Treasury bonds yield 5.4% with near-zero risk, far exceeding the 1.1-1.66% yield provided by the business at current prices [D04]",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The decision to avoid an overpriced technology company despite its quality fits within my established process of refusing to overpay for even a wonderful business.",
+   "biggest_risk_in_one_sentence": "The price of the security currently embeds extreme growth expectations that leave no margin of safety against regulatory, technological, or competitive disruption [D04, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "1999-03-01",
+  "company": "Microsoft Corporation",
+  "ticker": "MSFT",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "Not in pack",
+   "initial_pretax_yield_pct": 1.66,
+   "intrinsic_value_range": "Not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Significant capital impairment due to extreme valuation and regulatory risk [D04, D05]"
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at a P/E of 90.87x, offering an initial pre-tax FCF yield of 1.66% against 5.4% on long-term Treasury bonds [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "While Microsoft possesses a powerful software platform with high returns on capital and no debt, the current market valuation offers no margin of safety [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The business faces significant uncertainty regarding long-term computing architectures and Internet distribution, yet the price implies perfect, indefinite growth [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Active federal antitrust litigation creates a risk of structural intervention or severe constraints on bundling practices that could impair the franchise [D05, D07].",
+    "citations": [
+     "D05",
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Antitrust rulings resulting in structural break-up or severe constraints on bundling practices [D05, D07]",
+   "Shift in industry architecture rendering the Windows/Office platform legacy [D05]",
+   "Management dilution of shareholder interest through excessive stock-based compensation [D02]"
+  ],
+  "what_would_change_our_mind": "A dramatic contraction in the valuation multiple relative to the company's owner earnings, combined with clarity on the regulatory and technological landscape, would be required to consider a position.",
+  "memo": "Microsoft is a remarkable business that has built an entrenched platform via its Windows and Office products [D01]. We understand the model, which leverages high switching costs and user familiarity to generate substantial profitability [D01, D05].\n\nThe economics of the business are undeniably strong, characterized by high returns on equity, which reached 32.8% in fiscal 1998, and a balance sheet devoid of interest-bearing debt [D02]. However, the heavy reliance on stock-based compensation complicates our assessment of true owner earnings [D02].\n\nAt a market capitalization of $374.82 billion, the company is priced for perfection, trading at over 90 times earnings [D04]. Mr. Market is currently gripped by an extreme growth narrative that leaves absolutely no margin of safety for the investor [D04, D05].\n\nWhen we can earn 5.4% in risk-free long-term bonds, buying a business at an initial pre-tax yield of 1.66% is not an intelligent use of capital [D04]. We prefer to hold cash rather than pay such a steep premium, especially while the company faces material threats from antitrust litigation and shifting industry architectures [D04, D05, D08].",
+  "uncited_claims": []
+ }
+}

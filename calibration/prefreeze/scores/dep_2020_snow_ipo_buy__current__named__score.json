@@ -1,0 +1,48 @@
+{
+ "trade_id": "dep_2020_snow_ipo_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "BUY as a deputy-controlled IPO/private-placement allocation. Todd Combs is the named executing investment officer; do not attribute an unexplained Buffett IPO-policy reversal or software thesis to Buffett.",
+   "SEC purchase agreement dated September 7 and filed September 8 is signed by Todd A. Combs, Investment Officer. It documents execution authority, not a valuation thesis. Final $120 pricing and Q3 parent 13F verify 6,125,376 shares, combining $250M private placement and 4,042,043 secondary shares.",
+   "The signed agreement identifies Combs as Investment Officer; no public own-words valuation or growth thesis was located, so those analyst bull arguments must not be scored as manager-stated drivers."
+  ],
+  "extra_agent_drivers": [
+   "The business lacks a consistent record of profitability and reports material net losses.",
+   "The company relies on cloud infrastructure providers that are also its direct competitors, creating a precarious competitive position.",
+   "The capital-intensive nature of the business, combined with a lack of ownable infrastructure, fails our requirement for durable, high-return economics.",
+   "The dual-class share structure raises concerns regarding the alignment of management with minority shareholders.",
+   "The business does not meet our requirement for a 10% pre-tax owner earnings yield, as it is currently loss-making."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Snowflake reports material net losses, including a loss of $348.5 million in the last fiscal year",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "At an IPO price of $120 per share, the valuation is disconnected from any fundamental owner earnings",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 4,
+  "share": 0.36
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "Consequently, we have placed this opportunity in our \"too hard\" pile and will pass on the offering [D08].",
+ "grader_notes": "The agent failed to identify this as a deputy-led allocation executed by Todd Combs, instead treating it as a traditional investment thesis exercise. By performing a fundamental valuation analysis and rejecting the investment, the agent arrived at the opposite direction of the actual Berkshire Hathaway purchase.",
+ "run": "dep_2020_snow_ipo_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS"
+}

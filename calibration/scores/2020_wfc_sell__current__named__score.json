@@ -1,0 +1,53 @@
+{
+ "trade_id": "2020_wfc_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 2,
+  "matched": [],
+  "missed": [
+   "Buffett criticized the incentive system and delayed response to misconduct.",
+   "The failure to address known problems was more serious than the first error."
+  ],
+  "extra_agent_drivers": [
+   "Persistent regulatory asset caps and high remediation expenses have structurally impaired the bank's earning power.",
+   "The future of the business has become unknowable, as trust repair and culture reform are expensive and uncertain.",
+   "Better capital allocation opportunities exist within the broader financial sector and Berkshire's portfolio.",
+   "The institutional culture and sales-practices failures have fundamentally damaged the competitive advantage that originally justified the investment."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The events that have come to light at Wells Fargo since 2016 demonstrate a profound institutional failure that is not easily fixed",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The asset growth restriction imposed by the Federal Reserve remains binding",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Market cap $88.6bn",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 8,
+  "share": 0.8
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We do not wait for a full recovery when the underlying economic thesis has been broken by systemic issues [D01], [D05].",
+ "grader_notes": "The agent correctly matched the SELL decision and captured the general sentiment regarding the bank's cultural decay and institutional failures. However, the agent's reasoning was significantly more detailed and analytical than Buffett's own concise, high-level criticism of the incentive system and failure to respond to known issues. As a result, there was no direct overlap with the two specific drivers listed in the answer key.",
+ "run": "2020_wfc_sell__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "SELL",
+ "agent_decision": "SELL",
+ "key_driver_count": 2,
+ "reasoning_scorable": false
+}

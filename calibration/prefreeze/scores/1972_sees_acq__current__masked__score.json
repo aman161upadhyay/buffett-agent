@@ -1,0 +1,53 @@
+{
+ "trade_id": "1972_sees_acq",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "The brand provided durable competitive advantage and pricing power rather than merely cheap physical assets. → We believe the brand's pricing power and the company's established reputation are more than sufficient to absorb these pressures [D01, D06].",
+   "Earnings of about $2 million on $8 million tangible assets demonstrated economic goodwill. → Economically, the business is a standout, generating pretax earnings of approximately $4-4.2 million on a stable sales base of $29-30 million [D02, D03, D09].",
+   "Growth in earnings required relatively little incremental operating capital. → Like a well-tended garden, the business requires little further capital to maintain its yield, allowing us to harvest the cash flow for other needs [D02, D08]."
+  ],
+  "missed": [
+   "Paying for quality was justified even though the price exceeded Buffett's old tangible-asset anchor."
+  ],
+  "extra_agent_drivers": [
+   "Compelling acquisition price of 6.0-6.25x pretax earnings, providing a 16% pretax earnings yield [D04, D09]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company operates over 150 shops and has built a resilient brand name",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "generating pretax earnings of approximately $4-4.2 million",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "At a purchase price of $25 million, we are acquiring the business at roughly 6x pretax earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 4,
+  "share": 0.31
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Like a well-tended garden, the business requires little further capital to maintain its yield, allowing us to harvest the cash flow for other needs [D02, D08].",
+ "grader_notes": "The agent correctly identified the key economic drivers of See's Candies, specifically focusing on the brand's pricing power and the minimal capital requirements for growth. Reasoning is closest to Buffett's in its emphasis on the 'wonderful business' quality, though it relies more heavily on contemporaneous quantitative valuation metrics than the retrospective qualitative explanation provided in the answer key.",
+ "run": "1972_sees_acq__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

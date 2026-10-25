@@ -1,0 +1,54 @@
+{
+ "trade_id": "dep_2021_atvi_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "BUY by an unnamed deputy, not Buffett and not merger arbitrage.",
+   "Buffett's signed February 17, 2022 clarification: one of two independent investment managers bought about 85% in October, completed in November, average cost about $77; no prior knowledge of Microsoft's January proposal.",
+   "Buffett explicitly said the investment manager operated independently of him and Berkshire had no prior knowledge of Microsoft's proposal; the October purchase is not merger arbitrage."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value",
+   "Threshold for an understandable, durable competitive advantage",
+   "Management credibility",
+   "Existential risk to creative pipeline"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business fails our threshold for an understandable, durable competitive advantage due to its reliance on constant creative reinvestment",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management credibility is severely impaired by ongoing workplace allegations and compensation issues",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The existential risk to the company's creative pipeline makes the long-term economic future of the business unpredictable",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 6,
+  "share": 0.75
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We have reviewed the Company and have decided to pass.",
+ "grader_notes": "The agent completely missed the actual trade, which was a buy executed by a deputy, and instead performed a speculative analysis of the company's fundamentals to justify a PASS. The reasoning overlaps with none of the actual drivers, which were exclusively concerned with the mechanics of the deputy's independent purchase.",
+ "run": "dep_2021_atvi_buy__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

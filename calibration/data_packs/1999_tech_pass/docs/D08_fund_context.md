@@ -1,0 +1,15 @@
+Title: Microsoft Corporation — Investor's capital and constraints
+Source: Microsoft fiscal 1998 annual financial highlights, https://www.microsoft.com/investor/reports/ar98/fins.htm ; January 19, 1999 earnings announcement; pre-cutoff antitrust proceedings; https://news.microsoft.com/source/1999/01/19/microsoft-announces-record-quarterly-revenue-and-income-3; fund reference https://www.berkshirehathaway.com/letters/1998htm.html
+Date: 1999-03-01
+
+## Cutoff evidence — reconstructed
+
+Berkshire's March 1 annual letter reports $37.265 billion total common-stock market value and $7.044 billion tax-basis cost at December 31, 1998. Major holdings include Coca-Cola at $13.400 billion, American Express at $5.180 billion, Gillette at $4.590 billion and Wells Fargo at $2.540 billion. The letter also reports more than $15 billion in cash equivalents, including high-grade securities due within one year. These are prior year-end references, not a current freely deployable cash balance. Insurance obligations remain relevant. Existing concentrated businesses supply opportunity costs for any new security; none of these historical figures prescribes a fresh allocation or requires selling a sound franchise.
+
+## Economic reading of the supplied facts
+
+Industry economics: software involves substantial development and selling expense but little physical manufacturing cost for another copy. Compatibility, application availability and user familiarity can support a platform. Those advantages are not guarantees: a change in computing architecture or distribution can alter which platform controls demand. Reported margins must also be considered alongside stock compensation and the cost of sustaining a development organization. Customer adoption is evidence of current usefulness, not a complete forecast of profits a decade away. Legal limits on business practices can affect the means by which a platform defends its position. A business can be excellent for customers and employees while its shares still require a careful estimate of future cash flows and purchase price.
+
+Capital-allocation interpretation: a portfolio allocation must fit the legal entity that supplies the money. An insurance subsidiary's invested assets are not all cash available for an acquisition. Premiums collected before claims are paid provide investment funds but also create obligations. Consolidated equity, publicly traded holdings, cash and insurance float are different denominators.
+
+No target weight follows mechanically from the fund-size reference. Available cash at this exact cutoff, where unrecovered, remains unknown rather than being equated with the reference figure. Existing concentrated holdings create opportunity costs; selling them may incur tax and surrender durable earning power. A commitment involving stock also transfers a continuing fraction of the buyer's future economics. The investor has no obligation to purchase simply to remain fully invested. Conversely, waiting has a cost when a sound business is offered below conservative value. This context describes available choices and constraints without specifying an allocation or revealing a decision.

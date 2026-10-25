@@ -1,0 +1,47 @@
+{
+ "pack": "2023_tsm_sell",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2023-02-14",
+ "stages": {},
+ "final": {
+  "as_of_date": "2023-02-14",
+  "company": "Taiwan Semiconductor Manufacturing Company",
+  "ticker": "TSM",
+  "decision": "SELL",
+  "reason_class": "S1",
+  "conviction": "medium",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Manufacturing leadership and scale: intact [D01]",
+   "Geopolitical risk and asset concentration: significantly more prominent/unavoidable [D01, D05]"
+  ],
+  "price_vs_value_now": "The stock trades at a trailing P/E of 14.9x [D04], which may look attractive in isolation but does not account for the jurisdictional risk to the company's core production assets [D05].",
+  "after_tax_hurdle": "The tax cost of selling is 21% of the gain [Rules]; this is outweighed by the risk of permanent impairment of capital due to geographic concentration [D01, D05].",
+  "drivers": [
+   {
+    "driver": "The geographic concentration of production in a region subject to heightened geopolitical tension creates a risk profile that is inconsistent with our requirements for a permanent holding [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "While the business possesses excellent manufacturing expertise and scale, the 'world has changed' regarding the safety and accessibility of the assets upon which its earnings depend [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "We do not accept risks of permanent capital loss when the future of a company's primary operating location is unknowable [D01, D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "memo": "In evaluating our position in TSMC, Charlie and I have always looked for businesses that are easy to understand, have durable competitive advantages, and are run by able managers. TSMC is undeniably a wonderful business, leading the world in semiconductor foundry manufacturing with formidable scale and expertise [D01]. However, the bedrock of our investment philosophy is the avoidance of permanent loss of capital [Rules]. \n\nWhile the company's operating performance remains strong, we must confront the reality that the business's most critical assets are located in a region of extreme geopolitical sensitivity [D01, D05]. A technically excellent company can be rendered uninvestable if its production capacity is subject to risks outside of management's control, such as blockades or conflict [D01, D05]. The expensive expansion into overseas facilities, while prudent, does not provide an immediate or sufficient substitute for the existing Taiwan-based production cluster [D01, D03]. \n\nWe do not bet on the geopolitical environment, nor do we ignore the potential for catastrophic disruption to our earnings stream [D05]. Because we cannot predict the stability of the region, the future of the company's ability to operate is not something we can underwrite with the confidence we require for a permanent hold [D01, D05]. Consequently, we have decided to sell our position to protect Berkshire's capital, as the risk profile has fundamentally shifted regardless of the company's P/E multiple [D04, D05].",
+  "uncited_claims": []
+ }
+}

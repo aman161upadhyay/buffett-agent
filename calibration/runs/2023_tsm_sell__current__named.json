@@ -1,0 +1,47 @@
+{
+ "pack": "2023_tsm_sell",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2023-02-14",
+ "stages": {},
+ "final": {
+  "as_of_date": "2023-02-14",
+  "company": "Taiwan Semiconductor Manufacturing Company",
+  "ticker": "TSM",
+  "decision": "SELL",
+  "reason_class": "S1",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Manufacturing expertise and scale: intact [D01]",
+   "Geopolitical risk/concentration: deteriorated [D01, D05]"
+  ],
+  "price_vs_value_now": "14.9x trailing P/E; intrinsic value difficult to assess due to unquantifiable geopolitical risk [D04, D05]",
+  "after_tax_hurdle": "Capital gains tax (21% federal) versus the risk of permanent capital loss due to potential conflict [D05, D08]",
+  "drivers": [
+   {
+    "driver": "Geopolitical risk surrounding the concentration of production assets in Taiwan creates a potential for permanent loss of capital that outweighs the business franchise value [D01, D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "Foundry economics require continual, massive capital reinvestment which, combined with geographic vulnerability, makes future earnings power less predictable than required for a permanent holding [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Management's overseas expansion plans provide only gradual resilience and are not an immediate substitute for existing production clusters [D01, D06].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "memo": "In our investment decisions, we look for businesses with a durable competitive advantage and high returns on capital that we can understand and trust for the long haul. TSMC is undeniably a wonderful business with leading-edge manufacturing expertise and scale [D01, D02]. However, the fundamental premise of a long-term investment is that the business can survive and prosper over decades. When the primary downside is a geopolitical event that could lead to the permanent loss of our capital—and which is entirely outside of management's control—the risk-reward calculation changes [D01, D05].\n\nWe do not seek to be heroes in predicting the actions of sovereign powers [D03]. While the company's operating performance remains strong, with a 52% operating margin in the latest quarter, these results do not mitigate the inherent geographic concentration risk [D03, D05]. We have concluded that the world has changed in a way that renders the future of this particular asset's location unknowable, and we do not bet Berkshire's reputation or capital on such outcomes [D01, D05].\n\nWe recognize the tax consequences of this decision, as we must account for a 21% federal capital gains rate [D08]. However, we do not anchor on cost or wait for a more favorable price when the thesis itself has been compromised by forces that we cannot influence or reliably insure against [D05]. We prefer to allocate our capital toward businesses where we have a much higher degree of certainty regarding their long-term presence in the global economy [D08].",
+  "uncited_claims": []
+ }
+}

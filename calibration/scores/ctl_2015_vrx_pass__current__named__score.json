@@ -1,0 +1,59 @@
+{
+ "trade_id": "ctl_2015_vrx_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "No ownership in the window",
+   "No Valeant/VRX/Bausch predecessor position",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests"
+  ],
+  "extra_agent_drivers": [
+   "GAAP P/E of 76.2x",
+   "Debt-fueled acquisition model",
+   "Net leverage of 3.5x",
+   "Reliance on non-GAAP cash EPS"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at a GAAP P/E of 76.2x",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business relies on a debt-fueled, acquisition-heavy model",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "net leverage of approximately 3.5x",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management's reliance on non-GAAP 'cash EPS' figures that exclude essential integration and restructuring costs",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Valeant belongs firmly in our 'too hard' pile, and we will continue to look elsewhere for opportunities that meet our stringent criteria for investment [D01, D05].",
+ "grader_notes": "The agent correctly reached the PASS decision but fundamentally misunderstood the grading process for Berkshire Hathaway trades, which are verified by non-ownership in the 13F rather than fundamental analysis. The agent treated the task as an analyst recommendation project and fabricated a Buffett memo based on analyst-reconstructable data, failing to cite the actual lack of ownership as the primary driver.",
+ "run": "ctl_2015_vrx_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

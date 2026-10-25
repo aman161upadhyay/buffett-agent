@@ -1,0 +1,49 @@
+{
+ "pack": "2007_petrochina_sell",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2007-07-12",
+ "stages": {},
+ "final": {
+  "as_of_date": "2007-07-12",
+  "company": "PetroChina",
+  "ticker": "0857.HK",
+  "decision": "SELL",
+  "reason_class": "S2",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Original thesis: commodity producer bought at a significant price-to-value gap [D07].",
+   "Current status: market value and oil price have caught up to our estimate of intrinsic value [D02], [D05]."
+  ],
+  "price_vs_value_now": "The stock trades at approximately 14.53x earnings and 3.50x book value [D04], reflecting a valuation where the original discount has been largely eliminated by rising profits and market appreciation [D02].",
+  "after_tax_hurdle": "Realizing the substantial gain requires paying a 35% federal tax rate [D08], but the current valuation now fully reflects the business's earning power, making further holding unattractive relative to other capital uses [D04], [D06].",
+  "drivers": [
+   {
+    "driver": "The original price-to-value gap that motivated the purchase has closed as market valuations caught up with our appraisal [D02], [D07].",
+    "citations": [
+     "D02",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The business's profitability is highly sensitive to commodity cycles, and current earnings are capitalized at levels that do not provide a sufficient margin of safety [D04], [D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Alternative uses for capital, including Berkshire's other high-quality holdings or cash, now offer more attractive risk-adjusted prospects given the full valuation of this position [D06], [D08].",
+    "citations": [
+     "D06",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "We purchased our stake in PetroChina during 2002–2003 because the market significantly undervalued the company's assets and earning power [D07]. At that time, we were buying a producer of a vital commodity at a price that offered a clear and substantial margin of safety [D07]. Today, the situation has changed. Our evaluation of the business and the current oil price suggests that the market value has caught up with our estimate of intrinsic value [D05]. \n\nWhile the company has demonstrated record profitability in recent years, we must recognize that petroleum accounting profits are heavily influenced by realized prices and volumes that do not constitute a perpetual annuity [D02], [D03]. We do not attempt to forecast the commodity, but we must acknowledge that capitalizing these earnings at current levels assumes a favorable environment that may not persist [D05]. \n\nWe have always held that we do not sell wonderful businesses simply because Mr. Market is enthusiastic; however, this investment was made as a price-to-value gap play rather than as a permanent franchise [D04], [D07]. With the discount largely eliminated, we believe it is the right time to exit and redeploy our capital elsewhere. We recognize that selling triggers a material tax cost at the 35% rate, but we prefer to move on when the original thesis has been fulfilled rather than anchoring on historical cost [D08].",
+  "uncited_claims": []
+ }
+}

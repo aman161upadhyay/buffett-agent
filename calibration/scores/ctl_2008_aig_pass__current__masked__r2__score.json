@@ -1,0 +1,49 @@
+{
+ "trade_id": "ctl_2008_aig_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "He distinguished desirable operating businesses from financial-products obligations management did not adequately understand → We cannot quantify the ultimate cash requirements arising from the company's super-senior credit-default-swap portfolio."
+  ],
+  "missed": [
+   "Buffett considered but could not undertake roughly $25B for the property/casualty unit on the crisis weekend.",
+   "The pressure and depth of the funding hole prevented a workable transaction despite interest in selected units."
+  ],
+  "extra_agent_drivers": [
+   "The company trades at 0.164x book value, but the intrinsic value is not ascertainable due to unbounded potential liabilities in the credit-default-swap portfolio.",
+   "We face a $13.16 billion net loss for the first half of 2008 and unknown ultimate cash requirements that risk the solvency of the entire enterprise.",
+   "Berkshire's standard of safety precludes involvement in entities where the risk of permanent loss of capital cannot be bounded."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at 0.164x book value",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "We face a $13.16 billion net loss for the first half of 2008",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 9,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Charlie and I have reviewed the business, but we find the investment to be outside our circle of competence due to the opaqueness of its financial-products subsidiary [D01].",
+ "grader_notes": "The agent correctly identified the PASS decision and touched upon the difficulty of understanding the financial-products obligations, which aligns with Buffett's reasoning regarding the management's lack of knowledge. However, the agent failed to capture the primary drivers related to the specific deal-negotiation context of the weekend and the inability to structure a transaction for the property/casualty units.",
+ "run": "ctl_2008_aig_pass__current__masked__r2",
+ "state_llm": "PARTIAL",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

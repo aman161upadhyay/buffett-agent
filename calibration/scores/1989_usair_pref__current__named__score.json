@@ -1,0 +1,63 @@
+{
+ "trade_id": "1989_usair_pref",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "The dividend, redemption and conversion rights appeared to provide downside protection plus participation. → Furthermore, we retain the option to convert our holdings into common stock at $60 per share, giving us participation should the company's performance improve over the next decade [D02, D04].",
+   "The preferred structure was intended to compensate for lack of strong convictions about airline economics. → While the airline industry is characterized by intense fare competition and substantial capital requirements that place it outside our traditional circle of competence, the terms of this private placement provide a unique opportunity [D01, D05]."
+  ],
+  "missed": [
+   "Admiration for Ed Colodny and the airline's past profits underlay the original favorable assessment."
+  ],
+  "extra_agent_drivers": [
+   "The 9.25% coupon provides an immediate yield advantage over the 8.03% long bond yield, representing a superior risk-adjusted return.",
+   "The investment is a negotiated financing consistent with our approach to deploying capital into established businesses during the 1980s."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "USAir operates as an incumbent carrier, yet it faces the commodity-like pressures of a deregulated environment",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "9.25% coupon, which compares favorably to the 8.03% yield on long-term Treasury bonds",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "ten-year mandatory redemption provision",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Under the leadership of Ed Colodny, the firm has sought scale through the integration of Piedmont and Pacific Southwest",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the company carries a heavy load of debt and long-term operating lease commitments",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 15,
+  "cited": 3,
+  "share": 0.2
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are not betting on a transformation of the airline industry, but rather on the attractiveness of a senior security [D08].",
+ "grader_notes": "The agent correctly identifies the dual nature of the investment (downside protection through senior status/redemption and upside through conversion) and acknowledges the lack of conviction in airline economics as the primary reason for the preferred structure. It misses the specific driver regarding Buffett's personal admiration for Ed Colodny. The agent's reasoning is closely aligned with the 'different structure' rationale provided by Buffett.",
+ "run": "1989_usair_pref__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

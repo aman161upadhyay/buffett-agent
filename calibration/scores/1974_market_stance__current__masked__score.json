@@ -1,0 +1,53 @@
+{
+ "trade_id": "1974_market_stance",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Purchase understandable businesses at low prices against net worth or going-concern value, with good management and resilience. → Our approach remains anchored in finding understandable businesses—those with durable moats and pricing power—that we can buy at a significant margin of safety [D01, D04].",
+   "Patience and independent appraisal matter more than institutional pressure to act. → these are precisely the times when a patient investor can build wealth by focusing on the underlying economics of individual businesses rather than the mood of the market [D03, D05].",
+   "Ordinary recession and profit fears did not invalidate the available values at these prices. → We have no interest in predicting whether the current rebound will hold or if the bottom is truly in; we simply know that when the price of a dollar of earnings is this low relative to alternative safe investments, our duty is to be aggressive buyers of wonderful businesses at fair prices [D01, D03]."
+  ],
+  "missed": [
+   "There were still many bargains even after the sharp rebound."
+  ],
+  "extra_agent_drivers": [
+   "The earnings yield on equities (13.02%) offers a superior return compared to the 7.80% available on long-term government bonds [D04]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The S&P 500 earnings yield of 13.02% significantly exceeds the 7.80% yield on ten-year US Treasuries",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Forbes reports interest in gold and fears of depression",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market has experienced a substantial decline of 41.4% from its January 1973 average",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 6,
+  "cited": 1,
+  "share": 0.17
+ },
+ "state": "MATCH",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We have no interest in predicting whether the current rebound will hold or if the bottom is truly in; we simply know that when the price of a dollar of earnings is this low relative to alternative safe investments, our duty is to be aggressive buyers of wonderful businesses at fair prices [D01, D03].",
+ "grader_notes": "The agent correctly identified the 'BUY_BROADLY' stance and articulated the core Buffett philosophy regarding business-focused, valuation-driven investing during market pessimism. However, the agent included 'Charlie' in the decision process, which does not match the prompt's requirement for the actual decider (Buffett) in this 1974 context. Additionally, the agent introduced quantitative bond/equity spread drivers not explicitly cited in the Buffett driver set.",
+ "run": "1974_market_stance__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY_BROADLY",
+ "agent_decision": "BUY_BROADLY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,49 @@
+{
+ "trade_id": "ctl_2012_fb_ipo_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett declines new offerings because a well-informed seller chooses the timing and price; neither he nor Munger underwrote Facebook at its IPO valuation.",
+   "Buffett and Munger publicly said they would not buy the Facebook IPO at the May 5 meeting; contemporaneous May 6 coverage quotes the policy.",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements"
+  ],
+  "extra_agent_drivers": [
+   "High price-to-earnings multiple",
+   "Inability to predict long-term durability of advertising model",
+   "Lack of long, consistent history of returns",
+   "Dual-class voting structure concerns"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at a 104x price-to-earnings multiple, implying an earnings yield of only 0.96% [D02].",
+    "citation": "D02",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The dual-class voting structure removes any oversight by minority owners over capital allocation [D01].",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 9,
+  "share": 0.9
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Charlie and I have looked at the offering for this social network, but we find the business falls outside our circle of competence [D01].",
+ "grader_notes": "The agent correctly identified the PASS decision but completely failed to incorporate Buffett's specific, stated policy against IPOs ('We never buy into an offering'). Instead, the agent constructed a standard value-investing analytical memo. The reasoning overlap is zero because the agent provided its own independent investment analysis rather than reproducing Buffett's documented decision-making framework.",
+ "run": "ctl_2012_fb_ipo_pass__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

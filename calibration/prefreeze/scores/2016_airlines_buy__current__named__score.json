@@ -1,0 +1,48 @@
+{
+ "trade_id": "2016_airlines_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "The bet was an industry judgment across the four major carriers. → We are initiating a position with a target of 5% of our equity portfolio, as the scale of these businesses allows them to move the needle for Berkshire.",
+   "Consolidation and greater capacity discipline changed the industry's economics. → We believe this structural shift, evidenced by recent capacity discipline, has created a different environment than the one that historically led to recurring industry crises.",
+   "The 21st-century earnings outlook could differ from the poor 20th-century record. → The market remains heavily anchored to the industry's past, failing to fully price in the structural shift."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Price vs value / Margin of safety",
+   "Network and slot competitive advantages",
+   "Capital allocation focus (buybacks)"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The airline industry has consolidated into a more stable structure, where major carriers hold networks and slots that define a durable competitive advantage.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "P/E multiples ranging from 2.89x to 12.25x.",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 16,
+  "cited": 16,
+  "share": 1
+ },
+ "state": "MATCH",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We believe this structural shift, evidenced by recent capacity discipline, has created a different environment than the one that historically led to recurring industry crises.",
+ "grader_notes": "The agent correctly identified the core thesis: an industry-wide bet driven by structural changes in capacity discipline and a shift in economic outlook. The agent provided a detailed, well-reasoned argument that aligns with Buffett's high-level commentary, though it supplemented the core drivers with additional quantitative (valuation) and qualitative (network moat) observations that Buffett did not explicitly cite in the primary source material.",
+ "run": "2016_airlines_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

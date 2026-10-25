@@ -1,0 +1,15 @@
+Title: US equity market — Information chronology
+Source: Fortune, November 22, 1999, historical figures and arithmetic only; investor verdict and recommendations withheld; https://www.berkshirehathaway.com/1999ar/FortuneMagazine.pdf ; prior Berkshire annual report; fund reference https://www.berkshirehathaway.com/letters/1998htm.html
+Date: 1999-11-22
+
+## Cutoff evidence — reconstructed
+
+The valuation analysis draws on a July business-leaders discussion and is published November 22. Its capitalization snapshot is from March 15, its Fortune profit base is the preceding calendar year and its investor survey is from July. These dates must remain distinct. Historical examples precede the cutoff; no subsequent market return or technology-stock outcome is available. The current calendar year's Berkshire shareholder letter has not yet been published. The desk can compare reported aggregate profits, prices, interest rates and survey expectations, but cannot treat a conditional long-term return calculation as a short-term market forecast. Publication is an information event rather than evidence of a particular index trade.
+
+## Economic reading of the supplied facts
+
+Portfolio economics: aggregate stock ownership is a claim on business earnings, not a claim on the path of a market index. Dividends distribute part of those earnings; retained earnings add value only if employed productively. Interest rates affect the present value of both equities and bonds. An investor who sells one financial asset must still decide what to hold instead. Cash avoids duration and business risk but is exposed to inflation and the opportunity cost of missed investments. Market averages can obscure large differences among individual businesses. Comparing aggregate prices with book value or profits is a valuation exercise, not a mechanism for forecasting next month's quotation. The financial comparisons below are conditional on earnings durability and the stated measurement dates.
+
+Chronology controls: the cutoff is an information boundary, not proof of an execution on that day. A negotiated commitment, a public announcement, a purchase settlement and an annual-report disclosure are distinct events. Facts about the condition of the business may be reconstructed from archival accounts without turning a later explanation into a statement available to the market.
+
+Only the events described above enter this chronology. No subsequent result is assumed when assessing the unresolved question. The absence of an original day-by-day price series prevents identification of a precise entry-day return or volume pattern. The same restriction applies to unpublished board discussions and security-specific purchase ledgers. This reconstruction does not claim access to either. Where a transaction is being considered, proposed terms are identified as proposed; regulatory approvals and operating improvements are not treated as completed. Where shares already exist in a portfolio, a request to study a new allocation must not erase that exposure.

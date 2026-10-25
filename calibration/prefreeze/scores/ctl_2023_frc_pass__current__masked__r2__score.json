@@ -1,0 +1,47 @@
+{
+ "trade_id": "ctl_2023_frc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett distinguished safe deposits from risky bank equity and criticized asset/liability mismatch",
+   "No First Republic in parent filings around Q4 2022/Q1 2023",
+   "Economic and valuation objections are analyst-reconstructable, not Buffett statements"
+  ],
+  "extra_agent_drivers": [
+   "Confidence shock regarding funding resilience",
+   "Absence of contemporaneous market price",
+   "Missing information on management's capital allocation",
+   "Risk-free alternatives in T-bills"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The bank is experiencing a severe confidence shock regarding its funding resilience",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Superior, risk-free alternatives in T-bills provide a certain return",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 8,
+  "share": 0.73
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have reviewed the situation at the Company and have decided to pass.",
+ "grader_notes": "The agent correctly matched the PASS direction but failed to align with Buffett's specific reasoning, instead fabricating general investment objections. The agent's reasoning relies on independent analysis rather than reproducing the specific documented evidence or lack thereof provided in the answer key.",
+ "run": "ctl_2023_frc_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

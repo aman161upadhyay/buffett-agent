@@ -1,0 +1,49 @@
+{
+ "trade_id": "2009_bnsf_acq",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Efficient rail infrastructure is necessary for US prosperity.",
+   "The bet concerned the long-term US economy rather than next-quarter freight.",
+   "Buffett trusted Matt Rose and the operating team."
+  ],
+  "extra_agent_drivers": [
+   "The earnings yield of 6.9% is insufficient, failing to reach the 10% threshold or the 1.5x long bond yield benchmark.",
+   "The company operates a vital, wide-moat transportation franchise that is essential to the US economy.",
+   "Heavy capital expenditure requirements create significant uncertainty regarding owner earnings.",
+   "The market's concern over cyclical volumes and coal demand has not yet pushed the valuation into a range providing a sufficient margin of safety."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company trades at an earnings yield of approximately 6.9%",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Net income declined 29.8% during the most recent quarter",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 9,
+  "share": 0.82
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We require a more compelling entry point before committing capital to a business with such heavy, ongoing capital requirements [D04, D05].",
+ "grader_notes": "The agent reached the wrong decision by choosing to pass on an acquisition that Buffett executed. The agent's reasoning focused on valuation thresholds and capital intensity, whereas Buffett's stated rationale was based on a strategic, long-term macroeconomic bet on the US rail system and confidence in the management team.",
+ "run": "2009_bnsf_acq__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,255 @@
+{
+ "pack": "dep_2021_atvi_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2021-10-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The company is a publisher of interactive entertainment, owning recurring franchises across consoles, personal computers, and mobile platforms [D01]. It generates revenue through premium game sales, subscriptions, in-game content, and advertising [D01].",
+   "products_customers_and_why_they_buy": [
+    "Core franchises include Call of Duty, Warcraft, and Candy Crush, which benefit from habitual engagement and digital distribution [D01].",
+    "Customers purchase games and in-game content, with mobile adoption and in-game purchases extending customer value beyond initial sale prices [D01]."
+   ],
+   "economics": [
+    "Reported second-quarter operating margin of 42% (GAAP) and 44% (non-GAAP) [D01].",
+    "High proportion of digital revenue ($2.03 billion in Q2) [D01].",
+    "Software production requires continuing creative investment, meaning intellectual property is not a self-maintaining royalty stream [D01]."
+   ],
+   "earnings_record": [
+    "Second-quarter GAAP diluted EPS was $1.12 versus $0.75 in the prior year [D01].",
+    "Trailing-twelve-month operating cash flow of $2.57 billion [D01].",
+    "Net bookings were $1.92 billion compared to $2.08 billion in the prior year [D01]."
+   ],
+   "competitive_position": [
+    "The company maintains a large accumulated development library and 408 million monthly active users [D01].",
+    "Existing franchises with multiple products reduce dependence on single releases [D01].",
+    "Competitors include Electronic Arts, Take-Two, and other mobile publishers [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Not in pack."
+   ],
+   "management_and_capital_allocation": [
+    "Management acknowledged serious employment, compensation, and workplace allegations [D01].",
+    "Company raised its outlook despite the workplace controversy [D01]."
+   ],
+   "price_and_valuation": [
+    "Precise market-date multiple not asserted; latest quarterly GAAP EPS of $1.12 annualizes to $4.48 [D02].",
+    "Trailing operating cash flow of $2.57 billion [D02].",
+    "No authenticated October 29 closing price available in provided documents [D02]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "No precise market price or maintenance capex figure provided to calculate yields [D02]."
+   },
+   "what_the_market_is_worried_about": [
+    "Serious workplace, compensation, and employment allegations [D01].",
+    "Potential for culture issues to harm employee retention and the creative pipeline [D05].",
+    "Bookings are lower year-on-year [D05].",
+    "Predictability of revenue due to platform fees, new competitors, and reliance on engagement [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "July 2021: Workplace allegations create public controversy [D07].",
+    "August 3, 2021: Results released acknowledging workplace allegations and providing updated operating metrics [D01, D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds significant cash (~$144.1 billion as of June 2021) [D08].",
+    "Investment would be a stand-alone equity position; no merger workout is assumed [D01, D06].",
+    "Not in pack regarding any existing stake."
+   ],
+   "document_conflicts": [
+    "Not in pack."
+   ],
+   "missing_data": [
+    "Contemporaneous stock price, maintenance capital expenditure, full balance sheet debt/cash details, and a normalized earnings estimate."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business relies on a constant creative pipeline rather than self-maintaining royalty streams, making its 10-20 year future highly uncertain [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "Software production requires heavy, constant reinvestment, and the company faces competitive pressure from other publishers and mobile platforms [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "UNSURE",
+     "evidence": "While recent EPS grew, net bookings declined year-on-year, and the impact of ongoing workplace and culture controversy on future earnings is unquantified [D01, D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "The provided information does not contain the balance sheet data necessary to assess debt levels or return on equity [D02]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business model is capital-intensive due to the need for continuous creative investment in intellectual property [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "FAIL",
+     "evidence": "The company is embroiled in serious workplace, compensation, and employment allegations that raise significant concerns about management's oversight and culture [D01, D07]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "No market capitalization is provided to determine if the position is large enough to move the needle for Berkshire [D02]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "A lack of a contemporaneous market price and maintenance capital expenditure prevents the calculation of an owner-earnings yield [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 0,
+   "n_fail": 4,
+   "n_unsure": 4,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a business lacking a self-maintaining moat that requires continuous, high-risk creative investment and faces significant management/culture challenges"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no reason to expect a bargain because the fundamental requirement for a durable competitive advantage is absent. The company's reliance on a continuous creative pipeline rather than self-maintaining intellectual property prevents us from assessing long-term intrinsic value with confidence [D01].",
+   "evidence": [
+    "Software production requires constant creative investment, not royalty-like permanence [D01].",
+    "Serious, unquantified management and workplace culture allegations exist [D01, D07].",
+    "Year-over-year decline in net bookings [D01, D05]."
+   ],
+   "market_narrative_we_disagree_with": "The market may believe that existing strong franchises provide a stable moat despite ongoing cultural and operational uncertainty [D01, D05].",
+   "what_must_be_true": [
+    "Management proves capable of resolving deep-seated cultural and HR challenges without eroding the creative workforce",
+    "The company demonstrates it can transition to a more predictable, less capital-intensive royalty-like model",
+    "Operating margins remain resilient despite increased scrutiny and competition"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "no maintenance capex provided [D02]",
+     "no normalized earnings estimate provided [D02]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "not in pack",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / T-bills / existing holdings / Berkshire buyback — Berkshire currently holds ~$144.1 billion in cash [D08], which we prefer to deploy in opportunities that meet our criteria for a durable competitive advantage, which is absent here [D01].",
+   "downside_case": "The reliance on a continuous creative pipeline rather than self-maintaining intellectual property presents a risk of permanent loss of capital if the creative workforce or franchise engagement erodes [D01].",
+   "valuation_verdict": "PASS",
+   "flagged_assumptions": [
+    "Contemporaneous stock price is not in the pack [D02]",
+    "Maintenance capital expenditure is not in the pack [D02]",
+    "Full balance sheet details (debt/cash) are not in the pack [D02]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We act as a permanent passive holder, relying on the business compounding and rational capital allocation, which is our standard approach for marketable securities after 1980 [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value would be realised through long-term business compounding and dividend payments/share repurchases, provided the business meets our investment criteria [D01]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "Since 1980, Berkshire's primary role for equity investments has been that of a permanent owner of businesses we understand; however, we have determined this specific opportunity is a PASS due to the lack of a durable competitive advantage and management uncertainty [D01]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent impairment of the creative pipeline due to loss of key talent or cultural breakdown [D01]",
+    "Pricing power eroded by increased competition or loss of engagement with core franchises [D01, D06]",
+    "Regulatory or legal intervention resulting from sustained workplace controversies [D07]"
+   ],
+   "berkshire_constraints": "Berkshire must maintain a significant cash buffer (>$30B) and avoid investments that risk its reputation due to significant management or ethical scandals [D08, D01].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better held in cash or deployed into businesses with durable, self-maintaining moats and proven, stable management teams, of which this company is neither [D01, D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The investment fails our fundamental quality screens, and we have no interest in participating in businesses undergoing significant cultural and management instability.",
+   "biggest_risk_in_one_sentence": "The business relies on a non-renewable, highly uncertain creative pipeline that is vulnerable to both management failure and intense competitive pressure, creating the risk of permanent loss of capital."
+  }
+ },
+ "final": {
+  "as_of_date": "2021-10-31",
+  "company": "Activision Blizzard",
+  "ticker": "ATVI",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent impairment of the creative pipeline due to loss of key talent or cultural breakdown [D01]."
+  },
+  "drivers": [
+   {
+    "driver": "The business model relies on a continuous creative pipeline that fails our test for a self-maintaining, durable moat [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Serious and unquantified workplace and management allegations create unacceptable reputational and operational risks [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Software production is capital-intensive, requiring constant reinvestment in intellectual property rather than generating stable, predictable royalty-like streams [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The lack of reliable data regarding maintenance capital expenditures and long-term normalized earnings prevents a meaningful calculation of owner earnings [D02].",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent impairment of the creative pipeline due to loss of key talent or cultural breakdown",
+   "Pricing power eroded by increased competition or loss of engagement with core franchises",
+   "Regulatory or legal intervention resulting from sustained workplace controversies"
+  ],
+  "what_would_change_our_mind": "Management resolving deep-seated cultural and HR challenges without eroding the creative workforce, and a successful transition to a model that exhibits predictable, royalty-like economics.",
+  "memo": "We have examined Activision Blizzard and concluded that it does not meet the criteria we require for a permanent investment [D01]. While the company owns recognizable franchises, the business relies on a constant, expensive creative pipeline rather than the self-maintaining royalty streams that characterize a truly wonderful business [D01].\n\nUnlike the simple, durable businesses we prefer, software production demands heavy, ongoing reinvestment [D01]. This capital intensity, coupled with the necessity of maintaining a large creative workforce, means we cannot view the future of this business with the level of certainty we require [D01, D06].\n\nFurthermore, the company is currently embroiled in serious allegations regarding workplace culture and management oversight [D01, D07]. We avoid situations that risk the reputation of Berkshire Hathaway, and we have no interest in betting on the resolution of such deep-seated operational and cultural instability [D01].\n\nWe prefer to keep our cash—which totaled $144.1 billion in mid-2021—deployed in opportunities that possess an obvious and durable competitive advantage [D08, D01]. Because we cannot define the moat here, we have placed this opportunity in the 'too hard' pile and will look elsewhere [D01].",
+  "uncited_claims": []
+ }
+}

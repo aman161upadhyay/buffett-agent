@@ -1,0 +1,53 @@
+{
+ "trade_id": "2016_aapl_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "The initial investment was a deputy's decision, not Buffett's."
+  ],
+  "extra_agent_drivers": [
+   "Apple sells for an earnings yield of 9.62%...",
+   "The company maintains a durable consumer franchise...",
+   "Apple has demonstrated a consistent record of earnings growth...",
+   "Management has proven itself to be owner-minded...",
+   "The market is overly focused on short-term iPhone sales contraction..."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Apple sells for an earnings yield of 9.62% at a P/E of ~10.39x against a $153B net cash position",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "net income rising from $25.9B in 2011 to $53.4B in 2015",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "returning $163 billion to shareholders through dividends and buybacks as of early 2016",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 15,
+  "cited": 13,
+  "share": 0.87
+ },
+ "state": "PARTIAL",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We intend to build a position starting at 5% of our equity portfolio, with a target of 10% [D04].",
+ "grader_notes": "The agent correctly identifies the buy decision but fails to acknowledge that the initial purchase was made by a deputy rather than Buffett. The agent creates a comprehensive valuation-based investment thesis that does not align with the actual historical record provided in the answer key, which notes that no specific purchase drivers were publicly attributed to Buffett for this initial stake.",
+ "run": "2016_aapl_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

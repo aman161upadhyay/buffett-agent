@@ -1,0 +1,64 @@
+{
+ "trade_id": "1994_axp_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Long experience with the company and products helped evaluate business quality → We understand American Express well; it is a core, recognizable financial utility that connects cardholders and merchants through a clear, essential service promise [D01]."
+  ],
+  "missed": [
+   "Berkshire enlarged a familiar franchise investment rather than repeating the original salad-oil trade.",
+   "Common ownership offered continuing business participation distinct from the preferred's contractual economics."
+  ],
+  "extra_agent_drivers": [
+   "Attractive earnings yield relative to long bond yield.",
+   "Operational turnaround under Harvey Golub.",
+   "High ROE of travel-related services."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "35.6 million cards and 3.7 million merchant locations",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Harvey Golub is divesting non-core assets",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "ROE of 23.8%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "1993 net income of $1.478 billion",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Price of $26.50",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 11,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We understand American Express well; it is a core, recognizable financial utility that connects cardholders and merchants through a clear, essential service promise [D01].",
+ "grader_notes": "The agent correctly identified the decision to buy, but failed to capture the primary Berkshire-specific drivers regarding the history of the investment (the expansion of a familiar franchise and the conversion from preferred to common equity). The reasoning provided focused on contemporary financial and operational analysis rather than the institutional context of Buffett's actual decision process.",
+ "run": "1994_axp_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

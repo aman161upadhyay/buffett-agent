@@ -1,0 +1,236 @@
+{
+ "pack": "2022_tsm_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2022-11-14",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company is a dedicated semiconductor foundry that produces chips designed by its customers [D01]. Its franchise relies on advanced process technology, high manufacturing yields, and scale, while maintaining a strategy of not competing with its clients [D01].",
+   "products_customers_and_why_they_buy": [
+    "Semiconductor wafers produced via advanced and mature process technologies; customers include chip designers [D01, D06]. Customers prioritize the foundry's process leadership, scale, and trust [D01, D06]."
+   ],
+   "economics": [
+    "High capital intensity requiring continual, expensive reinvestment [D01, D03]; 2021 ROE was 29.69% [D02]. Gross margin reached 60.4% in Q3 2022 [D02, D03]; however, reported margins are not owner earnings as they exclude necessary reinvestment [D01, D03]."
+   ],
+   "earnings_record": [
+    "Revenue grew from NT$977.45bn in 2017 to NT$1,587.42bn in 2021 [D02]. Net income increased from NT$343.11bn to NT$596.54bn over the same period, demonstrating cyclicality [D02, D03]."
+   ],
+   "competitive_position": [
+    "Leading global pure-play foundry with significant process and scale barriers [D01, D06]. Combined 54% of revenue from 5nm and 7nm nodes as of Q3 2022 [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "As of Q3 2022, net cash is approximately NT$426bn [D04]. Capital expenditure is extremely high, with 2022 guidance at approximately US$36bn [D03]."
+   ],
+   "management_and_capital_allocation": [
+    "Management is noted for scale and process barriers, though the documents do not detail specific CEO tenure or individual compensation incentives [D01, D06]."
+   ],
+   "price_and_valuation": [
+    "ADR price of $72.80 as of 2022-11-14; trailing P/E approximately 12.3x; earnings yield approximately 8.1% [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Demand cyclicality [D03, D05]; non-diversifiable geopolitical risks related to concentration of production in Taiwan [D01, D05]; customer inventory adjustments [D03]; export restrictions [D03, D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Q3 2022 revenue of NT$613.14bn, up 47.9% YoY; Q3 net income of NT$280.87bn [D03]."
+   ],
+   "berkshire_context": [
+    "Year-end 2021 cash of approximately $146.7 billion [D08]; no current position disclosed in pack [D07, D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Normalized owner earnings; forward consensus P/E estimates; specific management incentive structures."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business faces rapid technological change and significant geopolitical risk that makes a 10-20 year outlook highly uncertain [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "As the leading pure-play foundry with significant process and scale barriers, the company exhibits strong competitive positioning [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Despite cyclicality, the company has demonstrated strong revenue and net income growth from 2017 to 2021 [D02, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong balance sheet with net cash of approximately NT$426bn and a robust 2021 ROE of 29.69% [D02, D04]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The foundry requires extremely high and continual capital expenditure to maintain process leadership, which is not sustainable without heavy reinvestment [D01, D03]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "While management has successfully built process barriers, specific details on incentives and ownership mentality are not in the pack [D01, D06]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The company's significant market presence allows it to potentially move the needle for Berkshire [D01, D06]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "An earnings yield of approximately 8.1% is attractive given the context of long-term yields, despite the lack of normalized owner earnings [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 2,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a highly profitable but extremely capital-intensive foundry business facing significant technological and geopolitical headwinds."
+  },
+  "gate2": {
+   "templates": [
+    "B2"
+   ],
+   "why_available": "The market is heavily discounting the company due to geopolitical fears and cyclical demand concerns, which the market perceives as threats to the core franchise [D01, D05]. I believe the durability of the foundry's process leadership and scale allows it to maintain its competitive moat despite these temporary clouds [D01, D06]. The value will reveal itself as the company continues its leading role in the semiconductor supply chain while these macro fears subside over time [D01, D03].",
+   "evidence": [
+    "Leading global pure-play foundry with significant process and scale barriers [D01, D06].",
+    "Combined 54% of revenue from 5nm and 7nm nodes as of Q3 2022 [D06].",
+    "Net cash of approximately NT$426bn as of Q3 2022 [D04].",
+    "Q3 2022 revenue grew 47.9% YoY [D03]."
+   ],
+   "market_narrative_we_disagree_with": "The market views the current concentration of production and cyclical inventory adjustments as existential risks to the foundry's long-term earning power [D01, D03, D05].",
+   "what_must_be_true": [
+    "Customers continue to prioritize process leadership and scale over geopolitical diversification [D01, D06].",
+    "The foundry's moat remains intact through the investment cycle despite extreme capital intensity [D01, D03].",
+    "Geopolitical risks do not result in a permanent loss of operational control or asset viability [D01, D05]."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "Not in pack; approximated via trailing earnings yield [D04]",
+   "initial_pretax_yield_pct": 8.1,
+   "intrinsic_value_range": {
+    "low": "Not in pack",
+    "high": "Not in pack",
+    "key_assumptions": [
+     "Extreme capital intensity requires significant reinvestment reducing owner earnings below reported earnings [D01, D03]",
+     "Process leadership sustains moat [D01, D06]"
+    ],
+    "discount_rate_used": "Not in pack"
+   },
+   "price_vs_value": "Price at 12.3x earnings [D04]; margin of safety unclear due to high capital requirements",
+   "expected_return_pct": {
+    "base": 8,
+    "bear": 0,
+    "bull": 12
+   },
+   "alternatives": "Berkshire buybacks or T-bills are more reliable; this business requires massive reinvestment to survive [D01, D03]",
+   "downside_case": "Permanent loss of operational control due to geopolitical risk or obsolescence in intensive tech cycle [D01, D05]",
+   "valuation_verdict": "FAIR",
+   "flagged_assumptions": [
+    "Normalization of owner earnings is impossible without data on maintenance vs growth capex [D01, D03]",
+    "Long-term bond rate not provided in pack"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Realization of intrinsic value through long-term compounding of the foundry's process leadership and market share [D01, D06]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For the 2000-2015 and 2016 onward eras, Berkshire employs permanent capital to hold positions in businesses where we cannot influence management, relying on the company's own competitive advantages to generate returns [D01, D06]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Geopolitical conflict results in a permanent loss of operational control or asset viability [D01, D05]",
+    "Failure to maintain process leadership against key competitors, undermining the moat [D01, D06]",
+    "Technological obsolescence or rapid shifts in foundry requirements rendering massive capex unproductive [D01, D03]"
+   ],
+   "berkshire_constraints": "Must maintain a minimum cash floor of $30B [D08]; acquisition must avoid regulatory thresholds that trigger unwanted control status [D01].",
+   "size_pct_nav": {
+    "initial": 1,
+    "target": 3,
+    "max": 5,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Berkshire repurchases or US Treasuries provide more reliable returns without the extreme capital intensity and geopolitical risk inherent in this business [D01, D03].",
+   "leverage": "none",
+   "decider": "deputy",
+   "decider_reason": "The business operates in a highly capital-intensive, geopolitically sensitive sector outside of Buffett's core historical circle of competence.",
+   "biggest_risk_in_one_sentence": "The concentration of essential production in a single high-risk geopolitical location creates an existential threat of permanent capital loss."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-11-14",
+  "company": "Taiwan Semiconductor Manufacturing Company (TSMC)",
+  "ticker": "TSM",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "deputy",
+  "gate1_hard_fail": false,
+  "era_a_bargain": false,
+  "negotiated_terms": false,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 8.1,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 8,
+   "downside_case": "Permanent loss of operational control due to geopolitical risk or obsolescence in intensive tech cycle [D01, D05]."
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the company sells at a 12.3x P/E ratio, providing an initial earnings yield of 8.1% [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The business operates in a highly capital-intensive sector that requires constant, massive reinvestment, which obscures true owner earnings [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The concentration of essential production in a single high-risk geopolitical location creates an existential threat that is difficult to quantify [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "While the company holds a strong competitive moat via process leadership and scale, it falls outside of our traditional circle of competence regarding long-term technological and geopolitical stability [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Geopolitical conflict results in a permanent loss of operational control or asset viability [D01, D05]",
+   "Failure to maintain process leadership against key competitors, undermining the moat [D01, D06]",
+   "Technological obsolescence or rapid shifts in foundry requirements rendering massive capex unproductive [D01, D03]"
+  ],
+  "what_would_change_our_mind": "A clearer understanding of the normalized owner earnings after accounting for maintenance versus growth capital expenditure, combined with a significant reduction in geopolitical uncertainty that mitigates the risk of permanent capital loss.",
+  "memo": "The Company is a world-leading pure-play semiconductor foundry that has built a formidable competitive moat through superior process technology and massive scale [D01, D06]. We understand why customers flock to them: they provide high-quality manufacturing while strictly avoiding competition with their own clients [D01].\n\nDespite an impressive 2021 ROE of 29.69% and robust revenue growth, the business is extremely capital-intensive [D02, D03]. Maintaining this lead requires consistent, multi-billion dollar annual capital expenditures, which significantly dampens actual owner earnings compared to reported net income [D01, D03].\n\nWe recognize the skill with which the business has been built, though details regarding management incentives remain outside our direct knowledge [D01, D06]. The market currently discounts the company heavily due to concerns over cyclical demand and geopolitical risks, which creates an 8.1% earnings yield [D03, D04, D05].\n\nHowever, we cannot ignore the existential risk posed by the geographic concentration of production in a geopolitically sensitive area [D01, D05]. While the economics of the foundry business are powerful, the requirement for constant, heavy reinvestment coupled with non-diversifiable geopolitical hazards leads us to conclude that our capital is better employed elsewhere, such as in U.S. Treasuries or our own share repurchases [D01, D03].",
+  "uncited_claims": [
+   "The business operates in a highly capital-intensive, geopolitically sensitive sector outside of Buffett's core historical circle of competence."
+  ]
+ }
+}

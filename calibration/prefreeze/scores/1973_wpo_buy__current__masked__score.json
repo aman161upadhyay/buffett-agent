@@ -1,0 +1,64 @@
+{
+ "trade_id": "1973_wpo_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Profitable media franchises mattered more than quoted price volatility. → We are comfortable ignoring these short-term concerns because the underlying franchise value remains intact and continues to generate superior returns [D06], [D07]."
+  ],
+  "missed": [
+   "Public shares offered the whole collection of businesses at no more than roughly a quarter of conservatively appraised business value.",
+   "Independent business appraisal and attitude, rather than private information, supplied the advantage."
+  ],
+  "extra_agent_drivers": [
+   "Dominant local newspaper monopoly with 63% advertising share.",
+   "Strong underlying economics with 13% return on equity and significant cash generation.",
+   "Market erroneously fixated on regulatory noise."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company operates a dominant local newspaper monopoly with a 63% advertising market share.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company has a 13% return on equity.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market is fixated on regulatory hurdles for television licenses.",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company is available at an earnings yield of 10% or better.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We intend to hold this position indefinitely as part of our permanent capital base.",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 16,
+  "cited": 15,
+  "share": 0.94
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are comfortable ignoring these short-term concerns because the underlying franchise value remains intact and continues to generate superior returns [D06], [D07].",
+ "grader_notes": "The agent correctly identified the decision to BUY and the decider, and captured the Buffett-like perspective on looking through market noise to the underlying franchise. However, it missed the core quantitative driver (the 1/4th of appraisal value) cited in the answer key, substituting its own detailed fundamental analysis and valuation metrics instead.",
+ "run": "1973_wpo_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

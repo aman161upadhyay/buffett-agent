@@ -1,0 +1,50 @@
+{
+ "trade_id": "2025_unh_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Price vs value — the trailing earnings yield of 4.97% provides an insufficient margin of safety",
+   "Management transition and the suspension of guidance",
+   "The durability of the competitive advantage is currently challenged by reimbursement pressures and accelerating medical utilization trends",
+   "Reliable calculation of owner earnings is impossible"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "2024 operating earnings of $32.3 billion",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "suspension of annual earnings guidance",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "trailing earnings yield of 4.97%",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 5,
+  "share": 0.56
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "At a trailing earnings yield of 4.97%, the price does not offer the margin of safety we require for a business facing such material uncertainty [D01, D04].",
+ "grader_notes": "The agent reached a 'PASS' decision, which is a total mismatch with the actual 'BUY' decision made by Berkshire Hathaway. As there are no stated drivers in the answer key, reasoning overlap is not scorable, but the agent provided extensive proprietary rationales that were not reflective of Buffett's investment activity.",
+ "run": "2025_unh_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

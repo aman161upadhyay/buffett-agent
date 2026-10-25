@@ -1,0 +1,14 @@
+Title: Network airlines versus a differentiated customer mix
+Source: https://ir.delta.com/news/news-details/2025/Delta-Air-Lines-Announces-September-Quarter-2025-Financial-Results/default.aspx
+Date: 2025-12-31
+
+United and American identify network-airline peers; Southwest represents a different operating and customer model. Fleet, hubs, international exposure, labor arrangements and debt differ, so a single industry multiple cannot establish relative value. The evidence here is Delta's own disclosure: premium and loyalty growth, unit costs, capital spending and leverage. No synchronized peer valuation or independently measured competitive-set margin table has been recovered. [1]
+
+American Express remuneration gives the analyst a tangible recurring relationship to investigate, but not the authority to detach all loyalty profit from the flights needed to sustain the program. The refinery makes revenue comparisons especially easy to distort. Use adjusted airline sales alongside the GAAP reconciliation, and compare claims on cash after fleet renewal. An incumbent network has barriers to replication while individual routes remain contestable. The test is sustained returns on full invested capital across cycles, not simply a record quarterly revenue number or a broad claim that industry consolidation permanently eliminated competition.
+
+Evidence ledger from the October 9 release: September-quarter GAAP revenue was $16.673 billion, operating income $1.684 billion, pre-tax income $1.777 billion, net income $1.417 billion and diluted EPS $2.17. Adjusted revenue was $15.2 billion, pre-tax income approximately $1.5 billion and EPS $1.71. Operating cash flow was $1.8 billion; reported free cash flow $833 million; gross capital spending approximately $1.1 billion. Debt and finance-lease obligations were $14.9 billion, adjusted net debt $15.6 billion, and liquidity $6.9 billion including $3.1 billion undrawn revolvers. Premium revenue grew 9%, loyalty revenue 9% and American Express remuneration 12% to $2 billion. Full-year adjusted EPS guidance was approximately $6 and free cash flow $3.5-$4.0 billion. [1]
+
+Comparison discipline: industry membership does not make two businesses economically identical. Geography, customer mix, contract duration, capital intensity, leverage and accounting adjustments can dominate headline growth comparisons. No synchronized peer-price and consensus-earnings dataset was recovered for this cutoff; relative cheapness is therefore not asserted numerically. The useful comparison is between sources of durable return and exposure to common pressures. A competitor's weakness is not automatically this company's moat, and an industry recovery is not required to be uniform across participants.
+
+Sources and publication dates:
+[1] https://ir.delta.com/news/news-details/2025/Delta-Air-Lines-Announces-September-Quarter-2025-Financial-Results/default.aspx (published 2025-10-09)

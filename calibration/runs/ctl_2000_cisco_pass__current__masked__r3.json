@@ -1,0 +1,257 @@
+{
+ "pack": "ctl_2000_cisco_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2000-03-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company supplies routers and switches for Internet traffic and corporate data networks [D01]. It operates as an established infrastructure provider, utilizing its installed network, channel relationships, and product breadth to foster repeat purchases and compatibility [D01].",
+   "products_customers_and_why_they_buy": [
+    "Routers and switches for enterprise, service-provider, and smaller-business customers [D01].",
+    "Customers buy based on software familiarity, hardware replacement needs, and network standardization [D01]."
+   ],
+   "economics": [
+    "Revenue growth exceeds 50% [D01].",
+    "Profitability exists but is influenced by acquisition costs, in-process R&D, and goodwill/amortization [D01].",
+    "Maintenance capex and recurring costs to retain customers are noted as essential economic components, though not explicitly quantified [D02]."
+   ],
+   "earnings_record": [
+    "Fiscal second-quarter revenue: $4.35B (up 53%) [D01].",
+    "GAAP net income: $825M ($0.23/share) [D01].",
+    "Pro-forma net income: $906M ($0.25/share) [D01].",
+    "Six-month revenue: $8.26B (up 52%) [D01]."
+   ],
+   "competitive_position": [
+    "Peers include Lucent, Nortel, and Juniper [D06].",
+    "Moat evidence includes installed base, trained administrators, and channel relationships, though technological substitution is a persistent risk [D01, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Seven completed acquisitions discussed in recent period [D01].",
+    "Comparability of balance sheet and performance metrics is complicated by pooling-of-interests accounting [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Management actively pursues acquisitions to fill product gaps [D01].",
+    "Two-for-one stock split announced February 2000 [D01].",
+    "Insider ownership and specific compensation incentives are not in pack."
+   ],
+   "price_and_valuation": [
+    "Price: Approximately $131.69 (normalized for split) [D04].",
+    "Market cap: Approximately $450.54bn [D04].",
+    "P/E: Estimated 143.1x (GAAP) to 131.7x (adjusted) based on annualized quarterly earnings [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "Pack states no verified desk-date price or full-year earnings estimate exists to manufacture a claimed initial earnings yield [D02, D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Rapid technological change requiring constant engineering or acquisitions [D05].",
+    "Potential for capital-spending slowdown to compress margins and multiples simultaneously [D05].",
+    "Accounting complications from pooling restatements and R&D exclusions [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Jan 29: Fiscal quarter end [D07].",
+    "Feb 8: Results and two-for-one split announced [D07].",
+    "Feb 22: Split record date [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire portfolio includes Coca-Cola, American Express, and Gillette [D08].",
+    "Cash and float availability is managed for long-term opportunistic use [D08].",
+    "No specific stake in this company in pack."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Maintenance capex, true owner earnings, debt/cash structure, and detailed management compensation."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The company operates in a sector characterized by rapid technological change and constant engineering needs, making its long-term business trajectory highly uncertain [D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While there is an installed base and channel relationships, these are threatened by persistent risks of technological substitution and require constant reinvestment [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The business relies on frequent acquisitions and is affected by accounting complexities like pooling-of-interests, making a consistent, steady record of core earnings difficult to ascertain [D01, D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "Relevant data regarding the debt structure and true owner earnings is missing from the pack [D02, D04]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business requires significant ongoing investment in R&D and frequent acquisitions to maintain its position, failing the test for low-capital intensity [D01, D05]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Specific information regarding management incentives and ownership is not provided in the pack [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of approximately $450.54bn, the company is large enough to move the needle for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "The estimated P/E ratio exceeding 130x represents an extreme valuation that does not provide a margin of safety [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 4,
+   "n_unsure": 3,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a technology business requiring constant, expensive reinvestment to stave off obsolescence in a fast-changing market."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is valuing the company based on its rapid growth in revenue and its dominant position in the internet infrastructure market, disregarding the massive uncertainty regarding long-term competitive durability. There is no bargain here because the valuation is based on speculative future earnings rather than a margin of safety, and the business fails our core requirements for stability and predictability [D01, D04, D05].",
+   "evidence": [
+    "P/E ratio estimated at 131x-143x, providing no margin of safety [D04]",
+    "Business requires frequent acquisitions and constant R&D investment to avoid obsolescence [D01, D05]",
+    "Earnings record is complicated by pooling-of-interests accounting and acquisition costs [D01]"
+   ],
+   "market_narrative_we_disagree_with": "The market assumes that current explosive revenue growth will continue indefinitely without capital-intensive reinvestment or the risk of technological substitution [D01, D05].",
+   "what_must_be_true": [
+    "The company must prove its technology will not be rendered obsolete by competitors",
+    "The company must transition from an acquisition-heavy model to one that generates predictable, long-term owner earnings",
+    "The valuation must reach a level where the earnings yield is competitive with high-quality alternatives"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack [D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not calculable",
+    "high": "not calculable",
+    "key_assumptions": [
+     "earnings currently obscured by pooling-of-interests and acquisition-heavy strategy [D01]",
+     "maintenance capex and normalized R&D not quantified [D02, D05]"
+    ],
+    "discount_rate_used": "long bond rate not provided in pack [D02, D04]"
+   },
+   "price_vs_value": "price is speculative; no margin of safety exists at current P/E of 131x-143x [D04]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / T-bills / existing holdings — current price relative to earnings yield is not competitive with high-quality alternatives [D02, D04]",
+   "downside_case": "significant risk of permanent capital loss due to technological obsolescence and heavy reliance on acquisitions [D01, D05]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "True owner earnings and maintenance capex are not in pack",
+    "Long bond rate is not in pack"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital (default for marketable securities after 1980) [D08]",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Not applicable as decision is PASS [D04]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000s, Berkshire acts as a permanent holder of marketable securities where our edge is our patience and our ability to hold through market fluctuations, as practiced with long-term holdings like Coca-Cola and Gillette [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Pricing power lost to technological substitution by competitors like Lucent, Nortel, or Juniper [D01, D06]",
+    "The world changes for the internet infrastructure industry, rendering current product lines obsolete [D05]",
+    "Earnings growth fails to sustain, revealing that the acquisition-heavy model cannot produce stable owner earnings [D01, D05]"
+   ],
+   "berkshire_constraints": "We must maintain sufficient liquidity and avoid speculative assets that do not fit our criteria for permanent capital; accounting complexities in this company's financials make prudent assessment impossible [D01, D08]",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed in high-quality consumer franchises or kept as cash until the price reflects a margin of safety [D08]",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business fails our fundamental tests for understandability and margin of safety, placing it firmly in the 'too hard' pile.",
+   "biggest_risk_in_one_sentence": "The company operates in a rapidly evolving technological environment where the requirement for constant, expensive acquisitions and R&D creates a high risk of permanent capital loss."
+  }
+ },
+ "final": {
+  "as_of_date": "2000-03-01",
+  "company": "the Company (XXX)",
+  "ticker": "N/A",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not calculable",
+   "expected_return_pct": 0,
+   "downside_case": "significant risk of permanent capital loss due to technological obsolescence and heavy reliance on acquisitions"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the company commands a market capitalization of $450.54bn at a P/E of approximately 131x-143x, offering no margin of safety [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The business operates in a sector defined by rapid technological change, requiring constant, expensive reinvestment and acquisitions to stave off obsolescence [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The company's earnings record is obscured by pooling-of-interests accounting and frequent acquisition costs, making it impossible to determine sustainable owner earnings [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The business fails our requirement for a predictable, durable economic franchise, placing it firmly in our 'too hard' pile [D05, D08].",
+    "citations": [
+     "D05",
+     "D08"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Pricing power lost to technological substitution by competitors like Lucent, Nortel, or Juniper [D01, D06].",
+   "The world changes for the internet infrastructure industry, rendering current product lines obsolete [D05].",
+   "Earnings growth fails to sustain, revealing that the acquisition-heavy model cannot produce stable owner earnings [D01, D05]."
+  ],
+  "what_would_change_our_mind": "Evidence that the company can generate stable, predictable owner earnings independent of continuous, high-cost acquisitions and R&D, alongside a valuation that provides a significant margin of safety.",
+  "memo": "Charlie and I have looked at the Company, but we find ourselves unable to get comfortable with the economics of the business [D05]. While the firm occupies an important position in internet infrastructure, it operates in a field characterized by rapid technological change and intense competition from players like Lucent, Nortel, and Juniper [D01, D06].\n\nFor a business to be considered, we require a clear, durable moat and pricing power that allows for predictable returns on capital with little need for constant reinvestment [D01, D05]. Here, the company's reliance on frequent acquisitions and significant R&D spending to maintain its position suggests a capital-intensive model rather than the low-maintenance franchise we prefer [D01, D05].\n\nFurthermore, the financial statements are complicated by pooling-of-interests accounting and acquisition-related costs, making it difficult to ascertain true owner earnings [D01]. Without a clear view of sustainable earnings, any attempt to estimate intrinsic value is merely a guess [D03].\n\nFinally, the market valuation is extreme, with the company trading at over 130 times its earnings [D04]. Even if this were a wonderful business, the price offered provides no margin of safety [D04]. We prefer to keep our capital in cash rather than risk permanent loss in situations we do not fully understand [D08].",
+  "uncited_claims": []
+ }
+}

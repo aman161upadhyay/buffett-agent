@@ -1,0 +1,265 @@
+{
+ "pack": "ctl_2015_vrx_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2015-03-02",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The company owns branded pharmaceutical, dermatology and eye-care businesses and purchases additional products and distribution [D01]. Its platform strategy involves decentralized ownership of established brands combined with disciplined overhead, tax efficiency, and selective development spending [D01].",
+   "products_customers_and_why_they_buy": [
+    "Branded pharmaceuticals, dermatology products, and eye-care products sold to medical providers and consumers [D01].",
+    "Bausch + Lomb provides a recognizable repeat-purchase consumer/medical franchise [D01]."
+   ],
+   "economics": [
+    "Margins: not in pack.",
+    "Return on equity / tangible capital: not in pack.",
+    "Capital intensity: acquisition-heavy growth model, requiring ongoing integration spending [D05].",
+    "Owner-earnings inputs: D&A not explicitly split; management reports cash EPS; excludes integration/restructuring costs; maintenance capex not in pack [D01, D02].",
+    "Pricing history: pricing power mentioned as a factor, but specific history not in pack [D01, D06]."
+   ],
+   "earnings_record": [
+    "Q4 2014 revenue: $2.3 billion vs $2.1 billion year-over-year [D01].",
+    "Q4 2014 management cash EPS: $2.58 vs $2.15 year-over-year [D01].",
+    "FY2014 GAAP diluted EPS: $2.67 [D04].",
+    "Reported same-store organic sales growth: 16% [D01].",
+    "Bausch + Lomb organic growth: 11% for 2014 [D01]."
+   ],
+   "competitive_position": [
+    "Position: branded pharma/eye-care aggregator [D01].",
+    "Moat: reliance on acquired products with durable demand rather than laboratory discoveries [D01].",
+    "Peers: research-heavy pharmaceutical companies (not directly comparable due to business model differences) [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Debt: year-end 2014 net debt of $15.3 billion [D04].",
+    "Leverage: management reports approximately 3.5x net leverage [D04].",
+    "Refinancing: contemplated Salix transaction requires additional financing [D01, D07]."
+   ],
+   "management_and_capital_allocation": [
+    "Strategy: rational capital allocation, reducing duplicative costs, and paying down acquisition debt [D01].",
+    "Acquisitions: primary driver of growth; recurring acquisitions replace internally developed assets [D05]."
+   ],
+   "price_and_valuation": [
+    "Price: US$203.35 (2015-03-02) [D04].",
+    "Market cap: ~US$68.37 billion [D04].",
+    "P/E: 76.2x (GAAP), 24.4x (adjusted cash EPS) [D04].",
+    "Drawdown: 52-week range US$106.00–$204.66 [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "No pack-stated yields provided; calculations based on management's adjusted figures are warned against in [D01, D02, D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Dependence on credit-market access and cost of future acquisitions [D05].",
+    "Potential for drug exclusivity loss and resistance to price increases [D05].",
+    "Difficulty reconciling non-GAAP guidance to GAAP [D05].",
+    "Reliance on acquisitions rather than internal R&D [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Salix acquisition and financing mentioned as contemplated [D01, D07]."
+   ],
+   "recent_events": [
+    "2015-02-23: Q4 results, non-GAAP reconciliation warnings, and Salix acquisition proposal [D07]."
+   ],
+   "berkshire_context": [
+    "Cash: ~$63.27 billion (Berkshire 2014 AR) [D08].",
+    "Equity securities: $117.47 billion (Berkshire 2014 AR) [D08].",
+    "Idea source: not in pack."
+   ],
+   "document_conflicts": [
+    "None reported."
+   ],
+   "missing_data": [
+    "Normalized maintenance capex, precise GAAP-to-owner earnings reconciliation, specific historical margin trends, and long-term organic growth consistency beyond 2014."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business relies on a decentralized, acquisition-heavy model rather than internal product development, making long-term predictability difficult [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While branded healthcare products generally have pricing power, the company relies on acquiring products rather than laboratory discoveries, and the durability of this demand is unclear [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "UNSURE",
+     "evidence": "Only 2014 data is provided; the reliance on acquisitions makes it impossible to judge a long-term consistent record of returns [D01, D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company carries significant debt with a net leverage of approximately 3.5x [D04]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The company employs an acquisition-heavy growth model that requires constant integration spending and ongoing access to capital markets [D05]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management emphasizes rational capital allocation and cost-cutting, but the reliance on non-GAAP 'cash EPS' metrics complicates transparency [D01, D05, D07]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "At a market cap of ~$68 billion, the company is large enough to be meaningful for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "No owner earnings or free cash flow yields are provided, and GAAP P/E is excessive at 76.2x [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 3,
+   "n_unsure": 4,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "an acquisition-dependent aggregator relying on high leverage and non-GAAP earnings to mask capital intensity."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no reason to expect a bargain here as the business fails our fundamental criteria for understanding and financial conservatism. The company relies on an acquisition-led model with high leverage and non-GAAP earnings metrics that obscure true economic performance, placing it squarely in our 'too hard' pile [D01, D05, D07].",
+   "evidence": [
+    "Reliance on acquisitions rather than internal R&D prevents a clear assessment of long-term consistency [D05].",
+    "Net leverage of 3.5x and the constant need for capital to fund further acquisitions creates unnecessary risk [D04, D05].",
+    "GAAP P/E of 76.2x suggests a price that does not reflect a margin of safety [D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market appears to be valuing the company based on 'cash EPS' figures that exclude essential integration and restructuring costs, which we do not consider reliable indicators of owner earnings [D01, D04, D05].",
+   "what_must_be_true": [
+    "The business must transition from an acquisition-dependent model to one demonstrating sustained organic growth.",
+    "The reliance on high leverage must be replaced by a fortress-like balance sheet.",
+    "Transparent accounting must bridge the massive gap between reported 'cash EPS' and actual GAAP profitability."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack [D01, D02]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "company relies on acquisition-led model [D01, D05]",
+     "high leverage of 3.5x [D04]",
+     "non-GAAP earnings metrics used [D01, D04]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "not in pack",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / T-bills / existing holdings / Berkshire buyback — Berkshire currently holds substantial cash and equity securities [D08], which provide a safer store of value than an acquisition-dependent firm with high leverage [D04, D05].",
+   "downside_case": "The reliance on leverage and continuous acquisition suggests a risk of permanent loss if credit markets tighten or acquired assets fail to perform [D05].",
+   "valuation_verdict": "PASS",
+   "flagged_assumptions": [
+    "Maintenance capex not provided; true owner earnings cannot be calculated [D01, D02].",
+    "Long-term organic growth consistency not in pack [D01]."
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital [D01, D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value would be realised through the compounding of owner earnings and the efficient allocation of capital by management [D01, D05]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the post-1980 era, Berkshire acts as a permanent, passive owner for marketable securities, relying on the quality of the business to provide returns over the long term, rather than seeking control or restructuring [D01, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Credit markets tighten, preventing the company from funding essential acquisitions [D05].",
+    "Acquired assets fail to generate expected returns, leading to impairment of debt-fueled growth [D05].",
+    "Regulators or public pressure force an end to the pricing strategy currently masking the lack of organic R&D success [D05].",
+    "GAAP earnings continue to lag significantly behind non-GAAP 'cash EPS' due to recurring integration and restructuring costs [D04, D05]."
+   ],
+   "berkshire_constraints": "Cash position exceeds the $30B floor [D08], but the business model fails our requirements for financial conservatism and understandable, non-leveraged economics [D01, D04].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Cash is safer in T-bills or existing, proven equity holdings; we do not trade our capital for the uncertainty of a high-leverage aggregator [D04, D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a whole-business model judgment that falls squarely into the 'too hard' category due to the reliance on leverage and non-GAAP metrics.",
+   "biggest_risk_in_one_sentence": "The reliance on constant, debt-funded acquisitions to replace organic growth creates a fragility that risks permanent loss if credit markets or the integration process fail."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-03-02",
+  "company": "Valeant Pharmaceuticals International",
+  "ticker": "VRX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "permanent loss of capital if credit markets tighten or acquired assets fail to perform"
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at a GAAP P/E of 76.2x, failing our test for a margin of safety against intrinsic value [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The business relies on a debt-fueled, acquisition-heavy model rather than consistent internal product development, making its long-term economics difficult to understand [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The company carries significant financial risk with net leverage of approximately 3.5x, which is inconsistent with our preference for fortress-like balance sheets [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Management's reliance on non-GAAP 'cash EPS' figures that exclude essential integration and restructuring costs complicates transparency and masks actual owner earnings [D01, D04, D05].",
+    "citations": [
+     "D01",
+     "D04",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Credit markets tighten, preventing the company from funding essential acquisitions [D05].",
+   "Acquired assets fail to generate expected returns, leading to impairment of debt-fueled growth [D05].",
+   "Regulators or public pressure force an end to the pricing strategy currently masking the lack of organic R&D success [D05].",
+   "GAAP earnings continue to lag significantly behind non-GAAP 'cash EPS' due to recurring integration and restructuring costs [D04, D05]."
+  ],
+  "what_would_change_our_mind": "The business must transition from an acquisition-dependent model to one demonstrating sustained organic growth, paired with a fortress-like balance sheet and transparent GAAP-based accounting.",
+  "memo": "Charlie and I have reviewed Valeant Pharmaceuticals, but we find the business model difficult to understand and inconsistent with our standards for financial conservatism [D01]. A business that relies on constant, debt-funded acquisitions to replace organic R&D success inherently lacks the durability we look for in our long-term holdings [D01, D05].\n\nWe require businesses with predictable, consistent earnings, yet Valeant’s reliance on non-GAAP 'cash EPS' metrics to obscure significant integration and restructuring costs prevents us from gauging the true owner earnings [D01, D04, D05]. Furthermore, a company operating with 3.5x net leverage in a strategy dependent on constant access to capital markets is not a place where we feel comfortable parking our capital [D04, D05].\n\nAt a GAAP P/E of 76.2x, the market is pricing this aggregator as if its growth were both certain and sustainable, a view we do not share given the risks inherent in its structure [D04, D05]. The reliance on credit-market access to fuel growth introduces a fragility that could lead to a permanent loss of capital, a risk we have no reason to accept when safer alternatives exist [D04, D05, D08].\n\nWe prefer to hold cash or invest in proven franchises with simple, transparent economics [D08]. Valeant belongs firmly in our 'too hard' pile, and we will continue to look elsewhere for opportunities that meet our stringent criteria for investment [D01, D05].",
+  "uncited_claims": []
+ }
+}

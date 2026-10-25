@@ -1,0 +1,56 @@
+{
+ "pack": "2023_tsm_sell",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2023-02-14",
+ "stages": {},
+ "final": {
+  "as_of_date": "2023-02-14",
+  "company": "the Company (TSMC)",
+  "ticker": "TSM",
+  "decision": "SELL",
+  "reason_class": "S1",
+  "conviction": "high",
+  "decider": "Buffett",
+  "thesis_at_purchase_vs_now": [
+   "Manufacturing expertise and scale: intact [D01]",
+   "Advanced processes and market leadership: intact [D01]",
+   "Geographic concentration: broken, with heightened recognition of unavoidable, uncontrollable systemic risk [D01, D05]"
+  ],
+  "price_vs_value_now": "The ADR trades at approximately 14.9x trailing earnings with a 6.71% earnings yield, which does not provide a sufficient margin of safety given the geopolitical tail risk [D04].",
+  "after_tax_hurdle": "The risk of permanent loss of capital due to the geographic concentration of production assets outweighs the potential after-tax gains, making the holding untenable regardless of tax costs [D05].",
+  "drivers": [
+   {
+    "driver": "The company faces an extreme, uncontrollable geographic concentration risk that poses a threat of permanent loss of capital [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Foundry manufacturing requires continuous, heavy capital investment which limits owner earnings even when margins appear high [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The company's future demand and utilization are subject to cyclical fluctuations and inventory adjustments, introducing further uncertainty [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "A large cash balance at Berkshire provides the luxury of avoiding investments where the downside is a catastrophic geopolitical event outside management's control [D05, D08].",
+    "citations": [
+     "D05",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "Charlie and I have always sought businesses with durable competitive advantages that we can understand and rely upon for the long term. While the Company is undoubtedly a leader in semiconductor manufacturing with difficult-to-replicate expertise, the reality of its geographic concentration presents a risk that simply does not fit our criteria for a permanent holding [D01, D05]. \n\nWe do not speculate on geopolitical outcomes, but we also do not ignore the fact that the company’s primary assets are located in a region where the potential for disruption is not within the control of even the most able managers [D01, D05]. When the fundamental future of a business becomes unknowable due to factors outside its walls, the only rational course is to exit, regardless of the quality of the franchise or the reported margins [D01]. \n\nWe have plenty of other ways to employ Berkshire's capital where we can be far more confident in the durability of the assets and our ability to retain them for the long haul [D08]. We are selling our stake not because the company's operating performance has faltered, but because the risk profile is inconsistent with our standards for capital preservation [D05].",
+  "uncited_claims": []
+ }
+}

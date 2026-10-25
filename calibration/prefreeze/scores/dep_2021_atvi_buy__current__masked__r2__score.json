@@ -1,0 +1,57 @@
+{
+ "trade_id": "dep_2021_atvi_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "BUY by an unnamed deputy, not Buffett and not merger arbitrage.",
+   "Buffett's signed February 17, 2022 clarification regarding independent investment managers.",
+   "Buffett explicitly said the investment manager operated independently of him."
+  ],
+  "extra_agent_drivers": [
+   "Management and cultural instability",
+   "Capital-intensive business model",
+   "Lack of earnings record",
+   "Uncertainty in revenue streams"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business faces severe management and cultural instability that creates a high risk of permanent impairment to both capital and reputation",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The underlying model is capital-intensive, requiring constant creative reinvestment",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The lack of a multi-year earnings record prevents an assessment of durable, resilient performance",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Potential declines in user engagement from pandemic-era highs introduce significant uncertainty",
+    "citation": "D05",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 7,
+  "share": 0.54
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Consequently, we have placed this opportunity in the 'too hard' pile.",
+ "grader_notes": "The agent reached a 'PASS' decision, missing the actual 'BUY' decision made by a Berkshire deputy. The agent provided a detailed qualitative analysis of the business which was not reflective of the actual drivers, as the actual investment was a capital-allocation decision by an independent manager rather than a fundamental underwriting of the company's creative business model.",
+ "run": "dep_2021_atvi_buy__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS"
+}

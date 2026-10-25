@@ -1,0 +1,55 @@
+{
+ "pack": "1974_market_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "hedge",
+ "as_of_date": "1974-11-01",
+ "stages": {},
+ "final": {
+  "as_of_date": "1974-11-01",
+  "trailing_earnings_yield_pct": 13.02,
+  "normalised_earnings_yield_pct": 13.02,
+  "normalisation_basis": "trailing (no distortion)",
+  "long_bond_yield_pct": 7.8,
+  "spread_points": "5.22",
+  "drawdown_from_high_pct": -41.4,
+  "panic_indicators": [
+   "Forbes reports on fears of depression and interest in gold [D03]",
+   "Market decline of 41.4% from January 1973 high [D04]"
+  ],
+  "rule_decision": "BUY_BROADLY",
+  "decision": "BUY_BROADLY",
+  "override_reason": null,
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "The S&P 500 earnings yield of 13.02% significantly exceeds the 7.80% yield on the ten-year Treasury [D04].",
+  "valuation_level": "The market is trading at a trailing P/E of 7.68x, which is historically low and offers a significant margin of safety [D03, D04].",
+  "ideas_that_qualify": [
+   "Simple businesses with durable competitive advantages like utilities, newspapers, and major retailers [D01]"
+  ],
+  "berkshire_action": "Deploy available cash aggressively into common stocks that meet our stringent business criteria.",
+  "drivers": [
+   {
+    "driver": "The earnings yield of 13.02% provides a massive spread of 5.22 percentage points over the 7.80% risk-free rate [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Market prices have declined 41.4% from the 1973 highs, creating a rare opportunity to purchase businesses at deep discounts to their going-concern value [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Widespread pessimism and talk of depression confirm that Mr. Market is acting irrationally, allowing for the acquisition of wonderful businesses at fair prices [D03, D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "Charlie and I see a market that is exceptionally cheap by any rational standard. When we see the S&P 500 trading at less than 8 times earnings and offering an earnings yield that dwarfs the return on long-term government bonds, the logic for aggressive buying is overwhelming [D03, D04]. We are not attempting to forecast the economy or the timing of a recovery; we are simply looking at the price of business ownership relative to the cash we can expect those businesses to produce over the long term.\n\nWhile the headlines are filled with talk of inflation, oil scarcity, and economic despair, we prefer to focus on the durability of the cash-generating machines we can buy today [D03, D05]. We are looking for simple, understandable businesses—utilities, newspapers, retailers—where the competitive position is secure and the management acts like owners [D01]. We have no interest in complex technological gambles or turnarounds [D01]. When stocks are on the bargain counter, we do not stand on the sidelines; we act with conviction to put our capital to work.",
+  "uncited_claims": []
+ }
+}

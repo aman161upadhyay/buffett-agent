@@ -1,0 +1,15 @@
+Title: US equity market — Contemporaneous problem and adverse case
+Source: Forbes interview, November 1, 1974, market and business observations only, recommendations removed; https://rogermontgomery.com/wp-content/uploads/2013/11/AnInterviewwithWarrenBuffettin1974.pdf; Berkshire financial statements, unaffiliated common-stock reference https://ia803100.us.archive.org/10/items/berkshirehathawayannualreports/berkshirehathaway1973_text.pdf
+Date: 1974-11-01
+
+## Cutoff evidence — reconstructed
+
+The adverse setting is serious: oil supply and pricing power, inflation, recession, resource scarcity and broad fears about corporate profits. Low nominal prices may not be cheap if real earning power is impaired or inflation demands more capital simply to maintain output. A rapid rally can also reverse while economic conditions weaken. The interview acknowledges that no portfolio is proof against every catastrophe. That is not an argument to ignore ordinary insolvency risk. Original named bearish research is unavailable here; the reconstructed sceptical case asks whether the going-concern values being used survive the inflation and demand shock, not whether disaster is emotionally imaginable.
+
+## Economic reading of the supplied facts
+
+Portfolio economics: aggregate stock ownership is a claim on business earnings, not a claim on the path of a market index. Dividends distribute part of those earnings; retained earnings add value only if employed productively. Interest rates affect the present value of both equities and bonds. An investor who sells one financial asset must still decide what to hold instead. Cash avoids duration and business risk but is exposed to inflation and the opportunity cost of missed investments. Market averages can obscure large differences among individual businesses. Comparing aggregate prices with book value or profits is a valuation exercise, not a mechanism for forecasting next month's quotation. The financial comparisons below are conditional on earnings durability and the stated measurement dates.
+
+Adverse-case interpretation: a falling quotation is not itself evidence that a problem is temporary. The economically important loss is an impairment of future cash generation or a financing obligation that existing owners cannot meet. A patient investor can endure a lower stock price, but patience does not repair a destroyed franchise.
+
+The risks described here should be tested before assuming a return to ordinary margins. A capable manager may improve execution without being able to change the industry's economics. A security senior to common stock can still be junior to creditors and can still suffer interruption of its payments. Likewise, apparent balance-sheet strength may depend on estimates whose errors emerge only slowly. No probability is assigned to a disaster without evidence. These concerns are an analyst's reconstruction of the adverse argument from the identified business conditions, not an invented quotation from a named contemporary critic. Original bearish research, where unavailable, is explicitly not represented as recovered.

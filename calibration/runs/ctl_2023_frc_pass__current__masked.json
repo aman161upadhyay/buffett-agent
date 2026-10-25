@@ -1,0 +1,261 @@
+{
+ "pack": "ctl_2023_frc_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2023-03-16",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The bank specializes in relationship banking and wealth management for affluent clients, combining mortgages, deposits and advisory services [D01]. It operates a lending franchise characterized by low loan losses and high customer lifetime value, though it currently faces a generalized regional-bank confidence shock [D01].",
+   "products_customers_and_why_they_buy": [
+    "Affluent clients use the bank for relationship banking, including mortgages, deposits and wealth-management advisory services [D01], [D02]. Evidence of value is supported by record customer satisfaction and low historical credit losses [D01], [D03]."
+   ],
+   "economics": [
+    "Full-year 2022 revenue was $5.9 billion, with net interest income of $4.8 billion [D01], [D02].",
+    "Net income was approximately $1.7 billion; however, fourth-quarter net interest margin declined to 2.45% from 2.71% in the preceding quarter [D01], [D02].",
+    "Tier 1 leverage ratio was 8.51% [D01], [D02].",
+    "The bank is capital-intensive and subject to liquidity constraints, with wealth-management assets of $271.2 billion belonging to clients rather than being available as bank liquidity [D01], [D02]."
+   ],
+   "earnings_record": [
+    "FY2022 revenue grew 16.5%, net interest income 17.5%, and net income 12.7% [D01], [D02].",
+    "Diluted EPS was $8.25, up 7.4% [D01], [D02].",
+    "Fourth-quarter 2022 EPS was $1.88, down 3.6% year-on-year [D01], [D02]."
+   ],
+   "competitive_position": [
+    "The bank operates as a lending franchise with low nonperforming assets (five basis points) and low annual net charge-offs ($2.9 million) [D01], [D02].",
+    "It faces competitive risks from larger diversified banks that have broader funding bases during periods of sector-wide stress [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Loans were $166.9 billion and deposits were $176.4 billion as of year-end 2022 [D01], [D02].",
+    "On March 16, 2023, the bank received a $30 billion deposit liquidity bridge from eleven large banks [D01], [D02].",
+    "The balance sheet is vulnerable to rising market rates affecting long-duration mortgage assets and the risk that affluent clients may withdraw uninsured balances [D05]."
+   ],
+   "management_and_capital_allocation": [
+    "Not in pack."
+   ],
+   "price_and_valuation": [
+    "Last trading-day close (2023-03-16) was $34.27 [D04].",
+    "FY2022 P/E based on $8.25 EPS is 4.15x [D04].",
+    "Common P/B is 0.455x and price-to-tangible-book is 0.462x based on year-end 2022 figures [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 24.07,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "Earnings yield calculated as $8.25 EPS / $34.27 price [D04]. Figures are based on stale 2022 year-end data [D02], [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Large uninsured deposit balances leaving quickly [D05].",
+    "Compression of margins due to replacing cheap deposits with expensive wholesale funding [D05].",
+    "Long-duration assets losing economic value as market rates rise [D05].",
+    "Liquidity bridge deposits being liabilities rather than equity that absorbs losses [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "2023-01-13: Annual results published [D07].",
+    "2023-03-16: Eleven large banks announce $30 billion in deposits for the bank [D01], [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds $128.6 billion in cash and $308.8 billion in equity securities [D08].",
+    "Existing financial-sector exposure includes Bank of America and American Express [D08].",
+    "Not in pack regarding any specific position or internal evaluation of this bank."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Contemporaneous earnings estimates reflecting current funding costs, normalized maintenance capital expenditure requirements, and precise current market valuation metrics adjusted for the March 2023 deposit run."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The business operates a traditional relationship-based lending and wealth management model that is inherently understandable [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The bank demonstrates a track record of low credit losses and high customer lifetime value, indicating a solid relationship-banking franchise [D01], [D03]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "The company showed consistent growth in 2022, with revenue increasing 16.5% and net income by 12.7% [D01], [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The bank faces a confidence shock, significant liquidity constraints, and vulnerability to deposit runs, indicating a failure to maintain capital and funding stability [D01], [D05]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The bank is explicitly described as capital-intensive and subject to liquidity risks that threaten its operating structure [D01], [D05]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "There is no information regarding management's capital allocation or owner-mindedness in the pack [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The scale of the business, with $271.2 billion in client assets, is sufficient to move the needle for Berkshire [D01]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The bank trades at a significant discount with a 0.455x price-to-book ratio and a trailing earnings yield of 24.07% [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 2,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a regional lending franchise currently suffering from a liquidity crisis and confidence shock that undermines its capital stability"
+  },
+  "gate2": {
+   "templates": [
+    "B2"
+   ],
+   "why_available": "The market is reacting to a generalized regional-bank confidence shock, fearing that uninsured deposit withdrawals and rising interest rates will lead to insolvency [D01], [D05]. We must determine if this is a temporary liquidity crisis or a fundamental impairment of the lending franchise's ability to retain its affluent client base and manage credit risk [D01], [D05].",
+   "evidence": [
+    "The bank maintains a strong lending record with low nonperforming assets of five basis points and annual charge-offs of $2.9 million [D01].",
+    "Eleven large banks provided a $30 billion deposit liquidity bridge on March 16, 2023, to stabilize the bank [D01], [D07].",
+    "The bank trades at 0.455x price-to-book, suggesting the market has priced in a significant loss of equity value [D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market assumes that a liquidity crisis is equivalent to a permanent impairment of franchise value and that the bank's long-duration mortgage assets have suffered fatal losses that cannot be absorbed by future earnings [D05].",
+   "what_must_be_true": [
+    "Affluent clients maintain their banking relationships and do not permanently flee to larger, perceived-safer institutions.",
+    "The cost of the liquidity bridge and replaced wholesale funding does not permanently compress margins below a level that supports intrinsic value.",
+    "The underlying mortgage portfolio remains high-quality with low credit losses, consistent with historical performance."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "8.25 [D01], [D04]",
+   "initial_pretax_yield_pct": 24.07,
+   "intrinsic_value_range": {
+    "low": "Not calculable",
+    "high": "Not calculable",
+    "key_assumptions": [
+     "Assumes the bank survives the liquidity crisis and maintains historical credit quality [D01], [D05]"
+    ],
+    "discount_rate_used": "Not in pack"
+   },
+   "price_vs_value": "Unknown; price at 0.46x tangible book [D04], but intrinsic value depends on uncertain future funding costs",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "T-bills or cash provide certainty; this situation carries high uncertainty regarding the deposit base [D01], [D05]",
+   "downside_case": "Permanent loss of capital if the bank becomes insolvent due to deposit flight and asset devaluation [D05]",
+   "valuation_verdict": "FULL",
+   "flagged_assumptions": [
+    "Normalised owner earnings cannot be reliably calculated due to the ongoing liquidity shock and lack of updated funding cost data [D05]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Berkshire's edge is patience and permanent capital, allowing us to be a permanent passive holder that benefits from the business compounding over time [D01], [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realized through the bank's ability to stabilize its liquidity, retain its affluent client franchise, and eventually return to historical levels of profitability [D01], [D05]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the current era, we act as a permanent holder of quality businesses. While this bank requires careful monitoring due to the liquidity crisis, any investment would be managed as a long-term position in a franchise, consistent with our approach to other financial-sector holdings [D01], [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Uninsured deposit flight accelerates beyond the $30 billion liquidity bridge [D01], [D05]",
+    "Regulatory intervention or forced sale occurs due to capital inadequacy [D05]",
+    "Margin compression from high-cost wholesale funding renders the core lending business structurally unprofitable [D05]",
+    "Long-duration mortgage assets suffer permanent impairment requiring significant write-downs [D05]"
+   ],
+   "berkshire_constraints": "Must maintain a cash floor of at least $30 billion; investment must not jeopardize Berkshire's reputation or exceed regulatory ownership thresholds without approval [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio | partnership | cash"
+   },
+   "opportunity_cost": "Cash or T-bills provide certainty; this situation carries extreme uncertainty regarding the deposit base and terminal value of the franchise [D01], [D05].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The situation involves significant uncertainty regarding fundamental viability and requires a high-level assessment of banking franchise stability during a crisis.",
+   "biggest_risk_in_one_sentence": "The bank faces a fundamental loss of deposit-based funding stability which may lead to permanent capital impairment."
+  }
+ },
+ "final": {
+  "as_of_date": "2023-03-16",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "Not calculable",
+   "initial_pretax_yield_pct": 24.07,
+   "intrinsic_value_range": "Not calculable",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital if the bank becomes insolvent due to deposit flight and asset devaluation [D05]."
+  },
+  "drivers": [
+   {
+    "driver": "The bank trades at 0.46x tangible book [D04], but intrinsic value is not calculable due to the ongoing liquidity crisis [D03], [D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The bank faces a fundamental risk of deposit-based funding instability that may lead to permanent capital impairment [D01], [D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Normalised owner earnings cannot be reliably calculated to determine a margin of safety due to the liquidity shock [D03], [D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The bank is capital-intensive and subject to liquidity risks that threaten its operating structure [D01], [D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Uninsured deposit flight accelerates beyond the $30 billion liquidity bridge [D01], [D05]",
+   "Regulatory intervention or forced sale occurs due to capital inadequacy [D05]",
+   "Margin compression from high-cost wholesale funding renders the core lending business structurally unprofitable [D05]",
+   "Long-duration mortgage assets suffer permanent impairment requiring significant write-downs [D05]"
+  ],
+  "what_would_change_our_mind": "A stabilization of the deposit base, clarity on the long-term cost of funding, and proof that the mortgage portfolio remains high-quality without needing significant write-downs [D01], [D05].",
+  "memo": "We have looked at the situation surrounding this bank, which operates a traditional lending and wealth management model for affluent clients [D01]. While the business historically demonstrated low credit losses and consistent growth, it currently faces a confidence shock and significant liquidity constraints [D01], [D05].\n\nWe require businesses with predictable economics and an ability to withstand stress without relying on the kindness of others. Today, the bank's reliance on a $30 billion liquidity bridge from other institutions highlights a fragility that we find incompatible with our investment standards [D01], [D07].\n\nValuation is not merely a function of a low price-to-book ratio [D04]. In this case, the underlying intrinsic value is obscured by the risk of deposit flight and the potential for margin compression from high-cost funding [D05]. When we cannot calculate the normalized owner earnings with reasonable confidence, we prefer to keep our cash [D05].\n\nWe put this idea in the 'too hard' pile. We do not gamble on the stabilization of a balance sheet that is undergoing a systemic run, as the risk of permanent loss of capital is simply too high [D05].",
+  "uncited_claims": [
+   "We require businesses with predictable economics and an ability to withstand stress without relying on the kindness of others.",
+   "When we cannot calculate the normalized owner earnings with reasonable confidence, we prefer to keep our cash.",
+   "We put this idea in the 'too hard' pile."
+  ]
+ }
+}

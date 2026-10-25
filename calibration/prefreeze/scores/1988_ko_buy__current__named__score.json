@@ -1,0 +1,55 @@
+{
+ "trade_id": "1988_ko_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "The product's extraordinary consumer appeal supported a worldwide franchise. → We have long admired The Coca-Cola Company, a business whose product is consumed over 500 million times daily across 155 countries [D06].",
+   "Goizueta and Keough refocused policies and energized overseas sales. → Roberto Goizueta and Don Keough have run the business with admirable discipline and an owner-oriented mindset [D01]."
+  ],
+  "missed": [
+   "Marketing and finance worked together to maximize growth and rewards to owners.",
+   "Outstanding businesses with outstanding management warranted long ownership."
+  ],
+  "extra_agent_drivers": [
+   "The concentrate-based business model is exceptionally capital-efficient, allowing for high returns on equity [D01, D02].",
+   "The market's obsession with short-term competitive noise ignores the durable, long-term compounding nature of the global brand [D05].",
+   "Per-share earnings growth of 15% demonstrates the compounding potential that justifies a fair entry price today [D03]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "business whose product is consumed over 500 million times daily across 155 countries",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "global market share exceeding 44%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "returns on equity exceeding 27%",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 11,
+  "share": 0.85
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We intend to build this into a significant position, perhaps 20% of our equity portfolio, as we view it as a cornerstone asset [D05].",
+ "grader_notes": "The agent correctly identified the decision and the key management figures, matching Buffett's sentiment regarding the brand. However, the reasoning overlap is limited because the agent focused more on structural economics (concentrate model/ROEs) rather than the specific interplay of marketing and finance or the explicit philosophy of permanent ownership cited by Buffett.",
+ "run": "1988_ko_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

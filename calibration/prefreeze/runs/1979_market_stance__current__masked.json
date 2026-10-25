@@ -1,0 +1,59 @@
+{
+ "pack": "1979_market_stance",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "1979-08-06",
+ "stages": {},
+ "final": {
+  "as_of_date": "1979-08-06",
+  "market_earnings_yield_pct": 13.83,
+  "long_bond_yield_pct": 8.91,
+  "spread_points": 4.92,
+  "rule_decision": "BUY_BROADLY",
+  "decision": "BUY_BROADLY",
+  "override_reason": null,
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "The market earnings yield of 13.83% provides a spread of 4.92 percentage points over the 8.91% ten-year Treasury yield [D04, D06].",
+  "valuation_level": "The market trades at a trailing P/E of approximately 7.23x, with selected companies trading at a discount to book value [D03, D04].",
+  "ideas_that_qualify": [
+   "Established American businesses with durable earning power trading below intrinsic value [D01, D04]."
+  ],
+  "berkshire_action": "We will deploy available cash into high-quality businesses that demonstrate competitive advantages and pricing power at these attractive prices.",
+  "drivers": [
+   {
+    "driver": "The earnings yield of equities is significantly higher than the yield on long-term government bonds, providing a superior long-term owner return.",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Market sentiment is exceptionally depressed, as evidenced by private pension fund net equity purchases falling to only 9% of new funds.",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Broad availability of businesses trading at or below book value allows us to acquire meaningful stakes in companies with high returns on capital.",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "We focus on the durability of owner earnings rather than the short-term fluctuations of market indices.",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "Charlie and I have always maintained that our task is to evaluate businesses as owners, not as stock traders. At present, Mr. Market is offering us the opportunity to purchase shares in established American businesses at prices that make the 9–10% yields on long-term bonds look relatively unattractive. With the S&P 500 trading at roughly 7 times earnings, we are finding an earnings yield that provides a substantial margin of safety for the long-term holder [D03, D04, D06].\n\nWhile some worry about inflation and replacement costs, we distinguish between businesses that require constant reinvestment to maintain their position and those that have a durable moat. We do not need the economy to improve to justify these purchases; we only need the companies themselves to continue to perform as productive units of capital [D01, D05]. The prevailing pessimism, exemplified by the dramatic retreat of institutional investors from the equity market, simply makes the price of ownership that much more compelling for those of us with a long time horizon [D03, D07].",
+  "uncited_claims": [
+   "None"
+  ]
+ }
+}

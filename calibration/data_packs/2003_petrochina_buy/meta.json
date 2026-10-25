@@ -1,0 +1,27 @@
+{
+  "id": "2003_petrochina_buy",
+  "company": "PetroChina Company Limited",
+  "ticker": "PTR / 0857.HK",
+  "aliases": [
+    "PetroChina Company Limited",
+    "PTR / 0857.HK",
+    "PetroChina",
+    "PTR",
+    "0857",
+    "0857.HK",
+    "857",
+    "CNPC",
+    "China National Petroleum Corporation",
+    "Daqing",
+    "Liaohe",
+    "Changqing",
+    "Tarim"
+  ],
+  "as_of_date": "2003-04-01",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "2002\u20132003 accumulation; exact initial day unknown",
+  "fund_aum_usd_bn": 10.3,
+  "decider": "Buffett",
+  "notes": "Requested date is inside/after an accumulation window, not a verified first trade. New mode is a counterfactual fresh-underwriting view. The 2004 letter is an ownership checkpoint; the 2007 letter provides the retrospective appraisal. Missing dated quote and reserve-maintenance detail. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated."
+}

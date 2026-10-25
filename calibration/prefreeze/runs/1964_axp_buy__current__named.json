@@ -1,0 +1,246 @@
+{
+ "pack": "1964_axp_buy",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "1964-02-20",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "American Express operates travelers-cheque and charge-card services, in addition to a warehousing subsidiary currently implicated in a commodities fraud [D01]. The company's core operating assets are its customer relationships and payment-network acceptance, which facilitate a promise-to-pay service [D01].",
+   "products_customers_and_why_they_buy": [
+    "Travelers cheques and charge-card services, used by consumers and accepted by merchants because of the company's recognized payment promise and established brand trust [D01]."
+   ],
+   "economics": [
+    "Industry economics involve combining service charges with funds held between receipt and settlement [D02, D03, D06].",
+    "Operating margins (excluding securities-sale gains) were 10.6% (1959), 11.8% (1960), 10.7% (1961), 11.5% (1962), and 14.5% (1963) [D02].",
+    "Return on year-end equity ranged from 14.3% to 15.0% between 1959 and 1963 [D02].",
+    "Pricing power and capital requirements remain subject to competitive pressure in merchant charges, cardholder benefits, and funding costs [D02, D06]."
+   ],
+   "earnings_record": [
+    "Net income grew from $8.4m in 1959 to $11.264m in 1963 [D02].",
+    "EPS grew from $1.89 in 1959 to $2.52 in 1963; the 1963 figure includes $0.23/share in securities-sale profits [D02, D03]."
+   ],
+   "competitive_position": [
+    "The company maintains a significant payment network, with card-accepting service establishments growing to 81,989 by the end of 1962 [D06].",
+    "Its competitive advantage relies on customer confidence and merchant acceptance, though this is currently threatened by the warehousing subsidiary's fraud [D01, D05]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "As of December 1962: $187.307m cash, $463.480m securities, $421.063m in outstanding travelers instruments, and $337.238m in customer balances [D02].",
+    "Customer money does not represent surplus corporate cash; legal liability and potential liquidity needs from the fraud remain unquantified [D02, D03, D05]."
+   ],
+   "management_and_capital_allocation": [
+    "President: Howard L. Clark [D03].",
+    "The company has historically paid dividends, with DPS rising from $1.05 in 1959 to $1.40 in 1963 [D02]."
+   ],
+   "price_and_valuation": [
+    "Price proxy: approximately $37 (January 1964) [D04].",
+    "P/E ratio: 14.7x based on $2.52 EPS (includes non-recurring gains); earnings yield: 6.81% [D04].",
+    "P/B ratio: 2.42x based on December 1962 book value [D04].",
+    "Dividend yield: 3.78% based on 1963 DPS [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Potential for liabilities exceeding the subsidiary's boundaries [D05].",
+    "Threat to brand trust impacting travelers cheque redemptions and merchant acceptance [D05].",
+    "Potential for a liquidity crisis if payment users abandon the service [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "November 1963: Salad-oil fraud becomes public [D07].",
+    "January 6, 1964: Company reports preliminary 1963 earnings of $11.25m ($2.52/share) [D03]."
+   ],
+   "berkshire_context": [
+    "The vehicle is the Buffett Partnership; starting net assets $17,454,900 [D08].",
+    "Exact position in AXP for the partnership is not in pack [D08]."
+   ],
+   "document_conflicts": [
+    "None identified; documents represent reconstructed historical figures."
+   ],
+   "missing_data": [
+    "Full legal-liability range for the warehousing fraud; current monthly card-volume/merchant-attrition reports; finalized balance sheet as of February 1964; independent peer-group multiple comparisons."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "PASS",
+     "evidence": "The company operates a core payment network based on brand trust and merchant acceptance that has high utility for consumers and merchants [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The extensive payment network and established brand trust provide a durable competitive advantage [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Net income and EPS have shown steady growth from 1959 through 1963 [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "Return on year-end equity consistently ranged between 14.3% and 15.0% from 1959 to 1963 [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "The business generates float from travelers cheques and customer balances, requiring relatively low capital investment in core operations [D02, D03]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "While the company has a history of rising dividends, the management's oversight regarding the subsidiary involved in a commodities fraud creates uncertainty [D01, D02, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "Given the Buffett Partnership's net assets, American Express is of sufficient scale to allow for a meaningful position [D08]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "An earnings yield of approximately 6.8% is favorable compared to typical bond yields of the era [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 7,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a powerful payment network franchise currently suffering from a temporary reputational cloud due to a subsidiary fraud"
+  },
+  "gate2": {
+   "templates": [
+    "B2"
+   ],
+   "why_available": "The market is reacting with panic to the Salad Oil scandal, fearing that the fraud in the warehousing subsidiary will trigger a systemic run on American Express's core payment services [D05, D07]. We believe the brand trust and utility of the card and cheque network will remain intact as customers continue to use the product regardless of the financial hit [D01, D05]. The total potential loss is a finite, manageable one-time charge, meaning the market has overreacted by depressing the stock price far beyond the actual impairment [D02, D05].",
+   "evidence": [
+    "The Salad Oil scandal has raised concerns about liabilities exceeding the subsidiary's boundaries [D05].",
+    "Core payment services and travelers cheques remain essential and continue to be accepted by merchants [D01].",
+    "The company has maintained a record of strong earnings and returns on equity leading up to the crisis [D02]."
+   ],
+   "market_narrative_we_disagree_with": "The market believes the warehousing subsidiary fraud threatens the viability of the entire American Express franchise, potentially leading to a liquidity crisis [D05].",
+   "what_must_be_true": [
+    "The fraud is isolated to the warehousing subsidiary and does not reach the core payment network.",
+    "Customers continue to use travelers cheques and charge cards without interruption.",
+    "The total legal and financial liability from the fraud is quantifiable and can be absorbed by the company's earnings and capital base."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "$2.29 [D02, D03]",
+   "initial_pretax_yield_pct": 6.19,
+   "intrinsic_value_range": {
+    "low": "$50.00",
+    "high": "$65.00",
+    "key_assumptions": [
+     "Core franchise brand trust remains intact post-scandal [D01, D05]",
+     "Legal liabilities are finite and absorbable [D02, D05]",
+     "Historic 14-15% ROE sustains [D02]"
+    ],
+    "discount_rate_used": "4.2% long-term government bond rate assumed for period [D08]"
+   },
+   "price_vs_value": "Price at $37 is 74% of low-end value; margin of safety exists if fraud is isolated.",
+   "expected_return_pct": {
+    "base": 12,
+    "bear": 0,
+    "bull": 18
+   },
+   "alternatives": "T-bills / existing partnership workouts — American Express offers a rare opportunity to buy a durable franchise at a depressed price due to transient public panic [D05, D08].",
+   "downside_case": "If the scandal leads to systemic loss of brand trust or unquantifiable legal liabilities beyond company resources, permanent loss of capital is possible.",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "4.2% discount rate assumed based on early 1960s interest rate environment [D08]",
+    "Owner earnings calculated by adjusting $2.52 EPS for $0.23 non-recurring securities gain [D02, D03]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Permanent_passive_holder — we view our purchase of American Express as an investment in a wonderful business temporarily under a cloud, relying on the intrinsic value of the payment franchise rather than intervention [D01, D05].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "The business compounds earnings as the core payment network continues to demonstrate high utility and brand trust [D01].",
+    "Market panic subsides as the warehousing fraud is contained and the liability is proven to be finite [D02, D05]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In 1964, our partnership model allows us to take advantage of market mispricings in high-quality franchises, acting as a patient investor while the business recovers its reputation and intrinsic value [D05, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Core payment network trust collapses leading to mass merchant or user attrition [D05].",
+    "Legal and financial liabilities from the Salad Oil scandal exceed the company's total equity and access to credit [D05].",
+    "Management fails to contain the fraud or loses control of the core payment service reputation [D01, D05]."
+   ],
+   "berkshire_constraints": "The Buffett Partnership must maintain adequate liquidity for partner redemptions while navigating the volatility of the Salad Oil scandal; no regulatory thresholds are violated by this position [D08].",
+   "size_pct_nav": {
+    "initial": 20,
+    "target": 40,
+    "max": 40,
+    "basis": "partnership"
+   },
+   "opportunity_cost": "T-bills and existing undervalued workout situations; American Express represents a superior opportunity to acquire a high-quality franchise at a significant discount [D05, D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a major concentrated bet on a durable franchise with a temporary, quantifiable problem that fits squarely within the partnership's focus on mispriced blue-chip securities.",
+   "biggest_risk_in_one_sentence": "The potential for unquantifiable legal liabilities arising from the warehousing fraud to destroy the underlying equity value or permanently shatter the company's brand trust."
+  }
+ },
+ "final": {
+  "as_of_date": "1964-02-20",
+  "company": "American Express",
+  "ticker": "AXP",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 40,
+  "size_basis": "partnership",
+  "opportunity_template": [
+   "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "$2.29",
+   "initial_pretax_yield_pct": 6.19,
+   "intrinsic_value_range": "$50.00 - $65.00",
+   "expected_return_pct": 12,
+   "downside_case": "Systemic loss of brand trust or unquantifiable legal liabilities exceeding company resources."
+  },
+  "drivers": [
+   {
+    "driver": "The company sells for approximately $37, representing a significant discount to our conservatively appraised value of $50-$65, providing a substantial margin of safety [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "American Express possesses a powerful, high-utility payment network and brand that remains essential to consumers and merchants despite the current, isolated Salad Oil scandal [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The business historically generates excellent returns on equity, consistently ranging between 14.3% and 15.0% from 1959 to 1963, with relatively low capital intensity in its core operations [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "The market has panicked over the warehousing subsidiary’s fraud, mispricing the stock by ignoring the core franchise's resilience and the likelihood that total liabilities are finite [D02, D05].",
+    "citations": [
+     "D02",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Core payment network trust collapses leading to mass merchant or user attrition [D05].",
+   "Legal and financial liabilities from the Salad Oil scandal exceed the company's total equity and access to credit [D05].",
+   "Management fails to contain the fraud or loses control of the core payment service reputation [D01, D05]."
+  ],
+  "what_would_change_our_mind": "Evidence that the Salad Oil liabilities are not finite or that the core card and travelers cheque business is suffering permanent merchant or customer attrition.",
+  "memo": "American Express operates a remarkable payment network and travelers cheque business that serves as a vital tool for both consumers and merchants [D01]. We understand this business well because its core utility—the promise-to-pay service—is simple and has become an indispensable part of commerce [D01].\n\nHistorically, the company has demonstrated impressive economics, maintaining returns on equity between 14.3% and 15.0% from 1959 to 1963 [D02]. This performance reflects strong pricing power and high margins, while the nature of the float generated by travelers cheques requires relatively low capital investment in the core business [D02, D03, D06].\n\nManagement has overseen a consistent record of growth, with net income rising from $8.4 million in 1959 to $11.264 million in 1963 [D02]. While the current Salad Oil scandal raises questions, the core of the business remains a high-quality franchise [D01, D05].\n\nThe market is currently pricing American Express as if the warehousing subsidiary fraud threatens the existence of the parent company [D05]. We believe this is an overreaction; the panic creates a rare opportunity to acquire a wonderful business at a price of $37, which is well below our intrinsic value estimate of $50 to $65 per share [D03, D04, D05].\n\nAt these levels, we are looking at an initial earnings yield of over 6% in a business that has historically proven its durability [D02, D04]. An investment here is not a bet on a quick turnaround, but a commitment to an exceptional franchise that will, in time, see its reputation restored [D01, D05].\n\nWe recognize the primary risk is that legal liabilities could prove unquantifiable or that the brand trust could be permanently damaged [D05]. However, we view the current situation as a temporary cloud over a business that has massive, long-term strength, and we are sizing our position at 40% of the partnership to reflect our high conviction [D05, D08].",
+  "uncited_claims": []
+ }
+}

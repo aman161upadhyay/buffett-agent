@@ -1,0 +1,44 @@
+{
+ "trade_id": "dep_2020_snow_ipo_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "BUY as a deputy-controlled IPO/private-placement allocation. Todd Combs is the named executing investment officer; do not attribute an unexplained Buffett IPO-policy reversal or software thesis to Buffett.",
+   "SEC purchase agreement dated September 7 and filed September 8 is signed by Todd A. Combs, Investment Officer. It documents execution authority, not a valuation thesis. Final $120 pricing and Q3 parent 13F verify 6,125,376 shares, combining $250M private placement and 4,042,043 secondary shares.",
+   "The signed agreement identifies Combs as Investment Officer; no public own-words valuation or growth thesis was located, so those analyst bull arguments must not be scored as manager-stated drivers."
+  ],
+  "extra_agent_drivers": [
+   "The business is loss-making with no history of profitability, failing the most basic requirement for an investment",
+   "The company relies on infrastructure providers that are also its primary, well-capitalized competitors, creating a fundamental threat to its long-term viability",
+   "The business model is highly speculative and lacks the durable competitive advantage and pricing power we require",
+   "Berkshire's $146.6 billion in cash and Treasury bills offers a superior, certain return compared to an unproven, capital-intensive entity"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business is currently loss-making, having reported a net loss of $348.5 million in the last fiscal year",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 10,
+  "share": 1
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have reviewed the offering of this company and have concluded that it does not meet our criteria for an investment [D01].",
+ "grader_notes": "The agent failed to identify the actual decision, which was a BUY executed by Todd Combs as part of an IPO allocation. Instead, the agent provided a fundamental analysis rejecting the investment, which directly contradicts the factual record provided in the answer key.",
+ "run": "dep_2020_snow_ipo_buy__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

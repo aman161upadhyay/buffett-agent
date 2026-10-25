@@ -1,0 +1,15 @@
+Title: American Express — Information chronology
+Source: Reconstructed from American Express scandal histories; Lowenstein, Buffett: The Making of an American Capitalist, American Express episode (chapter numbering not recovered); Buffett Partnership letter, January 18, 1964; New York Times, January 6, 1964, https://www.nytimes.com/1964/01/06/archives/american-express-reports-gain-of-25c-a-share-irn-63-earnings.html
+Date: 1964-02-20
+
+## Cutoff evidence — reconstructed
+
+Before the cutoff: the salad-oil fraud becomes public in November of the preceding year; market quotations fall sharply by December; litigation and assessment of obligations remain unresolved. American Express's payments business continues to operate. The January 18 Partnership letter provides the investor's capital reference but does not name an American Express recommendation. There is no recovered original purchase ledger fixing a February first purchase. The pack date is a reconstruction boundary in the investigation period. It excludes any low quotation or financial result from a later month. It also excludes any final settlement as proof of a liability limit that an analyst could already rely on.
+
+## Economic reading of the supplied facts
+
+Industry economics: travel payments combine service charges with funds held between receipt and settlement. Customer confidence and merchant acceptance matter because the product is a promise to pay, not just a piece of paper or plastic. More activity can expand fee income and balances, but neither is free capital if redemption, settlement or credit obligations grow with it. Competitive pressure can appear in merchant charges, cardholder benefits and the cost of funding. A loss in a separate activity must be assessed both as a direct financial claim and as a possible threat to trust in the continuing payments service. This is an economic interpretation of the business described in the cited sources, not a quantified forecast.
+
+Chronology controls: the cutoff is an information boundary, not proof of an execution on that day. A negotiated commitment, a public announcement, a purchase settlement and an annual-report disclosure are distinct events. Facts about the condition of the business may be reconstructed from archival accounts without turning a later explanation into a statement available to the market.
+
+Only the events described above enter this chronology. No subsequent result is assumed when assessing the unresolved question. The absence of an original day-by-day price series prevents identification of a precise entry-day return or volume pattern. The same restriction applies to unpublished board discussions and security-specific purchase ledgers. This reconstruction does not claim access to either. Where a transaction is being considered, proposed terms are identified as proposed; regulatory approvals and operating improvements are not treated as completed. Where shares already exist in a portfolio, a request to study a new allocation must not erase that exposure.

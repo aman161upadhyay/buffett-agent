@@ -1,0 +1,57 @@
+{
+ "trade_id": "2016_aapl_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "The initial investment was a deputy's decision, not Buffett's."
+  ],
+  "extra_agent_drivers": [
+   "Price vs value",
+   "Consumer franchise/ecosystem",
+   "Owner-oriented capital allocation",
+   "Returns on capital/Cash position"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company sells for an initial earnings yield of 9.62% against a 1.83% long bond yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management has demonstrated an owner-oriented approach to capital allocation, having already returned $163 billion to shareholders",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company maintains exceptional returns on capital, regularly exceeding 30% ROE",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company maintains a massive net cash position of $153.056bn",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 11,
+  "share": 0.85
+ },
+ "state": "PARTIAL",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We will size this position at 5% of our equity portfolio, as the business is of sufficient scale to move the needle for Berkshire and possesses the economic characteristics we prize [D04].",
+ "grader_notes": "The agent failed to acknowledge the deputy-led nature of the investment, incorrectly attributing the decision to Buffett. Consequently, the agent fabricated a set of proprietary fundamental drivers that were not part of the actual Berkshire investment thesis for this specific entry.",
+ "run": "2016_aapl_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

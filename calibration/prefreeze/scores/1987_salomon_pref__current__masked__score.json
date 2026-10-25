@@ -1,0 +1,49 @@
+{
+ "trade_id": "1987_salomon_pref",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "The 9% preferred and scheduled redemption supplied the bulk of the investment's value. → While the securities industry is inherently financing-dependent and prone to volatility, this investment is structured to protect our principal while offering a satisfactory income stream.",
+   "Conversion offered additional participation without requiring a confident common-equity forecast. → Furthermore, we obtain an equity-linked kicker at a conversion price of $38 per share, allowing us to participate in long-term value creation without the immediate risks of a common equity holder."
+  ],
+  "missed": [
+   "Confidence in Gutfreund's ability and integrity was explicit.",
+   "Buffett acknowledged no special insight into investment banking's future profitability."
+  ],
+  "extra_agent_drivers": [
+   "Negotiated terms for a control contest",
+   "Capital recovery via scheduled redemption"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The $700 million investment in convertible preferred stock provides an initial 9% yield",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The preferred instrument includes equity-like upside through conversion at $38 per share",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 7,
+  "share": 0.64
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Furthermore, we obtain an equity-linked kicker at a conversion price of $38 per share, allowing us to participate in long-term value creation without the immediate risks of a common equity holder.",
+ "grader_notes": "The agent correctly identified the deal structure (yield and conversion) but missed the essential human-element drivers regarding Gutfreund and Buffett's own stated ignorance of the investment banking industry. The sizing conviction is graded as PARTIAL due to the agent's specific target allocation vs. Buffett's 'high' conviction description.",
+ "run": "1987_salomon_pref__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

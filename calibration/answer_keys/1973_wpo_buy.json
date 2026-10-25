@@ -1,0 +1,39 @@
+{
+  "id": "1973_wpo_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Approximately $10.628 million original position; initial equity-portfolio weight unrecovered",
+  "first_action_date": null,
+  "disclosure_date": null,
+  "reason_class": null,
+  "opportunity_template": [
+    "B2"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "Public shares offered the whole collection of businesses at no more than roughly a quarter of conservatively appraised business value.",
+      "source": "https://www.berkshirehathaway.com/letters/1985.html (1986-03-04; hindsight explanation)",
+      "quote": "at a price of not more than one-fourth of the then per-share business value of the enterprise"
+    },
+    {
+      "driver": "Profitable media franchises mattered more than quoted price volatility.",
+      "source": "https://www.berkshirehathaway.com/letters/1985.html (1986-03-04; hindsight explanation)",
+      "quote": null
+    },
+    {
+      "driver": "Independent business appraisal and attitude, rather than private information, supplied the advantage.",
+      "source": "https://www.berkshirehathaway.com/letters/1985.html (1986-03-04; hindsight explanation)",
+      "quote": "Our advantage, rather, was attitude."
+    }
+  ],
+  "entry_valuation_stated": "Hindsight mid-1973 ~$100 million market value vs $400–500 million property value; not a verified 1973-05-01 quote.",
+  "outcome_note": "Successful long-term holding. Graham's subsequent allocation and buybacks belong to the subsequent ownership story, not all to the initial thesis.",
+  "sources": [
+    "https://www.berkshirehathaway.com/letters/1985.html (1986-03-04; hindsight explanation)",
+    "Washington Post 1972 annual report, letter dated March 17, 1973, http://stuff.maxolson.com/annual-reports/WPO-1972.pdf ; reconstructed current quotation unavailable; Berkshire financial statements, unaffiliated common-stock reference https://ia803100.us.archive.org/10/items/berkshirehathawayannualreports/berkshirehathaway1973_text.pdf"
+  ],
+  "pack_quality_notes": "Grade B: audited 1972 operating/segment evidence and original license challenges recovered; exact May quote and private-property appraisal remain missing. The mid-year $100 million / $400–500 million comparison is key-only, not asserted as a May observation. Fund denominator and first purchase unverified."
+}

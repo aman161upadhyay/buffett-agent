@@ -1,0 +1,15 @@
+Title: A direct-paying audience and a differentiated bundle
+Source: https://www.sec.gov/Archives/edgar/data/71691/000007169125000117/pressrelease06302025.htm ; https://s23.q4cdn.com/152113917/files/doc_events/2025/Apr/30/The-New-York-Times-Company-2024-Annual-Report.pdf
+Date: 2025-09-30
+
+The Times combines journalism with games, cooking, product recommendations and sports coverage. The central change from a commodity print-advertising model is a direct digital subscriber relationship, broadened by a bundle. Of 11.30 million digital-only subscribers at the latest quarter end, 6.02 million used a bundle or multiple products. A subscription brand can create habitual use and pricing opportunities without relying on every visit being purchased through advertising platforms. [1,2]
+
+The company still has print subscribers and print advertising, so it is not a pure software business. News production, sports reporting, product development and customer acquisition consume continuing cash. Meredith Kopit Levien describes the journalism and product portfolio as an enduring advantage; that is the issuer's business case, not a Berkshire endorsement. Class A buyers should also distinguish economic participation from control under the company's dual-class structure. A growing paid audience can support a defensible franchise, but willingness to renew after promotional periods is more important than headline registration counts. [1,2]
+
+Evidence ledger: annual revenue was $2.308321 billion in 2022, $2.426152 billion in 2023 and $2.585919 billion in 2024. Second-quarter revenue of $685.9 million grew 9.7%; operating profit was $106.6 million, up 34.2%, and adjusted operating profit $133.8 million. Diluted EPS was $0.50, or $0.58 adjusted. Total subscribers were 11.88 million, digital-only 11.30 million, and bundle/multiproduct 6.02 million. Digital-only ARPU was $9.64, up 3.2%. Digital subscription revenue was $350.4 million, total subscription revenue $481.4 million, digital advertising $94.4 million and total advertising $134.0 million. Affiliate/licensing/other revenue was $70.5 million. Marketing costs were $69.2 million; journalism and subscriber-servicing spending remain real operating costs. [1,2]
+
+Analytical distinction: a large customer base is not itself proof of a moat. The relevant test is whether customers keep paying enough to cover the full cost of serving them, including reinvestment and risk. Product descriptions and reported segment economics below are observations; a prediction that their advantages persist is an underwriting judgment. No terminal growth rate, private management forecast, or guaranteed future market share is supplied. Historical success must be tested against the specific competitive threats, not substituted for that test.
+
+Sources and publication dates:
+[1] https://www.sec.gov/Archives/edgar/data/71691/000007169125000117/pressrelease06302025.htm (published 2025-08-06)
+[2] https://s23.q4cdn.com/152113917/files/doc_events/2025/Apr/30/The-New-York-Times-Company-2024-Annual-Report.pdf (published 2025-04-30)

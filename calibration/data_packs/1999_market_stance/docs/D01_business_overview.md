@@ -1,0 +1,15 @@
+Title: US equity market — Business economics
+Source: Fortune, November 22, 1999, historical figures and arithmetic only; investor verdict and recommendations withheld; https://www.berkshirehathaway.com/1999ar/FortuneMagazine.pdf ; prior Berkshire annual report; fund reference https://www.berkshirehathaway.com/letters/1998htm.html
+Date: 1999-11-22
+
+## Cutoff evidence — reconstructed
+
+The investable asset is aggregate ownership of American corporate earnings. Fortune compares broad business performance with equity prices and interest rates rather than presenting a short recommendation. It also discusses automobiles and aviation as cases where enormous social and economic change did not ensure profits for the original investors. The analogy makes industry growth and shareholder return different analytical objects. The Internet can matter greatly without making every associated security valuable. This reconstruction supplies the article's quantitative ingredients while withholding its stated market-stance conclusion. No index derivative, short position or compulsory sale of permanent holdings is implied.
+
+## Economic reading of the supplied facts
+
+Portfolio economics: aggregate stock ownership is a claim on business earnings, not a claim on the path of a market index. Dividends distribute part of those earnings; retained earnings add value only if employed productively. Interest rates affect the present value of both equities and bonds. An investor who sells one financial asset must still decide what to hold instead. Cash avoids duration and business risk but is exposed to inflation and the opportunity cost of missed investments. Market averages can obscure large differences among individual businesses. Comparing aggregate prices with book value or profits is a valuation exercise, not a mechanism for forecasting next month's quotation. The financial comparisons below are conditional on earnings durability and the stated measurement dates.
+
+Economic interpretation, not a management forecast: the important distinction is between demand for the product and cash available to its owners. A recognizable name is not sufficient evidence of an economic franchise. The relevant tests are repeat purchasing, the customer's alternatives, the seller's ability to maintain price, and the capital needed to preserve those advantages. Physical assets can be copied; a durable customer relationship may be harder to reproduce. Conversely, an apparently entrenched relationship can disappear if customers obtain better service or lower prices elsewhere.
+
+The business description therefore does not assume that historical profitability persists indefinitely. Separate ordinary operations from unusual charges and separate a good product from a good investment at the offered price. Management's operating record and the financing of the enterprise belong in the same assessment. No value is assigned here to an unannounced acquisition, hypothetical takeover premium, or an improvement that requires a new owner to change the basic business.

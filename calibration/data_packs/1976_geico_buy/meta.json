@@ -1,0 +1,21 @@
+{
+  "id": "1976_geico_buy",
+  "company": "GEICO",
+  "ticker": "GEICO",
+  "aliases": [
+    "GEICO",
+    "Government Employees Insurance Company",
+    "Government Employees Insurance",
+    "GEICO Corporation",
+    "Jack Byrne",
+    "John J. Byrne",
+    "Operation Bootstrap"
+  ],
+  "as_of_date": "1976-07-01",
+  "mode": "new",
+  "era": "A",
+  "first_action_window": "July 1976 financing/investment period; exact first day unverified.",
+  "fund_aum_usd_bn": 0.0,
+  "decider": "Buffett",
+  "notes": "Historical reconstruction: doc Date is effective information cutoff, not archival publication date. Only pre-cutoff business conditions are reconstructed; later investor explanations/outcomes appear in key only. Cutoff equity portfolio/cash not independently recovered; 0 is missing-data sentinel. Grade C: no original July statutory statement, rescue agreement, reserve model or preferred term sheet. Common plus convertible preferred classification verified by 1977 holdings. Exact July 1 first action unverified."
+}

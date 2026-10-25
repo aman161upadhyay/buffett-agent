@@ -1,0 +1,61 @@
+{
+ "pack": "1969_partnership_close",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "hedge",
+ "as_of_date": "1969-05-29",
+ "stages": {},
+ "final": {
+  "as_of_date": "1969-05-29",
+  "trailing_earnings_yield_pct": 5.75,
+  "normalised_earnings_yield_pct": 5.75,
+  "normalisation_basis": "trailing (no distortion) [D04]",
+  "long_bond_yield_pct": 6.56,
+  "spread_points": "-0.81",
+  "drawdown_from_high_pct": 4.9,
+  "panic_indicators": [
+   "none [D04]"
+  ],
+  "rule_decision": "HOLD_CASH",
+  "decision": "HOLD_CASH",
+  "override_reason": null,
+  "conviction": "high",
+  "earnings_yield_vs_bonds": "earnings yield of 5.75% is less than the 6.56% long-bond yield [D04]",
+  "valuation_level": "the market multiple of 17.39x is high relative to alternative yields [D04]",
+  "ideas_that_qualify": [
+   "none identified at the required $3m scale [D03], [D04]"
+  ],
+  "berkshire_action": "hold cash and consider returning capital to partners as suitable bargains are increasingly scarce [D03], [D08]",
+  "drivers": [
+   {
+    "driver": "The earnings yield of equities is below the yield on risk-free long-term government bonds, offering no premium for equity risk [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "A documented shortage of individual businesses that meet the Partnership's strict quantitative criteria at the required $3 million scale [D03], [D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The manager has expressed dissatisfaction with the effort and competitive environment required to achieve satisfactory returns at current asset levels [D03], [D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Market conditions are increasingly dominated by speculative methods that do not align with the Partnership's established approach [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "memo": "The environment for finding attractive investments has become increasingly difficult. We are seeing a narrowing supply of quantitative bargains, and the effort required to source meaningful ideas—those needing a $3 million commitment—has become disproportionate to the prospective returns [D03], [D04].\n\nWhen the earnings yield on the market (5.75%) is lower than the return on long-term government bonds (6.56%), common stocks in aggregate do not provide a margin of safety for the investor [D04]. In this climate, we refuse to adopt fashionable, speculative methods that lie outside our circle of competence merely to remain fully invested [D05].\n\nConsequently, we prefer to let cash build and consider the orderly distribution of capital to partners rather than force investments into subpar situations [D08]. Patience is a virtue, and we will not risk the Partnership's capital or reputation when the available opportunities do not meet our stringent standards for durable competitive advantage and valuation [D04].",
+  "uncited_claims": []
+ }
+}

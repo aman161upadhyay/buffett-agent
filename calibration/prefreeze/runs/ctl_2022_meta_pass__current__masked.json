@@ -1,0 +1,244 @@
+{
+ "pack": "ctl_2022_meta_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2022-11-04",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The company operates global social and messaging networks monetized primarily through advertising [D01]. It also maintains a loss-making virtual/augmented-reality hardware and software operation [D01].",
+   "products_customers_and_why_they_buy": [
+    "Social and messaging networks providing repeated attention from billions of users [D01].",
+    "Advertising inventory sold to advertisers seeking to reach specific audiences [D01]."
+   ],
+   "economics": [
+    "Operating margin declined from 36% to 20% in the third quarter of 2022 [D01].",
+    "Revenue declined 4% reported (grew 2% constant currency) [D01].",
+    "High capital intensity with projected 2023 capex of $34–39 billion [D01].",
+    "Pricing power evidence: average price per ad fell 18% despite 17% growth in impressions [D01]."
+   ],
+   "earnings_record": [
+    "Q3 2022: Revenue $27.714B (-4%), Operating Income $5.664B (-46%), Net Income $4.395B (-52%), Diluted EPS $1.64 (-49%) [D01]."
+   ],
+   "competitive_position": [
+    "2.96 billion monthly active users for the company and 3.71 billion for the family of apps [D01].",
+    "Competes with Alphabet, Snap, and TikTok; Apple and mobile OS operators influence targeting/distribution [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Cash and marketable securities of $41.78 billion [D01].",
+    "Long-term debt of $9.92 billion [D01].",
+    "Significant capital needs: projected 2023 expenses of $96–101 billion and capex of $34–39 billion [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Aggressive capital return via buybacks ($6.55 billion in Q3) [D01].",
+    "Heavy investment in new-platform losses and headcount (up 28% to 87,314) [D01]."
+   ],
+   "price_and_valuation": [
+    "Nov 4, 2022 close: $90.79 [D02].",
+    "Approximate trailing EPS $10.46, implying ~8.68x earnings; annualized Q3 EPS implies ~13.84x [D02]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Rising costs (up 19%) and headcount (up 28%) while profits halve [D05].",
+    "Increased capital spending and operating losses on virtual/augmented-reality initiatives [D05].",
+    "Ad-price weakness driven by competitive/targeting changes and cyclical slowdown [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Q3 2022 results reported Oct 26, 2022 [D01].",
+    "Management provided 2023 expense and capex guidance [D01]."
+   ],
+   "berkshire_context": [
+    "Berkshire cash/Treasury bills were approximately $105.4 billion per mid-2022 reporting [D08].",
+    "Existing major positions include Apple, Bank of America, Coca-Cola, American Express, and energy [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Normalized maintenance capex, long-term normalized owner earnings, and a consistent 5-10 year historical financial record."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The company is making massive, speculative investments in unproven virtual and augmented reality hardware and software that fall outside of a predictable long-term business model [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "Average price per ad fell 18% despite growth in impressions, indicating a lack of pricing power in the face of competitive pressures and platform-level targeting changes [D01], [D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "Q3 2022 results show significant declines with operating income falling 46% and net income falling 52% [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong balance sheet with $41.78 billion in cash against only $9.92 billion in long-term debt [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business model is increasingly capital-intensive, with projected 2023 capex of $34–39 billion [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "FAIL",
+     "evidence": "Management is aggressively growing headcount by 28% while profits are halving and prioritizing speculative, loss-making new-platform initiatives [D01], [D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market valuation reflecting tens of billions in earnings, this company is large enough to be meaningful for Berkshire [D01], [D02]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "Trading at approximately 8.68x-13.84x earnings, the stock is inexpensive relative to near-term earnings, though this does not offset the quality failures [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 5,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a deteriorating advertising franchise suffering from management's aggressive and unproven capital allocation into speculative technologies."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market has discounted the shares due to significant, measurable deterioration in the core advertising business combined with management's decision to aggressively reinvest capital into unproven virtual reality initiatives [D01], [D05]. We have no reason to expect a bargain because the management's capital allocation strategy prioritizes speculative growth over the preservation and compounding of owner earnings [D01].",
+   "evidence": [
+    "Operating income fell 46% and net income fell 52% in Q3 2022 [D01].",
+    "Projected 2023 capital expenditures are massive at $34–39 billion, undermining the business's previous capital-light profile [D01].",
+    "Average price per ad fell 18%, signaling a loss of pricing power [D01].",
+    "Headcount is up 28% while profits are halving, indicating a lack of management discipline [D01], [D05]."
+   ],
+   "market_narrative_we_disagree_with": "The market may be viewing the low trailing earnings multiple as an opportunity to buy a cheap growth stock, but we believe the franchise durability is currently impaired by management's erratic capital allocation [D01], [D02].",
+   "what_must_be_true": [
+    "Management must stop the aggressive, loss-making expansion into virtual reality.",
+    "The core advertising business must demonstrate a return to sustainable pricing power.",
+    "Operating margins must stabilize and return to historical levels of profitability."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "Q3 2022 annualized diluted EPS: $6.56 [D01]. Normalized owner earnings assumed to be impacted by structural decline in pricing power [D01].",
+   "initial_pretax_yield_pct": 7.22,
+   "intrinsic_value_range": {
+    "low": "Not calculable with certainty",
+    "high": "Not calculable with certainty",
+    "key_assumptions": [
+     "Core business pricing power is structurally impaired [D01]",
+     "Capital intensity has shifted from light to heavy [D01]",
+     "Capital allocation prioritizes speculative growth over owner earnings [D01]"
+    ],
+    "discount_rate_used": "Not in pack; assumed 10% based on long-term equity return requirements"
+   },
+   "price_vs_value": "Price $90.79 [D02]. Margin of safety is non-existent due to uncertainty regarding management's capital allocation and future earning power [D01].",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Berkshire cash and Treasury bills yield safer returns with no risk of permanent impairment [D08].",
+   "downside_case": "Permanent loss of capital due to continued destruction of free cash flow via unchecked investment in unproven virtual reality initiatives [D01].",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Long-term government bond rate not provided in pack",
+    "Maintenance capex vs growth capex allocation not provided in pack",
+    "Specific long-term discount rate not in pack"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "We are a permanent passive holder. We do not seek to manage or control, but rather to participate in the long-term compounding of a business that meets our criteria for quality and owner-minded management [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realised through the company's long-term business performance and the steady compounding of owner earnings, rather than through external catalysts or structural changes [D01]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in the current era, we act as permanent owners who value the patience inherent in our capital structure, relying on the business to provide returns without our intervention."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Continued aggressive capital allocation toward speculative virtual reality initiatives that fail to generate returns [D01].",
+    "Further structural decline in advertising pricing power as evidenced by falling average price per ad [D01].",
+    "Expansion of operating expenses and headcount that continues to outpace revenue growth [D01]."
+   ],
+   "berkshire_constraints": "Maintain liquidity above the $30 billion cash floor; avoid control-level ownership unless strategic [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed in Berkshire's existing high-quality franchises or kept in Treasury bills yielding safe returns [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The investment thesis is fundamentally broken due to management's capital allocation and deteriorating pricing power, making this an easy 'pass' for the entire investment committee.",
+   "biggest_risk_in_one_sentence": "Management's commitment to massive, speculative capital expenditure in virtual reality threatens to destroy owner earnings and capital allocation efficiency."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-11-04",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Q3 2022 annualized diluted EPS $6.56; normalized earnings unclear due to structural decline [D01].",
+   "initial_pretax_yield_pct": 7.22,
+   "intrinsic_value_range": "Not calculable with certainty due to management's unpredictable capital allocation [D01].",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital via continued destruction of free cash flow in speculative initiatives [D01]."
+  },
+  "drivers": [
+   {
+    "driver": "The core advertising franchise is suffering from declining pricing power, evidenced by an 18% drop in ad prices [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Management is prioritizing speculative, loss-making investments in virtual reality over the preservation of owner earnings [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The business has become increasingly capital-intensive, with projected 2023 capex reaching $34–39 billion [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Operating and net income have seen severe declines, falling 46% and 52% respectively in the most recent quarter [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Continued aggressive capital allocation toward speculative virtual reality initiatives that fail to generate returns [D01].",
+   "Further structural decline in advertising pricing power as evidenced by falling average price per ad [D01].",
+   "Expansion of operating expenses and headcount that continues to outpace revenue growth [D01]."
+  ],
+  "what_would_change_our_mind": "Management must abandon speculative, loss-making expansion, demonstrate a return to sustainable advertising pricing power, and stabilize operating margins.",
+  "memo": "We evaluate businesses based on their ability to deliver durable, compounding owner earnings over the long term. While this company operates global networks that have historically commanded significant attention, its current trajectory shows a worrying erosion of the underlying economics [D01].\n\nWe look for franchises with clear pricing power. Here, we see the opposite: the average price per ad fell 18% in the most recent quarter even as impressions grew, signaling that the competitive landscape is weakening the business's moat [D01]. Furthermore, the company has shifted from a capital-light model to one requiring massive reinvestment, with projected capital expenditures for 2023 reaching as high as $39 billion [D01].\n\nManagement's capital allocation has become unmoored from the principles of owner-minded stewardship. We see aggressive headcount growth of 28% while profits are halved, and capital is being funneled into speculative, loss-making hardware and software initiatives that fall well outside our circle of competence [D01], [D05].\n\nAn investment is only as good as the certainty of its future cash flows. Given the management’s current focus, we cannot determine a reliable intrinsic value, and the margin of safety is non-existent [D01]. Like a leaky bucket, it matters little how much water you pour in if the holes remain unplugged; we prefer to keep our capital in Treasury bills where it earns a safe return while we wait for a wonderful business at a fair price [D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

@@ -1,0 +1,48 @@
+{
+ "trade_id": "ctl_2008_lehman_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett required executives to commit meaningful new cash on the same terms; Fuld's reluctance was an immediate negative.",
+   "Fuld's complaints about short sellers suggested a failure to recognize management's own problems.",
+   "Review of the 10-K raised asset and risk concerns; a $100M Japan problem learned after March 28 reinforced refusal, and must not be scored as cutoff-date pack evidence."
+  ],
+  "extra_agent_drivers": [
+   "The business lacks a durable moat and predictable owner earnings.",
+   "Sensitivity to market liquidity and funding confidence creates insolvency risk.",
+   "Recent 57% decline in net income suggests a lack of durable compounding."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "operations are highly sensitive to market liquidity",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "net income falling 57% in the most recent quarter",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 1,
+  "share": 0.14
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Charlie and I have looked at this business, but it belongs firmly in the 'too hard' pile.",
+ "grader_notes": "The agent correctly identifies the PASS decision but fails to cite any of the actual behavioral or management-specific drivers cited by Buffett (Fuld's reluctance, complaints about short sellers, etc.). The agent's reasoning relies on general fundamental analysis of the firm's business model rather than the specific interaction-based rejection criteria documented in the examiner report.",
+ "run": "ctl_2008_lehman_pass__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

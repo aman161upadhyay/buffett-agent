@@ -1,0 +1,11 @@
+Title: Information chronology
+Source: https://www.apple.com/newsroom/2016/04/26Apple-Reports-Second-Quarter-Results (published 2016-04-26)
+Date: 2016-04-30
+
+The latest operating evidence is the April 26 release; April 29 is the last trading close before the Saturday cutoff. This chronology does not contain Berkshire's quarterly ownership filing or the identity of any purchaser. A first-quarter position, if privately held, cannot be inferred from the existence of a low price or a public company earnings release. [Source above.]
+
+Technical context: a consumer ecosystem may monetize both a device and recurring services, but they are linked rather than independent annuities. Customer retention, replacement frequency, pricing and the required cost of innovation determine owner economics. Separate hardware sales, installed-base activity and services revenue, avoiding double-counting value from the same customer relationship. Cash returned through buybacks must be compared with share issuance and purchase price; authorization is not execution. Foreign-held cash, taxes and operating liquidity needs affect deployable excess capital. Use one split basis for price, shares and EPS, since mismatched adjustments can make an otherwise correct earnings multiple meaningless. [Source above; analytical framework.]
+
+Chronology discipline: distinguish operating period, publication date, transaction date and disclosure date. An ownership report describes a historical balance and does not establish the exact day a trade was executed or the reason it was made. A cutoff within a quarter also does not make that quarter's unreleased earnings public. This digest contains only the developments described above and the technical implications that can be drawn from them. It does not use a later return, revised investment thesis, completed transaction or eventual portfolio weight. The absence of a specific date means the date is unresolved, not that the next convenient calendar day is the execution.
+
+Evidence boundary: missing figures are not available in contemporaneous sources recovered for this digest. Analytical questions are not additional reported facts or claims about the investor's private thinking. Read the financial, risk and fund-context documents together; no individual accounting ratio supplies a complete investment conclusion.

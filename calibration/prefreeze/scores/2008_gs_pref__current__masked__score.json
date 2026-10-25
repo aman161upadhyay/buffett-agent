@@ -1,0 +1,53 @@
+{
+ "trade_id": "2008_gs_pref",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Negotiated income and warrants combined a satisfactory yield with equity participation → The 10% yield provides a margin of safety that is rarely available in such instruments, and the warrants offer us significant participation should the franchise recover its equilibrium [D04, D09]."
+  ],
+  "missed": [
+   "Goldman's global franchise was unusually strong.",
+   "The investment rested on confidence in a deep management team."
+  ],
+  "extra_agent_drivers": [
+   "The transition to bank holding company status provides necessary, government-backed access to liquidity, mitigating the immediate threat of funding runs.",
+   "We provide capital on negotiated, senior terms that prioritize our protection while the market is paralyzed by liquidity concerns."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The investment provides an immediate 10% annual coupon on a $5 billion perpetual preferred stake",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "5-year warrants with a $115 strike price",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "conversion to a bank holding company is a critical development",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 5,
+  "share": 0.5
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "The 10% yield provides a margin of safety that is rarely available in such instruments, and the warrants offer us significant participation should the franchise recover its equilibrium [D04, D09].",
+ "grader_notes": "The agent correctly identified the investment direction and secured the negotiated yield/warrant structure. However, it failed to cite the core qualitative drivers Buffett emphasized, namely the strength of the franchise and the quality of the management team. Instead, the agent focused heavily on the mechanics of the bank holding company transition and liquidity environment, which were important context but not the primary investment thesis cited by Buffett.",
+ "run": "2008_gs_pref__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

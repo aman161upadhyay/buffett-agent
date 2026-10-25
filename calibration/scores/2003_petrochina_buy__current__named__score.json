@@ -1,0 +1,59 @@
+{
+ "trade_id": "2003_petrochina_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "The price implied roughly $37 billion for a business appraised near $100 billion.",
+   "The appraisal concerned the business's earning assets rather than a country-label discount alone.",
+   "A large gap between price and assessed value provided the purchase rationale."
+  ],
+  "extra_agent_drivers": [
+   "The company trades at an earnings yield of 15.3% against a long-term bond yield of 3.84%, offering a significant margin of safety [D04].",
+   "PetroChina is a massive, integrated producer of oil and gas with a solid record of profitability, generating RMB46.910 billion in net income during 2002 [D01, D02].",
+   "The business maintains a healthy dividend yield of 6.9%, providing us with a meaningful return while we wait for the market to better appreciate the underlying asset value [D04].",
+   "Despite being capital-intensive, the company earns a robust 15.5% return on equity and has remained profitable through various commodity cycles [D02, D06]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "PetroChina is the dominant integrated oil and gas producer in China.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Net income totaling RMB46.910 billion in 2002.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "15.3% earnings yield compared to 3.84% long-term bond yield.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Pricing the shares at approximately 6.5x earnings.",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 7,
+  "share": 0.54
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are initiating a 5% position in our equity portfolio, which provides meaningful exposure while remaining prudent given the governance uncertainties [D05].",
+ "grader_notes": "The agent correctly identifies the buy decision but fails to capture Buffett's specific, retrospective appraisal-based reasoning centered on the $37bn vs $100bn valuation gap. The agent relies on current earnings metrics, dividend yields, and relative bond yield comparisons which were not the drivers cited by Buffett in his retrospective account of the 2002-03 purchase.",
+ "run": "2003_petrochina_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,54 @@
+{
+ "trade_id": "dep_2020_snow_ipo_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "BUY as a deputy-controlled IPO/private-placement allocation.",
+   "SEC purchase agreement dated September 7 and filed September 8 is signed by Todd A. Combs, Investment Officer.",
+   "The signed agreement identifies Combs as Investment Officer; no public own-words valuation or growth thesis was located."
+  ],
+  "extra_agent_drivers": [
+   "Unprofitable with no earnings yield",
+   "Lacks durable competitive advantage",
+   "No history of profitability",
+   "Outside circle of competence"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company is currently unprofitable with no earnings yield.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business lacks a durable competitive advantage.",
+    "citation": "D06",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The business operates in a highly competitive, capital-intensive technology sector that falls outside our circle of competence.",
+    "citation": "D08",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 3,
+  "share": 0.25
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have reviewed the proposed investment in the Company and have determined that it does not meet our standards for a durable business [D06, D08].",
+ "grader_notes": "The agent missed the trade entirely by treating the investment as a stock-picking exercise rather than identifying it as a deputy-led IPO execution. The agent fabricated a thesis about 'business quality' and 'circle of competence' which the answer key explicitly notes was not the rationale for the actual trade.",
+ "run": "dep_2020_snow_ipo_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,15 @@
+Title: Salomon Inc. — Business economics
+Source: Proposed September financing terms reconstructed from transaction account; period report https://www.nytimes.com/1987/09/28/business/salomon-to-sell-12-to-buffett.html used only for preceding-day terms, not later market reaction; fund reference https://www.berkshirehathaway.com/letters/1986.html
+Date: 1987-09-27
+
+## Cutoff evidence — reconstructed
+
+Salomon is a major securities dealer and capital-markets intermediary operating in a competitive, financing-dependent business. Its franchise involves client distribution, trading capability, reputation and access to funding rather than a simple consumer monopoly. John Gutfreund leads the firm. The financing under consideration accompanies the repurchase of a large Minorco interest and a potential control contest involving Ronald Perelman. Those circumstances explain demand for a stable capital provider; they do not establish a permanently superior return on common equity. The transaction facts are reconstructed to the preceding-day terms in period reporting, with no subsequent market or operating event included.
+
+## Economic reading of the supplied facts
+
+Industry economics: a securities dealer finances inventory and counterparty exposures as well as providing advice, underwriting and distribution. Earnings can be large while requiring substantial financing and exposing the enterprise to abrupt changes in liquidity. A reputation for reliability is part of the franchise because clients and lenders can move their business quickly. Published book equity is not the same as immediately realizable cash if markets become disorderly. A preferred investment can offer a defined dividend and priority over common equity, but it does not eliminate the dealer's obligations to its creditors. Conversion gives participation in better operating results while leaving the holder exposed to the issuing company's solvency. These security distinctions matter more than a generic common-stock earnings multiple.
+
+Economic interpretation, not a management forecast: the important distinction is between demand for the product and cash available to its owners. A recognizable name is not sufficient evidence of an economic franchise. The relevant tests are repeat purchasing, the customer's alternatives, the seller's ability to maintain price, and the capital needed to preserve those advantages. Physical assets can be copied; a durable customer relationship may be harder to reproduce. Conversely, an apparently entrenched relationship can disappear if customers obtain better service or lower prices elsewhere.
+
+The business description therefore does not assume that historical profitability persists indefinitely. Separate ordinary operations from unusual charges and separate a good product from a good investment at the offered price. Management's operating record and the financing of the enterprise belong in the same assessment. No value is assigned here to an unannounced acquisition, hypothetical takeover premium, or an improvement that requires a new owner to change the basic business.

@@ -1,0 +1,237 @@
+{
+ "pack": "ctl_2023_frc_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2023-03-16",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The bank specializes in relationship banking and wealth management for affluent clients, providing mortgages, deposits, and advisory services [D01]. It operates as a service franchise, with wealth-management assets totaling $271.2 billion [D01].",
+   "products_customers_and_why_they_buy": [
+    "Affluent clients utilize the bank for integrated mortgages, deposits, and wealth-management advisory services [D01]. Customer loyalty is supported by referrals and high customer satisfaction, though these relationships rely on funding stability [D01, D06]."
+   ],
+   "economics": [
+    "Full-year revenue was $5.9 billion, with net interest income of $4.8 billion [D01]. Fourth-quarter net interest margin declined to 2.45% from 2.71% in the prior quarter [D01]. The business has low historical credit losses and net charge-offs of $2.9 million [D01].",
+    "Capital intensity is constrained by liquidity and capital requirements, which limit distribution capacity [D02]. Maintenance capex is not in pack."
+   ],
+   "earnings_record": [
+    "2022 full-year net income was approximately $1.7 billion, up 12.7% [D01]. Diluted EPS was $8.25 [D01]. Fourth-quarter net income was $386 million, down 3.6% year-on-year [D01]."
+   ],
+   "competitive_position": [
+    "The bank is a specialized regional service franchise [D01]. It faces a confidence shock following the closures of Silicon Valley Bank and Signature Bank, with risks related to deposit concentration and asset duration [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Tier 1 leverage ratio is 8.51% [D01]. Total deposits were $176.4 billion and loans were $166.9 billion [D01]. As of March 16, a $30 billion liquidity bridge was announced by eleven large banks [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Not in pack regarding specific CEO tenure or detailed capital allocation policy."
+   ],
+   "price_and_valuation": [
+    "Common book value was $75.38 and tangible common book value was $74.19 per share as of Dec 31 [D01]. No March 16 market price is in pack [D02, D04].",
+    "Valuation is highly uncertain due to the ongoing deposit run; book value may overstate shareholder protection if asset sales or expensive funding are required [D05]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Large uninsured deposits that may leave quickly [D05].",
+    "Net interest margin compression due to replacing low-cost deposits with expensive wholesale funding [D05].",
+    "Risk that restoring confidence requires asset sales below carrying value [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "January 13: 2022 annual results published [D07].",
+    "March 16: Eleven large banks announced $30 billion in deposits to support the bank [D01, D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds approximately $128.6 billion in cash, cash equivalents, and Treasury bills [D08]. Existing financial exposure includes Bank of America and American Express [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "March 16 market price, maintenance capex figures, normalized earnings projections at current funding rates."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business faces a significant confidence shock, deposit flight, and funding uncertainty, making its long-term future highly unpredictable [D05, D06]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "The bank's reliance on large uninsured deposits and the need for external liquidity support suggests a lack of pricing power and a fragile competitive position [D05, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "UNSURE",
+     "evidence": "While 2022 showed income growth [D01], recent quarterly declines and the current crisis environment undermine the sustainability of this record [D01, D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "Tier 1 leverage ratio is 8.51% [D01], but potential asset sales at a loss and expensive funding needs create uncertainty regarding future returns and capital stability [D05]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is constrained by liquidity and capital requirements that limit distribution capacity [D02], exacerbated by current funding pressures [D05]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "There is no information in the pack regarding management's specific track record or capital allocation philosophy [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The scale of the institution and the recent $30 billion liquidity bridge indicate it is of sufficient size to potentially move the needle [D01]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "The current market price is not in the pack [D02, D04], and book value may be unreliable due to the deposit run and potential asset impairments [D05]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 3,
+   "n_unsure": 4,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a regional service franchise facing a severe confidence crisis and deposit instability"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is reacting to a severe confidence crisis and deposit flight that threaten the institution's fundamental viability [D05, D06]. We cannot determine if this is a temporary cloud or a permanent impairment because the bank's reliance on uninsured deposits and the resulting need for expensive liquidity support undermine its competitive position [D05, D06].",
+   "evidence": [
+    "Confidence shock following closures of Silicon Valley Bank and Signature Bank [D06]",
+    "Risk of asset sales below carrying value to restore liquidity [D05]",
+    "Net interest margin compression from reliance on expensive wholesale funding [D05]"
+   ],
+   "market_narrative_we_disagree_with": "The market views the bank as a solvent entity that can be stabilized by a $30 billion liquidity bridge from major peers [D01].",
+   "what_must_be_true": [
+    "Deposit outflows must stabilize without triggering a fire sale of assets",
+    "The bank must regain access to low-cost funding to preserve net interest margins",
+    "Asset quality must remain robust despite the current liquidity-driven stress"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "Earnings of $8.25/share [D01] adjusted for missing maintenance capex",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "Not determinable",
+    "high": "Not determinable",
+    "key_assumptions": [
+     "Deposit stabilization [D05, D06]",
+     "Asset quality maintenance [D05]",
+     "Access to low-cost funding [D05]"
+    ],
+    "discount_rate_used": "Not applicable due to lack of stable earnings visibility [D05]"
+   },
+   "price_vs_value": "Unknown due to missing market price [D02, D04] and potential book value impairment [D05]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "T-bills yielding higher certainty and liquidity [D08]",
+   "downside_case": "Permanent loss of capital if deposit run necessitates fire sales of assets below carrying value [D05]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Maintenance capex not provided",
+    "Market price as of March 16 not provided",
+    "Normalization of funding costs not provided"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Berkshire serves as a permanent, passive holder of marketable securities, relying on the long-term compounding of the underlying business [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realized through the business overcoming its current liquidity-driven stress, stabilizing deposits, and returning to its historical pattern of consistent earnings growth [D01, D05]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the post-2016 era, Berkshire acts as a permanent holder of quality franchises; however, as this specific bank fails our quality and certainty filters, we would ultimately pass on the investment [D05, D06]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "uninsured deposit flight triggering a liquidity crisis [D05, D06]",
+    "forced asset sales below carrying value to meet liquidity demands [D05]",
+    "inability to regain low-cost funding, leading to permanent net interest margin compression [D05]"
+   ],
+   "berkshire_constraints": "Must maintain a cash floor of at least $30 billion [D08]; investment must be avoided if it risks permanent loss of capital or reputational damage [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "T-bills offer higher certainty, liquidity, and a risk-free return in the current environment [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The lack of predictable earnings and the severe confidence crisis mean this business fails to meet our quality criteria for any allocation [D05, D06].",
+   "biggest_risk_in_one_sentence": "A deposit run necessitates fire sales of assets, resulting in a permanent loss of capital."
+  }
+ },
+ "final": {
+  "as_of_date": "2023-03-16",
+  "company": "the Company (XXX)",
+  "ticker": "N/A",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Not determinable",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Not determinable",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital due to liquidity-driven fire sales of assets [D05]."
+  },
+  "drivers": [
+   {
+    "driver": "The bank faces a severe confidence crisis and deposit flight that undermines its fundamental viability [D05, D06].",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The institution's reliance on large uninsured deposits and expensive wholesale funding lacks the durability we require [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "We cannot ascertain the intrinsic value or a margin of safety due to the risk of asset impairments and deposit instability [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "The business fails our requirement for a predictable record of earnings and stable funding [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "uninsured deposit flight triggering a liquidity crisis [D05, D06]",
+   "forced asset sales below carrying value to meet liquidity demands [D05]",
+   "inability to regain low-cost funding, leading to permanent net interest margin compression [D05]"
+  ],
+  "what_would_change_our_mind": "A return to deposit stability and evidence that the core franchise can maintain low-cost funding without emergency liquidity support.",
+  "memo": "We have examined the situation at the Company and have decided to pass. Charlie and I have long preferred businesses with durable competitive advantages and predictable economics, yet the current liquidity-driven stress leaves us unable to reach a firm conclusion about the bank's future [D05, D06].\n\nWhile the bank has historically served affluent clients, the recent confidence shock and the resulting deposit flight raise significant questions regarding its funding stability [D01, D05]. A business that must rely on expensive wholesale funding or external liquidity bridges to survive lacks the pricing power and durable moat that we insist upon [D05, D06].\n\nThe uncertainty surrounding potential asset sales below carrying value creates an environment where a permanent loss of capital is a very real possibility [D05]. In the world of investing, we do not need to swing at every pitch, and where the fundamental economics of a business are in question, the only sensible course is to stay on the sidelines [D05, D08].\n\nWe currently hold a substantial amount of cash and Treasury bills, which offer us far greater certainty and liquidity than this investment [D08]. We will continue to wait for opportunities that meet our standards for both quality and margin of safety [D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

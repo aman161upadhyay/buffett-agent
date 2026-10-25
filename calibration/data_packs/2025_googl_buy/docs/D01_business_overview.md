@@ -1,0 +1,16 @@
+Title: Search distribution, advertising and enterprise computing
+Source: https://www.sec.gov/Archives/edgar/data/1652044/000165204425000056/googexhibit991q22025.htm ; https://www.justice.gov/opa/pr/department-justice-wins-significant-remedies-against-google ; https://www.congress.gov/crs_external_products/LSB/PDF/LSB11362/LSB11362.1.pdf
+Date: 2025-09-30
+
+Alphabet's Services segment monetizes Search, YouTube, applications, devices and subscriptions; its Cloud segment sells infrastructure, platform services and collaboration tools. Advertising remains the largest revenue source. Search and other advertising produced $54.190 billion in the latest quarter; YouTube advertising $9.796 billion; Network advertising $7.354 billion. Traffic acquisition costs of $14.705 billion are part of the cost of obtaining distribution, not optional shareholder distributions. [1]
+
+The potential moat is the usefulness of the search product, user habits, advertiser economics and distribution breadth. The challenge is whether AI changes how customers find information and where advertisers pay for intent. Cloud creates a separate enterprise opportunity, with different sales cycles and a larger physical-infrastructure requirement than the historic advertising model. Other Bets are not a free option: the segment loses money. Sundar Pichai's AI enthusiasm is an issuer claim to test against cash generation and incremental investment, not proof that every project creates value. [1-3]
+
+Evidence ledger: the July 23 release reports second-quarter revenue of $96.428 billion, up 14%; operating income of $31.271 billion; net income of $28.196 billion; and diluted EPS of $2.31. Services revenue was $82.543 billion, Cloud $13.624 billion and Other Bets $373 million. Services operating income was $33.063 billion, Cloud $2.826 billion, Other Bets a $1.246 billion loss and central activities a $3.372 billion cost. Cash plus marketable securities totaled $95.148 billion, versus $23.607 billion long-term debt. Trailing operating cash flow was $133.708 billion, capital expenditures $66.980 billion and free cash flow $66.728 billion. Management increased planned annual capital spending to approximately $85 billion. September court remedies prohibit specified exclusivity arrangements and require access to certain data/services. [1-3]
+
+Analytical distinction: a large customer base is not itself proof of a moat. The relevant test is whether customers keep paying enough to cover the full cost of serving them, including reinvestment and risk. Product descriptions and reported segment economics below are observations; a prediction that their advantages persist is an underwriting judgment. No terminal growth rate, private management forecast, or guaranteed future market share is supplied. Historical success must be tested against the specific competitive threats, not substituted for that test.
+
+Sources and publication dates:
+[1] https://www.sec.gov/Archives/edgar/data/1652044/000165204425000056/googexhibit991q22025.htm (published 2025-07-23)
+[2] https://www.justice.gov/opa/pr/department-justice-wins-significant-remedies-against-google (published 2025-09-02)
+[3] https://www.congress.gov/crs_external_products/LSB/PDF/LSB11362/LSB11362.1.pdf (published 2025-09-10)

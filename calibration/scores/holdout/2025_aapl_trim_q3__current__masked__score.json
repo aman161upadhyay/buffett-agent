@@ -1,0 +1,59 @@
+{
+ "trade_id": "2025_aapl_trim_q3",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The business continues to demonstrate durable consumer loyalty and high-margin services growth",
+   "Management remains disciplined in capital return through share repurchases and dividends",
+   "The tax burden of selling a highly successful, long-term holding outweighs the benefits of a full exit at current prices"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "record installed base",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "services revenue growth",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "33.75 times trailing earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "estimated $900 million tariff impact",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "$100 billion repurchase authorization",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 6,
+  "share": 0.55
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "Given the strength of the underlying business and the lack of a more attractive immediate alternative, we prefer to maintain our significant ownership [D08].",
+ "grader_notes": "The agent reached a HOLD decision while the actual outcome was a TRIM. The reasoning overlap is not scorable as the Answer Key contains no stated drivers for this specific trade; however, the agent's decision to hold contradicts the factual reduction in share count.",
+ "run": "2025_aapl_trim_q3__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "TRIM",
+ "agent_decision": "HOLD",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

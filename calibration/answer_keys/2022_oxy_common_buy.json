@@ -1,0 +1,42 @@
+{
+  "id": "2022_oxy_common_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Initial March accumulation several billion dollars; 2022 common position scaled materially; no single-day percent invented",
+  "first_action_date": "2022-02-28",
+  "disclosure_date": "2022-03-04",
+  "reason_class": null,
+  "opportunity_template": [
+    "B1",
+    "B9"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "size_basis": "equity portfolio",
+  "drivers": [
+    {
+      "driver": "Buffett read the fourth-quarter call and agreed with Hollub's capital-allocation choices.",
+      "source": "https://www.worldoil.com/news/2022/8/19/berkshire-hathaway-approved-to-buy-up-to-half-of-occidental-petroleum (2022-08-19 reporting of March 7 CNBC remarks; post-cutoff, retrospective source)",
+      "quote": "I read every word"
+    },
+    {
+      "driver": "Hollub was executing the operating and financial priorities he would choose.",
+      "source": "https://www.worldoil.com/news/2022/8/19/berkshire-hathaway-approved-to-buy-up-to-half-of-occidental-petroleum (2022-08-19 reporting of March 7 CNBC remarks; post-cutoff, retrospective source)",
+      "quote": "She\u2019s running the company the right way."
+    },
+    {
+      "driver": "Available market liquidity allowed a large minority common position.",
+      "source": "https://www.worldoil.com/news/2022/8/19/berkshire-hathaway-approved-to-buy-up-to-half-of-occidental-petroleum (2022-08-19 reporting of March 7 CNBC remarks; post-cutoff, retrospective source)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Not publicly stated.",
+  "outcome_note": "Long-term minority ownership; later control-permission filings do not establish an intent to acquire the whole company.",
+  "sources": [
+    "https://www.worldoil.com/news/2022/8/19/berkshire-hathaway-approved-to-buy-up-to-half-of-occidental-petroleum",
+    "https://www.sec.gov/Archives/edgar/data/797468/000079746822000007/oxyex99112-31x2021earnings.htm",
+    "https://www.berkshirehathaway.com/letters/2021ltr.pdf"
+  ],
+  "pack_quality_notes": "Common re-entry is new relative to prior common episode, but preferred/warrants already owned. March 7 remarks, preserved in August 19 reporting, explicitly date buying to February 28. Later carbon-capture rationale not backdated. Exact quotation 'She was saying all the right things' not independently authenticated here; corrected to preserved wording. Fund scale: approximate cash plus short-term Treasury bills where the source includes them, not equity NAV. Documents are sourced analyst digests, not verbatim filings; stress tests/methods are explicitly analytical. Exact cutoff quote, forward consensus and a full numerical peer table are not available except where explicitly recovered. No numerical intrinsic value is fabricated. Key source timing: 2022-08-19 reporting of March 7 CNBC remarks; post-cutoff, retrospective source. Unknown first execution is null; see meta.first_action_window. Fewer than three authenticated drivers means reasoning is unscorable rather than completed with invented manager claims.",
+  "quality_grade": "B"
+}

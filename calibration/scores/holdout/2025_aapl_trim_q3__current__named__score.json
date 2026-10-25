@@ -1,0 +1,45 @@
+{
+ "trade_id": "2025_aapl_trim_q3",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 0,
+  "matched": [],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The business continues to demonstrate exceptional cash-generation capabilities and strong consumer attachment via its installed base.",
+   "Apple remains a premier consumer franchise, which we do not sell simply because Mr. Market is enthusiastic about the price.",
+   "Tax considerations provide a significant hurdle to liquidating a large position in a wonderful business, even if the current valuation is full.",
+   "Reported near-term tariff costs and regulatory challenges are manageable risks that do not impair the long-term economics of the ecosystem."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The stock currently trades at a full valuation of approximately 31 to 34 times reported trailing earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "estimated $900 million in June-quarter tariff impacts",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 6,
+  "share": 0.6
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "A sale would also require us to settle a 21% federal tax bill, creating a significant hurdle that is not currently justified by the perceived gap between the market price and our estimate of intrinsic value.",
+ "grader_notes": "The agent recommended a HOLD while the actual outcome was a TRIM. Reasoning overlap is not scorable as the actual decision (TRIM) was not accompanied by a stated rationale in the key, rendering the agent's detailed thesis irrelevant to the actual trade performance.",
+ "run": "2025_aapl_trim_q3__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "TRIM",
+ "agent_decision": "HOLD",
+ "key_driver_count": 0,
+ "reasoning_scorable": false
+}

@@ -1,0 +1,49 @@
+{
+ "trade_id": "2011_bac_pref",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Preferred income and ten-year equity optionality made the structure attractive → By stepping in with a negotiated preferred stock investment, we provide the capital necessary to signal market confidence while securing a senior-priority claim that carries a meaningful coupon [D09]."
+  ],
+  "missed": [
+   "Buffett believed the underlying bank remained large and attractive.",
+   "He trusted Moynihan's rebuilding effort."
+  ],
+  "extra_agent_drivers": [
+   "Market overreaction to mortgage litigation.",
+   "Structural funding advantage via deposit base."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The market prices the company at $6.99, a 44.7% discount to its tangible book value of $12.65",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The bank maintains the largest deposit base in the United States",
+    "citation": "D09",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 15,
+  "cited": 15,
+  "share": 1
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "By stepping in with a negotiated preferred stock investment, we provide the capital necessary to signal market confidence while securing a senior-priority claim that carries a meaningful coupon [D09].",
+ "grader_notes": "The agent correctly identified the attractive structure of the preferred investment, which aligns with Buffett's reasoning. However, the agent failed to capture the essential qualitative drivers regarding the specific management and the enduring nature of the underlying business, instead relying on general market-discount analysis. The decision to PASS due to an internal hard-fail mechanism contradicts the actual BUY decision made by Buffett.",
+ "run": "2011_bac_pref__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true,
+ "enforced_hard_fail": true
+}

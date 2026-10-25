@@ -1,0 +1,59 @@
+{
+ "trade_id": "ctl_2022_meta_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned per parent 13F history",
+   "No Facebook or Meta position in the 2010–Q2 2026 parent 13F census",
+   "Economic and valuation objections are analyst-reconstructable tests, not Buffett's stated rationale"
+  ],
+  "extra_agent_drivers": [
+   "Price vs value",
+   "Erosion of core moat",
+   "Capital-intensive pivot to speculative development",
+   "Deteriorating earnings"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "operating margins from 36% to 20%",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "18% decline in average price per ad",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "projected 2023 capex of $34–39 billion",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Q3 2022 net income falling 52% year-over-year",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 5,
+  "share": 0.5
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have examined the company and concluded it does not meet our requirements for a permanent investment.",
+ "grader_notes": "The agent correctly matched the 'PASS' decision but failed to identify the actual reasoning, which is that Buffett has no publicly stated rationale other than the absence of the stock in his 13F history. The agent provided a detailed analyst-style bear thesis instead of acknowledging that Buffett's own criteria for the non-purchase are not publicly disclosed.",
+ "run": "ctl_2022_meta_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

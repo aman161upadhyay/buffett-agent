@@ -1,0 +1,56 @@
+{
+ "trade_id": "1988_ko_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Goizueta and Keough refocused policies and energized overseas sales. → Management, led by Roberto Goizueta, has remained disciplined, focusing on core beverage expansion and consistent financial returns since 1981"
+  ],
+  "missed": [
+   "The product's extraordinary consumer appeal supported a worldwide franchise.",
+   "Marketing and finance worked together to maximize growth and rewards to owners.",
+   "Outstanding businesses with outstanding management warranted long ownership."
+  ],
+  "extra_agent_drivers": [
+   "The company's earnings yield of 6.37% is well below our 10% threshold and significantly trails the 8.87% long-term Treasury bond yield",
+   "Coca-Cola is a wonderful business, but the market currently prices it for perfection, leaving no margin of safety for an investor",
+   "The business operates a global beverage franchise with a 44% market share and consistently high returns on equity, exceeding 27%",
+   "The concentrate model allows the company to generate superior economics by separating brand-building from the capital-intensive bottling system"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company's earnings yield of 6.37% is well below our 10% threshold and significantly trails the 8.87% long-term Treasury bond yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business operates a global beverage franchise with a 44% market share",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "net income growing from $559 million in 1983 to $916 million by 1987",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 11,
+  "share": 0.92
+ },
+ "state": "MISS",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "Despite these sterling qualities, the market has left us no room to purchase the business at a bargain price.",
+ "grader_notes": "The agent correctly identified the quality of the management team and business, which aligns with Buffett's qualitative assessment. However, the agent failed to capture the investment thesis, opting to PASS due to valuation concerns, whereas Buffett initiated a major purchase during this period.",
+ "run": "1988_ko_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

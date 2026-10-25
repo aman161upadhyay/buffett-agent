@@ -1,0 +1,30 @@
+{
+  "id": "ctl_2015_vrx_pass",
+  "company": "Valeant Pharmaceuticals International",
+  "ticker": "VRX",
+  "aliases": [
+    "Valeant Pharmaceuticals International, Inc.",
+    "Valeant Pharmaceuticals",
+    "Valeant",
+    "VRX",
+    "Bausch + Lomb",
+    "Bausch & Lomb",
+    "Bausch Health",
+    "BHC",
+    "Salix Pharmaceuticals",
+    "Salix",
+    "Medicis",
+    "Dendreon",
+    "Provenge",
+    "Xifaxan",
+    "Jublia",
+    "Pearson"
+  ],
+  "as_of_date": "2015-03-02",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "Nonpurchase observation window containing 2015-03-02; not a dated execution",
+  "fund_aum_usd_bn": 63.27,
+  "decider": "Buffett",
+  "notes": "Research pack is an affirmative analyst case, not an investor endorsement. Cutoff is end of the as_of_date, including same-date evening releases. fund_aum_usd_bn is the explicitly dated cash/T-bill benchmark in D08, except Cisco where it is 1998 common-stock market value. Not consolidated assets or fee-paying AUM. Exact desk-date price and full annual cash/debt reconciliation not recovered. No Philidor or later price-hike episodes in docs. Corrected sewer-quote date to 2016, not 2015. Munger criticism is later and not attributed to Buffett as a March 2 quotation."
+}

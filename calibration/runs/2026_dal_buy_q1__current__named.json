@@ -1,0 +1,251 @@
+{
+ "pack": "2026_dal_buy_q1",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2025-12-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Delta operates a global airline network that includes premium cabin services, corporate travel relationships, and a loyalty business [D01]. The company also maintains a refinery, which influences the calculation of GAAP revenue versus adjusted airline revenue [D01].",
+   "products_customers_and_why_they_buy": [
+    "Passenger air travel services sold to individual and corporate customers, characterized as a repeat-purchase service [D01].",
+    "Premium and loyalty program offerings, with American Express remuneration growing 12% to $2 billion in the September quarter [D01]."
+   ],
+   "economics": [
+    "Business requires significant ongoing investment in aircraft, engines, maintenance, labor, and airport operations [D01].",
+    "September quarter adjusted revenue was $15.2 billion with pre-tax income of approximately $1.5 billion [D01].",
+    "September quarter gross capital spending was approximately $1.1 billion [D01]."
+   ],
+   "earnings_record": [
+    "September quarter GAAP diluted EPS was $2.17; adjusted EPS was $1.71 [D01].",
+    "Full-year 2025 adjusted EPS guidance was approximately $6 [D01]."
+   ],
+   "competitive_position": [
+    "Network airline peers include United and American; Southwest is noted as a different operating model [D06].",
+    "Management asserts differentiation through premium and loyalty revenue, though the release notes these results were aided by lapping the previous year's CrowdStrike-caused outage [D01, D03]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Debt and finance-lease obligations were $14.9 billion [D01].",
+    "Adjusted net debt was $15.6 billion [D01].",
+    "Liquidity of $6.9 billion includes $3.1 billion in undrawn revolvers [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Ed Bastian is CEO (referenced via issuer claims) [D01].",
+    "Management provided full-year free cash flow guidance of $3.5-$4.0 billion [D01]."
+   ],
+   "price_and_valuation": [
+    "Share price as of 2025-12-31 was $69.40 [D04].",
+    "Valuation is approximately 11.57 times management's indicated $6 adjusted annual EPS guidance [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "No standardized trailing or owner earnings yield provided in pack; full-year adjusted EPS guidance used for P/E [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Risk of recession, fuel-price shocks, or operational disruptions impacting margins [D05].",
+    "High operating leverage and persistent debt/lease obligations during demand downturns [D05].",
+    "Dependence on partner/customer engagement for loyalty revenue [D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2025-10-09: September-quarter financial results released [D01].",
+    "2025-11-14: Berkshire Hathaway 13F filing confirms no Delta position [D08]."
+   ],
+   "berkshire_context": [
+    "Berkshire sold its entire airline portfolio in 2020 following industry changes and has no current position [D08].",
+    "Berkshire holds record cash liquidity, but no Delta-specific investment thesis is present [D08]."
+   ],
+   "document_conflicts": [
+    "GAAP revenue vs. adjusted revenue, and GAAP debt vs. adjusted net debt definitions [D01, D02]."
+   ],
+   "missing_data": [
+    "Independently reconstructed owner-earnings model, long-run peer multiple series, and verified consensus forward earnings estimates."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The airline industry is prone to rapid change, high operating leverage, and external shocks like fuel-price volatility and operational disruptions [D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "The business model requires heavy, constant reinvestment in capital-intensive assets and faces significant competitive pressure in a commoditized industry [D01, D06]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The industry's earnings are notoriously cyclical, and performance is frequently impacted by non-recurring events such as outages [D01, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company maintains substantial debt and finance-lease obligations of $14.9 billion, which pose significant risks during demand downturns [D01, D05]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The airline business requires massive, ongoing capital expenditure for aircraft, engines, and maintenance, failing to meet the low capital intensity threshold [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "While management provides guidance, the pack offers insufficient information to judge long-term capital allocation or owner-oriented philosophy [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "Delta's scale is sufficient to impact Berkshire's capital allocation [D01]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "The pack lacks the necessary long-run owner earnings model and bond yield data to assess the earnings yield appropriately [D04, D08]."
+    }
+   },
+   "conflicts_resolved": [
+    "GAAP vs adjusted metrics: relied on management's adjusted figures as primary indicators for internal guidance assessment [D01]."
+   ],
+   "n_pass": 1,
+   "n_fail": 5,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a capital-intensive commodity business with high operating leverage and persistent debt that fails our quality standards"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no reason to expect a bargain because the business fails our fundamental quality requirements. The airline industry remains a capital-intensive commodity business characterized by high operating leverage and persistent debt, which we have previously determined does not meet our investment standards [D01, D05, D08].",
+   "evidence": [
+    "Berkshire sold its entire airline portfolio in 2020 due to unfavorable industry changes [D08].",
+    "Company maintains $14.9 billion in debt and finance-lease obligations [D01].",
+    "Business requires massive, ongoing capital expenditure for aircraft and maintenance [D01]."
+   ],
+   "market_narrative_we_disagree_with": "The market may value the stock based on short-term adjusted EPS guidance of $6.00 and growth in loyalty revenue, but this ignores the inherent cyclicality and capital-intensive nature of the underlying business [D01, D05].",
+   "what_must_be_true": [
+    "The airline industry would need to demonstrate a structural, multi-decade change in capacity discipline and return on capital.",
+    "The business would need to consistently generate owner earnings with low capital intensity.",
+    "The balance sheet would need to be free of significant debt and lease obligations."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "Business is capital-intensive with persistent debt [D01]",
+     "Industry lacks durable competitive advantage [D05]"
+    ],
+    "discount_rate_used": "not in pack"
+   },
+   "price_vs_value": "not in pack; business rejected at Filter 2",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Holdings in businesses with durable competitive advantages and lower capital intensity are superior [D08].",
+   "downside_case": "Permanent loss of capital due to industry cyclicality and high operating leverage [D05].",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "No owner earnings model possible; industry fundamentally rejected per policy [D05, D08]."
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Berkshire's standard approach for marketable securities is to act as a permanent, passive holder, relying on the underlying business to compound value through rational capital allocation [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Business compounding through operational success [D08]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "This role is the default for Berkshire's marketable securities since 1980, reflecting our focus on long-term ownership rather than short-term trading [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "airline industry remains a capital-intensive commodity business with high operating leverage [D01, D05]",
+    "persistent debt and lease obligations of $14.9 billion [D01]",
+    "cyclical earnings record prone to significant operational disruptions [D01, D03, D05]"
+   ],
+   "berkshire_constraints": "Berkshire has previously sold its entire airline portfolio due to unfavorable industry changes and maintains no position [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better allocated to businesses with durable competitive advantages and lower capital intensity [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The airline industry falls outside the circle of competence for Berkshire as evidenced by the 2020 exit from the sector [D08].",
+   "biggest_risk_in_one_sentence": "The inherent cyclicality and capital-intensive nature of the airline industry create a high probability of permanent loss of capital during downturns [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-12-31",
+  "company": "Delta Air Lines",
+  "ticker": "DAL",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital due to industry cyclicality, high operating leverage, and significant debt obligations [D01, D05]."
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at approximately 11.57 times adjusted earnings [D04], failing to provide an adequate margin of safety for a capital-intensive commodity business.",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The airline industry is a capital-intensive commodity business prone to cyclicality, high operating leverage, and significant debt that we have previously determined does not meet our investment standards [D01, D05, D08].",
+    "citations": [
+     "D01",
+     "D05",
+     "D08"
+    ]
+   },
+   {
+    "driver": "The business carries $14.9 billion in debt and finance-lease obligations, creating meaningful risk during demand downturns [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Continuous, massive reinvestment in aircraft and infrastructure is required, which precludes the low-capital-intensity profile we seek [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "airline industry remains a capital-intensive commodity business with high operating leverage [D01, D05]",
+   "persistent debt and lease obligations of $14.9 billion [D01]",
+   "cyclical earnings record prone to significant operational disruptions [D01, D03, D05]"
+  ],
+  "what_would_change_our_mind": "A structural, multi-decade change in the airline industry's capacity discipline, a transition to a low-capital-intensity model, and the total elimination of persistent debt and lease obligations.",
+  "memo": "We have reviewed Delta Air Lines and determined it does not meet our standards for inclusion in the Berkshire Hathaway portfolio [D01, D08]. The airline industry is fundamentally a capital-intensive commodity business characterized by high operating leverage and the need for constant, massive reinvestment in aircraft and infrastructure [D01, D05].\n\nOur experience has shown that this industry is prone to cyclicality and external shocks that make consistent, long-term earnings records difficult to achieve [D01, D05]. The company currently carries $14.9 billion in debt and finance-lease obligations, which poses a significant risk to the durability of the business during periods of economic contraction [D01].\n\nWhile the market may focus on adjusted earnings guidance of $6.00 per share, this does not compensate for the inherent risks and capital demands of the sector [D01, D04]. Investing in airlines is akin to buying a ticket to a perpetual race where the participants must constantly spend their winnings just to stay on the track.\n\nWe have no current position in the sector and continue to believe that our capital is better allocated to businesses with durable competitive advantages and lower capital requirements [D08]. We prefer to sit on our cash rather than risk a permanent loss of capital in businesses we cannot confidently project for the coming decades [D05, D08].",
+  "uncited_claims": []
+ }
+}

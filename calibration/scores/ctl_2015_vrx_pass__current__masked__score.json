@@ -1,0 +1,59 @@
+{
+ "trade_id": "ctl_2015_vrx_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "No ownership in the window",
+   "No Valeant/VRX/Bausch predecessor position in the 13F census",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements"
+  ],
+  "extra_agent_drivers": [
+   "High GAAP P/E and insufficient earnings yield",
+   "Reliance on debt-funded acquisition model",
+   "Obscured earnings quality due to non-GAAP metrics",
+   "Capital intensity and high leverage"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at a GAAP P/E of 76.2x",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company relies on a debt-funded acquisition model to generate growth",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Earnings quality is obscured by management’s reliance on non-GAAP metrics",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Net leverage at approximately 3.5x",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 2,
+  "share": 0.2
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have reviewed the business and have decided to pass.",
+ "grader_notes": "The agent correctly matched the PASS decision. However, it failed to acknowledge that there were no authenticated Buffett statements regarding the company at the time, instead providing its own fundamental analysis, which the answer key explicitly categorizes as 'analyst-reconstructable' rather than authenticated Buffett reasoning.",
+ "run": "ctl_2015_vrx_pass__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

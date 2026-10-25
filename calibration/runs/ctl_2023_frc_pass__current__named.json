@@ -1,0 +1,253 @@
+{
+ "pack": "ctl_2023_frc_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2023-03-16",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "First Republic Bank specializes in relationship banking and wealth management for affluent clients, providing mortgages, deposits, and advisory services [D01]. The institution is characterized by a service-oriented franchise model with historically low loan losses [D01].",
+   "products_customers_and_why_they_buy": [
+    "Mortgages, deposits, and wealth-management advisory services for affluent clients [D01].",
+    "Customer lifetime value is supported by referrals and low historical credit losses [D01]."
+   ],
+   "economics": [
+    "FY2022 net income of approximately $1.7 billion; revenue of $5.9 billion [D01].",
+    "Q4 2022 net interest margin of 2.45%, down from 2.71% in the preceding quarter [D01].",
+    "Tier 1 leverage ratio of 8.51% [D01].",
+    "Annual net charge-offs of $2.9 million [D01]."
+   ],
+   "earnings_record": [
+    "FY2022: Revenue $5.9B (+16.5%), Net Interest Income $4.8B (+17.5%), Net Income $1.7B (+12.7%), Diluted EPS $8.25 (+7.4%) [D01].",
+    "Q4 2022: EPS $1.88 and net income $386 million, down 3.6% year on year [D01]."
+   ],
+   "competitive_position": [
+    "Operates as a relationship-banking franchise for affluent clients [D01].",
+    "Reported nonperforming assets of five basis points of total assets [D01].",
+    "Wealth-management assets under management are $271.2 billion, which belong to clients [D01]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Total loans: $166.9 billion; total deposits: $176.4 billion [D01].",
+    "Common book value: $75.38 per share; tangible common book value: $74.19 per share [D01].",
+    "March 16, 2023: $30 billion in deposits announced by eleven large banks as a liquidity bridge [D01]."
+   ],
+   "management_and_capital_allocation": [
+    "Not in pack."
+   ],
+   "price_and_valuation": [
+    "Closing price (2023-03-16): $34.27 [D04].",
+    "Implied market cap: ~$6.28 billion [D04].",
+    "P/E (based on $8.25 FY2022 EPS): 4.15x [D04].",
+    "Common P/B: 0.455x; Price-to-tangible-book: 0.462x [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 24.07,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 0,
+    "basis": "Trailing earnings yield computed as $8.25 EPS / $34.27 price [D04]. No owner-earnings or FCF yield provided in pack."
+   },
+   "what_the_market_is_worried_about": [
+    "Large uninsured deposits leaving quickly [D05].",
+    "Asset-liability mismatch: long-duration mortgages losing value in rising rate environment [D05].",
+    "Replacing low-cost deposits with expensive wholesale funding [D05].",
+    "Need for permanent expensive funding or asset sales below carrying value [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "2023-01-13: Annual 2022 results published [D07].",
+    "2023-03-16: Eleven large banks announced $30 billion in deposits to provide a liquidity bridge [D07]."
+   ],
+   "berkshire_context": [
+    "Cash and Treasury bills: ~$128.6 billion [D08].",
+    "Existing financial exposure: Bank of America and American Express [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Maintenance capex figures for owner earnings calculation [D02].",
+    "Updated March 2023 financial status (balance sheet is dated Dec 31, 2022) [D02]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business faces severe liquidity risks and an asset-liability mismatch due to rising rates, clouding its long-term viability [D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "The bank is currently experiencing a rapid outflow of uninsured deposits, indicating a failure of its competitive position under stress [D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "UNSURE",
+     "evidence": "While FY2022 showed growth, the Q4 2022 results declined, and the current liquidity crisis renders historical performance unreliable for future outlook [D01, D05]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The bank is experiencing a funding run and is reliant on a $30 billion liquidity bridge from other banks, demonstrating thin capital and funding instability [D01, D05]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "Banking is a regulated business where the primary raw material is capital, which is standard for the industry [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "The pack contains no information regarding management's history or capital allocation philosophy [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "The market cap of ~$6.28 billion is relatively small for Berkshire and would likely be a deputy-level position [D04]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The stock is trading at a significant discount to book value (0.46x P/TBV), though this reflects extreme fundamental risk [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 3,
+   "n_unsure": 3,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": true,
+   "one_line_business_quality_verdict": "a bank undergoing a liquidity run with significant asset-liability duration mismatch and funding instability"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is currently pricing in a potential collapse of the franchise due to an extreme liquidity run and a severe asset-liability mismatch [D05]. Because the bank's fundamental viability is under active threat from uninsured deposit outflows and potential insolvency, it fails the basic requirement of a durable business [D05]. There is no basis to view this as a temporary cloud, as the risk to the core deposit base is existential and unbounded [D05].",
+   "evidence": [
+    "Large uninsured deposits leaving quickly, threatening the stability of the franchise [D05].",
+    "Asset-liability mismatch where long-duration mortgages lose value in a rising rate environment, requiring potential asset sales at a loss [D05].",
+    "The bank is dependent on a $30 billion liquidity bridge from other institutions to maintain operations [D01, D07]."
+   ],
+   "market_narrative_we_disagree_with": "The market treats the bank as a solvable liquidity issue rather than a structural failure of its business model under interest rate stress [D05].",
+   "what_must_be_true": [
+    "The deposit flight must stabilize without further eroding the equity base.",
+    "The duration mismatch must be managed without requiring fire sales of assets that would wipe out tangible book value.",
+    "The bank must regain its ability to operate independently without reliance on external liquidity bridges."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "market_stance",
+   "owner_earnings_per_share": "Not in pack; maintenance capex unknown [D02].",
+   "initial_pretax_yield_pct": 24.07,
+   "intrinsic_value_range": {
+    "low": "Not applicable",
+    "high": "Not applicable",
+    "key_assumptions": [
+     "Bank faces existential liquidity run and asset-liability mismatch [D05]",
+     "Fundamental viability under active threat [D05]"
+    ],
+    "discount_rate_used": "Not applicable"
+   },
+   "price_vs_value": "Indeterminate; business failure risk outweighs stated book value",
+   "expected_return_pct": {
+    "base": -100,
+    "bear": -100,
+    "bull": 0
+   },
+   "alternatives": "Cash and T-bills are superior [D08]; at $128.6 billion in liquidity, we wait for a business that is not experiencing an existential run [D08].",
+   "downside_case": "Total loss of capital if the deposit flight and asset-liability mismatch result in insolvency.",
+   "valuation_verdict": "PASS",
+   "flagged_assumptions": [
+    "Maintenance capex for owner earnings [D02]",
+    "Current solvency status given Dec 31 2022 balance sheet date [D02]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Berkshire's edge is patience and permanent capital, realizing value through the business compounding over the long term [R0 definition].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "We seek wonderful businesses that provide intrinsic value growth over long periods [Rule 4]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "For marketable securities in the 2000-2015 and 2016-onward eras, we act as permanent, passive owners of businesses we understand and trust, avoiding speculative liquidity crises [Rule 4, Rule 5]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Continued outflow of uninsured deposits",
+    "Realization of losses on long-duration assets",
+    "Inability to operate without reliance on external liquidity bridges"
+   ],
+   "berkshire_constraints": "Must maintain cash floor of $30B+; avoid reputational risk associated with speculative financial rescues [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Cash and T-bills are superior alternatives given the existential risks currently facing the bank [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business model has broken, rendering it a permanent loss candidate rather than a viable investment.",
+   "biggest_risk_in_one_sentence": "An existential liquidity run and asset-liability mismatch threaten the bank with insolvency."
+  }
+ },
+ "final": {
+  "as_of_date": "2023-03-16",
+  "company": "First Republic Bank",
+  "ticker": "FRC",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Not in pack; maintenance capex unknown [D02].",
+   "initial_pretax_yield_pct": 24.07,
+   "intrinsic_value_range": "Not applicable",
+   "expected_return_pct": -100,
+   "downside_case": "Total loss of capital if the deposit flight and asset-liability mismatch result in insolvency."
+  },
+  "drivers": [
+   {
+    "driver": "The bank is currently experiencing an existential liquidity run and asset-liability mismatch, rendering the stock's 24.07% trailing earnings yield [D04] irrelevant as the business model faces potential collapse [D05]."
+   },
+   {
+    "driver": "We do not invest in businesses experiencing structural failures of their business model under interest rate stress, as these present risks of permanent capital loss [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "The reliance on a $30 billion external liquidity bridge demonstrates that the bank cannot operate independently, which violates our requirement for sustainable, self-funding franchises [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The deposit flight represents an unbounded risk to the core deposit base, making any valuation based on past earnings unreliable [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Continued outflow of uninsured deposits",
+   "Realization of losses on long-duration assets",
+   "Inability to operate without reliance on external liquidity bridges"
+  ],
+  "what_would_change_my_mind": "The stabilization of the deposit base without external aid and a resolution of the interest rate duration mismatch that does not impair tangible book value.",
+  "memo": "First Republic is a relationship-banking institution serving affluent clients, historically focused on wealth management and mortgage lending [D01]. While the bank once displayed a service-oriented model, we find ourselves unable to rely on its historical performance given the current existential crisis [D01, D05].\n\nBanks are inherently sensitive to their cost of funding, and First Republic's model has suffered a critical breakdown [D01, D05]. A rapid exodus of uninsured deposits and an asset-liability mismatch—where long-duration mortgages lose value as rates rise—have undermined the bank's fundamental stability [D05]. \n\nWe require businesses that can prosper independently, yet this institution is currently propped up by a $30 billion liquidity bridge from other banks [D01, D05]. This dependency indicates that the franchise's competitive position has failed under stress, making it an inappropriate home for our capital [D05].\n\nWhile the stock trades at a fraction of its former book value, a low price is not a bargain when the business itself is threatened with insolvency [D04, D05]. We prefer to hold cash, which is safe and certain, rather than reach for yield in a situation where the permanent loss of capital is a very real possibility [D05, D08].",
+  "uncited_claims": []
+ }
+}

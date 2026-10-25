@@ -1,0 +1,47 @@
+{
+ "trade_id": "dep_2020_snow_ipo_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "BUY as a deputy-controlled IPO/private-placement allocation. Todd Combs is the named executing investment officer; do not attribute an unexplained Buffett IPO-policy reversal or software thesis to Buffett.",
+   "SEC purchase agreement dated September 7 and filed September 8 is signed by Todd A. Combs, Investment Officer. It documents execution authority, not a valuation thesis. Final $120 pricing and Q3 parent 13F verify 6,125,376 shares, combining $250M private placement and 4,042,043 secondary shares.",
+   "The signed agreement identifies Combs as Investment Officer; no public own-words valuation or growth thesis was located, so those analyst bull arguments must not be scored as manager-stated drivers."
+  ],
+  "extra_agent_drivers": [
+   "The company is currently unprofitable",
+   "The business lacks a durable moat",
+   "The company’s capital intensity is high",
+   "The business operates in a field of rapid technological change"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company is currently unprofitable, reporting a net loss of $348.5 million",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business lacks a durable moat as it relies entirely on infrastructure owned by its direct, dominant competitors like Amazon, Google, and Microsoft",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We have reviewed this business and placed it firmly in the 'too hard' pile.",
+ "grader_notes": "The agent completely missed the reality that this was a deputy-led trade rather than a traditional Buffett equity selection, resulting in an incorrect 'PASS' decision based on external analysis. The reasoning is entirely disconnected from the provided answer key, which emphasizes that the trade was an execution by a deputy rather than an expression of a valuation thesis.",
+ "run": "dep_2020_snow_ipo_buy__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS"
+}

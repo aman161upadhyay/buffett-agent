@@ -1,0 +1,40 @@
+{
+  "id": "1993_dexter_acq",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav": "Approximately $433 million consideration; 25,203 Berkshire shares actually issued at closing",
+  "first_action_date": "1993-09-30",
+  "disclosure_date": "1993-09-30",
+  "reason_class": null,
+  "opportunity_template": [
+    "B4"
+  ],
+  "catalyst_role": "R3",
+  "decider": "Buffett",
+  "size_basis": "cash",
+  "drivers": [
+    {
+      "driver": "The original attraction was a long, profitable record, an enduring franchise and superb management.",
+      "source": "https://www.upi.com/Archives/1993/09/30/Berkshire-Hathaway-to-buy-Dexter-Shoe-for-420-million/5986749361600/ (1993-09-30; contemporary)",
+      "quote": "It has a long profitable history, enduring franchise and superb management."
+    },
+    {
+      "driver": "Berkshire and the sellers shared a long-term ownership philosophy with management retained.",
+      "source": "https://www.upi.com/Archives/1993/09/30/Berkshire-Hathaway-to-buy-Dexter-Shoe-for-420-million/5986749361600/ (1993-09-30; contemporary)",
+      "quote": null
+    },
+    {
+      "driver": "Prior footwear experience supported extending a familiar operating field.",
+      "source": "https://www.berkshirehathaway.com/letters/1993.html (1994-03-01; hindsight explanation)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "September 30 announcement ~$420 million / 25,221 proposed Berkshire shares. Later $433 million / 25,203 issued-share accounting differs; no original earnings multiple recovered.",
+  "outcome_note": "ERROR CASE: later deemed worthless; 2007 letter calls competitive advantage illusory and stock payment a compounded error. Do not train the 2007 diagnosis as the original BUY rationale.",
+  "sources": [
+    "https://www.upi.com/Archives/1993/09/30/Berkshire-Hathaway-to-buy-Dexter-Shoe-for-420-million/5986749361600/ (1993-09-30; contemporary)",
+    "https://www.berkshirehathaway.com/letters/1993.html (1994-03-01; hindsight explanation)",
+    "UPI, September 30, 1993, proposed transaction terms: https://www.upi.com/Archives/1993/09/30/Berkshire-Hathaway-to-buy-Dexter-Shoe-for-420-million/5986749361600/"
+  ],
+  "pack_quality_notes": "Primary September 30 agreement report recovered: ~$420 million and 25,221 proposed shares versus later $433 million / 25,203 shares actually issued. The annual letter gives November 7 acquisition accounting; November 9 press reports completion 'yesterday' (November 8), so distinguish accounting and announcement dates. Missing original Dexter earnings and cost table. BUY rationale is directly contemporary."
+}

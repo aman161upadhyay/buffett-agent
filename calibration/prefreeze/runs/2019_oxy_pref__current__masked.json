@@ -1,0 +1,262 @@
+{
+ "pack": "2019_oxy_pref",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2019-04-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company is an oil and gas producer with chemical and midstream interests [D01]. It is currently involved in a potential acquisition that would expand its resource and operating exposure [D01].",
+   "products_customers_and_why_they_buy": [
+    "oil and gas products [D01]",
+    "chemical products [D01]",
+    "midstream services [D01]"
+   ],
+   "economics": [
+    "FY2018 net margin: 23.2% [D06]",
+    "FY2018 ROCE: 14% [D02]",
+    "FY2018 continuing operating cash flow: $7,669m [D02]",
+    "FY2018 capital expenditure: $4,975m [D02]",
+    "Requires separation of maintenance vs. expansion capital [D01, D08]",
+    "Petroleum accounting profits depend on realized prices, volumes, royalties, taxes, and E&D costs [D01, D08]"
+   ],
+   "earnings_record": [
+    "Net income: $616m (2014), -$7,829m (2015), -$574m (2016), $1,311m (2017), $4,131m (2018) [D02]",
+    "Diluted EPS: $0.79 (2014), -$10.23 (2015), -$0.75 (2016), $1.70 (2017), $5.39 (2018) [D02]",
+    "Results are cyclical and impacted by impairments, asset sales, and discontinued businesses [D02, D03]"
+   ],
+   "competitive_position": [
+    "Not in pack"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Long-term debt (net) as of 2018-12-31: $10,201m [D02]",
+    "Cash and equivalents: $3,033m [D04]",
+    "Proposed preferred financing: $10bn principal with 8% annual coupon [D04, D09]",
+    "Planned 2019 capital budget: $4.5bn [D03]"
+   ],
+   "management_and_capital_allocation": [
+    "Not in pack regarding specific CEO tenure/record beyond issuer observations [D01]"
+   ],
+   "price_and_valuation": [
+    "Common share price (April 2019): $58.88 [D04]",
+    "FY2018 P/E ratio: 10.92x [D04]",
+    "Earnings yield: 9.15% [D04]",
+    "Common dividend yield: 5.30% [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Aggressive acquisition debt burden [D05]",
+    "Expensive preferred obligations near commodity cycle peaks [D05]",
+    "Potential disappointment in synergies and asset sales [D05]",
+    "Execution and commodity price risks [D09]"
+   ],
+   "deal_terms_if_any": [
+    "$10bn cumulative perpetual preferred, 8% cash coupon [D04, D09]",
+    "Warrants for 80m common shares at $62.50 strike ($5bn exercise cost) [D04, D09]",
+    "Redemption: 105% of face plus accrued dividends; issuer redemption after 10 years [D04]"
+   ],
+   "recent_events": [
+    "April 30, 2019: Securities purchase agreement for preferred/warrant financing entered, conditional on acquisition [D03, D09]"
+   ],
+   "berkshire_context": [
+    "Berkshire year-end 2018 cash and T-bills: ~$112bn [D08]",
+    "Not in pack whether the Company accepted the financing or intends operating control [D08]"
+   ],
+   "document_conflicts": [
+    "None identified"
+   ],
+   "missing_data": [
+    "Maintenance capital expenditures [D01]",
+    "Specific customer-retention or pricing power evidence [D01]",
+    "Independent option valuation [D09]",
+    "Acquisition pro-forma leverage ratios [D03]"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The company operates in the volatile oil and gas sector where results are dependent on commodity prices and complex petroleum accounting [D01, D08]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "There is no evidence in the pack of a durable competitive advantage, brand, or pricing power; it is a commodity producer [D01]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company reported substantial net losses in 2015 and 2016, demonstrating significant cyclical volatility [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The company carries significant long-term debt and requires massive, ongoing capital expenditures to maintain operations [D02, D03]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "As an oil and gas producer, the business is highly capital-intensive, requiring billions in annual expenditure that is not regulated [D02, D03]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "The pack contains no information regarding the specific track record or capital allocation philosophy of the management team [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a $10bn preferred financing package, the deal is of sufficient scale to be meaningful for Berkshire [D04, D09]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The 8% coupon on the preferred instrument provides a satisfactory return in the current interest rate environment [D04, D09]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 5,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": true,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "The terms, not the business, carry the investment; this is a commodity producer with volatile earnings and high capital requirements."
+  },
+  "gate2": {
+   "templates": [
+    "B3"
+   ],
+   "why_available": "The company requires immediate, large-scale capital to complete a significant acquisition and is unable to secure more favorable terms, leading them to accept our financing [D03, D09]. We are essentially acting as a lender of last resort, utilizing our excess cash to lock in an attractive 8% coupon and equity upside via warrants, irrespective of the underlying commodity volatility [D04, D08, D09].",
+   "evidence": [
+    "Proposed $10bn preferred financing package with an 8% coupon [D04, D09]",
+    "Includes warrants for 80m shares at a $62.50 strike price [D04, D09]",
+    "The transaction is contingent upon the company's acquisition [D03, D09]",
+    "Berkshire has $112bn in cash available for such deployments [D08]"
+   ],
+   "market_narrative_we_disagree_with": "The market fears the company's aggressive debt burden, execution risks regarding the acquisition, and the potential impact of preferred obligations at commodity price peaks [D05, D09].",
+   "what_must_be_true": [
+    "The company successfully completes the acquisition and maintains solvency to pay the 8% dividend",
+    "The 8% coupon is senior to common equity, providing a sufficient margin of safety",
+    "The intrinsic value of the business is not permanently impaired by commodity price cycles",
+    "The management team remains capable of integrating the new assets and managing the debt load"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "negotiated_terms",
+   "owner_earnings_per_share": "Not applicable for preferred structure [D04]",
+   "initial_pretax_yield_pct": 8,
+   "intrinsic_value_range": {
+    "low": "100% of face value",
+    "high": "100% of face value plus warrant value",
+    "key_assumptions": [
+     "Dividend is paid in full [D04, D09]",
+     "Seniority provides protection in insolvency [D09]",
+     "Commodity cycle volatility does not trigger bankruptcy [D05, D09]"
+    ],
+    "discount_rate_used": "N/A"
+   },
+   "price_vs_value": "100% of face; senior position provides margin of safety",
+   "expected_return_pct": {
+    "base": 8,
+    "bear": 0,
+    "bull": 12
+   },
+   "alternatives": "T-bills at ~2.5% vs 8% preferred coupon; buying this provides superior yield [D08]",
+   "downside_case": "Dividend deferral; potential impairment if acquisition fails or commodity prices collapse permanently",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Maintenance capital not separated [D01]",
+    "Lack of independent valuation for warrants [D09]"
+   ]
+  },
+  "gate4": {
+   "role": "R2",
+   "role_description": "Financier with terms; we provide $10bn in capital in exchange for an 8% cumulative perpetual preferred dividend and warrants, providing Berkshire with a senior position and upside participation without requiring operational control [D04, D09].",
+   "horizon": "until conversion",
+   "value_realisation_path": [
+    "Collection of the 8% annual dividend [D04, D09]",
+    "Redemption of preferred shares at 105% of face value by the issuer after 10 years [D04]",
+    "Exercise of warrants if the common stock price exceeds the $62.50 strike price [D04, D09]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000-2015 and 2016-onward eras, we frequently utilize Berkshire's large cash pile to act as a financier during market dislocations, securing high-yield preferred instruments with warrant kickers when companies require capital for large-scale acquisitions [D03, D04, D08, D09]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent collapse in commodity prices rendering the acquisition debt unserviceable [D05, D09]",
+    "Failure to complete the proposed acquisition, triggering a breakdown in the investment thesis [D03, D09]",
+    "Issuer inability to maintain senior liquidity sufficient to service the 8% preferred dividend [D04, D09]"
+   ],
+   "berkshire_constraints": "The transaction requires $10bn of capital, well within our ~$112bn cash position [D08]. We must ensure we remain within regulatory thresholds for passive ownership while securing our senior position in the capital stack [D09].",
+   "size_pct_nav": {
+    "initial": 10,
+    "target": 10,
+    "max": 10,
+    "basis": "dollars and percent of cash"
+   },
+   "opportunity_cost": "The 8% coupon significantly exceeds the ~2.5% yield on T-bills, offering a superior risk-adjusted return for our excess cash [D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a large-scale, negotiated preferred financing deal that fits our pattern of providing capital during market dislocations [D04, D09].",
+   "biggest_risk_in_one_sentence": "The primary risk is that commodity price volatility or poor acquisition integration leads to a failure in the issuer's ability to pay the preferred dividend."
+  }
+ },
+ "final": {
+  "as_of_date": "2019-04-30",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 10,
+  "size_basis": "cash",
+  "opportunity_template": [
+   "B3"
+  ],
+  "catalyst_role": "R2",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Not applicable for preferred structure",
+   "initial_pretax_yield_pct": 8,
+   "intrinsic_value_range": "100% of face value plus warrant participation",
+   "expected_return_pct": 8,
+   "downside_case": "Dividend deferral or impairment of principal due to insolvency"
+  },
+  "drivers": [
+   {
+    "driver": "The deal offers an 8% cumulative perpetual preferred dividend, providing an initial yield far superior to the ~2.5% available on T-bills [D04, D08, D09].",
+    "citations": [
+     "D04",
+     "D08",
+     "D09"
+    ]
+   },
+   {
+    "driver": "We secure a senior position in the capital stack that provides a margin of safety against commodity cycle volatility [D05, D09].",
+    "citations": [
+     "D05",
+     "D09"
+    ]
+   },
+   {
+    "driver": "The inclusion of warrants for 80 million shares at a $62.50 strike price offers Berkshire meaningful upside participation in the common equity [D04, D09].",
+    "citations": [
+     "D04",
+     "D09"
+    ]
+   },
+   {
+    "driver": "Our $10bn commitment acts as necessary financing to facilitate the company's acquisition, a role we are uniquely positioned to fill given our cash position [D03, D08, D09].",
+    "citations": [
+     "D03",
+     "D08",
+     "D09"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent collapse in commodity prices rendering the acquisition debt unserviceable [D05, D09]",
+   "Failure to complete the proposed acquisition [D03, D09]",
+   "Issuer inability to maintain senior liquidity sufficient to service the 8% dividend [D04, D09]"
+  ],
+  "what_would_change_our_mind": "Evidence that the acquisition has fundamentally impaired the company's ability to maintain its senior obligations or a structural decline in the underlying economics such that the dividend is no longer secure.",
+  "memo": "We have agreed to provide $10 billion in financing to the Company to facilitate its proposed acquisition [D03, D09]. While we generally shy away from commodity producers due to their inherent volatility and capital intensity, this is not a bet on the price of oil, but a negotiated investment in the capital stack [D01, D04].\n\nBy purchasing these cumulative perpetual preferred shares, we secure an 8% annual dividend, a return that is highly attractive relative to the alternatives available to us in the current interest rate environment [D04, D08]. We are effectively acting as a lender to a business that requires immediate capital, and our senior position provides the margin of safety we demand [D04, D09].\n\nIn addition to the 8% yield, we have negotiated the right to acquire 80 million shares of common stock at $62.50 per share [D04, D09]. Should the acquisition succeed and the business prosper, this participation gives us an equity kicker that could provide significant additional value beyond the fixed return [D04, D09].\n\nThe market’s focus on the debt burden and the cyclical nature of the industry has created an opening for us to deploy our idle cash [D05, D08]. We have $112 billion in cash available, and this transaction allows us to put a portion of it to work at a superior risk-adjusted return without needing to take operational control [D04, D08].\n\nOur primary risks are the company's ability to successfully integrate the new assets and the potential for a severe, sustained decline in commodity prices to jeopardize the dividend [D05, D09]. As long as the company maintains its senior liquidity, we are comfortable with this position as a sensible alternative to earning minimal returns on Treasury bills [D08, D09].",
+  "uncited_claims": []
+ }
+}

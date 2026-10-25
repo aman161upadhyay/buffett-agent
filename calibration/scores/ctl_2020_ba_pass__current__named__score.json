@@ -1,0 +1,49 @@
+{
+ "trade_id": "ctl_2020_ba_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett said Berkshire had not acted because nothing was sufficiently attractive; calls before Federal Reserve action did not offer appealing terms, and firms subsequently borrowed more cheaply in public markets.",
+   "No Boeing in Berkshire parent 13F census, including Q4 2019, Q1 and Q2 2020. May 2 meeting documents no attractive large crisis financing. Direct Boeing-to-Buffett approach not independently authenticated; do not claim he rejected a specified Boeing term sheet.",
+   "Economic and valuation objections in D05 are analyst-reconstructable discipline tests, not additional authenticated issuer-specific Buffett statements; do not award reasoning-overlap credit for treating them as quotations."
+  ],
+  "extra_agent_drivers": [
+   "Lack of normalized owner earnings to justify debt load",
+   "Poor capital allocation regarding dividends vs cash flow",
+   "Collapse in commercial production and pandemic impact",
+   "Failure to meet standards for consistent returns"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company has moved from a generator of $13.6 billion in free cash flow in 2018 to negative $4.28 billion in 2019",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We prefer to keep our $128 billion in cash, which offers us safety and optionality",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 11,
+  "share": 0.92
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We prefer to keep our $128 billion in cash, which offers us safety and optionality during this period of uncertainty [D01][D08].",
+ "grader_notes": "The agent correctly matched the 'PASS' decision but failed to adopt the specific reasoning provided in the answer key, instead generating its own fundamental analysis of Boeing's financials. While the agent correctly identifies Buffett's preference for cash and optionality, it relies on its own analytical framework rather than the documented historical context of Berkshire's actual refusal to engage.",
+ "run": "ctl_2020_ba_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

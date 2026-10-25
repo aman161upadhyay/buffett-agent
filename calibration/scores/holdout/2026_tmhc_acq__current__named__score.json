@@ -1,0 +1,53 @@
+{
+ "trade_id": "2026_tmhc_acq",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Abel emphasized a best-in-class national homebuilder with an exceptional team.",
+   "He linked the purchase to Berkshire's long-standing housing commitment, including Clayton and building-products businesses.",
+   "He described a long-term plan to combine site-built operations into a larger homeownership platform."
+  ],
+  "extra_agent_drivers": [
+   "The homebuilding industry lacks a durable competitive advantage.",
+   "The business is highly capital-intensive and cyclical.",
+   "Operating results demonstrate significant volume and revenue declines."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The homebuilding industry lacks a durable competitive advantage, as products are commodity-like and pricing power is dictated by market conditions and interest rates",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business is highly capital-intensive, requiring massive ongoing investment in land and inventory",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating results demonstrate significant cyclicality, with recent data showing a 26% decline in volume and a 28% decline in revenue year-on-year",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 5,
+  "share": 0.56
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "Berkshire's capital is better utilized in our own operations, such as Clayton Homes, where we have a deeper understanding and a more permanent economic advantage.",
+ "grader_notes": "The agent analyzed the company using generic investment criteria and concluded to PASS based on perceived lack of moat and capital intensity. This fundamentally contradicted the actual decision and rationale, which viewed the target as a best-in-class acquisition consistent with a long-term strategy for the housing sector.",
+ "run": "2026_tmhc_acq__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

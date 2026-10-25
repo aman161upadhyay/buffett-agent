@@ -1,0 +1,251 @@
+{
+ "pack": "2011_bac_pref",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2011-08-24",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Bank of America combines a large US consumer deposit and lending franchise with wealth management and capital-markets operations [D01]. The institution includes operations from the acquisitions of Countrywide, which created extensive mortgage exposures, and Merrill Lynch, which added securities and advisory operations [D01].",
+   "products_customers_and_why_they_buy": [
+    "Nationwide customer base utilizing deposit and lending services [D01], [D09]"
+   ],
+   "economics": [
+    "Return on tangible equity (ROTE) is not provided as the bank reported losses in 2009, 2010, and Q2 2011 [D02], [D03].",
+    "Pricing history is not in pack.",
+    "Reported revenue is heavily influenced by mortgage-related items [D03], [D06]."
+   ],
+   "earnings_record": [
+    "Net income: $21,133m (2006), $14,982m (2007), $4,008m (2008), $6,276m (2009), -$2,238m (2010) [D02].",
+    "Q2 2011 net income was -$8.826bn [D03]."
+   ],
+   "competitive_position": [
+    "Holds the number one US deposit share (~$1.04 trillion of deposits) [D09].",
+    "Peers include Citigroup, Wells Fargo, and JPMorgan Chase [D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Tier 1 common ratio 8.60% (2010), 8.2% (approximate, mid-2011) [D02], [D09].",
+    "Global excess liquidity $402bn (as of 2011-06-30), which is not net cash [D03], [D04].",
+    "Average long-term debt $490,497m (2010) [D02]."
+   ],
+   "management_and_capital_allocation": [
+    "Brian Moynihan is CEO and is leading the effort to simplify and repair the institution [D03].",
+    "Management is pursuing asset sales and job cuts ('Project New BAC') [D09]."
+   ],
+   "price_and_valuation": [
+    "Price as of 2011-08-24: $6.99 [D04].",
+    "Market cap: approximately $70.81bn [D04].",
+    "P/TBV: 0.553x [D04].",
+    "Trailing P/E: negative (loss-making) [D04].",
+    "Earnings yield: negative [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Open-ended mortgage repurchase claims and litigation [D05], [D09].",
+    "Weak housing market prolonging credit costs [D05].",
+    "European financial stress restricting funding [D05].",
+    "Risk of dilutive common equity issuance [D09]."
+   ],
+   "deal_terms_if_any": [
+    "No offer has been made to or by Berkshire [D09].",
+    "Potential structures discussed include open-market common or a negotiated preferred placement with warrants [D09]."
+   ],
+   "recent_events": [
+    "July 19, 2011: Q2 2011 earnings announcement reporting an $8.8 billion net loss [D03].",
+    "August 2011: Management statements that the bank does not need to raise common equity [D09]."
+   ],
+   "berkshire_context": [
+    "Approximate year-end 2010 Berkshire cash baseline: $38.2 billion [D08].",
+    "Berkshire has significant existing equity holdings in Wells Fargo, American Express, and Coca-Cola [D08].",
+    "No proposed allocation or accepted financing terms disclosed [D08], [D09]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Final negotiated deal terms, full current equity-portfolio concentration table, and normalized maintenance capex/owner earnings calculation."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "UNSURE",
+     "evidence": "While banking is a known sector, the institution is currently burdened by significant, open-ended mortgage litigation and integration issues from Countrywide and Merrill Lynch, making its future state difficult to model with confidence [D01], [D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The bank holds the number one US deposit share, which provides a strong, low-cost funding base that typically acts as a significant competitive advantage [D09]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The company reported losses in 2010 and Q2 2011, reflecting a broken record of earnings through the cycle [D02], [D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "Return on tangible equity is not provided due to recent net losses, and the bank is currently grappling with credit-loss history and significant capital concerns [D02], [D03]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "As a regulated financial institution, capital intensity is an inherent feature, and the scale of the deposit franchise is adequate if the business returns to stability [D09]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "While Brian Moynihan is actively working to simplify the institution through 'Project New BAC,' it remains to be seen if these efforts will successfully repair the balance sheet and restore value [D03], [D09]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With a market cap of approximately $70.81bn, the institution is large enough to move the needle for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "The bank is currently loss-making and carries significant litigation risk, making a normalized earnings yield calculation impossible with the available data [D03], [D04], [D05]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 3,
+   "n_fail": 2,
+   "n_unsure": 3,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "A vast deposit franchise currently obscured by severe mortgage-related credit costs and litigation uncertainty."
+  },
+  "gate2": {
+   "templates": [
+    "B3"
+   ],
+   "why_available": "The market is fearful that open-ended mortgage litigation and capital requirements will force a dilutive common equity issuance, depressing the stock price to nearly half of book value [D04], [D09]. I disagree with the market's panic, as the underlying deposit franchise remains the largest in the U.S. and provides a durable, low-cost funding base [D09]. By providing a capital infusion through a preferred security, we can restore market confidence and earn a high-yielding return on capital that aligns with our long-term investment horizon [D09].",
+   "evidence": [
+    "Number one US deposit share of ~$1.04 trillion provides a resilient funding base [D09].",
+    "Market price of $6.99 is at 0.553x tangible book value, reflecting intense pessimism regarding litigation [D04], [D05].",
+    "Management explicitly stated they do not need to raise common equity, suggesting an opportunity for a preferred deal [D09]."
+   ],
+   "market_narrative_we_disagree_with": "The market fears that Bank of America's mortgage-related credit costs and litigation represent an existential threat that will permanently impair capital and necessitate dilutive equity offerings [D05], [D09].",
+   "what_must_be_true": [
+    "The core deposit franchise remains intact and continues to generate stable, low-cost liquidity.",
+    "Mortgage litigation liabilities are finite and can be absorbed by the firm's earnings power over time.",
+    "Management's 'Project New BAC' initiative successfully reduces complexity and improves operational efficiency.",
+    "The preferred stock provides sufficient protection and warrants to ensure a superior risk-adjusted return."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "negotiated_terms",
+   "owner_earnings_per_share": "not calculable; bank is currently loss-making [D03]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "N/A",
+    "high": "N/A",
+    "key_assumptions": [
+     "Core deposit franchise value exceeds litigation liabilities [D09]",
+     "Management successfully executes Project New BAC [D09]"
+    ],
+    "discount_rate_used": "long bond rate not specified in pack; assumption based on market risk-free rate"
+   },
+   "price_vs_value": "price is 0.553x tangible book value [D04]; margin of safety provided by preferred seniority and warrants",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / T-bills / existing holdings / Berkshire buyback — negotiated preferred provides superior yield/protection profile relative to passive cash alternatives in current market panic [D08], [D09]",
+   "downside_case": "litigation liabilities exceed current capital buffer; risk of permanent loss is mitigated by preferred status and seniority [D09]",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Negotiated terms assumed to include 6%+ yield and warrant coverage consistent with historic crisis-era deals",
+    "Normalization of earnings is possible despite current net losses"
+   ]
+  },
+  "gate4": {
+   "role": "R2",
+   "role_description": "Financier with terms; we provide capital through a preferred security, gaining a high-yielding coupon and warrants to ensure a margin of safety and upside while the bank repairs its balance sheet [D09].",
+   "horizon": "until conversion or redemption",
+   "value_realisation_path": [
+    "Earn a 6%+ dividend yield while holding preferred stock [D09]",
+    "Benefit from warrant participation as the bank regains financial stability and market confidence [D09]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "Consistent with our approach in the 2000-2015 era of utilizing Berkshire's strong balance sheet to provide crisis-era preferred capital with equity-like upside potential in high-quality, albeit temporarily distressed, financial institutions [D09]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Mortgage-related litigation and repurchase claims exceed the bank's capital buffer",
+    "Management fails to stabilize the balance sheet through 'Project New BAC' [D09]",
+    "Persistent macroeconomic conditions permanently erode the value of the core deposit franchise [D09]",
+    "Required regulatory capital levels increase beyond the bank's internal earnings generation capacity [D09]"
+   ],
+   "berkshire_constraints": "Maintain liquidity above $30B floor; respect regulatory ownership thresholds for banking institutions [D08], [D09].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 15,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Allocation to existing high-quality holdings or repurchasing Berkshire stock at intrinsic value discounts [D08].",
+   "leverage": "None at the holding level, utilizing Berkshire's existing float and cash position [D08].",
+   "decider": "Buffett",
+   "decider_reason": "This is a large-scale negotiated preferred capital injection into a major financial institution, fitting the 2000-2015 era crisis-style investment framework.",
+   "biggest_risk_in_one_sentence": "The open-ended nature of mortgage-related litigation could lead to capital impairment that outweighs the benefits of the deposit franchise."
+  }
+ },
+ "final": {
+  "as_of_date": "2011-08-24",
+  "company": "Bank of America Corporation",
+  "ticker": "BAC",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B3"
+  ],
+  "catalyst_role": "R2",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "not calculable; bank is currently loss-making",
+   "initial_pretax_yield_pct": 6,
+   "intrinsic_value_range": "N/A",
+   "expected_return_pct": 0,
+   "downside_case": "litigation liabilities exceed capital buffer; risk mitigated by preferred seniority"
+  },
+  "drivers": [
+   {
+    "driver": "The company sells for 0.553x tangible book value, providing a significant margin of safety compared to the inherent value of the underlying deposit franchise [D04], [D09].",
+    "citations": [
+     "D04",
+     "D09"
+    ]
+   },
+   {
+    "driver": "Bank of America holds the number one US deposit share, which acts as a durable, low-cost funding base that is highly resilient despite current market pessimism [D09].",
+    "citations": [
+     "D09"
+    ]
+   },
+   {
+    "driver": "By structuring our investment as a preferred security, we secure a predictable high-yielding coupon and warrant participation, ensuring an attractive risk-adjusted return while the bank stabilizes [D09].",
+    "citations": [
+     "D09"
+    ]
+   },
+   {
+    "driver": "The market’s panic regarding mortgage litigation is overblown, creating a temporary mispricing that allows Berkshire to provide capital on terms that benefit our shareholders [D04], [D09].",
+    "citations": [
+     "D04",
+     "D09"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Mortgage-related litigation and repurchase claims exceed the bank's capital buffer",
+   "Management fails to stabilize the balance sheet through 'Project New BAC'",
+   "Persistent macroeconomic conditions permanently erode the value of the core deposit franchise",
+   "Required regulatory capital levels increase beyond the bank's internal earnings generation capacity"
+  ],
+  "what_would_change_our_mind": "Evidence that the mortgage-related liabilities are not finite and will lead to permanent capital impairment that cannot be absorbed by the deposit franchise's earnings power, or a failure of management to execute the simplification plan.",
+  "memo": "Bank of America operates the largest consumer deposit franchise in the United States, providing a reliable and low-cost source of liquidity that we understand well [D09]. While the institution is currently navigating significant integration issues and mortgage-related legal costs, the core business remains a powerful engine for long-term value [D01], [D09].\n\nThe bank’s deposit base is a formidable moat, providing the funding resilience necessary to survive temporary cycles [D09]. Although recent years have shown losses due to non-recurring charges, the underlying scale of the operation is vast and provides a foundation that is difficult to replicate [D02], [D03], [D09].\n\nBrian Moynihan is actively working to simplify the company through 'Project New BAC,' focusing on shedding non-core assets and reducing structural complexity [D03], [D09]. We believe this focus on simplification is the correct capital allocation strategy to restore stability and shareholder value [D09].\n\nThe market is currently pricing the common equity at just over half of its tangible book value, driven by a deep fear of open-ended mortgage litigation [D04], [D09]. We believe the market is misjudging the duration and impact of these claims, viewing the current panic as an opportunity for Berkshire to provide capital on favorable, negotiated terms [D04], [D09].\n\nOur investment will take the form of a preferred security, providing us with a steady dividend yield and warrants that offer equity-like upside [D09]. This structure provides a margin of safety that common shareholders currently lack, as our seniority protects us against the risk of permanent capital loss [D09].\n\nWe are allocating 10% of our equity portfolio to this position, as it represents the type of crisis-era opportunity where Berkshire’s balance sheet can be used to generate superior returns [D08], [D09]. If the litigation risks prove contained and management successfully executes, this will be a highly productive home for our float [D09].",
+  "uncited_claims": []
+ }
+}

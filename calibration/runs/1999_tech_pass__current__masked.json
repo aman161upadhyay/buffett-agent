@@ -1,0 +1,254 @@
+{
+ "pack": "1999_tech_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "1999-03-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company sells widely used personal-computer operating systems and application software [D01]. The software model benefits from an entrenched platform with low physical reproduction costs and very high current profitability [D01].",
+   "products_customers_and_why_they_buy": [
+    "Personal-computer operating systems and application software sold to users who benefit from installed base, compatible applications, developer support, and familiarity [D01]"
+   ],
+   "economics": [
+    "Software industry economics involve high development/selling expenses but minimal physical manufacturing costs for additional copies [D01, D02, D03].",
+    "Net margins in FY1994–98 were 24.7%/24.5%/25.3%/30.4%/31.0% [D02].",
+    "FY1998 return on average total equity was 32.8% [D02].",
+    "Capital-intensive maintenance capex is low compared to operating cash flow (OCF-capex of $6,224 million vs $6,880 million OCF in FY1998) [D02]."
+   ],
+   "earnings_record": [
+    "FY1994–98 revenue: $4,649/$5,937/$8,671/$11,358/$14,484 million [D02].",
+    "FY1994–98 net income: $1,146/$1,453/$2,195/$3,454/$4,490 million [D02]."
+   ],
+   "competitive_position": [
+    "The company benefits from an entrenched platform supported by user familiarity and developer support [D01, D03].",
+    "Competitive position faces uncertainty from potential changes in computing architecture, Internet distribution, and antitrust legal proceedings [D01, D03, D05]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "FY1998 cash and short-term investments total $13.927 billion [D02].",
+    "The balance sheet lists no interest-bearing borrowings [D02].",
+    "Convertible preferred equity is $980 million [D02]."
+   ],
+   "management_and_capital_allocation": [
+    "Common cash dividends are zero [D02].",
+    "Management record shows consistent growth in revenue and income, though stock-based compensation and share dilution are noted factors [D02, D05].",
+    "Internal incentives and specific tenure record are not in pack."
+   ],
+   "price_and_valuation": [
+    "Common close $151.75 as of March 1, 1999 [D04].",
+    "Price/FY1998 diluted EPS (1.67) is 90.87x [D04].",
+    "Price/FY1998 common book is 23.96x [D04].",
+    "Earnings yield is 1.10% [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 1.1,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 1.66,
+    "dividend_yield": 0,
+    "long_bond_yield": 5.4,
+    "basis": "Trailing earnings yield based on FY1998 EPS of $1.67 and $151.75 price [D04]. Free cash flow yield based on FY1998 OCF-capex ($6.224bn) / equity-value sensitivity ($374.82bn) [D04]. Long bond yield is 10-year Treasury as of March 1, 1999 [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Potential changes in computing architecture and Internet distribution [D01, D03, D05].",
+    "Federal antitrust trial and potential legal restrictions [D02, D03, D05].",
+    "Sustainability of high margins and potential impact of stock compensation/dilution [D02, D05]."
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "January 19, 1999: FY1999 Q2 earnings announcement showing revenue/net income growth [D03].",
+    "October 1998: Federal antitrust trial began [D07]."
+   ],
+   "berkshire_context": [
+    "Berkshire holds over $15 billion in cash equivalents and maintains major equity positions in Coca-Cola, American Express, Gillette, and Wells Fargo as of year-end 1998 [D08]."
+   ],
+   "document_conflicts": [
+    "D04 provides $151.75 as the March 1, 1999 close, while noting an alternative February month-end source mentions $150.12 [D04]."
+   ],
+   "missing_data": [
+    "Synchronized current diluted share count, stock-compensation-adjusted owner earnings calculation, and current-year full-year guidance."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "UNSURE",
+     "evidence": "While the platform model is powerful, the business faces significant uncertainty from shifting computing architectures, Internet distribution, and antitrust proceedings [D01, D03, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "PASS",
+     "evidence": "The company benefits from an entrenched platform supported by user familiarity, developer support, and high switching costs [D01, D03]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Net income has grown consistently from $1,146 million in FY1994 to $4,490 million in FY1998 [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "PASS",
+     "evidence": "The company reported a 32.8% return on average total equity in FY1998 with no interest-bearing borrowings [D02]."
+    },
+    "capital_intensity": {
+     "score": "PASS",
+     "evidence": "The software model requires minimal capital expenditure relative to operating cash flow, allowing for high margins [D01, D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management has grown the business, but stock-based compensation and dilution are noted concerns, and specific tenure/incentives are not in pack [D02, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "With an equity value of approximately $374.82 billion, the company is of sufficient scale for Berkshire [D04]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "The trailing earnings yield of 1.1% is significantly below the 1.5x long bond yield requirement (approx. 8.1% required given a 5.4% long bond yield) [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "D04: Used the $151.75 March 1, 1999 closing price for valuation as it reflects the date of the query."
+   ],
+   "n_pass": 5,
+   "n_fail": 1,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a powerful, high-margin software platform with excellent returns on capital, currently priced at a significant premium to its earnings yield."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is pricing this business at a massive premium based on extreme growth expectations, far beyond what can be justified by a conservative assessment of owner earnings [D04]. Even assuming the franchise remains durable despite legal and technological headwinds, the current earnings yield of 1.1% provides no margin of safety and fails to meet our requirements for an adequate return on capital [D04].",
+   "evidence": [
+    "Earnings yield is only 1.1% against a 5.4% long bond yield [D04].",
+    "Price/FY1998 diluted EPS is 90.87x [D04].",
+    "Antitrust proceedings and technological shifts create significant business uncertainty [D01, D03, D05]."
+   ],
+   "market_narrative_we_disagree_with": "The market likely assumes that the company's past growth rates will persist indefinitely without interruption or margin compression from regulatory or competitive factors [D02, D03].",
+   "what_must_be_true": [
+    "The company must maintain its platform dominance indefinitely despite antitrust intervention.",
+    "The business must sustain high margins without significant erosion from new computing architectures or Internet distribution.",
+    "The company must justify a valuation that currently implies extremely high long-term growth expectations."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "Approximately $1.66 per share [D02, D04]",
+   "initial_pretax_yield_pct": 1.1,
+   "intrinsic_value_range": {
+    "low": "Not calculable with required margin of safety",
+    "high": "Not calculable",
+    "key_assumptions": [
+     "Owner earnings estimated by subtracting maintenance capex from OCF [D02]",
+     "FCF yield is 1.66% based on OCF-capex [D04]"
+    ],
+    "discount_rate_used": "5.4% [D04]"
+   },
+   "price_vs_value": "Price is 90.87x earnings [D04]; no margin of safety exists at this price.",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Existing holdings or T-bills provide superior risk-adjusted returns compared to a 1.1% earnings yield [D04, D08].",
+   "downside_case": "Permanent loss of capital is possible if antitrust outcomes or technological shifts impair the platform's economics [D01, D03].",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Owner earnings calculated as OCF minus capex, as stock-compensation adjustment data is missing [D02, D05]."
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "Berkshire serves as a permanent_passive_holder, relying on the underlying business's ability to compound value through rational capital allocation and the strength of its franchise [D01].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Value is realised through the long-term compounding of earnings and the business's durable competitive advantage [D01, D02]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 1980-1999 era, our approach to marketable securities is to act as a permanent owner of wonderful businesses, allowing their internal compounding to drive returns without requiring active management or catalysts [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Antitrust rulings force structural changes or business separation [D01, D03, D05]",
+    "Shift in computing architecture or Internet distribution renders the desktop platform obsolete [D01, D03]",
+    "Persistent margin compression due to competitive or regulatory factors [D02, D03]"
+   ],
+   "berkshire_constraints": "Must maintain a conservative cash buffer; regulatory thresholds for ownership in banks do not apply, but the investment must avoid risk of permanent capital loss and maintain Berkshire's reputation [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Capital is better deployed into existing wonderful businesses like Coca-Cola or American Express, or held in T-bills given the current 1.1% earnings yield vs. 5.4% long bond [D04, D08].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The valuation premium and reliance on high-growth expectations fall outside the margin-of-safety requirement Buffett demands for his circle of competence.",
+   "biggest_risk_in_one_sentence": "The price ignores regulatory and competitive threats to the platform's long-term economics, offering no margin of safety against a potential permanent decline in value."
+  }
+ },
+ "final": {
+  "as_of_date": "1999-03-01",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "Approximately $1.66 per share",
+   "initial_pretax_yield_pct": 1.1,
+   "intrinsic_value_range": "Not calculable with required margin of safety",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital if antitrust outcomes or technological shifts impair the platform's economics"
+  },
+  "drivers": [
+   {
+    "driver": "The earnings yield of 1.1% is inadequate compared to the 5.4% long bond yield, offering no margin of safety [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The current price of 90.87x trailing earnings implies extreme growth expectations that ignore regulatory and competitive risks [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Antitrust proceedings and shifts in computing architecture create significant uncertainty that clouds the long-term economics of the franchise [D01, D03, D05].",
+    "citations": [
+     "D01",
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Capital is better deployed into existing wonderful businesses or held in T-bills given the current valuation premium [D04, D08].",
+    "citations": [
+     "D04",
+     "D08"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Antitrust rulings force structural changes or business separation [D01, D03, D05]",
+   "Shift in computing architecture or Internet distribution renders the desktop platform obsolete [D01, D03]",
+   "Persistent margin compression due to competitive or regulatory factors [D02, D03]"
+  ],
+  "what_would_change_our_mind": "A significant and sustained correction in share price that would provide an initial earnings yield competitive with long-term bonds, combined with clarity on the company's ability to maintain its platform dominance despite regulatory and technological challenges.",
+  "memo": "The Company occupies an entrenched position in personal-computer operating systems and application software, benefiting from high switching costs and a powerful platform [D01, D03]. While the economics of the software model are excellent—evidenced by consistent revenue growth and return on average total equity of 32.8% in FY1998—the current price simply does not make sense for an investor [D01, D02].\n\nAt a price of $151.75, the company sells at over 90 times earnings, providing a trailing earnings yield of a mere 1.1% [D04]. When you can earn 5.4% in a risk-free long-term government bond, paying such a premium for a business facing significant antitrust and technological headwinds is an exercise in speculation, not investing [D04]. A stock, no matter how wonderful the business, is not a good buy at any price.\n\nWe require a margin of safety that protects us from the permanent loss of capital [D08]. In this case, the market has priced in perfection, ignoring the very real threats posed by the ongoing federal antitrust trial and the potential for a fundamental shift in how software is distributed via the Internet [D01, D03, D05]. We have no interest in betting on the indefinite continuation of current growth rates under such uncertainty.\n\nCharlie and I prefer to put our capital into businesses where we can confidently project the economics over the next two decades [D08]. With this company, the path is obscured by legal and structural risks that we cannot quantify [D01, D03, D05]. We will continue to hold our cash and look for opportunities that offer a genuine bargain rather than chasing a momentum-driven premium.",
+  "uncited_claims": []
+ }
+}

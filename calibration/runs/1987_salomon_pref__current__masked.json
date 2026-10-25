@@ -1,0 +1,250 @@
+{
+ "pack": "1987_salomon_pref",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "1987-09-27",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a major securities dealer and capital-markets intermediary that provides advice, underwriting, and distribution services [L8]. It operates in a financing-dependent industry where its franchise is defined by client distribution, trading capability, reputation, and access to funding rather than a simple consumer monopoly [L8].",
+   "products_customers_and_why_they_buy": [
+    "Securities dealing, underwriting, and advisory services for various clients [L12, L14]. Customers choose the firm for its reputation for reliability, though this can shift if competitors offer better service or lower prices [L12, L14]."
+   ],
+   "economics": [
+    "Industry characterized by the need to finance inventory and counterparty exposures [L12, L14]. Earnings are potentially large but subject to liquidity risks [L12]. ROE ranged from 9.1% (1984) to 23.5% (1983) [L30-L34]. Capital intensity is high, with equity representing only 4.42% of assets as of December 1986 [L158].",
+    "Margins: Net income/revenue margin was 7.60% in 1986 [L36]. Pricing history: not in pack."
+   ],
+   "earnings_record": [
+    "1982: $337m net income; 1983: $470m; 1984: $212m (includes special charges); 1985: $557m; 1986: $516m [L30-L34]. Cyclicality: Significant (e.g., net income fell 65.8% in Q2 1987 compared to Q2 1986) [L66]."
+   ],
+   "competitive_position": [
+    "Leading securities dealer [L8]. Moat: Reputation for reliability and client relationships, though these are potentially fragile [L12, L14]. No specific market share data in pack [L108]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Highly leveraged: Assets/equity was 22.63x in 1986 [L36]. Debt: $1.245bn long-term debt in 1986, which understates total dealer financing obligations [L36]. Liquidity is critical due to reliance on funding [L12]."
+   ],
+   "management_and_capital_allocation": [
+    "Management record: Not in pack. Capital allocation: Arranging financing associated with repurchase of a large interest and potential control contest [L8, L74]."
+   ],
+   "price_and_valuation": [
+    "Common stock: $32 (Sept 25, 1987) [L94]. Preferred: $700m at 9% dividend, conversion strike $38 [L99-L100]. P/E 9.64x (1986), P/B 1.41x (1986) [L96]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 10.38,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 2,
+    "long_bond_yield": 9.53,
+    "basis": "Earnings yield based on 1986 EPS and Sept 25, 1987 price [L95, L98]. Dividend yield based on DPS of $.64 and Sept 25 price [L97]. Long bond yield from DGS10 as of Sept 25, 1987 [L102]."
+   },
+   "what_the_market_is_worried_about": [
+    "Susceptibility to abrupt liquidity/funding disappearances [L130]. Impact of rising interest rates on fixed-income trading [L66]. Potential loss of client business [L134]. Risks associated with control contest [L130]."
+   ],
+   "deal_terms_if_any": [
+    "$700 million 9% convertible preferred [L99]. Dividends: $63m annually [L99]. Conversion: $38 per share after three years [L99, L100]. Redemption: Ratable over five years if unconverted [L42]."
+   ],
+   "recent_events": [
+    "Q2 1987 net income fell 65.8% to $40m [L66]. Proposed $700m preferred financing announced in context of repurchase and control pressure [L8, L74]."
+   ],
+   "berkshire_context": [
+    "Berkshire held $1.874bn in common stocks at 1986 year-end [L200]. $700m commitment is material to reported equity [L200]."
+   ],
+   "document_conflicts": [
+    "1986 EPS: $3.32 (diluted) [L34] vs $3.45 (primary) [L36]."
+   ],
+   "missing_data": [
+    "Complete prospectus, covenant package, current balance-sheet stress test, exact market capitalization, and independently valued conversion option."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The firm operates in a financing-dependent industry where its franchise is based on reputation and client relationships that are potentially fragile [L8, L12, L14]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "Client loyalty is subject to shifts if competitors offer better service or lower prices, and there is no simple consumer monopoly [L12, L14]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "Earnings are highly cyclical, evidenced by a 65.8% drop in net income in Q2 1987 compared to the prior year [L66]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "The business is highly leveraged with an assets-to-equity ratio of 22.63x, making it sensitive to liquidity risks [L12, L36]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is capital-intensive with equity representing only 4.42% of assets, and it does not meet the criteria for a regulated utility or low-cost producer [L158]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management's record is not in pack, though they are currently managing a control contest and capital restructuring [L8, L74]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The $700m commitment is material to Berkshire's $1.874bn common stock portfolio [L200]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The preferred instrument provides a 9% yield in an environment where the long bond is 9.53%, making the terms, not the business, the driver of the investment [L99, L102]."
+    }
+   },
+   "conflicts_resolved": [
+    "1986 EPS: Relied on $3.32 (diluted) [L34] as it is the more conservative measure of earnings."
+   ],
+   "n_pass": 2,
+   "n_fail": 5,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": true,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a highly-leveraged securities dealer whose fragile reputation and cyclicality necessitate reliance on the specific terms of the convertible preferred rather than the underlying business quality."
+  },
+  "gate2": {
+   "templates": [
+    "B3"
+   ],
+   "why_available": "The market is reacting to liquidity risks and volatility in the securities industry, which has depressed the company's valuation and created an urgent need for capital during a control contest [L8, L66, L130]. We can secure a position that offers a 9% yield, which is competitive with the long bond, while obtaining an equity kicker through conversion rights [L99, L102].",
+   "evidence": [
+    "The firm faces liquidity risk and cyclical earnings pressure, evidenced by a 65.8% drop in Q2 1987 income [L66, L130].",
+    "The $700m preferred stock financing is required for a repurchase and to stabilize the capital structure during a control contest [L8, L74].",
+    "The instrument provides a 9% yield in a 9.53% long bond environment [L99, L102].",
+    "Conversion into common stock is available at $38 per share after three years [L99, L100]."
+   ],
+   "market_narrative_we_disagree_with": "The market is overly focused on the volatility of the securities business and the uncertainty of the current control contest, ignoring the value of the protection provided by the seniority and terms of the negotiated preferred stock [L8, L66, L130].",
+   "what_must_be_true": [
+    "The company must remain solvent throughout the liquidity cycle.",
+    "The firm must maintain sufficient capital to satisfy its obligations and sustain its role as a primary dealer.",
+    "The negotiated terms must provide adequate seniority and protection of the principal.",
+    "Management must successfully navigate the control contest without destroying the core franchise value."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "negotiated_terms",
+   "owner_earnings_per_share": "not in pack",
+   "initial_pretax_yield_pct": 9,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "Assumes solvency during liquidity cycle [L130]",
+     "Assumes seniority protection of preferred [L8]"
+    ],
+    "discount_rate_used": "9.53% long bond rate [L102]"
+   },
+   "price_vs_value": "not in pack; negotiated preferred at par for 9% coupon and conversion option [L99]",
+   "expected_return_pct": {
+    "base": 9,
+    "bear": 0,
+    "bull": 15
+   },
+   "alternatives": "Long bonds at 9.53% [L102]; the 9% preferred provides competitive yield with equity upside potential through conversion at $38 [L99, L102].",
+   "downside_case": "Impairment of principal if the firm faces insolvency; seniority provides some protection [L8].",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Owner earnings not calculable due to capital-intensive/financing nature of business [L12]",
+    "Conversion option value not independently appraised [L102]"
+   ]
+  },
+  "gate4": {
+   "role": "R2",
+   "role_description": "Financier providing capital on negotiated terms, specifically a $700 million convertible preferred stock issue [L8, L99]. We secure seniority and a 9% yield to protect against downside risk while holding a warrant-like conversion option to participate in long-term equity appreciation [L8, L99, L102].",
+   "horizon": "until conversion",
+   "value_realisation_path": [
+    "Collect 9% annual dividend yield while the company stabilizes its capital structure and navigates the control contest [L8, L99].",
+    "Convert to common stock at $38 per share if the business prospers, or hold until redemption if the yield is no longer superior to market alternatives [L99, L100]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 1980-1999 era, Berkshire actively utilizes negotiated convertible preferreds to deploy capital into companies facing temporary distress or capital-restructuring needs, securing favorable terms that provide both safety and upside participation without requiring management control [L8, L99]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Company loses its status as a primary dealer in the securities market",
+    "Funding sources or credit facilities dry up, threatening solvency",
+    "Management fails to resolve the control contest, leading to irreparable damage to the franchise",
+    "Regulatory capital requirements are tightened, forcing a fire sale of assets"
+   ],
+   "berkshire_constraints": "Must maintain sufficient cash to ensure we never have to sell our best businesses in a liquidity squeeze [D01]; position size must respect the requirement to remain a passive investor unless seeking control [D01].",
+   "size_pct_nav": {
+    "initial": 37,
+    "target": 37,
+    "max": 37,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Long-term U.S. Treasury bonds yielding 9.53% [L102].",
+   "leverage": "None at the holding company level; this is an investment of capital.",
+   "decider": "Buffett",
+   "decider_reason": "This is a negotiated preferred stock deal providing a 9% yield and equity upside, which is a classic deployment of capital for the 1980-1999 era.",
+   "biggest_risk_in_one_sentence": "The primary risk is the company's high leverage and reliance on fickle funding markets, which could lead to permanent loss of capital if solvency is compromised during a liquidity crisis [L12, L130]."
+  }
+ },
+ "final": {
+  "as_of_date": "1987-09-27",
+  "company": "Salomon Inc.",
+  "ticker": "SB",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 37,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B3"
+  ],
+  "catalyst_role": "R2",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 9,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 9,
+   "downside_case": "Impairment of principal if the firm faces insolvency; seniority provides some protection [L8]."
+  },
+  "drivers": [
+   {
+    "driver": "The preferred instrument provides a 9% yield against long bonds at 9.53% [L99, L102].",
+    "citations": [
+     "L99",
+     "L102"
+    ]
+   },
+   {
+    "driver": "The convertible preferred offers an equity kicker at $38 per share, providing potential upside if the business prospers, while seniority protects the principal [L8, L99, L100].",
+    "citations": [
+     "L8",
+     "L99",
+     "L100"
+    ]
+   },
+   {
+    "driver": "The firm is a major, leading securities dealer that requires this $700m capital to stabilize its structure during a control contest [L8, L74].",
+    "citations": [
+     "L8",
+     "L74"
+    ]
+   },
+   {
+    "driver": "The investment is structured to allow us to participate in long-term equity appreciation without needing to exercise management control [L99, L100].",
+    "citations": [
+     "L99",
+     "L100"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Company loses its status as a primary dealer in the securities market",
+   "Funding sources or credit facilities dry up, threatening solvency",
+   "Management fails to resolve the control contest, leading to irreparable damage to the franchise",
+   "Regulatory capital requirements are tightened, forcing a fire sale of assets"
+  ],
+  "what_would_change_our_mind": "Evidence that the firm's liquidity and funding stability have been permanently compromised, or if the control contest results in the destruction of the firm's core franchise and ability to operate as a primary dealer.",
+  "memo": "Charlie and I have agreed to invest $700 million in a convertible preferred stock issue of Salomon Inc [L8, L99]. This firm acts as a major securities dealer and intermediary, providing services that are critical to the capital markets [L8, L12]. While the business operates in a highly cyclical, financing-dependent industry where reputation is paramount, our investment focuses on the specific contractual protections afforded to us as a preferred shareholder [L8, L12, L130].\n\nThe economics of the firm have historically been strong, with ROE reaching as high as 23.5% in 1983, though they are inherently volatile due to the nature of trading and underwriting [L30, L34]. The company currently faces significant pressure due to a control contest and liquidity concerns, which have depressed its market valuation [L8, L66, L130]. We believe the firm's central role as a primary dealer provides a durable basis for its ongoing operations, provided management successfully navigates the current restructuring [L8, L74].\n\nWe are receiving a 9% dividend yield on this preferred stock, which is competitive in a market where long-term Treasury bonds yield 9.53% [L99, L102]. In addition to this yield, we hold an equity kicker in the form of a conversion right at $38 per share, which allows us to participate in the firm's future prosperity over the next several years [L99, L100]. This is a classic deployment of capital where the terms, rather than the underlying business quality, dictate the attractiveness of the opportunity.\n\nThe risks here center on the firm's high leverage and reliance on fickle funding markets, which could threaten solvency if not managed correctly [L12, L130]. However, our position as a preferred shareholder provides a layer of seniority that mitigates our downside [L8]. We view this as a prudent use of Berkshire's resources, securing a decent return with meaningful upside potential while the company stabilizes its capital position [L99, L102].",
+  "uncited_claims": []
+ }
+}

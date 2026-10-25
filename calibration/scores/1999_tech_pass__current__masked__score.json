@@ -1,0 +1,54 @@
+{
+ "trade_id": "1999_tech_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett did not understand Microsoft's business well enough to underwrite it despite admiring its success.",
+   "The relevant skill is identifying predictable economics, not benefiting from every successful technology company.",
+   "Avoiding technology forecasts outside his circle was discipline, not a negative prediction about the company's products."
+  ],
+  "extra_agent_drivers": [
+   "Inadequate earnings yield compared to long bond yield",
+   "Extreme valuation/price multiples",
+   "Antitrust and competitive uncertainty",
+   "Opportunity cost of capital"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Return on average total equity of 32.8% in FY1998",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Price of $151.75",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "5.4% in a risk-free long-term government bond",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 5,
+  "share": 0.42
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have no interest in betting on the indefinite continuation of current growth rates under such uncertainty.",
+ "grader_notes": "The agent correctly reached the 'PASS' decision but failed to incorporate any of Buffett's stated drivers regarding the circle of competence. Instead, the agent utilized a conventional quantitative valuation approach—focusing on earnings yields and competitive risks—which contradicts Buffett's explicit framing of his decision as an inability to understand the business rather than a valuation-based rejection.",
+ "run": "1999_tech_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

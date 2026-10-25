@@ -1,0 +1,17 @@
+Title: An installed-base consumer franchise
+Source: https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm ; https://www.apple.com/newsroom/pdfs/fy2025-q2/FY25_Q2_Consolidated_Financial_Statements.pdf ; https://www.apple.com/newsroom/2025/05/apple-reports-second-quarter-results/ ; https://www.cnbc.com/2025/05/01/apple-has-managed-tariffs-so-far-says-tough-to-predict-beyond-june.html
+Date: 2025-06-30
+
+Apple sells devices and an associated software, distribution and services ecosystem. The March quarter's $46.841 billion iPhone sales remain the largest product category, while Services supplies a growing stream of recurring and transaction-based revenue. Mac, iPad and wearables diversify hardware demand but do not eliminate the importance of the phone. Management reports a record installed base across product categories and geographies, supported by customer loyalty and satisfaction. Those are company statements, not a separately recovered retention survey. [1-3]
+
+The original long-horizon attraction is customer attachment and cash generation, rather than a prediction about a single chip or product launch. The economic question is whether users remain willing to pay for the integrated experience while devices mature and regulation challenges platform fees. Outsourced manufacturing reduces factory ownership relative to a vertically integrated manufacturer, but supply-chain concentration still creates business risk. A valuable ecosystem can merit continued ownership without making every quoted price equally attractive for committing additional capital. [1-4]
+
+Evidence ledger: fiscal revenues in 2022, 2023 and 2024 were $394.328 billion, $383.285 billion and $391.035 billion. Fiscal 2024 diluted EPS was $6.08. In the March quarter, revenue was $95.359 billion, operating income $29.589 billion, net income $24.780 billion and diluted EPS $1.65. Products supplied $68.714 billion sales and Services $26.645 billion. First-half operating cash flow was $53.887 billion and capital spending $6.011 billion. March cash and marketable securities totaled $132.922 billion; commercial paper and term debt totaled $98.186 billion. The board authorized another $100 billion repurchase program and a $0.26 quarterly dividend. Cook estimated about $900 million additional tariff costs for the June quarter, conditional on unchanged policy. [1-4]
+
+Analytical distinction: a large customer base is not itself proof of a moat. The relevant test is whether customers keep paying enough to cover the full cost of serving them, including reinvestment and risk. Product descriptions and reported segment economics below are observations; a prediction that their advantages persist is an underwriting judgment. No terminal growth rate, private management forecast, or guaranteed future market share is supplied. Historical success must be tested against the specific competitive threats, not substituted for that test.
+
+Sources and publication dates:
+[1] https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm (published 2024-11-01)
+[2] https://www.apple.com/newsroom/pdfs/fy2025-q2/FY25_Q2_Consolidated_Financial_Statements.pdf (published 2025-05-01)
+[3] https://www.apple.com/newsroom/2025/05/apple-reports-second-quarter-results/ (published 2025-05-01)
+[4] https://www.cnbc.com/2025/05/01/apple-has-managed-tariffs-so-far-says-tough-to-predict-beyond-june.html (published 2025-05-01)

@@ -1,0 +1,246 @@
+{
+ "pack": "ctl_2000_cisco_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2000-03-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company supplies routers and switches that carry Internet traffic and corporate data [D01]. It operates as an equipment provider for expanding network capacity, positioning itself as an infrastructure franchise within the technology sector [D01].",
+   "products_customers_and_why_they_buy": [
+    "Routers and switches sold to enterprise, service-provider, and smaller-business customers [D01].",
+    "Customers benefit from installed networks, trained administrators, and compatibility advantages, which may encourage repeat purchases and product standardization [D01]."
+   ],
+   "economics": [
+    "Revenue grew 53% in the fiscal second quarter; GAAP net income was $825 million compared to $282 million in the prior year [D01, D02].",
+    "Pro-forma net income of $906 million excludes items such as purchased in-process R&D, acquisition costs, and goodwill amortization [D02, D03].",
+    "Capital intensity includes recurring R&D and acquisitions to fill product gaps, though specific maintenance capex figures are not in pack [D01, D02, D06]."
+   ],
+   "earnings_record": [
+    "Fiscal second-quarter GAAP EPS was $0.23 (versus $0.08 prior year) and six-month GAAP EPS was $0.34 [D01].",
+    "Pro-forma quarterly EPS was $0.25 (versus $0.17 prior year) and six-month pro-forma EPS was $0.48 [D01]."
+   ],
+   "competitive_position": [
+    "Competitors include Lucent, Nortel, and Juniper [D06].",
+    "The company possesses advantages in product breadth and customer familiarity, though it faces risks from technological substitution and rapid product cycles [D01, D05, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Seven completed acquisitions discussed; three accounted for as poolings [D01].",
+    "No specific debt, cash balance, or leverage figures provided in the pack [D02]."
+   ],
+   "management_and_capital_allocation": [
+    "Management reports increasing adoption of products by businesses and governments [D01].",
+    "Strategy focuses on acquisitions to fill product gaps [D01].",
+    "Announced a two-for-one stock split [D01]."
+   ],
+   "price_and_valuation": [
+    "No contemporaneous March 1 stock price or P/E ratio available in pack [D02, D04].",
+    "Mechanically, $0.23 quarterly GAAP EPS annualizes to $0.92; $0.25 pro-forma EPS annualizes to $1.00 [D02, D05]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Rapid equipment changes requiring constant engineering or acquisitions [D05].",
+    "Possibility of competitive displacement or a slowdown in capital spending [D05].",
+    "Complexities in per-share earnings due to pooling restatements, acquired R&D, and share issuance [D05]."
+   ],
+   "deal_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "January 29, 2000: Fiscal quarter ended [D07].",
+    "February 8, 2000: Results and two-for-one stock split announced [D07].",
+    "February 22, 2000: Split record date [D07]."
+   ],
+   "berkshire_context": [
+    "Existing portfolio includes consumer and financial franchises like Coca-Cola, American Express, and Gillette [D08].",
+    "Berkshire emphasizes identifying if a new security fits within incremental allocation needs for a permanent-capital enterprise [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Contemporaneous March 1 stock price, full balance sheet (cash/debt), maintenance capex figures, and normalized owner-earnings calculations."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business operates in an industry defined by rapid technological change and rapid product cycles, making it impossible to predict its state in 10-20 years [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "While there are some switching costs, the moat is undermined by the need for constant acquisitions and heavy R&D to avoid competitive displacement [D01, D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "UNSURE",
+     "evidence": "Earnings are growing rapidly but lack the long-term, through-cycle history required to establish consistency [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "The pack contains no debt or cash balance figures to evaluate the capital structure [D02, D06]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The company requires recurring R&D and frequent acquisitions to fill product gaps, which constitutes a capital-intensive model [D01, D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "The reliance on pooling accounting and frequent acquisitions to maintain growth makes it difficult to assess long-term owner mentality [D01, D05]."
+    },
+    "size_moves_the_needle": {
+     "score": "UNSURE",
+     "evidence": "Market capitalization is not provided, making it impossible to determine if the scale is appropriate for Berkshire [D02, D04]."
+    },
+    "price_screen": {
+     "score": "UNSURE",
+     "evidence": "No stock price is provided to calculate an earnings yield [D02, D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 0,
+   "n_fail": 3,
+   "n_unsure": 5,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a technology-heavy business subject to rapid obsolescence and constant reinvestment."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no reason to expect a bargain because this business operates outside our circle of competence in a sector defined by rapid technological obsolescence [D01, D05]. We cannot reliably value a company that relies on constant acquisitions and R&D spending to maintain its competitive position rather than a durable, cost-free moat [D01].",
+   "evidence": [
+    "Business is subject to rapid product cycles and displacement risks [D01, D05].",
+    "Growth strategy depends on frequent acquisitions and heavy R&D [D01, D02].",
+    "Accounting for growth is complicated by pooling and acquisition-related adjustments [D05]."
+   ],
+   "market_narrative_we_disagree_with": "The market may value this as a high-growth infrastructure play, but we view the reliance on constant reinvestment to avoid displacement as an indicator of an unstable competitive position [D01, D05].",
+   "what_must_be_true": [
+    "The industry must cease its rapid technological evolution to allow for a predictable moat.",
+    "The company must prove it can generate consistent owner earnings without constant, expensive acquisitions.",
+    "The capital structure must be transparent and demonstrate the lack of leverage."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "owner_earnings_dcf",
+   "owner_earnings_per_share": "Not in pack; maintenance capex not provided [D06]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "Not calculable",
+    "high": "Not calculable",
+    "key_assumptions": [
+     "Maintenance capex is assumed to be high due to constant R&D and acquisitions [D01, D06]",
+     "Long-term earnings growth is unpredictable due to technological obsolescence [D01, D05]"
+    ],
+    "discount_rate_used": "Not applicable"
+   },
+   "price_vs_value": "Not calculable; no contemporaneous price provided [D02]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "T-bills or existing consumer franchises with durable moats [D08]",
+   "downside_case": "Permanent loss of capital if technological displacement occurs or growth slows, rendering acquisition-dependent strategy obsolete [D01, D05]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "Maintenance capex is essential for owner earnings but missing from pack [D06]",
+    "Current market price is missing from pack [D02]"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital (default for marketable securities after 1980) [D08].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Not applicable as this is a PASS decision [D01, D05]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000 era, Berkshire operates as a permanent-capital vehicle, favoring simple, understandable businesses with durable moats; this role defaults to passive holding for marketable securities that meet our criteria [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Rapid technological change renders current product portfolio obsolete [D01, D05]",
+    "Competitive displacement occurs due to faster innovation by peers like Lucent, Nortel, or Juniper [D01, D06]",
+    "Growth strategy fails because acquisitions no longer yield technological advantages or integrate successfully [D01]",
+    "Capital spending by customers slows significantly, halting demand for new infrastructure equipment [D05]"
+   ],
+   "berkshire_constraints": "Berkshire must maintain a significant cash buffer and avoid investments that risk permanent capital loss or reputation; the lack of transparent balance sheet data prevents assessing leverage risk [D02, D08]",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "T-bills or existing consumer franchises with durable, predictable moats [D08]",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The business operates in an industry outside our circle of competence characterized by rapid obsolescence, making it a PASS regardless of size.",
+   "biggest_risk_in_one_sentence": "The company's reliance on constant R&D and acquisitions to survive in a rapidly evolving technological landscape creates a high probability of permanent capital loss."
+  }
+ },
+ "final": {
+  "as_of_date": "2000-03-01",
+  "company": "the Company (XXX)",
+  "ticker": "N/A",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Not in pack",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Not calculable",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital due to technological displacement or obsolescence [D01, D05]"
+  },
+  "drivers": [
+   {
+    "driver": "The business operates in an industry defined by rapid technological change and product cycles, making the future impossible to predict [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "We lack a durable, cost-free moat, as the company requires constant R&D and acquisitions to avoid competitive displacement [D01].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The company relies on complex accounting, such as pooling, which obscures true economic performance [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "We cannot assess the capital structure or potential leverage due to missing balance sheet data [D02].",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Rapid technological change renders current product portfolio obsolete [D01, D05]",
+   "Competitive displacement occurs due to faster innovation by peers like Lucent, Nortel, or Juniper [D01, D06]",
+   "Growth strategy fails because acquisitions no longer yield technological advantages or integrate successfully [D01]",
+   "Capital spending by customers slows significantly, halting demand for new infrastructure equipment [D05]"
+  ],
+  "what_would_change_our_mind": "Evidence that the industry has matured to a point of stability, demonstrating that the company can generate consistent, predictable owner earnings without relying on constant acquisitions or R&D cycles to survive.",
+  "memo": "We have reviewed the business, which acts as a supplier of routers and switches for network infrastructure [D01]. While the company has shown rapid revenue growth in the short term, our primary requirement is a business that we can understand and evaluate over the long term [D01, D08].\n\nUnlike the wonderful businesses we prefer—which possess durable moats and pricing power—this company operates in an environment of rapid technological change [D01, D05]. Success here requires constant, heavy R&D spending and a steady stream of acquisitions just to avoid being rendered obsolete by competitors such as Lucent, Nortel, or Juniper [D01, D05, D06].\n\nWe find it difficult to ascertain an owner-minded management style when growth is driven by frequent acquisitions and complex accounting practices, such as pooling [D01, D05]. Furthermore, the lack of transparent balance sheet data prevents us from assessing the true capital structure or the level of debt, both of which are critical to our evaluation of risk [D02].\n\nGiven the uncertainty surrounding the company's long-term economics and the high risk of permanent capital loss from technological displacement, we have no basis to value the enterprise [D01, D05]. We prefer to keep our capital in stable, predictable franchises and will continue to wait for an opportunity that fits our criteria [D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

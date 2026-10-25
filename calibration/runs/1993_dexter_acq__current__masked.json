@@ -1,0 +1,258 @@
+{
+ "pack": "1993_dexter_acq",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "1993-09-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company manufactures popular-priced men's and women's shoes and operates retail outlets [D01]. The business is an established manufacturer that combines production with distribution [D01].",
+   "products_customers_and_why_they_buy": [
+    "popular-priced men's and women's shoes, including work shoes and boots [D01, D06]",
+    "customers may prioritize brand, quality, and delivery speed, though these must be tested against import alternatives [D01]"
+   ],
+   "economics": [
+    "industry economics involve design, manufacturing or sourcing, and distribution, with inventory subject to potential value impairment [D01]",
+    "margins and capital requirements are dependent on the ability to compete with lower-cost imports [D01]",
+    "owning retail stores captures margin but adds fixed expenses, leases, and inventory risks [D01]",
+    "actual margins, return on capital, and owner-earnings inputs are not in pack [D02, D03]"
+   ],
+   "earnings_record": [
+    "not in pack; private company financial records were not recovered [D02, D03]"
+   ],
+   "competitive_position": [
+    "the Company is represented as profitable and well-run [D03]",
+    "competitive position is threatened by potential lower-cost imports [D01, D05]",
+    "durable competitive advantage is not confirmed, as domestic production efficiency remains an open economic question [D01]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "debt, cash, leverage, and maintenance capex are not in pack [D02, D03]"
+   ],
+   "management_and_capital_allocation": [
+    "incumbent management to be retained post-acquisition [D01, D07]",
+    "management record and capital allocation details not in pack [D03]"
+   ],
+   "price_and_valuation": [
+    "proposed consideration of approximately $420 million, consisting of 25,221 Berkshire shares [D02, D04]",
+    "P/E, P/B, and FCF yield are not measurable due to lack of seller accounts [D04]",
+    "sales multiple estimated at ~1.68x based on $250 million annual sales estimate (coarse scale check only) [D02, D04]"
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 0,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 5.4,
+    "basis": "10-year Treasury yield from FRED DGS10 as of 1993-09-30 [D04]; no earnings, cash flow, or dividend yields are in pack [D02, D03]"
+   },
+   "what_the_market_is_worried_about": [
+    "structural cost disadvantage of domestic production against lower-cost imports [D05]",
+    "potential for inventory obsolescence and recoverability [D05]",
+    "dilution of Berkshire shareholders if the acquisition price exceeds the value of the acquired business [D05]"
+   ],
+   "deal_terms_if_any": [
+    "approximately $420 million payable in 25,221 Berkshire shares [D02, D09]",
+    "requires federal antitrust clearance [D07]"
+   ],
+   "recent_events": [
+    "September 30, 1993: Agreement announced for Berkshire Hathaway to acquire the Company for $420 million in stock [D01, D07]"
+   ],
+   "berkshire_context": [
+    "Berkshire has existing footwear operating experience [D01, D08]",
+    "acquisition is funded via issuance of Berkshire shares [D08, D09]",
+    "exact cash position and tax basis not in pack [D08]"
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "audited income statements, balance sheets, and cash flow statements for the target [D02, D03]",
+    "maintenance capital expenditure, inventory aging schedules, and debt levels [D02, D03]"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "UNSURE",
+     "evidence": "While the shoe business is straightforward, the pack lacks data to determine if this specific manufacturer remains viable against low-cost imports [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "FAIL",
+     "evidence": "Competitive position is threatened by lower-cost imports and domestic production efficiency is an open question, leaving no evidence of a durable moat [D01, D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "Financial records are not in the pack to demonstrate a consistent earnings history [D02, D03]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "Data regarding debt levels, capital needs, and return on equity are missing from the pack [D02, D03]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The manufacturing and retail model is capital-intensive with inventory risks, and no evidence suggests it overcomes these factors [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management will be retained, but their track record and capital allocation history are not provided [D01, D03]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "At $420 million, the acquisition is of sufficient scale to impact Berkshire [D02, D04]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "Earnings, cash flow, and dividend yields are not in the pack to verify the 10% pre-tax yield requirement [D02, D03, D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 5,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a manufacturing business with unknown economics facing significant competitive pressure from imports"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "There is no reason to expect a bargain because the fundamental data required to assess the business's durability, earnings power, and competitive standing is missing from the pack [D02, D03]. Without financial records or evidence of a moat, the acquisition appears speculative rather than a purchase of a wonderful business at a fair price [D01, D05].",
+   "evidence": [
+    "Financial records were not recovered, preventing assessment of earnings or returns on capital [D02, D03].",
+    "Competitive position is threatened by imports, with no proof of a durable advantage [D01, D05].",
+    "Essential valuation metrics like earnings yield or FCF are not measurable [D04]."
+   ],
+   "market_narrative_we_disagree_with": "The narrative that this is a well-run manufacturer that merits a $420 million investment without audited financials or demonstrated pricing power [D01, D03].",
+   "what_must_be_true": [
+    "The business must demonstrate a sustainable competitive advantage despite import pressures.",
+    "Owner earnings must be sufficient to justify the $420 million valuation.",
+    "Management must demonstrate a history of disciplined capital allocation."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "whole_business",
+   "owner_earnings_per_share": "not in pack [D02, D03]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "no audited financials provided [D02, D03]",
+     "no maintenance capex or earnings data [D02, D03]"
+    ],
+    "discount_rate_used": "5.4% [D04]"
+   },
+   "price_vs_value": "not in pack; insufficient data to calculate margin of safety",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "bonds / T-bills / existing holdings / Berkshire buyback — we cannot justify an acquisition without fundamental data [D02, D03], making liquid alternatives or buybacks at intrinsic value superior [D05]",
+   "downside_case": "permanent loss of capital if the business lacks a durable competitive advantage against imports [D01, D05]",
+   "valuation_verdict": "EXPENSIVE",
+   "flagged_assumptions": [
+    "income statements, balance sheets, and cash flow statements are entirely missing [D02, D03]",
+    "earnings yield and FCF are not measurable [D04]"
+   ]
+  },
+  "gate4": {
+   "role": "R3",
+   "role_description": "We buy businesses to own indefinitely, leaving management in place to run the operations while we allocate the capital [D01, D07].",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "The value is realised through the long-term compounding of the business's owner earnings, which are retained or reinvested to build value over time [D01]."
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 1980-1999 period, our preference is to acquire whole businesses to keep, allowing existing management to operate the company while we focus on capital allocation at the parent level [D03]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "pricing power lost to lower-cost imports",
+    "inventory obsolescence due to fashion or demand shifts",
+    "inability to maintain margins without the benefits of domestic production efficiency",
+    "failure to generate owner earnings exceeding the 5.4% cost of capital"
+   ],
+   "berkshire_constraints": "we avoid transactions that dilute Berkshire shareholders if the acquisition price exceeds the intrinsic value of the target [D05]; we require audited financial data to ensure capital is not risked on speculation [D02, D03].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "retaining cash for future opportunities or repurchasing Berkshire stock if trading below intrinsic value is superior to an acquisition lacking fundamental financial justification [D05].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "I personally evaluate all whole-company acquisitions of this magnitude to ensure they meet our standard for a durable competitive advantage and a margin of safety.",
+   "biggest_risk_in_one_sentence": "We face a permanent loss of capital because we are committing $420 million to a business where imports may permanently undermine the cost structure and no audited financials exist to verify intrinsic value [D01, D02, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "1993-09-30",
+  "company": "the Company (XXX)",
+  "ticker": "N/A",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "not in pack [D02, D03]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 0,
+   "downside_case": "permanent loss of capital due to inability to compete with low-cost imports [D01, D05]"
+  },
+  "drivers": [
+   {
+    "driver": "Price vs value — the proposed $420 million valuation cannot be appraised against intrinsic value due to a complete absence of audited financial statements [D02, D03, D04].",
+    "citations": [
+     "D02",
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The business faces a significant and unquantifiable threat from lower-cost imports that potentially undermines its competitive moat [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Essential metrics such as earnings, cash flow, debt levels, and returns on capital are missing, making a rational assessment of the economics impossible [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Berkshire's policy requires avoiding speculation; without proof of owner earnings, the $420 million investment carries an unacceptable risk of permanent capital loss [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "pricing power lost to lower-cost imports",
+   "inventory obsolescence due to fashion or demand shifts",
+   "inability to maintain margins without the benefits of domestic production efficiency",
+   "failure to generate owner earnings exceeding the 5.4% cost of capital"
+  ],
+  "what_would_change_our_mind": "The availability of audited financial statements confirming consistent, high returns on capital and a clear, durable competitive advantage that effectively insulates the firm from import competition.",
+  "memo": "Charlie and I have reviewed the proposed acquisition of the Company, a manufacturer and retailer of footwear [D01]. While we maintain an interest in businesses we can understand, we require a clear view of the underlying economics before committing Berkshire's capital [D01, D05].\n\nIn this instance, the fundamental financial records required to assess the business are entirely missing from the pack [D02, D03]. Without audited statements of earnings, cash flow, or a balance sheet, we are unable to calculate owner earnings or verify the existence of a durable competitive advantage [D02, D03].\n\nFurthermore, the footwear industry faces persistent pressure from lower-cost imports, leaving the sustainability of domestic margins an open question [D01]. We have no evidence that the Company possesses the pricing power necessary to maintain a moat against such competition [D01, D05].\n\nOur standard is to buy wonderful businesses at a fair price, not to gamble on speculation [D05]. Because we cannot determine if this $420 million investment offers a margin of safety or will result in the permanent loss of capital, we have decided to pass [D02, D04, D05].",
+  "uncited_claims": []
+ }
+}

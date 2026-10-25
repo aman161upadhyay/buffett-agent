@@ -1,0 +1,266 @@
+{
+ "pack": "2008_gs_pref",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2008-09-23",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Goldman Sachs is a global investment-banking, institutional trading, investing and asset-management franchise [D01]. The business is not a deposit-funded retail utility and relies on relationships, execution capability, financial capital, market confidence and funding access [D01].",
+   "products_customers_and_why_they_buy": [
+    "Investment-banking, institutional trading, investing and asset-management services provided to global clients [D01]."
+   ],
+   "economics": [
+    "Pretax margins were 38.7% in 2006 and 38.3% in 2007 [D02].",
+    "Return on tangible equity is noted as a relevant metric rather than industrial free-cash-flow conventions [D01, D02].",
+    "Capital intensity is high; earning assets are supported by wholesale funding, creditors and equity [D01, D02].",
+    "The business is currently under severe earnings pressure, with Q3 2008 revenue down 51% compared to Q3 2007 [D02, D03]."
+   ],
+   "earnings_record": [
+    "Diluted EPS grew from $5.87 (2003) to $24.73 (2007) [D02].",
+    "Q3 2008 diluted EPS was $1.81, down from $6.13 in Q3 2007 [D03]."
+   ],
+   "competitive_position": [
+    "Global investment-banking, institutional trading, investing and asset-management franchise [D01].",
+    "Peer comparisons include Morgan Stanley, JPMorgan Chase and Bank of America, though funding structures differ [D04, D06]."
+   ],
+   "balance_sheet_and_capital_needs": [
+    "Unsecured long-term borrowing is $176.37 billion as of August 2008 [D03].",
+    "Global core excess liquidity averaged $102.33 billion in Q3 [D03].",
+    "Regulatory capital requirements are present following approval to become a bank holding company [D03]."
+   ],
+   "management_and_capital_allocation": [
+    "Not in pack."
+   ],
+   "price_and_valuation": [
+    "Common share price: $125.05 as of September 23 [D04].",
+    "Price/August tangible common book: 1.44x [D04].",
+    "Price/FY2007 EPS: 5.06x [D04]."
+   ],
+   "yields_pct": {
+    "trailing_earnings_yield": 19.78,
+    "normalised_or_owner_earnings_yield": 0,
+    "free_cash_flow_yield": 0,
+    "dividend_yield": 0,
+    "long_bond_yield": 3.85,
+    "basis": "Trailing earnings yield based on FY2007 EPS of $24.73 and share price of $125.05 [D04]. 10-year Treasury yield from FRED as of 2008-09-23 [D04]. Preferred dividend is 10% [D04]."
+   },
+   "what_the_market_is_worried_about": [
+    "Funding run [D01, D05].",
+    "Counterparty loss [D05].",
+    "Collateral calls [D05].",
+    "Illiquid asset marks [D05].",
+    "Leverage and liquidity exhaustion [D05]."
+   ],
+   "deal_terms_if_any": [
+    "$5 billion perpetual preferred stock with 10% annual dividend [D04, D09].",
+    "Issuer may call preferred at 110% of principal [D04, D09].",
+    "Five-year warrants for $5 billion of common stock at $115/share [D04, D09].",
+    "Approximately 43.478 million warrants [D04, D09]."
+   ],
+   "recent_events": [
+    "September 16, 2008: Q3 earnings released showing severe pressure [D02, D03].",
+    "September 21, 2008: Bank holding company approval [D01, D03].",
+    "September 23, 2008: Financing term sheet available [D01, D09]."
+   ],
+   "berkshire_context": [
+    "Year-end 2007 cash was approximately $44.3 billion [D08].",
+    "Last reported 2007 float was $58.698 billion [D08].",
+    "Existing portfolio includes Coca-Cola, American Express and Wells Fargo [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Normalized earnings power, exact legal share count, and fair-value allocation between preferred and warrants."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "UNSURE",
+     "evidence": "While an investment banking franchise, the business model relies heavily on market confidence and wholesale funding, which are prone to rapid shifts in periods of extreme systemic stress [D01, D05]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "Goldman has a strong franchise, but its moat is currently challenged by counterparty risk and liquidity exhaustion during a financial crisis [D01, D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "PASS",
+     "evidence": "Diluted EPS grew steadily from $5.87 in 2003 to $24.73 in 2007, showing performance through a cycle prior to the current crisis [D02]."
+    },
+    "high_roe_little_debt": {
+     "score": "UNSURE",
+     "evidence": "While historical returns on tangible equity are high, the reliance on $176.37 billion in unsecured borrowing and the current need to transition to a bank holding company structure introduce significant uncertainty regarding capital stability [D01, D03, D04]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The business is highly capital-intensive and relies on continuous access to wholesale funding markets to support earning assets [D01, D02]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Not in pack."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The $5 billion preferred investment is of significant scale for Berkshire [D04, D09]."
+    },
+    "price_screen": {
+     "score": "PASS",
+     "evidence": "The 10% coupon on the preferred provides a satisfactory return in the context of a 3.85% long bond yield [D04, D09]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 3,
+   "n_fail": 1,
+   "n_unsure": 4,
+   "hard_fail": false,
+   "era_a_bargain": false,
+   "negotiated_terms": true,
+   "discount_override": false,
+   "arbitrage_case": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "The terms, not the business, carry the investment."
+  },
+  "gate2": {
+   "templates": [
+    "B3"
+   ],
+   "why_available": "The market is paralyzed by the fear of a wholesale funding run and counterparty collapse, causing a liquidity crisis for an otherwise premier financial franchise [D01, D05]. Buffett disagrees with the market's terminal outlook, providing capital on terms that guarantee a 10% return while capturing upside through warrants, effectively becoming a lender of last resort at a moment of extreme distress [D04, D09].",
+   "evidence": [
+    "10% annual dividend on $5 billion perpetual preferred stock [D04, D09]",
+    "Five-year warrants for $5 billion of common stock at $115/share [D04, D09]",
+    "Market concerns center on leverage, liquidity exhaustion, and funding runs [D01, D05]"
+   ],
+   "market_narrative_we_disagree_with": "That Goldman Sachs faces an inevitable liquidity-induced failure due to its wholesale funding reliance and potential counterparty losses [D01, D05].",
+   "what_must_be_true": [
+    "Goldman remains a viable, core financial institution capable of maintaining counterparty trust with the backing of the Federal Reserve as a bank holding company",
+    "The 10% preferred coupon is sustainable and callable at 110% of par [D04]",
+    "The warrants provide sufficient upside to compensate for the risk of capital permanence loss"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "negotiated_terms",
+   "owner_earnings_per_share": "not in pack",
+   "initial_pretax_yield_pct": 10,
+   "intrinsic_value_range": {
+    "low": "not in pack",
+    "high": "not in pack",
+    "key_assumptions": [
+     "Goldman Sachs remains a viable, core financial institution [D01]",
+     "10% preferred coupon is sustainable and callable at 110% of par [D04]"
+    ],
+    "discount_rate_used": "3.85% [D04]"
+   },
+   "price_vs_value": "not in pack; negotiated deal terms provide a 10% yield plus warrants as a margin of safety",
+   "expected_return_pct": {
+    "base": 10,
+    "bear": 0,
+    "bull": 20
+   },
+   "alternatives": "Existing holdings or cash, but the 10% coupon on a senior position in a premier franchise is superior to current market alternatives [D04, D08]",
+   "downside_case": "Impairment of capital if Goldman fails; mitigated by the 10% coupon stream and seniority of the preferred stock [D04]",
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Normalized earnings power",
+    "Exact legal share count",
+    "Fair-value allocation between preferred and warrants"
+   ]
+  },
+  "gate4": {
+   "role": "R2",
+   "role_description": "Berkshire acts as a financier with specific terms—a $5 billion perpetual preferred investment with a 10% coupon—providing capital and the Berkshire imprimatur during a liquidity crisis, with warrants to capture upside [D04, D09].",
+   "horizon": "until conversion or call",
+   "value_realisation_path": [
+    "Receive 10% annual dividends [D04, D09]",
+    "Exercise or hold warrants until maturity to capture equity appreciation [D04, D09]",
+    "Preferred stock is callable by the issuer at 110% of par [D04, D09]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "During the 2008 financial crisis, the preferred stock structure with warrants provides a margin of safety and a superior yield compared to market alternatives, acting as a lender of last resort for a premier franchise [D04, D08, D09]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Goldman Sachs suffers a catastrophic liquidity run causing insolvency before the Federal Reserve provides sufficient support.",
+    "The regulatory transition to a bank holding company imposes capital constraints that render the preferred dividend unsustainable.",
+    "Counterparty failures cascade, leading to a permanent impairment of Goldman's core investment banking and trading franchise."
+   ],
+   "berkshire_constraints": "Must maintain strong liquidity; $5 billion investment represents approximately 11% of 2007 year-end cash [D08], fitting within capital allocation limits; regulatory ownership thresholds for bank holding companies must be managed regarding warrant conversion [D03].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 5,
+    "max": 5,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Cash held for other distressed opportunities or reinforcing core holdings in existing financial franchises like Wells Fargo.",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "This is a negotiated, preferred-stock-with-warrants deal that acts as a lender of last resort at scale, directly within Buffett's purview.",
+   "biggest_risk_in_one_sentence": "The primary risk is a systemic collapse of the wholesale funding markets that Goldman relies upon, leading to a permanent impairment of the investment."
+  }
+ },
+ "final": {
+  "as_of_date": "2008-09-23",
+  "company": "The Goldman Sachs Group",
+  "ticker": "GS",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 5,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "B3"
+  ],
+  "catalyst_role": "R2",
+  "decider": "Buffett",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "owner_earnings": "not in pack",
+   "initial_pretax_yield_pct": 10,
+   "intrinsic_value_range": "not in pack",
+   "expected_return_pct": 10,
+   "downside_case": "Impairment of capital if Goldman fails; mitigated by the 10% coupon and seniority of preferred stock [D04]."
+  },
+  "drivers": [
+   {
+    "driver": "The $5 billion preferred investment provides a 10% annual dividend yield, which is far superior to the 3.85% long bond yield available in the market [D04, D09].",
+    "citations": [
+     "D04",
+     "D09"
+    ]
+   },
+   {
+    "driver": "The warrants offer an opportunity to capture significant upside as a premier financial franchise recovers, providing a substantial margin of safety [D04, D09].",
+    "citations": [
+     "D04",
+     "D09"
+    ]
+   },
+   {
+    "driver": "Goldman Sachs has historically maintained strong returns on equity and holds a premier position in investment banking and institutional trading [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The market's panic over wholesale funding and counterparty risk has created a unique opportunity for Berkshire to act as a lender of last resort on favorable terms [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Goldman Sachs suffers a catastrophic liquidity run causing insolvency before the Federal Reserve provides sufficient support.",
+   "The regulatory transition to a bank holding company imposes capital constraints that render the preferred dividend unsustainable.",
+   "Counterparty failures cascade, leading to a permanent impairment of Goldman's core investment banking and trading franchise."
+  ],
+  "what_would_change_our_mind": "Evidence that Goldman's core franchise is structurally incapable of maintaining its viability as a bank holding company, or a permanent loss of confidence that renders its capital base inadequate to support its operations.",
+  "memo": "Goldman Sachs is a premier global institution in investment banking, trading, and asset management [D01]. While the business is not a traditional retail bank and relies on wholesale funding, we believe in its core franchise and its ability to navigate the current turbulence [D01, D05].\n\nThe company has demonstrated a strong historical record, with diluted EPS growing from $5.87 in 2003 to $24.73 in 2007, showcasing the earnings power inherent in its model [D02]. Though current earnings are under pressure due to market conditions, we view this as a temporary dislocation for a firm that has consistently produced high returns on tangible equity [D01, D02, D03].\n\nThis investment is structured as a $5 billion perpetual preferred security paying a 10% annual dividend, a return that is highly attractive relative to the 3.85% yield on the long bond [D04, D09]. Beyond the coupon, we receive warrants to purchase $5 billion of common stock at $115 per share, providing us a path to equity participation when the market recovers [D04, D09].\n\nWe are essentially acting as a lender of last resort at a moment of extreme market fear, allowing us to deploy capital on terms that provide a wide margin of safety [D04, D05, D09]. The market is currently paralyzed by concerns over funding runs and counterparty risks, but we trust that Goldman will remain a core, viable institution supported by its new bank holding company status [D01, D03, D05].\n\nOur commitment of $5 billion represents a significant but manageable allocation, approximately 11% of our 2007 year-end cash, keeping our overall liquidity strong [D08]. We remain cautious of systemic risks, and this position will be closely monitored to ensure that the regulatory environment and market stability remain sufficient to protect our capital [D03, D05].",
+  "uncited_claims": [
+   "None."
+  ]
+ }
+}

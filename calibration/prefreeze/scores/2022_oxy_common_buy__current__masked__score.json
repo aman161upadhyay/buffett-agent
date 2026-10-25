@@ -1,0 +1,54 @@
+{
+ "trade_id": "2022_oxy_common_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett read the fourth-quarter call and agreed with Hollub's capital-allocation choices.",
+   "Hollub was executing the operating and financial priorities he would choose.",
+   "Available market liquidity allowed a large minority common position."
+  ],
+  "extra_agent_drivers": [
+   "The company trades at a free-cash-flow yield of 18.5% against a long bond yield of 1.83%.",
+   "As the largest acreage holder in the Permian Basin, the company benefits from significant scale and falling production costs.",
+   "Management has implemented a disciplined capital allocation framework that prioritizes debt reduction toward a $20 billion target over uneconomic growth.",
+   "Our existing relationship through preferred equity and warrants provides us with a unique vantage point and an edge in supporting the company's deleveraging."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at a free-cash-flow yield of 18.5% against a long bond yield of 1.83%.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "As the largest acreage holder in the Permian Basin, the company benefits from significant scale and falling production costs.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management has implemented a disciplined capital allocation framework that prioritizes debt reduction toward a $20 billion target.",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 8,
+  "share": 0.67
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We are building this position toward 10% of our equity portfolio, mindful that our patience provides the edge needed to navigate commodity price cycles.",
+ "grader_notes": "The agent correctly identified the direction and the decider, but the reasoning is entirely distinct from Buffett's stated drivers, which focused on his reading of the earnings call and his trust in the CEO. The agent provided a detailed quantitative valuation-based rationale that does not overlap with the qualitative, management-centric drivers provided by Buffett.",
+ "run": "2022_oxy_common_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

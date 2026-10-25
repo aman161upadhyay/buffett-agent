@@ -1,0 +1,49 @@
+{
+ "trade_id": "2025_oxychem_acq",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Abel described a robust industrial asset portfolio.",
+   "He emphasized the accomplished team supporting the assets.",
+   "Abel later explained the essential chlorine/caustic end markets, efficient execution, integrated assets and low-cost inputs behind the cash-flow case."
+  ],
+  "extra_agent_drivers": [
+   "Lack of competitive advantage",
+   "Cyclical earnings",
+   "High capital requirements",
+   "No clear acquisition price"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "OxyChem's results are highly cyclical, with segment earnings dropping by more than half between 2022 and 2024.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "There is no stand-alone acquisition price",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 7,
+  "share": 0.7
+ },
+ "state": "MISS",
+ "decider_match": "NO",
+ "verbatim_agent_sentence": "We have looked at the OxyChem business and decided it does not meet our standards for a wonderful business [D01].",
+ "grader_notes": "The agent missed the actual decision to acquire the asset, resulting in a directional mismatch. The reasoning failed to capture the positive qualitative drivers cited by management (robust assets, team quality), instead focusing on a negative assessment of the business model. The agent also misidentified the decider as Buffett rather than Abel.",
+ "run": "2025_oxychem_acq__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

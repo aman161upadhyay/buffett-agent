@@ -1,0 +1,14 @@
+Title: Relative share gains are not category growth
+Source: https://ml.globenewswire.com/Resource/Download/3ef69300-da43-4e07-9468-985051ddf0ed
+Date: 2026-03-31
+
+The release compares the beer business with U.S. tracked-channel beverage alcohol and beer, reporting relative dollar and volume outperformance. Such tracked channels are not the entire global market and should not be relabeled as total consumption. Constellation's imported brands compete with other beer products, spirits, wine and alternatives for consumer spending. Portfolio concentration, geography and distribution rights make peer comparisons non-uniform. [1]
+
+The strongest internal comparison is between absolute depletions and relative share. Both can be true: the company can outperform peers while volumes decline. Pacifico and Victoria growth also does not automatically offset declines in much larger brands. A synchronized peer valuation table is unavailable, so this document makes no assertion that the stock is cheapest in its sector. The useful industry question is whether a brand and distribution advantage supports durable returns after brewing investment, cross-border costs and the leverage needed to finance capacity. A category recovery is not assumed to rescue the valuation.
+
+Evidence ledger from the January 7 release, covering the November quarter: total net sales were $2.223 billion, down 10% reported but 2% organically; reported EPS $2.88 and comparable EPS $3.06. Beer net sales of $2.0097 billion fell 1%; shipments fell 2.2%, depletions 3.0%, and beer operating income was $763.5 million. Beer operating margin was 38.0%. Modelo Especial depletions fell about 4%, Corona Extra nearly 9%, while Pacifico and Victoria grew over 15% and 13%. Year-to-date operating cash flow was $2.1 billion and free cash flow $1.45 billion. Annual comparable EPS guidance remained $11.30-$11.60; reported guidance was $9.72-$10.02. Guided capital spending was approximately $1.2 billion, including approximately $1.0 billion for Mexican beer operations. Comparable net leverage target was approximately 3.0 times. [1]
+
+Comparison discipline: industry membership does not make two businesses economically identical. Geography, customer mix, contract duration, capital intensity, leverage and accounting adjustments can dominate headline growth comparisons. No synchronized peer-price and consensus-earnings dataset was recovered for this cutoff; relative cheapness is therefore not asserted numerically. The useful comparison is between sources of durable return and exposure to common pressures. A competitor's weakness is not automatically this company's moat, and an industry recovery is not required to be uniform across participants.
+
+Sources and publication dates:
+[1] https://ml.globenewswire.com/Resource/Download/3ef69300-da43-4e07-9468-985051ddf0ed (published 2026-01-07)

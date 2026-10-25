@@ -1,0 +1,52 @@
+{
+ "trade_id": "ctl_2008_lehman_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Buffett required executives to commit meaningful new cash on the same terms; Fuld's reluctance was an immediate negative.",
+   "Fuld's complaints about short sellers suggested a failure to recognize management's own problems.",
+   "Review of the 10-K raised asset and risk concerns; a $100M Japan problem learned after March 28 reinforced refusal, and must not be scored as cutoff-date pack evidence."
+  ],
+  "extra_agent_drivers": [
+   "The business model's heavy reliance on short-term dealer-liquidity facilities makes it highly vulnerable to a permanent loss of capital during a market freeze.",
+   "The company lacks the durable competitive advantage and earnings predictability we require, evidenced by a 57% year-over-year decline in Q1 2008 net income.",
+   "We cannot verify the adequacy of the balance sheet in a prolonged liquidity shock, making an investment a speculation on survival rather than an evaluation of intrinsic value.",
+   "Berkshire’s $44.3B in cash and T-bills represent a superior, risk-free alternative to exposing capital to systemic liquidity risks."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business model's heavy reliance on short-term dealer-liquidity facilities makes it highly vulnerable to a permanent loss of capital during a market freeze.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "57% year-over-year decline in Q1 2008 net income.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Berkshire’s $44.3B in cash and T-bills represent a superior, risk-free alternative to exposing capital to systemic liquidity risks.",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 5,
+  "share": 0.45
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We prefer to hold cash rather than risk Berkshire’s reputation and capital on a business that requires external liquidity support just to keep its doors open [D01, D05, D08].",
+ "grader_notes": "The agent correctly identifies the decision to PASS, but fails to cite any of the specific, retrospectively documented reasons provided by Warren Buffett for this specific refusal. Instead, the agent constructs a reasonable, generalized fundamental analysis of a financial firm in 2008 that aligns with standard Berkshire investment criteria but lacks the actual idiosyncratic drivers involving management's behavior and the specific negotiation conditions mentioned in the key.",
+ "run": "ctl_2008_lehman_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

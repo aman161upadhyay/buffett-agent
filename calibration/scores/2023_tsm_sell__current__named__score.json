@@ -1,0 +1,48 @@
+{
+ "trade_id": "2023_tsm_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Geopolitical location risk outweighed admiration for the business. → When the primary downside is a geopolitical event that could lead to the permanent loss of our capital—and which is entirely outside of management's control—the risk-reward calculation changes [D01, D05]."
+  ],
+  "missed": [
+   "The company was well managed; the reassessment was not a condemnation of its operations.",
+   "Buffett preferred other places to allocate capital."
+  ],
+  "extra_agent_drivers": [
+   "Foundry economics require massive capital reinvestment.",
+   "Management's overseas expansion plans are not an immediate substitute for existing production."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "TSMC is undeniably a wonderful business with leading-edge manufacturing expertise and scale",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "52% operating margin in the latest quarter",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 5,
+  "share": 0.45
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "When the primary downside is a geopolitical event that could lead to the permanent loss of our capital—and which is entirely outside of management's control—the risk-reward calculation changes [D01, D05].",
+ "grader_notes": "The agent correctly identified the direction and the primary driver regarding geopolitical risk. However, it failed to capture Buffett's specific emphasis that the sale was not a critique of the company's operational excellence and focused too heavily on irrelevant foundry capital expenditure economics. Consequently, it only achieved one of the three required drivers.",
+ "run": "2023_tsm_sell__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "SELL",
+ "agent_decision": "SELL",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

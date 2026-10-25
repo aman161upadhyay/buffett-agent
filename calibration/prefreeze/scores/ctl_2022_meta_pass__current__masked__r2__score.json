@@ -1,0 +1,42 @@
+{
+ "trade_id": "ctl_2022_meta_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Never owned per parent 13F history in the tested window; no public comment explaining this nonpurchase.",
+   "No Facebook or Meta position in the 2010–Q2 2026 parent 13F census.",
+   "Economic and valuation objections are analyst-reconstructable, not Buffett's stated rationale."
+  ],
+  "extra_agent_drivers": [
+   "Lack of pricing power",
+   "Institutional imperative/Metaverse spending",
+   "Structural threats/competitive pressure",
+   "Escalating capital expenditure"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "the core advertising franchise is currently suffering from a structural decline in pricing power, as shown by an 18% drop in average price per ad",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 10,
+  "share": 0.83
+ },
+ "state": "PARTIAL",
+ "decider_match": "YES",
+ "verbatim_agent_sentence": "We have looked at this business and placed it firmly in the 'too hard' pile.",
+ "grader_notes": "The agent arrived at the correct PASS decision but completely ignored the answer key's drivers, which are based on historical absence and lack of stated public refusal. Instead, the agent generated its own bear case based on Meta's fundamentals and analyst-style critiques. The reasoning is farthest from Buffett's, as it fabricates a specific rationale where Buffett historically provided none.",
+ "run": "ctl_2022_meta_pass__current__masked__r2",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS"
+}

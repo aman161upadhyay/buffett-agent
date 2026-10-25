@@ -1,0 +1,250 @@
+{
+ "pack": "ctl_2008_aig_pass",
+ "investor": "Buffett",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2008-09-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The group owns international property/casualty and life-insurance franchises, retirement products, and financial-service operations [D01]. It includes a financial-products subsidiary with a super-senior credit-default-swap portfolio [D01].",
+   "products_customers_and_why_they_buy": [
+    "International property/casualty and life-insurance products [D01]",
+    "Retirement products [D01]",
+    "Financial-service operations [D01]"
+   ],
+   "economics": [
+    "Reported second-quarter net loss of $5.36 billion; six-month net loss of $13.16 billion [D01]",
+    "Adjusted quarterly net loss of $1.32 billion [D01]",
+    "Capital intensity is high, with $1.050 trillion in consolidated assets and significant liquidity requirements for collateral stress [D01]"
+   ],
+   "earnings_record": [
+    "Second-quarter net loss of $5.36 billion compared to $4.28 billion profit a year earlier [D01]",
+    "Six-month net loss of $13.16 billion [D01]",
+    "Financial results are currently heavily impacted by unrealized valuation losses in derivatives and realized investment capital losses [D01]"
+   ],
+   "competitive_position": [
+    "Owns international insurance franchises with value in distribution relationships, licensing, and renewals distinct from the financial-products subsidiary [D01]",
+    "Peers mentioned for structural comparison include Berkshire, Chubb, and Travelers [D06]"
+   ],
+   "balance_sheet_and_capital_needs": [
+    "June 30 shareholders' equity was $78.09 billion [D01]",
+    "Book value was $29.04 per share [D01]",
+    "Consolidated assets were $1.050 trillion [D01]",
+    "Ultimate cash required in a collateral stress is not bounded by reported figures [D01]"
+   ],
+   "management_and_capital_allocation": [
+    "Management announced an August review to examine every business, reduce risk, and protect capital [D01]",
+    "May capital raise of approximately $20 billion (common shares, equity units, and fixed maturities) [D01]"
+   ],
+   "price_and_valuation": [
+    "Not in pack (exact September 15 price is not available) [D02]",
+    "Earnings-based multiples are not meaningful due to losses [D02]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Liquidity calls on the highly interconnected guarantee book [D05]",
+    "Change in ratings or collateral terms demanding cash before insured losses are known [D05]",
+    "Regulatory limitations on moving assets between legal entities [D05]",
+    "Significant realized investment losses and derivative marks [D05]"
+   ],
+   "deal_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "May: $20 billion capital raise [D07]",
+    "August 6: Second-quarter results released [D07]"
+   ],
+   "berkshire_context": [
+    "Berkshire has $44.329 billion in cash (Dec 2007) [D08]",
+    "Existing portfolio includes $74.999 billion of equity securities and $58.698 billion of insurance float [D08]",
+    "Potential interest in underwriting a clean purchase of selected operating businesses to avoid parent liabilities [D01]"
+   ],
+   "document_conflicts": [
+    "not in pack"
+   ],
+   "missing_data": [
+    "Contemporaneous September 15 share price",
+    "Maintenance capex figures",
+    "Adjusted debt figures",
+    "Forward consensus earnings estimates"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "understandable": {
+     "score": "FAIL",
+     "evidence": "The business's complexity, specifically the interconnected financial-products subsidiary and super-senior credit-default-swap portfolio, makes the future risk profile opaque [D01]."
+    },
+    "durable_moat_and_pricing_power": {
+     "score": "UNSURE",
+     "evidence": "While insurance franchises possess distribution and licensing value [D01], the overall business is currently impaired by extreme liquidity and collateral stress concerns [D01, D05]."
+    },
+    "consistent_earnings_record": {
+     "score": "FAIL",
+     "evidence": "The firm reported a six-month net loss of $13.16 billion, indicating a lack of consistent, cycle-tested earnings [D01]."
+    },
+    "high_roe_little_debt": {
+     "score": "FAIL",
+     "evidence": "Significant capital needs and the potential for unbounded liquidity calls in collateral stress reflect a dangerous balance sheet profile [D01]."
+    },
+    "capital_intensity": {
+     "score": "FAIL",
+     "evidence": "The entity requires massive liquidity to support its financial-products subsidiary and consolidated assets of $1.050 trillion [D01]."
+    },
+    "able_honest_owner_minded_management": {
+     "score": "UNSURE",
+     "evidence": "Management is currently attempting a broad business review to reduce risk, but the previous accumulation of a dangerous derivative book raises questions about past capital allocation [D01]."
+    },
+    "size_moves_the_needle": {
+     "score": "PASS",
+     "evidence": "The scale of the enterprise and its insurance operations are large enough to be meaningful to Berkshire [D01]."
+    },
+    "price_screen": {
+     "score": "FAIL",
+     "evidence": "Earnings-based multiples are not meaningful due to substantial ongoing losses [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 6,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "era_a_bargain": false,
+   "negotiated_terms": false,
+   "deputy_idea": false,
+   "one_line_business_quality_verdict": "a complex financial entity suffering from catastrophic derivative exposure and systemic liquidity risks"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "why_available": "The market is reacting to catastrophic risks regarding the company's financial-products subsidiary and its opaque, interconnected credit-default-swap portfolio [D01]. We cannot verify the extent of the liabilities or the potential for permanent loss of capital because the liquidity requirements under collateral stress are unbounded [D01].",
+   "evidence": [
+    "Consolidated assets of $1.050 trillion with opaque derivative exposure [D01]",
+    "Six-month net loss of $13.16 billion [D01]",
+    "Ultimate cash required in a collateral stress is not bounded by reported figures [D01]"
+   ],
+   "market_narrative_we_disagree_with": "The market is currently pricing in potential insolvency due to liquidity and collateral stress concerns [D05]. We do not 'disagree' because we cannot quantify the risk, which violates our requirement for a margin of safety [D01].",
+   "what_must_be_true": [
+    "The derivative book would need to be transparent and isolatable",
+    "The liquidity stress under collateral calls must be bounded and quantifiable",
+    "The core insurance franchises must be separable from the financial-products subsidiary to avoid contagion risk"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "market_stance",
+   "owner_earnings_per_share": "Not calculable due to current net losses [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": {
+    "low": "Not calculable",
+    "high": "Not calculable",
+    "key_assumptions": [
+     "Liquidity requirements for derivative portfolio are unbounded [D01]",
+     "Core insurance earnings are obscured by financial-product losses [D01]"
+    ],
+    "discount_rate_used": "Not applicable due to lack of predictable earnings"
+   },
+   "price_vs_value": "Indeterminate; margin of safety cannot be verified [D01]",
+   "expected_return_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "alternatives": "Existing Berkshire cash and high-quality liquid assets are superior; we do not risk permanent loss of capital on opaque derivative books [D01], [D08]",
+   "downside_case": "Potential permanent loss of capital due to unbounded liquidity calls and interconnected liabilities [D01]",
+   "valuation_verdict": "FULL",
+   "flagged_assumptions": [
+    "September 15 share price not in pack [D02]",
+    "Maintenance capex data not in pack",
+    "Forward earnings estimates not in pack"
+   ]
+  },
+  "gate4": {
+   "role": "R0",
+   "role_description": "permanent_passive_holder — value realised by the business compounding and rational capital allocation; Berkshire's edge is patience and permanent capital (default for marketable securities after 1980) [D01]",
+   "horizon": "indefinite",
+   "value_realisation_path": [
+    "Not applicable as the decision is to PASS; Berkshire does not invest in opaque financial entities where capital preservation cannot be assured [D01]"
+   ],
+   "decider": "Buffett",
+   "why_this_role_fits_the_era": "In the 2000-2015 era, we act as a permanent holder of quality businesses or, in stressed times, as a source of capital for others [D01]; however, since this opportunity fails our fundamental criteria for understanding and safety, no role is assumed."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Unbounded liquidity requirements in the credit-default-swap portfolio [D01]",
+    "Inability to distinguish core insurance earnings from losses in the financial-products subsidiary [D01]",
+    "Regulatory or collateral stress leading to contagion across the consolidated entity [D05]"
+   ],
+   "berkshire_constraints": "Berkshire must maintain high liquidity to preserve its AAA rating and insurance float safety, precluding investments that risk reputation or permanent capital loss [D01].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0,
+    "basis": "equity portfolio"
+   },
+   "opportunity_cost": "Preserving cash for opportunities where the business quality is understandable and risks are quantifiable [D01].",
+   "leverage": "none",
+   "decider": "Buffett",
+   "decider_reason": "The complex financial-product structure and opaque risk profile fall outside Berkshire's circle of competence [D01].",
+   "biggest_risk_in_one_sentence": "The potential for unbounded liquidity calls from the derivative portfolio creates a risk of permanent loss that cannot be quantified [D01]."
+  }
+ },
+ "final": {
+  "as_of_date": "2008-09-15",
+  "company": "American International Group (AIG)",
+  "ticker": "AIG",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "size_basis": "equity portfolio",
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "R0",
+  "decider": "Buffett",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "owner_earnings": "Not calculable due to current net losses [D01]",
+   "initial_pretax_yield_pct": 0,
+   "intrinsic_value_range": "Not calculable",
+   "expected_return_pct": 0,
+   "downside_case": "Permanent loss of capital due to unbounded liquidity calls and interconnected liabilities [D01]"
+  },
+  "drivers": [
+   {
+    "driver": "The company's complex financial-product subsidiary and credit-default-swap portfolio are opaque and fall outside our circle of competence [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "We cannot verify the margin of safety because liquidity requirements in a collateral stress scenario are unbounded [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The firm reported a six-month net loss of $13.16 billion, indicating a lack of consistent, cycle-tested earnings [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The potential for contagion across the consolidated entity poses a risk to Berkshire's capital and reputation that we refuse to accept [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Unbounded liquidity requirements in the credit-default-swap portfolio [D01]",
+   "Inability to distinguish core insurance earnings from losses in the financial-products subsidiary [D01]",
+   "Regulatory or collateral stress leading to contagion across the consolidated entity [D05]"
+  ],
+  "what_would_change_our_mind": "The derivative book would need to be transparent and isolatable, and the liquidity stress under collateral calls must be bounded and quantifiable [D01].",
+  "memo": "AIG owns significant international insurance franchises, but the business has become a sprawling, complex entity far removed from a simple, understandable insurance operation [D01]. While the core property/casualty and life-insurance businesses possess inherent value in their distribution and licensing, these are currently obscured by the risks of a financial-products subsidiary [D01]. We do not invest in businesses where the interconnectedness of liabilities makes it impossible to determine the true economic health of the core operations [D01].\n\nConsistency and predictability are pillars of our investment philosophy. AIG reported a six-month net loss of $13.16 billion, which is a far cry from the cycle-tested returns on capital we look for in our long-term holdings [D01]. Furthermore, the company requires massive liquidity to support consolidated assets of $1.050 trillion [D01]. When a business operates with such high capital intensity and opaque leverage, it falls squarely into our 'too hard' pile [D01].\n\nThe market’s current concerns regarding liquidity and collateral stress are well-founded, but for us, the primary issue is the lack of a quantifiable margin of safety [D01], [D05]. We cannot calculate an intrinsic value when the ultimate cash required during a collateral stress event is unbounded [D01]. To buy such an entity would be to gamble, not invest; we never risk the permanent loss of capital or Berkshire's reputation on situations where we cannot see the bottom [D01].\n\nWe prefer to hold cash rather than participate in situations where the risks are systemic and hidden [D01]. Our duty is to protect our shareholders' capital, and that means walking away from even the largest of businesses when they fail our fundamental tests [D01]. We will continue to wait for opportunities where the business model is simple, the earnings are consistent, and the price provides a clear margin of safety against a conservative estimate of value [D01].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

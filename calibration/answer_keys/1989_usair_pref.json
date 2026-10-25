@@ -1,0 +1,39 @@
+{
+  "id": "1989_usair_pref",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav": "$358 million preferred, not a common-stock conviction weight",
+  "first_action_date": "1989-08-07",
+  "disclosure_date": "1989-08-08",
+  "reason_class": null,
+  "opportunity_template": [
+    "B3"
+  ],
+  "catalyst_role": "R2",
+  "decider": "Buffett",
+  "size_basis": "cash",
+  "drivers": [
+    {
+      "driver": "Admiration for Ed Colodny and the airline's past profits underlay the original favorable assessment.",
+      "source": "https://www.berkshirehathaway.com/letters/1989.html (1990-03-02; hindsight explanation)",
+      "quote": null
+    },
+    {
+      "driver": "The preferred structure was intended to compensate for lack of strong convictions about airline economics.",
+      "source": "https://www.berkshirehathaway.com/letters/1989.html (1990-03-02; hindsight explanation)",
+      "quote": "Our lack of strong convictions about these businesses, however, means that we must structure our investments in them differently"
+    },
+    {
+      "driver": "The dividend, redemption and conversion rights appeared to provide downside protection plus participation.",
+      "source": "https://www.berkshirehathaway.com/letters/1989.html (1990-03-02; hindsight explanation)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "9.25% coupon, $60 conversion after two years, ten-year mandatory redemption.",
+  "outcome_note": "ERROR CASE: 1996 letter (1997-02-28) says 'My analysis of USAir’s business was both superficial and wrong.' Regulated-era costs met deregulated competition. Dividend suspension/75% markdown followed, then recovery and a profitable resolution; bad underwriting is not equivalent to final total loss.",
+  "sources": [
+    "https://www.berkshirehathaway.com/letters/1989.html (1990-03-02; hindsight explanation)",
+    "Proposed August 7 terms reconstructed from https://www.nytimes.com/1989/08/08/business/buffett-s-stake-in-usair-seen-as-takeover-move.html ; prior operating history only"
+  ],
+  "pack_quality_notes": "Original cost table and agreements incomplete; later self-criticism confined to outcome_note, not taught as an original BUY driver. Next-day report reconstructs same-day terms."
+}
