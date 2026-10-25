@@ -20,13 +20,13 @@ tooling to run offline on a Mac Mini with Llama 3.1 8B (training data to Dec 202
 | `investor_profiles/` | 12 investor profiles, `what_makes_a_great_investor.md`, `buffett_vs_peers.md`. |
 | `research/` | Best practices for investor-persona agents, look-ahead/evaluation design, `prompt_critique_and_optimization.md` (where "the exact same loop as Ackman" had to change for Buffett, and why). |
 | `forward/` | Frozen evidence pack (F01-F06, as of 2026-10-25) and `next_trade_prediction.md` / `.json`. |
-| `adversarial/` | Independent adversarial review of the agent (added at the end of the loop). |
+| `adversarial/` | Independent adversarial review (seven reports: verdict, predicted decisions on 15 untuned cases, divergence causes, hold-out critique, eight red-team packs, grader/method critique, v1.7 plan). Its verdict: a plausible Buffett-style imitation, not demonstrated faithful replication; read it before trusting the scoreboard. |
 | `run_log.md`, `RESEARCH_GUIDE.md` | What was done, by whom, with what evidence; how to extend the research. |
 
 ## Results in one paragraph
 On 41 calibration decisions (1964-2024) the frozen v1.6 chain, run on Replit's current internal model, matched Buffett's
 **direction in 68% (named) / 56% (masked)** and reproduced **52% / 48% of his stated reasons**; it said PASS to **10/10
-discipline controls named and 30/30 masked runs** (Cisco 2000, AIG and Lehman 2008, Facebook 2012, Valeant 2015, Tesla 2016,
+discipline controls named and 10/10 masked by majority (29 of 30 runs)** (Cisco 2000, AIG and Lehman 2008, Facebook 2012, Valeant 2015, Tesla 2016,
 Boeing 2020, Meta 2022, First Republic 2023, Intel 2024 — every one a Filter 1 hard fail, not a price call) and PASS to both
 deputy-attribution controls (Snowflake 2020, Activision 2021), as a Buffett chain should. The 12 sealed hold-outs (disclosed
 after 1 Aug 2025) came back **0/12 named and 1/12 masked** on direction: the chain holds where Berkshire trimmed and passes where

@@ -119,8 +119,10 @@ pre-bid 2021) that test whether the chain claims Buffett-scale decisions a deput
 | dep_2020_snow_ipo_buy | Snowflake | 2020-09-15 | BUY | PASS (NO) | PASS 3/3 | NO | yes |
 | dep_2021_atvi_buy | Activision Blizzard | 2021-10-31 | BUY | PASS (NO) | PASS 3/3 | NO | yes |
 
-Reading: 10/10 named and 30/30 masked-majority PASS on the discipline controls (one of 30 masked runs bought First Republic
-via a proposed preferred); every control hard-failed Filter 1, i.e. the passes come from business quality, not from price. Both
+Reading: 10/10 named PASS and 10/10 masked PASS by majority (29 of the 30 individual masked runs; one First Republic run bought
+via a proposed preferred); every control hard-failed Filter 1, i.e. the passes come from business quality, not from price —
+these controls do not test valuation discipline on a business that passes Filter 1 (a v1.7 control-design gap noted in
+adversarial/grader_and_method_critique.md). Both
 deputy purchases came back PASS — the Buffett chain does not reproduce Combs/Weschler ideas and, since v1.1, labels the decider
 when it does buy something deputy-sized.
 
@@ -132,7 +134,7 @@ when it does buy something deputy-sized.
 | 1969_partnership_close | named HOLD_CASH / masked SELL_DOWN vs key SELL_DOWN | named HOLD_CASH vs SELL_DOWN (masked matched): the chain accepts "nothing qualifies" but stops short of closing the vehicle; the 1969 letter's "I am out of step with present conditions" is a personal-constraint call the prompt treats as extremely rare. |
 | 1976_geico_buy | named PASS / masked BUY vs key BUY | named PASS on a Filter 1 hard fail (insolvency risk, 1975 loss) while the masked run bought: the B2 temporary-cloud test was applied but the named run judged the loss unbounded before the rate increases and the Byrne plan were weighed. |
 | 1986_capcities_buy | named PASS / masked PASS vs key BUY | PASS both ways: at ~16x earnings and 2.5x Berkshire's usual multiple the chain called the price full and gave no credit to Tom Murphy as the asset being bought (Buffett: "I'd pay a lot to be Murphy's partner"). |
-| 1988_ko_buy | named PASS / masked BUY vs key BUY | named PASS (masked BUY): the named run anchored on 15x earnings and 5x book as "full" despite a 13% pre-tax yield against 9% bonds; the masked run applied the bond-relative screen. |
+| 1988_ko_buy | named PASS / masked BUY vs key BUY | named PASS (masked BUY): the pack prices Coca-Cola at 15.7x trailing earnings, a 6.4% earnings yield against an 8.9% ten-year yield, so the bond-relative screen fails on its own terms; Buffett bought on the growth of owner earnings in an "inevitable" franchise, which the screen does not credit. A real tension in the rule, left as a divergence (the "1988: 10%+ against 9% bonds" anchor in 02_gate1 overstates the yield he paid — to be corrected in v1.7, not in the frozen prompt). |
 | 1989_usair_pref | named BUY / masked BUY vs key BUY | see runs |
 | 1990_wfc_buy | named BUY / masked BUY vs key BUY | see runs |
 | 1993_dexter_acq | named PASS / masked PASS vs key BUY | PASS both ways: the private company's price and earnings are not in the pack; the chain says so and declines. Buffett later called Dexter his worst purchase ($433m of Berkshire stock for a business that went to zero). |
@@ -145,7 +147,7 @@ when it does buy something deputy-sized.
 | 2011_ibm_buy | named BUY / masked BUY vs key BUY | see runs |
 | 2015_pcp_acq | named BUY / masked PASS vs key BUY | masked PASS at 19x: without the name the retained-operator argument carried less weight; named run matched 3/3. |
 | 2016_aapl_buy | named BUY / masked BUY vs key BUY | see runs |
-| 2016_airlines_buy | named PASS / masked PASS vs key BUY | PASS both ways (hard fail): the chain still reads airlines as a 20th-century industry; B12 (structure changed) was identified in earlier runs but not in the frozen run. |
+| 2016_airlines_buy | named PASS / masked PASS vs key BUY | PASS both ways: Filter 2 identified B12 (industry structure changed) with EDGE, but Filter 1 had already hard-failed four criteria (understandable, moat, ROE, capital intensity) and the code enforced PASS — the B12 route in Filter 1 criterion 3 did not fire. |
 | 2022_atvi_arb | named BUY / masked BUY vs key BUY | see runs |
 | 2022_tsm_buy | named PASS / masked PASS vs key BUY | PASS both ways: "constant massive reinvestment, outside the circle" — the key has no stated drivers and Buffett exited within two quarters citing location. |
 | 2023_tsm_sell | named SELL / masked TRIM vs key SELL | masked TRIM vs SELL: right side, partial size. |
@@ -187,6 +189,9 @@ routes sub-$5bn ideas to a deputy template instead of PASS. Both are left for v1
 | 2026_unh_exit_q1 | UnitedHealth Group | 2025-12-31 | E | existing | SELL | HOLD / MISS / MISS (dir-only) | HOLD / MISS / MISS (dir-only) | Buffett |
 
 ## Method notes
+- Enforcement artefact: when Filter 1 hard-fails and the decision step still writes BUY, the code flips the decision to PASS
+  and prefixes the memo with a bracketed note; the memo body (sizes, "we would commit $5bn") is the BUY draft and is left
+  verbatim for audit (2011_bac_pref masked). Grading uses the enforced decision.
 - Each calibration pack ran once named and once masked under the frozen v1.6 chain; controls ran once named and three times
   masked (majority reported). Temperature is the model default; run-to-run variance is visible (e.g. 1976 GEICO, 2011 BofA
   bought in iteration runs and passed in the frozen run) and is reported, not averaged away.
